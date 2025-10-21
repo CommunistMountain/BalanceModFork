@@ -13,9 +13,9 @@ Mod order:
 	<li>Other mods</li>
 </ol>
 
-# Bugfixes and QOL (non-HS-dependent features)
+# Bugfixes and QOL (non-HS-dependent)
 
-## Bugfixes (gameplay):
+## Bugfixes (gameplay)
 <ol>
 	<li>Hull Missile: Now considered a missile weapon for events.</li>
 	<li>Anti-Ship Fire Drone: Now considered a combat drone for events.</li>
@@ -26,12 +26,12 @@ Mod order:
 		<li>ALISON_DEFECTOR: Now unable to tell if the defector is lying or not about wanting to join you.</li>
 		<li>REBEL_ENGI_UNLOCK: Now unable to tell the difference between the real and fake ships through minor text differences, or based on when they decide to surrender.</li>
 		<li>CRYSTAL_HUNTER: Fight no longer continues after accepting their surrender offer.</li>
-		<li>STORM_SLUG_FIGHT, STORM_REBEL, STORM_BOARDING: These plasma storm events will no longer occur outside nebula.</li>
+		<li>STORM_SLUG_FIGHT, STORM_REBEL, STORM_BOARDING: These plasma storm events no longer occur outside nebula.</li>
 		<li>ESCORT_BEACON and QUEST_ESCORT: extended the conversation when you get the reactor upgrade outcome, so that revisiting the beacon multiple times will not upgrade your reactor again for free. (If an upgrade tag is part of the opening event at a beacon, it will not be cleared, which is an oversight by the developers.)</li>
 	</ol>
 </ol>
 
-## QOL (gameplay):
+## QOL (gameplay)
 <ol>
 	<li>map_warningcircle.png and map_warningcircle_point.png: integrated Sleeper Games + MantisManMike's Enhanced Fleet Pursuit mod, showing the Rebel Fleet's position in future jumps.
 	<li>Mini-Beam: increased length from 45 to 47, to remove the need for pixel-perfect positioning to maximise damage.
@@ -51,7 +51,7 @@ Mod order:
 	</ol>
 </ol>
 
-## Bugfixes (non-gameplay):
+## Bugfixes (non-gameplay)
 <ol>
 	<li>Anti-Ship Beam Drone II, Small Bomb, Hull Beam, Stun Bomb, Ion Charger, Beam Projectiles, Explosions: Fixed animations.
 	<li>Lanius: Fixed bad alignment of sprites. Credit to MantisManMike.
@@ -68,14 +68,14 @@ Mod order:
 	</ol>
 </ol>
 
-# Bugfixes and QOL (HS-dependent features):
+# Bugfixes and QOL (HS-dependent)
 
-## Bugfixes (gameplay):
+## Bugfixes (gameplay)
 <ol>
 	<li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.
 	<li>crystalShardFix: Crystal Shards are considered player projectiles and not neutral, so that they will not be targeted by friendly defense drones or block your projectiles.
 	<li>defenseDroneFix: Defense drones no longer have a blind spot (doesn't work at the time of writing, hopefully it will be in the future)
-	<li>cloakRenderFix: Cloaking while no crew is on board will no longer hide rooms.
+	<li>cloakRenderFix: Cloaking while no crew is on board no longer hides rooms.
 	<li>disableDefaultTutorial: HS breaks the tutorial. This replaces it with a custom tutorial (still incomplete at the time of writing though).
 	<li>multipleOverCapacity: If you are over capacity on 2+ weapons/drones/augments, multiple Over Capacity boxes will contain all new items, allowing you to pick which ones to leave behind. If you are at a store, you also get the chance to sell what is in the Over Capacity boxes.
 	<li>EVENTS:
@@ -90,21 +90,21 @@ Mod order:
 	</ol>
 </ol>
 
-## QOL (gameplay):
+## QOL (gameplay)
 <ol>
 	<li>(Hyperspace adds a magnifying glass at the bottom right of the screen during a run, which can be clicked to show you more info such as weapon cooldowns and beacon connections.)
 	<li>checkCargo: Include cargo weapons/drones for event checks.
 	<li>preIgniteChargers: Charge weapons can enter a fight fully charged if you have a Pre-Igniter. (The Sven maneuver only brings it to an almost-charged state)
 </ol>
 
-## Bugfixes (non-gameplay):
+## Bugfixes (non-gameplay)
 <ol>
 	<li>playerHpColorFix: HP color now scales according to a 3-third ratio instead of a hardcoded value.
 	<li>warningLightPositionFix: Warning lights that appear during a fire or breach are now positioned correctly.
 	<li>shiftotherelementsslightlytotheleftsotheyrealigned: Fixes crew being visually offset.
 </ol>
 
-## QOL (non-gameplay):
+## QOL (non-gameplay)
 <ol>
 	<li>showReactor: Shows starting reactor and max reactor of ships in hangar.
 	<li>extraShipInfo: Shows missiles, drone parts, and crew limit of ships in hangar.
@@ -115,7 +115,7 @@ Mod order:
 	<li>Rebel Flagship and Rebel Elites no longer try to escape if you are out of fuel (this mechanic which is meant to avoid stalemates ironically causes an even worse stalemate in the case of these enemies). This also solves a bug where you have no fuel while fighting the Phase 3 RFS, and win when it leaves (since it doesn't leave now).
 </ol>
 
-## Disabled HS defaults (I will remove them when future versions of HS have them disabled by default):
+## Disabled HS defaults (I will remove them when future versions of HS have them disabled by default)
 <ol>
 	<li>dismissSound: the depressurization sound no longer plays when dismissing crew.
 	<li>hackingDroneFix: Hacking drones do not explode mid-flight if Hacking system is depowered. (This setting is re-enabled in the Balance mod (or at least, I'm considering at the time of writing).)
@@ -123,7 +123,7 @@ Mod order:
 	<li>surgeDrones: Drone distribution of Phase 2 Flagship Power Surge is not fixed to 2/2 Combat/Beam Drones on Easy, 3/3 on Normal, 4/3 on Hard. Each drone has a 50% chance of being either.
 </ol>
 
-## Bugfixes/QOL for mods (These have no effect on vanilla gameplay):
+## Bugfixes/QOL for mods (These have no effect on vanilla gameplay)
 <ol>
 	<li>altLockedMiniships: Prioritises the image with the "_base" postfix for locked miniships.
 	<li>oxygenWithoutSystem: Allows oxygen to function without a system.
