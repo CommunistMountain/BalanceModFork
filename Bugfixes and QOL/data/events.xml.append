@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="eventList" name="QUEST_ESCORT_ARRIVE">
+	<mod:findWithChildLike type="event" child-type="upgrade">
+		<mod:findLike type="upgrade">
+			<mod:removeTag/>
+		</mod:findLike>
+		<mod-append:choice>
+			<text id="event_SELL_MISSILES_STATION_c1_text"/>
+			<event>
+				<text id="event_ROCK_SLUG_GRATEFUL_3_c1_text"/>
+				<upgrade amount="1" system="reactor"/>
+			</event>
+		</mod-append:choice>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="MERCHANT_DELIVER_LIST">
+	<mod:findWithChildLike type="event" child-type="text">
+	<mod:selector id="event_MERCHANT_DELIVER_LIST_1_text"/>
+		<mod-append:choice hidden="true" req="LIFE_SCANNER">
+			<text id="event_STATION_SICK_c4_choice"/>
+			<event load="STATION_SICK_SCANNER"/>
+		</mod-append:choice>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="MERCHANT_INVESTIGATE_LIST">
+	<mod:findLike type="event">
+		<mod:findWithChildLike type="choice" child-type="text">
+		<mod:selector id="event_MERCHANT_INVESTIGATE_LIST_1_c1_choice"/>
+			<mod:findLike type="event">
+				<mod-append:text id="text_FUEL_NOTHING_LIST_8"/>
+			</mod:findLike>
+		</mod:findWithChildLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="ALISON_DEFECTOR_REJECT">
+	<mod:findLike type="event">
+		<mod:findWithChildLike type="choice" child-type="event">
+		<mod:selector load="ALISON_DEFECTOR_HELP_2"/>
+			<mod:setAttributes hidden="true"/>
+		</mod:findWithChildLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="DISTRESS_TRAPPED_MINER">
+	<mod:findLike type="choice">
+		<mod:findWithChildLike type="event" child-type="item_modify">
+			<mod:findLike type="autoReward">
+				<mod:setValue>standard_droneparts-1</mod:setValue>
+			</mod:findLike>
+		</mod:findWithChildLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="DISTRESS_INFESTATION">
+	<mod:findLike type="choice">
+		<mod:findWithChildLike type="event" child-type="item_modify">
+			<mod:findLike type="autoReward">
+			<mod:selector>stuff</mod:selector>
+				<mod:setValue>stuff_droneparts-1</mod:setValue>
+			</mod:findLike>
+			<mod:findLike type="autoReward">
+			<mod:selector>standard</mod:selector>
+				<mod:setValue>standard_droneparts-1</mod:setValue>
+			</mod:findLike>
+		</mod:findWithChildLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="STATION_SICK_DRONE_LIST">
+	<mod:findLike type="event">
+		<mod:findLike type="autoReward">
+			<mod:setValue>standard_droneparts-1</mod:setValue>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+</FTL>

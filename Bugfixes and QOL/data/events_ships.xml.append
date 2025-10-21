@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="ship" name="REBEL_FLEET_FUEL">
+	<mod:findLike type="escape">
+		<mod:removeTag/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="ship" name="REBEL_ENGI_UNLOCK_2FAKE">
+	<mod:findLike type="gotaway">
+		<mod:findLike type="text">
+			<mod:setAttributes id="ship_REBEL_ENGI_UNLOCK_2REAL_gotaway_text"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="ship" name="REBEL_ENGI_UNLOCK_2REAL">
+	<mod:findLike type="escape">
+		<mod:findLike type="text">
+			<mod:setAttributes id="ship_REBEL_ENGI_UNLOCK_2FAKE_escape_text"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="surrender">
+		<mod:setAttributes min="4" max="4"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="ship" name="CRYSTAL_HUNTER">
+	<mod:findLike type="surrender">
+		<mod:findWithChildLike type="choice" child-type="text">
+		<mod:selector id="ship_CRYSTAL_HUNTER_surrender_c1_choice"/>
+			<mod:findLike type="event">
+				<mod-append:ship hostile="false"/>
+			</mod:findLike>
+		</mod:findWithChildLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="ship" name="PIRATE_SLAVER"/>
+		<mod:findName type="ship" name="PIRATE_SMUGGLE"/>
+		<mod:findName type="ship" name="REBEL"/>
+		<mod:findName type="ship" name="SQUAT_TRANSPORT"/>
+		<mod:findName type="ship" name="JELLY"/>
+		<mod:findName type="ship" name="JELLY_UNLOCK1"/>
+	</mod:par>
+	<mod-append:gotaway>
+		<text id="ship_REBEL_FUEL_gotaway_text"/>
+	</mod-append:gotaway>
+</mod:findComposite>
+</FTL>

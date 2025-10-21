@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="event" name="ROCK_MANTIS_FREIGHTER">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="autoReward">
+				<mod:setValue>standard_droneparts-1</mod:setValue>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+</FTL>

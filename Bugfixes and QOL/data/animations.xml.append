@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="animSheet" name="bomb_1">
+<mod:selector h="52"/>
+	<mod:setAttributes h="50" fh="50"/>
+</mod:findName>
+
+<mod:findName type="weaponAnim" name="beam_hull">
+	<mod:findLike type="desc">
+		<mod:setAttributes length="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="anim" name="beam_contact">
+	<mod:findLike type="desc">
+		<mod:setAttributes length="5"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="animSheet" name="explosion_big1">
+	<mod:setAttributes w="576"/>
+</mod:findName>
+
+<mod:findName type="anim" name="explosion_big1">
+	<mod:findLike type="desc">
+		<mod:setAttributes length="9"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="animSheet" name="explosion_missile1">
+	<mod:setAttributes w="288"/>
+</mod:findName>
+</FTL>

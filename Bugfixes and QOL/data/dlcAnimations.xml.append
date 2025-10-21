@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="anim" name="chargeion_charge">
+	<mod:findLike type="desc">
+		<mod:setAttributes length="3"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="animSheet" name="bomb_stun">
+	<mod:setAttributes h="50" fh="50"/>
+</mod:findName>
+</FTL>

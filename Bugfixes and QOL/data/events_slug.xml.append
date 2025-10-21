@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="eventList" name="STORM_SLUG">
+	<mod:setAttributes name="NEBULA_STORM_SLUG"/>
+</mod:findName>
+</FTL>
