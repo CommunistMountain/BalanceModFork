@@ -22,12 +22,12 @@ Mod order:
 	<li>AE Weapons: No longer show up in Hidden Crystal Worlds stores.</li>
 	<li>EVENTS:</li>
 	<ol>
-		<li>MERCHANT_DELIVER: Added missing Lifeform Scanner blue option from the STATION_SICK event.</li>
 		<li>ALISON_DEFECTOR: Now unable to tell if the defector is lying or not about wanting to join you.</li>
-		<li>REBEL_ENGI_UNLOCK: Now unable to tell the difference between the real and fake ships through minor text differences, or based on when they decide to surrender.</li>
 		<li>CRYSTAL_HUNTER: Fight no longer continues after accepting their surrender offer.</li>
-		<li>STORM_SLUG_FIGHT, STORM_REBEL, STORM_BOARDING: These events no longer appear to be at non-nebula beacons on the map in Slug Controlled Nebula and Slug Home Nebula, and will slow the Rebel fleet appropriately.</li>
 		<li>ESCORT_BEACON and QUEST_ESCORT: extended the conversation when you get the reactor upgrade outcome, so that revisiting the beacon multiple times will not upgrade your reactor again for free. (If an upgrade tag is part of the opening event at a beacon, it will not be cleared, which is an oversight by the developers.)</li>
+		<li>MERCHANT_DELIVER: Added missing Lifeform Scanner blue option from the STATION_SICK event.</li>
+		<li>REBEL_ENGI_UNLOCK: Now unable to tell the difference between the real and fake ships through minor text differences, or based on when they decide to surrender.</li>
+		<li>STORM_BOARDING, STORM_REBEL, STORM_SLUG_FIGHT: These events no longer appear to be at non-nebula beacons on the map in Slug Controlled Nebula and Slug Home Nebula, and will slow the Rebel fleet appropriately.</li>
 	</ol>
 </ol>
 
@@ -64,7 +64,7 @@ Mod order:
 	</ol>
 	<li>SHIPS:</li>
 	<ol>
-		<li>BOSS_SCOUT_RESCUE, PIRATE_SLAVER, PIRATE_SMUGGLE, REBEL, SQUAT_TRANSPORT, JELLY, JELLY_UNLOCK1: A generic gotaway message is now displayed if they successfully escape.</li>
+		<li>BOSS_SCOUT_RESCUE, JELLY, JELLY_UNLOCK1, PIRATE_SLAVER, PIRATE_SMUGGLE, REBEL, SQUAT_TRANSPORT: A generic gotaway message is now displayed if they successfully escape.</li>
 	</ol>
 </ol>
 
@@ -82,11 +82,11 @@ Mod order:
 	<ol>
 		<li>AutoReward interactions with free weapon/drone/augment:</li>
 		<ol>
-			<li>Augment rewards outside autoReward now overwrite autoReward augments, instead of being overwritten by autoReward augments. (Fixes ENGI_UNLOCK event and one outcome of ENGI_VIRUS event having a 1% chance of giving a random augment instead of their guaranteed augments.)</li>
-			<li>Weapon rewards outside autoReward no longer overwrite autoReward drones and augments. (Fixes CRYSTAL_CACHE event blocking a free drone or augment 4% of the time, and CRYSTAL_HELP_DIG event not giving an augment and high scrap with the free weapon.)</li>
-			<li>Drone rewards outside autoReward no longer overwrite autoReward weapons and augments. (Fixes ZOLTAN_CREW_STUDY event blocking a free weapon or augment 4% of the time.)</li>
+			<li>Augment rewards outside autoReward now overwrite autoReward augments, instead of being overwritten by autoReward augments. (Fixes events ENGI_UNLOCK_1, ENGI_VIRUS and NEBULA_SLUG_FIGHT_UNLOCK having a 1% chance of giving a random augment instead of their guaranteed augments when the accompanying reward is a "standard" autoReward.)</li>
+			<li>Weapon rewards outside autoReward no longer overwrite autoReward drones and augments. (Fixes events CRYSTAL_CACHE and DONOR_MANTIS_CHASE blocking a free drone or augment from the "stuff"/"standard" autoReward 4%/2% of the time respectively, and event CRYSTAL_HELP_DIG not giving an augment and high scrap with the free weapon.)</li>
+			<li>Drone rewards outside autoReward no longer overwrite autoReward weapons and augments. (Fixes event ZOLTAN_CREW_STUDY blocking a free weapon or augment from the "stuff" autoReward 4% of the time.)</li>
 		</ol>		
-		<li>DISTRESS_TRAPPED_MINER, DISTRESS_INFESTATION, STATION_SICK, ROCK_MANTIS_FREIGHTER, CRYSTAL_CACHE: These events have instances of autoReward and item_modify in the same event block, where the autoReward could give the same resource that item_modify is changing. If that happens (2/3 chance), the cost of these events (-1 drone part, or up to -100 fuel) are overwritten by the gain in that resource (although you still need to have at least 1 drone part to pick the drone part choices). Added custom rewards so that autoReward factors in item_modify's costs if certain resources are rolled. Hopefully Hyperspace can fix this bug in future versions without needing custom rewards.</li>
+		<li>CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, ROCK_MANTIS_FREIGHTER, STATION_SICK: These events have instances of autoReward and item_modify in the same event block, where the autoReward could give the same resource that item_modify is changing. If that happens (2/3 chance), the cost of these events (-1 drone part, or up to -100 fuel) are overwritten by the gain in that resource (although you still need to have at least 1 drone part to pick the drone part choices). Added custom rewards so that autoReward factors in item_modify's costs if certain resources are rolled. Hopefully Hyperspace can fix this bug in future versions without needing custom rewards.</li>
 	</ol>
 </ol>
 
