@@ -25,8 +25,8 @@ Mod order:
 		<li>ALISON_DEFECTOR: Now unable to tell if the defector is lying or not about wanting to join you.</li>
 		<li>CRYSTAL_HUNTER: Fight no longer continues after accepting their surrender offer.</li>
 		<li>ESCORT_BEACON and QUEST_ESCORT: extended the conversation when you get the reactor upgrade outcome, so that revisiting the beacon multiple times will not upgrade your reactor again for free. (If an upgrade tag is part of the opening event at a beacon, it will not be cleared, which is an oversight by the developers.)</li>
-		<li>MERCHANT_DELIVER: Added missing Lifeform Scanner blue option from the STATION_SICK event.</li>
-		<li>REBEL_ENGI_UNLOCK: Now unable to tell the difference between the real and fake ships through minor text differences, or based on when they decide to surrender.</li>
+		<li>MERCHANT_REQUEST: Added missing Lifeform Scanner blue option from the STATION_SICK event.</li>
+		<li>ENGI_UNLOCK_1: Now unable to tell the difference between the real and fake ships through minor text differences, or based on when they decide to surrender.</li>
 		<li>STORM_BOARDING, STORM_REBEL, STORM_SLUG_FIGHT: These events no longer appear to be at non-nebula beacons on the map in Slug Controlled Nebula and Slug Home Nebula, and will slow the Rebel fleet appropriately.</li>
 	</ol>
 </ol>
@@ -60,7 +60,7 @@ Mod order:
 	<li>Ship Upgrade Menu: Fixed misaligned Accept button.</li>
 	<li>EVENTS:</li>
 	<ol>
-		<li>MERCHANT_INVESTIGATE: An event where a quest marker is added had no accompanying text, causing blank lines at the top of the textbox. Added text to solve this.</li>
+		<li>MERCHANT_REQUEST: An event where a quest marker is added had no accompanying text, causing blank lines at the top of the textbox. Added text to solve this.</li>
 	</ol>
 	<li>SHIPS:</li>
 	<ol>
@@ -86,7 +86,7 @@ Mod order:
 			<li>Weapon rewards outside autoReward no longer overwrite autoReward drones and augments. (Fixes events CRYSTAL_CACHE and DONOR_MANTIS_CHASE blocking a free drone or augment from the "stuff"/"standard" autoReward 4%/2% of the time respectively, and event CRYSTAL_HELP_DIG not giving an augment and high scrap with the free weapon.)</li>
 			<li>Drone rewards outside autoReward no longer overwrite autoReward weapons and augments. (Fixes event ZOLTAN_CREW_STUDY blocking a free weapon or augment from the "stuff" autoReward 4% of the time.)</li>
 		</ol>		
-		<li>CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, ROCK_MANTIS_FREIGHTER, STATION_SICK: These events have instances of autoReward and item_modify in the same event block, where the autoReward could give the same resource that item_modify is changing. If that happens (2/3 chance), the cost of these events (-1 drone part, or up to -100 fuel) are overwritten by the gain in that resource (although you still need to have at least 1 drone part to pick the drone part choices). Added custom rewards so that autoReward factors in item_modify's costs if certain resources are rolled. Hopefully Hyperspace can fix this bug in future versions without needing custom rewards.</li>
+		<li>CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK: These events have instances of autoReward and item_modify in the same event block, where the autoReward could give the same resource that item_modify is changing. If that happens (2/3 chance), the cost of these events (-1 drone part, or up to -100 fuel) are overwritten by the gain in that resource (although you still need to have at least 1 drone part to pick the drone part choices). Added custom rewards so that autoReward factors in item_modify's costs if certain resources are rolled. Hopefully Hyperspace can fix this bug in future versions without needing custom rewards.</li>
 	</ol>
 </ol>
 
