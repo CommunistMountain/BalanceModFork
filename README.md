@@ -33,7 +33,7 @@ Mod order:
 
 ## QOL (gameplay)
 <ol>
-	<li>map_warningcircle.png and map_warningcircle_point.png: integrated Sleeper Games + MantisManMike's Enhanced Fleet Pursuit mod, showing the Rebel Fleet's position in future jumps.</li>
+	<li>Map: integrated Sleeper Games + MantisManMike's Enhanced Fleet Pursuit mod, showing the Rebel Fleet's position in future jumps.</li>
 	<li>Mini-Beam: increased length from 45 to 47, to remove the need for pixel-perfect positioning to maximise damage.</li>
 	<li>Advanced Flak, Flak I, Flak II, Flak Artillery: removed fake projectiles.</li>
 	<li>Shifted starting crew to generally better positions. Credit to MantisManMike. Order is Pilot, Engines, Weapons, Shields:</li>
@@ -54,13 +54,21 @@ Mod order:
 ## Bugfixes (non-gameplay)
 <ol>
 	<li>Anti-Ship Beam Drone II, Small Bomb, Hull Beam, Stun Bomb, Ion Charger, Beam Projectiles, Explosions: Fixed animations.</li>
-	<li>Lanius: Fixed bad alignment of sprites. Credit to MantisManMike.</li>
-	<li>Crystal, Engi, Human, Mantis, Rock, Zoltan: Fixed bad alignment of sprites in the Clone Bay queue. Credit to MantisManMike.</li>
+	<li>Shifted misaligned crew sprites:</li>
+	<ol>
+		<li>Crystal: 1 left</li>
+		<li>Engi: 1 left</li>
+		<li>Lanius: 1 right, except for clone queue sprite which needs to be 1 left</li>
+		<li>Mantis: 1 left</li>
+		<li>Rock: 1 left</li>
+		<li>Slug: 1 right</li>
+	</ol>
 	<li>Ion Intruder Drone: Fixed bad pixels. Credit to Masala.</li>
-	<li>Ship Upgrade Menu: Fixed misaligned Accept button.</li>
+	<li>Ship Upgrade Menu: Fixed misaligned Accept button base.</li>
 	<li>EVENTS:</li>
 	<ol>
 		<li>MERCHANT_REQUEST: An event where a quest marker is added had no accompanying text, causing blank lines at the top of the textbox. Added text to solve this.</li>
+		<li>PIRATE_CIVILIAN_BEACON: If you successfully scare off the pirate with the Weapons System blue option, then roll a "standard" autoReward, you will not be shown a preview of it.</li>
 	</ol>
 	<li>SHIPS:</li>
 	<ol>

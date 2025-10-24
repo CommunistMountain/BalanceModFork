@@ -46,6 +46,15 @@
 	</mod:findLike>
 </mod:findName>
 
+<mod:findName type="eventList" name="PIRATE_CIVILIAN_BEACON_BEAM">
+	<mod:findLike type="event">
+		<mod:findLike type="choice">
+			<mod:removeAttributes hiiden=""/>
+			<mod:setAttributes hidden="true"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
 <mod:findName type="event" name="DISTRESS_TRAPPED_MINER">
 	<mod:findLike type="choice">
 		<mod:findWithChildLike type="event" child-type="item_modify">
