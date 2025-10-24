@@ -6,13 +6,17 @@
 	<version><![CDATA[ 1.0 ]]></version>
 	<description>
 <![CDATA[
-Non-HS-dependent
-
 Bugfixes (gameplay)
 
 Hull Missile: Now considered a missile weapon for events.
 Anti-Ship Fire Drone: Now considered a combat drone for events.
 AE Weapons: No longer show up in Hidden Crystal Worlds stores.
+hackingIonFix: Prevents ionisation from resetting Hacking cooldown.
+crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.
+defenseDroneFix: Defense drones no longer have a blind spot (doesn't work at the time of writing, hopefully it will be in the future)
+cloakRenderFix: Cloaking while no crew is on board no longer hides rooms.
+disableDefaultTutorial: HS breaks the tutorial. This replaces it with a custom tutorial (still incomplete at the time of writing though).
+multipleOverCapacity: If you are over capacity on 2+ weapons/drones/augments, multiple Over Capacity boxes will contain all new items, allowing you to pick which ones to leave behind. If you are at a store, you also get the chance to sell what is in the Over Capacity boxes.
 EVENTS:
 	ALISON_DEFECTOR: Now unable to tell if the defector is lying or not about wanting to join you.
 	CRYSTAL_HUNTER: Fight no longer continues after accepting their surrender offer.
@@ -20,6 +24,11 @@ EVENTS:
 	MERCHANT_REQUEST: Added missing Lifeform Scanner blue option from the STATION_SICK event.
 	ENGI_UNLOCK_1: Now unable to tell the difference between the real and fake ships through minor text differences, or based on when they decide to surrender.
 	STORM_BOARDING, STORM_REBEL, STORM_SLUG_FIGHT: These events no longer appear to be at non-nebula beacons on the map in Slug Controlled Nebula and Slug Home Nebula, and will slow the Rebel fleet appropriately.
+	AutoReward interactions with free weapon/drone/augment:
+		Augment rewards outside autoReward now overwrite autoReward augments, instead of being overwritten by autoReward augments. Fixes events ENGI_UNLOCK_1, ENGI_VIRUS and NEBULA_SLUG_FIGHT_UNLOCK in rare cases.
+		Weapon rewards outside autoReward no longer overwrite autoReward drones and augments. Fixes events CRYSTAL_CACHE and DONOR_MANTIS_CHASE in rare cases, and event CRYSTAL_HELP_DIG not giving an augment and high scrap with the free weapon.
+		Drone rewards outside autoReward no longer overwrite autoReward weapons and augments. Fixes event ZOLTAN_CREW_STUDY in rare cases.
+	CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK: Fixed certain options having a chance of not consuming resources, if the reward after the choice includes that resource.
 
 QOL (gameplay)
 
@@ -37,10 +46,15 @@ Shifted starting crew to generally better positions. Credit to MantisManMike. Or
 	Stealth B: Human Human Zoltan -> HZH
 	Stealth C: Human Rock Slug -> SHR
 	Crystal A: Human Human Crystal Crystal -> CHCH
+(Not a feature of the mod, but HS itself: HS adds a magnifying glass at the bottom right of the screen during a run, which can be clicked to show you more info such as weapon cooldowns and beacon connections.)
+checkCargo: Include cargo weapons/drones for event checks.
+preIgniteChargers: Charge weapons can enter a fight fully charged if you have a Pre-Igniter.
 
 Bugfixes (non-gameplay)
 
 Anti-Ship Beam Drone II, Small Bomb, Hull Beam, Stun Bomb, Ion Charger, Beam Projectiles, Explosions: Fixed animations.
+Ion Intruder Drone: Fixed bad pixels. Credit to Masala.
+Ship Upgrade Menu: Fixed misaligned Accept button base.
 Shifted misaligned crew sprites:
 	Crystal: 1 left
 	Engi: 1 left
@@ -48,47 +62,14 @@ Shifted misaligned crew sprites:
 	Mantis: 1 left
 	Rock: 1 left
 	Slug: 1 right
-Ion Intruder Drone: Fixed bad pixels. Credit to Masala.
-Ship Upgrade Menu: Fixed misaligned Accept button base.
+playerHpColorFix: HP color now scales according to a 3-third ratio instead of a hardcoded value.
+warningLightPositionFix: Warning lights that appear during a fire or breach are now positioned correctly.
+shiftotherelementsslightlytotheleftsotheyrealigned: Fixes crew being visually offset.
 EVENTS:
 	MERCHANT_REQUEST: Added text to an event where an "added quest marker" message has no accompanying text.
 	PIRATE_CIVILIAN_BEACON: If you successfully scare off the pirate with the Weapons System blue option, then roll a "standard" autoReward, you will not be shown a preview of it.
 SHIPS:
 	BOSS_SCOUT_RESCUE, JELLY, JELLY_UNLOCK1, PIRATE_SLAVER, PIRATE_SMUGGLE, REBEL, SQUAT_TRANSPORT: A generic gotaway message is now displayed if they successfully escape.
-
-QOL (non-gameplay)
-TEXT (includes changes for all languages):
-	Added '%' after Engines dodge chance.
-	NPC Zoltan ships are now called Zoltan X instead of Energy X.
-
-HS-dependent
-
-Bugfixes (gameplay)
-
-hackingIonFix: Prevents ionisation from resetting Hacking cooldown.
-crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.
-defenseDroneFix: Defense drones no longer have a blind spot (doesn't work at the time of writing, hopefully it will be in the future)
-cloakRenderFix: Cloaking while no crew is on board no longer hides rooms.
-disableDefaultTutorial: HS breaks the tutorial. This replaces it with a custom tutorial (still incomplete at the time of writing though).
-multipleOverCapacity: If you are over capacity on 2+ weapons/drones/augments, multiple Over Capacity boxes will contain all new items, allowing you to pick which ones to leave behind. If you are at a store, you also get the chance to sell what is in the Over Capacity boxes.
-EVENTS:
-	AutoReward interactions with free weapon/drone/augment:
-		Augment rewards outside autoReward now overwrite autoReward augments, instead of being overwritten by autoReward augments. Fixes events ENGI_UNLOCK_1, ENGI_VIRUS and NEBULA_SLUG_FIGHT_UNLOCK in rare cases.
-		Weapon rewards outside autoReward no longer overwrite autoReward drones and augments. Fixes events CRYSTAL_CACHE and DONOR_MANTIS_CHASE in rare cases, and event CRYSTAL_HELP_DIG not giving an augment and high scrap with the free weapon.
-		Drone rewards outside autoReward no longer overwrite autoReward weapons and augments. Fixes event ZOLTAN_CREW_STUDY in rare cases.
-	CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK: Fixed certain options having a chance of not consuming resources, if the reward after the choice includes that resource.
-
-QOL (gameplay)
-
-(HS adds a magnifying glass at the bottom right of the screen during a run, which can be clicked to show you more info such as weapon cooldowns and beacon connections.)
-checkCargo: Include cargo weapons/drones for event checks.
-preIgniteChargers: Charge weapons can enter a fight fully charged if you have a Pre-Igniter.
-
-Bugfixes (non-gameplay)
-
-playerHpColorFix: HP color now scales according to a 3-third ratio instead of a hardcoded value.
-warningLightPositionFix: Warning lights that appear during a fire or breach are now positioned correctly.
-shiftotherelementsslightlytotheleftsotheyrealigned: Fixes crew being visually offset.
 
 QOL (non-gameplay)
 
@@ -99,6 +80,9 @@ renameShipInRun: Enable renaming your ship during a run, via a button beside the
 allowRenameInputSpecialCharacters: Allow special characters for names, such as Japanese.
 insertNewlineForMultipleCrewTooltips: Inserts a newline between each unit's description in a tooltip when mousing over a tile where multiple units are fighting.
 Rebel Flagship and Rebel Elites no longer try to escape if you are out of fuel (this mechanic which is meant to avoid stalemates ironically causes an even worse stalemate in the case of these enemies). This also solves a bug where you have no fuel while fighting the Phase 3 RFS, and win when it leaves.
+TEXT (includes changes for all languages):
+	Added '%' after Engines dodge chance.
+	NPC Zoltan ships are now called Zoltan X instead of Energy X.
 
 Disabled HS defaults (I will remove them when future versions of HS have them disabled by default)
 
