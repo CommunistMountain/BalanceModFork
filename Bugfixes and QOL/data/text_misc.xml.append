@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="text" name="engine">
+    <mod:setValue>Dodge: \1% / FTL: \2x</mod:setValue>
+</mod:findName>
+</FTL>

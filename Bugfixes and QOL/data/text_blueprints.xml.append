@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
+	<mod:setValue>Zoltan Bomber</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
+	<mod:setValue>Zoltan Hacker</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_FIGHTER_class">
+	<mod:setValue>Zoltan Fighter</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_FIGHTER_DLC_class">
+	<mod:setValue>Zoltan Instigator</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
+	<mod:setValue>Zoltan Fighter</mod:setValue>
+</mod:findName>
+</FTL>

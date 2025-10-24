@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
+	<mod:setValue>Bombowiec Zoltan</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
+	<mod:setValue>Statek hakerski Zoltan</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_FIGHTER_class">
+	<mod:setValue>Myśliwiec Zoltan</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_FIGHTER_DLC_class">
+	<mod:setValue>Dywersant Zoltan</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
+	<mod:setValue>Myśliwiec Zoltan</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="engine">
+    <mod:setValue>Unik: \1% / FTL: \2x</mod:setValue>
+</mod:findName>
+</FTL>

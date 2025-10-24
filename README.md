@@ -24,7 +24,7 @@ Mod order:
 	<ol>
 		<li>ALISON_DEFECTOR: Now unable to tell if the defector is lying or not about wanting to join you.</li>
 		<li>CRYSTAL_HUNTER: Fight no longer continues after accepting their surrender offer.</li>
-		<li>ESCORT_BEACON and QUEST_ESCORT: extended the conversation when you get the reactor upgrade outcome, so that revisiting the beacon multiple times will not upgrade your reactor again for free. (If an upgrade tag is part of the opening event at a beacon, it will not be cleared, which is an oversight by the developers.)</li>
+		<li>ESCORT_BEACON and QUEST_ESCORT: extended the conversation when you get the reactor upgrade outcome, so that revisiting the beacon multiple times will not upgrade your reactor again for free.</li>
 		<li>MERCHANT_REQUEST: Added missing Lifeform Scanner blue option from the STATION_SICK event.</li>
 		<li>ENGI_UNLOCK_1: Now unable to tell the difference between the real and fake ships through minor text differences, or based on when they decide to surrender.</li>
 		<li>STORM_BOARDING, STORM_REBEL, STORM_SLUG_FIGHT: These events no longer appear to be at non-nebula beacons on the map in Slug Controlled Nebula and Slug Home Nebula, and will slow the Rebel fleet appropriately.</li>
@@ -34,7 +34,7 @@ Mod order:
 ## QOL (gameplay)
 <ol>
 	<li>Map: integrated Sleeper Games + MantisManMike's Enhanced Fleet Pursuit mod, showing the Rebel Fleet's position in future jumps.</li>
-	<li>Mini-Beam: increased length from 45 to 47, to remove the need for pixel-perfect positioning to maximise damage.</li>
+	<li>Mini-Beam: increased length from 45 to 47.</li>
 	<li>Advanced Flak, Flak I, Flak II, Flak Artillery: removed fake projectiles.</li>
 	<li>Shifted starting crew to generally better positions. Credit to MantisManMike. Order is Pilot, Engines, Weapons, Shields:</li>
 	<ol>
@@ -58,7 +58,7 @@ Mod order:
 	<ol>
 		<li>Crystal: 1 left</li>
 		<li>Engi: 1 left</li>
-		<li>Lanius: 1 right, except for clone queue sprite which needs to be 1 left</li>
+		<li>Lanius: 1 right, except clone sprite which is shifted 1 left</li>
 		<li>Mantis: 1 left</li>
 		<li>Rock: 1 left</li>
 		<li>Slug: 1 right</li>
@@ -67,7 +67,7 @@ Mod order:
 	<li>Ship Upgrade Menu: Fixed misaligned Accept button base.</li>
 	<li>EVENTS:</li>
 	<ol>
-		<li>MERCHANT_REQUEST: An event where a quest marker is added had no accompanying text, causing blank lines at the top of the textbox. Added text to solve this.</li>
+		<li>MERCHANT_REQUEST: Added text to an event where an "added quest marker" message has no accompanying text.</li>
 		<li>PIRATE_CIVILIAN_BEACON: If you successfully scare off the pirate with the Weapons System blue option, then roll a "standard" autoReward, you will not be shown a preview of it.</li>
 	</ol>
 	<li>SHIPS:</li>
@@ -76,12 +76,21 @@ Mod order:
 	</ol>
 </ol>
 
+## QOL (non-gameplay)
+<ol>
+	<li>TEXT (includes changes for all languages):</li>
+	<ol>
+		<li>Added '%' after Engines dodge chance.</li>
+		<li>NPC Zoltan ships are now called Zoltan X instead of Energy X.</li>
+	</ol>
+</ol>
+
 # Bugfixes and QOL (HS-dependent)
 
 ## Bugfixes (gameplay)
 <ol>
 	<li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
-	<li>crystalShardFix: Crystal Shards are considered player projectiles and not neutral, so that they will not be targeted by friendly defense drones or block your projectiles.</li>
+	<li>crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.</li>
 	<li>defenseDroneFix: Defense drones no longer have a blind spot (doesn't work at the time of writing, hopefully it will be in the future)</li>
 	<li>cloakRenderFix: Cloaking while no crew is on board no longer hides rooms.</li>
 	<li>disableDefaultTutorial: HS breaks the tutorial. This replaces it with a custom tutorial (still incomplete at the time of writing though).</li>
@@ -90,19 +99,19 @@ Mod order:
 	<ol>
 		<li>AutoReward interactions with free weapon/drone/augment:</li>
 		<ol>
-			<li>Augment rewards outside autoReward now overwrite autoReward augments, instead of being overwritten by autoReward augments. (Fixes events ENGI_UNLOCK_1, ENGI_VIRUS and NEBULA_SLUG_FIGHT_UNLOCK having a 1% chance of giving a random augment instead of their guaranteed augments when the accompanying reward is a "standard" autoReward.)</li>
-			<li>Weapon rewards outside autoReward no longer overwrite autoReward drones and augments. (Fixes events CRYSTAL_CACHE and DONOR_MANTIS_CHASE blocking a free drone or augment from the "stuff"/"standard" autoReward 4%/2% of the time respectively, and event CRYSTAL_HELP_DIG not giving an augment and high scrap with the free weapon.)</li>
-			<li>Drone rewards outside autoReward no longer overwrite autoReward weapons and augments. (Fixes event ZOLTAN_CREW_STUDY blocking a free weapon or augment from the "stuff" autoReward 4% of the time.)</li>
+			<li>Augment rewards outside autoReward now overwrite autoReward augments, instead of being overwritten by autoReward augments. Fixes events ENGI_UNLOCK_1, ENGI_VIRUS and NEBULA_SLUG_FIGHT_UNLOCK in rare cases.</li>
+			<li>Weapon rewards outside autoReward no longer overwrite autoReward drones and augments. Fixes events CRYSTAL_CACHE and DONOR_MANTIS_CHASE in rare cases, and event CRYSTAL_HELP_DIG not giving an augment and high scrap with the free weapon.</li>
+			<li>Drone rewards outside autoReward no longer overwrite autoReward weapons and augments. Fixes event ZOLTAN_CREW_STUDY in rare cases.</li>
 		</ol>		
-		<li>CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK: These events have instances of autoReward and item_modify in the same event block, where the autoReward could give the same resource that item_modify is changing. If that happens (2/3 chance), the cost of these events (-1 drone part, or up to -100 fuel) are overwritten by the gain in that resource (although you still need to have at least 1 drone part to pick the drone part choices). Added custom rewards so that autoReward factors in item_modify's costs if certain resources are rolled. Hopefully Hyperspace can fix this bug in future versions without needing custom rewards.</li>
+		<li>CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK: Fixed certain options having a chance of not consuming resources, if the reward after the choice includes that resource.</li>
 	</ol>
 </ol>
 
 ## QOL (gameplay)
 <ol>
-	<li>(Hyperspace adds a magnifying glass at the bottom right of the screen during a run, which can be clicked to show you more info such as weapon cooldowns and beacon connections.)</li>
+	<li>(HS adds a magnifying glass at the bottom right of the screen during a run, which can be clicked to show you more info such as weapon cooldowns and beacon connections.)</li>
 	<li>checkCargo: Include cargo weapons/drones for event checks.</li>
-	<li>preIgniteChargers: Charge weapons can enter a fight fully charged if you have a Pre-Igniter. (removes the need for the Sven maneuver)</li>
+	<li>preIgniteChargers: Charge weapons can enter a fight fully charged if you have a Pre-Igniter.</li>
 </ol>
 
 ## Bugfixes (non-gameplay)
@@ -120,7 +129,7 @@ Mod order:
 	<li>renameShipInRun: Enable renaming your ship during a run, via a button beside the name.</li>
 	<li>allowRenameInputSpecialCharacters: Allow special characters for names, such as Japanese.</li>
 	<li>insertNewlineForMultipleCrewTooltips: Inserts a newline between each unit's description in a tooltip when mousing over a tile where multiple units are fighting.</li>
-	<li>Rebel Flagship and Rebel Elites no longer try to escape if you are out of fuel (this mechanic which is meant to avoid stalemates ironically causes an even worse stalemate in the case of these enemies). This also solves a bug where you have no fuel while fighting the Phase 3 RFS, and win when it leaves (since it doesn't leave now).</li>
+	<li>Rebel Flagship and Rebel Elites no longer try to escape if you are out of fuel (this mechanic which is meant to avoid stalemates ironically causes an even worse stalemate in the case of these enemies). This also solves a bug where you have no fuel while fighting the Phase 3 RFS, and win when it leaves.</li>
 </ol>
 
 ## Disabled HS defaults (I will remove them when future versions of HS have them disabled by default)

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
+	<mod:setValue>ゾルタン爆撃艦</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
+	<mod:setValue>ゾルタンハッカー</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_FIGHTER_class">
+	<mod:setValue>ゾルタン戦闘艇</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_FIGHTER_DLC_class">
+	<mod:setValue>ゾルタン扇動艇</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
+	<mod:setValue>ゾルタン戦闘艇</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="engine">
+    <mod:setValue>回避率：\1%/FTL：\2x</mod:setValue>
+</mod:findName>
+</FTL>

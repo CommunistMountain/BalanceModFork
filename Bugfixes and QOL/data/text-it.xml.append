@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
+	<mod:setValue>Bombardiere zoltan</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
+	<mod:setValue>Hacker zoltan</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_FIGHTER_class">
+	<mod:setValue>Caccia zoltan</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_FIGHTER_DLC_class">
+	<mod:setValue>Istigatore zoltan</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
+	<mod:setValue>Caccia zoltan</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="engine">
+    <mod:setValue>schivata: \1% / FTL: x\2</mod:setValue>
+</mod:findName>
+</FTL>
