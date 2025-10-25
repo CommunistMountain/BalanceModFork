@@ -16,6 +16,15 @@
 <mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
 	<mod:setValue>Myśliwiec Zoltan</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="door_2">
+    <mod:setValue>Grodzie (6)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_3">
+    <mod:setValue>Ulepszone grodzie (10)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_4">
+    <mod:setValue>Pancerne grodzie (15)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>Unik: \1% / FTL: \2x</mod:setValue>
 </mod:findName>

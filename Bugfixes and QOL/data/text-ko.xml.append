@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="door_2">
+    <mod:setValue>차단 기능 추가 (6)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_3">
+    <mod:setValue>향상된 차단 기능 (10)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_4">
+    <mod:setValue>완전 차단 기능 (15)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>회피: \1% / FTL: \2x</mod:setValue>
 </mod:findName>

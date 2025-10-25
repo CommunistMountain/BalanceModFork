@@ -107,6 +107,7 @@ Mod order:
 	<ol>
 		<li>Added '%' after Engines dodge chance.</li>
 		<li>NPC Zoltan ships are now called Zoltan X instead of Energy X.</li>
+		<li>Upgraded doors show their hit points in brackets, e.g. Blast Doors (6).</li>
 	</ol>
 </ol>
 

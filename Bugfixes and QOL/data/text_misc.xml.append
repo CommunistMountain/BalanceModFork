@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="door_2">
+    <mod:setValue>Blast Doors (6)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_3">
+    <mod:setValue>Improved Blast Doors (10)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_4">
+    <mod:setValue>Super Blast Doors (15)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>Dodge: \1% / FTL: \2x</mod:setValue>
 </mod:findName>

@@ -16,6 +16,15 @@
 <mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
 	<mod:setValue>Caccia zoltan</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="door_2">
+    <mod:setValue>porte blindate (6)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_3">
+    <mod:setValue>porte ultrablindate (10)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_4">
+    <mod:setValue>porte corazzate (15)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>schivata: \1% / FTL: x\2</mod:setValue>
 </mod:findName>

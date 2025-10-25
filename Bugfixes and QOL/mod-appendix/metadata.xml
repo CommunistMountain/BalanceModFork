@@ -83,6 +83,7 @@ Rebel Flagship and Rebel Elites no longer try to escape if you are out of fuel (
 TEXT (includes changes for all languages):
 	Added '%' after Engines dodge chance.
 	NPC Zoltan ships are now called Zoltan X instead of Energy X.
+	Upgraded doors show their hit points in brackets, e.g. Blast Doors (6).
 
 Disabled HS defaults (I will remove them when future versions of HS have them disabled by default)
 

@@ -16,6 +16,15 @@
 <mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
 	<mod:setValue>ゾルタン戦闘艇</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="door_2">
+    <mod:setValue>防爆ドア(6)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_3">
+    <mod:setValue>改良防爆ドア(10)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_4">
+    <mod:setValue>スーパー防爆ドア(15)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>回避率：\1%/FTL：\2x</mod:setValue>
 </mod:findName>
