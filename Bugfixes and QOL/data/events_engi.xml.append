@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="event" name="ENGI_STATION_DISTRESS">
+	<mod-append:distressBeacon/>
+</mod:findName>
+</FTL>

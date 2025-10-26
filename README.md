@@ -1,7 +1,7 @@
 # BalanceModFork
-2 mods for the game FTL: Faster Than Light: "Bugfixes and QOL" and "Balance Changes". Continuation of Twinge's Balance and Bugfix Mod.
+3 mods for the game FTL: Faster Than Light: "Bugfixes and QOL" and "Balance Changes". Continuation of Twinge's Balance and Bugfix Mod.
 
-The release has 2 separate mods. Use with [Slipstream Mod Manager](https://github.com/Vhati/Slipstream-Mod-Manager) or [FTL Mod Manager](https://github.com/afishhh/ftlman). Change the file extension from .zip to .ftl, or change the setting to consider .zip files as mods.
+Use the mods with [Slipstream Mod Manager](https://github.com/Vhati/Slipstream-Mod-Manager) or [FTL Mod Manager](https://github.com/afishhh/ftlman). Change the file extension from .zip to .ftl, or change the setting to consider .zip files as mods.
 
 They require the [Hyperspace mod](https://github.com/FTL-Hyperspace/FTL-Hyperspace). Major credit goes to the HS team for making many bugfixes/QOL possible.
 
@@ -10,10 +10,12 @@ If what you see in-game does not match the advertised description, please submit
 Mod order:
 <ol>
 	<li>Hyperspace</li>
-	<li>Bugfix and QOL</li>
-	<li>Balance Changes</li>
+	<li>Bugfixes and QOL</li>
+	<li>Balance Changes (CM) OR Balance Changes (Twinge) (pick 1, not both)</li>
 	<li>Other mods</li>
 </ol>
+
+# Bugfixes and QOL
 
 ## Bugfixes (gameplay)
 <ol>
@@ -29,6 +31,7 @@ Mod order:
 	<ol>
 		<li>ALISON_DEFECTOR: Now unable to tell if the defector is lying or not about wanting to join you.</li>
 		<li>CRYSTAL_HUNTER: Fight no longer continues after accepting their surrender offer.</li>
+		<li>ENGI_STATION_DISTRESS, PIRATE_CIVILIAN_BEACON, REBEL_VS_FEDERATION, SLUG_DISTRESS_RESCUE, SLUG_DISTRESS_TRICK: Now appear at Distress Beacons on the map.</li>
 		<li>ESCORT_BEACON and QUEST_ESCORT: extended the conversation when you get the reactor upgrade outcome, so that revisiting the beacon multiple times will not upgrade your reactor again for free.</li>
 		<li>MERCHANT_REQUEST: Added missing Lifeform Scanner blue option from the STATION_SICK event.</li>
 		<li>ENGI_UNLOCK_1: Now unable to tell the difference between the real and fake ships through minor text differences, or based on when they decide to surrender.</li>
@@ -133,5 +136,8 @@ Mod order:
 	<li>systemNoPurchaseThreshold: Visual fix for high system costs so that they are limited to a certain number of digits (I chose 3), and if it's any higher, the cost is replaced with "--".</li>
 </ol>
 
-# Balance Changes
+# Balance Changes (CM)
+Coming Soon
+
+#Balance Changes (Twinge)
 Coming Soon

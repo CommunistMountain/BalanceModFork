@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="event" name="PIRATE_CIVILIAN_BEACON"/>
+		<mod:findName type="event" name="REBEL_VS_FEDERATION"/>
+	</mod:par>
+	<mod-append:distressBeacon/>
+</mod:findComposite>
+
 <mod:findName type="eventList" name="QUEST_ESCORT_ARRIVE">
 	<mod:findWithChildLike type="event" child-type="upgrade">
 		<mod:findLike type="upgrade">
