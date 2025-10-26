@@ -2,13 +2,13 @@
 
 <FTL>
 <mod:findName type="text" name="door_2">
-    <mod:setValue>Силовые двери (6)</mod:setValue>
+    <mod:setValue>Силовые двери (12/8/6)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_3">
-    <mod:setValue>Улучш. силовые двери (10)</mod:setValue>
+    <mod:setValue>Улучш. силовые двери (16/12/10)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_4">
-    <mod:setValue>Суперсиловые двери (15)</mod:setValue>
+    <mod:setValue>Суперсиловые двери (20/18/15)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>Уклонение: \1% / ССД: \2x</mod:setValue>

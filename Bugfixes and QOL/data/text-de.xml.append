@@ -17,13 +17,13 @@
 	<mod:setValue>Zoltan-Jäger</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
-    <mod:setValue>Panzertüren (6)</mod:setValue>
+    <mod:setValue>Panzertüren (12/8/6)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_3">
-    <mod:setValue>Verbesserte Panzertüren (10)</mod:setValue>
+    <mod:setValue>Verbesserte Panzertüren (16/12/10)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_4">
-    <mod:setValue>Super-Panzertüren (15)</mod:setValue>
+    <mod:setValue>Super-Panzertüren (20/18/15)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>Ausweichen: \1% / FTL: \2x</mod:setValue>

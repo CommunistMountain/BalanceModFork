@@ -17,13 +17,13 @@
 	<mod:setValue>Caccia zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
-    <mod:setValue>porte blindate (6)</mod:setValue>
+    <mod:setValue>porte blindate (12/8/6)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_3">
-    <mod:setValue>porte ultrablindate (10)</mod:setValue>
+    <mod:setValue>porte ultrablindate (16/12/10)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_4">
-    <mod:setValue>porte corazzate (15)</mod:setValue>
+    <mod:setValue>porte corazzate (20/18/15)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>schivata: \1% / FTL: x\2</mod:setValue>

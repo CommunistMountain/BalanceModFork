@@ -17,13 +17,13 @@
 	<mod:setValue>Caçador Zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
-    <mod:setValue>Portas bélicas (6)</mod:setValue>
+    <mod:setValue>Portas bélicas (12/8/6)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_3">
-    <mod:setValue>Portas bélicas aprim. (10)</mod:setValue>
+    <mod:setValue>Portas bélicas aprim. (16/12/10)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_4">
-    <mod:setValue>Superportas bélicas (15)</mod:setValue>
+    <mod:setValue>Superportas bélicas (20/18/15)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>Evasão: \1% / FTL: \2x</mod:setValue>

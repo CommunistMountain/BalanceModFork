@@ -17,13 +17,13 @@
 	<mod:setValue>Combattant zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
-    <mod:setValue>Portes blindées (6)</mod:setValue>
+    <mod:setValue>Portes blindées (12/8/6)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_3">
-    <mod:setValue>Portes blindées améliorées (10)</mod:setValue>
+    <mod:setValue>Portes blindées améliorées (16/12/10)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_4">
-    <mod:setValue>Super portes blindées (15)</mod:setValue>
+    <mod:setValue>Super portes blindées (20/18/15)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>Évasion : \1%/ SPL : \2x</mod:setValue>

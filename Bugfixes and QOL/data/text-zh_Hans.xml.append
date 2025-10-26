@@ -17,13 +17,13 @@
 	<mod:setValue>佐尔坦战舰</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
-    <mod:setValue>防爆舱门(6)</mod:setValue>
+    <mod:setValue>防爆舱门(12/8/6)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_3">
-    <mod:setValue>改进型防爆舱门(10)</mod:setValue>
+    <mod:setValue>改进型防爆舱门(16/12/10)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_4">
-    <mod:setValue>超级防爆舱门(15)</mod:setValue>
+    <mod:setValue>超级防爆舱门(20/18/15)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>闪避：\1% / 超光速：\2 倍</mod:setValue>
