@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="event" name="LANIUS_BEACON_EATER">
+	<mod:findLike type="choice">
+	<mod:selector req="SHIP_REPAIR"/>
+		<mod:findLike type="event">
+			<mod-append:item_modify>
+				<item type="drones" min="-1" max="-1"/>
+			</mod-append:item_modify>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+</FTL>

@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="event" name="ROCK_STARSHIP_MINE">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="choice">
+			<mod:selector req="WEAPONS_MISSILES"/>
+				<mod:findLike type="event">
+					<mod:findLike type="item_modify">
+						<mod:findLike type="item">
+							<mod:setAttributes type="missiles"/>
+						</mod:findLike>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
 <mod:findName type="event" name="ROCK_MANTIS_FREIGHTER">
 	<mod:findLike type="choice">
 		<mod:findLike type="event">
