@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="eventList" name="REBEL_TRANSPORT_DESTROYED">
+	<mod:findLike type="event">
+		<mod:findLike type="autoReward">
+		<mod:selector level="low"/>
+			<mod:setAttributes level="LOW"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+</FTL>

@@ -11,4 +11,12 @@
 		</mod:findLike>
 	</mod:findLike>
 </mod:findName>
+
+<mod:findName type="eventList" name="LANIUS_AUTO_REBEL_LIST">
+	<mod:findLike type="event">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="LOW"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
 </FTL>

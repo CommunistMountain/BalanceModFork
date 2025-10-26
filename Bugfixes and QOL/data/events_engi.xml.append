@@ -4,4 +4,39 @@
 <mod:findName type="event" name="ENGI_STATION_DISTRESS">
 	<mod-append:distressBeacon/>
 </mod:findName>
+
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="event" name="ENGI_SEX"/>
+		<mod:findName type="event" name="ENGI_VIRUS"/>
+	</mod:par>
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="choice">
+				<mod:findLike type="event">
+					<mod:findLike type="autoReward">
+						<mod:setAttributes level="MED"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findComposite>
+
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="ship" name="ENGI_VIRUS_SHIP"/>
+		<mod:findName type="ship" name="ENGI_VIRUS_SHIP_ALT"/>
+	</mod:par>
+	<mod:findLike type="destroyed">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="MED"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="deadCrew">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="MED"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findComposite>
 </FTL>

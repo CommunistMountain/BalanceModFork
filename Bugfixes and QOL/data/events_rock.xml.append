@@ -18,6 +18,18 @@
 	</mod:findLike>
 </mod:findName>
 
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="eventList" name="ROCK_LOOTING_STRIP"/>
+		<mod:findName type="eventList" name="ROCK_LOOTING_SLUG"/>
+	</mod:par>
+	<mod:findLike type="event">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="LOW"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findComposite>
+
 <mod:findName type="event" name="ROCK_MANTIS_FREIGHTER">
 	<mod:findLike type="choice">
 		<mod:findLike type="event">
