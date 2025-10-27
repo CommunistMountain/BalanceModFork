@@ -94,6 +94,17 @@ Mod order:
 		<li>Rock: 1 left, 3 up (except clone sprite: 1 left, 1 up)</li>
 		<li>Slug: 1 right</li>
 	</ol>
+	<li>Ship floor images now have consistent width around walls and doors, and reveal more of the underlying art.</li>
+	<li>Ships with symmetrical hulls, and rooms that don't match the symmetry, have their rooms shifted:</li>
+	<ol>
+		<li>Kestrel A: 1 down</li>
+		<li>Kestrel C: 1 down</li>
+		<li>Slug B: 3 up</li>
+		<li>Stealth A: 2 up</li>
+		<li>Stealth C: 2 up</li>
+		<li>Lanius A: 1 up</li>
+		<li>Lanius B: 1 up</li>
+	</ol>
 	<li>playerHpColorFix: HP color now scales according to a 3-third ratio instead of a hardcoded value.</li>
 	<li>warningLightPositionFix: Warning lights that appear during a fire or breach are now positioned correctly.</li>
 	<li>shiftotherelementsslightlytotheleftsotheyrealigned: Fixes crew being visually offset.</li>

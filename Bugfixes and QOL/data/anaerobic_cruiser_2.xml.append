@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findLike type="img">
+	<mod:setAttributes y="-128"/>
+</mod:findLike>
+
+<mod:findLike type="offsets">
+    <mod:findLike type="floor">
+        <mod:setAttributes x="147" y="122"/>
+    </mod:findLike>
+</mod:findLike>
+</FTL>

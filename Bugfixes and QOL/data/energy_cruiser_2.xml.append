@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findLike type="offsets">
+    <mod:findLike type="floor">
+        <mod:setAttributes x="114" y="82"/>
+    </mod:findLike>
+</mod:findLike>
+</FTL>

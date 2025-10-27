@@ -13,6 +13,22 @@
 	</mod:findLike>
 </mod:findName>
 
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_3"/>
+		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE_3"/>
+		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED_3"/>
+		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY_3"/>
+		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH_3"/>
+		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ENERGY_3"/>
+		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK_3"/>
+		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS_3"/>
+	</mod:par>
+    <mod:findLike type="floorImage">
+        <mod:removeTag/>
+    </mod:findLike>
+</mod:findComposite>
+
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_3">
 	<mod:findLike type="crewCount">
 		<mod:removeTag/>
