@@ -47,12 +47,12 @@ Mod order:
 			<li>Weapon rewards outside autoReward no longer overwrite autoReward drones and augments. Fixes events CRYSTAL_CACHE and DONOR_MANTIS_CHASE in rare cases, and event CRYSTAL_HELP_DIG now gives an augment and high scrap with the free weapon as intended.</li>
 			<li>Drone rewards outside autoReward no longer overwrite autoReward weapons and augments. Fixes event ZOLTAN_CREW_STUDY in rare cases.</li>
 		</ol>		
-		<li>CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK: Fixed certain options having a chance of not consuming resources, if the reward after the choice includes that resource.</li>
+		<li>CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK: Fixed certain options having a chance of not consuming resources, if the reward after the choice includes that resource. (I used a custom autoReward for this, ideally HS can fix this in the future so that they aren't required.)</li>
 	</ol>
 	<li>SHIPS:</li>
 	<ol>
-		<li>Rebel Disruptor (REBEL_FAT_DLC): Hacking max from 1 to 2</li>
 		<li>Pirate Mantis Interceptor (MANTIS_SCOUT_P_DLC): Highest sector it can appear from 5 to 6.</li>
+		<li>Rebel Disruptor (REBEL_FAT_DLC): Hacking max from 1 to 2</li>
 		<li>Pirate Slug Instigator (JELLY_TRUFFLE_P_DLC): Pilot max from 1 to 3</li>
 	</ol>
 </ol>
@@ -87,11 +87,11 @@ Mod order:
 	<li>Ship Upgrade Menu: Fixed misaligned Accept button base.</li>
 	<li>Shifted misaligned crew sprites:</li>
 	<ol>
-		<li>Crystal: 1 left</li>
-		<li>Engi: 1 left</li>
-		<li>Lanius: 1 right, except clone sprite which is shifted 1 left</li>
-		<li>Mantis: 1 left</li>
-		<li>Rock: 1 left</li>
+		<li>Crystal: 1 left, 2 up (except clone sprite: 1 left)</li>
+		<li>Engi: 1 left, 1 up</li>
+		<li>Lanius: 1 right, 2 up (except clone sprite: 1 left, 2 up)</li>
+		<li>Mantis: 1 left, 2 up</li>
+		<li>Rock: 1 left, 3 up (except clone sprite: 1 left, 1 up)</li>
 		<li>Slug: 1 right</li>
 	</ol>
 	<li>playerHpColorFix: HP color now scales according to a 3-third ratio instead of a hardcoded value.</li>
