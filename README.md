@@ -28,26 +28,32 @@ Mod order:
 	<li>cloakRenderFix: Cloaking while no crew is on board no longer hides rooms.</li>
 	<li>disableDefaultTutorial: HS breaks the tutorial. This replaces it with a custom tutorial (still incomplete at the time of writing though).</li>
 	<li>multipleOverCapacity: If you are over capacity on 2+ weapons/drones/augments, multiple Over Capacity boxes will contain all new items, allowing you to pick which ones to leave behind. If you are at a store, you also get the chance to sell what is in the Over Capacity boxes.</li>
-	<li>EVENTS (**take special note of bold**):</li>
+	<li>EVENTS:</li>
 	<ol>
-		<li>**ALISON_DEFECTOR**: Now unable to tell if the defector is lying or not about wanting to join you.</li>
-		<li>CIVILIAN_ASTEROIDS_BEACON, ENGI_SEX, ENGI_STATION_DISTRESS, ENGI_VIRUS, FEDERATION_PLANET_SIGNAL, LANIUS_AUTO_REBEL, REBEL_VS_FEDERATION, PIRATE_SMUGGLE, REBEL_TRANSPORT, ROCK_LOOTING: Fixed some of their outcomes being Random tier, they are now Medium tier (ENGI_SEX and ENGI_VIRUS) or Low tier (the rest) as intended.</li>
-		<li>**CRYSTAL_HUNTER**: Fight no longer continues after accepting their surrender offer.</li>
+		<li>ALISON_DEFECTOR: Now unable to tell if the defector is lying or not about wanting to join you.</li>
+		<li>CIVILIAN_ASTEROIDS_BEACON, ENGI_STATION_DISTRESS, FEDERATION_PLANET_SIGNAL, REBEL_VS_FEDERATION: Fixed Medium scrap not being awarded along with the crewmember, if the fight is against an Elite Rebel ship.</li>
+		<li>CRYSTAL_HUNTER: Fight no longer continues after accepting their surrender offer.</li>
 		<li>DISTRESS_STATION_FIRE, LANIUS_BEACON_EATER, PIRATE_SALESMAN: Fixed drone and hacking options not requiring 1 drone part.</li>
+		<li>ENGI_SEX, ENGI_VIRUS, LANIUS_AUTO_REBEL, PIRATE_SMUGGLE, REBEL_TRANSPORT, ROCK_LOOTING: Fixed some of their outcomes being Random tier, they are now Medium tier (ENGI_SEX and ENGI_VIRUS) or Low tier (the rest) as intended.</li>
 		<li>ENGI_STATION_DISTRESS, PIRATE_CIVILIAN_BEACON, REBEL_VS_FEDERATION, SLUG_DISTRESS_RESCUE, SLUG_DISTRESS_TRICK: Now appear at Distress Beacons on the map.</li>
-		<li>**ENGI_UNLOCK_1**: Now unable to tell the difference between the real and fake ships through minor text differences, or based on when they decide to surrender.</li>
+		<li>ENGI_UNLOCK_1: Now unable to tell the difference between the real and fake ships through minor text differences, or based on when they decide to surrender.</li>
 		<li>ESCORT_BEACON and QUEST_ESCORT: extended the conversation when you get the reactor upgrade outcome, so that revisiting the beacon multiple times will not upgrade your reactor again for free.</li>
-		<li>FEDERATION_PLANET_SIGNAL: Fixed Medium scrap not being awarded along with the crewmember, if the fight is against an Elite Rebel ship.</li>
 		<li>MERCHANT_REQUEST: Added missing Lifeform Scanner blue option from the STATION_SICK event.</li>
 		<li>ROCK_STARSHIP_MINE: Fixed missile option not requiring 1 missile.</li>
 		<li>STORM_BOARDING, STORM_REBEL, STORM_SLUG_FIGHT: These events no longer appear to be at non-nebula beacons on the map in Slug Controlled Nebula and Slug Home Nebula, and will slow the Rebel fleet appropriately.</li>
 		<li>AutoReward interactions with free weapon/drone/augment:</li>
 		<ol>
 			<li>Augment rewards outside autoReward now overwrite autoReward augments, instead of being overwritten by autoReward augments. Fixes events ENGI_UNLOCK_1, ENGI_VIRUS and NEBULA_SLUG_FIGHT_UNLOCK in rare cases.</li>
-			<li>Weapon rewards outside autoReward no longer overwrite autoReward drones and augments. Fixes events CRYSTAL_CACHE and DONOR_MANTIS_CHASE in rare cases, and event **CRYSTAL_HELP_DIG** now gives an augment and high scrap with the free weapon as intended.</li>
+			<li>Weapon rewards outside autoReward no longer overwrite autoReward drones and augments. Fixes events CRYSTAL_CACHE and DONOR_MANTIS_CHASE in rare cases, and event CRYSTAL_HELP_DIG now gives an augment and high scrap with the free weapon as intended.</li>
 			<li>Drone rewards outside autoReward no longer overwrite autoReward weapons and augments. Fixes event ZOLTAN_CREW_STUDY in rare cases.</li>
 		</ol>		
 		<li>CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK: Fixed certain options having a chance of not consuming resources, if the reward after the choice includes that resource.</li>
+	</ol>
+	<li>SHIPS:</li>
+	<ol>
+		<li>Rebel Disruptor (REBEL_FAT_DLC): Hacking max from 1 to 2</li>
+		<li>Pirate Mantis Interceptor (MANTIS_SCOUT_P_DLC): Highest sector it can appear from 5 to 6.</li>
+		<li>Pirate Slug Instigator (JELLY_TRUFFLE_P_DLC): Pilot max from 1 to 3</li>
 	</ol>
 </ol>
 

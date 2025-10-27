@@ -5,6 +5,14 @@
 	<mod-append:name>MISSILES_HULL</mod-append:name>
 </mod:findName>
 
+<mod:findName type="shipBlueprint" name="REBEL_FAT_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="hacking">
+			<mod:setAttributes max="2"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_3">
 	<mod:findLike type="crewCount">
 		<mod:removeTag/>
