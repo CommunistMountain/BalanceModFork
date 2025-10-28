@@ -133,6 +133,13 @@ Mod order:
 		<li>Crystal Lockdown power mentions the duration and the cooldown (starting from when you use it): (12s/50s)</li>
 		<li>Upgraded doors show their Easy/Normal/Hard hit points in brackets, e.g. Blast Doors (12/8/6).</li>
 		<li>Added '%' after Engines dodge chance.</li>
+		<li>Added duration, health boost and damage boost to Mind Control level descriptions.</li>
+		<li>More information about hacking targets:</li>
+		<ol>
+			<li>Oxygen: -6%/s</li>
+			<li>Medbay: -12.8 HP/s</li>
+			<li>Drones and Hacking: 39%/62%/77% chance of destroying the drone in a level 1/2/3 hack</li>
+		</ol>
 		<li>NPC Zoltan ships are now called Zoltan X instead of Energy X.</li>
 	</ol>
 </ol>

@@ -5,16 +5,49 @@
 	<mod:setValue>锁定能量(12s/50s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
-    <mod:setValue>防爆舱门(12/8/6)</mod:setValue>
+    <mod:setValue>12/8/6 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_3">
-    <mod:setValue>改进型防爆舱门(16/12/10)</mod:setValue>
+    <mod:setValue>16/12/10 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_4">
-    <mod:setValue>超级防爆舱门(20/18/15)</mod:setValue>
+    <mod:setValue>20/18/15 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>闪避：\1% / 超光速：\2 倍</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="mind_1">
+    <mod:setValue>14s</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="mind_2">
+    <mod:setValue>20s, +15 HP, +25% DPS</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="mind_3">
+    <mod:setValue>28s, +30 HP, +100% DPS</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_oxygen">
+    <mod:setValue>暂时抽掉敌舰的氧气。(-6%/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_medbay">
+    <mod:setValue>暂时使医疗舱伤害而不是治疗敌方船员。(-12.8 HP/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_drones">
+    <mod:setValue>暂时冻结敌方无人机，并有机率将其摧毁。(39%/62%/77%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_hacking">
+    <mod:setValue>暂时中断并关闭敌方的黑客系统。(39%/62%/77%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_oxygen_player">
+    <mod:setValue>系统被劫持：正在快速失去氧气。(-6%/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_medbay_player">
+    <mod:setValue>系统被劫持：医疗舱对船员造成伤害！(-12.8 HP/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_drones_player">
+    <mod:setValue>系统被劫持：无人机被眩晕并可能爆炸。(39%/62%/77%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_hacking_player">
+    <mod:setValue>系统被劫持：黑客攻击暂时中断(39%/62%/77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
 	<mod:setValue>佐尔坦轰炸舰</mod:setValue>

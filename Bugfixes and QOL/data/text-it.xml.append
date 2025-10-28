@@ -5,16 +5,49 @@
 	<mod:setValue>Potenza isolante (12s/50s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
-    <mod:setValue>porte blindate (12/8/6)</mod:setValue>
+    <mod:setValue>12/8/6 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_3">
-    <mod:setValue>porte ultrablindate (16/12/10)</mod:setValue>
+    <mod:setValue>16/12/10 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_4">
-    <mod:setValue>porte corazzate (20/18/15)</mod:setValue>
+    <mod:setValue>20/18/15 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>schivata: \1% / FTL: x\2</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="mind_1">
+    <mod:setValue>14s</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="mind_2">
+    <mod:setValue>20s, +15 HP, +25% DPS</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="mind_3">
+    <mod:setValue>28s, +30 HP, +100% DPS</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_oxygen">
+    <mod:setValue>Sottrae temporaneamente ossigeno alla nave nemica. (-6%/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_medbay">
+    <mod:setValue>Temporaneamente, l'infermeria infligge danni all'equipaggio nemico invece di curarlo. (-12.8 HP/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_drones">
+    <mod:setValue>Blocca temporaneamente i droni nemici e può distruggerli. (39%/62%/77%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_hacking">
+    <mod:setValue>Interrompe e disattiva temporaneamente l'hacking nemico. (39%/62%/77%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_oxygen_player">
+    <mod:setValue>SISTEMA HACKERATO: OSSIGENO IN ESAURIMENTO. (-6%/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_medbay_player">
+    <mod:setValue>SISTEMA HACKERATO: L'INFERMERIA FERISCE L'EQUIPAGGIO! (-12.8 HP/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_drones_player">
+    <mod:setValue>SISTEMA HACKERATO: DRONI STORDITI, PERICOLO DI ESPLOSIONE. (39%/62%/77%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_hacking_player">
+    <mod:setValue>SISTEMA HACKERATO: HACKING MOMENTANEAMENTE INTERROTTO. (39%/62%/77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
 	<mod:setValue>Bombardiere zoltan</mod:setValue>
