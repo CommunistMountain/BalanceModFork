@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="crew_crystal_power_1">
+	<mod:setValue>Bloqueo (12s/50s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_2">
+    <mod:setValue>Puertas reforzadas (12/8/6)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_3">
+    <mod:setValue>Puertas reforzadas mejoradas (16/12/10)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_4">
+    <mod:setValue>Puertas superreforzadas (20/18/15)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="engine">
+    <mod:setValue>Evasión: \1%/Salto: x\2</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
 	<mod:setValue>Bombardero zoltan</mod:setValue>
 </mod:findName>
@@ -15,17 +30,5 @@
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
 	<mod:setValue>Caza zoltan</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="door_2">
-    <mod:setValue>Puertas reforzadas (12/8/6)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="door_3">
-    <mod:setValue>Puertas reforzadas mejoradas (16/12/10)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="door_4">
-    <mod:setValue>Puertas superreforzadas (20/18/15)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="engine">
-    <mod:setValue>Evasión: \1%/Salto: x\2</mod:setValue>
 </mod:findName>
 </FTL>

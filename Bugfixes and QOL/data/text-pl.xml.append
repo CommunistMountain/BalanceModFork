@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="crew_crystal_power_1">
+	<mod:setValue>Moc blokady (12s/50s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_2">
+    <mod:setValue>Grodzie (12/8/6)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_3">
+    <mod:setValue>Ulepszone grodzie (16/12/10)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_4">
+    <mod:setValue>Pancerne grodzie (20/18/15)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="engine">
+    <mod:setValue>Unik: \1% / FTL: \2x</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
 	<mod:setValue>Bombowiec Zoltan</mod:setValue>
 </mod:findName>
@@ -15,17 +30,5 @@
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
 	<mod:setValue>Myśliwiec Zoltan</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="door_2">
-    <mod:setValue>Grodzie (12/8/6)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="door_3">
-    <mod:setValue>Ulepszone grodzie (16/12/10)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="door_4">
-    <mod:setValue>Pancerne grodzie (20/18/15)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="engine">
-    <mod:setValue>Unik: \1% / FTL: \2x</mod:setValue>
 </mod:findName>
 </FTL>
