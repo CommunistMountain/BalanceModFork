@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
+	<mod:setValue>Apaga automaticamente incêndios na nave. (83%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_NANO_MEDBAY_desc">
+	<mod:setValue>Nanobots médicos Engi que curam a tripulação fora da ala médica. (1.6 HP/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_REPAIR_ARM_desc">
+	<mod:setValue>Repara o casco toda vez que você coleta sucata (2), mas reduz 15% da sucata coletada.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_SLUG_GEL_desc">
+	<mod:setValue>Naves trópodes liberam um gel viscoso que sempre repara rupturas no casco. (75%)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_1">
 	<mod:setValue>Consome oxigênio das salas. (=Ruptura)</mod:setValue>
 </mod:findName>

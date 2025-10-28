@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
+	<mod:setValue>自动扑灭飞船中的火情。(83%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_NANO_MEDBAY_desc">
+	<mod:setValue>恩吉纳米医疗机器人可治愈医疗舱之外的船员。(1.6 HP/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_REPAIR_ARM_desc">
+	<mod:setValue>在每次收集废料时修理舰体(2)，但收集的废料减少 15%。</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_SLUG_GEL_desc">
+	<mod:setValue>斯拉格飞船分泌可自动修复任何舰体损伤的厚凝胶。(75%)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_1">
 	<mod:setValue>会消耗舱室内的氧气。(=破舱弹)</mod:setValue>
 </mod:findName>

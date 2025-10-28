@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
+	<mod:setValue>Automatycznie gasi pożary na całym statku. (83%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_NANO_MEDBAY_desc">
+	<mod:setValue>Nanoboty medyczne Engi leczą załogę poza ambulatorium. (1.6 HP/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_REPAIR_ARM_desc">
+	<mod:setValue>Zmniejsza o 15% ilość znajdowanego złomu, jednak naprawia kadłub za każdym razem, kiedy go zbierasz. (2)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_SLUG_GEL_desc">
+	<mod:setValue>Statki Ślimaków wydzielają gęsty żel, który automatycznie naprawia przebicia kadłuba. (75%)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_1">
 	<mod:setValue>Wysysa tlen z przedziałów. (=Przebicie)</mod:setValue>
 </mod:findName>

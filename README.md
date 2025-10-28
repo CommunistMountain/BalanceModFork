@@ -130,6 +130,7 @@ Mod order:
 	<li>Rebel Flagship and Rebel Elites no longer try to escape if you are out of fuel (this mechanic which is meant to avoid stalemates ironically causes an even worse stalemate in the case of these enemies). This also solves a bug where you have no fuel while fighting the Phase 3 RFS, and win when it leaves.</li>
 	<li>TEXT (includes changes for all languages unless otherwise stated):</li>
 	<ol>
+		<li>Augments Engi Med-bot Dispersal, Fire Suppression, Repair Arm and Slug Repair Gel have numbers that state their effectiveness (1.6 HP/s, 83% of baseline, 2 repairs, 75% of baseline respectively)
 		<li>Crystal description: stated Lockdown duration, and cooldown starting from when you use it (12s/50s); stated -50% suffocation damage and -17% firefighting speed.</li>
 		<li>Lanius description: stated that oxygen drain is equivalent to a breach, and that it has -15% speed.</li>
 		<li>Human description: stated +11% experience gain (they have -10% experience required).</li>

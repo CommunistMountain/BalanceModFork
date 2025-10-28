@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
+	<mod:setValue>Löscht automatisch jedes Feuer an Bord. (83%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_NANO_MEDBAY_desc">
+	<mod:setValue>Engi-Nano-Medbots heilen die Crew außerhalb der Krankenstation. (1.6 HP/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_REPAIR_ARM_desc">
+	<mod:setValue>Repariert die Schiffshülle (2), wenn du Schrott einsammelst, aber reduziert die eingesammelte Menge um 15%.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_SLUG_GEL_desc">
+	<mod:setValue>Snecko-Schiffe sondern ein dickes Gel ab, das automatisch Löcher in der Hülle repariert. (75%)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_1">
 	<mod:setValue>Entzieht Räumen Sauerstoff. (=Bruch)</mod:setValue>
 </mod:findName>

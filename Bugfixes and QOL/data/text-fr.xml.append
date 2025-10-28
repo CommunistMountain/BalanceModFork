@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
+	<mod:setValue>Éteint automatiquement tous les incendies qui se sont déclenchés à bord du vaisseau. (83%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_NANO_MEDBAY_desc">
+	<mod:setValue>Les nanomédibots engis soignent même en dehors de l'infirmerie. (1.6 HP/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_REPAIR_ARM_desc">
+	<mod:setValue>Répare votre coque chaque fois que vous ramassez de la ferraille (2), ce qui réduit la quantité de ferraille récupérée de 15%.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_SLUG_GEL_desc">
+	<mod:setValue>Les vaisseaux des Limaces excrètent un gel épais qui répare automatiquement les trous dans la coque. (75%)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_1">
 	<mod:setValue>Vide l'oxygène des salles (=Trou dans la coque)</mod:setValue>
 </mod:findName>

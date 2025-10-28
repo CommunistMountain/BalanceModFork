@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
+	<mod:setValue>Тушение всех пожаров на борту корабля происходит в автоматическом режиме. (83%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_NANO_MEDBAY_desc">
+	<mod:setValue>Медицинские нанороботы энджи лечат экипаж за пределами медотсека. (1.6 HP/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_REPAIR_ARM_desc">
+	<mod:setValue>Каждый раз при сборе лома проводится ремонт корпуса (2), но количество лома при этом уменьшается на 15%.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_SLUG_GEL_desc">
+	<mod:setValue>Корабли слизней выделяют густой гель, автоматически затягивающий любые пробоины в корпусе. (75%)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_1">
 	<mod:setValue>Снижает уровень кислорода в отсеке. (=Пробоина)</mod:setValue>
 </mod:findName>
