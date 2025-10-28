@@ -10,6 +10,18 @@
 <mod:findName type="text" name="crew_crystal_power_1">
 	<mod:setValue>Блокирует отсеки (12s/50s)</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="crew_crystal_power_2">
+	<mod:setValue>Меньше урона от нехватки кислорода. (-50%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_crystal_power_3">
+	<mod:setValue>Передвигается -20%; Пожаротушение -17%</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_human_power_1">
+	<mod:setValue>Развивает умения чуть быстрее. (+11%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_rock_power_1">
+	<mod:setValue>Не получает урона от огня. (Пожаротушение +67%)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
 </mod:findName>

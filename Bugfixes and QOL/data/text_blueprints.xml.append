@@ -10,6 +10,18 @@
 <mod:findName type="text" name="crew_crystal_power_1">
 	<mod:setValue>Lockdown power (12s/50s)</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="crew_crystal_power_2">
+	<mod:setValue>Reduced suffocation damage (-50%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_crystal_power_3">
+	<mod:setValue>Movement speed -20%; Firefighting -17%</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_human_power_1">
+	<mod:setValue>Skills improve slightly faster (+11%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_rock_power_1">
+	<mod:setValue>Immune to fire (Firefighting +67%)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
 	<mod:setValue>Zoltan Bomber</mod:setValue>
 </mod:findName>

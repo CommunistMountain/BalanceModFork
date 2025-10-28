@@ -10,6 +10,18 @@
 <mod:findName type="text" name="crew_crystal_power_1">
 	<mod:setValue>Sperrkraft (12s/50s)</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="crew_crystal_power_2">
+	<mod:setValue>Verringerter Schaden durch Sauerstoffmangel. (-50%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_crystal_power_3">
+	<mod:setValue>Bewegung -20%; Brandbekämpfung -17%</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_human_power_1">
+	<mod:setValue>Fertigkeiten verbessern sich etwas schneller. (+11%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_rock_power_1">
+	<mod:setValue>Immun gegen Feuer. (Brandbekämpfung +67%)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
 </mod:findName>

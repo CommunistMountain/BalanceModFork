@@ -130,8 +130,10 @@ Mod order:
 	<li>Rebel Flagship and Rebel Elites no longer try to escape if you are out of fuel (this mechanic which is meant to avoid stalemates ironically causes an even worse stalemate in the case of these enemies). This also solves a bug where you have no fuel while fighting the Phase 3 RFS, and win when it leaves.</li>
 	<li>TEXT (includes changes for all languages unless otherwise stated):</li>
 	<ol>
-		<li>Crystal Lockdown power mentions the duration and the cooldown (starting from when you use it): (12s/50s)</li>
+		<li>Crystal description: stated Lockdown duration, and cooldown starting from when you use it (12s/50s); stated -50% suffocation damage and -17% firefighting speed.</li>
 		<li>Lanius description: stated that oxygen drain is equivalent to a breach, and that it has -15% speed.</li>
+		<li>Human description: stated +11% experience gain (they have -10% experience required).</li>
+		<li>Rock description: stated +67% firefighting speed.</li>
 		<li>Upgraded doors show their Easy/Normal/Hard hit points in brackets, e.g. Blast Doors (12/8/6).</li>
 		<li>Added '%' after Engines dodge chance.</li>
 		<li>Added duration, health boost and damage boost to Mind Control level descriptions.</li>

@@ -10,6 +10,18 @@
 <mod:findName type="text" name="crew_crystal_power_1">
 	<mod:setValue>Potenza isolante (12s/50s)</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="crew_crystal_power_2">
+	<mod:setValue>Danno da soffocamento ridotto (-50%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_crystal_power_3">
+	<mod:setValue>Velocità di movimento -20%; Antincendio -17%</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_human_power_1">
+	<mod:setValue>Le loro abilità migliorano leggermente prima della media. (+11%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_rock_power_1">
+	<mod:setValue>Immunità al fuoco (Antincendio +67%)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
 </mod:findName>

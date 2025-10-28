@@ -10,6 +10,18 @@
 <mod:findName type="text" name="crew_crystal_power_1">
 	<mod:setValue>Moc blokady (12s/50s)</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="crew_crystal_power_2">
+	<mod:setValue>Mniejsze obrażenia spowodowane brakiem powietrza (-50%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_crystal_power_3">
+	<mod:setValue>Szybkość ruchu -20%; Pożarnictwo -17%</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_human_power_1">
+	<mod:setValue>Nieco szybsze zdobywanie umiejętności (+11%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_rock_power_1">
+	<mod:setValue>Odporność na ogień (Pożarnictwo +67%)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
 </mod:findName>

@@ -10,6 +10,18 @@
 <mod:findName type="text" name="crew_crystal_power_1">
 	<mod:setValue>Bloqueo (12s/50s)</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="crew_crystal_power_2">
+	<mod:setValue>Daño por asfixia reducido (-50%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_crystal_power_3">
+	<mod:setValue>Velocidad de movimiento -20%; Contra incendios -17%</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_human_power_1">
+	<mod:setValue>Mejora de habilidades un poco más rápida (+11%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_rock_power_1">
+	<mod:setValue>Inmune al fuego (Contra incendios +67%)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
 </mod:findName>
