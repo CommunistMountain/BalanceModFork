@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="crew_anaerobic_power_1">
+	<mod:setValue>Risucchiano ossigeno dalle stanze. (=perforazione)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_anaerobic_power_2">
+	<mod:setValue>L'assenza di ossigeno non li danneggia, ma li rallenta. (-15%)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="crew_crystal_power_1">
 	<mod:setValue>Potenza isolante (12s/50s)</mod:setValue>
 </mod:findName>

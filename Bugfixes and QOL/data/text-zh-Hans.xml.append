@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="crew_anaerobic_power_1">
+	<mod:setValue>会消耗舱室内的氧气。(=破舱弹)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_anaerobic_power_2">
+	<mod:setValue>移动缓慢(-15%)但不会因缺氧受到伤害。</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="crew_crystal_power_1">
 	<mod:setValue>锁定能量(12s/50s)</mod:setValue>
 </mod:findName>

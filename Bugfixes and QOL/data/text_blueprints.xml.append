@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="crew_anaerobic_power_1">
+	<mod:setValue>Drains oxygen from rooms. (=Breach)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_anaerobic_power_2">
+	<mod:setValue>Slow movement (-15%) but no damage from lack of oxygen.</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="crew_crystal_power_1">
 	<mod:setValue>Lockdown power (12s/50s)</mod:setValue>
 </mod:findName>

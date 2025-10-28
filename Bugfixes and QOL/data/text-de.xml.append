@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="crew_anaerobic_power_1">
+	<mod:setValue>Entzieht Räumen Sauerstoff. (=Bruch)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_anaerobic_power_2">
+	<mod:setValue>Langsame Bewegung (-15%), aber kein Schaden durch Sauerstoffmangel.</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="crew_crystal_power_1">
 	<mod:setValue>Sperrkraft (12s/50s)</mod:setValue>
 </mod:findName>

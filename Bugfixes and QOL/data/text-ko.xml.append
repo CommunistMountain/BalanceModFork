@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="crew_anaerobic_power_1">
+	<mod:setValue>선실 내부의 산소를 빨아들입니다. (=선체 균열)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_anaerobic_power_2">
+	<mod:setValue>이동속도는 느리지 (-15%) 만저산소증으로 인한 피해를 입지 않습니다.</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="crew_crystal_power_1">
 	<mod:setValue>봉쇄 (12s/50s)</mod:setValue>
 </mod:findName>

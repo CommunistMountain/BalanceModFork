@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="crew_anaerobic_power_1">
+	<mod:setValue>Wysysa tlen z przedziałów. (=Przebicie)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_anaerobic_power_2">
+	<mod:setValue>Niska szybkość ruchu (-15%), nie otrzymuje obrażeń spowodowanych brakiem powietrza.</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="crew_crystal_power_1">
 	<mod:setValue>Moc blokady (12s/50s)</mod:setValue>
 </mod:findName>
