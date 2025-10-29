@@ -281,6 +281,8 @@
 		<mod:findLike type="artilleryGibMountFix"/>
 		<mod:findLike type="multiShipFix"/>
 		<mod:findLike type="scaleSlugGel"/>
+		<mod:findLike type="customChoiceColors"/>
+		<mod:findLike type="customTextStyle"/>
 	</mod:par>
 	<mod:setAttributes enabled="true"/>
 </mod:findComposite>

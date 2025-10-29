@@ -35,7 +35,7 @@ Mod order:
 		<li>CRYSTAL_HUNTER: Fight no longer continues after accepting their surrender offer.</li>
 		<li>DISTRESS_STATION_FIRE, LANIUS_BEACON_EATER, PIRATE_SALESMAN: Fixed drone and hacking options not requiring 1 drone part.</li>
 		<li>ENGI_SEX, ENGI_VIRUS, LANIUS_AUTO_REBEL, PIRATE_SMUGGLE, REBEL_TRANSPORT, ROCK_LOOTING: Fixed some of their outcomes being Random tier, they are now Medium tier (ENGI_SEX and ENGI_VIRUS) or Low tier (the rest) as intended.</li>
-		<li>ENGI_STATION_DISTRESS, PIRATE_CIVILIAN_BEACON, REBEL_VS_FEDERATION, SLUG_DISTRESS_RESCUE, SLUG_DISTRESS_TRICK: Now appear at Distress Beacons on the map.</li>
+		<li>ENGI_STATION_DISTRESS, PIRATE_CIVILIAN_BEACON, REBEL_VS_FEDERATION, SLUG_DISTRESS_RESCUE, SLUG_DISTRESS_TRICK: Fixed these events not appearing at Distress Beacons on the map.</li>
 		<li>ENGI_UNLOCK_1: Now unable to tell the difference between the real and fake ships through minor text differences, or based on when they decide to surrender.</li>
 		<li>ESCORT_BEACON and QUEST_ESCORT: extended the conversation when you get the reactor upgrade outcome, so that revisiting the beacon multiple times will not upgrade your reactor again for free.</li>
 		<li>MERCHANT_REQUEST: Added missing Lifeform Scanner blue option from the STATION_SICK event.</li>
@@ -51,9 +51,9 @@ Mod order:
 	</ol>
 	<li>SHIPS:</li>
 	<ol>
-		<li>Pirate Mantis Interceptor (MANTIS_SCOUT_P_DLC): Highest sector it can appear from 5 to 6.</li>
-		<li>Rebel Disruptor (REBEL_FAT_DLC): Hacking max from 1 to 2</li>
-		<li>Pirate Slug Instigator (JELLY_TRUFFLE_P_DLC): Pilot max from 1 to 3</li>
+		<li>Pirate Mantis Interceptor (MANTIS_SCOUT_P_DLC): Highest sector it can appear from 5 to 6, to match non-pirate version.</li>
+		<li>Rebel Disruptor (REBEL_FAT_DLC): Hacking max from 1 to 2, to match pirate version.</li>
+		<li>Pirate Slug Instigator (JELLY_TRUFFLE_P_DLC): Pilot max from 0 (effectively 1) to 3, to match non-pirate version.</li>
 	</ol>
 </ol>
 
@@ -94,6 +94,8 @@ Mod order:
 		<li>Rock: 1 left, 3 up (except clone sprite: 1 left, 1 up)</li>
 		<li>Slug: 1 right</li>
 	</ol>
+	<li>Federation Cruiser: Shield visually shorter by 1 pixel horizontally to match the ellipse size defined in the .txt.</li>
+	<li>Zoltan, Slug, Rock and Crystal Cruiser: Fixed unsmooth shields.</li>
 	<li>Ship floor images now have consistent width around walls and doors, and reveal more of the underlying art.</li>
 	<li>Ships with symmetrical hulls, and rooms that don't match the symmetry, have their rooms shifted:</li>
 	<ol>
@@ -166,7 +168,9 @@ Mod order:
 	<li>enemyPreigniterFix: Enemies are able to use the Weapon Pre-Igniter augment if they are defined to spawn with it.</li>
 	<li>artilleryGibMountFix: Artillery weapons with linked gibs will not vanish when the ship explodes.</li>
 	<li>multiShipFix: Allows multiple ships to be loaded per beacon.</li>
-	<li>scaleSlugGel: Slug Gel strength may now be edited by mods (value of 0.25 corresponds to vanilla speed)</li>
+	<li>scaleSlugGel: Slug Gel strength may now be edited by mods (value of 0.25 corresponds to vanilla speed).</li>
+	<li>customChoiceColors: Enables coloring choices.</li>
+	<li>customTextStyle: Enables coloring text.</li>
 	<li>systemNoPurchaseThreshold: Visual fix for high system costs so that they are limited to a certain number of digits (I chose 3), and if it's any higher, the cost is replaced with "--".</li>
 </ol>
 
