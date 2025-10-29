@@ -76,7 +76,10 @@ Mod order:
 		<li>Crystal A: Human Human Crystal Crystal -> CHCH</li>
 	</ol>
 	<li>(Not a feature of the mod, but HS itself: HS adds a magnifying glass at the bottom right of the screen during a run, which can be clicked to show you more info such as weapon cooldowns and beacon connections.)</li>
-	<li>checkCargo: Include cargo weapons/drones for event checks.</li>
+	<li>checkCargo: Include cargo weapons/drones for event checks (you still need the relevant system).</li>
+	<ol>
+		<li>Note for modders: this setting by itself allows weapons/drones to be used in choices without the system. I made custom requirement definitions in hyperspace.xml, then changed the requirements in event choices, to check for the system. You need to implement more custom requirements if your mod needs it.</li>
+	</ol>
 	<li>preIgniteChargers: Charge weapons can enter a fight fully charged if you have a Pre-Igniter.</li>
 </ol>
 
@@ -152,7 +155,8 @@ Mod order:
 
 ## Disabled HS defaults (I will remove them when future versions of HS have them disabled by default)
 <ol>
-	<li>dismissSound: the depressurization sound no longer plays when dismissing crew.</li>
+	<li>console: Disabled console.</li>
+	<li>dismissSound: The depressurization sound no longer plays when dismissing crew.</li>
 	<li>hackingDroneFix: Hacking drones do not explode mid-flight if Hacking system is depowered. (This setting is re-enabled in the Balance mod (or at least, I'm considering at the time of writing).)</li>
 	<li>repairDroneRecoveryFix: Drone Recovery Arm is not prevented from retrieving Hull Repair Drones that are still in the process of repairing your hull. (This setting is re-enabled in the Balance mod (or at least, I'm considering at the time of writing).)</li>
 	<li>surgeDrones: Drone distribution of Phase 2 Flagship Power Surge is not fixed to 2/2 Combat/Beam Drones on Easy, 3/3 on Normal, 4/3 on Hard. Each drone has a 50% chance of being either.</li>

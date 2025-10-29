@@ -136,6 +136,65 @@
 	</mod:findLike>
 </mod:findLike>
 
+<mod:findLike type="events" limit="1">
+	<mod-append:req name="MULTIREQ_BATTLE" type="all" lvl="1">
+		<req lvl="1">
+			<name>BATTLE</name>
+		</req>
+		<req lvl="1">
+			<name>drones</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="MULTIREQ_BOARDER" type="all" lvl="1">
+		<req lvl="1">
+			<name>BOARDER</name>
+		</req>
+		<req lvl="1">
+			<name>drones</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="MULTIREQ_COMBAT_BEAM_DRONE_LIST" type="all" lvl="1">
+		<req lvl="1">
+			<name>COMBAT_BEAM_DRONE_LIST</name>
+		</req>
+		<req lvl="1">
+			<name>drones</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="MULTIREQ_COMBAT_DRONE_LIST" type="all" lvl="1">
+		<req lvl="1">
+			<name>COMBAT_DRONE_LIST</name>
+		</req>
+		<req lvl="1">
+			<name>drones</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="MULTIREQ_DRONES_DEFENSE_LIST" type="all" lvl="1">
+		<req lvl="1">
+			<name>DRONES_DEFENSE_LIST</name>
+		</req>
+		<req lvl="1">
+			<name>drones</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="MULTIREQ_REPAIR" type="all" lvl="1">
+		<req lvl="1">
+			<name>REPAIR</name>
+		</req>
+		<req lvl="1">
+			<name>drones</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="MULTIREQ_SHIP_REPAIR" type="all" lvl="1">
+		<req lvl="1">
+			<name>SHIP_REPAIR</name>
+		</req>
+		<req lvl="1">
+			<name>drones</name>
+		</req>
+	</mod-append:req>
+</mod:findLike>
+
 <!--Bugfixes (non-gameplay)-->
 <mod:findComposite>
 	<mod:par op="OR">
@@ -235,6 +294,7 @@
 <!--Disabled HS Defaults; remove below and DRONES_BOSS_VANILLA in blueprints.xml.append once HS uses defaults that match vanilla.-->
 <mod:findComposite>
 	<mod:par op="OR">
+		<mod:findLike type="console"/>
 		<mod:findLike type="dismissSound"/>
 		<mod:findLike type="hackingDroneFix"/>
 		<mod:findLike type="repairDroneRecoveryFix"/>
