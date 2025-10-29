@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<!--Start of Speed UI. I made custom text too.-->
+<mod:findName type="event" name="START_BEACON">
+	<mod-append:choice>
+		<text id="continue"/>
+		<event/>
+	</mod-append:choice>
+	<mod-append:choice req="speedui_setting" blue="false" lvl="0" max_lvl="0">
+		<text id="speed_ui_disabled"/>
+		<event>
+			<metaVariable name="speedui_setting" op="set" val="1"/>
+			<loadEvent>START_BEACON</loadEvent>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="speedui_setting" blue="false" lvl="1" max_lvl="1">
+		<text id="speed_ui_variant_1"/>
+		<event>
+			<metaVariable name="speedui_setting" op="set" val="2"/>
+			<loadEvent>START_BEACON</loadEvent>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="speedui_setting" blue="false" lvl="2">
+		<text id="speed_ui_variant_2"/>
+		<event>
+			<metaVariable name="speedui_setting" op="set" val="0"/>
+			<loadEvent>START_BEACON</loadEvent>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+<!--End of Speed UI-->
+
 <mod:findName type="event" name="CIVILIAN_ASTEROIDS_BEACON_2">
 	<mod:findLike type="choice">
 	<mod:selector req="DRONES_DEFENSE_LIST"/>

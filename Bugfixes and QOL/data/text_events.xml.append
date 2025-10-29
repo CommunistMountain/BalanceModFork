@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<text name="speed_ui_disabled">Change Speed UI (currently disabled)</text>
+<text name="speed_ui_variant_1">Change Speed UI (currently Variant 1)</text>
+<text name="speed_ui_variant_2">Change Speed UI (currently Variant 2)</text>
+</FTL>

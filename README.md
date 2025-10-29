@@ -81,6 +81,13 @@ Mod order:
 		<li>Note for modders: this setting by itself allows weapons/drones to be used in choices without the system. I made custom requirement definitions in hyperspace.xml, then changed the requirements in event choices, to check for the system. You need to implement more custom requirements if your mod needs it.</li>
 	</ol>
 	<li>preIgniteChargers: Charge weapons can enter a fight fully charged if you have a Pre-Igniter.</li>
+	<li>Added Speed UI from INS+/MV. Credit to JamesTripleQ, slowriderxcorps, Arc, Chrono Vortex (and anyone else that I missed). At the start of each run, there will be an option to toggle which Speed UI variant you want (no way to change it mid-run).</li>
+	<ol>
+		<li>Disabled: Vanilla.</li>
+		<li>Enabled Variant 1: There are 3 buttons for selecting preset speeds: 0.125x, 1x and 2x from left to right. You may bind a key to "Toggle Speedhack" in Options -> Configure Keyboard Hotkeys, which allows you to conveniently switch between fixed 1x speed, and whatever speed you set with the buttons.</li>
+		<li>Enabled Variant 2: There are 2 buttons for adjusting speed, which range from -2 to 99 (unless if you have either Frame Limit or VSync setting on, in which case the cap is 2). -2 = 0.125x, -1 = 0.5x, 0 = 1x, 1 = 1.5x, 2 and above = Number x (I think). Left click changes it by 1, right click changes it by 5. The power button has the same function as the "Toggle Speedhack" hotkey mentioned above, and they can be used interchangeably.</li>
+		<li>NOTE: If you have set an FPS limit using an external program, the maximum speed will be dictated by that limit (unrelated to the in-game settings that caps max to 2x for Variant 2). 1x corresponds to 30FPS. So if you cap FPS at 30 to ensure level 1 Hacking can remove 2 shield layers, you will not be able to speed up (although slowing down is fine).</li>
+	</ol>
 </ol>
 
 ## Bugfixes (non-gameplay)
@@ -135,7 +142,7 @@ Mod order:
 	<li>Rebel Flagship and Rebel Elites no longer try to escape if you are out of fuel (this mechanic which is meant to avoid stalemates ironically causes an even worse stalemate in the case of these enemies). This also solves a bug where you have no fuel while fighting the Phase 3 RFS, and win when it leaves.</li>
 	<li>TEXT (includes changes for all languages unless otherwise stated):</li>
 	<ol>
-		<li>Augments Engi Med-bot Dispersal, Fire Suppression, Repair Arm and Slug Repair Gel have numbers that state their effectiveness (1.6 HP/s, 83% of baseline, 2 repairs, 75% of baseline respectively)
+		<li>Augments Engi Med-bot Dispersal, Fire Suppression, Repair Arm and Slug Repair Gel have numbers that state their effectiveness (1.6 HP/s, 83% of baseline, 2 repairs, 75% of baseline respectively)</li>
 		<li>Crystal description: stated Lockdown duration, and cooldown starting from when you use it (12s/50s); stated -50% suffocation damage and -17% firefighting speed.</li>
 		<li>Lanius description: stated that oxygen drain is equivalent to a breach, and that it has -15% speed.</li>
 		<li>Human description: stated +11% experience gain (they have -10% experience required).</li>

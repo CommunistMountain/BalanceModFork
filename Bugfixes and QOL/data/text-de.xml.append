@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<text name="speed_ui_disabled" language="de">Speed UI ändern (derzeit deaktiviert)</text>
+<text name="speed_ui_variant_1" language="de">Speed UI ändern (derzeit Variante 1)</text>
+<text name="speed_ui_variant_2" language="de">Speed UI ändern (derzeit Variante 2)</text>
 <mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
 	<mod:setValue>Löscht automatisch jedes Feuer an Bord. (83%)</mod:setValue>
 </mod:findName>

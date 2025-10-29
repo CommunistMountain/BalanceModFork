@@ -193,7 +193,16 @@
 			<name>drones</name>
 		</req>
 	</mod-append:req>
+	<!--Start of Speed UI-->
+	<mod-append:metaVariable name="speedui_setting" op="set" val="0"/>
+	<mod-append:metaVariable name="speedui_speed" op="set" val="0"/>
+	<mod-append:metaVariable name="speedui_toggle" op="set" val="0"/>
 </mod:findLike>
+
+<mod:findLike type="scripts" limit="1">
+	<mod-append:script>data/bugfixes_and_qol_scripts/speedui.lua</mod-append:script>
+</mod:findLike>
+<!--End of Speed UI-->
 
 <!--Bugfixes (non-gameplay)-->
 <mod:findComposite>
