@@ -196,7 +196,6 @@
     <!--Start of Speed UI-->
     <mod-append:metaVariable name="speedui_setting" op="set" val="0"/>
     <mod-append:metaVariable name="speedui_speed" op="set" val="0"/>
-    <mod-append:metaVariable name="speedui_toggle" op="set" val="0"/>
 </mod:findLike>
 
 <mod:findLike type="scripts" limit="1">
