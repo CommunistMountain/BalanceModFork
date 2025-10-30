@@ -59,7 +59,7 @@ Mod order:
 
 ## QOL (gameplay)
 <ol>
-    <li>Map: integrated Sleeper Games + MantisManMike's Enhanced Fleet Pursuit mod, showing the Rebel Fleet's position in future jumps.</li>
+    <li>Map: integrated Sleeper Games + MantisManMike's Enhanced Fleet Pursuit mod, showing the Rebel fleet's position in future jumps. Made it redder for better contrast against very bright white portions of backgrounds, and when the fleet is delayed, better contrast against very dark portions of backgrounds (lines in map_warningcircle.png from 0, 0, 0 at 10% opacity to 137, 58, 56 at 30% opacity).</li>
     <li>Mini-Beam: increased length from 45 to 47.</li>
     <li>Advanced Flak, Flak I, Flak II, Flak Artillery: removed fake projectiles.</li>
     <li>Shifted starting crew to generally better positions. Credit to MantisManMike. Order is Pilot, Engines, Weapons, Shields:</li>
@@ -78,9 +78,10 @@ Mod order:
     <li>(Not a feature of the mod, but HS itself: HS adds a magnifying glass at the bottom right of the screen during a run, which can be clicked to show you more info such as weapon cooldowns and beacon connections.)</li>
     <li>checkCargo: Include cargo weapons/drones for event checks (you still need the relevant system).</li>
     <ol>
-        <li>Note for modders: this setting by itself allows weapons/drones to be used in choices without the system. I made custom requirement definitions in hyperspace.xml, then changed the requirements in event choices, to check for the system. You need to implement more custom requirements if your mod needs it.</li>
+        <li>Note for modders: this setting by itself allows weapons/drones to be used in choices without the system. I made custom requirement definitions in hyperspace.xml (I named them MULTIREQ_thing), then changed the requirements in event choices, to check for the system. You need to use these custom requirements, or implement more custom requirements, if you also want to check for the system.</li>
     </ol>
     <li>preIgniteChargers: Charge weapons can enter a fight fully charged if you have a Pre-Igniter.</li>
+    <li>Rebel Flagship and Rebel Elites no longer try to escape if you are out of fuel (this mechanic which is meant to avoid stalemates ironically causes an even worse stalemate in the case of these enemies). This also solves a bug where you have no fuel while fighting the Phase 3 RFS, and win when it leaves.</li>
     <li>Added Speed UI from INS+/MV. Credit to JamesTripleQ, slowriderxcorps, Arc, Chrono Vortex (and anyone else that I missed). I have also improved its performance). At the start of each run, there will be an option to toggle which Speed UI variant you want:</li>
     <ol>
         <li>Disabled: Vanilla.</li>
@@ -119,7 +120,7 @@ Mod order:
     </ol>
     <li>playerHpColorFix: HP color now scales according to a 3-third ratio instead of a hardcoded value.</li>
     <li>warningLightPositionFix: Warning lights that appear during a fire or breach are now positioned correctly.</li>
-    <li>shiftotherelementsslightlytotheleftsotheyrealigned: Fixes crew being visually offset.</li>
+    <li>shiftotherelementsslightlytotheleftsotheyrealigned: Fixes crew arrows being visually offset.</li>
     <li>EVENTS:</li>
     <ol>
         <li>MERCHANT_REQUEST: Added text to an event where an "added quest marker" message has no accompanying text.</li>
@@ -139,7 +140,6 @@ Mod order:
     <li>renameShipInRun: Enable renaming your ship during a run, via a button beside the name.</li>
     <li>allowRenameInputSpecialCharacters: Allow special characters for names, such as Japanese.</li>
     <li>insertNewlineForMultipleCrewTooltips: Inserts a newline between each unit's description in a tooltip when mousing over a tile where multiple units are fighting.</li>
-    <li>Rebel Flagship and Rebel Elites no longer try to escape if you are out of fuel (this mechanic which is meant to avoid stalemates ironically causes an even worse stalemate in the case of these enemies). This also solves a bug where you have no fuel while fighting the Phase 3 RFS, and win when it leaves.</li>
     <li>TEXT (includes changes for all languages unless otherwise stated):</li>
     <ol>
         <li>Augments Engi Med-bot Dispersal, Fire Suppression, Repair Arm and Slug Repair Gel have numbers that state their effectiveness (1.6 HP/s, 83% of baseline, 2 repairs, 75% of baseline respectively)</li>

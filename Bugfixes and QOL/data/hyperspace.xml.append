@@ -136,6 +136,69 @@
     </mod:findLike>
 </mod:findLike>
 
+<mod:findLike type="ships" limit="1">
+    <mod-append:customShip name="BOSS_1_EASY">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_EASY">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_EASY">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_NORMAL">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_NORMAL">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_NORMAL">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_HARD">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_HARD">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_HARD">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_EASY_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_EASY_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_EASY_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_NORMAL_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_NORMAL_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_NORMAL_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_HARD_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_HARD_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_HARD_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="REBEL_SKINNY_ELITE">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="REBEL_SKINNY_ELITE_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+</mod:findLike>
+
 <mod:findLike type="events" limit="1">
     <mod-append:req name="MULTIREQ_BATTLE" type="all" lvl="1">
         <req lvl="1">
@@ -234,69 +297,6 @@
 
 <mod:findLike type="renameShipInRun">
     <mod:setAttributes enabled="true" allowButton="true"/>
-</mod:findLike>
-
-<mod:findLike type="ships" limit="1">
-    <mod-append:customShip name="BOSS_1_EASY">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_2_EASY">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_3_EASY">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_1_NORMAL">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_2_NORMAL">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_3_NORMAL">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_1_HARD">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_2_HARD">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_3_HARD">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_1_EASY_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_2_EASY_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_3_EASY_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_1_NORMAL_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_2_NORMAL_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_3_NORMAL_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_1_HARD_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_2_HARD_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_3_HARD_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="REBEL_SKINNY_ELITE">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="REBEL_SKINNY_ELITE_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
 </mod:findLike>
 
 <!--Disabled HS Defaults; remove below and DRONES_BOSS_VANILLA in blueprints.xml.append once HS uses defaults that match vanilla.-->

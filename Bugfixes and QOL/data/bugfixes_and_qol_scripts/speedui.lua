@@ -50,7 +50,15 @@ local numberImage = {
 }
 
 function initButtonSpeeds()
-    if Hyperspace.metaVariables.speedui_setting == 2 then
+    if Hyperspace.metaVariables.speedui_setting == 1 then
+        if Hyperspace.metaVariables.speedui_speed < 0 then
+            Hyperspace.FPS.speedLevel = -2
+        elseif Hyperspace.metaVariables.speedui_speed > 0 then
+            Hyperspace.FPS.speedLevel = 2
+        else -- elseif Hyperspace.metaVariables.speedui_speed == 0 then
+            Hyperspace.FPS.speedLevel = 0
+        end
+    elseif Hyperspace.metaVariables.speedui_setting == 2 then
         if Hyperspace.metaVariables.speedui_speed <= -2 then
             Hyperspace.FPS.speedLevel = -2
             upButton.bActive = true
@@ -82,7 +90,7 @@ script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function
             slowButton.bActive = false
             normButton.bActive = true
             fastButton.bActive = true
-        else -- Hyperspace.metaVariables.speedui_speed > 0 then
+        else -- elseif Hyperspace.metaVariables.speedui_speed > 0 then
             slowButton.bActive = true
             normButton.bActive = true
             fastButton.bActive = false
@@ -100,9 +108,13 @@ script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function
         downButton:OnRender()
         downButton:MouseMove(mousePos.x, mousePos.y, false)
         if Hyperspace.FPS.speedEnabled then
+            pauseButton.bActive = true
+            playButton.bActive = false
             pauseButton:OnRender()
             pauseButton:MouseMove(mousePos.x, mousePos.y, false)
         else
+            pauseButton.bActive = false
+            playButton.bActive = true
             playButton:OnRender()
             playButton:MouseMove(mousePos.x, mousePos.y, false)
         end
