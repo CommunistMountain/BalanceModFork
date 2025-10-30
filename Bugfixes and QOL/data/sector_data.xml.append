@@ -2,29 +2,29 @@
 
 <FTL>
 <mod:findComposite>
-	<mod:par op="OR">
-		<mod:findName type="sectorDescription" name="SLUG_HOME"/>
-		<mod:findName type="sectorDescription" name="SLUG_SECTOR"/>
-	</mod:par>
-	<mod:findName type="event" name="STORM_SLUG">
-		<mod:setAttributes name="NEBULA_STORM_SLUG"/>
-	</mod:findName>
+    <mod:par op="OR">
+        <mod:findName type="sectorDescription" name="SLUG_HOME"/>
+        <mod:findName type="sectorDescription" name="SLUG_SECTOR"/>
+    </mod:par>
+    <mod:findName type="event" name="STORM_SLUG">
+        <mod:setAttributes name="NEBULA_STORM_SLUG"/>
+    </mod:findName>
 </mod:findComposite>
 
 <mod:findName type="sectorDescription" name="CRYSTAL_HOME">
-	<mod:findLike type="rarityList">
-		<mod-append:blueprint name="BOMB_HEAL_SYSTEM" rarity="0"/>
-		<mod-append:blueprint name="SHOTGUN" rarity="0"/>
-		<mod-append:blueprint name="SHOTGUN_2" rarity="0"/>
-		<mod-append:blueprint name="MISSILE_CHARGEGUN" rarity="0"/>
-		<mod-append:blueprint name="LASER_CHAINGUN" rarity="0"/>
-		<mod-append:blueprint name="LASER_CHAINGUN_2" rarity="0"/>
-		<mod-append:blueprint name="ION_CHAINGUN" rarity="0"/>
-		<mod-append:blueprint name="LASER_CHARGEGUN" rarity="0"/>
-		<mod-append:blueprint name="LASER_CHARGEGUN_2" rarity="0"/>
-		<mod-append:blueprint name="ION_CHARGEGUN" rarity="0"/>
-		<mod-append:blueprint name="ION_STUN" rarity="0"/>
-		<mod-append:blueprint name="BOMB_STUN" rarity="0"/>	
-	</mod:findLike>
+    <mod:findLike type="rarityList">
+        <mod-append:blueprint name="BOMB_HEAL_SYSTEM" rarity="0"/>
+        <mod-append:blueprint name="SHOTGUN" rarity="0"/>
+        <mod-append:blueprint name="SHOTGUN_2" rarity="0"/>
+        <mod-append:blueprint name="MISSILE_CHARGEGUN" rarity="0"/>
+        <mod-append:blueprint name="LASER_CHAINGUN" rarity="0"/>
+        <mod-append:blueprint name="LASER_CHAINGUN_2" rarity="0"/>
+        <mod-append:blueprint name="ION_CHAINGUN" rarity="0"/>
+        <mod-append:blueprint name="LASER_CHARGEGUN" rarity="0"/>
+        <mod-append:blueprint name="LASER_CHARGEGUN_2" rarity="0"/>
+        <mod-append:blueprint name="ION_CHARGEGUN" rarity="0"/>
+        <mod-append:blueprint name="ION_STUN" rarity="0"/>
+        <mod-append:blueprint name="BOMB_STUN" rarity="0"/>    
+    </mod:findLike>
 </mod:findName>
 </FTL>

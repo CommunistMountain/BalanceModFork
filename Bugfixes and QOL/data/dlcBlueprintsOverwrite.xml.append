@@ -2,65 +2,65 @@
 
 <FTL>
 <mod:findName type="blueprintList" name="WEAPONS_MISSILES_EVENTS">
-	<mod-append:name>MISSILES_HULL</mod-append:name>
+    <mod-append:name>MISSILES_HULL</mod-append:name>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="REBEL_FAT_DLC">
-	<mod:findLike type="systemList">
-		<mod:findLike type="hacking">
-			<mod:setAttributes max="2"/>
-		</mod:findLike>
-	</mod:findLike>
+    <mod:findLike type="systemList">
+        <mod:findLike type="hacking">
+            <mod:setAttributes max="2"/>
+        </mod:findLike>
+    </mod:findLike>
 </mod:findName>
 
 <mod:findComposite>
-	<mod:par op="OR">
-		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_3"/>
-		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE_3"/>
-		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED_3"/>
-		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY_3"/>
-		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH_3"/>
-		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ENERGY_3"/>
-		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK_3"/>
-		<mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS_3"/>
-	</mod:par>
+    <mod:par op="OR">
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_3"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE_3"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED_3"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY_3"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH_3"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_ENERGY_3"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK_3"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS_3"/>
+    </mod:par>
     <mod:findLike type="floorImage">
         <mod:removeTag/>
     </mod:findLike>
 </mod:findComposite>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_3">
-	<mod:findLike type="crewCount">
-		<mod:removeTag/>
-	</mod:findLike>
-	<mod-append:crewCount amount="1" class="anaerobic"/>
-	<mod-append:crewCount amount="2" class="human"/>
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="1" class="anaerobic"/>
+    <mod-append:crewCount amount="2" class="human"/>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED_3">
-	<mod:findLike type="crewCount">
-		<mod:removeTag/>
-	</mod:findLike>
-	<mod-append:crewCount amount="2" class="energy"/>
-	<mod-append:crewCount amount="1" class="mantis"/>
-	<mod-append:crewCount amount="1" class="human"/>
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="2" class="energy"/>
+    <mod-append:crewCount amount="1" class="mantis"/>
+    <mod-append:crewCount amount="1" class="human"/>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK_3">
-	<mod:findLike type="crewCount">
-		<mod:removeTag/>
-	</mod:findLike>
-	<mod-append:crewCount amount="1" class="rock"/>
-	<mod-append:crewCount amount="1" class="crystal"/>
-	<mod-append:crewCount amount="1" class="rock"/>
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="1" class="rock"/>
+    <mod-append:crewCount amount="1" class="crystal"/>
+    <mod-append:crewCount amount="1" class="rock"/>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH_3">
-	<mod:findLike type="crewCount">
-		<mod:removeTag/>
-	</mod:findLike>
-	<mod-append:crewCount amount="1" class="slug"/>
-	<mod-append:crewCount amount="1" class="human"/>
-	<mod-append:crewCount amount="1" class="rock"/>
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="1" class="slug"/>
+    <mod-append:crewCount amount="1" class="human"/>
+    <mod-append:crewCount amount="1" class="rock"/>
 </mod:findName>
 </FTL>

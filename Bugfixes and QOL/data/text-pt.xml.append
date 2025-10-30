@@ -5,37 +5,37 @@
 <text name="speed_ui_variant_1" language="pt">Alterar Speed UI (atualmente Variante 1)</text>
 <text name="speed_ui_variant_2" language="pt">Alterar Speed UI (atualmente Variante 2)</text>
 <mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
-	<mod:setValue>Apaga automaticamente incêndios na nave. (83%)</mod:setValue>
+    <mod:setValue>Apaga automaticamente incêndios na nave. (83%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_NANO_MEDBAY_desc">
-	<mod:setValue>Nanobots médicos Engi que curam a tripulação fora da ala médica. (1.6 HP/s)</mod:setValue>
+    <mod:setValue>Nanobots médicos Engi que curam a tripulação fora da ala médica. (1.6 HP/s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_REPAIR_ARM_desc">
-	<mod:setValue>Repara o casco toda vez que você coleta sucata (2), mas reduz 15% da sucata coletada.</mod:setValue>
+    <mod:setValue>Repara o casco toda vez que você coleta sucata (2), mas reduz 15% da sucata coletada.</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_SLUG_GEL_desc">
-	<mod:setValue>Naves trópodes liberam um gel viscoso que sempre repara rupturas no casco. (75%)</mod:setValue>
+    <mod:setValue>Naves trópodes liberam um gel viscoso que sempre repara rupturas no casco. (75%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_1">
-	<mod:setValue>Consome oxigênio das salas. (=Ruptura)</mod:setValue>
+    <mod:setValue>Consome oxigênio das salas. (=Ruptura)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_2">
-	<mod:setValue>Movimento lento (-15%), mas não sofre dano de oxigênio.</mod:setValue>
+    <mod:setValue>Movimento lento (-15%), mas não sofre dano de oxigênio.</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_1">
-	<mod:setValue>Bloqueio (12s/50s)</mod:setValue>
+    <mod:setValue>Bloqueio (12s/50s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_2">
-	<mod:setValue>Reduz dano de sufocamento. (-50%)</mod:setValue>
+    <mod:setValue>Reduz dano de sufocamento. (-50%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_3">
-	<mod:setValue>Desacelera movimento -20%; Combate a incêndios -17%</mod:setValue>
+    <mod:setValue>Desacelera movimento -20%; Combate a incêndios -17%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_human_power_1">
-	<mod:setValue>Talentos melhoram pouco + rápido. (+11%)</mod:setValue>
+    <mod:setValue>Talentos melhoram pouco + rápido. (+11%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_rock_power_1">
-	<mod:setValue>Imune a fogo (Combate a incêndios +67%)</mod:setValue>
+    <mod:setValue>Imune a fogo (Combate a incêndios +67%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
@@ -83,18 +83,18 @@
     <mod:setValue>SISTEMA HACKEADO: HACKS INDISPONÍVEIS (39%/62%/77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
-	<mod:setValue>Opressor Zoltan</mod:setValue>
+    <mod:setValue>Opressor Zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
-	<mod:setValue>Hacker Zoltan</mod:setValue>
+    <mod:setValue>Hacker Zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_class">
-	<mod:setValue>Caçador Zoltan</mod:setValue>
+    <mod:setValue>Caçador Zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_DLC_class">
-	<mod:setValue>Instigador Zoltan</mod:setValue>
+    <mod:setValue>Instigador Zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
-	<mod:setValue>Caçador Zoltan</mod:setValue>
+    <mod:setValue>Caçador Zoltan</mod:setValue>
 </mod:findName>
 </FTL>

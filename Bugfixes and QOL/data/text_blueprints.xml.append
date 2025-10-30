@@ -2,51 +2,51 @@
 
 <FTL>
 <mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
-	<mod:setValue>Automatically put out fires throughout the ship. (83%)</mod:setValue>
+    <mod:setValue>Automatically put out fires throughout the ship. (83%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_NANO_MEDBAY_desc">
-	<mod:setValue>Engi nano med-bots heal the crew outside of the med-bay. (1.6 HP/s)</mod:setValue>
+    <mod:setValue>Engi nano med-bots heal the crew outside of the med-bay. (1.6 HP/s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_REPAIR_ARM_desc">
-	<mod:setValue>Repairs your hull every time you collect scrap (2), but reduces scrap collected by 15%.</mod:setValue>
+    <mod:setValue>Repairs your hull every time you collect scrap (2), but reduces scrap collected by 15%.</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_SLUG_GEL_desc">
-	<mod:setValue>Slug ships excrete a thick gel that automatically repairs any hull breaches. (75%)</mod:setValue>
+    <mod:setValue>Slug ships excrete a thick gel that automatically repairs any hull breaches. (75%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_1">
-	<mod:setValue>Drains oxygen from rooms. (=Breach)</mod:setValue>
+    <mod:setValue>Drains oxygen from rooms. (=Breach)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_2">
-	<mod:setValue>Slow movement (-15%) but no damage from lack of oxygen.</mod:setValue>
+    <mod:setValue>Slow movement (-15%) but no damage from lack of oxygen.</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_1">
-	<mod:setValue>Lockdown power (12s/50s)</mod:setValue>
+    <mod:setValue>Lockdown power (12s/50s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_2">
-	<mod:setValue>Reduced suffocation damage (-50%)</mod:setValue>
+    <mod:setValue>Reduced suffocation damage (-50%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_3">
-	<mod:setValue>Movement speed -20%; Firefighting -17%</mod:setValue>
+    <mod:setValue>Movement speed -20%; Firefighting -17%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_human_power_1">
-	<mod:setValue>Skills improve slightly faster (+11%)</mod:setValue>
+    <mod:setValue>Skills improve slightly faster (+11%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_rock_power_1">
-	<mod:setValue>Immune to fire (Firefighting +67%)</mod:setValue>
+    <mod:setValue>Immune to fire (Firefighting +67%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
-	<mod:setValue>Zoltan Bomber</mod:setValue>
+    <mod:setValue>Zoltan Bomber</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
-	<mod:setValue>Zoltan Hacker</mod:setValue>
+    <mod:setValue>Zoltan Hacker</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_class">
-	<mod:setValue>Zoltan Fighter</mod:setValue>
+    <mod:setValue>Zoltan Fighter</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_DLC_class">
-	<mod:setValue>Zoltan Instigator</mod:setValue>
+    <mod:setValue>Zoltan Instigator</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
-	<mod:setValue>Zoltan Fighter</mod:setValue>
+    <mod:setValue>Zoltan Fighter</mod:setValue>
 </mod:findName>
 </FTL>

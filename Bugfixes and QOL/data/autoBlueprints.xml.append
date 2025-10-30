@@ -2,13 +2,13 @@
 
 <FTL>
 <mod:findName type="blueprintList" name="WEAPONS_MISSILES">
-	<mod-append:name>MISSILES_HULL</mod-append:name>
+    <mod-append:name>MISSILES_HULL</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="COMBAT_DRONE_LIST">
-	<mod:findLike type="name">
-	<mod:selector>DRONE_FIREBEAM</mod:selector>
-		<mod:setValue>COMBAT_FIRE</mod:setValue>
-	</mod:findLike>
+    <mod:findLike type="name">
+    <mod:selector>DRONE_FIREBEAM</mod:selector>
+        <mod:setValue>COMBAT_FIRE</mod:setValue>
+    </mod:findLike>
 </mod:findName>
 </FTL>

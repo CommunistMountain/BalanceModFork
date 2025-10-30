@@ -5,37 +5,37 @@
 <text name="speed_ui_variant_1" language="pl">Zmień Speed UI (obecnie wariant 1)</text>
 <text name="speed_ui_variant_2" language="pl">Zmień Speed UI (obecnie wariant 2)</text>
 <mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
-	<mod:setValue>Automatycznie gasi pożary na całym statku. (83%)</mod:setValue>
+    <mod:setValue>Automatycznie gasi pożary na całym statku. (83%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_NANO_MEDBAY_desc">
-	<mod:setValue>Nanoboty medyczne Engi leczą załogę poza ambulatorium. (1.6 HP/s)</mod:setValue>
+    <mod:setValue>Nanoboty medyczne Engi leczą załogę poza ambulatorium. (1.6 HP/s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_REPAIR_ARM_desc">
-	<mod:setValue>Zmniejsza o 15% ilość znajdowanego złomu, jednak naprawia kadłub za każdym razem, kiedy go zbierasz. (2)</mod:setValue>
+    <mod:setValue>Zmniejsza o 15% ilość znajdowanego złomu, jednak naprawia kadłub za każdym razem, kiedy go zbierasz. (2)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_SLUG_GEL_desc">
-	<mod:setValue>Statki Ślimaków wydzielają gęsty żel, który automatycznie naprawia przebicia kadłuba. (75%)</mod:setValue>
+    <mod:setValue>Statki Ślimaków wydzielają gęsty żel, który automatycznie naprawia przebicia kadłuba. (75%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_1">
-	<mod:setValue>Wysysa tlen z przedziałów. (=Przebicie)</mod:setValue>
+    <mod:setValue>Wysysa tlen z przedziałów. (=Przebicie)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_2">
-	<mod:setValue>Niska szybkość ruchu (-15%), nie otrzymuje obrażeń spowodowanych brakiem powietrza.</mod:setValue>
+    <mod:setValue>Niska szybkość ruchu (-15%), nie otrzymuje obrażeń spowodowanych brakiem powietrza.</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_1">
-	<mod:setValue>Moc blokady (12s/50s)</mod:setValue>
+    <mod:setValue>Moc blokady (12s/50s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_2">
-	<mod:setValue>Mniejsze obrażenia spowodowane brakiem powietrza (-50%)</mod:setValue>
+    <mod:setValue>Mniejsze obrażenia spowodowane brakiem powietrza (-50%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_3">
-	<mod:setValue>Szybkość ruchu -20%; Pożarnictwo -17%</mod:setValue>
+    <mod:setValue>Szybkość ruchu -20%; Pożarnictwo -17%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_human_power_1">
-	<mod:setValue>Nieco szybsze zdobywanie umiejętności (+11%)</mod:setValue>
+    <mod:setValue>Nieco szybsze zdobywanie umiejętności (+11%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_rock_power_1">
-	<mod:setValue>Odporność na ogień (Pożarnictwo +67%)</mod:setValue>
+    <mod:setValue>Odporność na ogień (Pożarnictwo +67%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
@@ -83,18 +83,18 @@
     <mod:setValue>SYSTEM ZHAKOWANY: HAKOWANIE CHWILOWO NIEMOŻLIWE. (39%/62%/77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
-	<mod:setValue>Bombowiec Zoltan</mod:setValue>
+    <mod:setValue>Bombowiec Zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
-	<mod:setValue>Statek hakerski Zoltan</mod:setValue>
+    <mod:setValue>Statek hakerski Zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_class">
-	<mod:setValue>Myśliwiec Zoltan</mod:setValue>
+    <mod:setValue>Myśliwiec Zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_DLC_class">
-	<mod:setValue>Dywersant Zoltan</mod:setValue>
+    <mod:setValue>Dywersant Zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
-	<mod:setValue>Myśliwiec Zoltan</mod:setValue>
+    <mod:setValue>Myśliwiec Zoltan</mod:setValue>
 </mod:findName>
 </FTL>

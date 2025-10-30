@@ -2,17 +2,17 @@
 
 <FTL>
 <mod:findComposite>
-	<mod:par op="OR">
-		<mod:findName type="weaponBlueprint" name="SHOTGUN_PLAYER"/>
-		<mod:findName type="weaponBlueprint" name="SHOTGUN"/>
-		<mod:findName type="weaponBlueprint" name="SHOTGUN_2"/>
-		<mod:findName type="weaponBlueprint" name="ARTILLERY_FED_C"/>
-	</mod:par>
-	<mod:findLike type="projectiles">
-		<mod:findLike type="projectile">
-		<mod:selector fake="true"/>
-			<mod:removeTag/>
-		</mod:findLike>
-	</mod:findLike>
+    <mod:par op="OR">
+        <mod:findName type="weaponBlueprint" name="SHOTGUN_PLAYER"/>
+        <mod:findName type="weaponBlueprint" name="SHOTGUN"/>
+        <mod:findName type="weaponBlueprint" name="SHOTGUN_2"/>
+        <mod:findName type="weaponBlueprint" name="ARTILLERY_FED_C"/>
+    </mod:par>
+    <mod:findLike type="projectiles">
+        <mod:findLike type="projectile">
+        <mod:selector fake="true"/>
+            <mod:removeTag/>
+        </mod:findLike>
+    </mod:findLike>
 </mod:findComposite>
 </FTL>

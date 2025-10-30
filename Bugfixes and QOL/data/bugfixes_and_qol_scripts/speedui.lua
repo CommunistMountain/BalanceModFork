@@ -52,7 +52,9 @@ local numberImage = {
 }
 
 script.on_internal_event(Defines.InternalEvents.ON_TICK, function()
-    if not Hyperspace.App.world.bStartedGame then return end
+    if not Hyperspace.App.world.bStartedGame then
+        return
+    end
 
     local mousePos = Hyperspace.Mouse.position
     if Hyperspace.metaVariables.speedui_setting == 1 then
@@ -60,12 +62,22 @@ script.on_internal_event(Defines.InternalEvents.ON_TICK, function()
             button.bActive = (selectedButton ~= i)
             button:MouseMove(mousePos.x, mousePos.y, false)
         end
-        selectedButton = (Hyperspace.FPS.speedLevel < 0 and 1) or (Hyperspace.FPS.speedLevel == 0 and 2) or 3
+        
+        if Hyperspace.FPS.speedLevel < 0 then
+            selectedButton = 1
+        elseif Hyperspace.FPS.speedLevel == 0 then
+            selectedButton = 2
+        else
+            selectedButton = 3
+        end
     elseif Hyperspace.metaVariables.speedui_setting == 2 then
         local speedLimit = (Hyperspace.Settings.frameLimit or Hyperspace.Settings.vsync) and 2 or 99
         local currSpeed = Hyperspace.FPS.speedLevel
-        if currSpeed > speedLimit then Hyperspace.FPS.speedLevel = speedLimit
-        elseif currSpeed < -2 then Hyperspace.FPS.speedLevel = -2 end
+        if currSpeed > speedLimit then
+            Hyperspace.FPS.speedLevel = speedLimit
+        elseif currSpeed < -2 then
+            Hyperspace.FPS.speedLevel = -2
+        end
 
         if Hyperspace.FPS.speedEnabled then
             pauseButton:MouseMove(mousePos.x, mousePos.y, false)
@@ -92,25 +104,30 @@ script.on_internal_event(Defines.InternalEvents.ON_TICK, function()
 end)
 
 script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function()
-    if not Hyperspace.App.world.bStartedGame then return end
+    if not Hyperspace.App.world.bStartedGame then
+        return
+    end
 
     if Hyperspace.metaVariables.speedui_setting == 0 then
         Graphics.CSurface.GL_SetColor(Graphics.GL_Color(1, 1, 1, 1))
         Graphics.freetype.easy_printCenter(51, 573, 18, Hyperspace.Text:GetText("ftl_drive"))
     elseif Hyperspace.metaVariables.speedui_setting == 1 then
-        for _, button in ipairs(ipsButtons) do button:OnRender() end
+        for _, button in ipairs(ipsButtons) do
+            button:OnRender()
+        end
     elseif Hyperspace.metaVariables.speedui_setting == 2 then
         local currSpeed = Hyperspace.FPS.speedLevel
-
-        if Hyperspace.FPS.speedEnabled then pauseButton:OnRender()
-        else playButton:OnRender() end
+        if Hyperspace.FPS.speedEnabled then
+            pauseButton:OnRender()
+        else
+            playButton:OnRender()
+        end
 
         Graphics.CSurface.GL_PushMatrix()
         Graphics.CSurface.GL_Translate(numberImage.x, numberImage.y, 0)
         Graphics.CSurface.GL_RenderPrimitive(numberImage.image)
         Graphics.freetype.easy_printCenter(1, 18, 11, math.floor(currSpeed))
         Graphics.CSurface.GL_PopMatrix()
-
         upButton:OnRender()
         downButton:OnRender()
     end
@@ -124,12 +141,14 @@ script.on_internal_event(Defines.InternalEvents.ON_MOUSE_L_BUTTON_DOWN, function
             selectedButton = 1
             Hyperspace.Sounds:PlaySoundMix("powerUpSystem", -1, false)
         end
+        
         if normButton.bHover and normButton.bActive then
             Hyperspace.FPS.speedEnabled = true
             Hyperspace.FPS.speedLevel = 0
             selectedButton = 2
             Hyperspace.Sounds:PlaySoundMix("powerUpSystem", -1, false)
         end
+        
         if fastButton.bHover and fastButton.bActive then
             Hyperspace.FPS.speedEnabled = true
             Hyperspace.FPS.speedLevel = 2
@@ -150,6 +169,7 @@ script.on_internal_event(Defines.InternalEvents.ON_MOUSE_L_BUTTON_DOWN, function
             Hyperspace.metaVariables.speedui_speed = Hyperspace.FPS.speedLevel
         end
     end
+    
     return Defines.Chain.CONTINUE
 end)
 
@@ -161,12 +181,14 @@ script.on_internal_event(Defines.InternalEvents.ON_MOUSE_R_BUTTON_DOWN, function
             selectedButton = 1
             Hyperspace.Sounds:PlaySoundMix("powerUpSystem", -1, false)
         end
+        
         if normButton.bHover and normButton.bActive then
             Hyperspace.FPS.speedEnabled = true
             Hyperspace.FPS.speedLevel = 0
             selectedButton = 2
             Hyperspace.Sounds:PlaySoundMix("powerUpSystem", -1, false)
         end
+        
         if fastButton.bHover and fastButton.bActive then
             Hyperspace.FPS.speedEnabled = true
             Hyperspace.FPS.speedLevel = 2
@@ -187,6 +209,7 @@ script.on_internal_event(Defines.InternalEvents.ON_MOUSE_R_BUTTON_DOWN, function
             Hyperspace.metaVariables.speedui_speed = Hyperspace.FPS.speedLevel
         end
     end
+    
     return Defines.Chain.CONTINUE
 end)
 

@@ -5,37 +5,37 @@
 <text name="speed_ui_variant_1" language="it">Cambia Speed UI (attualmente Variante 1)</text>
 <text name="speed_ui_variant_2" language="it">Cambia Speed UI (attualmente Variante 2)</text>
 <mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
-	<mod:setValue>Spegne automaticamente gli incendi sulla nave. (83%)</mod:setValue>
+    <mod:setValue>Spegne automaticamente gli incendi sulla nave. (83%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_NANO_MEDBAY_desc">
-	<mod:setValue>I nano medi-bot engi curano l'equipaggio anche fuori dall'infermeria. (1.6 HP/s)</mod:setValue>
+    <mod:setValue>I nano medi-bot engi curano l'equipaggio anche fuori dall'infermeria. (1.6 HP/s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_REPAIR_ARM_desc">
-	<mod:setValue>Ripara lo scafo ogni volta che raccogli moduli (2), ma riduce i moduli raccolti del 15%.</mod:setValue>
+    <mod:setValue>Ripara lo scafo ogni volta che raccogli moduli (2), ma riduce i moduli raccolti del 15%.</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_SLUG_GEL_desc">
-	<mod:setValue>Le navi slugman secernono un gel che ripara automaticamente i fori nello scafo. (75%)</mod:setValue>
+    <mod:setValue>Le navi slugman secernono un gel che ripara automaticamente i fori nello scafo. (75%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_1">
-	<mod:setValue>Risucchiano ossigeno dalle stanze. (=perforazione)</mod:setValue>
+    <mod:setValue>Risucchiano ossigeno dalle stanze. (=perforazione)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_2">
-	<mod:setValue>L'assenza di ossigeno non li danneggia, ma li rallenta. (-15%)</mod:setValue>
+    <mod:setValue>L'assenza di ossigeno non li danneggia, ma li rallenta. (-15%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_1">
-	<mod:setValue>Potenza isolante (12s/50s)</mod:setValue>
+    <mod:setValue>Potenza isolante (12s/50s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_2">
-	<mod:setValue>Danno da soffocamento ridotto (-50%)</mod:setValue>
+    <mod:setValue>Danno da soffocamento ridotto (-50%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_3">
-	<mod:setValue>Velocità di movimento -20%; Antincendio -17%</mod:setValue>
+    <mod:setValue>Velocità di movimento -20%; Antincendio -17%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_human_power_1">
-	<mod:setValue>Le loro abilità migliorano leggermente prima della media. (+11%)</mod:setValue>
+    <mod:setValue>Le loro abilità migliorano leggermente prima della media. (+11%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_rock_power_1">
-	<mod:setValue>Immunità al fuoco (Antincendio +67%)</mod:setValue>
+    <mod:setValue>Immunità al fuoco (Antincendio +67%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
@@ -83,18 +83,18 @@
     <mod:setValue>SISTEMA HACKERATO: HACKING MOMENTANEAMENTE INTERROTTO. (39%/62%/77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
-	<mod:setValue>Bombardiere zoltan</mod:setValue>
+    <mod:setValue>Bombardiere zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
-	<mod:setValue>Hacker zoltan</mod:setValue>
+    <mod:setValue>Hacker zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_class">
-	<mod:setValue>Caccia zoltan</mod:setValue>
+    <mod:setValue>Caccia zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_DLC_class">
-	<mod:setValue>Istigatore zoltan</mod:setValue>
+    <mod:setValue>Istigatore zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
-	<mod:setValue>Caccia zoltan</mod:setValue>
+    <mod:setValue>Caccia zoltan</mod:setValue>
 </mod:findName>
 </FTL>

@@ -5,37 +5,37 @@
 <text name="speed_ui_variant_1" language="fr">Changer Speed UI (actuellement Variante 1)</text>
 <text name="speed_ui_variant_2" language="fr">Changer Speed UI (actuellement Variante 2)</text>
 <mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
-	<mod:setValue>Éteint automatiquement tous les incendies qui se sont déclenchés à bord du vaisseau. (83%)</mod:setValue>
+    <mod:setValue>Éteint automatiquement tous les incendies qui se sont déclenchés à bord du vaisseau. (83%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_NANO_MEDBAY_desc">
-	<mod:setValue>Les nanomédibots engis soignent même en dehors de l'infirmerie. (1.6 HP/s)</mod:setValue>
+    <mod:setValue>Les nanomédibots engis soignent même en dehors de l'infirmerie. (1.6 HP/s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_REPAIR_ARM_desc">
-	<mod:setValue>Répare votre coque chaque fois que vous ramassez de la ferraille (2), ce qui réduit la quantité de ferraille récupérée de 15%.</mod:setValue>
+    <mod:setValue>Répare votre coque chaque fois que vous ramassez de la ferraille (2), ce qui réduit la quantité de ferraille récupérée de 15%.</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_SLUG_GEL_desc">
-	<mod:setValue>Les vaisseaux des Limaces excrètent un gel épais qui répare automatiquement les trous dans la coque. (75%)</mod:setValue>
+    <mod:setValue>Les vaisseaux des Limaces excrètent un gel épais qui répare automatiquement les trous dans la coque. (75%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_1">
-	<mod:setValue>Vide l'oxygène des salles (=Trou dans la coque)</mod:setValue>
+    <mod:setValue>Vide l'oxygène des salles (=Trou dans la coque)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_2">
-	<mod:setValue>Déplacement lent (-15%), mais le manque d'oxygène n'inflige pas de dégâts</mod:setValue>
+    <mod:setValue>Déplacement lent (-15%), mais le manque d'oxygène n'inflige pas de dégâts</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_1">
-	<mod:setValue>Pouvoir de verrouillage (12s/50s)</mod:setValue>
+    <mod:setValue>Pouvoir de verrouillage (12s/50s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_2">
-	<mod:setValue>Dégâts de suffocation réduits (-50%)</mod:setValue>
+    <mod:setValue>Dégâts de suffocation réduits (-50%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_3">
-	<mod:setValue>Vitesse de déplacement -20%; Contre l'incendie -17%</mod:setValue>
+    <mod:setValue>Vitesse de déplacement -20%; Contre l'incendie -17%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_human_power_1">
-	<mod:setValue>Les talents augmentent légèrement plus rapidement (+11%)</mod:setValue>
+    <mod:setValue>Les talents augmentent légèrement plus rapidement (+11%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_rock_power_1">
-	<mod:setValue>Immunité contre le feu (Contre l'incendie +67%)</mod:setValue>
+    <mod:setValue>Immunité contre le feu (Contre l'incendie +67%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
@@ -83,18 +83,18 @@
     <mod:setValue>SYSTÈME PIRATÉ : PIRATAGE TEMPORAIREMENT INTERROMPU (39%/62%/77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
-	<mod:setValue>Bombardier zoltan</mod:setValue>
+    <mod:setValue>Bombardier zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
-	<mod:setValue>Hacker zoltan</mod:setValue>
+    <mod:setValue>Hacker zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_class">
-	<mod:setValue>Combattant zoltan</mod:setValue>
+    <mod:setValue>Combattant zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_DLC_class">
-	<mod:setValue>Instigateur zoltan</mod:setValue>
+    <mod:setValue>Instigateur zoltan</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
-	<mod:setValue>Combattant zoltan</mod:setValue>
+    <mod:setValue>Combattant zoltan</mod:setValue>
 </mod:findName>
 </FTL>

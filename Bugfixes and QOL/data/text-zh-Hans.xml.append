@@ -5,37 +5,37 @@
 <text name="speed_ui_variant_1" language="zh-Hans">更改Speed UI（当前为变体 1）</text>
 <text name="speed_ui_variant_2" language="zh-Hans">更改Speed UI（当前为变体 2）</text>
 <mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
-	<mod:setValue>自动扑灭飞船中的火情。（83%）</mod:setValue>
+    <mod:setValue>自动扑灭飞船中的火情。（83%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_NANO_MEDBAY_desc">
-	<mod:setValue>恩吉纳米医疗机器人可治愈医疗舱之外的船员。（1.6 HP/s）</mod:setValue>
+    <mod:setValue>恩吉纳米医疗机器人可治愈医疗舱之外的船员。（1.6 HP/s）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_REPAIR_ARM_desc">
-	<mod:setValue>在每次收集废料时修理舰体（2），但收集的废料减少 15%。</mod:setValue>
+    <mod:setValue>在每次收集废料时修理舰体（2），但收集的废料减少 15%。</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_SLUG_GEL_desc">
-	<mod:setValue>斯拉格飞船分泌可自动修复任何舰体损伤的厚凝胶。（75%）</mod:setValue>
+    <mod:setValue>斯拉格飞船分泌可自动修复任何舰体损伤的厚凝胶。（75%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_1">
-	<mod:setValue>会消耗舱室内的氧气。（=破舱弹）</mod:setValue>
+    <mod:setValue>会消耗舱室内的氧气。（=破舱弹）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_2">
-	<mod:setValue>移动缓慢（-15%）但不会因缺氧受到伤害。</mod:setValue>
+    <mod:setValue>移动缓慢（-15%）但不会因缺氧受到伤害。</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_1">
-	<mod:setValue>锁定能量（12s/50s）</mod:setValue>
+    <mod:setValue>锁定能量（12s/50s）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_2">
-	<mod:setValue>窒息伤害减少。（-50%）</mod:setValue>
+    <mod:setValue>窒息伤害减少。（-50%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_3">
-	<mod:setValue>移动速度-20%;救火-17%</mod:setValue>
+    <mod:setValue>移动速度-20%;救火-17%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_human_power_1">
-	<mod:setValue>技能提升速度稍快（+11%）</mod:setValue>
+    <mod:setValue>技能提升速度稍快（+11%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_rock_power_1">
-	<mod:setValue>免疫火焰伤害（救火+67%）</mod:setValue>
+    <mod:setValue>免疫火焰伤害（救火+67%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
@@ -83,18 +83,18 @@
     <mod:setValue>系统被劫持：黑客攻击暂时中断（39%/62%/77%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
-	<mod:setValue>佐尔坦轰炸舰</mod:setValue>
+    <mod:setValue>佐尔坦轰炸舰</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
-	<mod:setValue>佐尔坦黑客舰</mod:setValue>
+    <mod:setValue>佐尔坦黑客舰</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_class">
-	<mod:setValue>佐尔坦战舰</mod:setValue>
+    <mod:setValue>佐尔坦战舰</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_DLC_class">
-	<mod:setValue>佐尔坦调查舰</mod:setValue>
+    <mod:setValue>佐尔坦调查舰</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
-	<mod:setValue>佐尔坦战舰</mod:setValue>
+    <mod:setValue>佐尔坦战舰</mod:setValue>
 </mod:findName>
 </FTL>

@@ -2,9 +2,9 @@
 
 <FTL>
 <mod:findName type="event" name="ZOLTAN_ODD_MOON">
-	<mod:findLike type="choice">
-	<mod:selector req="BOARDER"/>
-		<mod:setAttributes req="MULTIREQ_BOARDER"/>
-	</mod:findLike>
+    <mod:findLike type="choice">
+    <mod:selector req="BOARDER"/>
+        <mod:setAttributes req="MULTIREQ_BOARDER"/>
+    </mod:findLike>
 </mod:findName>
 </FTL>

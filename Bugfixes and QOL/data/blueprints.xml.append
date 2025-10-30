@@ -2,71 +2,71 @@
 
 <FTL>
 <mod:findName type="weaponBlueprint" name="BEAM_1">
-	<mod:findLike type="length">
-		<mod:setValue>47</mod:setValue>
-	</mod:findLike>
+    <mod:findLike type="length">
+        <mod:setValue>47</mod:setValue>
+    </mod:findLike>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_2">
-	<mod:findLike type="crewCount">
-		<mod:removeTag/>
-	</mod:findLike>
-	<mod-append:crewCount amount="1" class="human"/>
-	<mod-append:crewCount amount="1" class="energy"/>
-	<mod-append:crewCount amount="1" class="human"/>
-	<mod-append:crewCount amount="1" class="mantis"/>
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="1" class="human"/>
+    <mod-append:crewCount amount="1" class="energy"/>
+    <mod-append:crewCount amount="1" class="human"/>
+    <mod-append:crewCount amount="1" class="mantis"/>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED">
-	<mod:findLike type="crewCount">
-		<mod:removeTag/>
-	</mod:findLike>
-	<mod-append:crewCount amount="1" class="rock"/>
-	<mod-append:crewCount amount="1" class="mantis"/>
-	<mod-append:crewCount amount="1" class="human"/>
-	<mod-append:crewCount amount="1" class="engi"/>
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="1" class="rock"/>
+    <mod-append:crewCount amount="1" class="mantis"/>
+    <mod-append:crewCount amount="1" class="human"/>
+    <mod-append:crewCount amount="1" class="engi"/>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED_2">
-	<mod:findLike type="crewCount">
-		<mod:removeTag/>
-	</mod:findLike>
-	<mod-append:crewCount amount="1" class="slug"/>
-	<mod-append:crewCount amount="1" class="human"/>
-	<mod-append:crewCount amount="1" class="energy"/>
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="1" class="slug"/>
+    <mod-append:crewCount amount="1" class="human"/>
+    <mod-append:crewCount amount="1" class="energy"/>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS">
-	<mod:findLike type="crewCount">
-		<mod:removeTag/>
-	</mod:findLike>
-	<mod-append:crewCount amount="2" class="mantis"/>
-	<mod-append:crewCount amount="1" class="engi"/>
-	<mod-append:crewCount amount="1" class="mantis"/>
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="2" class="mantis"/>
+    <mod-append:crewCount amount="1" class="engi"/>
+    <mod-append:crewCount amount="1" class="mantis"/>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH_2">
-	<mod:findLike type="crewCount">
-		<mod:removeTag/>
-	</mod:findLike>
-	<mod-append:crewCount amount="1" class="human"/>
-	<mod-append:crewCount amount="1" class="energy"/>
-	<mod-append:crewCount amount="1" class="human"/>
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="1" class="human"/>
+    <mod-append:crewCount amount="1" class="energy"/>
+    <mod-append:crewCount amount="1" class="human"/>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CRYSTAL">
-	<mod:findLike type="crewCount">
-		<mod:removeTag/>
-	</mod:findLike>
-	<mod-append:crewCount amount="1" class="crystal"/>
-	<mod-append:crewCount amount="1" class="human"/>
-	<mod-append:crewCount amount="1" class="crystal"/>
-	<mod-append:crewCount amount="1" class="human"/>
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="1" class="crystal"/>
+    <mod-append:crewCount amount="1" class="human"/>
+    <mod-append:crewCount amount="1" class="crystal"/>
+    <mod-append:crewCount amount="1" class="human"/>
 </mod:findName>
 
 <!--Remove below and hyperspace.xml surgeDrones once HS uses defaults that match vanilla.-->
 <blueprintList name="DRONES_BOSS_VANILLA">
-	<name>COMBAT_1</name>
-	<name>COMBAT_BEAM</name>
+    <name>COMBAT_1</name>
+    <name>COMBAT_BEAM</name>
 </blueprintList>
 </FTL>

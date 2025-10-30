@@ -3,320 +3,320 @@
 <FTL>
 <!--Bugfixes (gameplay)-->
 <mod:findComposite>
-	<mod:par op="OR">
-		<mod:findLike type="hackingIonFix"/>
-		<mod:findLike type="crystalShardFix"/>
-		<mod:findLike type="defenseDroneFix"/>
-		<mod:findLike type="cloakRenderFix"/>
-		<mod:findLike type="disableDefaultTutorial"/>
-		<mod:findLike type="multipleOverCapacity"/>
-	</mod:par>
-	<mod:setAttributes enabled="true"/>
+    <mod:par op="OR">
+        <mod:findLike type="hackingIonFix"/>
+        <mod:findLike type="crystalShardFix"/>
+        <mod:findLike type="defenseDroneFix"/>
+        <mod:findLike type="cloakRenderFix"/>
+        <mod:findLike type="disableDefaultTutorial"/>
+        <mod:findLike type="multipleOverCapacity"/>
+    </mod:par>
+    <mod:setAttributes enabled="true"/>
 </mod:findComposite>
 
 <mod:findLike type="rewards" limit="1">
-	<mod-append:reward name="standard_droneparts-1">
-		<resourceRewards>
-			<droneparts level="LOW" min="0" max="0"/>
-			<droneparts level="MED" min="0" max="0"/>
-			<droneparts level="HIGH" min="0" max="1"/>
-		</resourceRewards>
-		
-		<reward minResources="2" maxResources="2">
-			<resource name="scrap"/>
-			<resource name="fuel" level="LOW"/>
-			<resource name="missiles" level="LOW"/>
-			<resource name="droneparts" level="LOW"/>
-			<bonus roll="100">
-				<item chance="3"/>
-			</bonus>
-		</reward>
-	</mod-append:reward>
-	
-	<mod-append:reward name="stuff_droneparts-1">
-		<resourceRewards>
-			<droneparts level="LOW" min="0" max="0"/>
-			<droneparts level="MED" min="0" max="0"/>
-			<droneparts level="HIGH" min="0" max="1"/>
-		</resourceRewards>
-		
-		<reward minResources="2" maxResources="2">
-			<resource name="scrap" level="LOW"/>
-			<resource name="fuel"/>
-			<resource name="missiles"/>
-			<resource name="droneparts"/>
-			<bonus roll="100">
-				<item chance="6"/>
-			</bonus>
-		</reward>
-	</mod-append:reward>
-	
-	<mod-append:reward name="stuff_fuel-100">
-		<resourceRewards>
-			<fuel level="LOW" min="-99" max="-97"/>
-			<fuel level="MED" min="-98" max="-96"/>
-			<fuel level="HIGH" min="-97" max="-94"/>
-		</resourceRewards>
-		
-		<reward minResources="2" maxResources="2">
-			<resource name="scrap" level="LOW"/>
-			<resource name="fuel"/>
-			<resource name="missiles"/>
-			<resource name="droneparts"/>
-			<bonus roll="100">
-				<item chance="6"/>
-			</bonus>
-		</reward>
-	</mod-append:reward>
+    <mod-append:reward name="standard_droneparts-1">
+        <resourceRewards>
+            <droneparts level="LOW" min="0" max="0"/>
+            <droneparts level="MED" min="0" max="0"/>
+            <droneparts level="HIGH" min="0" max="1"/>
+        </resourceRewards>
+        
+        <reward minResources="2" maxResources="2">
+            <resource name="scrap"/>
+            <resource name="fuel" level="LOW"/>
+            <resource name="missiles" level="LOW"/>
+            <resource name="droneparts" level="LOW"/>
+            <bonus roll="100">
+                <item chance="3"/>
+            </bonus>
+        </reward>
+    </mod-append:reward>
+    
+    <mod-append:reward name="stuff_droneparts-1">
+        <resourceRewards>
+            <droneparts level="LOW" min="0" max="0"/>
+            <droneparts level="MED" min="0" max="0"/>
+            <droneparts level="HIGH" min="0" max="1"/>
+        </resourceRewards>
+        
+        <reward minResources="2" maxResources="2">
+            <resource name="scrap" level="LOW"/>
+            <resource name="fuel"/>
+            <resource name="missiles"/>
+            <resource name="droneparts"/>
+            <bonus roll="100">
+                <item chance="6"/>
+            </bonus>
+        </reward>
+    </mod-append:reward>
+    
+    <mod-append:reward name="stuff_fuel-100">
+        <resourceRewards>
+            <fuel level="LOW" min="-99" max="-97"/>
+            <fuel level="MED" min="-98" max="-96"/>
+            <fuel level="HIGH" min="-97" max="-94"/>
+        </resourceRewards>
+        
+        <reward minResources="2" maxResources="2">
+            <resource name="scrap" level="LOW"/>
+            <resource name="fuel"/>
+            <resource name="missiles"/>
+            <resource name="droneparts"/>
+            <bonus roll="100">
+                <item chance="6"/>
+            </bonus>
+        </reward>
+    </mod-append:reward>
 
-	<mod-append:reward name="item">
-		<reward>
-			<bonus roll="3">
-				<weapon chance="1"/>
-				<drone chance="1"/>
-				<augment chance="1"/>
-			</bonus>
-		</reward>
-	</mod-append:reward>
+    <mod-append:reward name="item">
+        <reward>
+            <bonus roll="3">
+                <weapon chance="1"/>
+                <drone chance="1"/>
+                <augment chance="1"/>
+            </bonus>
+        </reward>
+    </mod-append:reward>
 
-	<mod-append:reward name="weapon">
-		<reward>
-			<resource name="scrap"/>
-			<bonus roll="1">
-				<weapon_only chance="1"/>
-			</bonus>
-		</reward>
-	</mod-append:reward>
+    <mod-append:reward name="weapon">
+        <reward>
+            <resource name="scrap"/>
+            <bonus roll="1">
+                <weapon_only chance="1"/>
+            </bonus>
+        </reward>
+    </mod-append:reward>
 
-	<mod-append:reward name="weapon_only">
-		<skipIfWeapon/>
-		<weapon/>
-	</mod-append:reward>
+    <mod-append:reward name="weapon_only">
+        <skipIfWeapon/>
+        <weapon/>
+    </mod-append:reward>
 
-	<mod-append:reward name="drone">
-		<reward>
-			<resource name="scrap"/>
-			<bonus roll="1">
-				<drone_only chance="1"/>
-			</bonus>
-		</reward>
-	</mod-append:reward>
+    <mod-append:reward name="drone">
+        <reward>
+            <resource name="scrap"/>
+            <bonus roll="1">
+                <drone_only chance="1"/>
+            </bonus>
+        </reward>
+    </mod-append:reward>
 
-	<mod-append:reward name="drone_only">
-		<skipIfDrone/>
-		<drone/>
-	</mod-append:reward>
+    <mod-append:reward name="drone_only">
+        <skipIfDrone/>
+        <drone/>
+    </mod-append:reward>
 
-	<mod-append:reward name="augment">
-		<reward>
-			<resource name="scrap"/>
-			<bonus roll="1">
-				<augment_only chance="1"/>
-			</bonus>
-		</reward>
-	</mod-append:reward>
+    <mod-append:reward name="augment">
+        <reward>
+            <resource name="scrap"/>
+            <bonus roll="1">
+                <augment_only chance="1"/>
+            </bonus>
+        </reward>
+    </mod-append:reward>
 
-	<mod-append:reward name="augment_only">
-		<skipIfAugment/>
-		<augment/>
-	</mod-append:reward>
+    <mod-append:reward name="augment_only">
+        <skipIfAugment/>
+        <augment/>
+    </mod-append:reward>
 </mod:findLike>
 
 <!--QOL (gameplay)-->
 <mod:findComposite>
-	<mod:par op="OR">
-		<mod:findLike type="preIgniteChargers"/>
-	</mod:par>
-	<mod:setAttributes enabled="true"/>
+    <mod:par op="OR">
+        <mod:findLike type="preIgniteChargers"/>
+    </mod:par>
+    <mod:setAttributes enabled="true"/>
 </mod:findComposite>
 
 <mod:findLike type="defaults" limit="1">
-	<mod:findLike type="checkCargo">
-		<mod:setValue>true</mod:setValue>
-	</mod:findLike>
+    <mod:findLike type="checkCargo">
+        <mod:setValue>true</mod:setValue>
+    </mod:findLike>
 </mod:findLike>
 
 <mod:findLike type="events" limit="1">
-	<mod-append:req name="MULTIREQ_BATTLE" type="all" lvl="1">
-		<req lvl="1">
-			<name>BATTLE</name>
-		</req>
-		<req lvl="1">
-			<name>drones</name>
-		</req>
-	</mod-append:req>
-	<mod-append:req name="MULTIREQ_BOARDER" type="all" lvl="1">
-		<req lvl="1">
-			<name>BOARDER</name>
-		</req>
-		<req lvl="1">
-			<name>drones</name>
-		</req>
-	</mod-append:req>
-	<mod-append:req name="MULTIREQ_COMBAT_BEAM_DRONE_LIST" type="all" lvl="1">
-		<req lvl="1">
-			<name>COMBAT_BEAM_DRONE_LIST</name>
-		</req>
-		<req lvl="1">
-			<name>drones</name>
-		</req>
-	</mod-append:req>
-	<mod-append:req name="MULTIREQ_COMBAT_DRONE_LIST" type="all" lvl="1">
-		<req lvl="1">
-			<name>COMBAT_DRONE_LIST</name>
-		</req>
-		<req lvl="1">
-			<name>drones</name>
-		</req>
-	</mod-append:req>
-	<mod-append:req name="MULTIREQ_DRONES_DEFENSE_LIST" type="all" lvl="1">
-		<req lvl="1">
-			<name>DRONES_DEFENSE_LIST</name>
-		</req>
-		<req lvl="1">
-			<name>drones</name>
-		</req>
-	</mod-append:req>
-	<mod-append:req name="MULTIREQ_REPAIR" type="all" lvl="1">
-		<req lvl="1">
-			<name>REPAIR</name>
-		</req>
-		<req lvl="1">
-			<name>drones</name>
-		</req>
-	</mod-append:req>
-	<mod-append:req name="MULTIREQ_SHIP_REPAIR" type="all" lvl="1">
-		<req lvl="1">
-			<name>SHIP_REPAIR</name>
-		</req>
-		<req lvl="1">
-			<name>drones</name>
-		</req>
-	</mod-append:req>
-	<!--Start of Speed UI-->
-	<mod-append:metaVariable name="speedui_setting" op="set" val="0"/>
-	<mod-append:metaVariable name="speedui_speed" op="set" val="0"/>
-	<mod-append:metaVariable name="speedui_toggle" op="set" val="0"/>
+    <mod-append:req name="MULTIREQ_BATTLE" type="all" lvl="1">
+        <req lvl="1">
+            <name>BATTLE</name>
+        </req>
+        <req lvl="1">
+            <name>drones</name>
+        </req>
+    </mod-append:req>
+    <mod-append:req name="MULTIREQ_BOARDER" type="all" lvl="1">
+        <req lvl="1">
+            <name>BOARDER</name>
+        </req>
+        <req lvl="1">
+            <name>drones</name>
+        </req>
+    </mod-append:req>
+    <mod-append:req name="MULTIREQ_COMBAT_BEAM_DRONE_LIST" type="all" lvl="1">
+        <req lvl="1">
+            <name>COMBAT_BEAM_DRONE_LIST</name>
+        </req>
+        <req lvl="1">
+            <name>drones</name>
+        </req>
+    </mod-append:req>
+    <mod-append:req name="MULTIREQ_COMBAT_DRONE_LIST" type="all" lvl="1">
+        <req lvl="1">
+            <name>COMBAT_DRONE_LIST</name>
+        </req>
+        <req lvl="1">
+            <name>drones</name>
+        </req>
+    </mod-append:req>
+    <mod-append:req name="MULTIREQ_DRONES_DEFENSE_LIST" type="all" lvl="1">
+        <req lvl="1">
+            <name>DRONES_DEFENSE_LIST</name>
+        </req>
+        <req lvl="1">
+            <name>drones</name>
+        </req>
+    </mod-append:req>
+    <mod-append:req name="MULTIREQ_REPAIR" type="all" lvl="1">
+        <req lvl="1">
+            <name>REPAIR</name>
+        </req>
+        <req lvl="1">
+            <name>drones</name>
+        </req>
+    </mod-append:req>
+    <mod-append:req name="MULTIREQ_SHIP_REPAIR" type="all" lvl="1">
+        <req lvl="1">
+            <name>SHIP_REPAIR</name>
+        </req>
+        <req lvl="1">
+            <name>drones</name>
+        </req>
+    </mod-append:req>
+    <!--Start of Speed UI-->
+    <mod-append:metaVariable name="speedui_setting" op="set" val="0"/>
+    <mod-append:metaVariable name="speedui_speed" op="set" val="0"/>
+    <mod-append:metaVariable name="speedui_toggle" op="set" val="0"/>
 </mod:findLike>
 
 <mod:findLike type="scripts" limit="1">
-	<mod-append:script>data/bugfixes_and_qol_scripts/speedui.lua</mod-append:script>
+    <mod-append:script>data/bugfixes_and_qol_scripts/speedui.lua</mod-append:script>
 </mod:findLike>
 <!--End of Speed UI-->
 
 <!--Bugfixes (non-gameplay)-->
 <mod:findComposite>
-	<mod:par op="OR">
-		<mod:findLike type="playerHpColorFix"/>
-		<mod:findLike type="warningLightPositionFix"/>
-	</mod:par>
-	<mod:setAttributes enabled="true"/>
+    <mod:par op="OR">
+        <mod:findLike type="playerHpColorFix"/>
+        <mod:findLike type="warningLightPositionFix"/>
+    </mod:par>
+    <mod:setAttributes enabled="true"/>
 </mod:findComposite>
 
 <shiftotherelementsslightlytotheleftsotheyrealigned>true</shiftotherelementsslightlytotheleftsotheyrealigned>
 
 <!--QOL (non-gameplay)-->
 <mod:findComposite>
-	<mod:par op="OR">
-		<mod:findLike type="showReactor"/>
-		<mod:findLike type="allowRenameInputSpecialCharacters"/>
-		<mod:findLike type="insertNewlineForMultipleCrewTooltips"/>
-	</mod:par>
-	<mod:setAttributes enabled="true"/>
+    <mod:par op="OR">
+        <mod:findLike type="showReactor"/>
+        <mod:findLike type="allowRenameInputSpecialCharacters"/>
+        <mod:findLike type="insertNewlineForMultipleCrewTooltips"/>
+    </mod:par>
+    <mod:setAttributes enabled="true"/>
 </mod:findComposite>
 
 <mod:findLike type="extraShipInfo">
-	<mod:setAttributes missileCount="true" droneCount="true" crewLimit="true"/>
+    <mod:setAttributes missileCount="true" droneCount="true" crewLimit="true"/>
 </mod:findLike>
 
 <mod:findLike type="showDummyEquipmentSlots">
-	<mod:setAttributes enabled="true" opacity="0.3"/>
+    <mod:setAttributes enabled="true" opacity="0.3"/>
 </mod:findLike>
 
 <mod:findLike type="renameShipInRun">
-	<mod:setAttributes enabled="true" allowButton="true"/>
+    <mod:setAttributes enabled="true" allowButton="true"/>
 </mod:findLike>
 
 <mod:findLike type="ships" limit="1">
-	<mod-append:customShip name="BOSS_1_EASY">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_2_EASY">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_3_EASY">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_1_NORMAL">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_2_NORMAL">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_3_NORMAL">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_1_HARD">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_2_HARD">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_3_HARD">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_1_EASY_DLC">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_2_EASY_DLC">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_3_EASY_DLC">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_1_NORMAL_DLC">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_2_NORMAL_DLC">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_3_NORMAL_DLC">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_1_HARD_DLC">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_2_HARD_DLC">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="BOSS_3_HARD_DLC">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="REBEL_SKINNY_ELITE">
-		<noFuelStalemate/>
-	</mod-append:customShip>
-	<mod-append:customShip name="REBEL_SKINNY_ELITE_DLC">
-		<noFuelStalemate/>
-	</mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_EASY">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_EASY">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_EASY">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_NORMAL">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_NORMAL">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_NORMAL">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_HARD">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_HARD">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_HARD">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_EASY_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_EASY_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_EASY_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_NORMAL_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_NORMAL_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_NORMAL_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_HARD_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_HARD_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_HARD_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="REBEL_SKINNY_ELITE">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="REBEL_SKINNY_ELITE_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
 </mod:findLike>
 
 <!--Disabled HS Defaults; remove below and DRONES_BOSS_VANILLA in blueprints.xml.append once HS uses defaults that match vanilla.-->
 <mod:findComposite>
-	<mod:par op="OR">
-		<mod:findLike type="console"/>
-		<mod:findLike type="dismissSound"/>
-		<mod:findLike type="hackingDroneFix"/>
-		<mod:findLike type="repairDroneRecoveryFix"/>
-	</mod:par>
-	<mod:setAttributes enabled="false"/>
+    <mod:par op="OR">
+        <mod:findLike type="console"/>
+        <mod:findLike type="dismissSound"/>
+        <mod:findLike type="hackingDroneFix"/>
+        <mod:findLike type="repairDroneRecoveryFix"/>
+    </mod:par>
+    <mod:setAttributes enabled="false"/>
 </mod:findComposite>
 
 <mod:findLike type="boss" limit="1">
-	<mod:findLike type="surgeDrones">
-		<mod:findLike type="drone">
-			<mod:removeTag/>
-		</mod:findLike>
-		<mod-append:drone difficulty="0" name="DRONES_BOSS_VANILLA" count="1" />
+    <mod:findLike type="surgeDrones">
+        <mod:findLike type="drone">
+            <mod:removeTag/>
+        </mod:findLike>
+        <mod-append:drone difficulty="0" name="DRONES_BOSS_VANILLA" count="1" />
         <mod-append:drone difficulty="0" name="DRONES_BOSS_VANILLA" count="1" />
         <mod-append:drone difficulty="0" name="DRONES_BOSS_VANILLA" count="1" />
         <mod-append:drone difficulty="0" name="DRONES_BOSS_VANILLA" count="1" />
@@ -335,28 +335,28 @@
         <mod-append:drone difficulty="2" name="DRONES_BOSS_VANILLA" count="1" />
         <mod-append:drone difficulty="2" name="DRONES_BOSS_VANILLA" count="1" />
         <mod-append:drone difficulty="2" name="DRONES_BOSS_VANILLA" count="1" />
-	</mod:findLike>
+    </mod:findLike>
 </mod:findLike>
 
 <!--Bugfixes/QOL for mods (no vanilla impact)-->
 <mod:findComposite>
-	<mod:par op="OR">
-		<mod:findLike type="altLockedMiniships"/>
-		<mod:findLike type="oxygenWithoutSystem"/>
-		<mod:findLike type="shieldWithoutSystem"/>
-		<mod:findLike type="droneSelectHotkeys"/>
-		<mod:findLike type="droneSaveStations"/>
-		<mod:findLike type="enemyPreigniterFix"/>
-		<mod:findLike type="artilleryGibMountFix"/>
-		<mod:findLike type="multiShipFix"/>
-		<mod:findLike type="scaleSlugGel"/>
-		<mod:findLike type="customChoiceColors"/>
-		<mod:findLike type="customTextStyle"/>
-	</mod:par>
-	<mod:setAttributes enabled="true"/>
+    <mod:par op="OR">
+        <mod:findLike type="altLockedMiniships"/>
+        <mod:findLike type="oxygenWithoutSystem"/>
+        <mod:findLike type="shieldWithoutSystem"/>
+        <mod:findLike type="droneSelectHotkeys"/>
+        <mod:findLike type="droneSaveStations"/>
+        <mod:findLike type="enemyPreigniterFix"/>
+        <mod:findLike type="artilleryGibMountFix"/>
+        <mod:findLike type="multiShipFix"/>
+        <mod:findLike type="scaleSlugGel"/>
+        <mod:findLike type="customChoiceColors"/>
+        <mod:findLike type="customTextStyle"/>
+    </mod:par>
+    <mod:setAttributes enabled="true"/>
 </mod:findComposite>
 
 <mod:findLike type="systemNoPurchaseThreshold">
-	<mod:setAttributes enabled="true" threshold="999"/>
+    <mod:setAttributes enabled="true" threshold="999"/>
 </mod:findLike>
 </FTL>

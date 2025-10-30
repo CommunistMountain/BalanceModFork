@@ -5,37 +5,37 @@
 <text name="speed_ui_variant_1" language="ja">Speed UIを変更（現在：バリアント1）</text>
 <text name="speed_ui_variant_2" language="ja">Speed UIを変更（現在：バリアント2）</text>
 <mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
-	<mod:setValue>船内の炎を自動的に消化する。（83%）</mod:setValue>
+    <mod:setValue>船内の炎を自動的に消化する。（83%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_NANO_MEDBAY_desc">
-	<mod:setValue>医療ベイの外であっても、エンジのナノ医療ボットがクルーを回復させる。（1.6 HP/s）</mod:setValue>
+    <mod:setValue>医療ベイの外であっても、エンジのナノ医療ボットがクルーを回復させる。（1.6 HP/s）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_REPAIR_ARM_desc">
-	<mod:setValue>スクラップを回収するたび、入手量は15%減少するが、船体が修理される。（2）</mod:setValue>
+    <mod:setValue>スクラップを回収するたび、入手量は15%減少するが、船体が修理される。（2）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_SLUG_GEL_desc">
-	<mod:setValue>スラッグの艦船から高濃度ジェルが分泌され、船体の亀裂を自動修復する。（75%）</mod:setValue>
+    <mod:setValue>スラッグの艦船から高濃度ジェルが分泌され、船体の亀裂を自動修復する。（75%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_1">
-	<mod:setValue>区画内の酸素を吸収する（=亀裂）</mod:setValue>
+    <mod:setValue>区画内の酸素を吸収する（=亀裂）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_2">
-	<mod:setValue>動きは遅い（-15%）が、酸欠ダメージを受けない</mod:setValue>
+    <mod:setValue>動きは遅い（-15%）が、酸欠ダメージを受けない</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_1">
-	<mod:setValue>ロックダウン能力（12s/50s）</mod:setValue>
+    <mod:setValue>ロックダウン能力（12s/50s）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_2">
-	<mod:setValue>酸欠ダメージ減少（-50%）</mod:setValue>
+    <mod:setValue>酸欠ダメージ減少（-50%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_3">
-	<mod:setValue>移動速度-20%;消火-17%</mod:setValue>
+    <mod:setValue>移動速度-20%;消火-17%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_human_power_1">
-	<mod:setValue>スキルの習得が少しだけ早い（+11%）</mod:setValue>
+    <mod:setValue>スキルの習得が少しだけ早い（+11%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_rock_power_1">
-	<mod:setValue>火災無効（消火+67%）</mod:setValue>
+    <mod:setValue>火災無効（消火+67%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
@@ -83,18 +83,18 @@
     <mod:setValue>敵ハッキング：一時的にハッキング不能（39%/62%/77%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
-	<mod:setValue>ゾルタン爆撃艦</mod:setValue>
+    <mod:setValue>ゾルタン爆撃艦</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
-	<mod:setValue>ゾルタンハッカー</mod:setValue>
+    <mod:setValue>ゾルタンハッカー</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_class">
-	<mod:setValue>ゾルタン戦闘艇</mod:setValue>
+    <mod:setValue>ゾルタン戦闘艇</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_DLC_class">
-	<mod:setValue>ゾルタン扇動艇</mod:setValue>
+    <mod:setValue>ゾルタン扇動艇</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
-	<mod:setValue>ゾルタン戦闘艇</mod:setValue>
+    <mod:setValue>ゾルタン戦闘艇</mod:setValue>
 </mod:findName>
 </FTL>

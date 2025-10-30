@@ -5,37 +5,37 @@
 <text name="speed_ui_variant_1" language="de">Speed UI ändern (derzeit Variante 1)</text>
 <text name="speed_ui_variant_2" language="de">Speed UI ändern (derzeit Variante 2)</text>
 <mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
-	<mod:setValue>Löscht automatisch jedes Feuer an Bord. (83%)</mod:setValue>
+    <mod:setValue>Löscht automatisch jedes Feuer an Bord. (83%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_NANO_MEDBAY_desc">
-	<mod:setValue>Engi-Nano-Medbots heilen die Crew außerhalb der Krankenstation. (1.6 HP/s)</mod:setValue>
+    <mod:setValue>Engi-Nano-Medbots heilen die Crew außerhalb der Krankenstation. (1.6 HP/s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_REPAIR_ARM_desc">
-	<mod:setValue>Repariert die Schiffshülle (2), wenn du Schrott einsammelst, aber reduziert die eingesammelte Menge um 15%.</mod:setValue>
+    <mod:setValue>Repariert die Schiffshülle (2), wenn du Schrott einsammelst, aber reduziert die eingesammelte Menge um 15%.</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_SLUG_GEL_desc">
-	<mod:setValue>Snecko-Schiffe sondern ein dickes Gel ab, das automatisch Löcher in der Hülle repariert. (75%)</mod:setValue>
+    <mod:setValue>Snecko-Schiffe sondern ein dickes Gel ab, das automatisch Löcher in der Hülle repariert. (75%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_1">
-	<mod:setValue>Entzieht Räumen Sauerstoff. (=Bruch)</mod:setValue>
+    <mod:setValue>Entzieht Räumen Sauerstoff. (=Bruch)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_2">
-	<mod:setValue>Langsame Bewegung (-15%), aber kein Schaden durch Sauerstoffmangel.</mod:setValue>
+    <mod:setValue>Langsame Bewegung (-15%), aber kein Schaden durch Sauerstoffmangel.</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_1">
-	<mod:setValue>Sperrkraft (12s/50s)</mod:setValue>
+    <mod:setValue>Sperrkraft (12s/50s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_2">
-	<mod:setValue>Verringerter Schaden durch Sauerstoffmangel. (-50%)</mod:setValue>
+    <mod:setValue>Verringerter Schaden durch Sauerstoffmangel. (-50%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_3">
-	<mod:setValue>Bewegung -20%; Brandbekämpfung -17%</mod:setValue>
+    <mod:setValue>Bewegung -20%; Brandbekämpfung -17%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_human_power_1">
-	<mod:setValue>Fertigkeiten verbessern sich etwas schneller. (+11%)</mod:setValue>
+    <mod:setValue>Fertigkeiten verbessern sich etwas schneller. (+11%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_rock_power_1">
-	<mod:setValue>Immun gegen Feuer. (Brandbekämpfung +67%)</mod:setValue>
+    <mod:setValue>Immun gegen Feuer. (Brandbekämpfung +67%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
@@ -83,18 +83,18 @@
     <mod:setValue>SYSTEM GEHACKT: HACKING KURZZEITIG GESTÖRT! (39%/62%/77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
-	<mod:setValue>Zoltan-Bomber</mod:setValue>
+    <mod:setValue>Zoltan-Bomber</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
-	<mod:setValue>Zoltan-Hacker</mod:setValue>
+    <mod:setValue>Zoltan-Hacker</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_class">
-	<mod:setValue>Zoltan-Jäger</mod:setValue>
+    <mod:setValue>Zoltan-Jäger</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_DLC_class">
-	<mod:setValue>Zoltan-Aufhetzer</mod:setValue>
+    <mod:setValue>Zoltan-Aufhetzer</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
-	<mod:setValue>Zoltan-Jäger</mod:setValue>
+    <mod:setValue>Zoltan-Jäger</mod:setValue>
 </mod:findName>
 </FTL>

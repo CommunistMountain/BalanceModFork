@@ -2,7 +2,7 @@
 
 <FTL>
 <mod:findLike type="img">
-	<mod:setAttributes y="-104"/>
+    <mod:setAttributes y="-104"/>
 </mod:findLike>
 
 <mod:findLike type="offsets">

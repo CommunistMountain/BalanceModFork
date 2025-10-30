@@ -5,37 +5,37 @@
 <text name="speed_ui_variant_1" language="ko">Speed UI 변경 (현재 변형 1)</text>
 <text name="speed_ui_variant_2" language="ko">Speed UI 변경 (현재 변형 2)</text>
 <mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
-	<mod:setValue>선내의 화재가 자동으로 진화됩니다. (83%)</mod:setValue>
+    <mod:setValue>선내의 화재가 자동으로 진화됩니다. (83%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_NANO_MEDBAY_desc">
-	<mod:setValue>엔지의 나노봇이 의료실 밖에 있는 선원들도 치료합니다. (1.6 HP/s)</mod:setValue>
+    <mod:setValue>엔지의 나노봇이 의료실 밖에 있는 선원들도 치료합니다. (1.6 HP/s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_REPAIR_ARM_desc">
-	<mod:setValue>스크랩을 얻을때마다 갑판을 고치지만(2), 얻는 스크랩 양이 15% 감소합니다.</mod:setValue>
+    <mod:setValue>스크랩을 얻을때마다 갑판을 고치지만(2), 얻는 스크랩 양이 15% 감소합니다.</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_SLUG_GEL_desc">
-	<mod:setValue>슬러그의 함선이 배출하는 진득한 젤로, 선체에 난 구멍을 즉시 막아줍니다. (75%)</mod:setValue>
+    <mod:setValue>슬러그의 함선이 배출하는 진득한 젤로, 선체에 난 구멍을 즉시 막아줍니다. (75%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_1">
-	<mod:setValue>선실 내부의 산소를 빨아들입니다. (=선체 균열)</mod:setValue>
+    <mod:setValue>선실 내부의 산소를 빨아들입니다. (=선체 균열)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_anaerobic_power_2">
-	<mod:setValue>이동속도는 느리지 (-15%)만 저산소증으로 인한 피해를 입지 않습니다.</mod:setValue>
+    <mod:setValue>이동속도는 느리지 (-15%)만 저산소증으로 인한 피해를 입지 않습니다.</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_1">
-	<mod:setValue>봉쇄 (12s/50s)</mod:setValue>
+    <mod:setValue>봉쇄 (12s/50s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_2">
-	<mod:setValue>질식상태에서 피해를 덜 받습니다. (-50%)</mod:setValue>
+    <mod:setValue>질식상태에서 피해를 덜 받습니다. (-50%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_3">
-	<mod:setValue>이동속도 -20%; 소방 -17%</mod:setValue>
+    <mod:setValue>이동속도 -20%; 소방 -17%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_human_power_1">
-	<mod:setValue>숙련도가 약간 빠르게 증가합니다. (+11%)</mod:setValue>
+    <mod:setValue>숙련도가 약간 빠르게 증가합니다. (+11%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_rock_power_1">
-	<mod:setValue>불에 타지않습니다. (소방 +67%)</mod:setValue>
+    <mod:setValue>불에 타지않습니다. (소방 +67%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>

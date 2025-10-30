@@ -2,51 +2,51 @@
 
 <FTL>
 <mod:findName type="event" name="ROCK_STARSHIP_MINE">
-	<mod:findLike type="choice">
-		<mod:findLike type="event">
-			<mod:findLike type="choice">
-			<mod:selector req="WEAPONS_MISSILES"/>
-				<mod:findLike type="event">
-					<mod:findLike type="item_modify">
-						<mod:findLike type="item">
-							<mod:setAttributes type="missiles"/>
-						</mod:findLike>
-					</mod:findLike>
-				</mod:findLike>
-			</mod:findLike>
-			<mod:findLike type="choice">
-			<mod:selector req="COMBAT_BEAM_DRONE_LIST"/>
-				<mod:setAttributes req="MULTIREQ_COMBAT_BEAM_DRONE_LIST"/>
-			</mod:findLike>
-		</mod:findLike>
-	</mod:findLike>
+    <mod:findLike type="choice">
+        <mod:findLike type="event">
+            <mod:findLike type="choice">
+            <mod:selector req="WEAPONS_MISSILES"/>
+                <mod:findLike type="event">
+                    <mod:findLike type="item_modify">
+                        <mod:findLike type="item">
+                            <mod:setAttributes type="missiles"/>
+                        </mod:findLike>
+                    </mod:findLike>
+                </mod:findLike>
+            </mod:findLike>
+            <mod:findLike type="choice">
+            <mod:selector req="COMBAT_BEAM_DRONE_LIST"/>
+                <mod:setAttributes req="MULTIREQ_COMBAT_BEAM_DRONE_LIST"/>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findLike>
 </mod:findName>
 
 <mod:findComposite>
-	<mod:par op="OR">
-		<mod:findName type="eventList" name="ROCK_LOOTING_STRIP"/>
-		<mod:findName type="eventList" name="ROCK_LOOTING_SLUG"/>
-	</mod:par>
-	<mod:findLike type="event">
-		<mod:findLike type="autoReward">
-			<mod:setAttributes level="LOW"/>
-		</mod:findLike>
-	</mod:findLike>
+    <mod:par op="OR">
+        <mod:findName type="eventList" name="ROCK_LOOTING_STRIP"/>
+        <mod:findName type="eventList" name="ROCK_LOOTING_SLUG"/>
+    </mod:par>
+    <mod:findLike type="event">
+        <mod:findLike type="autoReward">
+            <mod:setAttributes level="LOW"/>
+        </mod:findLike>
+    </mod:findLike>
 </mod:findComposite>
 
 <mod:findName type="event" name="ROCK_MANTIS_FREIGHTER">
-	<mod:findLike type="choice">
-	<mod:selector req="REPAIR"/>
-		<mod:setAttributes req="MULTIREQ_REPAIR"/>
-		<mod:findLike type="event">
-			<mod:findLike type="autoReward">
-				<mod:setValue>standard_droneparts-1</mod:setValue>
-			</mod:findLike>
-		</mod:findLike>
-	</mod:findLike>
-	<mod:findLike type="choice">
-	<mod:selector req="SHIP_REPAIR"/>
-		<mod:setAttributes req="MULTIREQ_SHIP_REPAIR"/>
-	</mod:findLike>
+    <mod:findLike type="choice">
+    <mod:selector req="REPAIR"/>
+        <mod:setAttributes req="MULTIREQ_REPAIR"/>
+        <mod:findLike type="event">
+            <mod:findLike type="autoReward">
+                <mod:setValue>standard_droneparts-1</mod:setValue>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="choice">
+    <mod:selector req="SHIP_REPAIR"/>
+        <mod:setAttributes req="MULTIREQ_SHIP_REPAIR"/>
+    </mod:findLike>
 </mod:findName>
 </FTL>

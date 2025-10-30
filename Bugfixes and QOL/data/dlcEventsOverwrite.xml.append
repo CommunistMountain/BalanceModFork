@@ -2,19 +2,19 @@
 
 <FTL>
 <mod:findName type="ship" name="REBEL_FEDERATION_PDS">
-	<mod:findComposite>
-		<mod:par op="OR">
-			<mod:findLike type="gotaway"/>
-			<mod:findLike type="destroyed"/>
-			<mod:findLike type="deadCrew"/>
-		</mod:par>
-		<mod:findLike type="choice">
-			<mod:findLike type="event">
-				<mod:findLike type="autoReward">
-					<mod:setValue>scrap_only</mod:setValue>
-				</mod:findLike>
-			</mod:findLike>
-		</mod:findLike>
-	</mod:findComposite>
+    <mod:findComposite>
+        <mod:par op="OR">
+            <mod:findLike type="gotaway"/>
+            <mod:findLike type="destroyed"/>
+            <mod:findLike type="deadCrew"/>
+        </mod:par>
+        <mod:findLike type="choice">
+            <mod:findLike type="event">
+                <mod:findLike type="autoReward">
+                    <mod:setValue>scrap_only</mod:setValue>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findComposite>
 </mod:findName>
 </FTL>

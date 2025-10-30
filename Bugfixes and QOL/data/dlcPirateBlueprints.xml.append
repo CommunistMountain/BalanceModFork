@@ -2,16 +2,16 @@
 
 <FTL>
 <mod:findName type="shipBlueprint" name="JELLY_TRUFFLE_P_DLC">
-	<mod:findLike type="systemList">
-		<mod:findLike type="pilot">
-			<mod:setAttributes max="3"/>
-		</mod:findLike>
-	</mod:findLike>
+    <mod:findLike type="systemList">
+        <mod:findLike type="pilot">
+            <mod:setAttributes max="3"/>
+        </mod:findLike>
+    </mod:findLike>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="MANTIS_SCOUT_P_DLC">
-	<mod:findLike type="maxSector">
-		<mod:setValue>5</mod:setValue>
-	</mod:findLike>
+    <mod:findLike type="maxSector">
+        <mod:setValue>5</mod:setValue>
+    </mod:findLike>
 </mod:findName>
 </FTL>
