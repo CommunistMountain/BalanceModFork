@@ -47,7 +47,7 @@
         <mod:findName type="ship" name="JELLY_UNLOCK1"/>
     </mod:par>
     <mod-append:gotaway>
-        <text id="ship_REBEL_FUEL_gotaway_text"/>
+        <text id="event_LANIUS_TRADER_c2_text"/>
     </mod-append:gotaway>
 </mod:findComposite>
 </FTL>

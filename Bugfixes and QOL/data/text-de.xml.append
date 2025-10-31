@@ -49,6 +49,30 @@
 <mod:findName type="text" name="engine">
     <mod:setValue>Ausweichen: \1% / FTL: \2x</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="hack_drones">
+    <mod:setValue>Deaktiviert gegnerische Drohnen kurzzeitig und kann sie sogar zerstören. (39%/62%/77%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_drones_player">
+    <mod:setValue>SYSTEM GEHACKT: DROHNEN AUSSER BETRIEB, KÖNNEN EXPLODIEREN. (39%/62%/77%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_hacking">
+    <mod:setValue>Unterbricht und verhindert kurzzeitig feindliches Hacking. (39%/62%/77%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_hacking_player">
+    <mod:setValue>SYSTEM GEHACKT: HACKING KURZZEITIG GESTÖRT! (39%/62%/77%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_medbay">
+    <mod:setValue>Die Krankenstation richtet bei der gegnerischen Crew kurzzeitig Schaden an. (-12.8 HP/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_medbay_player">
+    <mod:setValue>SYSTEM GEHACKT: KRANKENSTATION VERLETZT CREW! (-12.8 HP/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_oxygen">
+    <mod:setValue>Entzieht dem Feindschiff kurzzeitig Sauerstoff. (-6%/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_oxygen_player">
+    <mod:setValue>SYSTEM GEHACKT: STARKER SAUERSTOFF VERLUST. (-6%/s)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="mind_1">
     <mod:setValue>14s</mod:setValue>
 </mod:findName>
@@ -58,41 +82,17 @@
 <mod:findName type="text" name="mind_3">
     <mod:setValue>28s, +30 HP, +100% DPS</mod:setValue>
 </mod:findName>
-<mod:findName type="text" name="hack_oxygen">
-    <mod:setValue>Entzieht dem Feindschiff kurzzeitig Sauerstoff. (-6%/s)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="hack_medbay">
-    <mod:setValue>Die Krankenstation richtet bei der gegnerischen Crew kurzzeitig Schaden an. (-12.8 HP/s)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="hack_drones">
-    <mod:setValue>Deaktiviert gegnerische Drohnen kurzzeitig und kann sie sogar zerstören. (39%/62%/77%)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="hack_hacking">
-    <mod:setValue>Unterbricht und verhindert kurzzeitig feindliches Hacking. (39%/62%/77%)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="hack_oxygen_player">
-    <mod:setValue>SYSTEM GEHACKT: STARKER SAUERSTOFF VERLUST. (-6%/s)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="hack_medbay_player">
-    <mod:setValue>SYSTEM GEHACKT: KRANKENSTATION VERLETZT CREW! (-12.8 HP/s)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="hack_drones_player">
-    <mod:setValue>SYSTEM GEHACKT: DROHNEN AUSSER BETRIEB, KÖNNEN EXPLODIEREN. (39%/62%/77%)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="hack_hacking_player">
-    <mod:setValue>SYSTEM GEHACKT: HACKING KURZZEITIG GESTÖRT! (39%/62%/77%)</mod:setValue>
+<mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
+    <mod:setValue>Zoltan-Hacker</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
     <mod:setValue>Zoltan-Bomber</mod:setValue>
 </mod:findName>
-<mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
-    <mod:setValue>Zoltan-Hacker</mod:setValue>
+<mod:findName type="text" name="ship_ZOLTAN_FIGHTER_DLC_class">
+    <mod:setValue>Zoltan-Aufhetzer</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_FIGHTER_class">
     <mod:setValue>Zoltan-Jäger</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="ship_ZOLTAN_FIGHTER_DLC_class">
-    <mod:setValue>Zoltan-Aufhetzer</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
     <mod:setValue>Zoltan-Jäger</mod:setValue>

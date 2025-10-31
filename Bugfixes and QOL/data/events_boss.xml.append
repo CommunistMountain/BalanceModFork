@@ -3,7 +3,7 @@
 <FTL>
 <mod:findName type="ship" name="BOSS_SCOUT_RESCUE">
     <mod-append:gotaway>
-        <text id="ship_REBEL_FUEL_gotaway_text"/>
+        <text id="event_LANIUS_TRADER_c2_text"/>
     </mod-append:gotaway>
 </mod:findName>
 </FTL>

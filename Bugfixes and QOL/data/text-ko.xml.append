@@ -49,6 +49,30 @@
 <mod:findName type="text" name="engine">
     <mod:setValue>회피: \1% / FTL: \2x</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="hack_drones">
+    <mod:setValue>일시적으로 적의 드론들을 작동하지 못하도록 합니다. 일정 확률로 드론을 파괴합니다. (39%/62%/77%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_drones_player">
+    <mod:setValue>시스템이 해킹당했습니다: 드론이 작동하지 않으며, 파괴될 수도 있습니다. (39%/62%/77%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_hacking">
+    <mod:setValue>일시적으로 적의 해킹을 방해하여 효과를 취소합니다. (39%/62%/77%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_hacking_player">
+    <mod:setValue>시스템이 해킹당했습니다: 일시적으로 해킹이 불가능합니다. (39%/62%/77%)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_medbay">
+    <mod:setValue>일시적으로 적 함선의 의료실이 내부의 선원에게 치료 대신 피해를 입힙니다. (-12.8 HP/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_medbay_player">
+    <mod:setValue>시스템이 해킹당했습니다: 의료실 내부의 선원들은 피해를 입습니다! (-12.8 HP/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_oxygen">
+    <mod:setValue>일시적으로 적 함선 내부의 산소를 빼냅니다. (-6%/s)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_oxygen_player">
+    <mod:setValue>시스템이 해킹당했습니다: 선내의 산소가 빠져나갑니다. (-6%/s)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="mind_1">
     <mod:setValue>14s</mod:setValue>
 </mod:findName>
@@ -57,29 +81,5 @@
 </mod:findName>
 <mod:findName type="text" name="mind_3">
     <mod:setValue>28s, +30 HP, +100% DPS</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="hack_oxygen">
-    <mod:setValue>일시적으로 적 함선 내부의 산소를 빼냅니다. (-6%/s)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="hack_medbay">
-    <mod:setValue>일시적으로 적 함선의 의료실이 내부의 선원에게 치료 대신 피해를 입힙니다. (-12.8 HP/s)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="hack_drones">
-    <mod:setValue>일시적으로 적의 드론들을 작동하지 못하도록 합니다. 일정 확률로 드론을 파괴합니다. (39%/62%/77%)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="hack_hacking">
-    <mod:setValue>일시적으로 적의 해킹을 방해하여 효과를 취소합니다. (39%/62%/77%)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="hack_oxygen_player">
-    <mod:setValue>시스템이 해킹당했습니다: 선내의 산소가 빠져나갑니다. (-6%/s)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="hack_medbay_player">
-    <mod:setValue>시스템이 해킹당했습니다: 의료실 내부의 선원들은 피해를 입습니다! (-12.8 HP/s)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="hack_drones_player">
-    <mod:setValue>시스템이 해킹당했습니다: 드론이 작동하지 않으며, 파괴될 수도 있습니다. (39%/62%/77%)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="hack_hacking_player">
-    <mod:setValue>시스템이 해킹당했습니다: 일시적으로 해킹이 불가능합니다. (39%/62%/77%)</mod:setValue>
 </mod:findName>
 </FTL>

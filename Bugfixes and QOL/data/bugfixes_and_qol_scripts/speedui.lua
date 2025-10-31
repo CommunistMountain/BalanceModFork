@@ -51,12 +51,21 @@ local numberImage = {
 
 function initButtonSpeeds()
     if Hyperspace.metaVariables.speedui_setting == 1 then
-        if Hyperspace.metaVariables.speedui_speed < 0 then
-            Hyperspace.FPS.speedLevel = -2
-        elseif Hyperspace.metaVariables.speedui_speed > 0 then
-            Hyperspace.FPS.speedLevel = 2
-        else -- elseif Hyperspace.metaVariables.speedui_speed == 0 then
+        if not Hyperspace.FPS.speedEnabled or Hyperspace.metaVariables.speedui_speed == 0 then
             Hyperspace.FPS.speedLevel = 0
+            slowButton.bActive = true
+            normButton.bActive = false
+            fastButton.bActive = true
+        elseif Hyperspace.metaVariables.speedui_speed < 0 then
+            Hyperspace.FPS.speedLevel = -2
+            slowButton.bActive = false
+            normButton.bActive = true
+            fastButton.bActive = true
+        else -- elseif Hyperspace.metaVariables.speedui_speed > 0 then
+            Hyperspace.FPS.speedLevel = 2
+            slowButton.bActive = true
+            normButton.bActive = true
+            fastButton.bActive = false
         end
     elseif Hyperspace.metaVariables.speedui_setting == 2 then
         if Hyperspace.metaVariables.speedui_speed <= -2 then
@@ -72,6 +81,13 @@ function initButtonSpeeds()
             upButton.bActive = true
             downButton.bActive = true
         end
+        if Hyperspace.FPS.speedEnabled then
+            pauseButton.bActive = true
+            playButton.bActive = false
+        else
+            pauseButton.bActive = false
+            playButton.bActive = true
+        end
     else
         Hyperspace.FPS.speedLevel = 0
     end
@@ -83,17 +99,31 @@ script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function
     if Hyperspace.metaVariables.speedui_setting == 1 then
         local mousePos = Hyperspace.Mouse.position
         if not Hyperspace.FPS.speedEnabled or Hyperspace.metaVariables.speedui_speed == 0 then
-            slowButton.bActive = true
-            normButton.bActive = false
-            fastButton.bActive = true
+            if not slowButton.bActive then  -- It was slow
+                slowButton.bActive = true
+                normButton.bActive = false
+                fastButton.bActive = true
+                Hyperspace.Sounds:PlaySoundMix("powerUpSystem", -1, false)
+            elseif not fastButton.bActive then -- It was fast
+                slowButton.bActive = true
+                normButton.bActive = false
+                fastButton.bActive = true
+                Hyperspace.Sounds:PlaySoundMix("powerDownSystem", -1, false)
+            end
         elseif Hyperspace.metaVariables.speedui_speed < 0 then
-            slowButton.bActive = false
-            normButton.bActive = true
-            fastButton.bActive = true
+            if slowButton.bActive then -- It wasn't slow
+                slowButton.bActive = false
+                normButton.bActive = true
+                fastButton.bActive = true
+                Hyperspace.Sounds:PlaySoundMix("powerDownSystem", -1, false)
+            end
         else -- elseif Hyperspace.metaVariables.speedui_speed > 0 then
-            slowButton.bActive = true
-            normButton.bActive = true
-            fastButton.bActive = false
+            if fastButton.bActive then -- It wasn't fast
+                slowButton.bActive = true
+                normButton.bActive = true
+                fastButton.bActive = false
+                Hyperspace.Sounds:PlaySoundMix("powerUpSystem", -1, false)
+            end
         end
         slowButton:OnRender()
         slowButton:MouseMove(mousePos.x, mousePos.y, false)
@@ -108,13 +138,19 @@ script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function
         downButton:OnRender()
         downButton:MouseMove(mousePos.x, mousePos.y, false)
         if Hyperspace.FPS.speedEnabled then
-            pauseButton.bActive = true
-            playButton.bActive = false
+            if playButton.bActive then
+                playButton.bActive = false
+                pauseButton.bActive = true
+                Hyperspace.Sounds:PlaySoundMix("powerUpSystem", -1, false)
+            end
             pauseButton:OnRender()
             pauseButton:MouseMove(mousePos.x, mousePos.y, false)
         else
-            pauseButton.bActive = false
-            playButton.bActive = true
+            if pauseButton.bActive then
+                pauseButton.bActive = false
+                playButton.bActive = true
+                Hyperspace.Sounds:PlaySoundMix("powerDownSystem", -1, false)
+            end
             playButton:OnRender()
             playButton:MouseMove(mousePos.x, mousePos.y, false)
         end
@@ -132,19 +168,12 @@ function onClick(change)
             Hyperspace.metaVariables.speedui_speed = -2
             Hyperspace.FPS.speedLevel = -2
             Hyperspace.FPS.speedEnabled = true
-            Hyperspace.Sounds:PlaySoundMix("powerDownSystem", -1, false)
         elseif normButton.bHover and normButton.bActive then
             Hyperspace.FPS.speedEnabled = false
-            if Hyperspace.metaVariables.speedui_speed < 0 then
-                Hyperspace.Sounds:PlaySoundMix("powerUpSystem", -1, false)
-            else
-                Hyperspace.Sounds:PlaySoundMix("powerDownSystem", -1, false)
-            end
         elseif fastButton.bHover and fastButton.bActive then
             Hyperspace.metaVariables.speedui_speed = 2
             Hyperspace.FPS.speedLevel = 2
             Hyperspace.FPS.speedEnabled = true
-            Hyperspace.Sounds:PlaySoundMix("powerUpSystem", -1, false)
         end
     elseif Hyperspace.metaVariables.speedui_setting == 2 then
         if upButton.bHover and upButton.bActive then
@@ -167,13 +196,11 @@ function onClick(change)
             Hyperspace.Sounds:PlaySoundMix("powerDownSystem", -1, false)
         elseif pauseButton.bHover and pauseButton.bActive then
             Hyperspace.FPS.speedEnabled = false
-            Hyperspace.Sounds:PlaySoundMix("powerDownSystem", -1, false)
         elseif playButton.bHover and playButton.bActive then
             Hyperspace.FPS.speedEnabled = true
-            Hyperspace.Sounds:PlaySoundMix("powerUpSystem", -1, false)
         end
     end
     return Defines.Chain.CONTINUE
 end
-script.on_internal_event(Defines.InternalEvents.ON_MOUSE_L_BUTTON_DOWN, function(x,y) return onClick(1) end)
-script.on_internal_event(Defines.InternalEvents.ON_MOUSE_R_BUTTON_DOWN, function(x,y) return onClick(5) end)
+script.on_internal_event(Defines.InternalEvents.ON_MOUSE_L_BUTTON_DOWN, function() return onClick(1) end)
+script.on_internal_event(Defines.InternalEvents.ON_MOUSE_R_BUTTON_DOWN, function() return onClick(5) end)
