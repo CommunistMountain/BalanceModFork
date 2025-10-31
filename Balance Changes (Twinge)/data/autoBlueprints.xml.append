@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="blueprintList" name="DRONES_STANDARD"/>
+		<mod:findName type="blueprintList" name="DRONES_DEFENSE"/>
+		<mod:findName type="blueprintList" name="DRONES_CIRCLE"/>
+	</mod:par>
+	<mod:findLike type="name">
+	<mod:selector>DEFENSE_1</mod:selector>
+		<mod:setValue>DEFENSE_1_ENEMY</mod:setValue>
+	</mod:findLike>
+</mod:findComposite>
+
+<mod:findName type="blueprintList" name="DRONES_STANDARD">
+	<mod:findLike type="name">
+	<mod:selector>BOARDER</mod:selector>
+		<mod:setValue>BOARDER_ENEMY</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<blueprintList name="DRONES_ENGI">
+	<name>DEFENSE_1_ENEMY</name>
+	<name>DEFENSE_2_ENEMY</name>
+	<name>ANTI_DRONE</name>
+
+	<name>DEFENSE_1_ENEMY</name>
+	<name>DEFENSE_2_ENEMY</name>
+	<name>ANTI_DRONE</name>
+
+	<name>BATTLE</name>
+	<name>BOARDER_ION</name>
+	<name>DRONE_SHIELD_ENEMY</name>
+</blueprintList>
+
+<mod:findName type="blueprintList" name="SHIPS_FED">
+	<mod-append:name>FED_SCOUT_LATE</mod-append:name>
+	<mod-append:name>FED_BOMBER_LATE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHPS_REBEL_AND_AUTO">
+	<mod-append:name>AUTO_BASIC_LATE</mod-append:name>
+	<mod-append:name>AUTO_ASSAULT_LATE</mod-append:name>
+	<mod-append:name>REBEL_FAT_LATE</mod-append:name>
+	<mod-append:name>REBEL_SKINNY_LATE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHIPS_REBEL">
+	<mod-append:name>REBEL_FAT_LATE</mod-append:name>
+	<mod-append:name>REBEL_SKINNY_LATE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHIPS_REBEL_ELITE">
+	<mod-append:name>REBEL_SKINNY_ELITE_LATE</mod-append:name>
+	<mod-append:name>REBEL_SKINNY_ELITE_LATE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHIPS_AUTO">
+	<mod-append:name>AUTO_BASIC_LATE</mod-append:name>
+	<mod-append:name>AUTO_ASSAULT_LATE</mod-append:name>
+</mod:findName>
+
+<blueprintList name="SHIPS_AUTO_WARNING">
+	<name>AUTO_BASIC_WARNING</name>
+	<name>AUTO_ASSAULT</name>
+	<name>AUTO_BASIC_WARNING_LATE</name>
+	<name>AUTO_ASSAULT_LATE</name>
+</blueprintList>
+
+<mod:findName type="blueprintList" name="SHIPS_JELLY">
+	<mod-append:name>JELLY_CROISSANT_LATE</mod-append:name>
+	<mod-append:name>JELLY_TRUFFLE_LATE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHIPS_MANTIS">
+	<mod-append:name>MANTIS_FIGHTER_LATE</mod-append:name>
+	<mod-append:name>MANTIS_BOMBER_LATE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHIPS_ROCK">
+	<mod-append:name>ROCK_SCOUT_LATE</mod-append:name>
+	<mod-append:name>ROCK_FIGHT_LATE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHIPS_ROCK_PIRATE">
+	<mod-append:name>ROCK_SCOUT_P_LATE</mod-append:name>
+	<mod-append:name>ROCK_FIGHT_P_LATE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHIPS_CIRCLE">
+	<mod-append:name>CIRCLE_SCOUT_LATE</mod-append:name>
+	<mod-append:name>CIRCLE_BOMBER_LATE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHIPS_ZOLTAN">
+	<mod-append:name>ZOLTAN_FIGHTER_LATE</mod-append:name>
+	<mod-append:name>ZOLTAN_BOMBER_LATE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHIPS_ZOLTAN_PIRATE">
+	<mod-append:name>ZOLTAN_FIGHTER_P_LATE</mod-append:name>
+	<mod-append:name>ZOLTAN_BOMBER_P_LATE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHIPS_CRYSTAL">
+	<mod-append:name>CRYSTAL_SCOUT_LATE</mod-append:name>
+	<mod-append:name>CRYSTAL_BOMBER_LATE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHIPS_CIVILIAN">
+	<mod-append:name>ROCK_SCOUT_LATE</mod-append:name>
+	<mod-append:name>ROCK_FIGHT_LATE</mod-append:name>
+	<mod-append:name>FED_SCOUT_LATE</mod-append:name>
+	<mod-append:name>FED_BOMBER_LATE</mod-append:name>
+	<mod-append:name>CIRCLE_SCOUT_LATE</mod-append:name>
+	<mod-append:name>CIRCLE_BOMBER_LATE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHIPS_PIRATE">
+	<mod-append:name>JELLY_CROISSANT_P_LATE</mod-append:name>
+	<mod-append:name>JELLY_TRUFFLE_P_LATE</mod-append:name>
+	<mod-append:name>REBEL_FAT_P_LATE</mod-append:name>
+	<mod-append:name>REBEL_SKINNY_P_LATE</mod-append:name>
+	<mod-append:name>ROCK_SCOUT_P_LATE</mod-append:name>
+	<mod-append:name>ROCK_FIGHT_P_LATE</mod-append:name>
+	<mod-append:name>MANTIS_FIGHTER_P_LATE</mod-append:name>
+	<mod-append:name>MANTIS_BOMBER_P_LATE</mod-append:name>
+	<mod-append:name>FED_SCOUT_P_LATE</mod-append:name>
+	<mod-append:name>FED_BOMBER_P_LATE</mod-append:name>
+	<mod-append:name>ZOLTAN_FIGHTER_P_LATE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="ZOLTAN_FIGHTER">
+	<mod-append:maxSector>3</mod-append:maxSector>
+</mod:findName>
+
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="shipBlueprint" name="REBEL_FAT"/>
+		<mod:findName type="shipBlueprint" name="REBEL_SKINNY"/>
+		<mod:findName type="shipBlueprint" name="REBEL_SKINNY_ELITE"/>
+		<mod:findName type="shipBlueprint" name="AUTO_BASIC"/>
+		<mod:findName type="shipBlueprint" name="AUTO_ASSAULT"/>
+		<mod:findName type="shipBlueprint" name="JELLY_CROISSANT"/>
+		<mod:findName type="shipBlueprint" name="JELLY_TRUFFLE"/>
+		<mod:findName type="shipBlueprint" name="ROCK_FIGHT"/>
+		<mod:findName type="shipBlueprint" name="MANTIS_FIGHTER"/>
+		<mod:findName type="shipBlueprint" name="MANTIS_BOMBER"/>
+		<mod:findName type="shipBlueprint" name="FED_BOMBER"/>
+		<mod:findName type="shipBlueprint" name="CIRCLE_BOMBER"/>
+		<mod:findName type="shipBlueprint" name="ZOLTAN_BOMBER"/>
+		<mod:findName type="shipBlueprint" name="CRYSTAL_SCOUT"/>
+		<mod:findName type="shipBlueprint" name="CRYSTAL_BOMBER"/>
+	</mod:par>
+	<mod-append:maxSector>4</mod-append:maxSector>
+</mod:findComposite>
+
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="shipBlueprint" name="ROCK_SCOUT"/>
+		<mod:findName type="shipBlueprint" name="MANTIS_SCOUT"/>
+		<mod:findName type="shipBlueprint" name="FED_SCOUT"/>
+		<mod:findName type="shipBlueprint" name="CIRCLE_SCOUT"/>
+	</mod:par>
+	<mod:findLike type="maxSector">
+		<mod:setValue>4</mod:setValue>
+	</mod:findLike>
+</mod:findComposite>
+
+<shipBlueprint name="REBEL_FAT_LATE" layout="rebel_squat" img="rebel_squat">
+	<class id="ship_REBEL_FAT_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<oxygen power="1" max="2" room="2"/>
+		<shields power="2" max="8" room="4"/>
+		<engines power="2" max="4" room="7"/>
+		<weapons power="2" max="6" room="6"/>
+		<drones power="3" max="9" room="1"/>
+		<medbay power="1" max="3" room="3" start="false"/>
+		<doors power="1" max="3" room="5" start="false"/>
+	</systemList>
+	<droneList drones="4" load="DRONES_STANDARD"/>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="9"/>
+	<maxPower amount="10"/>
+	<crewCount amount="3" max="5" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>rebel_squat</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="REBEL_SKINNY_LATE" layout="rebel_long" img="rebel_long">
+	<class id="ship_REBEL_SKINNY_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<oxygen power="1" max="2" room="2"/>
+		<pilot power="2" max="3" room="0"/>
+		<shields power="2" max="8" room="6"/>
+		<engines power="2" max="5" room="5"/>
+		<weapons power="3" max="9" room="4"/>
+		<medbay power="1" max="2" room="3" start="false"/>
+		<teleporter power="1" max="1" room="1" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="10"/>
+	<maxPower amount="8"/>
+	<crewCount amount="3" max="6" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>rebel_long</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="REBEL_SKINNY_ELITE_LATE" layout="rebel_long" img="rebel_long_elite">
+	<class id="ship_REBEL_SKINNY_ELITE_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<oxygen power="1" max="2" room="2"/>
+		<pilot power="2" max="3" room="0"/>
+		<shields power="5" max="9" room="6"/>
+		<engines power="3" max="5" room="5"/>
+		<weapons power="4" max="10" room="4"/>
+		<medbay power="1" max="3" room="3"/>
+		<teleporter power="1" max="3" room="1" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="14"/>
+	<maxPower amount="14"/>
+	<crewCount amount="3" max="8" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>rebel_long</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="REBEL_TRANSPORT">
+	<mod:removeTag/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="AUTO_BASIC">
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="5"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="AUTO_BASIC_LATE" layout="auto_basic" img="auto_basic">
+	<class id="ship_AUTO_BASIC_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="2" room="2"/>
+		<shields power="2" max="8" room="3"/>
+		<engines power="2" max="8" room="1"/>
+		<weapons power="2" max="9" room="4"/>
+		<cloaking power="1" max="3" room="0" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_AUTO"/>
+	<health amount="6"/>
+	<maxPower amount="7"/>
+	<crewCount amount="0" max="0" class="human"/>
+	<cloakImage>auto_basic</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="AUTO_BASIC_WARNING" layout="auto_basic" img="auto_basic">
+	<class id="ship_AUTO_BASIC_class"/>
+	<maxSector>4</maxSector>
+	<systemList>
+		<pilot power="1" max="2" room="2"/>
+		<shields power="2" max="8" room="3" start="false"/>
+		<engines power="2" max="8" room="1"/>
+		<weapons power="2" max="8" room="4"/>
+		<cloaking power="1" max="2" room="0" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_AUTO"/>
+	<health amount="6"/>
+	<maxPower amount="5"/>
+	<crewCount amount="0" max="0" class="human"/>
+	<cloakImage>auto_basic</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="AUTO_BASIC_WARNING_LATE" layout="auto_basic" img="auto_basic">
+	<class id="ship_AUTO_BASIC_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="2" room="2"/>
+		<shields power="2" max="8" room="3" start="false"/>
+		<engines power="3" max="8" room="1"/>
+		<weapons power="2" max="9" room="4"/>
+		<cloaking power="1" max="2" room="0" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_AUTO"/>
+	<health amount="6"/>
+	<maxPower amount="6"/>
+	<crewCount amount="0" max="0" class="human"/>
+	<cloakImage>auto_basic</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="AUTO_ASSAULT">
+	<mod-append:minSector>1</mod-append:minSector>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="6"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="AUTO_ASSAULT_LATE" layout="auto_assault" img="auto_assault">
+	<class id="ship_AUTO_ASSAULT_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="2"/>
+		<shields power="2" max="9" room="3"/>
+		<engines power="1" max="5" room="4"/>
+		<weapons power="1" max="6" room="1"/>
+		<drones power="2" room="0" max="6" start="true"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_AUTO"/>
+	<droneList drones="5" load="DRONES_COMBAT"/>
+	<health amount="8"/>
+	<maxPower amount="7"/>
+	<crewCount amount="0" max="0" class="human"/>
+	<cloakImage>auto_assault</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="JELLY_BUTTON">
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="6"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="JELLY_CROISSANT_LATE" layout="jelly_croissant" img="jelly_croissant">
+	<class id="ship_JELLY_CROISSANT_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<doors power="1" max="3" room="5" start="false"/>
+		<oxygen power="1" max="3" room="4"/>
+		<medbay power="1" max="3" room="6" start="false"/>
+		<shields power="3" max="10" room="3"/>
+		<engines power="1" max="6" room="7"/>
+		<weapons power="2" max="9" room="1"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_JELLY"/>
+	<health amount="10"/>
+	<maxPower amount="8"/>
+	<crewCount amount="3" max="6" class="slug"/>
+	<boardingAI>sabotage</boardingAI>
+	<aug name="SLUG_GEL"/>
+	<cloakImage>jelly_croissant</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="JELLY_TRUFFLE">
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="JELLY_TRUFFLE_LATE" layout="jelly_truffle" img="jelly_truffle">
+	<class id="ship_JELLY_TRUFFLE_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<doors power="1" max="3" room="1" start="false"/>
+		<oxygen power="2" max="3" room="4"/>
+		<medbay power="1" max="3" room="3" start="false"/>
+		<shields power="2" max="10" room="6"/>
+		<engines power="1" max="5" room="2"/>
+		<weapons power="2" max="10" room="5"/>
+		<cloaking power="1" max="1" room="7"/>
+	</systemList>
+	<weaponList missiles="14" load="WEAPONS_JELLY"/>
+	<health amount="11"/>
+	<maxPower amount="9"/>
+	<crewCount amount="4" max="7" class="slug"/>
+	<boardingAI>sabotage</boardingAI>
+	<aug name="SLUG_GEL"/>
+	<cloakImage>jelly_truffle</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="ROCK_SCOUT">
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="6"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="ROCK_SCOUT_LATE" layout="rock_scout" img="rock_scout">
+	<class id="ship_ROCK_SCOUT_class"/>
+	<minSector>5</minSector>
+	<maxSector>5</maxSector>
+	<systemList>
+		<pilot power="1" max="3" room="3"/>
+		<doors power="1" max="3" room="5" start="false"/>
+		<oxygen power="1" max="3" room="0"/>
+		<medbay power="1" max="3" room="2" start="false"/>
+		<shields power="2" max="8" room="4"/>
+		<engines power="2" max="5" room="6"/>
+		<weapons power="2" max="8" room="1"/>
+	</systemList>
+	<weaponList missiles="6" load="WEAPONS_ROCK"/>
+	<health amount="8"/>
+	<maxPower amount="7"/>
+	<crewCount amount="2" max="5" class="rock"/>
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ROCK_ARMOR"/>
+	<cloakImage>rock_scout</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="ROCK_FIGHT_LATE" layout="rock_fight" img="rock_fight">
+	<class id="ship_ROCK_FIGHT_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="3"/>
+		<doors power="1" max="3" room="6" start="false"/>
+		<oxygen power="1" max="3" room="7"/>
+		<medbay power="1" max="3" room="4" start="false"/>
+		<shields power="2" max="8" room="5"/>
+		<engines power="2" max="5" room="8"/>
+		<weapons power="3" max="8" room="0"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_ROCK"/>
+	<health amount="11"/>
+	<maxPower amount="8"/>
+	<crewCount amount="3" max="5" class="rock"/>
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ROCK_ARMOR"/>
+	<cloakImage>rock_fight</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="ROCK_ASSAULT">
+	<mod:findLike type="systemList">
+		<mod:findLike type="weapons">
+			<mod:setAttributes power="3" max="9"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="14"/>
+	</mod:findLike>
+	<mod:findLike type="health">
+		<mod:setAttributes amount="13"/>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="8"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="ROCK_ASSAULT_ELITE">
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="14"/>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="8"/>
+	</mod:findLike>
+	<mod:findLike type="crewCount">
+		<mod:setAttributes min="5" max="6"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="MANTIS_SCOUT">
+	<mod:findLike type="systemList">
+		<mod:findLike type="engines">
+			<mod:setAttributes power="2" max="6"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="6"/>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="MANTIS_FIGHTER">
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="MANTIS_FIGHTER_LATE" layout="mantis_fighter" img="mantis_fighter">
+	<class id="ship_MANTIS_FIGHTER_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="2" max="3" room="9"/>
+		<doors power="1" max="3" room="2" start="false"/>
+		<oxygen power="1" max="3" room="5"/>
+		<medbay power="1" max="3" room="8"/>
+		<teleporter power="1" max="3" room="4"/>
+		<shields power="2" max="8" room="0"/>
+		<engines power="1" max="5" room="7"/>
+		<weapons power="2" max="8" room="3"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_MANTIS"/>
+	<health amount="9"/>
+	<maxPower amount="8"/>
+	<crewCount amount="3" max="5" class="mantis"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>mantis_fighter</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="MANTIS_BOMBER">
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="MANTIS_BOMBER_LATE" layout="mantis_bomber" img="mantis_bomber">
+	<class id="ship_MANTIS_BOMBER_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="3"/>
+		<doors power="1" max="3" room="9"/>
+		<oxygen power="1" max="3" room="11"/>
+		<medbay power="2" max="3" room="8"/>
+		<teleporter power="1" max="3" room="4"/>
+		<shields power="2" max="10" room="0"/>
+		<engines power="1" max="5" room="7"/>
+		<weapons power="2" max="10" room="10"/>
+	</systemList>
+	<weaponList missiles="14" load="WEAPONS_MANTIS"/>
+	<health amount="11"/>
+	<maxPower amount="9"/>
+	<crewCount amount="4" max="6" class="mantis"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>mantis_bomber</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="FED_SCOUT">
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="6"/>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="6"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="FED_SCOUT_LATE" layout="fed_scout" img="fed_scout">
+	<class id="ship_FED_SCOUT_class"/>
+	<minSector>5</minSector>
+	<maxSector>5</maxSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<doors power="1" max="3" room="2" start="false"/>
+		<oxygen power="1" max="3" room="5"/>
+		<shields power="2" max="8" room="1"/>
+		<engines power="2" max="5" room="4"/>
+		<weapons power="2" max="8" room="3"/>
+	</systemList>
+	<weaponList missiles="6" load="WEAPONS_FED"/>
+	<health amount="7"/>
+	<maxPower amount="7"/>
+	<crewCount amount="2" max="3" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>fed_scout</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="FED_BOMBER">
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="6"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="FED_BOMBER_LATE" layout="fed_bomber" img="fed_bomber">
+	<class id="ship_FED_BOMBER_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="2" max="3" room="0"/>
+		<doors power="1" max="3" room="2"/>
+		<medbay power="1" max="3" room="8" start="false"/>
+		<oxygen power="1" max="3" room="5"/>
+		<shields power="2" max="8" room="1"/>
+		<engines power="1" max="5" room="9"/>
+		<weapons power="3" max="8" room="6"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_FED"/>
+	<health amount="10"/>
+	<maxPower amount="7"/>
+	<crewCount amount="2" max="6" class="human"/>
+	<cloakImage>fed_bomber</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="CIRCLE_SCOUT_LATE" layout="circle_scout" img="circle_scout">
+	<class id="ship_ENGI_SCOUT_class"/>
+	<minSector>5</minSector>
+	<maxSector>5</maxSector>
+	<systemList>
+		<pilot power="1" max="3" room="5"/>
+		<doors power="1" max="3" room="2" start="false"/>
+		<medbay power="1" max="3" room="6" start="false"/>
+		<oxygen power="1" max="3" room="3"/>
+		<shields power="2" max="8" room="1"/>
+		<engines power="1" max="5" room="7"/>
+		<weapons power="2" max="8" room="4"/>
+		<drones power="3" max="8" room="0"/>
+	</systemList>
+	<weaponList missiles="6" load="WEAPONS_CIRCLE"/>
+	<droneList drones="4" load="DRONES_DEFENSE"/>
+	<health amount="7"/>
+	<maxPower amount="9"/>
+	<crewCount amount="2" max="5" class="engi"/>
+	<boardingAI>sabotage</boardingAI>
+	<aug name="NANO_MEDBAY"/>
+	<cloakImage>circle_scout</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="CIRCLE_BOMBER">
+	<mod:findLike type="systemList">
+		<mod:findLike type="doors">
+			<mod:removeAttributes start=""/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="14"/>
+	</mod:findLike>
+	<mod:findLike type="droneList">
+		<mod:setAttributes load="DRONES_ENGI"/>
+	</mod:findLike>
+	<mod:findLike type="health">
+		<mod:setAttributes amount="10"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="CIRCLE_BOMBER_LATE" layout="circle_bomber" img="circle_bomber">
+	<class id="ship_ENGI_BOMBER_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="1"/>
+		<doors power="2" max="3" room="2"/>
+		<medbay power="1" max="3" room="4" start="false"/>
+		<oxygen power="1" max="3" room="3"/>
+		<shields power="3" max="10" room="7"/>
+		<engines power="1" max="5" room="9"/>
+		<weapons power="2" max="10" room="11"/>
+		<drones power="2" max="8" room="5"/>
+	</systemList>
+	<weaponList missiles="14" load="WEAPONS_CIRCLE"/>
+	<droneList drones="4" load="DRONES_ENGI"/>
+	<health amount="10"/>
+	<maxPower amount="9"/>
+	<crewCount amount="3" max="6" class="engi"/>
+	<boardingAI>sabotage</boardingAI>
+	<aug name="NANO_MEDBAY"/>
+	<cloakImage>circle_bomber</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="ZOLTAN_FIGHTER">
+	<mod:findLike type="systemList">
+		<mod:findLike type="doors">
+			<mod:removeAttributes start=""/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="health">
+		<mod:setAttributes amount="6"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="ZOLTAN_FIGHTER_LATE" layout="energy_fighter" img="energy_fighter">
+	<class id="ship_ZOLTAN_FIGHTER_class"/>
+	<minSector>4</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="5"/>
+		<doors power="1" max="3" room="2"/>
+		<medbay power="1" max="3" room="6" start="false"/>
+		<oxygen power="1" max="3" room="3"/>
+		<shields power="2" max="8" room="1"/>
+		<engines power="1" max="5" room="0"/>
+		<weapons power="2" max="8" room="4"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_ZOLTAN"/>
+	<health amount="7"/>
+	<aug name="ENERGY_SHIELD"/>
+	<maxPower amount="7"/>
+	<crewCount amount="2" max="5" class="energy"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>energy_fighter</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="ZOLTAN_BOMBER">
+	<mod:findLike type="systemList">
+		<mod:findLike type="doors">
+			<mod:removeAttributes start=""/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="14"/>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="ZOLTAN_BOMBER_LATE" layout="energy_bomber" img="energy_bomber">
+	<class id="ship_ZOLTAN_BOMBER_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="1"/>
+		<doors power="1" max="3" room="2"/>
+		<medbay power="1" max="3" room="6" start="false"/>
+		<oxygen power="1" max="3" room="5"/>
+		<shields power="2" max="8" room="3"/>
+		<engines power="1" max="5" room="7"/>
+		<weapons power="2" max="8" room="4"/>
+		<drones power="2" max="5" room="0"/>
+	</systemList>
+	<weaponList missiles="14" load="WEAPONS_ZOLTAN"/>
+	<droneList drones="2" load="DRONES_COMBAT"/>
+	<health amount="7"/>
+	<aug name="ENERGY_SHIELD"/>
+	<maxPower amount="9"/>
+	<crewCount amount="3" max="6" class="energy"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>energy_bomber</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="ZOLTAN_PEACE">
+	<mod:findLike type="systemList">
+		<mod:findLike type="doors">
+			<mod:removeAttributes start=""/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="CRYSTAL_SCOUT">
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="6"/>
+	</mod:findLike>
+	<mod:findLike type="health">
+		<mod:setAttributes amount="8"/>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="8"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="CRYSTAL_SCOUT_LATE" layout="crystal_scout" img="crystal_scout">
+	<class id="ship_CRYSTAL_SCOUT_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="3"/>
+		<medbay power="1" max="3" room="5" start="false"/>
+		<oxygen power="1" max="3" room="0"/>
+		<shields power="2" max="8" room="1"/>
+		<engines power="2" max="5" room="4"/>
+		<weapons power="4" max="8" room="2"/>
+	</systemList>
+	<weaponList missiles="6" load="WEAPONS_CRYSTAL"/>
+	<health amount="8"/>
+	<maxPower amount="9"/>
+	<crewCount amount="2" max="3" class="crystal"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>crystal_scout</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="CRYSTAL_BOMBER">
+	<mod:findLike type="systemList">
+		<mod:findLike type="weapons">
+			<mod:setAttributes power="3"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="14"/>
+	</mod:findLike>
+	<mod:findLike type="health">
+		<mod:setAttributes amount="10"/>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="CRYSTAL_BOMBER_LATE" layout="crystal_bomber" img="crystal_bomber">
+	<class id="ship_CRYSTAL_BOMBER_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="2"/>
+		<doors power="1" max="3" room="8" start="false"/>
+		<medbay power="1" max="3" room="0" start="false"/>
+		<oxygen power="1" max="3" room="6"/>
+		<shields power="3" max="10" room="4"/>
+		<engines power="1" max="5" room="5"/>
+		<weapons power="3" max="10" room="7"/>
+	</systemList>
+	<weaponList missiles="14" load="WEAPONS_CRYSTAL"/>
+	<health amount="10"/>
+	<maxPower amount="8"/>
+	<crewCount amount="2" max="5" class="crystal"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>crystal_bomber</cloakImage>
+</shipBlueprint>
+</FTL>

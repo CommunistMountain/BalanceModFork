@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<eventList name="BOSS_STANDARD_NEUTRAL">
+	<event load="REBEL_TRANSPORT"/>
+	<event load="AUTO_REFUEL_STATION"/>
+	<event load="ASTEROID_EXPLORE"/>
+	<event load="AUTO_DEFENSE_ITEM"/>
+	<event load="REBEL_CHECKPOINT"/>
+	<event load="WRECKAGE_EVENT"/>
+	<event load="REBEL_HELPERS"/>
+	<event load="MERCENARY_BOSS"/>
+</eventList>
+
+<mod:findName type="event" name="LAST_STAND_START">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="choice">
+				<mod:findLike type="event">
+					<mod-append:choice req="FTL_JUMPER" hidden="true" blue="false" max_group="0">
+						<text id="continue"/>
+						<event>
+							<reveal_map/>
+						</event>
+					</mod-append:choice>
+					<mod-append:choice req="engines" hidden="true" blue="false" max_group="0">
+						<text id="continue"/>
+						<event/>
+					</mod-append:choice>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="BOSS_REPAIR_STATION">
+	<mod:findLike type="item_modify">
+		<mod:findLike type="item">
+		<mod:selector type="missiles"/>
+			<mod:setAttributes min="5" max="5"/>
+		</mod:findLike>
+		<mod:findLike type="item">
+		<mod:selector type="drones"/>
+			<mod:setAttributes min="3" max="3"/>
+		</mod:findLike>
+		<mod:findLike type="item">
+		<mod:selector type="scrap"/>
+			<mod:setAttributes min="20" max="34"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+</FTL>

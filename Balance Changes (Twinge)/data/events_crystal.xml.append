@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="event" name="START_BEACON_CRYSTAL">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod-append:choice req="FTL_JUMPER" hidden="true" blue="false" max_group="0">
+				<text id="continue"/>
+				<event>
+					<reveal_map/>
+				</event>
+			</mod-append:choice>
+			<mod-append:choice req="engines" hidden="true" blue="false" max_group="0">
+				<text id="continue"/>
+				<event/>
+			</mod-append:choice>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="CRYSTAL_CACHE_LIST">
+	<mod:findLike type="event">
+		<mod:findLike type="choice">
+		<mod:selector lvl="7"/>
+			<mod:setAttributes lvl="5"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="CRYSTAL_SCRAP_EXCITED">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="item_modify">
+				<mod:findLike type="item">
+					<mod:setAttributes min="-25" max="-25"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="CRYSTAL_FED_DESERTER">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="item_modify">
+				<mod:findLike type="item">
+				<mod:selector type="scrap"/>
+					<mod:setAttributes min="-22" max="-14"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="CRYSTAL_HUMAN_TESTS">
+	<mod:findLike type="choice">
+	<mod:selector req="rock"/>
+		<mod:removeTag/>
+	</mod:findLike>
+	<mod-append:choice hidden="true" req="rock">
+		<text id="event_CRYSTAL_HUMAN_TESTS_c3_choice"/>
+		<event>
+			<text id="event_CRYSTAL_HUMAN_TESTS_c3_text"/>
+			<autoReward level="MED">standard</autoReward>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="eventList" name="CRYSTAL_HUMAN_TESTS_ACCEPT">
+	<mod-append:event>
+		<text id="event_CRYSTAL_HUMAN_TESTS_ACCEPT_2_text"/>
+		<autoReward level="MED">stuff</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_CRYSTAL_HUMAN_TESTS_ACCEPT_3_text"/>
+		<autoReward level="LOW">drone</autoReward>
+	</mod-append:event>
+</mod:findName>
+</FTL>

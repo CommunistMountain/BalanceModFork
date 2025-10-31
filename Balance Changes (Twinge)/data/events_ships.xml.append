@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="ship" name="PIRATE_FUEL">
+	<mod-overwrite:destroyed>
+		<text>As the pirate's ship explodes, you scramble to collect as much fuel as possible.</text>
+		<autoReward level="MED">fuel</autoReward>
+	</mod-overwrite:destroyed>
+	<mod-overwrite:deadCrew>
+		<text>With the pirate crew dead you are free to haul back a good quantity of scrap and fuel.</text>
+		<autoReward level="HIGH">fuel</autoReward>
+	</mod-overwrite:deadCrew>
+</mod:findName>
+
+<ship name="PIRATE_FUEL_PLATFORM" auto_blueprint="SHIPS_PIRATE">
+	<surrender  chance="0.5" min="3" max="4" load="PIRATE_SURRENDER"/>
+	<escape  chance="0.5" min="2" max="4" load="PIRATE_ESCAPE"/>
+	<destroyed>
+		<text>Once the pirate's ship explodes, you are free to collect some scrap and refuel.</text>
+		<autoReward level="MED">fuel</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text>With the pirate crew dead you are free to haul back a good quantity of scrap and fuel.</text>
+		<autoReward level="HIGH">fuel</autoReward>
+	</deadCrew>
+</ship>
+
+<mod:findName type="ship" name="PIRATE_SLAVER">
+	<mod:findLike type="surrender">
+		<mod:setAttributes chance="0.7"/>
+	</mod:findLike>
+	<mod:findLike type="destroyed">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="MED"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<ship name="PIRATE_SMUGGLE_JAM" auto_blueprint="SHIPS_PIRATE">
+	<surrender  chance="0.5" min="2" max="4" >
+		<text id="ship_PIRATE_SMUGGLE_surrender_text"/>
+		<choice>
+			<text id="ship_PIRATE_SMUGGLE_surrender_c1_choice"/>
+			<event>
+				<ship hostile="false"/>
+				<autoReward level="RANDOM">stuff</autoReward>
+			</event>
+		</choice>
+		<choice>
+			<text id="ship_PIRATE_SMUGGLE_surrender_c2_choice"/>
+			<event/>
+		</choice>
+	</surrender>
+	<destroyed load="REBEL_TRANSPORT_DESTROYED"/>
+	<deadCrew load="REBEL_TRANSPORT_CAPTURED"/>
+</ship>
+
+<mod:findName type="ship" name="STORM_PIRATE_SUPPLY_FUEL">
+	<mod:findLike type="destroyed">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="MED"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="ship" name="STORM_PIRATE_SUPPLY_AMMO">
+	<mod:findLike type="destroyed">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="MED"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="ship" name="REBEL_AUTO_FUEL">
+	<mod:findLike type="destroyed">
+		<mod-overwrite:text>As the ship explodes, you scramble to collect as much fuel as possible.</mod-overwrite:text>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="ship" name="REBEL_FUEL">
+	<mod:findLike type="destroyed">
+		<mod-overwrite:text>As the ship explodes, you scramble to collect as much fuel as possible.</mod-overwrite:text>
+	</mod:findLike>
+	<mod:findLike type="deadCrew">
+		<mod-overwrite:text>With the crew dead you are free to haul back a good quantity of scrap and fuel.</mod-overwrite:text>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="ship" name="MANTIS_FUEL">
+	<mod:findLike type="destroyed">
+		<mod-overwrite:text>As the ship explodes, you scramble to collect as much fuel as possible.</mod-overwrite:text>
+	</mod:findLike>
+	<mod:findLike type="deadCrew">
+		<mod-overwrite:text>With the crew dead you are free to haul back a good quantity of scrap and fuel.</mod-overwrite:text>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="ship" name="REBEL_AUTO_WARNING">
+	<mod:setAttributes auto_blueprint="SHIPS_AUTO_WARNING"/>
+	<mod:findLike type="escape">
+		<mod:setAttributes timer="43"/>
+	</mod:findLike>
+	<mod:findLike type="destroyed">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="MED"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<ship name="REBEL_AUTO_WARNING_JAM" auto_blueprint="SHIPS_AUTO_WARNING">
+	<escape timer="86" min="22" max="22" >
+		<text id="ship_REBEL_AUTO_WARNING_escape_text"/>
+		<ship hostile="true"/>
+	</escape>
+	<gotaway>
+		<text id="ship_REBEL_AUTO_WARNING_gotaway_text"/>
+		<modifyPursuit amount="1"/>
+	</gotaway>
+	<destroyed>
+		<text id="ship_REBEL_AUTO_WARNING_destroyed_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+</ship>
+
+<mod:findName type="ship" name="SQUAT_REFUEL_STATION">
+	<mod:findComposite>
+		<mod:par op="OR">
+			<mod:findLike type="destroyed"/>
+			<mod:findLike type="deadCrew"/>
+		</mod:par>
+		<mod:findLike type="choice">
+			<mod:findLike type="event">
+				<mod:findLike type="autoReward">
+					<mod:setAttributes level="LOW"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findComposite>
+</mod:findName>
+
+<ship name="SQUAT_TRANSPORT_JAM" auto_blueprint="SHIPS_REBEL">
+	<escape timer="80" min="14" max="14" >
+		<text id="ship_SQUAT_TRANSPORT_escape_text"/>
+		<ship hostile="true"/>
+	</escape>
+	<destroyed load="REBEL_TRANSPORT_DESTROYED"/>
+	<deadCrew load="REBEL_TRANSPORT_CAPTURED"/>
+</ship>
+
+<mod:findName type="ship" name="ZOLTAN_SHIP_SAVE_MANTIS2">
+	<mod:findLike type="deadCrew">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="LOW"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="ship" name="ZOLTAN_SCIENCE_DOCK">
+	<mod:findLike type="surrender">
+		<mod:findLike type="autoReward">
+			<mod:removeTag/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="ship" name="PIRATE_ZOLTAN_CREW_STUDY">
+	<mod:findLike type="destroyed">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="LOW"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="deadCrew">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="MED"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+</FTL>

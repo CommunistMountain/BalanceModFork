@@ -1,0 +1,2122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="text" name="event_REBEL_AUTO_PDS_c2_choice">
+    <mod:setValue>(Hacking) Confuse the Anti-Ship Battery's targets.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_AUTO_PDS_c2_text">
+    <mod:setValue>You spot a weakness in the targeting satellites. Your crew is able to launch a Hacking Drone to periodically confuse the ASB's lock signal. It should sometimes fire on the Rebel ship now.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_AUTO_PDS_c3_text">
+    <mod:setValue>You spot a weakness in the targeting satellites. Your crew is able to launch an improved Hacking Drone to overwrite the ASB's target locks. It will fire on the Rebel ship instead!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_PDS_c2_choice">
+    <mod:setValue>(Hacking) Confuse the Anti-Ship Battery's targets.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_PDS_c2_text">
+    <mod:setValue>You spot a weakness in the targeting satellites. Your crew is able to launch a Hacking Drone to confuse the Anti-Ship Battery's targeting matrix. It should also fire on the Rebel ship now.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_PDS_c3_text">
+    <mod:setValue>You spot a weakness in the targeting satellites. Your crew is able to launch an improved Hacking Drone to overwrite the Anti-Ship Battery's targeting matrix. It will fire on the Rebel ship instead!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STORE_REBELSIDE_c5_text">
+    <mod:setValue>You locate the source of the announcement and 'convince' the speaker to rescind her previous statement. In addition she apologizes by offering considerable complimentary supplies. Hopefully you will have enough time to shop before she can figure out what just happened.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_PIRATE_PULSAR_TEXT_1">
+    <mod:setValue>Sensors go wild as a nearby pulsar is detected. While you are attempting to recalibrate the FTL drive, a pirate sneaks up on your ship, Weapons charging. Prepare for a fight!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_PIRATE_PULSAR_TEXT_3">
+    <mod:setValue>A dilapidated research station orbits a nearby pulsar. It appears largely abandoned, but you detect power signatures flaring up as soon as you're in scanning distance. A small combat ship launches from the station. Pirates!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_REBEL_PULSAR_TEXT_1">
+    <mod:setValue>A Rebel captain appears on the screen. "I thought we had been doomed to backwater assignments. This is my chance to get back in Command's good graces! Charge the Weapons!"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_REBEL_PULSAR_TEXT_2">
+    <mod:setValue>A small Rebel research station overlooks a pulsating star. Before you can react a Rebel ship spots you and moves in to attack.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_OVERRIDE_FEDERATION_BASE_ASSIST_4_text">
+    <mod:setValue>You arrive in the sector to see a mid-sized Federation outpost using their Anti-Ship Battery to fire at an automated drone. Debris from other ships is strewn around the area. It looks like the brunt of the battle is already over. You move in to assist.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_AUTO_REBEL_c1_text">
+    <mod:setValue>You power up your Weapons, which quickly gets the attention of the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_BEACON_EATER_ASK_1_c1_choice">
+    <mod:setValue>Give them 20 scrap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_BEACON_EATER_ASK_2_text">
+    <mod:setValue>You begin to message the ship but it quickly powers on its Weapons defensively. It appears to be fully functional and looking for a fight!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_BEACON_EATER_LEAVE_4_text">
+    <mod:setValue>You make preparations to jump but are surprised when the Lanius ship pulls away from the beacon towards you. It appears to be more interested in your ship than the beacon!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_BEACON_EATER_SCRAP_2_text">
+    <mod:setValue>You release the scrap out of the airlock and they greedily collect it. Shortly afterwards their Impulse Engines flicker on and they power up their Weapons. It appears you haven't sated their lust for metal!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_BEACON_EATER_c2_choice">
+    <mod:setValue>Send them 15 scrap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_BEACON_EATER_c4_c1_choice">
+    <mod:setValue>Give them 20 scrap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_BEACON_EATER_c4_c2_choice">
+    <mod:setValue>Give them 5 missiles.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_BEACON_EATER_c4_c3_choice">
+    <mod:setValue>Give them 5 drone parts.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_CIVILIAN_c1_text">
+    <mod:setValue>You charge your Weapons, which quickly gets the Lanius ship's attention.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_DEAD_CREW_1_text">
+    <mod:setValue>There are no more life signs remaining on the ship. You strip it of useful materials.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_DEAD_CREW_7_text">
+    <mod:setValue>Now that the Lanius ship has been emptied of hostiles, you search it. Eventually you find an augment you can install on your ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_DISTRESS_EMPTY_text">
+    <mod:setValue>You arrive at the location of the distress signal prepared for a fight, but on first glance it's entirely empty. The signal is coming from a plastic satellite orbiting a moon. A looping message describes how settlers have recently abandoned the area due to the Lanius threat. You fail to find any other signs of a settlement nearby.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_DISTRESS_FIGHT_LANIUS_1_text">
+    <mod:setValue>After a discussion that your translator fails to comprehend, the enemy ship powers down its Weapons. You learn that your crewmember sucessfully reminded them of their treatise promising to leave the property of sentient aliens alone. If this is a widespread rule of this race, there appear to be many who disagree with it. You attempt to hail the civilian ship now that it's safe.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_DORMANT_EVENT_c2_choice">
+    <mod:setValue>Power Weapons to attack.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_DORMANT_INVESTIGATE_c4_choice">
+    <mod:setValue>(Improved Piloting) Engage the auto-pilot to strip the ship safely.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_DORMANT_WEAPONS_1_text">
+    <mod:setValue>You power up your Weapons, and in response, the Lanius ship does the same! Prepare for a fight.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_DORMANT_WEAPONS_2_c2_text">
+    <mod:setValue>As soon as you lock your Weapons onto their vessel, it awakens... they must have been in hibernation and were awoken by the danger!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_DORMANT_WEAPONS_2_text">
+    <mod:setValue>You power up your Weapons, but don't get a response.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_FUELING_STATION_LIST_2_text">
+    <mod:setValue>What seemed to be a brief respite turns into a Lanius trap... the first warning is an explosion from your Engine room, followed moments later by detection of a Lanius ship at sensor range!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_FUELING_STATION_c2_c2_choice">
+    <mod:setValue>(Improved Doors) Secure your Blast Doors - best to be safe when docked.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_FUELING_STATION_c2_c2_text">
+    <mod:setValue>Your reinforced Doors save you from an attempted ambush by the Lanius, who cluster around the doors and hull, attempting to consume your ship. Coldly, you wipe them out one by one with your Weapon Array, then take control of the station and take its fuel reserves.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_HARVESTER_c4_text">
+    <mod:setValue>You go on the offensive and power up your Weapons - with any luck, you'll soon have the mineral field all to yourself.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_MANTIS_DISTRESS_text">
+    <mod:setValue>The Mantis ship in this system looks like its distress beacon is malfunctioning... likely due to the Lanius ship mining their hull and subsystems! It doesn't look like the Mantis ship will last much longer.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_PIRATE_BOARDERS_text">
+    <mod:setValue>An image of some weak and hungry humans comes onto your screen. "Those metal bastards think they can just absorb half of our Engines and leave us here to die? I hope you understand the need to take your ship by force."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_PIRATE_CIVILIAN_c1_text">
+    <mod:setValue>You charge your Weapons, which quickly gets the pirate ship's attention.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_RESEARCHER_CONTACT_LIST_1_text">
+    <mod:setValue>"There should be some extra junk metal in the cargo bay..." You thank them once they transfer the scrap and prepare to move on.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_RESEARCHER_CRAFT_c1_c1_choice">
+    <mod:setValue>Give 30 scrap to craft an augmentation.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_RESEARCHER_CRAFT_c1_c2_choice">
+    <mod:setValue>Give 40 scrap to craft a weapon.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_RESEARCHER_CRAFT_c1_c3_choice">
+    <mod:setValue>Give 30 scrap to craft a drone schematic.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_RESEARCHER_CRAFT_c1_c5_c1_choice">
+    <mod:setValue>Give 20 scrap to craft an augmentation.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_RESEARCHER_CRAFT_c1_c5_c2_choice">
+    <mod:setValue>Give 30 scrap to craft a weapon.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_RESEARCHER_CRAFT_c1_c5_c3_choice">
+    <mod:setValue>Give 20 scrap to craft a drone schematic.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_ROCK_DISTRESS_c2_text">
+    <mod:setValue>As you make your escape, the Rockman's ship's Engines explode, and you watch the Lanius ship slowly feed on the remains - and the crew.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_SCARED_CIVILIAN_LIST_3_text">
+    <mod:setValue>You ask what they are doing here but the translator clearly has problems with the request. The Lanius seem enraged for an indiscernible reason. They cut transmission and power their Weapons. Looks like you'll have to fight after all!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_SCARED_CIVILIAN_c1_text">
+    <mod:setValue>The civilian ship hastily retreats while you intercept the path of the ship and lock on Weapons. It turns and prepares for a fight.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_SCARED_CIVILIAN_c3_text">
+    <mod:setValue>You approach the ship without activating Weapons and the civilian ship says, "Don't go any closer! Just kill them!" before hastily making their retreat.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_SCARED_CIVILIAN_text">
+    <mod:setValue>You arrive at the beacon to discover a civilian ship fleeing from a lone Lanius craft. The civilian messages you, "Help! The metal monsters are coming to melt down our ship!" Strangely, no active Weapon Signatures are detected.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_SOLO_SALVAGE_LIST_3_c1_text">
+    <mod:setValue>You move in and power up your Weapons. Detecting the threat, they stop what they were doing and prepare for a fight.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_LANIUS_SOLO_SALVAGE_c1_text">
+    <mod:setValue>You move in and power up your Weapons. Detecting the threat, they stop what they were doing and prepare for a fight.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_LANIUS_FUELING_STATION_SHIP_deadCrew_text">
+    <mod:setValue>There are no more life signs remaining on the ship. You strip it of useful materials.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_LANIUS_HARVESTER_SHIP_deadCrew_text">
+    <mod:setValue>There are no more life signs remaining on the ship. You strip it of useful materials.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_LANIUS_MANTIS_DISTRESS_SHIP_deadCrew_text">
+    <mod:setValue>There are no more life signs remaining on the ship. You strip it of useful materials.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_LANIUS_ROCK_DISTRESS_SHIP_deadCrew_text">
+    <mod:setValue>There are no more life signs remaining on the ship. You strip it of useful materials.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_LANIUS_SLUG_DISTRESS_SHIP_deadCrew_text">
+    <mod:setValue>There are no more life signs remaining on the ship. You strip it of useful materials.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_LANIUS_CIVILIAN_TEXT_2">
+    <mod:setValue>You scan the area after arriving at this system. A Lanius ship is in fast pursuit of an unarmed civilian ship. It's hard to say if it's truly a threat since its Weapons are not charging.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_LANIUS_CIVILIAN_TEXT_3">
+    <mod:setValue>You arrive at the location of a recent battle. Judging from the debris, some settlers attempted to fight off a number of Lanius ships, although it's impossible to say who instigated the aggression. A few skirmishes can be seen in the distance, but more notably a lone Lanius ship is firing on a heavily damaged civilian vessel.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_LANIUS_FIGHT_TEXT_2">
+    <mod:setValue>Shortly after your arrival, a Lanius ship jumps near the beacon. It begins to move slowly toward you. You open wide band communication channels, attempting to make contact. However, it either ignores you or is unable to receive the messages. As they get closer you issue the order to charge Weapons and find they do the same.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_LANIUS_FIGHT_TEXT_4">
+    <mod:setValue>A military Lanius vessel stops repurposing an abandoned satellite as soon as you jump in. It blocks all hails and powers its Weapons.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_LANIUS_FIGHT_TEXT_9">
+    <mod:setValue>At first everything seems quiet, then your scanners pick up a ship approaching at high speed - the Lanius have detected your arrival and are powering up their Weapons!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_LANIUS_PIRATE_CIVILIAN_TEXT_2">
+    <mod:setValue>A pirate ship emerges from hiding after you and another ship jump into the area. Sensors show the pirates ran a quick scan of your ship's Weapons System before flying off to pursue the unarmed civilian ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_LANIUS_PIRATE_CIVILIAN_TEXT_3">
+    <mod:setValue>A pirate ship is firing on the small ships docked at a refueling station. They are broadcasting on a wide band channel. You catch the end of the captain's rant, "...saw you trading with those damned scavengers. I'll show you what happens when you try and undercut the Red Giant Gang!"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_LANIUS_PIRATE_FIGHT_TEXT_4">
+    <mod:setValue>The pirate ship patroling this sector has been busy. The debris of several Rebel scouts and at least one civilian ship litter the area. "Welcome, welcome, there's room for one more!" The overconfident pirate hails you as she charges her Weapons and moves in to attack.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_LANIUS_SOLO_SALVAGE_TEXT_5">
+    <mod:setValue>A Lanius ship is slowly salvaging what remains of a modest research station. It's hard to say if it was abandoned or attacked by the Lanius.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_LANIUS_SURRENDER_TEXT_1">
+    <mod:setValue>An image of a silent Lanius captain appears on your monitor. Images of their well-filled cargo hold follow. You come to the conclusion that they are trying to barter for a ceasefire.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_LANIUS_TRADER_TEXT_2">
+    <mod:setValue>A small Lanius craft approaches. You prepare for a fight but they do not seem to be carrying any weaponry. After a brief moment they message you, although your translator struggles with the unfamiliar dialect. It appears they wish to trade.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SAVE_CIVILIAN_LIST_LANIUS_1_text">
+    <mod:setValue>The ship you saved was badly damaged in the battle. The crew accepts your offer to be dropped off at a nearby station. One offers to join your crew.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NOTHING_LANIUS_1">
+    <mod:setValue>The charts indicate this was the location of a skirmish over a military facility on a nearby moon. Oddly, scans pick up no signs of debris from either the battle or the station. Yet another area sucked dry by the Lanius.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ALISON_DEFECTOR_HELP_1_text">
+    <mod:setValue>The dishonorable Rebel has deceived you. He damages your Engines and steals your flight data before teleporting away. The fleet will be able to track you with ease. If they can't kill you now, that is!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ALISON_DEFECTOR_HELP_2_2_text">
+    <mod:setValue>Your new crewmember smiles, then reveals a small remote trigger in the palm of his hand. Explosions rocket around the ship as another intruder teleports aboard!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ALISON_DEFECTOR_HELP_2_6_c0_clone">
+    <mod:setValue>The eviscerated crewmember's clone launches out of the Clone Bay, eager to seek revenge.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ALISON_DEFECTOR_HELP_2_6_text">
+    <mod:setValue>The Rebel makes to take his assigned station, then suddenly turns and eviscerates the nearest crewmember. Red Alert!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ALISON_DEFECTOR_HELP_2_text">
+    <mod:setValue>Your new crewmember smiles, then reveals a small remote trigger in the palm of his hand. Explosions rocket around the ship as another intruder teleports aboard!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ALISON_DEFECTOR_HELP_6_c0_clone">
+    <mod:setValue>The eviscerated crewmember's clone launches out of the Clone Bay, eager to seek revenge.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ALISON_DEFECTOR_HELP_6_text">
+    <mod:setValue>The Rebel makes to take his assigned station, then suddenly turns and eviscerates the nearest crewmember. Red Alert!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ALISON_DEFECTOR_c1_text">
+    <mod:setValue>A flushed and panicky Rebel soldier has teleported aboard. The Rebel, who appears unarmed, repeatedly declares his peaceful intentions. It seems the Rebel life has lost its charm.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ALISON_MANTIS_CREW_HELP_2_text">
+    <mod:setValue>She expresses her thanks and prepares to help you fight her pursuer.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ALISON_MANTIS_CREW_REJECT_1_text">
+    <mod:setValue>The Engi captain is appreciative, and quickly arranges for the transfer of the prisoner.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ALISON_MANTIS_CREW_REJECT_2_text">
+    <mod:setValue>Fury sparks in the eyes of the Mantis. She won't go easily, and causes serious damage before she can be captured.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ALISON_MANTIS_CREW_c1_text">
+    <mod:setValue>A young Mantis in a charred uniform has teleported onto the deck. She begs for sanctuary from the Engi, and offers to serve in exchange for your protection. The Engi have already traced the teleporter signal and are offering a deal in exchange for the prisoner.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ALISON_MANTIS_CREW_text">
+    <mod:setValue>You arrive just in time to see an unusually well-armed Engi ship destroying a small pirate craft. A teleporter signal is detected... intruder on deck!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ASTEROID_DERELICT_SHIP_SEARCH_1_text">
+    <mod:setValue>You find what appears to be pieces of a derelict ship coated with ice or crystal. Before you have a chance to dock, a few asteroids get past your Shields and partially damage your Engines. You'll have to pull out!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ASTEROID_DERELICT_SHIP_text">
+    <mod:setValue>A ship without lifeforms within a nearby dense asteroid field is giving off the distress call. Shall we investigate? It could be dangerous.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_AUTO_ASTEROID_text">
+    <mod:setValue>You arrive in an asteroid belt to discover that a Rebel automated scout has been stationed here. Prepare for a fight!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BOARDERS_ASTEROID_GHOST_c2_choice">
+    <mod:setValue>(Improved Engines) Activate full impulse drive to escape.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BOARDERS_ASTEROID_GHOST_c2_text">
+    <mod:setValue>With your upgraded Engines you were able to quickly get out of the asteroid field, however your ship took a number of hits on the way out.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BOARDERS_ASTEROID_GHOST_c3_choice">
+    <mod:setValue>(Improved Piloting) Have your pilot maneuver you out of the asteroid field.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BOARDERS_HACKING_c1_text">
+    <mod:setValue>Until you are able to jump away from the hostile space station, your Sensors will be disabled. You should deal with these boarders first though!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BOARDERS_HACKING_c2_choice">
+    <mod:setValue>(Hacking) Counter the remote hacking.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BOARDERS_HACKING_c2_text">
+    <mod:setValue>Your Hacking System automatically counters the digital assault. Your Sensors flicker back on and you prepare to fight the boarders.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BOARDERS_HACKING_text">
+    <mod:setValue>You catch a glimpse of a strange signal coming from a space station before your Sensors shut off unexpectedly. As you discover that your Sensors are being jammed, you hear hostiles beam onto your ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CIVILIAN_ASTEROIDS_BEACON_2_c1_choice">
+    <mod:setValue>Try to shield their ship with yours and escort them out of the field.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CIVILIAN_ASTEROIDS_BEACON_2_c3_choice">
+    <mod:setValue>(Defense Drone) Use a drone to protect the ship during repairs.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CIVILIAN_ASTEROIDS_BEACON_2_c4_choice">
+    <mod:setValue>(Repair Drone) Send a drone to assist in fixing their Shields.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CIVILIAN_ASTEROIDS_BEACON_2_c6_choice">
+    <mod:setValue>(Rock Armor) Effectively shield their ship with yours and escort them out of the field.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CIVILIAN_ASTEROIDS_BEACON_2_text">
+    <mod:setValue>They respond: "Help! Our Shields are down and we won't last long!"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CIVILIAN_ASTEROIDS_BEACON_LIST1_1_text">
+    <mod:setValue>You succeed in preventing them from being entirely destroyed, but your ship took a hit in the process. They offer some of the scrap and fuel they were mining out of the asteroid as thanks.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CIVILIAN_ASTEROIDS_BEACON_LIST3_1_text">
+    <mod:setValue>They reluctantly agree. Once aboard, you watch as their ship crashes against a massive rock. They thank you, but say "I don't know what we'll do without our ship. As the captain, I feel obligated to help you with your mission."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CIVILIAN_ASTEROIDS_BEACON_text">
+    <mod:setValue>You follow the distress beacon to a sizable asteroid belt. You find a small ship struggling to maneuver through the field. They message you, "Help! Our Shields are down and I don't know how much longer we can last!"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CREW_STUCK_text">
+    <mod:setValue>With your Teleporter damaged and no way to fix it, you take one of the enemy ship's shuttles to return to your own ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DEAD_CREW_DEFAULT_1_text">
+    <mod:setValue>There are no more life signs remaining on the ship. You strip it of useful materials.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DEAD_CREW_DEFAULT_9_text">
+    <mod:setValue>You find an intact weapon on their ship. With no crew to stop you, you can install it on your own.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_INFESTATION_c4_choice">
+    <mod:setValue>(Boarding Drone) Launch a drone into the station.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_INFESTATION_c5_text">
+    <mod:setValue>You instruct them to drop their Shields and you are able to kill the creatures without damaging the station. "The monsters just started bursting into flame as we watched. What a terrifying weapon... Here, take this for your help, friend."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_SATELLITE_DEFENSE_c1_c3_text">
+    <mod:setValue>You use your ship's Cloaking to try to prevent the defense system from getting a lock. However before you are able to safely disable the system your Cloaking gives out and you are forced to destroy the satellite. No one was harmed but they don't seem happy with your solution.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_SATELLITE_DEFENSE_c1_c6_text">
+    <mod:setValue>Your crewmember is able to remotely fix the glitch in the defense AI, allowing the repair crew to close in and finish the job. The station gives you its thanks along with a reward.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_SATELLITE_DEFENSE_text">
+    <mod:setValue>The distress signal is coming from a space station orbiting an uninhabited planet. Their satellite defense system has gone haywire and their repair crew can't approach without being fired on. They're looking for help to fix or disable it.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_STATION_DISEASE_LIST_2_text">
+    <mod:setValue>With the visible threat of your Weapons, the infected become subdued enough for you to set up a rudimentary quarantine. However before you leave, one of your crew presents signs of infection. You have no choice but to leave them on the station in the hopes that they discover a cure quickly. You leave before more crew succumb.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_STATION_DISEASE_c3_choice">
+    <mod:setValue>(Rock Crew) Send your Rock crewmember to stop the riot.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_STATION_DISEASE_c5_c2_choice">
+    <mod:setValue>(Engi Med-bot Dispersal) Use the med-bots to accelerate the dispersal of the cure.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_STATION_DISEASE_c5_c2_text">
+    <mod:setValue>You reconfigure your ship's nano dispersal system. In a matter of minutes all of the workers are cured. The leaders can hardly believe what you have achieved. They offer you what they can as payment.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_STATION_DISEASE_c5_choice">
+    <mod:setValue>(Improved Medbay) Use your Medbay to help synthesize a cure.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_STATION_FIRE_CREW_1_c0_clone">
+    <mod:setValue>With a newfound respect for flames, your crewmember's clone stumbles out of the Clone Bay.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_STATION_FIRE_RESCUE_1_text">
+    <mod:setValue>You locate the highest concentration of lifeforms and bring the ship alongside the station. Before you can begin to offload the survivors, a huge blast splits the station apart. Your ship is thrown away and some debris pierces your hull. You watch helplessly as the last of the survivors are consumed in the collapse of the station.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_STATION_FIRE_c4_choice">
+    <mod:setValue>(Rock Crew) Send your Rock crewmember in.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_STATION_FIRE_c5_choice">
+    <mod:setValue>(System Repair Drone) Send your drone into the fire.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_STATION_FIRE_c5_text">
+    <mod:setValue>You send the Repair Drone in and it methodically puts out the fires. Once it has made some progress, the rest of your crew helps to secure the station.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_STATION_FIRE_text">
+    <mod:setValue>You find the source of the distress call, a small research station. It appears a laboratory fire got out of control and is threatening to destroy the station. Their fire suppression system is not responding.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_TRAPPED_MINER_LOOT_2_text">
+    <mod:setValue>You decide the pirate is not worth saving and fire a few volleys into their hull. Before you can scrap the remains another pirate ship flashes on your radar. Perhaps they saw your deed, or perhaps they want to claim the spoils for themselves - either way, they're charging Weapons!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_TRAPPED_MINER_SHOOT_2_text">
+    <mod:setValue>You fire a few volleys into the rock and it starts to shudder and break apart. Without Shields the pirate ship takes a beating but eventually pulls free. They thank you for your assistance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DONOR_BLACK_RAVEN_SLUG_2_text">
+    <mod:setValue>Your Slug crew's eyes glaze over as the two telepaths concentrate. You are powerless to help, but after a short time your comrade shakes off the daze and appears victorious.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DONOR_BLACK_RAVEN_c1_c3_choice">
+    <mod:setValue>(Slug Crew) Engage in a duel of the mind.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DONOR_PLAGUE_LIST_1_text">
+    <mod:setValue>All around you is the stench of death and decay. The life sign readings must have been malfunctioning because you really doubt anything could be alive in here. You gather some supplies and return to the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DONOR_PLAGUE_LIST_3_c1_c0_clone">
+    <mod:setValue>You stop your crew's clone from forming, knowing that the disease would follow into their next life.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DONOR_PONY_SELL_2_c0_clone">
+    <mod:setValue>The trampled crewmate's clone is already ready when you get back to your ship, quietly judging your decision to capture the creatures.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DONOR_PONY_SELL_2_text">
+    <mod:setValue>After you bring a few of them aboard, the seemingly docile creatures quickly turn violent and stampede with terrifying force, trampling one of your crew. You lock up as many as you can and quickly prepare to jump.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DONOR_PONY_c1_c4_choice">
+    <mod:setValue>(Slug Crew) Attempt to communicate telepathically.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DONOR_PONY_c1_text">
+    <mod:setValue>You land a shuttle in an enormous field, whose only occupants are small, brightly colored, six-legged, horse-like animals. Could they be what your scans picked up?</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DONOR_PONY_text">
+    <mod:setValue>Scanners are showing intelligent lifeforms on a nearby planet. No match for them can be found in the database.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ESCORT_BEACON_c1_text">
+    <mod:setValue>"Take this bit of scrap as a down payment. We'll use your jump signatures to follow you. You're really helping us out here."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FAMILY_RETURN_1_text">
+    <mod:setValue>The family apparently owns one of the most valuable mining enterprises in the sector. For the safe return of their son, the patron of the family offers you a substantial reward.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FEDERATION_PLANET_SIGNAL_LIST_3_text">
+    <mod:setValue>You find a secret Federation outpost... but it appears the Rebels have found it before you; the place is empty, and faint bloodstains can be seen in the living quarters. You find the encrypted signal emitter and shut it off before leaving.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FEDERATION_PLANET_SIGNAL_LIST_4_text">
+    <mod:setValue>You find a cache of supplies that were surely left for any loyal Federation ships in trouble. You take all that you need, leaving some for others to find.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FINISH_BEACON_NEBULA_text">
+    <mod:setValue>This long-range beacon is almost hidden within a nebula. When the FTL Drive is charged you can jump to the next sector.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FINISH_BEACON_text">
+    <mod:setValue>You've arrived at the long-range beacon. When the FTL Drive is charged you can jump to the next sector.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_ESCAPE_ASTEROIDS_text">
+    <mod:setValue>While waiting, you managed to navigate out of the asteroid field using only your Impulse Engines.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_ESCAPE_STORM_text">
+    <mod:setValue>The plasma storm died down, leaving your ship in peace as you wait for help.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_GHOST_BOARDED_text">
+    <mod:setValue>The ghosts follow your crewmembers back on board the ship!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_GHOST_BOARDING_1_text">
+    <mod:setValue>The salvage operation ends without a hitch. You get your crewmembers back on board and prepare to jump away.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_GHOST_SPACE_1_text">
+    <mod:setValue>Suddenly the wreckage powers up. Still no life signs are detected. You have no idea who's piloting the ship, but it has clearly become hostile.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_GHOST_SPACE_2_text">
+    <mod:setValue>You receive a transmission from the ship: "You got what you came for. Now leave us!" No life signs are detected still.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_GHOST_STAND_3_c2_c0_clone">
+    <mod:setValue>You get back to find your crewmember cloned, though annoyed with the command decisions that lead to their death.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_GHOST_STAND_3_c2_text">
+    <mod:setValue>You lose a crewmember to the fight but manage to escape the ghost ship and its inhabitants.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_HIDDEN_FEDERATION_BASE_LIST_3_text">
+    <mod:setValue>After a quick search you discover the hidden Federation space dock. They offer you some supplies in addition to fully repairing your ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_HIDDEN_FEDERATION_BASE_LIST_4_c2_text">
+    <mod:setValue>Your sensors pick faint signatures of what appears to be a storage space hidden under the rock. You find the access point and discover a supply cache whose Federation signal emitter has malfunctioned.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_HIDDEN_FEDERATION_BASE_LIST_4_c3_choice">
+    <mod:setValue>(Advanced Sensors) Run a detailed second scan pass.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_HIDDEN_FEDERATION_BASE_LIST_4_c3_text">
+    <mod:setValue>Your advanced sensors pick faint signatures of what appears to be a storage space hidden under the rock. You find the access point and discover a large weapons cache whose Federation signal emitter has malfunctioned.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MADMAN_1_c0_clone">
+    <mod:setValue>Luckily, your Clone Bay is able to revive your crewmember.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MADMAN_4_c2_choice">
+    <mod:setValue>(Improved Medbay) Quickly bring him to the Medbay.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MADMAN_4_c2_text">
+    <mod:setValue>Your Medbay was able to resuscitate him. After a short time he recovers greatly saying, "I really thought I was a goner... I haven't eaten for days. Would you mind if I stayed on your ship?"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MADMAN_4_c3_choice">
+    <mod:setValue>(Advanced Clone Bay) Quickly register him into the Clone Bay.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MADMAN_4_c3_text">
+    <mod:setValue>Your quick reaction allowed your Clone Bay to revive him after he passes. After he steps out of the machine he states, "How am I alive? Wasn't I just dying on some shuttle? Technology sure has changed."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MADMAN_SLUG_1_text">
+    <mod:setValue>You bring the ship closer. The Slug enters a trance-like state for 1 to 2 seconds, then quickly snaps out of it. They state, "This person is clearly unstable. It is best we leave them alone."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MADMAN_SLUG_2_text">
+    <mod:setValue>You bring the ship closer and the Slug, after a pause, says that the person is stable and with good intentions.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MERCENARY_WORK_LIST_1_text">
+    <mod:setValue>"A space dock is under assault from the Rebels. Although the dock is... technically... illegal within their laws, it's very important for our trade. We'll pay you well if you promise to save them."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MERCENARY_WORK_LIST_2_c2_text">
+    <mod:setValue>"Fine. I don't know what we'll do about them though..." You prepare to jump away.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MERCENARY_WORK_START_text">
+    <mod:setValue>You are immediately contacted by a settlement, "Hello, travelers. Your ship seems to be outfitted for combat... care to take up a bit of mercenary work?"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MERCENARY_c4_choice">
+    <mod:setValue>You have no need of their services.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MERCHANT_DELIVER_LIST_1_c3_choice">
+    <mod:setValue>(Anti-Personnel Drone) Use a drone to investigate.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MERCHANT_DELIVER_LIST_2_c4_choice">
+    <mod:setValue>(Advanced Weapons) Remain silent but power up your Weapons.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MERCHANT_INVESTIGATE_LIST_1_c1_choice">
+    <mod:setValue>Then you take the cargo and head to its original destination in search of a reward.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MERCHANT_INVESTIGATE_LIST_1_c2_choice">
+    <mod:setValue>Then you take the cargo for yourself.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MERCHANT_INVESTIGATE_LIST_1_text">
+    <mod:setValue>You find the remains of the ship. It seems to have severe external damage, but you cannot pinpoint a cause. The majority of its cargo seems intact. You manage to discern the ship's intended destination. You scrap the ship for supplies:</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MERCHANT_INVESTIGATE_LIST_2_text">
+    <mod:setValue>You find a severely damaged ship floating among some debris. The crew hails you, "I can't believe that cheap bastard sent someone after us! I thought we would freeze to death. If you help us complete the delivery, we'll share the reward."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MERCHANT_REQUEST_LIST_1_text">
+    <mod:setValue>"Great, I was worried no one would respond. My usual carrier is days late. I need you to deliver this cargo of drone parts to a station a few jumps from here. We can't afford to pay another carrier, but they will surely tip you generously."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MERCHANT_REQUEST_text">
+    <mod:setValue>You arrive at a populated beacon. One merchant seems to be mass-broadcasting a request for a mercenary ship to aid him. Shall we respond?</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_CIVILIAN_BEACON_c1_text">
+    <mod:setValue>You power up your Weapons and engage the pirate ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_CIVILIAN_BEACON_c3_choice">
+    <mod:setValue>(Advanced Weapons) Fire a warning shot from your strongest weapon.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_STATION_CROPS_text">
+    <mod:setValue>Scans show a remote settlement being blockaded by a pirate ship. The ship hastily messages you, "Stay out of this, or you'll be next! ...Concentrate fire on..."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_QUEST_CREWDEAD_CONTINUE_c1_text">
+    <mod:setValue>"Great, we'll relay their coordinates. Remember, do NOT destroy that ship! We'll be right behind you."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_QUEST_ESCORT_c1_text">
+    <mod:setValue>"Great. Take this bit of fuel as a down payment. We'll be one step behind you, following your jump signatures. Don't want to take any risks now, do we?"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_QUEST_MANTIS_INVASION_c3_text">
+    <mod:setValue>It appears they have not set up a teleporter disruption field yet. You deposit one bomb in a fuel depot and another in the barracks. Mantis comm channels fill with panicked chatter and you watch a number of structures go up in flames.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_QUEST_STORE_RESCUE_c2_text">
+    <mod:setValue>After a time the ship powers down its Weapons and jumps away. No life signs are detected on the moon.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_VS_FEDERATION_SAVED_LIST_2_c2_choice">
+    <mod:setValue>(Engi Med-bot Dispersal) Pump their ship with med-bots to aid in the rescue.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_VS_FEDERATION_SAVED_LIST_2_c2_text">
+    <mod:setValue>You drag the injured and dying crew on to your ship. The med-bots help stabilize their condition, but most perish. The surviving Shields operator offers to join your crew and helps you strip their broken ship of scrap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_VS_FEDERATION_SAVED_LIST_2_c4_c1_text">
+    <mod:setValue>Now that they're safe, an engineer offers to join your crew and the rest tell you of a hidden Federation base a few jumps from here.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_VS_FEDERATION_SAVED_LIST_2_c4_text">
+    <mod:setValue>You launch a healing bomb into their ship and the nanobots are able to keep the crew stabilized. Once they come to, you send over some supplies to keep them healthy enough to get to friendly territory.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_VS_FEDERATION_c1_text">
+    <mod:setValue>You power up your Weapons and engage the Rebel ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_VS_FEDERATION_c2_text">
+    <mod:setValue>The Rebel's preoccupation with the Federation ship allows you to slip away undetected. You can't help but feel you should have helped them.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REFUEL_STATION_c1_choice">
+    <mod:setValue>Buy 6 fuel for 9 scrap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REFUEL_STATION_c2_choice">
+    <mod:setValue>Buy 3 fuel for 5 scrap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REFUEL_STATION_text">
+    <mod:setValue>A ship refueling station is located at this beacon. We can purchase fuel here.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REPAIR_STATION_text">
+    <mod:setValue>You see a small station fitted with hundreds of repair drones. You receive an automated message, "We don't know who you are and we don't care, but this is the right place for some ship repair!"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_CRYSTAL_BEACON_c3_text">
+    <mod:setValue>Your Crystalline companion says, "It looks like we have found the abandoned link to the my homeworld. I can reactivate it." He transmits some codes to the device and it immediately powers on.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SATELLITE_DEFENSE_BORING_1_text">
+    <mod:setValue>You fire a few volleys from a distance and it is clear the defense system is no match for your Weapons. However, the station does not seem happy with your 'solution'. You salvage what you can and jump before there is trouble.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SATELLITE_DEFENSE_BORING_2_text">
+    <mod:setValue>You fire a few volleys but aren't able to penetrate the defense system's Shields. Its Weapons have no trouble piercing yours though, and you take substantial damage before escaping. The station will need to find help elsewhere.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SELL_DRONES_STATION_c1_text">
+    <mod:setValue>"Thank you. This will help our repair efforts greatly."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STALEMATE_SURRENDER_text">
+    <mod:setValue>The ship suddenly disables their Weapons. There's no explanation and they don't respond to hails. It seems during the battle they lost some fuel cells from their storage. Continue the engagement?</mod:setValue>
+</mod:findName>
+<text name="event_STALEMATE_SURRENDER_c1_choice">Keep fighting - we can still take them out.</text>
+<text name="event_STALEMATE_SURRENDER_c2_choice">Quickly collect the fuel and leave.</text>
+<text name="event_STALEMATE_SURRENDER_c2_text">You grab the fuel and leave without further incident.</text>
+<mod:findName type="text" name="event_STATION_SICK_DRONE_LIST_1_text">
+    <mod:setValue>You send your Anti-Personnel Drone to explore the station. What you find is disconcerting... It appears that something has caused the scientists and guards to tear each other to pieces. You abandon the drone on the station for fear that it is contagious.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STATION_SICK_DRONE_LIST_3_text">
+    <mod:setValue>The cameras mounted to your Anti-Personnel Drone show a chaotic scene. No people are to be found but the remnants of a recent battle onboard the ship are obvious. You instruct the drone to retrieve some useful materials before leaving.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STATION_SICK_LIST_2_c2_choice">
+    <mod:setValue>(Advanced Medbay) Use your Medbay to analyze their condition.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STATION_SICK_LIST_2_c2_text">
+    <mod:setValue>You hold them off while retreating into the Medbay. Its advanced systems determine that an alien neurotoxin is the cause of their frenzy. It synthesizes an antidote and releases it into the room. After a time, the scientists recover. One offers their services as thanks for saving them.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STATION_SICK_LIST_2_text">
+    <mod:setValue>You dock with the station and see a frantic person banging on the airlock door. Once inside your ship, she drops to the floor saying, "My... friends... They've gone insane... They're coming!" You hand her a blaster and turn to see a number of people charging toward the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STATION_SICK_LIST_3_c3_choice">
+    <mod:setValue>(Improved Medbay) Drag them back to the Medbay.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STATION_SICK_LIST_3_c3_text">
+    <mod:setValue>You hold them down and the Medbay is able to stop whatever neurotoxin was on the ship from fully infecting your crew. Once they recover, you prepare to fight off the scientists, who are beyond help.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STATION_SICK_LIST_3_c4_choice">
+    <mod:setValue>(Advanced Medbay) Have the Medbay analyze their condition.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STATION_SICK_LIST_3_c4_text">
+    <mod:setValue>You hold them off while retreating into the Medbay. Its advanced systems determine that an alien neurotoxin is driving your crewmember insane. It synthesizes an antidote and releases it into the ship. After a time, the frenzied scientists recover and one offers to help out as thanks for saving them.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STATION_SICK_c3_choice">
+    <mod:setValue>(Anti-Personnel Drone) Use a drone to investigate.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STATION_SICK_c4_choice">
+    <mod:setValue>(Lifeform Scanner) Run advanced life scans.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STORE_RESCUE_c1_choice">
+    <mod:setValue>See if you can assist her.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STORE_RESCUE_c1_text">
+    <mod:setValue>It seems that a small space dock has done something to anger the Rebels. The store there is run by her family and she pleads that you rescue them. She uploads the coordinates of the station to your navigation system.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STORE_RESCUE_c2_choice">
+    <mod:setValue>Ignore her pleas.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STORE_RESCUE_text">
+    <mod:setValue>Once you arrive at this populated region, you immediately pick up a distress signal. A small shuttle is asking anyone who'll listen for help protecting her family from a Rebel ship. Unsurprisingly, no one has yet responded to their request.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STRANDED_2_c3_choice">
+    <mod:setValue>(Improved Medbay) Bring him to your Medbay.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STRANDED_2_c3_text">
+    <mod:setValue>Once inside your Medbay, the system is able to restore his body and undo some of the damage to his brain. Once awake he states, "I feel almost like my old self again... Thank you. Please let me serve on your ship."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STRANDED_2_c4_choice">
+    <mod:setValue>(Advanced Medbay) Bring him to your Medbay.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STRANDED_2_c4_text">
+    <mod:setValue>Once inside your upgraded Medbay, the system is able to identify and minimize the trauma associated with being alone for so long. Once awake he states, "I don't know how to repay you, I feel 10 years younger... Let me serve on your ship."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STRANDED_BEACON_text">
+    <mod:setValue>It appears the distress beacon is coming from the surface of a nearby moon. Your sensors are picking up a single lifeform.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STRANDED_CHARLIES_1_text">
+    <mod:setValue>He states that he was a Weapons operator before being stranded. He happily offers his services for a time in exchange for "getting off that rock".</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STRANDED_CHARLIES_2_text">
+    <mod:setValue>He states that he was a Shield operator before being stranded. He happily offers his services for a time in exchange for "getting off that rock".</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STRANDED_CHARLIES_3_text">
+    <mod:setValue>He states that he was a Pilot before being stranded. He happily offers his services for a time in exchange for "getting off that rock".</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STRANDED_CHARLIES_4_text">
+    <mod:setValue>He states that he was an Engineer before being stranded. He happily offers his services for a time in exchange for "getting off that rock".</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STRANDED_CHARLIES_5_text">
+    <mod:setValue>He states that he was an Infantryman before being stranded. He happily offers his services for a time in exchange for "getting off that rock".</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STRANDED_CHARLIES_6_text">
+    <mod:setValue>He states that he was a Shipwright before being stranded. He happily offers his services for a time in exchange for "getting off that rock".</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_TOO_MANY_CREW_text">
+    <mod:setValue>Your ship cannot support any more active crewmembers. You apologize and leave the extra crew at the nearest friendly outpost. They pay you for your troubles.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_TUTORIAL_MISSILE_text">
+    <mod:setValue>Looks like you need some more help to get through his Shields! Some events can provide items. This one is providing you with an Artemis Missile Launcher.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_c1_text">
+    <mod:setValue>It speaks slowly, "Greetings. I appear to be in your debt. My people isolated themselves a long time ago, but perhaps it's time to re-establish a connection. There's a hidden wormhole near the Rock Homeworlds. Perhaps you can take me there so I can properly repay you?"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_BOARDERS_TEXT_3">
+    <mod:setValue>You detect life signs actually on the beacon itself! A teleporter signal warns you but it's too late, they've beamed from the beacon onto your ship and seem intent on taking it over.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_BOARDERS_TEXT_5">
+    <mod:setValue>As you arrive, you become aware of a minor Rebel outpost near the beacon. You are hardly able to bark an order before a small team is beamed aboard your ship. They must have been expecting you...</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_FIND_DRONE_5">
+    <mod:setValue>You find an abandoned mining station on a nearby moon. A quick scan shows no lifeforms; however, you discover a usable drone schematic!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_FIND_DRONE_6">
+    <mod:setValue>You receive a wide-band message, "Free schematic samples! Be sure to visit our new military-grade drone store opening in Sector XR1-45!"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_FIND_WEAPON_4">
+    <mod:setValue>As soon as you arrive a Mantis Scout detaches from a wreck and jumps away. You must have interrupted their salvage operation because you find a weapon ready to be installed!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_FREE_ITEMS_5">
+    <mod:setValue>You receive a message from a nearby station, "A Federation cruiser jumping into Rebel territory? Quite the bold move." You quickly move to arm the Weapons but she continues, "Lucky for you we're not all in support of the Rebellion. Perhaps these supplies will help you get to friendlier space alive."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_FRIENDLY_BEACON_3">
+    <mod:setValue>A civilian ship flies over as soon as you arrive. You're prepared to fight but they just inform you that they're out of FTL fuel and can't jump.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_FRIENDLY_BEACON_5">
+    <mod:setValue>The ship emitting the distress beacon messages you, "Sorry to bother you, but we're out of fuel and can't get out of this barren sector. Could you help us out?"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_FUEL_FOR_DRONE_1">
+    <mod:setValue>A nearby space station hails you. "Greetings! Your arrival is most fortuitous. We recently came across some extra drone parts. If you have some fuel, perhaps we can make a deal?"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_FUEL_FOR_DRONE_2">
+    <mod:setValue>A strange vessel approaches. A digital message appears on your view-screen: "This is an automated merchant. Refill this vessel with fuel and it will supply you with drone parts."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_GHOST_SHIP_TEXT_4">
+    <mod:setValue>There's a heavily damaged ship at this beacon. You briefly pick up a very distorted communication from the ship but are unable to understand it. Your sensors detect no life signs.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_MERCENARY_1">
+    <mod:setValue>You find a mercenary for hire at this beacon. Their unique skills can sometimes prove to be useful.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_MERCENARY_3">
+    <mod:setValue>There's a ship with pirate markings orbiting the nearby planet. You receive her hail: "Anything is possible, for the right price."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_MERCENARY_4">
+    <mod:setValue>The captain of this ship claims they can provide "services" as long as you've got the scrap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NOTHING_1">
+    <mod:setValue>Your jump leads you to nothing but empty space. This jump beacon serves no purpose other than as a connection.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NOTHING_6">
+    <mod:setValue>This beacon has been built for a nearby civilian space station. No one hails your ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_PIRATE_SURRENDER_TEXT_10">
+    <mod:setValue>"You have made your point, we are beaten. Take this and leave us to our shame."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_QUEST_ESCORT_TEXT_3">
+    <mod:setValue>"Hello," your communicator opens a hail from a nearby ship. "Our Weapons System is malfunctioning and we're too afraid of pirates to travel home unassisted. Can you escort us?"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_STORE_TEXT_4">
+    <mod:setValue>The space station here has a traveling merchant who shows you her wares.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TRADER_CIV_2">
+    <mod:setValue>You jump into a sector filled with civilian activity. You scan the various advertisement channels while waiting for your FTL to charge, and are intrigued by a grey-market shipwright.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TRADER_CIV_4">
+    <mod:setValue>Despite the barren area, a trader has set up shop at this beacon. She presents her offer.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TRADER_CIV_6">
+    <mod:setValue>A pawn broker has set up shop at this obscure beacon. They might be offering something worth looking at.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TRAP_BEACON_TEXT_3">
+    <mod:setValue>Your cockpit lights up with warning signals. You are being targeted by a nearby ship. The distress call was a lure to attract unwitting ships into firing range. You prepare for a fight.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BOSS_DESTROYED_text">
+    <mod:setValue>Its explosion rocks your ship and you shudder with relief. You did it. The Federation is saved...</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BOSS_TEXT_2_text">
+    <mod:setValue>You chase down the flagship and discover it is heavily damaged from the previous fight. Scans indicate that it has redirected considerable power to its Drones. Get ready for a fight.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BOSS_TEXT_3_text">
+    <mod:setValue>You're not certain how it's able to keep fighting with the amount of damage it has sustained. It looks like it's transferred power to the Teleporter as well as... some kind of Super Weapon. Be prepared... this is it!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_BOSS_FLEETS_BOTH_5">
+    <mod:setValue>You don't need advanced sensors to tell there is a battle going on. You look out of the window quietly, waiting to jump. There's no way you can help in this fight.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_BOSS_FLEETS_BOTH_FIGHT_2">
+    <mod:setValue>Two fleets fight nearby. You try to skirt around the edges of the battle and keep out of Weapons range, but a Rebel scout spots you and moves in.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_BOSS_FLEETS_BOTH_FIGHT_4">
+    <mod:setValue>The sheer scale of the destruction in the distance is almost breathtaking. Unfortunately, your position as an independent observer doesn't last for long!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_BOSS_FLEETS_BOTH_FIGHT_5">
+    <mod:setValue>The destruction in the distance is almost awe-inspiring. However you're dragged back to reality as sensors indicate you are under attack.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_BOSS_FLEETS_FED_5">
+    <mod:setValue>A squadron of Federation fighters are engaged in combat around a nearby moon, their carriers waiting in the distance. They must have encountered a Rebel scout squad.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_BOSS_FLEETS_REBEL_3">
+    <mod:setValue>You arrive to find a Rebel battalion encircling a nearby planet, launching landing parties. A scout moves toward your position. Prepare for a fight!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_BOSS_REPAIR_STATION_2">
+    <mod:setValue>An Engi civilian shipyard has been converted into a military refueling station. They offer you the chance to patch up your ship and refresh some supplies.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_BOSS_SCOUT_3">
+    <mod:setValue>Sensors indicate that the Rebels are setting up a forward jump beacon behind the nearby planet's moon. More importantly, a number of ships are passing by; prepare for a fight!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_BOSS_SCOUT_5">
+    <mod:setValue>As soon as you arrive at the beacon, a Rebel scout turns to engage. Power up the Weapons!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_BOSS_SCOUT_RESCUE_4">
+    <mod:setValue>A battle rages nearby between small fighters, apparently fighting over a space station. The Federation appears to be losing ships fast. Shall we assist them?</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_CACHE_LIST_3_c1_c0_clone">
+    <mod:setValue>Luckily, your Clone Bay is able to revive your crewmember.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_CACHE_LIST_3_c1_text">
+    <mod:setValue>You push the Impulse Engines to their limit and are able to break out of the gravity well. Your crewmember, along with the stockpile, is reduced to the size of a tennis ball - but you're left in one piece.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_CACHE_LIST_3_c3_text">
+    <mod:setValue>You floor the Engines to escape the gravity well while trying to get a teleporter lock on your crewmember despite the massive interference. You're barely able to get them back on board before the entire area is consumed into the singularity.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_CACHE_LIST_3_c4_text">
+    <mod:setValue>You swoop into the heart of the distortion and pick up your crewmember and the cargo. Your top of the line Impulse Engines are barely able to get your ship out of the gravity well before the whole ship is consumed. That was close.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_CACHE_c3_choice">
+    <mod:setValue>(Crystal Crew) Have your Crystalline Being recalibrate your weapons.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_CACHE_c3_text">
+    <mod:setValue>Your Crystalline crewmember is able to adjust the detonation frequency of your weapons to resonate with this type of crystal, and the barrier gives little resistance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_CHATTY_LIST_1_text">
+    <mod:setValue>You speak at length about nothing particularly interesting. "Wow, thanks! Oh look, another alien ship! I wonder if they're as nice as you." Seeing the Rebel decals you doubt they're friendly. They spot you and move in to attack, while the Crystalline civilian jumps away.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_CHATTY_text">
+    <mod:setValue>A civilian vessel messages you, "Wow! You're that alien that opened up the portal, aren't you! Are you busy? Can I ask you a question?"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_FED_DESERTER_c3_text">
+    <mod:setValue>You send them a friendly warning regarding the armada of Rebel ships pursuing you, and then get underway lest they catch up.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_HELP_DIG_c1_c2_text">
+    <mod:setValue>The Crystalline captain contacts you urgently: "What is the meaning of this?! Had you no wish to aid us you might simply have declined, but THIS... is an insult!" He turns his massive ship on yours and you prepare to fight for your life.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_HELP_DIG_c1_c3_c3_text">
+    <mod:setValue>Another cycle passes while the Rebel fleet draws ever nearer. You contact the captain again. "Alien captain, your knowledge of our customs has most impressed us. Your crewmember is on their way back to you now, along with a token of our respect."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_HUMAN_TESTS_c3_choice">
+    <mod:setValue>(Rock Crew) Send your Rockman crew.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_MANTIS_CRYSTAL_c1_text">
+    <mod:setValue>You activate your Impulse Engines and fly between the Mantis and their prey, Weapons charging. You appear to have their full attention.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_PIRATE_CRYSTAL_text">
+    <mod:setValue>A pirate ship jumps in right after you arrive at the beacon. It must have followed once the long-range beacon was reactivated. It charges a small Crystalline transport ship, Weapons armed.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_REBEL_CRYSTAL_text">
+    <mod:setValue>Crystal shards fly past the screen as soon as you arrive. Checking the scanners, it looks like a Crystalline ship is engaged with a Rebel!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_REQUEST_c1_c3_choice">
+    <mod:setValue>(Distraction Buoys) Accept the scrap but give them falsified flight plans.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_REQUEST_c1_c3_text">
+    <mod:setValue>Your Distraction Buoys allow you to create a very convincing flight plan. They accept it as true and give you the scrap. The deception may not be the most honorable tactic but staying ahead of the fleet is your highest priority.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CRYSTAL_SCRAP_EXCITED_c1_choice">
+    <mod:setValue>Offer 25 scrap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_START_BEACON_CRYSTAL_text">
+    <mod:setValue>You arrive in a sector not listed in any star charts. Strange Crystalline ships dot the horizon. Your companion speaks, "Here we are, my home sector. It has been a long time since others have set foot here, I wonder how you will be received."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_BOARDERS_CRYSTAL_1">
+    <mod:setValue>You detect a heavily armed Crystalline ship escorting some sort of prison vessel. Scans indicate there are a number of non-Crystal based lifeforms aboard; they must be rounding up all of the intruders in their space! Before you can react, you hear the telltale sounds of a teleporter going off.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_CRYSTAL_FIGHT_2">
+    <mod:setValue>You arrive at the beacon and are immediately greeted by an automatic message or warning of some kind. The translator can't seem to discern its purpose but after a few short moments an alarm goes off and a hostile ship jumps in!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NOTHING_CRYSTAL_6">
+    <mod:setValue>A number of civilian ships seem to be evacuating a small colony. One ship messages you before jumping away, "Damn you aliens! This is why we closed that long-range beacon in the first place!"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_STORE_CRYSTAL_2">
+    <mod:setValue>"Ah! Hello aliens", says a rotund Crystalline being on the vid screen. "I hoped I would run into one of you. I am a collector of alien artifacts and hoped you would have some equipment to barter!"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_ENGI_REACTOR_DRONE_2_text">
+    <mod:setValue>The Engi don't feel things the same way other species do. They'd want the tech to be saved. Your crew return safely to the airlock with the schematic and you put some distance on the station before it blows.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_ENGI_REACTOR_SCAN_c2_choice">
+    <mod:setValue>Save the drone schematic!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_ENGI_REACTOR_c4_choice">
+    <mod:setValue>(Long-Ranged Scanners) Run another scan.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_ENGI_REBEL_RESULT_c1_choice">
+    <mod:setValue>Give them 15 scrap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_ENGI_REBEL_RESULT_c2_choice">
+    <mod:setValue>Give them 20 scrap, 2 missiles and 2 fuel.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DISTRESS_ENGI_REBEL_text">
+    <mod:setValue>The distress signal originates from a small Engi ship under attack by a Rebel fighter - but when the Rebels see Federation markings they turn to attack!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ENGI_FLEET_DELAY_c2_text">
+    <mod:setValue>You have the Engi complete their excavations and bring the supplies onboard.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ENGI_FLEET_DELAY_text">
+    <mod:setValue>You notice an Engi colony hiding on the other side of a nearby moon. It turns out they're excavating an equipment cache from the Federation-Mantis War, and they suggest it might be used to lure the pursuing Rebel fleet.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ENGI_MONSTER_c2_choice">
+    <mod:setValue>(Advanced Sensors) Scan the monstrosity.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ENGI_REBEL_FIGHT_text">
+    <mod:setValue>The Rebel fighter here would seem to suggest elements of the Rebel fleet are already making incursions on Engi space. You move to engage.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ENGI_STATION_DISTRESS_LIST_1_text">
+    <mod:setValue>You receive another message from the ship, this time with a Mantis at the comm-log. "Foolish meatsacks," she yells. Sensors indicate the ship is moving in to attack and boarders teleport from the station.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ENGI_VIRUS_c1_c1_text">
+    <mod:setValue>You track the virus through your Weapons Core and Central Shields Kernel. Eventually you trap the virus in your Engines System and attempt to purge it, but it activates, disrupting the Engines on both ships! The Engi see you are incapable of containing the virus and attack.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ENGI_VIRUS_c1_c3_choice">
+    <mod:setValue>(Hacking) Isolate and quarantine the virus.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ENGI_VIRUS_c1_c3_text">
+    <mod:setValue>It takes some time, and the virus is slippery, but you eventually confine it to a useless subsystem prison where it frantically begins calculating insults at you. You eject the system from the ship and then silence the little binary criminal with your Weapons.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ENGI_VIRUS_c1_c4_c1_text">
+    <mod:setValue>After a few minutes, the virus "sees the light" and integrates itself in a positive manner with the computer society on your ship, repairing your hull fully and attempting to optimize your reactor.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ENGI_VIRUS_c1_c6_text">
+    <mod:setValue>Oddly enough, the Lanius seems aware of which computer the virus is present in, and proceeds to... digest the terminal. There is a burst of O2, and the Engi ship powers down its Weapons, no longer sensing the virus on board. The Engi send some parts over to repair your damaged computer, along with a unique ship augmentation as a reward for terminating the virus.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ENGI_VIRUS_c1_c7_c0_clone">
+    <mod:setValue>The virus appears to have disrupted your Clone Bay's capability to revive the lost crewmember!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ENGI_VIRUS_text">
+    <mod:setValue>The Engi are awaiting you at the beacon, with their Weapons on-line! They explain a computer virus that is wanted for hostile acts against the Engi (multiple counts of binary scrambling, nano-dissolution, and variable interference) is aboard your vessel.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SAVE_ENGI_STATION_4_text">
+    <mod:setValue>They thank you for the assistance and when you tell them of your mission, one of the Engi asks if they can assist your crew. You welcome them aboard.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_ENGI_GIFT_3">
+    <mod:setValue>You make contact with an isolated Engi science station who are staying put despite the likelihood of Mantis invasion. They offer some supplies for your journey.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_ENGI_MANTIS_FIGHT_2">
+    <mod:setValue>You come across a Mantis raider taking pot shots at a defenceless Engi supply station. Discovering its weaponry isn't much of a match for the station's armour, it turns on your ship. Battle stations!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_ENGI_MANTIS_FIGHT_3">
+    <mod:setValue>The area looks clear, and you prepare to jump off, but a Mantis scout jumps in behind you! They're as surprised as you are, but their Weapons are already online.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NOTHING_ENGI_3">
+    <mod:setValue>You have arrived near an Engi construction yard. Most Engi maintain their bipedal appearance out of habit but here you see a number of Engi hives working together to create massive organic machines adept at building ships. Truly a sight to behold.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NOTHING_ENGI_9">
+    <mod:setValue>The Engi seem to have avoided this particular node, along with every other lifeform. You keep your eyes peeled for reasons why, but spin up the FTL without event.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_STORE_ENGI_2">
+    <mod:setValue>A message arrives: "Your scrap, ours. Our weapons for you." You're about to raise the Shields when you realize it's just an Engi trader looking for a trade.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_STORE_ENGI_3">
+    <mod:setValue>An Engi ship hails: "Engine upgrade necessary for travel home. Sale of equipment necessary for Engine upgrade."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_APPROACH_ACCEPT_LIST_4_text">
+    <mod:setValue>As they approach, you detect their Weapons powering up. It seems their intentions are hostile!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_APPROACH_DECLINE_LIST_3_text">
+    <mod:setValue>They reply,"Keep our distance? Let's see if you can stop us!" They power up their Weapons and advance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_APPROACH_SCAN_LIST_2_c1_choice">
+    <mod:setValue>Power up Weapons and prepare for a fight.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_APPROACH_SCAN_LIST_2_c2_text">
+    <mod:setValue>Your highly advanced Cloaking System allows you to get out of range easily since they were still out of firing range. Eventually the ship jumps away.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_APPROACH_c3_choice">
+    <mod:setValue>(Advanced Sensors) Run a detailed scan with your Sensors before responding.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_EXPLORE_LIST_2_text">
+    <mod:setValue>You find a small outpost for local travelers, but it seems few ships in this area employ FTL drives. Their stock of fuel cells is low and their price high, but beggars can't be choosers...</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_EXPLORE_LIST_4_text">
+    <mod:setValue>You wander within scanning range of a Rebel automated scout!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_EXPLORE_text">
+    <mod:setValue>Although your lack of fuel cells prevents your ship from jumping, you can still use your Impulse Engines. Will you spend some time exploring the nearby system?</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_OFF_ROCK_CURIOUS_LIST_2_text">
+    <mod:setValue>The Rock ship circles yours, running scans on your systems. Your worst fears are confirmed when they identify your Engines and teleport a bomb straight onto it! Combat ready!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_OFF_ROCK_WRECK_LIST_4_c1_text">
+    <mod:setValue>Despite his fragile condition, the Rockman is good to his word and returns your crewmember, who is suitably grateful. Sadly, gratitude doesn't power the FTL drive.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_OFF_ROCK_WRECK_LIST_4_text">
+    <mod:setValue>The away team reports in, but then screams are heard and the comm goes dead! When it comes back online a Rockman can be heard - he's the lone survivor from the frigate's crew, and completely mad. He demands you pay a scrap ransom in return for your crewmember's life!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_OFF_ROCK_WRECK_c3_choice">
+    <mod:setValue>(Lifeform Scanner) Run additional scans.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_ON_SLUG_CHUCKLE_LIST_1_c1_text">
+    <mod:setValue>Everything looks secure but suddenly a number of supplies disappear! She must have planted a portable teleporter into your cargo bay somehow. Before you can react her ship is long gone.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_ON_SLUG_CHUCKLE_LIST_1_text">
+    <mod:setValue>You doubt she is trustworthy but have no choice but to make the deal. However you complete the exchange without event.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_ON_SLUG_CHUCKLE_c2_text">
+    <mod:setValue>You know better than to do business with a Slug who seems like she knows something you don't. She jumps off with another chuckle.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_ON_SLUG_CHUCKLE_c3_text">
+    <mod:setValue>As soon as she sees your crewmember the Slug stops her incessant chuckling. The exchange appears to go smoothly although you wonder what mental battles are telepathically occurring between the two Slugs.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUEL_ON_SLUG_CHUCKLE_text">
+    <mod:setValue>A poorly armed Slug ship cruises by and offers assistance. Their captain seems to be chuckling to herself, perhaps at the prices she's charging.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NO_FUEL_REFUGEE_DAMAGED_c4_text">
+    <mod:setValue>Panicked, the refugees immediately surrender as your Weapons power up. They pass along their fuel and what few other supplies they have left in exchange for their lives.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_FUEL_NOTHING_LIST_4">
+    <mod:setValue>Occasional traffic passes within a short distance of you, but no one responds to your hails.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_FUEL_NOTHING_LIST_6">
+    <mod:setValue>As you wait, a tiny asteroid storm pelts softly against your Shields and hull.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_FUEL_ON_REBEL_ATTACK_2">
+    <mod:setValue>A Rebel ship jumps nearby, "I wasn't looking forward to patrolling this boring sector but here you are, the most wanted ship in the area, just asking for me to find you. It looks like it's my lucky day!" They power up their Weapons.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_CAPTURE_COMMANDO_c3_choice">
+    <mod:setValue>(Mantis Crew) Interrogate him.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_CAPTURE_COMMANDO_c4_text">
+    <mod:setValue>Your Mind Control System allows you to quickly get his story without resistance. It appears the boarding party was attempting to steal a weapon that the Engi ship was transporting. However their team was wiped out by drones.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_CAPTURE_COMMANDO_text">
+    <mod:setValue>You come across an Engi wreck with one life sign aboard; it turns out to be the sole survivor of the Mantis boarding party that wiped out the ship's crew. He's in no state to fight and he's brought aboard.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_CIVILIAN_c1_text">
+    <mod:setValue>You frown, power up the Weapons and prepare to engage the Mantis ship. Not today.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_CREW_LIST_1_c0_clone">
+    <mod:setValue>The Mantis is shocked to see the crewmember they just slaughtered step out of the Clone Bay.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_CREW_LIST_1_text">
+    <mod:setValue>The Mantis inside is FURIOUS. She cuts the closest person in half with a single swipe. Kill them before anyone else is hurt.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_FIGHT_CHOICE_AVOID_2_text">
+    <mod:setValue>Before you have a chance to slink away the Mantis ship notices you and powers up their Weapons.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_FIGHT_CHOICE_AVOID_3_text">
+    <mod:setValue>You power down non-essential systems in an attempt to remain unnoticed. It looks like they are about to leave when suddenly they turn and set course toward you, Weapons powered.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_GAMBLE_BLUE_2_c2_choice">
+    <mod:setValue>(Adv. Engines) Dodge the debt and power up the Engines.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_GAMBLE_RED_2_c2_choice">
+    <mod:setValue>(Adv. Engines) Dodge the debt and power up the Engines.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_NAMED_THIEF_DEFEAT_c2_c1_choice">
+    <mod:setValue>Put them out of their misery.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_NAMED_THIEF_DEFEAT_c2_c1_text">
+    <mod:setValue>Thus ends the life of the famed captain, KazaaakplethKilik... You wonder what secrets went with her to the grave as you thoroughly loot her ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_NAMED_THIEF_DEFEAT_c2_c2_choice">
+    <mod:setValue>Listen to what she has to say.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_NAMED_THIEF_DEFEAT_c2_c2_text">
+    <mod:setValue>In her dying moments she gives up the location of her secret stash. You strip the ship wondering what other secrets went with her to the grave.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_NAMED_THIEF_DEFEAT_c2_c3_c1_text">
+    <mod:setValue>KazaaakplethKilik joins your crew, offers the coordinates for a nearby stash of stolen military goods, and transmits the coordinates for a custom cruiser she has been working on. You forward it to the Federation, sure they can make good use of it.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_NAMED_THIEF_DEFEAT_c2_c3_choice">
+    <mod:setValue>(Improved Medbay) Quickly teleport her back to the Medbay.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_NAMED_THIEF_DEFEAT_c2_c3_text">
+    <mod:setValue>Your haste has paid off and you are able to bring her back from the brink of death. When her senses return she says, "I never thought I would see this day, but... I am willing to devote myself and my ships to your cause."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_NAMED_THIEF_DEFEAT_c2_c4_choice">
+    <mod:setValue>(Improved Clone Bay) Quickly configure the Clone Bay to save her.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_NAMED_THIEF_DEFEAT_c2_c4_text">
+    <mod:setValue>Your haste has paid off and you register her into the Clone Bay's database. After she passes away she is quickly reconstructed on board your ship. When her senses return she says, "I never thought I would see this day, but... I am willing to devote myself and my ships to your cause."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_NAMED_THIEF_DEFEAT_c3_c1_choice">
+    <mod:setValue>Let her die.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_NAMED_THIEF_DEFEAT_c3_c2_choice">
+    <mod:setValue>Dock and try to speak with her.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_NAMED_THIEF_DEFEAT_c3_c3_choice">
+    <mod:setValue>(Improved Medbay) Dock and quickly take her back to the Medbay.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_NAMED_THIEF_DEFEAT_c3_choice">
+    <mod:setValue>(Advanced Sensors) Quickly scan their ship for survivors.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_NAMED_THIEF_c1_choice">
+    <mod:setValue>(Mantis Crew) Attempt to hail her.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_MANTIS_NAMED_THIEF_c1_text">
+    <mod:setValue>Your Mantis crewmember steps forward. They and KazaaakplethKilik perform a weird kind of alien haka. You, meanwhile, charge the battle systems.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_MANTIS_CIVILIAN_1">
+    <mod:setValue>A Mantis vessel flashes past your view-screen, Weapons and Engines at full. A tiny blip on the sensor readout marks its quarry.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_MANTIS_CIVILIAN_3">
+    <mod:setValue>A Mantis ship engaging a civilian hails you. Sparks fly about their cockpit as they yell, "Stay out of this human! Else you are next!"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_MANTIS_FIGHT_10">
+    <mod:setValue>The Mantis ship is pleased to see you, and fires up its Weapons System.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_MANTIS_FIGHT_13">
+    <mod:setValue>A Mantis vessel hails you. "This hail is merely a distraction!" You notice their Shields and Weapons have come online.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_MANTIS_FIGHT_16">
+    <mod:setValue>A Mantis female comes on the vidscreen. The females don't make it to authority unless they're particularly vicious. You power the Weapons.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_MANTIS_FIGHT_18">
+    <mod:setValue>A Mantis ship hails: "Ah! Fine prey, fine prey! We honor you with our most eviscerating arsenal!" You sense a cloud to this silver lining and power the Weapons.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_MANTIS_FIGHT_19">
+    <mod:setValue>Children on Earth are told terrible tales of the blood red Mantis invasion ships - much like the one bearing down on you now - which once threatened the planet. You order Weapons free!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_MANTIS_FIGHT_3">
+    <mod:setValue>A small Mantis cruiser is broadcasting a repeating message on a wide-band frequency, "All non-Mantis ships that enter our territory are forfeit. Lower your Shields and surrender if you value your lives."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_MANTIS_FIGHT_9">
+    <mod:setValue>A stream of clicks and gurgling comes on the comm from a hostile Mantis scout. The universal translator might be on the blink, but their intent is obvious.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NOTHING_MANTIS_4">
+    <mod:setValue>There aren't many parts of Mantis space that aren't dotted by the wrecks of battles past, but this is one of them. You take a deep breath and prepare to move on.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_STORE_MANTIS_5">
+    <mod:setValue>A struggling Mantis cargo ship headed for the node raises what's left of their Shields as you jump in. You power up your Weapons as a show of force, and they reluctantly agree to offload some of their cargo to you - for a price.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_STORE_MANTIS_6">
+    <mod:setValue>The Rebels are already here! The crew braces for impact, but none comes. The sensors report the unmanned Rebel supply ship is malfunctioning and is stuck in vending mode - for a little scrap you can take your pick.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_AUTO_DEFENSE_ITEM_text">
+    <mod:setValue>An advance Rebel automated ship remains stationed near a small Rebel space station. However, without functioning Sensors it is impossible to tell what is inside.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_LOST_SHIP_LIST_1_text">
+    <mod:setValue>Your search is hopeless. Your Sensors can't pick up anything in the nebula.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_LOST_SHIP_c3_choice">
+    <mod:setValue>(Teleporter) Lock onto their life signs with your Teleporter.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_LOST_SHIP_c4_choice">
+    <mod:setValue>(Long-Ranged Scanner) Pump extra power into your sensors and try to track them.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_PIRATE_SMUGGLE_c1_text">
+    <mod:setValue>You power up your Weapons and move in to engage.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_PIRATE_SMUGGLE_c3_choice">
+    <mod:setValue>(Advanced Weapons) Activate your Weapons threateningly.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_REBEL_CHASE_LIST_1_text">
+    <mod:setValue>You follow their vapour trails and surf onto their six o'clock, Weapons hot.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_REBEL_CHASE_LIST_2_text">
+    <mod:setValue>Without Sensors you can't maintain a lock for long. The Rebels slip away.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_REBEL_CHASE_c3_choice">
+    <mod:setValue>(Advanced Sensors) Track them as you move to engage.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_REBEL_CHASE_c3_text">
+    <mod:setValue>As soon as they see you they make a run for it. You squeeze what you can out of the malfunctioning Sensors and are able to keep track of them long enough to get in firing range.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_REBEL_CHASE_c4_choice">
+    <mod:setValue>(Long-Ranged Scanner) Attempt to track them as you move to engage.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_REBEL_UNDETECTED_LIST_1_c2_choice">
+    <mod:setValue>(Improved Engines) Fully power the Engines to out-run them.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_REBEL_UNDETECTED_LIST_1_c2_text">
+    <mod:setValue>Your powerful Engines allow you to out-distance the ship and eventually lose it within the nebula.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_REBEL_UNDETECTED_c3_text">
+    <mod:setValue>You use your Cloaking System to slip further into the nebula undetected.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_ROCK_RACIST_c2_choice">
+    <mod:setValue>Repugnant?! Arm the Weapons!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_ROCK_RACIST_c3_choice">
+    <mod:setValue>(Rock Crew) Offer to lead them out of the nebula.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_ROCK_RACIST_text">
+    <mod:setValue>A Rock armoured transport nearby looks to have lost its bearings, but when you hail they grow suspicious: "Whatever lifeform you are, we find you repugnant. We seek no aid. Leave. Now."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_TRADER_text">
+    <mod:setValue>It's hard to see why, but this beacon is apparently a tourist destination. One of the ships at the tiny station is offering a deal.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_WEAPONS_TRADER_c3_choice">
+    <mod:setValue>Purchase an unknown weapon for 20 scrap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STORM_AUTO_ESCAPE_2_text">
+    <mod:setValue>Despite your advanced Engines you are unable to shake them; you turn and prepare for a fight.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STORM_AUTO_c2_choice">
+    <mod:setValue>(Basic Engines) Attempt to out-run it.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STORM_AUTO_c3_choice">
+    <mod:setValue>(Advanced Engines) Escape before they catch up.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STORM_AUTO_c4_choice">
+    <mod:setValue>(Cloaking) Use your Cloaking to escape.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STORM_AUTO_c4_text">
+    <mod:setValue>By using your advanced Cloaking System you easily lose your pursuer in the storm.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STORM_ITEMS_PILOTING_4_text">
+    <mod:setValue>Your pilot carefully explores the wrecks, but the storm has taken its toll. Any crew are long since dead and the floating debris has been scorched beyond repair.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STORM_ITEMS_c3_choice">
+    <mod:setValue>(Improved Piloting) Have your pilot carefully explore the debris.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NEBULA_AUTO_LIST_5">
+    <mod:setValue>It's worrying that the Rebels have penetrated so deep into uncharted space, even if it is only an unmanned craft. It arms its Weapons; you should do the same.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NEBULA_BOARDING_TEXT_1">
+    <mod:setValue>You see a small station nearby and feel the shudder of shots ringing through the ship. You can't be sure without Sensors, but it seems there may be intruders on the ship!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NEBULA_EMPTY_LIST_2">
+    <mod:setValue>Without active Sensors you have no other option but to look out of the view-ports in apprehension. It's eerily quiet.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NEBULA_EMPTY_LIST_4">
+    <mod:setValue>You feel naked without functioning Sensors. You half expect a Rebel ship to appear from behind a cloud at any moment, but none come.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NEBULA_EMPTY_LIST_8">
+    <mod:setValue>With the Sensors down, you spend a good deal of time staring out the window. It is, you must admit, rather beautiful here.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NEBULA_MANTIS_FIGHT_1">
+    <mod:setValue>Nebulae are known to be popular Mantis hunting grounds. Information you would have done well to heed here.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NEBULA_MANTIS_FIGHT_3">
+    <mod:setValue>A Mantis ship, lost in the storm, hails you. "Sensors are out. We have no local telemetry. We will take yours." You detect a power increase in their Weapons System.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NEBULA_PIRATE_1">
+    <mod:setValue>As you drift through the nebula an unmarked vessel descends from the clouds and into your wake. Their Weapons come online.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NEBULA_PIRATE_2">
+    <mod:setValue>A pirate ship pulls out of the ether and hails: "You know what I love about this part of the galaxy? The explorers! You always carry such fine loot." They lock Weapons.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NEBULA_PIRATE_5">
+    <mod:setValue>You try to read the ID of a ship ahead in the fog, but it's too thick to penetrate. You have your answer when the ship turns, Weapons hot!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NEBULA_STORE_3">
+    <mod:setValue>The center of a hydrogen cloud doesn't seem like a very usual place for a store, but the Engi aren't a usual species. Wouldn't hurt to take a look.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_START_BEACON_NEBULA_3">
+    <mod:setValue>You've entered a sector thick with nebule. You'll have to navigate on instinct.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_START_BEACON_NEBULA_5">
+    <mod:setValue>Thanks to the high nebula density of this sector, very little of it has been charted, and rumours of what lurks in the depths abound.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_START_BEACON_NEBULA_6">
+    <mod:setValue>The gases that make up the nebulae in this sector threaten to impair your systems, but you have to press on.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BOARDERS_ASTEROID_text">
+    <mod:setValue>You jump into a perilous asteroid field. Worse, sensors show a pirate stronghold has locked onto our ship and is activating a Teleporter. Prepare for a fight!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BOARDERS_SUN_text">
+    <mod:setValue>You arrive to find yourself extremely close to a star. You receive a message from a pirate ship, "I'm glad you arrived; our ship is damaged and we were getting desperate... I hope you don't mind if we take yours." Hostiles detected on board!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FLOATING_CARGO_LIST_3_text">
+    <mod:setValue>Once you bring the cargo onto your ship, a pirate bursts out of one of the crates saying, "Ugh... I was getting cramped in there. Oh, yeah! Prepare to die!" Your ship is filled with the sound of crates breaking open...</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FLOATING_CARGO_SCAN_LIST_2_text">
+    <mod:setValue>Your Sensors are able to breach the protective barrier and scan the cargo. It appears to be filled with military supplies! You take everything you can use.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FLOATING_CARGO_SCAN_LIST_3_text">
+    <mod:setValue>Your Sensors pick up faint life signatures inside the cargo. The lifeforms appear to be armed. This looks like a planned pirate ambush.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FLOATING_CARGO_c3_choice">
+    <mod:setValue>(Improved Sensors) Run an advanced scan on the boxes.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FLOATING_CARGO_c4_choice">
+    <mod:setValue>(Lifeform Scanner) Something about this seems fishy - run a scan.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FRIENDLY_SLAVER_TELEPORTER_1_text">
+    <mod:setValue>You beam a team into their holds. They work quickly to free the slaves and teleport back to your ship. One of the captives seems fit for battle and you throw them a weapon in preparation for a fight.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FRIENDLY_SLAVER_c4_choice">
+    <mod:setValue>(Improved Teleporter) Use your Teleporter to attempt to board the ship and release some of the slaves.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FRIENDLY_SLAVER_text">
+    <mod:setValue>You recognize the ship as a well-known slave trader. She hails you and offers you "laborers" for cheap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_BRIBER_WIN_5_text">
+    <mod:setValue>"Thank the heavens you showed up! We don't have much to offer as a reward, but our engineer should be proficient enough to patch your ship up after that nasty fight."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_BRIBER_c2_text">
+    <mod:setValue>The pirate ship stops its pursuit and locks Weapons onto your ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_CIVILIAN_c1_text">
+    <mod:setValue>You power up your Weapons and engage the pirate ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_NO_ESCAPE_c2_choice">
+    <mod:setValue>(Hacking) Counter the remote hacking.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_NO_ESCAPE_text">
+    <mod:setValue>Once you arrive, your screen lights up with warnings. A nearby pirate seems to have advanced hacking tools and they have tried to shut down your Engines. Your crew manages to keep them barely operational and you move into attack.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_SLAVER_RUN_1_text">
+    <mod:setValue>You quickly fire up your Engines and make a break for it. However, it seems to be in vain. They catch up to you effortlessly and power up their Weapons.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_SLAVER_RUN_2_text">
+    <mod:setValue>You divert all available power to your Engines and flee. You caught them off-guard, but they seem to be gaining on you. Luckily you are able to stay out of range long enough to charge the FTL drive.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_SLAVER_RUN_3_text">
+    <mod:setValue>You fire up the Engines and try to escape. Their slower ship is unable to keep pace; eventually it gives up and returns to the beacon to await an easier target.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_SLAVER_c1_choice">
+    <mod:setValue>Draw straws and send a crewmember over to the slavers.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_SLAVER_c1_text">
+    <mod:setValue>The chosen crewmember leaves without complaint, knowing you had no choice.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_SLAVER_c3_choice">
+    <mod:setValue>(Advanced Engines) Attempt to out-run the slaver ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_SLAVER_text">
+    <mod:setValue>An especially well-armed pirate ship approaches you. "Hand over one of your crewmembers and the rest of you can go free unharmed."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_PIRATE_SUN_text">
+    <mod:setValue>This beacon has been placed too close to a supergiant class M star! The ship will gradually overheat until you get out of here... or die. A pirate, apparently oblivious to the danger of the sun, moves in to engage.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SAVE_CIVILIAN_LIST_1_text">
+    <mod:setValue>The ship you saved was badly damaged in the battle. The crew accepts your offer to be dropped off at a nearby station. One offers to join your crew.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NOTHING_PIRATE_1">
+    <mod:setValue>As soon as you arrive, a small ship de-cloaks behind yours. You immediately power up the Shields and Weapons, but they continue on their trajectory unimpressed. You try to calm your nerves.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_PIRATE_5">
+    <mod:setValue>You barely have time to register jump completion before your ship warns you of an incoming ship with Weapons hot.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_STORE_PIRATE_1">
+    <mod:setValue>A few small ships are visible on the vidscreen, and you almost activate Weapons targeting. However, sensors indicate they are simply honest merchants. The pirates must be making you jumpy. You message them asking about their wares.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_AUTO_CIVILIAN_c1_text">
+    <mod:setValue>You power up your Weapons and engage the automated ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_AUTO_CIVILIAN_text">
+    <mod:setValue>You come across a Rebel automated scout ship pursuing a civilian ship, Weapons engaged.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_AUTO_DEFENSE_ITEM_CLOAK_1_text">
+    <mod:setValue>Your ship patrols wide around the area, successfully approaching the station while avoiding detection.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_AUTO_DEFENSE_ITEM_text">
+    <mod:setValue>An advanced Rebel automated ship remains stationed near a small Rebel space station. Sensors indicate it's a storage vessel for military goods.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_AUTO_DEFENSE_MAP_SENSORS_1_text">
+    <mod:setValue>Your sensors are able to remotely access and download the public radar station's local map data.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_AUTO_DEFENSE_MAP_c3_choice">
+    <mod:setValue>(Advanced Sensors) Use your Sensors to attempt to access the data.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_AUTO_DEFENSE_RADAR_COMBAT_1_text">
+    <mod:setValue>Your Combat Drone attacks the automated ship and then retreats, luring it away. You quickly move up to the radar station to access it.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_AUTO_DEFENSE_RADAR_COMBAT_2_text">
+    <mod:setValue>Your Combat Drone repeatedly fires at the automated ship. It can't break through its Shields, but is at least enough of a distraction to allow you to briefly access the radar station.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_AUTO_HACKER_c2_choice">
+    <mod:setValue>(Hacking) Counter the remote hacking.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_AUTO_HACKER_c2_text">
+    <mod:setValue>Your Hacking System automatically counters the digital assault and you move in to fight the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BROKEN_REBEL_DRONE_SENSORS_2_text">
+    <mod:setValue>Your Sensors indicate the ship is on standby, ready to activate at a moment's notice. Will you still attempt to access the ship's data?</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BROKEN_REBEL_DRONE_c3_choice">
+    <mod:setValue>(Advanced Sensors) Remotely scan the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BROKEN_REBEL_DRONE_text">
+    <mod:setValue>You find a Rebel automated scout floating near this beacon. Despite its pristine condition, it appears to be deactivated.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DEFENSE_ITEM_LIST_2_text">
+    <mod:setValue>The station was apparently designed to outfit Rebel ships with Drone Systems. You find a functioning schematic.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DOWNLOAD_DRONE_DATA_2_text">
+    <mod:setValue>You accidentally reactivate the ship's AI. Its Weapons immediately go online; prepare for a fight!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FLAGSHIP_CONSTRUCTION_DONE_text">
+    <mod:setValue>While the second flagship was not yet finished, it doesn't make the battle any less of a victory... and you've crippled the Rebel fleet's strength considerably! While you don't overstay your welcome, you quickly salvage choice bits of metal, missiles, and even an unusual object or two from the wreckage and prepare to jump!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FLAGSHIP_CONSTRUCTION_text">
+    <mod:setValue>You arrive at the beacon to find yourself in a huge Rebel shipyard, scaffolding and construction drones filling the entire area! The entire system looks devoted to ship construction, the nearby planets and moons ruthlessly mined to harvest resources for a ship of immense size...</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_REBEL_BOARDING_text">
+    <mod:setValue>There appear to be a number of small stations nearby. Before you have time to scan them, warnings go off. A Rebel Teleporter was used in one of the stations. You've been boarded!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_TRANSPORT_CAPTURED_4_text">
+    <mod:setValue>Searching the remains you find that the cargo was military-grade drone schematics! You bring them aboard to install on your ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_TRANSPORT_DESTROYED_5_text">
+    <mod:setValue>Searching the remains, you find that the cargo was military-grade drone schematics! You bring them aboard to install in your ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_TRANSPORT_DESTROYED_6_text">
+    <mod:setValue>The debris implies that the ship was carrying drone schematics, but unfortunately nothing remains. You do find functioning drone parts, however.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_TRANSPORT_c2_text">
+    <mod:setValue>They stay outside your Weapons range, and eventually jump away.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REBEL_TRANSPORT_text">
+    <mod:setValue>You spot a Rebel ship nearby. It seems to have been re-fitted for transport rather than combat. It does not seem to want to engage you and your ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SQUAT_REFUEL_STATION_c1_text">
+    <mod:setValue>The Rebel responds to your threat, "I don't know who you are, but no one defies the Rebel fleet!" They move in to engage.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SQUAT_REFUEL_STATION_c2_text">
+    <mod:setValue>The Rebel ship fires some warning shots but eventually powers down their Weapons. The outpost seems to have given them what they demanded.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SQUAT_REFUEL_STATION_text">
+    <mod:setValue>You detect a Rebel scout on an attack approach to a small refueling outpost. Their Weapons are charged, but they're not firing yet.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_BOARDERS_REBEL_SHIP_2">
+    <mod:setValue>Your sensors warn of an incoming Rebel ship at the same time as you hear the telltale signs of a Teleporter. You hear someone taunt from within the ship, "Ready to die? I sure am ready to get a promotion!"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_BOARDERS_REBEL_SHIP_3">
+    <mod:setValue>Incoming message, "Hello captain," says a Rebel in an officer's garb. "How very generous of you to turn yourself in. Prepare to be boarded. Come quietly and we may be lenient."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NOTHING_REBEL_4">
+    <mod:setValue>There are no other ships near this beacon, however you detect a minor communication relay. You tap into it without a problem; there is no encryption. Most of the chatter revolves around troop and fleet movements, not particularly interesting.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NOTHING_REBEL_5">
+    <mod:setValue>There is a dwarf planet nearby with scattered settlements. A small Rebel fleet is in orbit with many ships ferrying back and forth. It must be a more recently 'liberated' planet.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_REBEL_2">
+    <mod:setValue>A small Rebel ship is docked at a nearby station. You try to lay low but it spots you. Power up the Weapons!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_REBEL_5">
+    <mod:setValue>You receive a transmission: "Sorry sir, this is nothing personal but we're under orders." The Rebel ship's Weapons go hot.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_REBEL_7">
+    <mod:setValue>A Rebel ship hails. "We did not fight a war to let a single Federation ship shatter our dreams of a better galaxy!" He locks Weapons.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_REBEL_8">
+    <mod:setValue>A Rebel ship approaches cautiously. "Personally," says the captain, "I'd have stuck with the Federation. But I'm a soldier, sir, and I'm no use without a war to fight. Raise your Shields!"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_REBEL_9">
+    <mod:setValue>You're hailed by a Rebel ship: "When the rebellion is complete you'll see the safer world we provide. Well, you won't, but you get the point." They arm Weapons.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_STORE_REBEL_3">
+    <mod:setValue>You receive generic advertisements from a nearby public shipyard. It seems they are willing to work on any ship, not only those of Rebel hue.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_ATHIEST_GOOD_1_text">
+    <mod:setValue>Your promises gain their attention and the one of the crew offers to serve with you to see more of the galaxy.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_ATHIEST_text">
+    <mod:setValue>You encounter a small craft with minimal propulsion; its Rock crewmember explains that the Rock Homeworlds are run on lies and propaganda that keep the populace in check, and that they want no part of it.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_MANTIS_FREIGHTER_LIST_1_text">
+    <mod:setValue>The Mantis craft are both too busy slaughtering one another to notice you. Eventually the smaller ship gets the upper hand, but they must have blown a fuse in the assault and their Weapons System is inoperable. Now is the time to attack!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_MANTIS_FREIGHTER_c3_choice">
+    <mod:setValue>(System Repair Drone) Repair the Rock ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_MANTIS_FREIGHTER_c3_text">
+    <mod:setValue>While the two Mantis fight you approach the Rock ship and send a Repair Drone through one of the many breaches. It fixes the ship up enough to make at least a single jump. You're surprised when, instead, they embark on a kamikaze run on the two Mantis, which results in the obliteration of all three!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_MANTIS_HUNTER_c2_text">
+    <mod:setValue>The Mantis take no interest in your ship - they're lying in wait for the next Rock ship to venture through. You're able to spin up the Engines and jump at your leisure.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_MANTIS_HUNTER_c3_choice">
+    <mod:setValue>(Rock Plating) Ram the bastards.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_MANTIS_HUNTER_c3_text">
+    <mod:setValue>Before they have a chance, you ram your ship into theirs, causing irreparable damage to their Engines. Luckily, your ship's armored hull is hardly dented from the impact. The Mantis ship careens away and you move in to attack.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_NURSERY_AUTHORITY_2_text">
+    <mod:setValue>The fight goes poorly, and your team eventually finds itself out on the flank with a wounded Rock combatant in tow. They make a desperate push for the shuttle coordinates, but one falls. The survivor helps the injured Rock aboard.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_NURSERY_STUDENTS_2_text">
+    <mod:setValue>The fight goes poorly, and your team eventually finds itself out on the flank with a wounded Rock combatant in tow. They make a desperate push for the shuttle coordinates, but one falls. The survivor helps the injured Rock aboard.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_NURSERY_c1_text">
+    <mod:setValue>Your away team reports combat between students and authorities - it seems some of the students were considered to have dissident personalities and were to be imprisoned proactively.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_NURSERY_c3_choice">
+    <mod:setValue>(Advanced Weapons) Fire a warning shot near to the commotion to announce your arrival.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_NURSERY_text">
+    <mod:setValue>Fluctuating life signs are reported near the surface of a hazy, pock-marked moon in the vicinity. It seems this is a Rock nursery where the young are 'acclimatized' to their religion - only there's been some kind of coup and the students are running amok!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_QUEST_MARRIAGE_START_text">
+    <mod:setValue>A Rock captain hails you: "It is improper of me to contact off-worlders, but this is an emergency. We were on our way to deliver our passenger to her new husband - the Grand Basilisk of Numa V - when our Engines broke down. Will you take possession of her and make haste to Numa V?"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_QUEST_MARRIAGE_c1_c2_text">
+    <mod:setValue>"I was led to believe your kind did not know mercy. I will join you. But quickly, we must jump away - they will not tolerate..." She's interrupted by Weapons fire from the Basilisk's escort!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_STARSHIP_MINE_DEFUSE_1_text">
+    <mod:setValue>Your crewmember dons a space suit and exits the airlock. They make quick work of the basic device and return inside to relief all round. The minelayer makes for good scrap pickings, too.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_STARSHIP_MINE_c1_c3_text">
+    <mod:setValue>Carefully guided from the bridge, your Beam Drone removes the mine's grappling arms and sends it drifting off into space, where you shoot at it until it detonates at a safe distance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_STARSHIP_MINE_text">
+    <mod:setValue>The burnt out hull of a Rock minelayer drifts by. Behind the wreck drifts a live mine; an automated drone that drills into ships' hulls before exploding. It locks onto your ship's signature and heads your way!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_ZOLTAN_HELP_c2_text">
+    <mod:setValue>This is Rock territory, and therefore Rock law - the Zoltan should have known better than to interfere. You'll have to disable their Engines and Piloting to ensure their safe capture.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_ZOLTAN_HELP_text">
+    <mod:setValue>It seems a Zoltan ship came here to liberate a Rock settlement from their 'oppressive belief system', and that the settlement did not appreciate it - scanners suggest the Zoltan and their pursuers will be here at any moment!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NOTHING_ROCK_7">
+    <mod:setValue>You see a Zoltan merchant and ask about her wares. She responds, "Sorry, but it took years to gain their trust. I can't be seen communicating with you. I hope you understand." She cuts communications.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_ROCK_ATHIEST_BAD_1">
+    <mod:setValue>They barely hear out your appeals before yelling, "These are the lies I sought to escape!" Looks like they're charging Weapons!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_ROCK_ATHIEST_BAD_2">
+    <mod:setValue>They listen to your appeals and whisper, "Traitors to truth. You're no better than they are!" Chaos ensues.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_ROCK_BOARDERS_ASTEROID_2">
+    <mod:setValue>Your Shields are being taxed as they deflect the debris from an asteroid field. As you weave your way between the rocks, you happen upon a Rock pirate stronghold. You register teleport signatures and hear shouts aboard the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_ROCK_BOARDERS_SHIP_2">
+    <mod:setValue>You find a Rock ship docked with a damaged Mantis fighter. Before you have a chance to hail them, the ship moves in to attack you and you register teleporter signals from the disabled ship. They're using Mantis tech to board you!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_ROCK_FIGHT_ASTEROID_3">
+    <mod:setValue>The captain of a Rock freighter lost in the asteroid field hails you: "Our coordinates led us here, but only death greets us. What must be must be. Death to all." You power up the battle systems and wonder how long they've been stuck here.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_ROCK_PIRATE_ASTEROID_1">
+    <mod:setValue>Minute fissures in the Shields spark and crackle as the ship jumps into the wake of a huge asteroid. More asteroids follow, as does a lost and aggressive Rock pirate ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_ROCK_PIRATE_ASTEROID_2">
+    <mod:setValue>You exit the jump surrounded by dirt and rocks. Before long a blast is deflected by your Shields, but that was no asteroid... incoming pirate!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_ROCK_PIRATE_SUN_2">
+    <mod:setValue>A Rock ship is silhouetted against a sun in supernova. They hail: "Even out here you follow us! We only wish to be left alone!" Out of panic or anger, they charge their Weapons.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_STORE_ROCK_3">
+    <mod:setValue>With the local Rock settlements so unwilling to trade with other lifeforms, an opportunistic Mantis crew has postponed its piracy activities and set up shop to catch any passing trade.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_CRYSTAL_CONVOY_surrender_text">
+    <mod:setValue>Their ship seems severely damaged and they look to be reconsidering the fight. Should you power down your Weapons and explain that you mean no threat?</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_DOORS_deadCrew_text">
+    <mod:setValue>With their crew dead, you quickly shut off their Hacking Module and your systems return to normal. You strip the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_ENGINES_deadCrew_text">
+    <mod:setValue>With their crew dead, you quickly shut off their Hacking Module and your Engines return to normal. You strip the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_ENGINES_destroyed_text">
+    <mod:setValue>The Slug ship breaks apart and your Engines return to normal. You collect what you can.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_HACKING_FIRE_deadCrew_text">
+    <mod:setValue>With their crew dead, you quickly shut off their Hacking Module and your system returns to normal. You strip the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_HACKING_FIRE_destroyed_text">
+    <mod:setValue>The Slug ship breaks apart and their Hacking Module is destroyed. You collect what you can.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_HACKING_deadCrew_text">
+    <mod:setValue>With their crew dead, you quickly shut off their Hacking Module and your system returns to normal. You strip the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_HACKING_destroyed_text">
+    <mod:setValue>The Slug ship breaks apart and their Hacking Module is destroyed. You collect what you can.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_MEDBAY_deadCrew_text">
+    <mod:setValue>With their crew dead, you quickly shut off their Hacking Module and your systems return to normal. You strip the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_OXYGEN_FIRE_deadCrew_text">
+    <mod:setValue>With their crew dead, their Hacking System shuts down and your systems return to normal. You strip the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_OXYGEN_deadCrew_text">
+    <mod:setValue>With their crew dead, you quickly shut off their Hacking Module and your systems return to normal. You strip the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_PILOT_deadCrew_text">
+    <mod:setValue>With their crew dead, you quickly shut off their Hacking Module and your Piloting returns to normal. You strip the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_PILOT_destroyed_text">
+    <mod:setValue>The Slug ship breaks apart and your Piloting returns to normal. You collect what you can.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_SHIELDS_deadCrew_text">
+    <mod:setValue>With their crew dead, you quickly shut off their Hacking Module and your Shields return to normal. You strip the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_SHIELDS_destroyed_text">
+    <mod:setValue>The Slug ship breaks apart and your Shields return to normal. You collect what you can.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_WEAPONS_deadCrew_text">
+    <mod:setValue>With their crew dead, you quickly shut off their Hacking Module and your Weapons System returns to normal. You strip the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_STATUS_WEAPONS_destroyed_text">
+    <mod:setValue>The Slug ship breaks apart and your Weapons System returns to normal. You collect what you can.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_UNLOCK2_destroyed_text">
+    <mod:setValue>With the assault ship taken care of, you turn your attention to the construction platform. However, you find that it has long since disappeared into the clouds. As you scrap the remains of the ship, you wonder if you could've tracked the platform from a distance...</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_JELLY_UNLOCK3_destroyed_text">
+    <mod:setValue>With the escort neutralized, you take a look at your impressive prize. Your mission is too pressing to take a test flight. Before you rig the ship's computer to guide it back to the main Federation hangar you discover a unique augment that duplicates the Slug's ability to heal breaches!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_MANTIS_NAMED_THIEF_destroyed_text">
+    <mod:setValue>KazaaakplethKilik fights to the last, and you pick the scraps from the corpse of her ship. You sense, though, that her death has left a great mystery unresolved.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_PIRATE_NO_ESCAPE_deadCrew_text">
+    <mod:setValue>With the pirate ship disabled, your ship's system is restored to full functionality. You salvage what you can from their ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_QUEST_SLUG_PIRATE_TRAP1_surrender_c2_choice">
+    <mod:setValue>Let the pirate escape and go after the Slug ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_QUEST_SLUG_PIRATE_TRAP2_deadCrew_text">
+    <mod:setValue>With the pirate defeated, you search again for the cache they were protecting, but it's lost in the clouds. You console yourself with the salvage from the well-armed pirate ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_QUEST_SLUG_PIRATE_TRAP2_destroyed_text">
+    <mod:setValue>With the pirate taken care of, you search again for the cache they were protecting, but it's lost in the clouds. You console yourself with the salvage from the well-armed pirate ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_REBEL_AUTO_BAIT_destroyed_text">
+    <mod:setValue>As the ship breaks apart, you detect the pulse of a long-range message. It must have informed the fleet of your position.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_REBEL_AUTO_BAIT_escape_text">
+    <mod:setValue>Careful! Sensors indicate that this automated ship is rigged to inform the fleet of your location if destroyed! It is better to avoid risk and leave it alone, otherwise the fleet will find you faster within this sector.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_REBEL_AUTO_BAIT_gotaway_text">
+    <mod:setValue>The scout jumps away. It will certainly have informed the fleet of your position. You must get to the next sector as soon as possible!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_REBEL_AUTO_RADAR_destroyed_text">
+    <mod:setValue>You salvage what you can and approach the station. It is used to relay information to the Rebel fleet. You could attempt to hack it to give the Rebels false information.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_REBEL_ENGI_UNLOCK_2FAKE_escape_text">
+    <mod:setValue>As soon as they see you, they power up their Engines to jump away. Stop them!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_REBEL_ENGI_UNLOCK_2REAL_escape_text">
+    <mod:setValue>As soon as they see you they power up their Engines to jump away. Stop them!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_SQUAT_WARNING_gotaway_text">
+    <mod:setValue>The scout jumps away. They are sure to have informed the fleet of your position. You must get to the next sector as soon as possible!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_STORM_PIRATE_SUPPLY_AMMO_deadCrew_text">
+    <mod:setValue>With the ship in one piece, you are able to salvage most of the ammunition before the plasma storm swells and you have to jump away.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_STORM_PIRATE_SUPPLY_AMMO_destroyed_text">
+    <mod:setValue>The ship obliterated, only scant ammunition crates can be scavenged from the wreckage before the plasma storm clears and you have to jump away.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_STORM_PIRATE_SUPPLY_FUEL_deadCrew_text">
+    <mod:setValue>With the ship in one piece, you are able to salvage most of the fuel supplies before the plasma storm expands and you have to jump away.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_STORM_PIRATE_SUPPLY_FUEL_destroyed_text">
+    <mod:setValue>The ship obliterated, only scant fuel canisters can be scavenged from the wreckage before the plasma storm clears and you have to jump away.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_LIFERAFT_deadCrew_text">
+    <mod:setValue>The last pirate life signs blink out and the Zoltan returns to her bridge. "Egalitarianism is a cornerstone of successful cohabitation. Please, enjoy the fruits of your labor."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_LIFERAFT_destroyed_c1_c1_choice">
+    <mod:setValue>Let her go.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_LIFERAFT_destroyed_c1_c2_choice">
+    <mod:setValue>Offer to hire her for 40 scrap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_PEACE_QUEST_ATTACK1_surrender_c2_text">
+    <mod:setValue>You power down your Weapons and after a time the ship slowly limps away. They refuse all communications. You can't help but feel somewhat guilty.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ZOLTAN_PRIMITIVES_REBEL_destroyed_text">
+    <mod:setValue>The Zoltan hail once the smoke disperses. "Thank you. We were led to believe Federation ideals died along with the Federation itself. Let us aid you a little, for old times' sake." You accept their reward, then collect some remains from the Rebel ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BATTLEFIELD_INVESTIGAGE_5_text">
+    <mod:setValue>You spot a lifeform floating within the wreckage.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BATTLEFIELD_SURVIVOR_c2_choice">
+    <mod:setValue>(Improved Medbay) Get them into the Medbay!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BATTLEFIELD_SURVIVOR_c3_choice">
+    <mod:setValue>(Advanced Clone Bay) Try to clone them before it's too late.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_BATTLEFIELD_SURVIVOR_c3_text">
+    <mod:setValue>You clone the individual and let the host pass away. The clone decides to join you - although they have little choice in the matter.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_BATTLEFIELD_c1_choice">
+    <mod:setValue>(Slug Crew) Scan for mental activity.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_BATTLEFIELD_c1_text">
+    <mod:setValue>Despite the destruction filling the system, your crewmember is able to pick up the faint thoughts of a lifeform in the debris - it looks like they won't last much longer without help.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_CHOOSE_DEATH_c1_text">
+    <mod:setValue>"Very good then!" Your Shield power suddenly drops and they charge.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_CHOOSE_DEATH_c3_text">
+    <mod:setValue>"Your acceptance of death is almosst admirable... Almosst." Your Weapons System registers a Hacking Module. You hardly have time to respond before they attack.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_CHOOSE_DEATH_c5_choice">
+    <mod:setValue>(Hacking) Counter any hack attempt.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_CHOOSE_DEATH_text">
+    <mod:setValue>You are immediately hailed by a dangerous looking ship guarding a station. "I'm feeling generouss today. I shall allow you to choose your own death. Which do you like leasst: Shields, Oxygen, or Weaponsss?"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_DOORS_c2_choice">
+    <mod:setValue>(Hacking) Counter the remote hacking.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_DOORS_c2_text">
+    <mod:setValue>Your Hacking System automatically counters the digital assault and you move in to fight the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_DOORS_text">
+    <mod:setValue>There are few more vicious beasts in the galaxy than a Slug with their back to the wall. The faltering ship armed with fire weaponry uses a remote hacking tool to try and disable your Door System - they're going to burn you out!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_FAKE_STORE_LIST_2_text">
+    <mod:setValue>"During our discussion, my man hass taken the liberty of disabling your Weaponss to prevent any complications while completing our... transssaction..." You suddenly register multiple weapon locks, but your own weapons are not responding. Get out of there!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_FAKE_STORE_LIST_3_text">
+    <mod:setValue>"Thank you. If you could do me one more courtesssy... please die quietly." You suddenly hear gunshots aboard the ship. She must have been stalling for time while they boarded your ship!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_FAKE_STORE_c2_c1_c3_choice">
+    <mod:setValue>(Slug Crew) Our Slug senses someone aboard the ship. Investigate it.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_HULLFIX_RESULT1_1_text">
+    <mod:setValue>You pull up to the automatic station and after a short time they repair a significant amount of hull damage. You begin to offer your thanks but discover that you can't detach from the station.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_HULLFIX_RESULT1_2_text">
+    <mod:setValue>You dock with the station hoping for a quick turnaround, but the automatic machines take their sweet time. When the process finally finishes, you notice almost no damage has been repaired.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_HULLFIX_RESULT1_3_text">
+    <mod:setValue>As you dock with the station your readings go haywire. An EMP blast resonates throughout the ship and your Engines shut down. You're a sitting duck as a ship reveals itself and silently moves in to attack!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_HULLFIX_RESULT2_1_c1_choice">
+    <mod:setValue>Give them the 10 fuel they demand.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_HULLFIX_RESULT2_2_c2_text">
+    <mod:setValue>You activate your thrusters and force your way away from the station. A ship quickly moves in to engage. You'll need to get out of here fast; there may not be time to get the Weapons fully operational!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_HULLFIX_RESULT2_2_text">
+    <mod:setValue>"We're glad you have enjoyed our servicessss. Now for payment. To enssssure your cooperation we've taken the liberty of installing a limiter on your Weapons System."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_MEDBAY_c2_text">
+    <mod:setValue>Fearing the imminent battle you desperately try to get the Medbay working again. Its lights flicker back on and you turn to face the intruders.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_MEDBAY_c3_choice">
+    <mod:setValue>(Hacking) Counter the remote hacking.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_MEDBAY_c3_text">
+    <mod:setValue>You are able to undo the damage of their remote hacking satellite but it's taking everything your Hacking System has. Time to take out the enemy the old fashioned way.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_MEDBAY_text">
+    <mod:setValue>A Slug ship hails you: "We've detected some worrying radiation coming from your medical unit, perhaps you should take a look?" As she signs off, your system shuts off and their crew teleports aboard from a nearby station. They don't look like engineers.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_OXYGEN_c3_choice">
+    <mod:setValue>(Hacking) Counter the remote hacking.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_OXYGEN_c3_text">
+    <mod:setValue>Your Hacking System automatically counters the digital assault and you move in to fight the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_SLUG_OXYGEN_text">
+    <mod:setValue>The Slugs here use a tactic you hoped you'd never see: they use a remote hacking satellite to sabotage your Oxygen production and then charge fire weaponry - you're going to suffocate!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_QUEST_SLUG_PIRATE_TRAP2_c1_c1_text">
+    <mod:setValue>There's money to be made here. The Slugs know that. You turn on the pirate and intercept just before they can reach the cache!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_QUEST_SLUG_PIRATE_TRAP2_c1_c2_text">
+    <mod:setValue>When they see you making for the cache the Slug captain hails: "Foolish alienss, no eye for profit. Bessst of luck to you." They jump off, leaving you toe to toe with the pirate!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_QUEST_SLUG_PIRATE_TRAP2_text">
+    <mod:setValue>You catch up with the two Slug ships and they're already carrying out their raid! One is in close combat with the pirate, the other seems to be heading for a space cache the pirate was protecting.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_QUEST_SLUG_PIRATE_TRAP_c1_text">
+    <mod:setValue>You overhear their conversation and learn they're planning to raid an infamous and likely wealthy pirate ship in the area. The pair jump off and you note down their target coordinates.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SECRET_WORD_ABADOTH_CONCLUSION_c2_text">
+    <mod:setValue>Your Engi crewman easily recalls the phrase the dead man used from its memory banks. There is a moment of silence, and the ship's captain solemnly thanks you for the information. She wishes you well on your journey, and she offers several upgrades to assist you in exchange for your service to the Zoltan race.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SECRET_WORD_ABADOTH_CONCLUSION_c4_text">
+    <mod:setValue>There is a moment of silence, and the ship's captain solemnly thanks you for the information. She wishes you well on your journey, and she offers several upgrades to assist you in exchange for your service to the Zoltan race.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SECRET_WORD_ABADOTH_c1_choice">
+    <mod:setValue>(Slug Crew) Ask your Slug crewmember to scan for lifeforms.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SECRET_WORD_ABADOTH_text">
+    <mod:setValue>You have arrived at the coordinates given to you by the dead crewman you attempted to save. There doesn't seem to be anything here - no planets, no vessels, and no clue as to what they meant by sending you here.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SLUG_DISTRESS_PILOTING_SWEAR_1_text">
+    <mod:setValue>"Wow, I didn't think you'd go through with it..." She turns to her second in command, "Looks like I owe you some scrap." Strangely enough, they simply let you pass.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SLUG_DISTRESS_PILOTING_SWEAR_2_text">
+    <mod:setValue>Words come cheap, especially these ones. You assure the Slug of your loyalty and she welcomes you to the fold: "...and finally, let me introduce you to your new Slug Empire Overseer. He will ensure you stay true to the cause." A bored-looking Slug teleports over.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SLUG_DISTRESS_PILOTING_c2_text">
+    <mod:setValue>The Slug is unimpressed by your bravado and moves in to attack. Get the Shields up - you're a sitting duck with malfunctioning thrusters!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SLUG_DISTRESS_PILOTING_c3_choice">
+    <mod:setValue>(Improved Piloting) Override her control.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SLUG_DISTRESS_PILOTING_c4_choice">
+    <mod:setValue>(Hacking) Counter the remote hacking.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SLUG_DISTRESS_PILOTING_c4_text">
+    <mod:setValue>Your Hacking System automatically counters the digital assault and you move in to fight the ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SLUG_DISTRESS_PILOTING_text">
+    <mod:setValue>The distress signal originates from a tampered jump beacon. A Slug vessel jumps in and announces she has hacked your Engines System. "Of course if you, as one of the few remaining ships in the Federation, swear allegiance to the Slug Empire you will be free to go."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SLUG_DISTRESS_ROCK_FIGHT_1_text">
+    <mod:setValue>You charge Weapons and the Slugs immediately back down. When you return to the freighter, the Rockmen have already repaired the worst of their damage and jump away without another word.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SLUG_DISTRESS_ROCK_FIGHT_2_text">
+    <mod:setValue>You charge Weapons and the Slugs quickly change course to meet your charge.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SLUG_DISTRESS_TRICK_c3_text">
+    <mod:setValue>Once on board, it becomes clear that nothing is wrong with their O2 System. Almost expecting this, your Mantis calmly responds to the trap. Once a couple of the Slugs have been spread across the walls of their ship, the rest surrender.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SLUG_DISTRESS_TRICK_text">
+    <mod:setValue>You find a Slug vessel broadcasting the distress signal and contact them. "Ah, yesss, we are having problems with our Oxygen generation unit. Perhaps your crew can assist in repairsss?"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SLUG_FIGHT_text">
+    <mod:setValue>It's rare for the Slugs to stay exposed in open space for long periods - the ship here may be lost, or just passing through, but either way they move in to attack!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SLUG_UNLOCK_2_c3_text">
+    <mod:setValue>You try to stay just far enough away that they won't detect your life signatures without actively searching for you. After a time, your Slug tells you the ship with a larger crew has jumped away. They guide the helm toward the platform...</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_SLUG_UNLOCK_2_c4_text">
+    <mod:setValue>You overclock your Sensors, trying to get them to function in the clouds. They work just enough to let you keep tabs on their general position. After a time, the assault ship and most of the escort jumps away from the platform. You take the opportunity and move in to attack.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NEBULA_NOTHING_SLUG_4">
+    <mod:setValue>This area of the nebula seems entirely empty until a Slug transport and its escorts emerges suddenly from through the clouds, only to disappear again in a matter of seconds.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NEBULA_SLUG_FIGHT_4">
+    <mod:setValue>A Slug ship - a rogue, you suspect - approaches, but when she sees you're Federation she thinks better of the sneak attack and fires everything she has.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NOTHING_SLUG_3">
+    <mod:setValue>You are relieved to see your Sensors blink back on after the jump. No ships detected.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NOTHING_SLUG_4">
+    <mod:setValue>The Slugs rely heavily on their telepathic powers and are reluctant to give up that advantage by extending beyond nebulae. It's unlikely you'll encounter any this far from the clouds.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_NOTHING_SLUG_5">
+    <mod:setValue>You arrive in an area clear of nebula and quickly check to see if the Sensors are working. Everything is fine and no ships are detected in the vicinity.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_SLUG_PIRATE_3">
+    <mod:setValue>Before you can take a moment's rest from the ever present nebulae in this sector, a pirate ship appears behind you and opens fire.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_SLUG_REBEL_1">
+    <mod:setValue>As you arrive at the beacon, a hostile ship immediately registers on your scanners. You didn't expect to see Rebels extending their reach into Slug territory. Charge the Weapons!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_SLUG_REBEL_2">
+    <mod:setValue>You jump into empty space and are relieved to see your Sensors blink back to life. However, you are less pleased to see them immediately register a Rebel ship on an approach vector!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_START_BEACON_SLUG_3">
+    <mod:setValue>You're told the Slug populate this nebula. You can't see them, but you know they're watching.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_START_BEACON_SLUG_5">
+    <mod:setValue>The Slugs developed on an ocean planet where the ability to telepathically sense another organism was more important than sight. Today they use this ability to navigate unfettered the depths of the nebulae they inhabit.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_STORM_SLUG_FIGHT_1">
+    <mod:setValue>The plasma storm here threatens to deactivate your core systems, a fact made all the worse for the largely unaffected Slug ships circling like space-vultures.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_STORM_SLUG_FIGHT_2">
+    <mod:setValue>The Slug ship that descends into view as you enter the plasma storm must have sensed your distress - defensive action!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_STORM_SLUG_FIGHT_3">
+    <mod:setValue>You arrive in the middle of a plasma storm. Slugs generally avoid these storms but you find one waiting in ambush. Prepare for a fight!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_STORM_SLUG_FIGHT_4">
+    <mod:setValue>You find yourself stuck in the middle of a plasma storm with a Slug ship just a short distance away, refusing all hails. You cautiously try to slip further into the clouds, but they turn suddenly to attack!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_ZOLTAN_EYE_LIST_4_text">
+    <mod:setValue>As you approach, a kaleidoscope of colors fills the view-screen and one of your crew begins to age rapidly in reverse, eventually disappearing into nothingness. Let's hope they've transcended physical existence, and not just been forced out of it.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NEBULA_ZOLTAN_ROCK_text">
+    <mod:setValue>This nebula turns out to be the hiding place of a terrified rock crew taking refuge from the Zoltan border police. They don't seem prepared to risk your leaving with their coordinates, and open fire!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_CREW_SCAN_LIST_1_text">
+    <mod:setValue>The Zoltan security staff board your ship and scan the crew's faces into a computer. After a few tense moments of uncertainty they allow your ship to pass, and offer you some fuel for your cooperation.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_CREW_SCAN_LIST_2_c2_text">
+    <mod:setValue>You're not going to leave anyone behind. You pull away from the station with the enemy guards on board. Unfortunately, they are able to sabotage your Weapons System in the chaos. It's time to leave!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_CREW_SCAN_c4_text">
+    <mod:setValue>The captain of the guard appears on the vid screen "Back so soon, friend? Well, no need to waste your time further. Here, take these spare fuel canisters and get on with your mission." Your ship is cleared to pass.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_LIFERAFT_HIRE_1_text">
+    <mod:setValue>She responds haughtily, "You would presume I would work under your command after such a display of... prowess? No, I must decline."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_LIFERAFT_HIRE_2_text">
+    <mod:setValue>She responds defeatedly, "I suppose I have nowhere else to go without a ship. I accept your offer."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_LIFERAFT_c2_text">
+    <mod:setValue>You refuse to get her ship back, but still offer to drop her off at the next station. The Zoltan is displeased, but directs you to a nearby starbase just the same.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_LIFERAFT_text">
+    <mod:setValue>You pick up a Zoltan life raft floating in space. Its inhabitant asks you to retake her ship from the pirates who recently commandeered it. "I'm certain it is clear," she concludes, "that you must not destroy my vessel in the process."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_ODD_MOON_CHECK_4_c1_choice">
+    <mod:setValue>Attempt to detonate some explosives to break through the surface.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_ODD_MOON_c3_c1_text">
+    <mod:setValue>Your drone discovers a vast cave network and evidence of excavation. Buried deep below you find a Zoltan scientist, still hard at work. She tells you that all her colleagues are long dead. You decide not to ask questions and offer to let her join your crew.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_ODD_MOON_c3_text">
+    <mod:setValue>Initial scans indicate a network of caves not far underground. You launch a Boarding Drone and it breaks through the surface into the cavern below.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_PEACE_QUEST2_c1_text">
+    <mod:setValue>You power your Weapons and prepare to fight.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_PEACE_QUEST_ATTACK_1_text">
+    <mod:setValue>You charge your Weapons - not that this will take much.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_QUEST_PRIMITIVES_c1_c2_text">
+    <mod:setValue>These creatures should be left to develop at their own pace. You direct all Weapons on the Rebel ship and begin the firing sequence.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_TRADE_HUB_c3_choice">
+    <mod:setValue>(Zoltan Crew) Present official documentation and pay the entry fee.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_START_BEACON_ZOLTAN_1">
+    <mod:setValue>You've entered Zoltan territory. This species is not renowned for giving anything for nothing, but you can usually be assured a fair hearing.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_ZOLTAN_FIGHT_7">
+    <mod:setValue>The Zoltan ship patrolling this area hails you: "This area is off limits. Secrecy is vital." They power their Weapons.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_ZOLTAN_PIRATE_2">
+    <mod:setValue>You jump just in time to witness a Zoltan ship's FTL drive overload. In their final moments the captain implores you not to get involved, but it's too late - their attacker is already upon you!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_ZOLTAN_SURRENDER_4">
+    <mod:setValue>The Zoltan captain hails and mutters something about the border patrol force catching up with you someday; you're more interested in their offer of surrender.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CONFUSED_MANTIS_HOME_c2_choice">
+    <mod:setValue>Ask if they can take a look at your Engines.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CONFUSED_MANTIS_HOME_text">
+    <mod:setValue>The colony is a mining operation that specializes in FTL fuel. Robert's family, the head engineers, are excited to see him, and are very grateful for his return. Apparently he ran away to 'join the Federation' like his older sister, but was never accepted onto a ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CONFUSED_MANTIS_c1_c5_choice">
+    <mod:setValue>(Mind Control) Use your Mind Control System to calm him down.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CONFUSED_MANTIS_text">
+    <mod:setValue>As soon as you jump into the system, you receive a hail from a nearby civilian Engi vessel. Their captain appears on your screen: "Strange bug. Can you assist in debugging?"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CONTACT_PIRATE_SALESMAN_c3_choice">
+    <mod:setValue>(Slug Crew) "We can dock, but I sense that we better plan on making a purchase..."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CONTACT_PIRATE_SALESMAN_c4_choice">
+    <mod:setValue>(Hacking) Disable their Weapons System before docking.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_CONTACT_PIRATE_SALESMAN_c4_text">
+    <mod:setValue>You receive a hail as soon as your hack lands: "What have you done!? You can never trust a Federation ship! Here, take your 'standard toll'. I really should do business elsewhere, scum."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DEMO_END_text">
+    <mod:setValue>Congratulations, that's the end of the training simulation! As a final lesson, you'll experience what it's like to be destroyed by a more powerful enemy. This is an unfinished version of the most powerful ship in the Rebel fleet, though it should still be sufficient to destroy your puny ship. And we've shutdown your Engines as well, so there's no use trying to run away.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DOCK_BOMB_SALESMAN_c4_text">
+    <mod:setValue>"Ah, I'm sorry to hear that! Pleasant journeys." Once back to the helm, a series of explosions rocks your ship. The pirate ship has powered its Weapons!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DOCK_DRONE_SALESMAN_c1_choice">
+    <mod:setValue>Buy some drone parts.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DOCK_DRONE_SALESMAN_c2_choice">
+    <mod:setValue>Buy a drone schematic.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DOCK_DRONE_SALESMAN_c3_choice">
+    <mod:setValue>Buy a Drone System upgrade.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_DOCK_DRONE_SALESMAN_c6_text">
+    <mod:setValue>"Ah, I'm sorry to hear that! Pleasant journeys." Once back to the helm, a series of explosions rocks your ship. The pirate ship has powered its Weapons! You receive a message, "You shouldn't waste people's time, captain!"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_EMPTY_STATION2_LIST_2_text">
+    <mod:setValue>You approach cautiously but you detect no danger. It appears to have been a rest stop that was abandoned a while ago. You take what few supplies you can find.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_EMPTY_STATION2_LIST_4_c1_choice">
+    <mod:setValue>(Clone Bay) Search for a surviving DNA bank.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_EMPTY_STATION2_LIST_4_c1_text">
+    <mod:setValue>While the cloning facilites are no longer functioning, you find someone was in queue to be cloned. You transfer their data to your Clone Bay and after a time their body is rebuilt.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_EMPTY_STATION2_c2_choice">
+    <mod:setValue>Stay near the beacon.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUELING_STATION_PIRATE_LIST_1_c1_text">
+    <mod:setValue>After only a few minutes of fueling, there is an explosion from your Engine room! Warning lights flash in your ship as pirates from the station swarm aboard your vessel!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUELING_STATION_PIRATE_LIST_1_c2_choice">
+    <mod:setValue>(Improved Doors) Seal your Blast Doors, one can never be too careful when docked.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_FUELING_STATION_PIRATE_LIST_2_text">
+    <mod:setValue>The refueling station welcomes you into one of its berths, and as you hail them, there is an explosion from your Engine room! While assessing the damage, you detect a Pirate Ship closing fast!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_HIGH_SCAN_TERRAFORMING_1_text">
+    <mod:setValue>After a complete scan of the planet, you find no life. The team is grateful and ready to get to work. The station scientists have a unique talent for life support units and offer to upgrade your Oxygen System as thanks.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_HIGH_SCAN_TERRAFORMING_2_text">
+    <mod:setValue>A complete scan of the planet reveals no life signs other than a single ship on the surface. The terraformers thank you for your help, and attempt to contact the ship. Just as you're about to jump away, the ship takes off and attacks - it's a pirate!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_HIGH_SCAN_TERRAFORMING_3_c1_c2_text">
+    <mod:setValue>They see reason and accept the offer. The station scientists have a unique talent for life support units and offer to upgrade your Oxygen System as an apology for their behaviour.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_HIGH_SCAN_TERRAFORMING_3_c1_c3_choice">
+    <mod:setValue>Power your Weapons and demand they leave at once.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NORMAL_SCAN_TERRAFORMING_1_text">
+    <mod:setValue>It seems your Sensors are no more powerful than the terraformer's. You apologize and continue on your way.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_NORMAL_SCAN_TERRAFORMING_2_text">
+    <mod:setValue>You find if you modulate the feedback signal of your Sensors to just the right frequency, you're able to get through the atmosphere and perform a complete scan!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_QUEST_CONSTRUCTIONYARD_LIST_1_text">
+    <mod:setValue>You find the missing cargo ship docked to a Rebel station. You send a short-band message to them and discover they are being held against their will and forced to 'donate their supplies to the war effort.'</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_QUEST_CONSTRUCTIONYARD_LIST_2_c2_choice">
+    <mod:setValue>Stay near the beacon.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_QUEST_CONSTRUCTIONYARD_LIST_3_c2_text">
+    <mod:setValue>"Well, I suppose that's better than nothing. Than you. Hopefully we can find a station at the next beacon."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_QUEST_CONSTRUCTIONYARD_c3_c1_c1_c0_clone">
+    <mod:setValue>Your Clone Bay obviously does not revive your crewmember since they did not die.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REFUGEE_DISTRESS_text">
+    <mod:setValue>You have encountered a refugee ship drifting in space. It looks as if it was fleeing the Rebel advance. Its distress beacon is active, but you're not sure anyone is on board.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REFUGEE_GHOST_LIST_4_c0_clone">
+    <mod:setValue>Your abandoned crewmember is waiting on the ship when you return, trying not to dwell on the fate of their previous incarnation.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REFUGEE_HAIL_LIST_1_text">
+    <mod:setValue>As you hail the freighter, it advances, weaponry bristling from its hull! It's a pirate ambush!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REFUGEE_HAIL_LIST_2_text">
+    <mod:setValue>As you hail the refugee ship, a Zoltan ship suddenly jumps into the system... it claims the refugees are criminals, and accuses you of escorting fugitives! Before you can respond, it cuts communications, and powers up its Weapons!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_REFUGEE_HAIL_LIST_ZOLTAN_1_text">
+    <mod:setValue>As you hail the refugee ship, a Zoltan ship suddenly jumps into the system... it claims the refugees are criminals, and accuses you of escorting fugitives! Before you can respond, it cuts communications, and powers up its Weapons!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_SLUG_ARGUMENT_c1_c1_text">
+    <mod:setValue>You pay off the debt. The Rock captain still seems annoyed at the Slug's getting their 'undeserved' scrap, but at least the situation will remain peaceful.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_SLUG_ARGUMENT_c1_text">
+    <mod:setValue>The Slug captain explains that they upgraded the Rock ship's reactor and now the 'thick boulder heads' are refusing to pay for the work done. The Rock captain says the 'slime balls' did a poor job that is not worth their agreed upon price.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_SLUG_ARGUMENT_text">
+    <mod:setValue>You find a Slug cruiser and Rock ship at a standoff, both with Weapons armed and ready to fight. You could intervene before this gets out of hand.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_SLUG_COMMAND_1_text">
+    <mod:setValue>Apparently the Rock captain was more annoyed than you thought, they shut off all communication and turn on you, the 'slime balls' defender.'</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_SLUG_COMMAND_2_text">
+    <mod:setValue>With much grumbling, the Rock captain agrees to pay the price.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_SLUG_GRATEFUL_2_text">
+    <mod:setValue>The Slug captain offers a free reactor upgrade for your help. It never hurts to get a little power boost!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROCK_SLUG_GRATEFUL_3_text">
+    <mod:setValue>The Slug captain, thankful for your help, offers a reactor upgrade for your ship... for a 'fair' price.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROGUE_REBEL_SEARCH_4_text">
+    <mod:setValue>After far too much time spent searching, you are finally able to track him down. You go into the fight pondering just how much of a head start you've lost on the Rebel fleet...</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ROGUE_REBEL_c4_text">
+    <mod:setValue>You find the Rebel ship hiding on a nearby asteroid. You are able to get a shot off and permanently disable their Engines before they notice you.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STEALTH_1_text">
+    <mod:setValue>This is a prototype ship which utilizes advanced Cloaking technology. The trade-off is lack of Shields or weaponry. Take advantage of the cloaking device's ability to make enemy shots miss.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_STEALTH_4_text">
+    <mod:setValue>This ship was designed for troop transport behind enemy lines. As such, it isn't equipped with Weapons by default but is crewed by the best of the best.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_TERRAFORMING_SCAN_c1_c2_choice">
+    <mod:setValue>(Improved Sensors) Set Sensors to maximum and scan.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_TERRAFORMING_SCAN_c1_c3_choice">
+    <mod:setValue>(Zoltan Crew) Send your crewman to overcharge their systems.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_TRADER_UPGRADES_LIST_1_text">
+    <mod:setValue>They offer to upgrade your Oxygen System in exchange for some scrap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_TRADER_UPGRADES_LIST_2_text">
+    <mod:setValue>They offer to upgrade your Piloting Subsystem in exchange for some scrap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_TRADER_UPGRADES_LIST_3_text">
+    <mod:setValue>They offer to upgrade your Door Subsystem in exchange for some scrap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_TRADER_UPGRADES_LIST_4_text">
+    <mod:setValue>They offer to upgrade your Sensors Subsystem in exchange for some scrap.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_EMPTY_STATION2_TEXT_2">
+    <mod:setValue>You arrive to find what appears to be a colonized moon, however scans show it has been abandoned. You also detect an abandoned space station near the beacon.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_REBEL_BRIBE_TEXT_4">
+    <mod:setValue>They eagerly accept your bribe; obviously revolutionaries are under paid. The civilian ships all begin to jump away.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_REBEL_CHECKPOINT_TEXT_1">
+    <mod:setValue>It looks like this beacon is home to a Rebel checkpoint. They're stopping and searching any ship that passes through. Civilians are being harassed, and Federation members are detained. The Rebels haven't noticed you yet.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_REBEL_CHECKPOINT_TEXT_3">
+    <mod:setValue>A Rebel space station and single fighter is monitoring this beacon for Federation activity. A number of civilian ships are docked, awaiting inspection by the Rebels and possible detainment if they are Federation loyalists. The Rebels haven't noticed you yet.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_REBEL_CHECKPOINT_TEXT_4">
+    <mod:setValue>A rather large fleet of civilian ships are held up at this beacon. It appears to be a Rebel checkpoint; everyone is being inspected for possible ties to the Federation. No one has noticed you yet.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_ROGUE_REBEL_TEXT_3">
+    <mod:setValue>You begin charging your FTL drive, and do a quick scan of a local planet. You find the ruins of a recently destroyed Federation colony on the surface. There must be a Rebel ship in the vicinity...</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TAVERN_HIRE_TEXT_3">
+    <mod:setValue>This beacon seems to serve as a meeting place for local traffic. It seems you can find crew willing to fight on your ship here... for a price.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_1">
+    <mod:setValue>TIP: Death -  Remember, losing is part of the fun! ...No, I'm serious...</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_10">
+    <mod:setValue>TIP: Boarding -  If you're having trouble with boarders, fight within the Medbay. If all else fails, vent the rest of the oxygen out of the ship!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_12">
+    <mod:setValue>TIP: Shield Piercing -  Missiles ignore Shields. Use missiles to damage a powerful ship's Shields System. Just remember that Defense Drones can shoot down missiles!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_13">
+    <mod:setValue>TIP: Choices -  Results of many choices have multiple outcomes. You can never be sure what will happen.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_15">
+    <mod:setValue>TIP: Evasion -  Evading enemy shots is crucial, but it requires functioning Engines AND a Pilot. Having someone man the Engines will increase your evasion as well.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_17">
+    <mod:setValue>TIP: Drones -  If you're struggling against enemy drones, target the Drone System to temporarily disable them.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_18">
+    <mod:setValue>TIP: Beams -  Beam weapons do damage based on the number of rooms they hit. Each Shield Bubble will block 1 damage of a beam; it's best to use beams when the enemy's Shields are down.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_2">
+    <mod:setValue>TIP: Grinding Sectors -  It can be beneficial to stay in a sector for as long as possible to improve the ship since each sector is increasingly difficult.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_21">
+    <mod:setValue>TIP: Upgrades -  Don't forget to upgrade your ship! Often Shields are the highest priority, but don't underestimate the usefulness of Engines or Subsystems.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_25">
+    <mod:setValue>TIP: Nebulae -  Passing through a nebula will allow you to temporarily slow down the fleet advancement but they contain their own unique dangers.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_26">
+    <mod:setValue>TIP: Solar Flares -  Solar flares will cause hull damage in addition to starting fires. Make sure your Shields are up to help mitigate this effect.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_27">
+    <mod:setValue>TIP: Score -  Your score is based on how many ships you defeat, the number of beacons explored, and your total scrap collected.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_29">
+    <mod:setValue>TIP: Breaches -  An upgraded Oxygen System can help combat a breach that's draining oxygen; you can also open doors to pump in extra oxygen from neighboring rooms.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_3">
+    <mod:setValue>TIP: Exits -  It's tempting to rush for the sector exits, but exploring is the only way to upgrade your ship. Try and get as much out of each sector as possible.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_31">
+    <mod:setValue>TIP: Ion Weapons -  Ion weapons de-power and lock a system for 5 seconds per ion damage inflicted. If they hit the enemy Shields they deal their ion damage directly to the Shields System.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_32">
+    <mod:setValue>TIP: Bomb Weapons -  Bombs teleport directly onto either ship. They bypass Shields AND Defense Drones. However, they affect only crew and systems; they do no damage to the ship's hull.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_33">
+    <mod:setValue>TIP: Door Subsystem -  Upgrading your Doors will greatly reduce the chance of fire spreading between rooms and will significantly slow boarder movement.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_5">
+    <mod:setValue>TIP: Hidden Choices -  When you see a blue colored choice in an event, it's a special option that has been made available by your current equipment, crew, or upgrades.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_6">
+    <mod:setValue>TIP: System Damage -  When a system fully breaks due to fire or boarders, the hull also takes one damage.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_7">
+    <mod:setValue>TIP: Damage Buffers -  Upgraded systems can be helpful even if you don't have enough reactor power to use them; they still absorb one damage.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_9">
+    <mod:setValue>TIP: Cloaking -  Cloaking prevents enemies from firing on your ship or charging their weapons. It also raises your evade chance by 60 percent while active.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_IPAD_2">
+    <mod:setValue>TIP: Selling -  Weapons, drones and augments can be sold for 1/2 the purchasing price at stores. Tap the SELL tab at the top.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_IPAD_3">
+    <mod:setValue>TIP: Weapon Order -  Rearrange a weapon or drone schematic by dragging it into the desired position. The bottom-most slot will be the last to power down if the system is damaged.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_PC_2">
+    <mod:setValue>TIP: Selling -  Weapons, drones and augments can be sold for 1/2 the purchasing price at stores. Click on the SELL tab at the top.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_PC_3">
+    <mod:setValue>TIP: Hotkeys -  You can charge or arm weapons using number hotkeys: The weapon slots are 1-4 on your keyboard, and the drones are 5-7 (customizeable in the options).</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="text_TIPS_LIST_PC_5">
+    <mod:setValue>TIP: Weapon Order -  Rearrange a weapon or drone schematic by dragging it into the desired position. The left-most slot will be the last to power down if the system is damaged.</mod:setValue>
+</mod:findName>
+</FTL>

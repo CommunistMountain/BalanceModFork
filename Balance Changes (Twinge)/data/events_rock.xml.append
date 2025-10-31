@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="event" name="START_BEACON_ROCK">
+	<mod-append:choice req="FTL_JUMPER" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event>
+			<reveal_map/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="engines" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="eventList" name="ROCK_LOOTING_SLUG">
+	<mod:findWithChildLike type="event" child-type="text">
+	<mod:selector id="event_ROCK_LOOTING_SLUG_1_text"/>
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="HIGH"/>
+		</mod:findLike>
+	</mod:findWithChildLike>
+	<mod:findWithChildLike type="event" child-type="text">
+	<mod:selector id="event_ROCK_LOOTING_SLUG_2_text"/>
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="MED"/>
+		</mod:findLike>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="event" name="ROCK_ATHIEST">
+	<mod:findLike type="choice">
+	<mod:selector req="sensors"/>
+		<mod-overwrite:event load="ROCK_ATHIEST_SENSORS"/>
+	</mod:findLike>
+</mod:findName>
+
+<eventList name="ROCK_ATHIEST_SENSORS">
+	<event>
+		<text id="event_ROCK_ATHIEST_c3_text"/>
+		<crewMember amount="1" class="rock"/>
+	</event>
+	<event>
+		<text id="event_ROCK_ATHIEST_c3_text"/>
+		<crewMember amount="1" class="rock"/>
+	</event>
+	<event>
+		<text>The Rock captain is impressed by the data you've collected and offers a modest reward in exchange for the information.</text>
+		<autoReward level="MED">standard</autoReward>
+	</event>
+</eventList>
+
+<mod:findName type="event" name="ROCK_STARSHIP_MINE">
+	<mod:findLike type="choice">
+		<mod:findWithChildLike type="event" child-type="choice">
+			<mod-append:choice hidden="true">
+				<text>Brace for a huge explosion.</text>
+				<event>
+					<text>An uncomfortable silence falls across the ship. Suddenly, a violent blast ripples throughout the ship, knocking you to the ground. Your crew is shaken but okay - hopefully the same can be said of the ship...</text>
+					<damage amount="10"/>
+					<damage amount="2" system="room" effect="breach"/>
+				</event>
+			</mod-append:choice>
+		</mod:findWithChildLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="ship" name="ROCK_QUEST_MARRIAGE">
+	<mod:findLike type="deadCrew">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="MED"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="ROCK_UNLOCK3">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="choice">
+				<mod:findLike type="event">
+					<mod-append:autoReward level="MED">standard</mod-append:autoReward>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+</FTL>

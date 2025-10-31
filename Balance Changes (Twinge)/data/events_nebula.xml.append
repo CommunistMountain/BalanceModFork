@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="event" name="START_BEACON_NEBULA">
+	<mod-append:choice req="FTL_JUMPER" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event>
+			<reveal_map/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="engines" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="NEBULA_PIRATE_SMUGGLE">
+	<mod-append:choice req="FTL_JAMMER" hidden="true">
+		<text>(FTL Jammer) Don't let them escape.</text>
+		<event>
+			<text>You activate your augment and move in to engage.</text>
+			<ship load="PIRATE_SMUGGLE_JAM" hostile="true"/>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="NEBULA_LOST_SHIP">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="autoReward">
+				<mod:setAttributes level="LOW"/>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="NEBULA_LOST_SHIP_LIST">
+	<mod-append:event>
+		<text id="event_NEBULA_LOST_SHIP_LIST_2_text"/>
+		<ship load="REBEL" hostile="true"/>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="NEBULA_LOST_SHIP_LIST2">
+	<mod-append:event>
+		<text id="event_NEBULA_LOST_SHIP_LIST2_1_text"/>
+		<autoReward level="MED">scrap_only</autoReward>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="event" name="NEBULA_WEAPONS_TRADER">
+	<mod:findWithChildLike type="choice" child-type="text">
+	<mod:selector id="event_NEBULA_WEAPONS_TRADER_c1_choice"/>
+		<mod:removeTag/>
+	</mod:findWithChildLike>
+	<mod:findWithChildLike type="choice" child-type="text">
+	<mod:selector id="event_NEBULA_WEAPONS_TRADER_c3_choice"/>
+		<mod:removeTag/>
+	</mod:findWithChildLike>
+	<mod:findLike type="choice">
+	<mod:selector req="mind"/>
+		<mod:removeTag/>
+	</mod:findLike>
+	<mod-append:choice>
+		<text id="event_NEBULA_WEAPONS_TRADER_c1_choice"/>
+		<event/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true">
+		<text id="event_NEBULA_WEAPONS_TRADER_c3_choice"/>
+		<event load="NEBULA_WEAPONS_TRADER_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice req="mind" hidden="true">
+		<text id="event_NEBULA_WEAPONS_TRADER_c4_choice"/>
+		<event load="NEBULA_WEAPONS_TRADER_LIST2"/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="eventList" name="NEBULA_WEAPONS_TRADER_LIST">
+	<mod:findLike type="event">
+		<mod:findLike type="item_modify">
+			<mod:findLike type="item">
+				<mod:setAttributes min="-20" max="-20"/>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+	<mod-append:event>
+		<text id="event_NEBULA_WEAPONS_TRADER_LIST_1_text"/>
+		<item_modify>
+			<item type="scrap" min="-20" max="-20"/>
+		</item_modify>
+		<weapon name="RANDOM"/>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_NEBULA_WEAPONS_TRADER_LIST_1_text"/>
+		<item_modify>
+			<item type="scrap" min="-20" max="-20"/>
+		</item_modify>
+		<weapon name="RANDOM"/>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_NEBULA_WEAPONS_TRADER_LIST_1_text"/>
+		<item_modify>
+			<item type="scrap" min="-20" max="-20"/>
+		</item_modify>
+		<weapon name="RANDOM"/>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_NEBULA_WEAPONS_TRADER_LIST_1_text"/>
+		<item_modify>
+			<item type="scrap" min="-20" max="-20"/>
+		</item_modify>
+		<weapon name="RANDOM"/>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="NEBULA_WEAPONS_TRADER_LIST2">
+	<mod:findWithChildLike type="event" child-type="ship">
+		<mod:removeTag/>
+	</mod:findWithChildLike>
+	<mod:findLike type="event">
+		<mod:findLike type="choice">
+			<mod:findLike type="event">
+				<mod:findLike type="item_modify">
+					<mod:findLike type="item">
+						<mod:setAttributes min="-20" max="-20"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+	<mod-append:event>
+		<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_text"/>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c1_choice"/>
+			<event>
+				<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c1_text"/>
+				<item_modify>
+					<item type="scrap" min="-20" max="-20"/>
+				</item_modify>
+				<weapon name="RANDOM"/>
+			</event>
+		</choice>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c2_choice"/>
+			<event>
+				<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c2_text"/>
+			</event>
+		</choice>
+	</mod-append:event>
+	<mod-append:event>
+		<text>Once "convinced" to help, he casually states that his offer was actually a lie and that they were planning to attack your ship. As he realizes what he's saying, he quickly lowers the price - "hey, no hard feelings, right?"</text>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c1_choice"/>
+			<event>
+				<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c1_text"/>
+				<item_modify>
+					<item type="scrap" min="-15" max="-15"/>
+				</item_modify>
+				<weapon name="RANDOM"/>
+			</event>
+		</choice>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c2_choice"/>
+			<event>
+				<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c2_text"/>
+			</event>
+		</choice>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="event" name="NEBULA_ROCK_RACIST">
+	<mod:findLike type="choice">
+	<mod:selector req="rock"/>
+		<mod:removeTag/>
+	</mod:findLike>
+	<mod:findWithChildLike type="choice" child-type="text">
+	<mod:selector id="event_NEBULA_ROCK_RACIST_c1_choice"/>
+		<mod:removeTag/>
+	</mod:findWithChildLike>
+	<mod-append:choice>
+		<text id="event_NEBULA_ROCK_RACIST_c1_choice"/>
+		<event/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="rock">
+		<text id="event_NEBULA_ROCK_RACIST_c3_choice"/>
+		<event>
+			<text id="event_NEBULA_ROCK_RACIST_c3_text"/>
+			<autoReward level="HIGH">standard</autoReward>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="NEBULA_REBEL_CHASE">
+	<mod:findLike type="choice">
+		<mod:removeTag/>
+	</mod:findLike>
+	<mod-append:choice>
+		<text id="event_NEBULA_REBEL_CHASE_c2_choice"/>
+		<event load="NEBULA_REBEL_CHASE_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice>
+		<text id="event_NEBULA_REBEL_CHASE_c1_choice"/>
+		<event>
+			<text id="event_NEBULA_REBEL_CHASE_c1_text"/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="LIFE_SCANNER" hidden="true"><!--DLC-->
+		<text id="event_NEBULA_REBEL_CHASE_c5_choice"/>
+		<event>
+			<text id="event_NEBULA_REBEL_CHASE_c5_text"/>
+			<ship hostile="true"/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="sensors" lvl="2" max_group="0">
+		<text>(Improved Sensors) Try to track them as you move to engage.</text>
+		<event load="NEBULA_REBEL_CHASE_SCAN_LIST"/>
+	</mod-append:choice>
+	<mod-append:choice req="sensors" lvl="3" max_group="0">
+		<text id="event_NEBULA_REBEL_CHASE_c3_choice"/>
+		<event>
+			<text id="event_NEBULA_REBEL_CHASE_c3_text"/>
+			<ship hostile="true"/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="ADV_SCANNERS" hidden="true">
+		<text id="event_NEBULA_REBEL_CHASE_c4_choice"/>
+		<event load="NEBULA_REBEL_CHASE_LRS_LIST"/>
+	</mod-append:choice>
+</mod:findName>
+
+<eventList name="NEBULA_REBEL_CHASE_SCAN_LIST">
+	<event>
+		<text id="event_NEBULA_REBEL_CHASE_c3_text"/>
+		<ship hostile="true"/>
+	</event>
+	<event>
+		<text>The nebula interference is too strong and you can't keep your sensors locked on. The Rebels slip away.</text>
+	</event>
+</eventList>
+<eventList name="NEBULA_REBEL_CHASE_LRS_LIST">
+	<event>
+		<text id="event_NEBULA_REBEL_CHASE_c3_text"/>
+		<ship hostile="true"/>
+	</event>
+	<event>
+		<text>As soon as they see you they make a run for it. You attempt to give chase, but the Rebels slip away into the nebula.</text>
+	</event>
+</eventList>
+
+<mod:findName type="eventList" name="STORM_ITEMS_LIST">
+	<mod:findWithChildLike type="event" child-type="autoReward">
+	<mod:selector>weapon</mod:selector>
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="LOW"/>
+		</mod:findLike>
+	</mod:findWithChildLike>
+</mod:findName>
+</FTL>

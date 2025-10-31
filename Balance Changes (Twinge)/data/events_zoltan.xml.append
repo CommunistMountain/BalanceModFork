@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="event" name="START_BEACON_ZOLTAN">
+	<mod-append:choice req="FTL_JUMPER" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event>
+			<reveal_map/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="engines" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="eventList" name="ZOLTAN_ODD_MOON_CHECK">
+	<mod:findWithChildLike type="event" child-type="text">
+	<mod:selector id="event_ZOLTAN_ODD_MOON_CHECK_4_text"/>
+		<mod:findWithChildLike type="choice" child-type="text">
+		<mod:selector id="event_ZOLTAN_ODD_MOON_CHECK_4_c2_choice"/>
+			<mod:removeTag/>
+		</mod:findWithChildLike>
+		<mod-append:choice hidden="true" req="MISSILES_BREACH">
+			<text id="event_CRYSTAL_CACHE_c2_choice"/>
+			<event load="ZOLTAN_ODD_MOON_EXPLOSION_BREACH"/>
+		</mod-append:choice>
+		<mod-append:choice>
+			<text id="event_ZOLTAN_ODD_MOON_CHECK_4_c2_choice"/>
+			<event/>
+		</mod-append:choice>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<eventList name="ZOLTAN_ODD_MOON_EXPLOSION_BREACH">
+	<event>
+		<text id="event_ZOLTAN_ODD_MOON_EXPLOSION_1_text"/>
+		<item_modify>
+			<item type="missiles" min="-1" max="-1"/>
+		</item_modify>
+		<autoReward level="RANDOM">scrap_only</autoReward>
+	</event>
+	<event>
+		<text id="event_ZOLTAN_ODD_MOON_EXPLOSION_3_text"/>
+		<autoReward level="RANDOM">weapon</autoReward>
+		<item_modify>
+			<item type="missiles" min="-1" max="-1"/>
+		</item_modify>
+	</event>
+</eventList>
+
+<mod:findName type="event" name="ZOLTAN_RIFT_SUCCESS">
+	<mod:findLike type="autoReward">
+		<mod:setAttributes level="MED"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="ZOLTAN_CREW_SCAN_LIST">
+	<mod:findWithChildLike type="event" child-type="text">
+	<mod:selector id="event_ZOLTAN_CREW_SCAN_LIST_1_text"/>
+		<mod-append:autoReward level="LOW">fuel_only</mod-append:autoReward>
+	</mod:findWithChildLike>
+	<mod-append:event>
+		<text id="event_ZOLTAN_CREW_SCAN_LIST_1_text"/>
+		<autoReward level="LOW">fuel_only</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_ZOLTAN_CREW_SCAN_LIST_1_text"/>
+		<autoReward level="LOW">fuel_only</autoReward>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="event" name="ZOLTAN_BOARDERS">
+	<mod:findLike type="boarders">
+		<mod:setAttributes min="2" max="3"/>
+	</mod:findLike>
+</mod:findName>
+</FTL>

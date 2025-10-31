@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+
+<mod:findName type="eventList" name="NEBULA_SLUG_HULLFIX_RESULT1">
+	<mod-append:event>
+		<text id="event_NEBULA_SLUG_HULLFIX_RESULT1_1_text"/>
+		<damage amount="-10"/>
+		<choice>
+			<text id="event_NEBULA_SLUG_HULLFIX_RESULT1_1_c1_choice"/>
+			<event load="NEBULA_SLUG_HULLFIX_RESULT2"/>
+		</choice>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_NEBULA_SLUG_HULLFIX_RESULT1_1_text"/>
+		<damage amount="-10"/>
+		<choice>
+			<text id="event_NEBULA_SLUG_HULLFIX_RESULT1_1_c1_choice"/>
+			<event load="NEBULA_SLUG_HULLFIX_RESULT2"/>
+		</choice>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="NEBULA_SLUG_HULLFIX_RESULT2">
+	<mod:findLike type="event">
+		<mod:findLike type="choice">
+			<mod:findLike type="event">
+				<mod:findLike type="item_modify">
+					<mod:findLike type="item">
+					<mod:selector type="fuel"/>
+						<mod:setAttributes min="-10" max="-10"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="START_BEACON_SLUG">
+	<mod-append:choice req="FTL_JUMPER" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event>
+			<reveal_map/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="engines" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="SLUG_DISTRESS_RESCUE">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="item_modify">
+				<mod:findLike type="item">
+					<mod:setAttributes min="-36" max="-30"/>
+				</mod:findLike>
+			</mod:findLike>
+			<mod:findLike type="crewMember">
+				<mod:setAttributes all_skills="1"/>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="SLUG_DISTRESS_RESCUE_LIST">
+	<mod:findLike type="event">
+		<mod:findLike type="choice">
+			<mod:findLike type="event">
+				<mod:findLike type="crewMember">
+					<mod:setAttributes all_skills="1"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+	<mod-append:event>
+		<text>I ssee you are a sssly captain. Very well - I will reduccce my fee thiss time only.</text>
+		<choice>
+			<text id="event_SLUG_DISTRESS_RESCUE_c1_choice"/>
+			<event>
+				<text id="event_SLUG_DISTRESS_RESCUE_LIST_1_c1_text"/>
+				<item_modify>
+					<item type="scrap" min="-25" max="-17"/>
+				</item_modify>
+				<crewMember amount="1" class="slug" all_skills="1" id="name_Slocknog"/>
+			</event>
+		</choice>
+		<choice>
+			<text id="event_SLUG_DISTRESS_RESCUE_LIST_1_c2_choice"/>
+			<event>
+				<text id="event_SLUG_DISTRESS_RESCUE_LIST_1_c2_text"/>
+			</event>
+		</choice>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_SLUG_DISTRESS_RESCUE_LIST_1_c2_text"/>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="SLUG_DISTRESS_TRICK_LIST">
+	<mod-append:event>
+		<text id="event_SLUG_DISTRESS_TRICK_LIST_1_text"/>
+		<ship hostile="true"/>
+		<boarders min="1" max="3" class="slug"/>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_SLUG_DISTRESS_TRICK_LIST_1_text"/>
+		<ship hostile="true"/>
+		<boarders min="1" max="3" class="slug"/>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_SLUG_DISTRESS_TRICK_LIST_3_text"/>
+		<autoReward level="MED">scrap_only</autoReward>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="event" name="NEBULA_BATTLEFIELD">
+	<mod:findWithChildLike type="choice" child-type="text">
+	<mod:selector id="event_NEBULA_BATTLEFIELD_c2_choice"/>
+		<mod:removeTag/>
+	</mod:findWithChildLike>
+	<mod:findWithChildLike type="choice" child-type="text">
+	<mod:selector id="event_NEBULA_BATTLEFIELD_c1_c2_choice"/>
+		<mod:removeTag/>
+	</mod:findWithChildLike>
+	<mod-append:choice req="LIFE_SCANNER" hidden="true">
+		<text>(Lifeform Scanner) Scan for life signatures.</text>
+		<event>
+			<text>Despite the destruction filling the system, your scanner picks up a faint life signature in the debris - it looks like they won't last much longer without help.</text>
+			<choice>
+				<text id="event_NEBULA_BATTLEFIELD_c1_c1_choice"/>
+			<event load="BATTLEFIELD_SURVIVOR"/>
+			</choice>
+			<choice>
+				<text id="event_NEBULA_BATTLEFIELD_c1_c2_choice"/>
+				<event/>
+			</choice>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice>
+		<text id="event_NEBULA_BATTLEFIELD_c2_choice"/>
+		<event load="BATTLEFIELD_INVESTIGAGE"/>
+	</mod-append:choice>
+	<mod-append:choice>
+		<text id="event_NEBULA_BATTLEFIELD_c1_c2_choice"/>
+		<event/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="eventList" name="BATTLEFIELD_INVESTIGAGE">
+	<mod:findWithChildLike type="event" child-type="text" limit="1">
+	<mod:selector id="event_BATTLEFIELD_INVESTIGAGE_2_text"/>
+		<mod:removeTag/>
+	</mod:findWithChildLike>
+	<mod:findLike type="event">
+		<mod:findLike type="damage">
+		<mod:selector amount="4"/>
+			<mod:setAttributes amount="3"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="BATTLEFIELD_SURVIVOR">
+	<mod:findLike type="choice">
+	<mod:selector req="clonebay"/>
+		<mod:setAttributes lvl="3"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="SECRET_WORD_ABADOTH_CONCLUSION">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="autoReward">
+				<mod:setAttributes level="HIGH"/>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+</FTL>

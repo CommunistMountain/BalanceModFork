@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="text" name="no_save_tutorial">
+    <mod:setValue>Cannot save and quit during the tutorial.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="warning_clone_off_1">
+    <mod:setValue>CLONE BAY OFF</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hacking_tooltip">
+    <mod:setValue>Cannot be targeted. Hacking Drone.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="repair_tooltip">
+    <mod:setValue>Cannot be targeted. Ship Repair Drone.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="boarding_tooltip">
+    <mod:setValue>Cannot be targeted. Boarding Drone.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="shield_tooltip">
+    <mod:setValue>Cannot be targeted. Shield Overcharger.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="map_ion_loc">
+    <mod:setValue>This section of the nebula is experiencing a plasma storm.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="map_pds_fleet">
+    <mod:setValue>The fleet's Anti-Ship Batteries will be firing on you at this location.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="map_pds_loc">
+    <mod:setValue>Planet-side Anti-Ship Batteries are detected in this system.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="sys_full">
+    <mod:setValue>You've reached the System Limit.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="door_1">
+    <mod:setValue>Normal Doors</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="system_power">
+    <mod:setValue>More Capacity</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="mind_1">
+    <mod:setValue>14 second duration</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="mind_2">
+    <mod:setValue>20s, +15hp, +25% damage</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="mind_3">
+    <mod:setValue>28s, +30hp, +100% damage</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weak_warning">
+    <mod:setValue>Weak System - Extra scrap required for initial upgrades.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="artillery_off">
+    <mod:setValue>OFF: Artillery not charging</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tip_weapon_drag">
+    <mod:setValue>Tip: Currently in cargo. Drag to an available Weapons System slot to equip this weapon.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_potential">
+    <mod:setValue>Hacking effect:\n\1</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_oxygen">
+    <mod:setValue>Drains 6% oxygen per second.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_doors">
+    <mod:setValue>All Doors become player-friendly blast doors for the duration.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_shields">
+    <mod:setValue>Drains 1 Shield Barrier every 2 seconds.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_pilot">
+    <mod:setValue>Drops evasion to 0.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_engines">
+    <mod:setValue>Drops evasion to 0.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_medbay">
+    <mod:setValue>Causes Medbay to damage enemy crew (instead of heal) at 13 damage per second.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_weapons">
+    <mod:setValue>Reverses Weapons charge for the duration.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_drones">
+    <mod:setValue>Stuns drones with a chance of destroying them: ~39%/62%/77% for Hacking Level 1/2/3.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_teleporter">
+    <mod:setValue>Uses the enemy teleporter to return their crew.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_cloaking">
+    <mod:setValue>Ends an active cloak and prevents cloaking for the duration.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_artillery">
+    <mod:setValue>Reverses Artillery charge for the duration.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_battery">
+    <mod:setValue>Temporarily reduce the enemy's reactor power by 2. If the battery is active, removes its bonus power and puts it on cooldown.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_clonebay">
+    <mod:setValue>Disables Clone Bay for the duration, gradually killing potential clones.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_mind">
+    <mod:setValue>Cancels enemy Mind Control or controls a random enemy unit for the duration.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_hacking">
+    <mod:setValue>Ends an active enemy hack and prevents hacking for the duration. Chance to destroy enemy drone: ~39%/64%/74% for Hacking Level 1/2/3.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="hack_hacking_player">
+    <mod:setValue>SYSTEM HACKED: HACKING TEMPORARILY INTERRUPTED.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="circle_ship">
+    <mod:setValue>Congratulations, by making it to the 5th sector you've unlocked the playable Engi Cruiser for future playthroughs!</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="clonebay">
+    <mod:setValue>the Clone Bay</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="clonebay_installed">
+    <mod:setValue>Clone Bay installed</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="new_system_clonebay">
+    <mod:setValue>Warning: Accepting a Clone Bay will replace your Medbay.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="new_system_medbay">
+    <mod:setValue>Warning: Accepting a Medbay will replace your Clone Bay.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="gameover_fedbase">
+    <mod:setValue>The Rebel Flagship has destroyed the Federation Base. All is lost; they've won.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="credit_victory">
+    <mod:setValue>The Rebel Flagship was destroyed, throwing their fleet into chaos and ensuring a Federation victory</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="activate_battery">
+    <mod:setValue>Activate the Backup Battery, providing additional Reactor power.\nHotkey: \1</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="pulse_button_broken">
+    <mod:setValue>Can't disrupt system when it's destroyed.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="cloak_button">
+    <mod:setValue>Temporarily cloak the ship, halting enemy weapon charging and increasing evasion by 60.\nHotkey: \1</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="confirm_buy_clonebay">
+    <mod:setValue>Are you sure?\nThe Clone Bay will replace your Medbay.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="confirm_buy_medbay">
+    <mod:setValue>Are you sure?\nThe Medbay will replace your Clone Bay.</mod:setValue>
+</mod:findName>
+</FTL>

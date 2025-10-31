@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findLike type="lowCrewHealth">
+	<mod:setAttributes volume="6"/>
+</mod:findLike>
+
+<mod:findLike type="droneLaunch">
+	<mod:setAttributes volume="6"/>
+</mod:findLike>
+
+<swarmMissile1 volume="10">weapons/engine_small_launch2.wav</swarmMissile1>
+<swarmMissile2 volume="10">weapons/engine_small_launch2.wav</swarmMissile2>
+</FTL>

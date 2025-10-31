@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="shipBlueprint" name="BOSS_2_EASY"/>
+		<mod:findName type="shipBlueprint" name="BOSS_2_NORMAL"/>
+		<mod:findName type="shipBlueprint" name="BOSS_2_HARD"/>
+		<mod:findName type="shipBlueprint" name="BOSS_2_EASY_DLC"/>
+		<mod:findName type="shipBlueprint" name="BOSS_2_NORMAL_DLC"/>
+		<mod:findName type="shipBlueprint" name="BOSS_2_HARD_DLC"/>
+	</mod:par>
+	<mod:findLike type="droneList">
+		<mod:findLike type="drone">
+			<mod:removeTag/>
+		</mod:findLike>
+		<mod-append:drone name="DEFENSE_1"/>
+		<mod-append:drone name="COMBAT_1"/>
+		<mod-append:drone name="BOARDER_BOSS"/>
+		<mod-append:drone name="DEFENSE_1_ENEMY"/>
+	</mod:findLike>
+</mod:findComposite>
+
+<mod:findName type="shipBlueprint" name="BOSS_1_EASY_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="doors">
+			<mod:setAttributes power="2"/>
+		</mod:findLike>
+		<mod:findLike type="cloaking">
+			<mod:setAttributes power="1"/>
+		</mod:findLike>
+		<mod:findLike type="medbay">
+			<mod:setAttributes power="2"/>
+		</mod:findLike>
+		<mod:findLike type="hacking">
+			<mod:setAttributes power="2"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="health">
+		<mod:setAttributes amount="16"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_2_EASY_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="medbay">
+			<mod:setAttributes power="2"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="droneList">
+		<mod:setAttributes drones="8"/>
+	</mod:findLike>
+	<mod:findLike type="health">
+		<mod:setAttributes amount="17"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_3_EASY_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="teleporter">
+			<mod:setAttributes power="1"/>
+		</mod:findLike>
+		<mod:findLike type="medbay">
+			<mod:setAttributes power="2"/>
+		</mod:findLike>
+		<mod:findLike type="engines">
+			<mod:setAttributes power="4"/>
+		</mod:findLike>
+		<mod:findLike type="mind">
+			<mod:setAttributes power="2"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="health">
+		<mod:setAttributes amount="16"/>
+	</mod:findLike>
+</mod:findName>
+</FTL>

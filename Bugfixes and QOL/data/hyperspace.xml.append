@@ -275,8 +275,6 @@
     <mod:setAttributes enabled="true"/>
 </mod:findComposite>
 
-<shiftotherelementsslightlytotheleftsotheyrealigned>true</shiftotherelementsslightlytotheleftsotheyrealigned>
-
 <!--QOL (non-gameplay)-->
 <mod:findComposite>
     <mod:par op="OR">
@@ -358,4 +356,6 @@
 <mod:findLike type="systemNoPurchaseThreshold">
     <mod:setAttributes enabled="true" threshold="999"/>
 </mod:findLike>
+
+<shiftotherelementsslightlytotheleftsotheyrealigned>true</shiftotherelementsslightlytotheleftsotheyrealigned>
 </FTL>

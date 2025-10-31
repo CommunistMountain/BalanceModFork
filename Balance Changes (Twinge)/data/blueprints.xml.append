@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="blueprintList" name="DEMO_LOCKED_ITEMS">
+	<mod:findLike type="name">
+	<mod:selector>BOARDER</mod:selector>
+		<mod:setValue>BOARDER_PLAYER</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="crewBlueprint" name="human">
+	<mod:findLike type="cost">
+		<mod:setValue>40</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="crewBlueprint" name="engi">
+	<mod:findLike type="rarity">
+		<mod:setValue>3</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="crewBlueprint" name="mantis">
+	<mod:findLike type="cost">
+		<mod:setValue>50</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="crewBlueprint" name="rock">
+	<mod:findLike type="cost">
+		<mod:setValue>50</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="crewBlueprint" name="energy">
+	<mod:findLike type="cost">
+		<mod:setValue>55</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="systemBlueprint" name="oxygen">
+	<mod:findLike type="upgradeCost">
+		<mod:findLike type="level">
+		<mod:selector>50</mod:selector>
+			<mod:setValue>30</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>75</mod:selector>
+			<mod:setValue>35</mod:setValue>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="systemBlueprint" name="teleporter">
+	<mod:findLike type="upgradeCost">
+		<mod:findLike type="level">
+		<mod:selector>60</mod:selector>
+			<mod:setValue>40</mod:setValue>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>80</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="systemBlueprint" name="cloaking">
+	<mod:findLike type="upgradeCost">
+		<mod:findLike type="level">
+		<mod:selector>50</mod:selector>
+			<mod:setValue>40</mod:setValue>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>160</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="systemBlueprint" name="pilot">
+	<mod:findLike type="upgradeCost">
+		<mod:findLike type="level">
+		<mod:selector>20</mod:selector>
+			<mod:setValue>25</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>50</mod:selector>
+			<mod:setValue>40</mod:setValue>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="systemBlueprint" name="medbay">
+	<mod:findLike type="rarity">
+		<mod:setValue>2</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="upgradeCost">
+		<mod:findLike type="level">
+		<mod:selector>35</mod:selector>
+			<mod:setValue>25</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>45</mod:selector>
+			<mod:setValue>30</mod:setValue>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>40</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="systemBlueprint" name="shields">
+	<mod:findLike type="upgradeCost">
+		<mod:findLike type="level">
+		<mod:selector>40</mod:selector>
+			<mod:setValue>35</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>60</mod:selector>
+			<mod:setValue>70</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>80</mod:selector>
+			<mod:setValue>75</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level" start="1">
+		<mod:selector>100</mod:selector>
+			<mod:setValue>95</mod:setValue>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>120</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="systemBlueprint" name="artillery">
+	<mod:findLike type="upgradeCost">
+		<mod:findLike type="level">
+		<mod:selector>30</mod:selector>
+			<mod:setValue>20</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>50</mod:selector>
+			<mod:setValue>40</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>80</mod:selector>
+			<mod:setValue>65</mod:setValue>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="systemBlueprint" name="engines">
+	<mod:findLike type="upgradeCost">
+		<mod:findLike type="level">
+		<mod:selector>15</mod:selector>
+			<mod:setValue>20</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>30</mod:selector>
+			<mod:setValue>35</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>40</mod:selector>
+			<mod:setValue>45</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>60</mod:selector>
+			<mod:setValue>55</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>80</mod:selector>
+			<mod:setValue>65</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>120</mod:selector>
+			<mod:setValue>80</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>150</mod:selector>
+			<mod:setValue>100</mod:setValue>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="systemBlueprint" name="drones">
+	<mod:findLike type="rarity">
+		<mod:setValue>3</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="upgradeCost">
+		<mod:findLike type="level">
+		<mod:selector>30</mod:selector>
+			<mod:setValue>25</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>45</mod:selector>
+			<mod:setValue>40</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>60</mod:selector>
+			<mod:setValue>50</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>80</mod:selector>
+			<mod:setValue>55</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>100</mod:selector>
+			<mod:setValue>60</mod:setValue>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>45</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="systemBlueprint" name="sensors">
+	<mod:findLike type="rarity">
+		<mod:setValue>3</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="upgradeCost">
+		<mod:findLike type="level">
+		<mod:selector>25</mod:selector>
+			<mod:setValue>20</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>40</mod:selector>
+			<mod:setValue>25</mod:setValue>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>35</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="systemBlueprint" name="doors">
+	<mod:findLike type="rarity">
+		<mod:setValue>3</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="upgradeCost">
+		<mod:findLike type="level">
+		<mod:selector>35</mod:selector>
+			<mod:setValue>30</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="level">
+		<mod:selector>50</mod:selector>
+			<mod:setValue>45</mod:setValue>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>30</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="LASER_BURST_2_A">
+	<mod:findLike type="cost">
+		<mod:setValue>60</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="LASER_BURST_3">
+	<mod:findLike type="cost">
+		<mod:setValue>100</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="LASER_BURST_5">
+	<mod:findLike type="fireChance">
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cooldown">
+		<mod:setValue>18</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>40</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="rarity">
+		<mod:setValue>3</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="LASER_HEAVY_2">
+	<mod:findLike type="rarity">
+		<mod:setValue>3</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="LASER_HEAVY_1_SP">
+	<mod-append:stunChance>2</mod-append:stunChance>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="CRYSTAL_1">
+	<mod:findLike type="breachChance">
+		<mod:setValue>10</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="MISSILES_3">
+	<mod:findLike type="cost">
+		<mod:setValue>30</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="MISSILES_BURST">
+	<mod:findLike type="cooldown">
+		<mod:setValue>16</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>50</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="MISSILES_BREACH">
+	<mod:findLike type="fireChance">
+		<mod:setValue>0</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="breachChance">
+		<mod:setValue>10</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="stunChance">
+		<mod:setValue>2</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cooldown">
+		<mod:setValue>21</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>50</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BEAM_2">
+	<mod:findLike type="cooldown">
+		<mod:setValue>18</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>85</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="rarity">
+		<mod:setValue>4</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BEAM_3">
+	<mod-append:color>
+		<r>200</r>
+		<g>0</g>
+		<b>0</b>
+	</mod-append:color>
+	<mod:findLike type="cost">
+		<mod:setValue>80</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BEAM_FIRE">
+	<mod:findLike type="cooldown">
+		<mod:setValue>19</mod:setValue>
+	</mod:findLike>
+	<mod-append:speed>7</mod-append:speed>
+	<mod-append:color>
+		<r>245</r>
+		<g>65</g>
+		<b>0</b>
+	</mod-append:color>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BEAM_BIO">
+	<mod:findLike type="color">
+		<mod:findLike type="r">
+			<mod:setValue>110</mod:setValue>
+		</mod:findLike>
+		<mod:findLike type="g">
+			<mod:setValue>255</mod:setValue>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>40</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="LASER_HULL_2">
+	<mod:findLike type="breachChance">
+		<mod:setValue>4</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>60</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="speed">
+		<mod:setValue>75</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BEAM_HULL">
+	<mod:findLike type="cost">
+		<mod:setValue>65</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="MISSILES_HULL">
+	<mod:findLike type="breachChance">
+		<mod:setValue>4</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="stunChance">
+		<mod:setValue>3</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cooldown">
+		<mod:setValue>14</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>40</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="ION_1">
+	<mod:findLike type="speed">
+		<mod:setValue>40</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="rarity">
+		<mod:setValue>2</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="ION_2">
+	<mod:findLike type="stunChance">
+		<mod:removeTag/>
+	</mod:findLike>
+	<mod-append:stun>7</mod-append:stun>
+	<mod:findLike type="cooldown">
+		<mod:setValue>12</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>40</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="image">
+		<mod:setValue>ion_stun_shot</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="explosion">
+		<mod:setValue>explosion_stun_ion</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="ION_4">
+	<mod:findLike type="speed">
+		<mod:setValue>40</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cooldown">
+		<mod:setValue>3.7</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>60</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BOMB_1">
+	<mod:findLike type="cost">
+		<mod:setValue>50</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BOMB_FIRE">
+	<mod:findLike type="cooldown">
+		<mod:setValue>14</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>40</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="rarity">
+		<mod:setValue>3</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BOMB_ION">
+	<mod:findLike type="cooldown">
+		<mod:setValue>21</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>50</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BOMB_HEAL">
+	<mod:findLike type="cooldown">
+		<mod:setValue>9</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>25</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="rarity">
+		<mod:setValue>4</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BOMB_LOCK">
+	<mod:findLike type="cooldown">
+		<mod:setValue>6</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>25</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="CRYSTAL_BURST_1">
+	<mod:findLike type="cost">
+		<mod:setValue>30</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="CRYSTAL_BURST_2">
+	<mod:findLike type="cooldown">
+		<mod:setValue>14</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>40</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="CRYSTAL_HEAVY_1">
+	<mod:findLike type="breachChance">
+		<mod:setValue>2</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>30</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="CRYSTAL_HEAVY_2">
+	<mod:findLike type="sp">
+		<mod:setValue>2</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="stunChance">
+		<mod:setValue>10</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cooldown">
+		<mod:setValue>17</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>50</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<weaponBlueprint name="DRONE_LASER_DEFENSE" NOLOC="1">
+	<type>LASER</type>
+	<title>Drone Laser</title>
+	<damage>1</damage>
+	<shots>1</shots>
+	<fireChance>1</fireChance>
+	<breachChance>0</breachChance>
+	<rarity>0</rarity>
+	<speed>250</speed>
+	<image>laser_light1</image>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>laser_burst_1</weaponArt>
+</weaponBlueprint>
+
+<weaponBlueprint name="DRONE_LASER_DEFENSE_ENEMY" NOLOC="1">
+	<type>LASER</type>
+	<title>Drone Laser</title>
+	<damage>1</damage>
+	<shots>1</shots>
+	<fireChance>1</fireChance>
+	<breachChance>0</breachChance>
+	<rarity>0</rarity>
+	<speed>500</speed>
+	<image>laser_light1</image>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>laser_burst_1</weaponArt>
+</weaponBlueprint>
+
+<mod:findName type="weaponBlueprint" name="DRONE_LASER_2">
+	<mod:findLike type="speed">
+		<mod:setValue>500</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="droneBlueprint" name="COMBAT_BEAM">
+	<mod:findLike type="cost">
+		<mod:setValue>45</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="droneBlueprint" name="COMBAT_2">
+	<mod:findLike type="speed">
+		<mod:setValue>31</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>70</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="rarity">
+		<mod:setValue>4</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="droneBlueprint" name="SHIP_REPAIR">
+	<mod:findLike type="power">
+		<mod:setValue>3</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>100</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="rarity">
+		<mod:setValue>5</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="droneBlueprint" name="DEFENSE_1">
+	<mod:findLike type="speed">
+		<mod:setValue>6</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>60</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="weaponBlueprint">
+		<mod:setValue>DRONE_LASER_DEFENSE</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<droneBlueprint name="DEFENSE_1_ENEMY">
+	<type>DEFENSE</type>
+	<level>1</level>
+	<tip>tip_defense</tip>
+	<title id="drone_DEFENSE_1_title"/>
+	<short id="drone_DEFENSE_1_short"/>
+	<desc id="drone_DEFENSE_1_desc"/>
+	<power>2</power>
+	<cooldown>1400</cooldown>
+	<dodge>0</dodge>
+	<speed>6</speed>
+	<cost>60</cost>
+	<bp>2</bp>
+	<droneImage>drone_defense</droneImage>
+	<weaponBlueprint>DRONE_LASER_DEFENSE_ENEMY</weaponBlueprint>
+	<iconImage>defense</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+
+<mod:findName type="droneBlueprint" name="DEFENSE_2">
+	<mod:findLike type="cooldown">
+		<mod:setValue>800</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="cost">
+		<mod:setValue>60</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="weaponBlueprint">
+		<mod:setValue>DRONE_LASER_DEFENSE</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="droneBlueprint" name="DEFENSE_2_ENEMY">
+	<mod:findLike type="cooldown">
+		<mod:setValue>950</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="weaponBlueprint">
+		<mod:setValue>DRONE_LASER_DEFENSE_ENEMY</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="droneBlueprint" name="BOSS_DEFENSE_2">
+	<mod:findLike type="weaponBlueprint">
+		<mod:setValue>DRONE_LASER_DEFENSE_ENEMY</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="droneBlueprint" name="REPAIR">
+	<mod:findLike type="cost">
+		<mod:setValue>20</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="droneBlueprint" name="BATTLE">
+	<mod:findLike type="cost">
+		<mod:setValue>25</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="droneBlueprint" name="BOARDER">
+	<mod:setAttributes name="BOARDER_ENEMY"/>
+	<mod:findLike type="cost">
+		<mod:setValue>40</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="rarity">
+		<mod:setValue>0</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<droneBlueprint name="BOARDER_PLAYER">
+	<type>BOARDER</type>
+	<tip>tip_boarding</tip>
+	<title id="drone_BOARDER_title"/>
+	<short id="drone_BOARDER_short"/>
+	<desc id="drone_BOARDER_desc"/>
+	<power>2</power>
+	<speed>18</speed>
+	<cost>40</cost>
+	<rarity>4</rarity>
+	<iconImage>boarder</iconImage>
+</droneBlueprint>
+
+<mod:findName type="itemBlueprint" name="drones">
+	<mod:findLike type="cost">
+		<mod:setValue>7</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="itemBlueprint" name="missiles">
+	<mod:findLike type="cost">
+		<mod:setValue>5</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="ROCK_ARMOR">
+	<mod:findLike type="cost">
+		<mod:setValue>50</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="CRYSTAL_SHARDS">
+	<mod:findLike type="cost">
+		<mod:setValue>18</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="value">
+		<mod:setValue>0.2</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="SLUG_GEL">
+	<mod:findLike type="cost">
+		<mod:setValue>25</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="CREW_STIMS">
+	<mod:findLike type="cost">
+		<mod:setValue>30</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="value">
+		<mod:setValue>0.3</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="DRONE_SPEED">
+	<mod:findLike type="cost">
+		<mod:setValue>25</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="value">
+		<mod:setValue>3</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="SYSTEM_CASING">
+	<mod:findLike type="cost">
+		<mod:setValue>30</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="value">
+		<mod:setValue>0.2</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="ION_ARMOR">
+	<mod:findLike type="cost">
+		<mod:setValue>30</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="value">
+		<mod:setValue>0.6</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="CLOAK_FIRE">
+	<mod:findLike type="cost">
+		<mod:setValue>25</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="REPAIR_ARM">
+	<mod:findLike type="cost">
+		<mod:setValue>40</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="rarity">
+		<mod:setValue>2</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="value">
+		<mod:setValue>0.1</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="SCRAP_COLLECTOR">
+	<mod:findLike type="rarity">
+		<mod:setValue>2</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="value">
+		<mod:setValue>0.11</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="ADV_SCANNERS">
+	<mod:findLike type="cost">
+		<mod:setValue>45</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="SHIELD_RECHARGE">
+	<mod:findLike type="cost">
+		<mod:setValue>40</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="FTL_BOOSTER">
+	<mod:findLike type="cost">
+		<mod:setValue>35</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="value">
+		<mod:setValue>0.55</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="FTL_JUMPER">
+	<mod:findLike type="cost">
+		<mod:setValue>80</mod:setValue>
+	</mod:findLike>
+	<mod:findLike type="rarity">
+		<mod:setValue>4</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="DRONE_RECOVERY">
+	<mod:findLike type="cost">
+		<mod:setValue>40</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="FTL_JAMMER">
+	<mod:findLike type="cost">
+		<mod:setValue>20</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="STASIS_POD">
+	<mod:findLike type="cost">
+		<mod:setValue>48</mod:setValue>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS">
+	<mod:findLike type="crewCount">
+		<mod:removeTag/>
+	</mod:findLike>
+	<mod-append:crewCount amount="1" class="mantis"/>
+	<mod-append:crewCount amount="1" class="engi"/>
+	<mod-append:crewCount amount="2" class="mantis"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS_2">
+	<mod:findLike type="systemList">
+		<mod:findLike type="doors">
+			<mod:setAttributes room="16" img="room_doors_3"/>
+			<mod:findLike type="slot">
+				<mod:findLike type="direction">
+					<mod:setValue>right</mod:setValue>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+		<mod:findLike type="oxygen">
+			<mod:setAttributes room="15" img="room_oxygen_2"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="droneList">
+		<mod:findName type="drone" name="BOARDER">
+			<mod:setAttributes name="BOARDER_PLAYER"/>
+		</mod:findName>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="10"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH">
+	<mod:findLike type="weaponList">
+		<mod:findName type="weapon" name="BEAM_1">
+			<mod:removeTag/>
+		</mod:findName>
+		<mod-append:weapon name="BEAM_1"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH_2">
+	<mod:findLike type="systemList">
+		<mod:findLike type="drones">
+			<mod:setAttributes room="11" img="room_drones_16"/>
+		</mod:findLike>
+		<mod:findLike type="cloaking">
+			<mod:setAttributes room="1" img="room_cloaking_2"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="crewCount">
+		<mod:removeTag/>
+	</mod:findLike>
+	<mod-append:crewCount amount="2" class="human"/>
+	<mod-append:crewCount amount="1" class="energy"/>
+	<mod-append:aug name="SYSTEM_CASING"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE_2">
+	<mod:findLike type="systemList">
+		<mod:findLike type="pilot">
+			<mod:setAttributes power="3"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="droneList">
+		<mod:setAttributes drones="8"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED">
+	<mod:findLike type="crewCount">
+		<mod:removeTag/>
+	</mod:findLike>
+	<mod-append:crewCount amount="1" class="human"/>
+	<mod-append:crewCount amount="1" class="rock"/>
+	<mod-append:crewCount amount="1" class="mantis"/>
+	<mod-append:crewCount amount="1" class="engi"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED_2">
+	<mod:findLike type="systemList">
+		<mod:findLike type="sensors">
+			<mod:setAttributes img="room_sensors_2"/>
+			<mod:findLike type="slot">
+				<mod:findLike type="direction">
+					<mod:setValue>up</mod:setValue>
+				</mod:findLike>
+				<mod:findLike type="number">
+					<mod:setValue>0</mod:setValue>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+		<mod:findLike type="shields">
+			<mod:setAttributes power="3"/>
+		</mod:findLike>
+		<mod:findLike type="weapons">
+			<mod:setAttributes power="3"/>
+		</mod:findLike>
+		<mod:findLike type="medbay">
+			<mod:setAttributes power="2"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="12"/>
+		<mod:findName type="weapon" name="LASER_BURST_2">
+			<mod:setAttributes name="LASER_HEAVY_2"/>
+		</mod:findName>
+		<mod:findName type="weapon" name="MISSILES_1">
+			<mod:setAttributes name="MISSILES_3"/>
+		</mod:findName>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="10"/>
+	</mod:findLike>
+	<mod:findLike type="crewCount">
+		<mod:removeTag/>
+	</mod:findLike>
+	<mod-append:crewCount amount="1" class="slug"/>
+	<mod-append:crewCount amount="1" class="energy"/>
+	<mod-append:crewCount amount="1" class="human"/>
+	<mod-append:aug name="AUTO_COOLDOWN"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY">
+	<mod:findLike type="weaponList">
+		<mod:findName type="weapon" name="BEAM_BIO">
+			<mod:removeTag/>
+		</mod:findName>
+		<mod:findName type="weapon" name="BOMB_BREACH_1">
+			<mod:removeTag/>
+		</mod:findName>
+		<mod-append:weapon name="BOMB_BREACH_1"/>
+		<mod-append:weapon name="BEAM_BIO"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY_2">
+	<mod:findLike type="systemList">
+		<mod:findLike type="medbay">
+			<mod:setAttributes room="5"/>
+		</mod:findLike>
+		<mod:findLike type="clonebay">
+			<mod:setAttributes room="5"/>
+		</mod:findLike>
+		<mod:findLike type="cloaking">
+			<mod:setAttributes room="7"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK">
+	<mod:findLike type="systemList">
+		<mod:findLike type="engines">
+			<mod:setAttributes img="room_engines_6"/>
+			<mod-append:slot>
+				<direction>down</direction>
+				<number>3</number>
+			</mod-append:slot>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="12"/>
+	</mod:findLike>
+	<mod-append:aug name="EXPLOSIVE_REPLICATOR"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CRYSTAL">
+	<mod:findLike type="crewCount">
+		<mod:removeTag/>
+	</mod:findLike>
+	<mod-append:crewCount amount="2" class="human"/>
+	<mod-append:crewCount amount="2" class="crystal"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CRYSTAL_2">
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_SPECIAL">
+	<mod:findLike type="systemList">
+		<mod:findLike type="shields">
+			<mod:setAttributes power="3"/>
+		</mod:findLike>
+		<mod:findLike type="teleporter">
+			<mod:setAttributes max="3" start="false"/>
+		</mod:findLike>
+		<mod:findLike type="oxygen">
+			<mod:setAttributes power="2"/>
+		</mod:findLike>
+		<mod:findLike type="hacking">
+			<mod:setAttributes max="2"/>
+		</mod:findLike>
+		<mod:findLike type="mind">
+			<mod:setAttributes max="2" room="4"/>
+		</mod:findLike>
+		<mod:findLike type="artillery">
+			<mod:setAttributes power="2"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="health">
+		<mod:setAttributes amount="11"/>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="16"/>
+	</mod:findLike>
+</mod:findName>
+</FTL>

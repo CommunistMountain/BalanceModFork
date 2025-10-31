@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="eventList" name="NO_FUEL">
+	<mod-append:event load="FUEL_FLEET_DELAY"/>
+</mod:findName>
+
+<eventList name="NO_FUEL_DELAYED">
+	<event load="FUEL_NOTHING_DELAYED"/>
+	<event load="FUEL_NOTHING_DELAYED"/>
+	<event load="FUEL_NOTHING_DELAYED"/>
+	<event load="FUEL_TRADER"/>
+	<event load="FUEL_EXPLORE"/>
+	<event load="FUEL_APPROACH"/>
+	<event load="FUEL_OFF_ENGI_DUBIOUS"/>
+	<event load="FUEL_OFF_ROCK_WRECK"/>
+	<event load="NO_FUEL_REFUGEE_FRIENDLY"/>
+</eventList>
+
+<mod:findName type="event" name="FUEL_FLEET_DELAY">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:setAttributes load="NO_FUEL_DELAYED"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<event name="FUEL_NOTHING_DELAYED">
+	<text load="FUEL_NOTHING_DELAYED_LIST"/>
+</event>
+
+<textList name="FUEL_NOTHING_DELAYED_LIST">
+	<text id="text_FUEL_NOTHING_LIST_1"/>
+	<text id="text_FUEL_NOTHING_LIST_3"/>
+	<text id="text_FUEL_NOTHING_LIST_4"/>
+	<text id="text_FUEL_NOTHING_LIST_5"/>
+	<text id="text_FUEL_NOTHING_LIST_6"/>
+	<text>You begin to wonder if turning on the beacon would be worth the risk of detection.</text>
+	<text id="text_FUEL_NOTHING_LIST_8"/>
+	<text id="text_FUEL_NOTHING_LIST_9"/>
+	<text id="text_FUEL_NOTHING_LIST_10"/>
+	<text id="text_FUEL_NOTHING_LIST_11"/>
+</textList>
+
+<mod:findName type="eventList" name="FUEL_EXPLORE_LIST">
+	<mod:findLike type="event">
+		<mod:findLike type="choice">
+			<mod:findLike type="event">
+			<mod:selector load="ASTEROID_EXPLORE_RESULTS"/>
+				<mod:setAttributes load="ASTEROID_EXPLORE_RESULTS_FUEL"/>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<eventList name="ASTEROID_EXPLORE_RESULTS_FUEL">
+	<event>
+		<text id="event_ASTEROID_EXPLORE_RESULTS_1_text"/>
+	</event>
+	<event>
+		<text id="event_ASTEROID_EXPLORE_RESULTS_2_text"/>
+		<autoReward level="HIGH">fuel_only</autoReward>
+	</event>
+	<event>
+		<text id="event_ASTEROID_EXPLORE_RESULTS_2_text"/>
+		<autoReward level="HIGH">fuel_only</autoReward>
+	</event>
+	<event>
+		<text id="event_ASTEROID_EXPLORE_RESULTS_2_text"/>
+		<autoReward level="HIGH">fuel_only</autoReward>
+	</event>
+	<event>
+		<text id="event_ASTEROID_EXPLORE_RESULTS_3_text"/>
+		<autoReward level="MED">missiles</autoReward>
+	</event>
+	<event>
+		<text id="event_ASTEROID_EXPLORE_RESULTS_4_text"/>
+		<autoReward level="MED">droneparts</autoReward>
+	</event>
+	<event>
+		<text id="event_ASTEROID_EXPLORE_RESULTS_5_text"/>
+		<damage amount="3"/>
+		<damage amount="1" system="random"/>
+		<damage amount="1" system="room" effect="fire"/>
+	</event>
+	<event>
+		<text id="event_ASTEROID_EXPLORE_RESULTS_6_text"/>
+		<ship load="PIRATE_FUEL" hostile="true"/>
+		<environment type="asteroid"/>
+	</event>
+</eventList>
+
+<mod:findName type="eventList" name="FUEL_APPROACH_ACCEPT_LIST">
+	<mod:findLike type="event">
+		<mod:findLike type="ship">
+		<mod:selector load="PIRATE"/>
+			<mod:setAttributes load="PIRATE_FUEL"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="FUEL_ON_REBEL_WARNING">
+	<mod:findLike type="ship">
+		<mod:removeTag/>
+	</mod:findLike>
+	<mod-append:choice>
+		<text>Try to take it out before it escapes.</text>
+		<event>
+			<text>You ready your weapons, hoping to take it out before it can get away.</text>
+			<ship load="REBEL_AUTO_WARNING" hostile="true"/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="FTL_JAMMER" hidden="true">
+		<text>(FTL Jammer) Delay its escape.</text>
+		<event>
+			<text>You activate your jamming device, giving you more time to take it out before it can get away.</text>
+			<ship load="REBEL_AUTO_WARNING_JAM" hostile="true"/>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="ship" name="FUEL_OFF_ROCK_CURIOUS">
+	<mod:findLike type="destroyed">
+		<mod:findLike type="status">
+			<mod:setAttributes system="engines"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+</FTL>

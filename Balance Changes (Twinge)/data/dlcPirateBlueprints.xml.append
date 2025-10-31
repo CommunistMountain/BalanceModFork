@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="shipBlueprint" name="ZOLTAN_FIGHTER_P"/>
+		<mod:findName type="shipBlueprint" name="ZOLTAN_FIGHTER_P_DLC"/>
+	</mod:par>
+	<mod-append:maxSector>3</mod-append:maxSector>
+</mod:findComposite>
+
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="shipBlueprint" name="REBEL_FAT_P"/>
+		<mod:findName type="shipBlueprint" name="REBEL_FAT_P_DLC"/>
+		<mod:findName type="shipBlueprint" name="REBEL_SKINNY_P"/>
+		<mod:findName type="shipBlueprint" name="REBEL_SKINNY_P_DLC"/>
+		<mod:findName type="shipBlueprint" name="JELLY_CROISSANT_P"/>
+		<mod:findName type="shipBlueprint" name="JELLY_CROISSANT_P_DLC"/>
+		<mod:findName type="shipBlueprint" name="JELLY_TRUFFLE_P"/>
+		<mod:findName type="shipBlueprint" name="JELLY_TRUFFLE_P_DLC"/>
+		<mod:findName type="shipBlueprint" name="ROCK_FIGHT_P"/>
+		<mod:findName type="shipBlueprint" name="ROCK_FIGHT_P_DLC"/>
+		<mod:findName type="shipBlueprint" name="MANTIS_FIGHTER_P"/>
+		<mod:findName type="shipBlueprint" name="MANTIS_FIGHTER_P_DLC"/>
+		<mod:findName type="shipBlueprint" name="MANTIS_BOMBER_P"/>
+		<mod:findName type="shipBlueprint" name="MANTIS_BOMBER_P_DLC"/>
+		<mod:findName type="shipBlueprint" name="ZOLTAN_BOMBER_P"/>
+		<mod:findName type="shipBlueprint" name="ZOLTAN_BOMBER_P_DLC"/>
+		<mod:findName type="shipBlueprint" name="FED_BOMBER_P"/>
+		<mod:findName type="shipBlueprint" name="FED_BOMBER_P_DLC"/>
+	</mod:par>
+	<mod-append:maxSector>4</mod-append:maxSector>
+</mod:findComposite>
+
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="shipBlueprint" name="JELLY_BUTTON_P_DLC"/>
+		<mod:findName type="shipBlueprint" name="ROCK_SCOUT_P"/>
+		<mod:findName type="shipBlueprint" name="ROCK_SCOUT_P_DLC"/>
+		<mod:findName type="shipBlueprint" name="MANTIS_SCOUT_P"/>
+		<mod:findName type="shipBlueprint" name="FED_SCOUT_P"/>
+		<mod:findName type="shipBlueprint" name="FED_SCOUT_P_DLC"/>
+	</mod:par>
+	<mod:findLike type="maxSector">
+		<mod:setValue>4</mod:setValue>
+	</mod:findLike>
+</mod:findComposite>
+
+<shipBlueprint name="REBEL_FAT_P_LATE" layout="rebel_squat_pirate" img="rebel_squat_pirate">
+	<class id="ship_REBEL_FAT_PIRATE_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<oxygen power="1" max="2" room="1"/>
+		<shields power="2" max="8" room="2"/>
+		<engines power="2" max="4" room="7"/>
+		<weapons power="2" max="6" room="4"/>
+		<drones power="3" max="9" room="5"/>
+		<medbay power="1" max="3" room="6" start="false"/>
+		<doors power="1" max="3" room="3" start="false"/>
+	</systemList>
+	<droneList drones="4" load="DRONES_STANDARD"/>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="9"/>
+	<maxPower amount="10"/>
+	<crewCount amount="3" max="5" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>rebel_squat</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="REBEL_FAT_P_DLC_LATE" layout="rebel_squat_pirate" img="rebel_squat_pirate">
+	<class id="ship_REBEL_FAT_PIRATE_DLC_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<oxygen power="1" max="2" room="3"/>
+		<shields power="2" max="8" room="7"/>
+		<engines power="2" max="4" room="6"/>
+		<weapons power="2" max="7" room="2"/>
+		<drones power="2" max="8" room="4"/>
+		<clonebay power="1" max="3" room="1" start="false"/>
+		<hacking power="1" max="2" room="5"/>
+	</systemList>
+	<droneList drones="4" load="DRONES_STANDARD"/>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="9"/>
+	<maxPower amount="10"/>
+	<crewCount amount="3" max="5" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+</shipBlueprint>
+
+<shipBlueprint name="REBEL_SKINNY_P_LATE" layout="rebel_long_pirate" img="rebel_long_pirate">
+	<class id="ship_REBEL_SKINNY_PIRATE_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<oxygen power="1" max="2" room="9"/>
+		<pilot power="2" max="3" room="0"/>
+		<shields power="2" max="8" room="4"/>
+		<engines power="2" max="5" room="6"/>
+		<weapons power="3" max="9" room="3"/>
+		<medbay power="1" max="2" room="8" start="false"/>
+		<teleporter power="1" max="1" room="7" start="false"/>
+		<doors power="1" max="2" room="5" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="10"/>
+	<maxPower amount="8"/>
+	<crewCount amount="3" max="6" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>rebel_long</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="REBEL_SKINNY_P_DLC_LATE" layout="rebel_long_pirate" img="rebel_long_pirate">
+	<class id="ship_REBEL_SKINNY_PIRATE_DLC_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<oxygen power="1" max="2" room="2"/>
+		<pilot power="2" max="3" room="0"/>
+		<shields power="2" max="8" room="5"/>
+		<engines power="2" max="5" room="7"/>
+		<weapons power="2" max="9" room="1"/>
+		<clonebay power="1" max="2" room="3" start="false"/>
+		<teleporter power="1" max="1" room="4"/>
+		<doors power="1" max="2" room="6" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="10"/>
+	<maxPower amount="8"/>
+	<crewCount amount="3" max="6" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="JELLY_BUTTON_P">
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="6"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="JELLY_CROISSANT_P_LATE" layout="jelly_croissant_pirate" img="jelly_croissant_pirate">
+	<class id="ship_JELLY_CROISSANT_PIRATE_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="1"/>
+		<doors power="1" max="3" room="5" start="false"/>
+		<oxygen power="1" max="3" room="6"/>
+		<medbay power="1" max="3" room="4" start="false"/>
+		<cloaking power="1" max="2" room="7" start="false"/>
+		<shields power="3" max="10" room="2"/>
+		<engines power="1" max="6" room="8"/>
+		<weapons power="2" max="9" room="3"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_JELLY"/>
+	<health amount="10"/>
+	<maxPower amount="8"/>
+	<crewCount amount="3" max="6" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<aug name="SLUG_GEL"/>
+	<cloakImage>jelly_croissant</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="JELLY_CROISSANT_P_DLC_LATE" layout="jelly_croissant_pirate" img="jelly_croissant_pirate">
+	<class id="ship_JELLY_CROISSANT_PIRATE_DLC_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<oxygen power="1" max="3" room="3"/>
+		<clonebay power="1" max="3" room="1" start="false"/>
+		<shields power="2" max="10" room="4"/>
+		<engines power="2" max="6" room="8"/>
+		<weapons power="2" max="8" room="5"/>
+		<mind power="1" max="2" room="2" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_JELLY"/>
+	<health amount="10"/>
+	<maxPower amount="8"/>
+	<crewCount amount="3" max="7" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<aug name="SLUG_GEL"/>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="JELLY_TRUFFLE_P">
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="JELLY_TRUFFLE_P_LATE" layout="jelly_truffle_pirate" img="jelly_truffle_pirate">
+	<class id="ship_JELLY_TRUFFLE_PIRATE_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<doors power="1" max="3" room="4" start="false"/>
+		<oxygen power="2" max="3" room="7"/>
+		<medbay power="1" max="3" room="8" start="false"/>
+		<shields power="2" max="10" room="6"/>
+		<engines power="1" max="5" room="5"/>
+		<weapons power="2" max="10" room="1"/>
+		<cloaking power="1" max="1" room="2"/>
+	</systemList>
+	<weaponList missiles="14" load="WEAPONS_JELLY"/>
+	<health amount="11"/>
+	<maxPower amount="9"/>
+	<crewCount amount="4" max="7" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<aug name="SLUG_GEL"/>
+	<cloakImage>jelly_truffle</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="JELLY_TRUFFLE_P_DLC">
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+	<mod:findLike type="crewCount">
+		<mod:setAttributes max="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="JELLY_TRUFFLE_P_DLC_LATE" layout="jelly_truffle_pirate" img="jelly_truffle_pirate">
+	<class id="ship_JELLY_TRUFFLE_PIRATE_DLC_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<mind power="1" max="2" room="5" start="false"/>
+		<oxygen power="1" max="3" room="1"/>
+		<clonebay power="1" max="3" room="3" start="false"/>
+		<shields power="2" max="10" room="7"/>
+		<engines power="2" max="5" room="8"/>
+		<weapons power="3" max="9" room="4"/>
+		<doors power="1" max="2" room="2" start="false"/>
+	</systemList>
+	<weaponList missiles="14" load="WEAPONS_JELLY"/>
+	<health amount="11"/>
+	<maxPower amount="9"/>
+	<crewCount amount="4" max="7" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<aug name="SLUG_GEL"/>
+	<cloakImage>jelly_truffle</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="ROCK_SCOUT_P">
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="6"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="ROCK_SCOUT_P_LATE" layout="rock_scout_pirate" img="rock_scout_pirate">
+	<class id="ship_ROCK_SCOUT_PIRATE_class"/>
+	<minSector>5</minSector>
+	<maxSector>5</maxSector>
+	<systemList>
+		<pilot power="1" max="3" room="3"/>
+		<teleporter power="1" max="2" room="2" start="false"/>
+		<oxygen power="1" max="3" room="1"/>
+		<shields power="2" max="8" room="4"/>
+		<engines power="2" max="5" room="5"/>
+		<weapons power="2" max="8" room="0"/>
+	</systemList>
+	<weaponList missiles="6" load="WEAPONS_ROCK"/>
+	<health amount="8"/>
+	<maxPower amount="7"/>
+	<crewCount amount="2" max="5" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ROCK_ARMOR"/>
+	<cloakImage>rock_scout</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="ROCK_SCOUT_P_DLC">
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="6"/>
+	</mod:findLike>
+	<mod:findLike type="crewCount">
+		<mod:setAttributes max="5"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="ROCK_SCOUT_P_DLC_LATE" layout="rock_scout_pirate" img="rock_scout_pirate">
+	<class id="ship_ROCK_SCOUT_PIRATE_DLC_class"/>
+	<minSector>5</minSector>
+	<maxSector>5</maxSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<oxygen power="1" max="3" room="3"/>
+		<clonebay power="1" max="3" room="4" start="false"/>
+		<shields power="2" max="8" room="2"/>
+		<engines power="2" max="5" room="5"/>
+		<weapons power="2" max="8" room="1"/>
+	</systemList>
+	<weaponList missiles="6" load="WEAPONS_ROCK"/>
+	<health amount="8"/>
+	<maxPower amount="7"/>
+	<crewCount amount="2" max="5" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ROCK_ARMOR"/>
+</shipBlueprint>
+
+<shipBlueprint name="ROCK_FIGHT_P_LATE" layout="rock_fight_pirate" img="rock_fight_pirate">
+	<class id="ship_ROCK_FIGHT_PIRATE_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="2"/>
+		<doors power="1" max="3" room="1" start="false"/>
+		<oxygen power="1" max="3" room="0"/>
+		<medbay power="1" max="3" room="7" start="false"/>
+		<cloaking power="1" max="3" room="5" start="false"/>
+		<shields power="2" max="8" room="4"/>
+		<engines power="2" max="5" room="6"/>
+		<weapons power="3" max="8" room="3"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_ROCK"/>
+	<health amount="11"/>
+	<maxPower amount="8"/>
+	<crewCount amount="3" max="5" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ROCK_ARMOR"/>
+	<cloakImage>rock_fight</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="ROCK_FIGHT_P_DLC_LATE" layout="rock_fight_pirate" img="rock_fight_pirate">
+	<class id="ship_ROCK_FIGHT_PIRATE_DLC_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="6"/>
+		<teleporter power="1" max="2" room="5"/>
+		<oxygen power="2" max="3" room="7"/>
+		<clonebay power="1" max="3" room="2" start="false"/>
+		<shields power="2" max="8" room="0"/>
+		<engines power="2" max="5" room="4"/>
+		<weapons power="2" max="8" room="1"/>
+		<cloaking power="1" max="1" room="3" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_ROCK"/>
+	<health amount="10"/>
+	<maxPower amount="9"/>
+	<crewCount amount="2" max="5" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ROCK_ARMOR"/>
+	<cloakImage>rock_fight</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="MANTIS_SCOUT_P">
+	<mod:findLike type="systemList">
+		<mod:findLike type="engines">
+			<mod:setAttributes power="2" max="6"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="6"/>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="MANTIS_SCOUT_P_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="engines">
+			<mod:setAttributes power="2" max="6"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+	<mod:findLike type="crewCount">
+		<mod:setAttributes amount="3" max="5"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="MANTIS_FIGHTER_P">
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="MANTIS_FIGHTER_P_LATE" layout="mantis_fighter_pirate" img="mantis_fighter_pirate">
+	<class id="ship_MANTIS_FIGHTER_PIRATE_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="2" max="3" room="3"/>
+		<doors power="1" max="3" room="1" start="false"/>
+		<oxygen power="1" max="3" room="0"/>
+		<medbay power="1" max="3" room="2"/>
+		<teleporter power="1" max="3" room="4"/>
+		<shields power="2" max="8" room="6"/>
+		<engines power="1" max="5" room="7"/>
+		<weapons power="2" max="8" room="5"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_MANTIS"/>
+	<health amount="9"/>
+	<maxPower amount="8"/>
+	<crewCount amount="3" max="5" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>mantis_fighter</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="MANTIS_FIGHTER_P_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="shields">
+			<mod:setAttributes max="8"/>
+		</mod:findLike>
+		<mod:findLike type="weapons">
+			<mod:setAttributes max="8"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+	<mod:findLike type="crewCount">
+		<mod:setAttributes amount="3"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="MANTIS_FIGHTER_P_DLC_LATE" layout="mantis_fighter_pirate" img="mantis_fighter_pirate">
+	<class id="ship_MANTIS_FIGHTER_PIRATE_DLC_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="2" max="3" room="3"/>
+		<doors power="1" max="3" room="6" start="false"/>
+		<oxygen power="1" max="3" room="1"/>
+		<clonebay power="1" max="3" room="5"/>
+		<teleporter power="1" max="2" room="0"/>
+		<shields power="2" max="8" room="2"/>
+		<engines power="1" max="5" room="7"/>
+		<weapons power="2" max="9" room="4"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_MANTIS"/>
+	<health amount="9"/>
+	<maxPower amount="8"/>
+	<crewCount amount="3" max="5" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="MANTIS_BOMBER_P">
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="MANTIS_BOMBER_P_LATE" layout="mantis_bomber_pirate" img="mantis_bomber_pirate">
+	<class id="ship_MANTIS_BOMBER_PIRATE_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="5"/>
+		<doors power="1" max="3" room="8"/>
+		<oxygen power="1" max="3" room="0"/>
+		<medbay power="2" max="3" room="11"/>
+		<teleporter power="1" max="3" room="9"/>
+		<shields power="2" max="10" room="7"/>
+		<engines power="1" max="5" room="10"/>
+		<weapons power="2" max="10" room="6"/>
+	</systemList>
+	<weaponList missiles="14" load="WEAPONS_MANTIS"/>
+	<health amount="11"/>
+	<maxPower amount="9"/>
+	<crewCount amount="4" max="6" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>mantis_bomber</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="MANTIS_BOMBER_P_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="clonebay">
+			<mod:removeAttributes start=""/>
+			<mod:setAttributes max="2"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="8"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="MANTIS_BOMBER_P_DLC_LATE" layout="mantis_bomber_pirate" img="mantis_bomber_pirate">
+	<class id="ship_MANTIS_BOMBER_PIRATE_DLC_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<doors power="1" max="3" room="10"/>
+		<oxygen power="1" max="3" room="5"/>
+		<clonebay power="1" max="2" room="0"/>
+		<teleporter power="1" max="2" room="3"/>
+		<shields power="2" max="9" room="7"/>
+		<engines power="1" max="5" room="11"/>
+		<weapons power="3" max="9" room="6"/>
+	</systemList>
+	<weaponList missiles="14" load="WEAPONS_MANTIS"/>
+	<health amount="12"/>
+	<maxPower amount="9"/>
+	<crewCount amount="3" max="6" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="ZOLTAN_FIGHTER_P">
+	<mod:findLike type="systemList">
+		<mod:findLike type="doors">
+			<mod:removeAttributes start=""/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="health">
+		<mod:setAttributes amount="6"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="ZOLTAN_FIGHTER_P_LATE" layout="energy_fighter_pirate" img="energy_fighter_pirate">
+	<class id="ship_ZOLTAN_FIGHTER_PIRATE_class"/>
+	<minSector>4</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="1"/>
+		<doors power="1" max="3" room="4"/>
+		<medbay power="1" max="3" room="0" start="false"/>
+		<oxygen power="1" max="3" room="3"/>
+		<shields power="2" max="8" room="2"/>
+		<engines power="1" max="5" room="6"/>
+		<weapons power="2" max="8" room="5"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_ZOLTAN"/>
+	<health amount="7"/>
+	<aug name="ENERGY_SHIELD"/>
+	<maxPower amount="7"/>
+	<crewCount amount="2" max="5" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>energy_fighter</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="ZOLTAN_FIGHTER_P_DLC">
+	<mod:findLike type="health">
+		<mod:setAttributes amount="6"/>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="ZOLTAN_FIGHTER_P_DLC_LATE" layout="energy_fighter_pirate" img="energy_fighter_pirate">
+	<class id="ship_ZOLTAN_FIGHTER_PIRATE_DLC_class"/>
+	<minSector>4</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<mind power="1" max="1" room="4" start="false"/>
+		<clonebay power="1" max="3" room="3" start="false"/>
+		<oxygen power="1" max="3" room="1"/>
+		<shields power="2" max="8" room="2"/>
+		<engines power="1" max="5" room="5"/>
+		<weapons power="2" max="8" room="6"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_ZOLTAN"/>
+	<health amount="7"/>
+	<aug name="ENERGY_SHIELD"/>
+	<maxPower amount="7"/>
+	<crewCount amount="2" max="5" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="ZOLTAN_BOMBER_P">
+	<mod:findLike type="systemList">
+		<mod:findLike type="doors">
+			<mod:removeAttributes start=""/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="14"/>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="ZOLTAN_BOMBER_P_LATE" layout="energy_bomber_pirate" img="energy_bomber_pirate">
+	<class id="ship_ZOLTAN_BOMBER_PIRATE_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<doors power="1" max="3" room="6"/>
+		<medbay power="1" max="3" room="2" start="false"/>
+		<oxygen power="1" max="3" room="5"/>
+		<shields power="2" max="8" room="3"/>
+		<engines power="1" max="5" room="7"/>
+		<weapons power="2" max="8" room="4"/>
+		<drones power="2" max="5" room="1"/>
+	</systemList>
+	<weaponList missiles="14" load="WEAPONS_ZOLTAN"/>
+	<droneList drones="2" load="DRONES_COMBAT"/>
+	<health amount="7"/>
+	<aug name="ENERGY_SHIELD"/>
+	<maxPower amount="9"/>
+	<crewCount amount="3" max="6" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>energy_bomber</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="ZOLTAN_BOMBER_P_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="doors">
+			<mod:removeAttributes start=""/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="14"/>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="7"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="ZOLTAN_BOMBER_P_DLC_LATE" layout="energy_bomber_pirate" img="energy_bomber_pirate">
+	<class id="ship_ZOLTAN_BOMBER_PIRATE_DLC_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="2"/>
+		<doors power="1" max="3" room="1"/>
+		<clonebay power="1" max="3" room="7" start="false"/>
+		<oxygen power="1" max="3" room="4"/>
+		<shields power="2" max="8" room="3"/>
+		<engines power="1" max="5" room="6"/>
+		<weapons power="3" max="8" room="5"/>
+		<hacking power="1" max="2" room="0" start="false"/>
+	</systemList>
+	<weaponList missiles="14" load="WEAPONS_ZOLTAN"/>
+	<droneList drones="5" load="DRONES_COMBAT"/>
+	<health amount="7"/>
+	<aug name="ENERGY_SHIELD"/>
+	<maxPower amount="8"/>
+	<crewCount amount="3" max="6" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="FED_SCOUT_P">
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="6"/>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="6"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="FED_SCOUT_P_LATE" layout="fed_scout" img="fed_scout_pirate">
+	<class id="ship_FED_SCOUT_PIRATE_class"/>
+	<minSector>5</minSector>
+	<maxSector>5</maxSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<doors power="1" max="3" room="2" start="false"/>
+		<oxygen power="1" max="3" room="5"/>
+		<shields power="2" max="8" room="1"/>
+		<engines power="2" max="5" room="4"/>
+		<weapons power="2" max="8" room="3"/>
+	</systemList>
+	<weaponList missiles="6" load="WEAPONS_FED"/>
+	<health amount="7"/>
+	<maxPower amount="7"/>
+	<crewCount amount="2" max="3" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>fed_scout</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="FED_SCOUT_P_DLC">
+	<mod:findLike type="weaponList">
+		<mod:setAttributes missiles="6"/>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="6"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="FED_SCOUT_P_DLC_LATE" layout="fed_scout" img="fed_scout_pirate">
+	<class id="ship_FED_SCOUT_PIRATE_DLC_class"/>
+	<minSector>5</minSector>
+	<maxSector>5</maxSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<hacking power="1" max="1" room="2" start="false"/>
+		<oxygen power="1" max="3" room="5"/>
+		<shields power="2" max="8" room="3"/>
+		<engines power="2" max="5" room="4"/>
+		<weapons power="2" max="8" room="1"/>
+	</systemList>
+	<weaponList missiles="6" load="WEAPONS_FED"/>
+	<droneList drones="4"/>
+	<health amount="7"/>
+	<maxPower amount="7"/>
+	<crewCount amount="2" max="3" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="FED_BOMBER_P">
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="6"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="FED_BOMBER_P_LATE" layout="fed_bomber" img="fed_bomber_pirate">
+	<class id="ship_FED_BOMBER_PIRATE_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="2" max="3" room="0"/>
+		<doors power="1" max="3" room="2"/>
+		<medbay power="1" max="3" room="8" start="false"/>
+		<oxygen power="1" max="3" room="5"/>
+		<shields power="2" max="8" room="1"/>
+		<engines power="1" max="5" room="9"/>
+		<weapons power="3" max="8" room="6"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_FED"/>
+	<health amount="10"/>
+	<maxPower amount="7"/>
+	<crewCount amount="2" max="6" class="random"/>
+	<cloakImage>fed_bomber</cloakImage>
+</shipBlueprint>
+
+<mod:findName type="shipBlueprint" name="FED_BOMBER_P_DLC">
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="6"/>
+	</mod:findLike>
+</mod:findName>
+
+<shipBlueprint name="FED_BOMBER_P_DLC_LATE" layout="fed_bomber" img="fed_bomber_pirate">
+	<class id="ship_FED_BOMBER_PIRATE_DLC_class"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<hacking power="2" max="2" room="2"/>
+		<clonebay power="1" max="3" room="8" start="false"/>
+		<oxygen power="1" max="3" room="5"/>
+		<shields power="2" max="8" room="9"/>
+		<engines power="1" max="5" room="6"/>
+		<weapons power="2" max="8" room="1"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_FED"/>
+	<droneList drones="4"/>
+	<health amount="10"/>
+	<maxPower amount="8"/>
+	<crewCount amount="2" max="6" class="random"/>
+</shipBlueprint>
+</FTL>

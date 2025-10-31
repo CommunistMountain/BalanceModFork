@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="eventList" name="HOSTILE_REBEL">
+	<mod-append:event load="AUTO_HACKER"/>
+</mod:findName>
+
+<mod:findName type="event" name="START_BEACON_REBEL">
+	<mod-append:choice req="FTL_JUMPER" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event>
+			<reveal_map/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="engines" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="AUTO_HACKER">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="status">
+			<mod:selector system="shields"/>
+				<mod:setAttributes type="loss" amount="1"/>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="AUTO_DEFENSE_RADAR_COMBAT">
+	<mod:findLike type="event">
+		<mod:findLike type="choice">
+			<mod:findLike type="event">
+				<mod:setAttributes load="DEFENSE_RADAR_LIST_DRONE"/>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<eventList name="DEFENSE_RADAR_LIST_DRONE">
+	<event>
+		<text id="event_DEFENSE_RADAR_LIST_1_text"/>
+		<modifyPursuit amount="-1"/>
+	</event>
+	<event>
+		<text id="event_DEFENSE_RADAR_LIST_2_text"/>
+		<reveal_map/>
+	</event>
+</eventList>
+
+<mod:findName type="event" name="REBEL_TRANSPORT">
+	<mod:findWithChildLike type="choice" child-type="text">
+	<mod:selector id="event_REBEL_TRANSPORT_c2_choice"/>
+		<mod:removeTag/>
+	</mod:findWithChildLike>
+	<mod-append:choice req="FTL_JAMMER" hidden="true">
+		<text>(FTL Jammer) Slow their FTL charge and attack.</text>
+		<event>
+			<text>Activating your jamming device, you move in to take their cargo by force.</text>
+			<ship load="SQUAT_TRANSPORT_JAM" hostile="true"/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice>
+		<text id="event_REBEL_TRANSPORT_c2_choice"/>
+		<event>
+			<text id="event_REBEL_TRANSPORT_c2_text"/>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="eventList" name="REBEL_TRANSPORT_CAPTURED">
+	<mod:findLike type="event">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="MED"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod-append:event>
+		<text id="event_REBEL_TRANSPORT_CAPTURED_1_text"/>
+		<autoReward level="MED">weapon</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_REBEL_TRANSPORT_CAPTURED_3_text"/>
+		<reveal_map/>
+		<autoReward level="MED">scrap_only</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_REBEL_TRANSPORT_CAPTURED_4_text"/>
+		<autoReward level="MED">drone</autoReward>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="BROKEN_REBEL_DRONE_SENSORS">
+	<mod:findLike type="event">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="MED"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="FLAGSHIP_CONSTRUCTION_DONE">
+	<mod:findLike type="item_modify">
+		<mod:findLike type="item">
+		<mod:selector type="fuel"/>
+			<mod:setAttributes min="2" max="4"/>
+		</mod:findLike>
+		<mod:findLike type="item">
+		<mod:selector type="missiles"/>
+			<mod:setAttributes min="4" max="6"/>
+		</mod:findLike>
+		<mod:findLike type="item">
+		<mod:selector type="drones"/>
+			<mod:setAttributes min="1" max="2"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+</FTL>

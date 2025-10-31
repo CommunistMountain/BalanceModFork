@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="sectorDescription" name="STANDARD_SPACE">
+	<mod:findName type="event" name="NOTHING">
+		<mod:setAttributes max="1"/>
+	</mod:findName>
+	<mod:findName type="event" name="HOSTILE1">
+		<mod:setAttributes name="HOSTILE1_SEC1"/>
+	</mod:findName>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="FINAL">
+	<mod-append:event name="BOSS_STANDARD_NEUTRAL" min="7" max="7"/>
+</mod:findName>
+
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="sectorDescription" name="FINAL"/>
+		<mod:findName type="sectorDescription" name="REBEL_SECTOR_MINIBOSS"/>
+		<mod:findName type="sectorDescription" name="REBEL_SECTOR"/>
+	</mod:par>
+	<mod-append:rarityList>
+		<blueprint name="engi" rarity="4"/>
+	</mod-append:rarityList>
+</mod:findComposite>
+
+<mod:findName type="sectorDescription" name="CIVILIAN_SECTOR">
+	<mod:findName type="event" name="NEUTRAL_CIVILIAN">
+		<mod:setAttributes min="1" max="3"/>
+	</mod:findName>
+	<mod:findName type="event" name="NOTHING">
+		<mod:setAttributes min="2"/>
+	</mod:findName>
+	<mod:findName type="event" name="HOSTILE1">
+		<mod:setAttributes max="3"/>
+	</mod:findName>
+</mod:findName>
+
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="sectorDescription" name="ENGI_SECTOR"/>
+		<mod:findName type="sectorDescription" name="ENGI_HOME"/>
+	</mod:par>
+	<mod:findName type="event" name="ITEMS_ENGI">
+		<mod:setAttributes min="2" max="2"/>
+	</mod:findName>
+</mod:findComposite>
+
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="sectorDescription" name="MANTIS_SECTOR"/>
+		<mod:findName type="sectorDescription" name="MANTIS_HOME"/>
+	</mod:par>
+	<mod:findLike type="rarityList">
+		<mod:findName type="blueprint" name="engi">
+			<mod:removeTag/>
+		</mod:findName>
+	</mod:findLike>
+	<mod:findName type="event" name="NOTHING_MANTIS">
+		<mod:setAttributes min="1" max="1"/>
+	</mod:findName>
+	<mod:findName type="event" name="HOSTILE_MANTIS">
+		<mod:setAttributes min="7" max="8"/>
+	</mod:findName>
+</mod:findComposite>
+
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="sectorDescription" name="ZOLTAN_SECTOR"/>
+		<mod:findName type="sectorDescription" name="ZOLTAN_HOME"/>
+	</mod:par>
+	<mod:findLike type="rarityList">
+		<mod:findName type="blueprint" name="engi">
+			<mod:setAttributes rarity="2"/>
+		</mod:findName>
+	</mod:findLike>
+</mod:findComposite>
+
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="sectorDescription" name="ROCK_SECTOR"/>
+		<mod:findName type="sectorDescription" name="ROCK_HOME"/>
+	</mod:par>
+	<mod:findName type="event" name="NOTHING_ROCK">
+		<mod:setAttributes max="2"/>
+	</mod:findName>
+	<mod:findName type="event" name="HOSTILE_ROCK">
+		<mod:setAttributes min="7"/>
+	</mod:findName>
+</mod:findComposite>
+
+<mod:findName type="sectorDescription" name="LANIUS_SECTOR">
+	<mod:findName type="event" name="BOARDERS_LANIUS">
+		<mod:setAttributes max="1"/>
+	</mod:findName>
+	<mod:findName type="event" name="NEUTRAL_LANIUS">
+		<mod:setAttributes max="7"/>
+	</mod:findName>
+</mod:findName>
+</FTL>

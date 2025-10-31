@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="event" name="STALEMATE_SURRENDER">
+	<mod:findLike type="item_modify">
+		<mod:removeTag/>
+	</mod:findLike>
+	<mod:findLike type="ship">
+		<mod:removeTag/>
+	</mod:findLike>
+	<mod-append:choice>
+		<text id="event_STALEMATE_SURRENDER_c1_choice"/> 
+		<event/>
+	</mod-append:choice>
+	<mod-append:choice>
+		<text id="event_STALEMATE_SURRENDER_c2_choice"/> 
+		<event>
+			<text id="event_STALEMATE_SURRENDER_c2_text"/>
+				<item_modify>
+					<item type="fuel" min="2" max="2"/>
+				</item_modify>
+				<ship hostile="false"/>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="START_BEACON">
+	<mod-append:choice req="FTL_JUMPER" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event>
+			<reveal_map/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="engines" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="MERCENARY">
+	<mod:findComposite>
+		<mod:par op="OR">
+			<mod:findWithChildLike type="choice" child-type="text">
+			<mod:selector id="event_MERCENARY_c1_choice"/>
+			</mod:findWithChildLike>
+			<mod:findWithChildLike type="choice" child-type="text">
+			<mod:selector id="event_MERCENARY_c2_choice"/>
+			</mod:findWithChildLike>
+			<mod:findWithChildLike type="choice" child-type="text">
+			<mod:selector id="event_MERCENARY_c4_choice"/>
+			</mod:findWithChildLike>
+		</mod:par>
+		<mod:removeTag/>
+	</mod:findComposite>
+	<mod-append:choice>
+		<text id="event_MERCENARY_c1_choice"/>
+		<event>
+			<text id="event_MERCENARY_c1_text"/>
+			<item_modify>
+				<item type="scrap" min="-19" max="-9"/>
+			</item_modify>
+			<modifyPursuit amount="-2"/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice>
+		<text id="event_MERCENARY_c2_choice"/>
+		<event>
+			<text id="event_MERCENARY_c2_text"/>
+			<item_modify>
+				<item type="scrap" min="-16" max="-8"/>
+			</item_modify>
+			<reveal_map/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice>
+		<text id="event_MERCENARY_c4_choice"/>
+		<event/>
+	</mod-append:choice>
+</mod:findName>
+
+<event name="MERCENARY_BOSS">
+	<text load="MERCENARY"/>
+	<ship load="PIRATE" hostile="false"/>
+	<choice>
+		<text id="event_MERCENARY_c3_choice"/>
+		<event>
+			<text id="event_MERCENARY_c3_text"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_MERCENARY_c2_choice"/>
+		<event>
+			<text id="event_MERCENARY_c2_text"/>
+			<item_modify>
+				<item type="scrap" min="-16" max="-8"/>
+			</item_modify>
+			<reveal_map/>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_MERCENARY_c4_choice"/>
+		<event/>
+	</choice>
+</event>
+
+<mod:findName type="eventList" name="PIRATE_CIVILIAN_BEACON_BEAM">
+	<mod:findLike type="event">
+		<mod:findLike type="choice">
+			<mod:findLike type="event">
+				<mod:setAttributes load="SAVE_CIVILIAN_LIST_SCARE"/>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<eventList name="SAVE_CIVILIAN_LIST_SCARE">   
+	<event>
+		<text id="event_SAVE_CIVILIAN_LIST_1_text"/>
+		<crewMember amount="1"/>
+	</event>
+	<event>
+		<text>The ship that the pirate was assaulting was a science vessel. As thanks for saving them, they offer a small reward and the data they've collected about the sector.</text>
+		<autoReward level="MED">standard</autoReward>
+		<reveal_map/>
+	</event> 
+	<event>
+		<text id="event_SAVE_CIVILIAN_LIST_4_text"/>
+		<choice>
+			<text id="event_SAVE_CIVILIAN_LIST_4_c1_choice"/>
+			<event>
+				<autoReward level="LOW">weapon</autoReward>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text id="event_SAVE_CIVILIAN_LIST_4_text"/>
+		<choice>
+			<text id="event_SAVE_CIVILIAN_LIST_4_c1_choice"/>
+			<event>
+				<autoReward level="LOW">augment</autoReward>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text id="event_SAVE_CIVILIAN_LIST_5_text"/>
+		<damage amount="-10"/>
+	</event>
+	<event>
+		<text>The ship that the pirate was assaulting was a science vessel. As thanks for saving them, they offer a small reward and the data they've collected about the sector.</text>
+		<autoReward level="MED">standard</autoReward>
+		<reveal_map/>
+	</event> 
+	<event>
+		<text id="event_SAVE_CIVILIAN_LIST_4_text"/>
+		<choice>
+			<text id="event_SAVE_CIVILIAN_LIST_4_c1_choice"/>
+			<event>
+				<autoReward level="LOW">weapon</autoReward>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text id="event_SAVE_CIVILIAN_LIST_4_text"/>
+		<choice>
+			<text id="event_SAVE_CIVILIAN_LIST_4_c1_choice"/>
+			<event>
+				<autoReward level="LOW">augment</autoReward>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text id="event_SAVE_CIVILIAN_LIST_5_text"/>
+		<damage amount="-10"/>
+	</event>
+</eventList>
+
+<mod:findName type="eventList" name="MADMAN">
+	<mod:findLike type="event">
+		<mod:findLike type="choice">
+		<mod:selector req="clonebay"/>
+			<mod:setAttributes lvl="3"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod-append:event>
+		<text id="event_MADMAN_2_text"/>
+		<crewMember amount="1" id="name_Charlie"/>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_MADMAN_4_text"/>
+		<choice>
+			<text id="continue"/>
+			<event/>
+		</choice>
+		<choice req="medbay" lvl="2" hidden="true">
+			<text id="event_MADMAN_4_c2_choice"/>
+			<event>
+				<text id="event_MADMAN_4_c2_text"/>
+				<crewMember amount="1" id="name_Charlie"/>
+			</event>
+		</choice>
+		<choice req="clonebay" lvl="3" hidden="true">
+			<text id="event_MADMAN_4_c3_choice"/>
+			<event>
+				<text id="event_MADMAN_4_c3_text"/>
+				<crewMember amount="1" id="name_Charlie"/>
+			</event>
+		</choice>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="MADMAN_SLUG">
+	<mod:findWithChildLike type="event" child-type="crewMember">
+		<mod:findLike type="crewMember">
+			<mod:removeTag/>
+		</mod:findLike>
+		<mod-append:choice hidden="true">
+			<text id="event_CONFUSED_MANTIS_HOME_c1_choice"/>
+			<event load="STRANDED_CHARLIES"/>
+		</mod-append:choice>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="event" name="CIVILIAN_ASTEROIDS_BEACON">
+	<mod:removeTag/>
+</mod:findName>
+
+<mod:findName type="event" name="CIVILIAN_ASTEROIDS_BEACON_2">
+	<mod:setAttributes name="CIVILIAN_ASTEROIDS_BEACON" unique="true"/>
+	<mod:findLike type="text">
+		<mod:setAttributes id="event_CIVILIAN_ASTEROIDS_BEACON_text"/>
+	</mod:findLike>
+	<mod-append:distressBeacon/>
+</mod:findName>
+
+<mod:findName type="eventList" name="CIVILIAN_ASTEROIDS_BEACON_LIST3">
+	<mod-append:event>
+		<text id="event_CIVILIAN_ASTEROIDS_BEACON_LIST3_2_text"/>
+		<choice hidden="true">
+			<text id="event_CIVILIAN_ASTEROIDS_BEACON_LIST3_2_c1_choice"/>
+			<event load="FAMILY_RETURN"/>
+		</choice>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="REBEL_VS_FEDERATION_SAVED_LIST">
+	<mod:findWithChildLike type="event" child-type="choice">
+		<mod:findWithChildLike type="choice" child-type="text">
+		<mod:selector id="event_REBEL_VS_FEDERATION_SAVED_LIST_2_c1_choice"/>
+			<mod-overwrite:event load="REBEL_VS_FEDERATION_SAVED_LIST_RESCUE"/>
+		</mod:findWithChildLike>
+		<mod:findLike type="choice">
+		<mod:selector req="teleporter"/>
+			<mod:findLike type="event">
+				<mod:findLike type="autoReward">
+					<mod:setAttributes level="LOW"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+		<mod:findLike type="choice">
+		<mod:selector req="BOMB_HEAL"/>
+			<mod:findLike type="event">
+				<mod:findLike type="choice">
+					<mod:findLike type="event">
+						<mod:findLike type="autoReward">
+							<mod:setAttributes level="LOW"/>
+						</mod:findLike>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+		<mod-append:choice req="BOMB_HEAL_SYSTEM">
+			<text>(Repair Burst) Use a repair bomb to fix the life support.</text>
+			<event>
+				<text>You launch a repair bomb into their ship and the nanobots rapidly stabilize their life support systems. That should keep the ship intact long enough for the crew to reach a proper repair facility.</text>
+				<item_modify>
+					<item type="missiles" min="-1" max="-1"/>
+				</item_modify>
+				<choice hidden="true">
+					<text id="continue"/>
+						<event>
+							<text>Now that they're safe, a weapons specialist offers to join your crew and the others tell you of a hidden Federation base a few jumps away.</text>
+							<crewMember weapons="1" amount="1"/>
+							<quest event="HIDDEN_FEDERATION_BASE_LIST"/>
+							<autoReward level="LOW">scrap_only</autoReward>
+						</event>
+				</choice>
+			</event>
+		</mod-append:choice>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<eventList name="REBEL_VS_FEDERATION_SAVED_LIST_RESCUE">
+	<event>
+		<text id="event_REBEL_VS_FEDERATION_SAVED_LIST_2_c1_text"/>
+		<crewMember amount="1"/>
+		<autoReward level="LOW">standard</autoReward>
+	</event>
+	<event>
+		<text>Despite your efforts, the crew does not survive. You strip the now derelict ship of useful components.</text>
+		<autoReward level="LOW">standard</autoReward>
+	</event>
+</eventList>
+
+<mod:findName type="eventList" name="DISTRESS_TRAPPED_MINER_SHOOT">
+	<mod-append:event>
+		<text id="event_DISTRESS_TRAPPED_MINER_SHOOT_1_text"/>
+		<autoReward level="LOW">scrap_only</autoReward>
+		<damage amount="2" system="random"/> <!--DLC-->
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DISTRESS_TRAPPED_MINER_SHOOT_2_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text>You fire a few volleys into the rock and it breaks into pieces. The pirate ship takes a few hits but manages to pull free. They thank you for your assistance, and reveal the hidden location of a black market store.</text> 
+		<autoReward level="LOW">standard</autoReward>
+		<quest event="QUEST_STORE"/>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="event" name="DISTRESS_INFESTATION">
+	<mod-append:choice hidden="true" req="LIFE_SCANNER">
+		<text>(Lifeform Scanner) Carefully track their movements and wait for the right moment to strike.</text>
+		<event>
+			<text>You patiently wait and attack when the arachnids are seperated, dispatching them easily. The station owners are thrilled with your success and offer you a reward.</text>
+			<autoReward level="HIGH">stuff</autoReward>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="eventList" name="DISTRESS_INFESTATION_LIST">
+	<mod-append:event>
+		<text>Your crew boards the station, cautiously moving between corridors. Suddenly a man-sized arachnid bursts through a damaged wall, followed by another. You flee back to the airlock, barely making it on board the ship without losses.</text>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DISTRESS_INFESTATION_LIST_2_text"/>
+		<choice hidden="true">
+			<text id="event_DISTRESS_INFESTATION_LIST_2_c1_choice"/>
+			<event>
+				<text id="event_DISTRESS_INFESTATION_LIST_2_c1_text"/>
+				<autoReward level="HIGH">stuff</autoReward>
+			</event>
+		</choice>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DISTRESS_INFESTATION_LIST_2_text"/>
+		<choice hidden="true">
+			<text id="event_DISTRESS_INFESTATION_LIST_2_c1_choice"/>
+			<event>
+				<text id="event_DISTRESS_INFESTATION_LIST_2_c1_text"/>
+				<autoReward level="HIGH">stuff</autoReward>
+			</event>
+		</choice>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="event" name="DISTRESS_SATELLITE_DEFENSE">
+	<mod:findWithChildLike type="choice" child-type="text">
+	<mod:selector id="event_DISTRESS_SATELLITE_DEFENSE_c1_choice"/>
+		<mod:findLike type="event">
+			<mod:findLike type="choice">
+			<mod:selector req="cloaking"/>
+				<mod:removeTag/>
+			</mod:findLike>
+			<mod:findLike type="choice">
+			<mod:selector req="engi"/>
+				<mod:findLike type="event">
+					<mod:findLike type="autoReward">
+						<mod:setAttributes level="MED"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+			<mod-append:choice hidden="true" req="cloaking" lvl="1" max_group="0">
+				<text id="event_DISTRESS_SATELLITE_DEFENSE_c1_c3_choice"/>
+				<event>
+					<text id="event_DISTRESS_SATELLITE_DEFENSE_c1_c3_text"/>
+					<autoReward level="LOW">standard</autoReward>
+				</event>
+			</mod-append:choice>
+			<mod-append:choice hidden="true" req="cloaking" lvl="2" max_group="0">
+				<text id="event_DISTRESS_SATELLITE_DEFENSE_c1_c4_choice"/>
+				<event>
+					<text id="event_DISTRESS_SATELLITE_DEFENSE_c1_c4_text"/>
+					<autoReward level="MED">standard</autoReward>
+				</event>
+			</mod-append:choice>
+			<mod-append:choice hidden="true" req="cloaking" lvl="3" max_group="0">
+				<text id="event_DISTRESS_SATELLITE_DEFENSE_c1_c5_choice"/>
+				<event>
+					<text id="event_DISTRESS_SATELLITE_DEFENSE_c1_c5_text"/>
+					<autoReward level="HIGH">standard</autoReward>
+				</event>
+			</mod-append:choice>
+			<mod-append:choice hidden="true" req="anaerobic"> 
+				<text>(Lanius Crew) Your crew offers to help.</text>
+				<event>
+					<text>Your Lanius crewmember appears to have a solution. The Lanius simply jumps out of the airlock towards the satellite. Apparently its lack of heat signatures renders it hidden from the satellite's targeting sensors. Once there they simply melt it down into scrap. You quickly pick them up and prepare to jump before the station can question your methods.</text>
+					<autoReward level="LOW">scrap_only</autoReward>
+				</event>
+			</mod-append:choice> 
+		</mod:findLike>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="DISTRESS_STATION_FIRE_CREW">
+	<mod-append:event>
+		<text id="event_DISTRESS_STATION_FIRE_CREW_2_text"/>
+		<autoReward level="HIGH">scrap_only</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DISTRESS_STATION_FIRE_CREW_2_text"/>
+		<autoReward level="MED">scrap_only</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DISTRESS_STATION_FIRE_CREW_2_text"/>
+		<autoReward level="MED">scrap_only</autoReward>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="DISTRESS_STATION_FIRE_RESCUE">
+	<mod:findWithChildLike type="event" child-type="crewMember">
+		<mod:findLike type="autoReward">
+			<mod:removeTag/>
+		</mod:findLike>
+	</mod:findWithChildLike>
+	<mod-append:event>
+		<text id="event_DISTRESS_STATION_FIRE_RESCUE_2_text"/>
+		<crewMember amount="1" id="name_DrJones"/>
+	</mod-append:event>
+	<mod-append:event>
+		<text>You locate the highest concentration of life forms and bring the ship alongside the station. Before you can begin to offload the survivors, a huge blast splits the station apart. Your ship is thrown away and some debris pierces your hull. You flee the station before you suffer more damage to your ship.</text>
+		<damage amount="2"/>
+		<damage amount="1" system="random"/>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="DISTRESS_STATION_DISEASE_LIST">
+	<mod-append:event>
+		<text>With the visible threat of your weapons, the infected become subdued enough for you to set up a rudimentary quarantine. The colony leaders offer you some payment in thanks.</text>
+		<autoReward level="MED">stuff</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text>With the visible threat of your weapons, the infected become subdued enough for you to set up a rudimentary quarantine. The colony leaders offer you some payment in thanks.</text>
+		<autoReward level="MED">stuff</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text>With the visible threat of your weapons, the infected become subdued enough for you to set up a rudimentary quarantine. The colony leaders offer you some payment in thanks.</text>
+		<autoReward level="MED">stuff</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text>With the visible threat of your weapons, the infected become subdued enough for you to set up a rudimentary quarantine. The colony leaders offer you some payment in thanks.</text>
+		<autoReward level="MED">stuff</autoReward>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="STATION_SICK_LIST">
+	<mod:findWithChildLike type="event" child-type="text">
+	<mod:selector id="event_STATION_SICK_LIST_3_text"/>
+		<mod:findLike type="choice">
+		<mod:selector req="teleporter"/>
+			<mod:removeTag/>
+		</mod:findLike>
+		<mod:findLike type="choice">
+		<mod:selector lvl="3"/>
+			<mod:findLike type="event">
+				<mod:findLike type="crewMember">
+					<mod:setAttributes repair="1"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+		<mod-append:choice hidden="true" req="teleporter">
+			<text id="event_STATION_SICK_LIST_3_c2_choice"/>
+			<event load="STATION_SICK_TELE"/>
+		</mod-append:choice>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="STATION_SICK_DRONE_LIST">
+	<mod-append:event>
+		<text id="event_STATION_SICK_DRONE_LIST_3_text"/>
+		<autoReward level="MED">standard</autoReward>
+		<item_modify>
+			<item type="drones" min="-1" max="-1"/>
+		</item_modify>
+	</mod-append:event>
+	<mod-append:event>
+		<text>The cameras mounted on your Anti-Personnel drone show a dreadful scene. Scientists lie dead where they fell, brutally dismembered. You instruct the drone to retrieve a few research drone parts lying on a desk near the door and leave quickly.</text>
+		<autoReward level="MED">droneparts</autoReward>
+		<item_modify>
+			<item type="drones" min="-1" max="-1"/>
+		</item_modify>
+	</mod-append:event>
+	<mod-append:event>
+		<text>The cameras mounted on your Anti-Personnel drone show a dreadful scene. Scientists lie dead where they fell, brutally dismembered. You instruct the drone to retrieve a few research drone parts lying on a desk near the door and leave quickly.</text>
+		<autoReward level="MED">droneparts</autoReward>
+		<item_modify>
+			<item type="drones" min="-1" max="-1"/>
+		</item_modify>
+	</mod-append:event>
+</mod:findName>
+
+<eventList name="STATION_SICK_TELE">
+	<event>
+		<text id="event_STATION_SICK_LIST_3_c2_text"/>
+		<crewMember amount="-1" class="traitor"/>
+	</event>
+	<event>
+		<text>You beam your away team back to the ship. You disengage from the station and leave as quickly as possible. Fortunately you brought them back before the infection could take hold.</text>
+	</event>
+	<event>
+		<text>You beam your away team back to the ship. You disengage from the station and leave as quickly as possible. Fortunately you brought them back before the infection could take hold.</text>
+	</event>
+</eventList>
+
+<mod:findName type="event" name="FUEL_FOR_DRONE">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="item_modify">
+				<mod:findLike type="item">
+				<mod:selector type="fuel"/>
+					<mod:setAttributes min="-6" max="-3"/>
+				</mod:findLike>
+				<mod:findLike type="item">
+				<mod:selector type="drones"/>
+					<mod:setAttributes min="3" max="6"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="REFUEL_STATION">
+	<mod:findWithChildLike type="choice" child-type="text">
+	<mod:selector id="event_REFUEL_STATION_c1_choice"/>
+		<mod:findLike type="event">
+			<mod:findLike type="item_modify">
+				<mod:findLike type="item">
+				<mod:selector type="scrap"/>
+					<mod:setAttributes min="-9" max="-9"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findWithChildLike>
+	<mod:findWithChildLike type="choice" child-type="text">
+	<mod:selector id="event_REFUEL_STATION_c2_choice"/>
+		<mod:findLike type="event">
+			<mod:findLike type="item_modify">
+				<mod:findLike type="item">
+				<mod:selector type="scrap"/>
+					<mod:setAttributes min="-5" max="-5"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="event" name="REPAIR_STATION">
+	<mod:findWithChildLike type="choice" child-type="text">
+	<mod:selector id="event_REPAIR_STATION_c1_choice"/>
+		<mod:findLike type="event">
+			<mod:findLike type="item_modify">
+				<mod:findLike type="item">
+				<mod:selector type="scrap"/>
+					<mod:setAttributes min="-36" max="-36"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findWithChildLike>
+	<mod:findWithChildLike type="choice" child-type="text">
+	<mod:selector id="event_REPAIR_STATION_c2_choice"/>
+		<mod:findLike type="event">
+			<mod:findLike type="item_modify">
+				<mod:findLike type="item">
+				<mod:selector type="scrap"/>
+					<mod:setAttributes min="-19" max="-19"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="TRADER_LIST">
+	<mod:findLike type="event">
+		<mod:findWithChildLike type="item_modify" child-type="item">
+		<mod:selector type="fuel" min="5"/>
+			<mod:findLike type="item">
+			<mod:selector type="drones"/>
+				<mod:setAttributes min="-3" max="-2"/>
+			</mod:findLike>
+		</mod:findWithChildLike>
+		<mod:findWithChildLike type="item_modify" child-type="item">
+		<mod:selector type="missiles" min="4"/>
+			<mod:findLike type="item">
+			<mod:selector type="missiles"/>
+				<mod:setAttributes min="5" max="9"/>
+			</mod:findLike>
+			<mod:findLike type="item">
+			<mod:selector type="fuel"/>
+				<mod:setAttributes min="-3" max="-2"/>
+			</mod:findLike>
+		</mod:findWithChildLike>
+		<mod:findWithChildLike type="item_modify" child-type="item">
+		<mod:selector type="drones" min="2"/>
+			<mod:findLike type="item">
+			<mod:selector type="drones"/>
+				<mod:setAttributes min="3" max="7"/>
+			</mod:findLike>
+			<mod:findLike type="item">
+			<mod:selector type="missiles"/>
+				<mod:setAttributes min="-5" max="-3"/>
+			</mod:findLike>
+		</mod:findWithChildLike>
+		<mod:findWithChildLike type="item_modify" child-type="item">
+		<mod:selector type="fuel" min="4"/>
+			<mod:findLike type="item">
+			<mod:selector type="missiles"/>
+				<mod:setAttributes max="-3"/>
+			</mod:findLike>
+		</mod:findWithChildLike>
+	</mod:findLike>
+	<mod-append:event>
+		<item_modify>
+			<item type="missiles" min="6" max="10"/>
+			<item type="drones" min="-5" max="-3"/>
+		</item_modify>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="MERCHANT_DELIVER_LIST">
+	<mod:findWithChildLike type="event" child-type="text">
+	<mod:selector id="event_MERCHANT_DELIVER_LIST_2_text"/>
+		<mod:findLike type="choice">
+		<mod:selector req="mind"/>
+			<mod:setAttributes lvl="1" max_group="0"/>
+		</mod:findLike>
+		<mod:findLike type="choice">
+		<mod:selector req="weapons"/>
+			<mod:findLike type="event">
+				<mod:findLike type="item_modify">
+					<mod:findLike type="item">
+					<mod:selector type="scrap"/>
+						<mod:setAttributes max="65"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+		<mod-append:choice hidden="true" req="mind" lvl="3" max_group="0">
+			<text>(Advanced Mind Control) Convince him that he's being 'unfair'.</text>
+			<event>
+				<text>"I'm being unfair. You did the job and the parts are here safe and sound. Here is the agreed upon amount, plus a little extra for your troubles."</text>
+				<choice>
+					<text id="event_MERCHANT_DELIVER_LIST_2_c3_c1_choice"/>
+					<event>
+						<item_modify>
+							<item type="scrap" min="50" max="60"/>
+							<item type="drones" min="-5" max="-5"/>
+							<item type="fuel" min="2" max="4"/>
+						</item_modify>			
+					</event>
+				</choice>
+				<choice>
+					<text id="event_MERCHANT_DELIVER_LIST_2_c3_c2_choice"/>
+					<event/>
+				</choice>
+			</event>
+		</mod-append:choice>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="MERCHANT_INVESTIGATE_LIST">
+	<mod:findLike type="event">
+		<mod:findWithChildLike type="choice" child-type="text">
+		<mod:selector id="event_MERCHANT_INVESTIGATE_LIST_2_c1_choice"/>
+			<mod-append:event>
+				<text id="event_MERCHANT_INVESTIGATE_LIST_2_c1_text"/>
+				<crewMember amount="1"/>
+				<quest event="MERCHANT_INVESTIGATE_DELIVER"/>
+			</mod-append:event>			
+			<mod-append:event>
+				<text>They upload the delivery destination once on board. They're no longer interested in adventuring through space, so you drop them off at a nearby station.</text>
+				<quest event="MERCHANT_INVESTIGATE_DELIVER"/>
+			</mod-append:event>
+			<mod-append:event>
+				<text>They upload the delivery destination once on board. They're no longer interested in adventures through space, but they give you a few supplies for your journey when you drop them off at a nearby station.</text>
+				<autoReward level="LOW">standard</autoReward>
+				<quest event="MERCHANT_INVESTIGATE_DELIVER"/>
+			</mod-append:event>	
+		</mod:findWithChildLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="HIDDEN_FEDERATION_BASE_LIST">
+	<mod:findWithChildLike type="event" child-type="text">
+	<mod:selector id="event_HIDDEN_FEDERATION_BASE_LIST_4_text"/>
+		<mod:findLike type="choice">
+		<mod:selector lvl="3"/>
+			<mod:findLike type="event">
+				<mod:findLike type="autoReward">
+					<mod:setAttributes level="HIGH"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+		<mod:findLike type="choice">
+		<mod:selector req="ADV_SCANNERS"/>
+			<mod:findLike type="event">
+				<mod:findLike type="autoReward">
+					<mod:setAttributes level="LOW"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+		<mod-append:choice req="LIFE_SCANNER" hidden="true">
+			<text>(Lifeform Scanner) Scan for signs of life.</text>
+			<event>
+				<text>You pick up a very faint signal. When you go down to investigate, you find a lone Federation marine inside a destroyed building. You discover that she is the only survivor of a vicious raid from a nearby war-band, and she offers to join your cause.</text>
+				<crewMember combat="1" amount="1"/>
+			</event>
+		</mod-append:choice>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="event" name="QUEST_MANTIS_INVASION">
+	<mod:findLike type="choice">
+	<mod:selector req="WEAPONS_MISSILES"/>
+		<mod:removeTag/>
+	</mod:findLike>
+	<mod-append:choice hidden="true" req="BOARDER_ION">
+		<text>(Ion Intruder Drone) Disrupt their power network.</text>
+		<event>
+			<text>You find a hole in their provisional defenses, and the intruder drone makes it into their power station. Mantis comm channels fill with panicked chatter as they search for the cause of the sudden blackout.</text>
+			<item_modify>
+				<item type="drones" min="-1" max="-1"/>
+			</item_modify>
+			<choice hidden="true">
+				<text id="continue"/>
+				<event>
+					<text>With half of their forces focused on the chaos, you slip undetected to small depot on the outskirts. You grab a few supplies and a ship-ready weapon, then quickly leave before you're discovered.</text>
+					<autoReward level="LOW">weapon</autoReward>
+				</event>
+			</choice>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="WEAPONS_MISSILES">
+		<text id="event_QUEST_MANTIS_INVASION_c2_choice"/>
+		<event>
+			<text id="event_QUEST_MANTIS_INVASION_c2_text"/>
+			<item_modify>
+				<item type="missiles" min="-1" max="-1"/>
+			</item_modify>
+			<ship load="MANTIS_LANDING_PARTY" hostile="true"/>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="ship" name="MANTIS_LANDING_PARTY">
+	<mod:findLike type="deadCrew">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="MED"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="QUEST_CREWDEAD_START_2">
+	<mod-append:choice hidden="true" req="BOARDER_PLAYER">
+		<text>(Boarding Drone) Offer to board their ship.</text>
+		<event load="QUEST_CREWDEAD_CONTINUE"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="BEAM_FIRE">
+		<text>(Fire Beam) Offer to burn the crew out.</text>
+		<event load="QUEST_CREWDEAD_CONTINUE"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="COMBAT_FIRE">
+		<text>(Fire Drone) Offer to burn the crew out.</text>
+		<event load="QUEST_CREWDEAD_CONTINUE"/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="eventList" name="DEAD_CREW_DEFAULT">
+	<mod-append:event>
+		<text id="event_DEAD_CREW_DEFAULT_1_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DEAD_CREW_DEFAULT_1_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DEAD_CREW_DEFAULT_1_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DEAD_CREW_DEFAULT_1_text"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DEAD_CREW_DEFAULT_1_text"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DEAD_CREW_DEFAULT_6_text"/>
+		<autoReward level="HIGH">fuel</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DEAD_CREW_DEFAULT_6_text"/>
+		<autoReward level="HIGH">fuel</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DEAD_CREW_DEFAULT_9_text"/>
+		<autoReward level="LOW">weapon</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DEAD_CREW_DEFAULT_1_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DEAD_CREW_DEFAULT_1_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DEAD_CREW_DEFAULT_1_text"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="DEAD_CREW_SLAVER">
+	<mod:findWithChildLike type="event" child-type="choice">
+		<mod:findLike type="choice">
+			<mod:findLike type="event">
+				<mod:findLike type="autoReward">
+					<mod:setAttributes level="LOW"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findWithChildLike>
+	<mod:findWithChildLike type="event" child-type="crewMember">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="MED"/>
+		</mod:findLike>
+	</mod:findWithChildLike>
+	<mod-append:event>
+		<text id="event_DEAD_CREW_SLAVER_3_text"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="event" name="DONOR_PLAGUE">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="autoReward">
+				<mod:setAttributes level="LOW"/>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="DONOR_PLAGUE_LIST">
+	<mod:findWithChildLike type="event" child-type="text">
+	<mod:selector id="event_DONOR_PLAGUE_LIST_1_text"/>
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="MED"/>
+			<mod:setValue>standard</mod:setValue>
+		</mod:findLike>
+	</mod:findWithChildLike>
+	<mod-append:event>
+		<text id="event_DONOR_PLAGUE_LIST_1_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DONOR_PLAGUE_LIST_1_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DONOR_PLAGUE_LIST_1_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DONOR_PLAGUE_LIST_2_text"/>
+		<autoReward level="LOW">scrap_only</autoReward>
+		<crewMember amount="1" class="human"/>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DONOR_PLAGUE_LIST_2_text"/>
+		<crewMember amount="1" class="human"/>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_DONOR_PLAGUE_LIST_2_text"/>
+		<crewMember amount="1" class="human"/>
+	</mod-append:event>
+	<mod-append:event>	
+		<text id="event_DONOR_PLAGUE_LIST_3_text"/>
+		<autoReward level="LOW">scrap_only</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event>
+				<text id="event_DONOR_PLAGUE_LIST_3_c1_text"/>
+				<removeCrew>
+					<clone>false</clone>
+					<text id="event_DONOR_PLAGUE_LIST_3_c1_c0_clone"/>
+				</removeCrew>
+			</event>
+		</choice>
+		<choice hidden="true" req="medbay" lvl="2">
+			<text id="event_DONOR_PLAGUE_LIST_3_c2_choice"/>
+			<event>
+				<text id="event_DONOR_PLAGUE_LIST_3_c2_text"/>
+			</event>
+		</choice>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="DONOR_PONY_SELL">
+	<mod:findWithChildLike type="event" child-type="text">
+	<mod:selector id="event_DONOR_PONY_SELL_1_text"/>
+		<mod:removeTag/>
+	</mod:findWithChildLike>
+	<mod:findLike type="event">
+		<mod-append:autoReward level="MED">scrap_only</mod-append:autoReward>
+	</mod:findLike>
+	<mod-append:event>
+		<text>They'll fetch a high price. Capturing the innocent creatures makes you feel a bit queasy and raises complaints from the crew, but you decide the mission is more important than ethical concerns.</text>
+		<autoReward level="HIGH">scrap_only</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text>They'll fetch a high price. Capturing the innocent creatures makes you feel a bit queasy and raises complaints from the crew, but you decide the mission is more important than ethical concerns.</text>
+		<autoReward level="HIGH">scrap_only</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text>They'll fetch a decent price. Capturing the innocent creatures makes you feel a bit queasy and raises complaints from the crew, but you decide the mission is more important than ethical concerns.</text>
+		<autoReward level="MED">scrap_only</autoReward>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="ALISON_DEFECTOR_HELP">
+	<mod-append:event>
+		<text id="event_ALISON_DEFECTOR_HELP_3_text"/>
+		<crewMember amount="1" class="human"/>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="ALISON_DEFECTOR_HELP_2">
+	<mod-append:event>
+		<text id="event_ALISON_DEFECTOR_HELP_2_3_text"/>
+		<crewMember amount="1" class="human"/>
+		<quest event="ALISON_DEFECTOR_QUEST"/>
+	</mod-append:event>
+</mod:findName>
+</FTL>

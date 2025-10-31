@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="text" name="aug_ADV_SCANNERS_desc">
+	<mod:setValue>Adds additional info about nearby beacons on the star map.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_AUTO_COOLDOWN_title">
+	<mod:setValue>Automated Reloader</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_AUTO_COOLDOWN_desc">
+	<mod:setValue>The cooldown of all your weapons (including Artillery) is reduced by 10%.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_BATTERY_BOOSTER_desc">
+	<mod:setValue>Backup Battery's lock time is reduced from 20 seconds down to 4 seconds.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_CLOAK_FIRE_desc">
+	<mod:setValue>Prevents your weapon fire from reducing your cloak timer, allowing you to shoot at will while cloaked without reducing your cloak duration.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_CREW_STIMS_desc">
+	<mod:setValue>Your crew's movement speed is increased by 30%.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_CRYSTAL_SHARDS_desc">
+	<mod:setValue>Every time your ship takes damage, there's a 20% chance a shard breaks off and flies at your enemy with a 100% chance to breach.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_DEFENSE_SCRAMBLER_desc">
+	<mod:setValue>Prevents enemy Defense and Anti-Combat Drones from targeting anything.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_DRONE_SPEED_desc">
+	<mod:setValue>Your shipboard drones move around the ship 300% faster.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_EXPLOSIVE_REPLICATOR_desc">
+	<mod:setValue>Missile based weapons have a 50% chance of not using a missile.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
+	<mod:setValue>Automatically put out all fires throughout the ship simultaneously at standard crew firefighting speed.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_FTL_BOOSTER_desc">
+	<mod:setValue>The ship's FTL Drive powers up 55% faster.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_FTL_JUMPER_desc">
+	<mod:setValue>Automatically fully maps new sectors and allows the ship to jump to any previously visited beacon.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_ION_ARMOR_desc">
+	<mod:setValue>Protects your ship from ion damage, giving a 60% chance to negate it entirely.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_LIFE_SCANNER_desc">
+	<mod:setValue>Detects the location of any lifeforms, even when sensors don't function.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_NANO_MEDBAY_desc">
+	<mod:setValue>Engi nano med-bots heal the crew outside of the Medbay while the Medbay is powered (at 1/4 speed). Doesn't work with Clone Bay; Unaffected by upgrading your Medbay.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_O2_MASKS_desc">
+	<mod:setValue>Crew take 40% damage from low oxygen.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_REPAIR_ARM_desc">
+	<mod:setValue>Repairs your hull by 2 every time you collect scrap, but reduces scrap collected by 10% (unless hull is already maxed).</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_ROCK_ARMOR_desc">
+	<mod:setValue>Superior hull armor provides a 15% chance to negate incoming hull damage (hit systems will still be damaged).</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_SCRAP_COLLECTOR_desc">
+	<mod:setValue>Whenever you collect scrap, you gain an additional 11% (rounded down).</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_SHIELD_RECHARGE_desc">
+	<mod:setValue>Boosts the ship's shield recharge rate by 15%.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_SLUG_GEL_desc">
+	<mod:setValue>Excretes a thick gel that automatically repairs any hull breaches.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_SYSTEM_CASING_desc">
+	<mod:setValue>All ship systems have additional plating that provides a 20% chance to negate damage when hit (hull will still be damaged).</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="aug_WEAPON_PREIGNITE_desc">
+	<mod:setValue>Weapons are made immediately available after an FTL jump. (Only fills the first level of Charge and Chain weaponry. Does not apply to Artillery.)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_anaerobic_power_2">
+	<mod:setValue>0.85x move speed; no damage from lack of oxygen.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_crystal_power_4">
+	<mod:setValue>Health is increased to 125</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_crystal_power_3">
+	<mod:setValue>0.8x move speed</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_energy_desc">
+	<mod:setValue>The 'Zoltan' are allies of the 'Engi'. Their innate energy can power ship systems.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_energy_power_3">
+	<mod:setValue>Deals 15 damage to enemy crew on death</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_energy_power_2">
+	<mod:setValue>Health reduced to 70</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_human_power_1">
+	<mod:setValue>Skills improve 10% faster</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_rock_power_3">
+	<mod:setValue>Health is increased to 150</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_rock_power_1">
+	<mod:setValue>Immune to fire; extinguish about 67% faster</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_rock_power_2">
+	<mod:setValue>0.5x move speed</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_slug_power_2">
+	<mod:setValue>Immune to mind control</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="crew_slug_power_1">
+	<mod:setValue>Lifeforms and nearby rooms are revealed even when sensors are down</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="drone_BATTLE_desc">
+	<mod:setValue>Will seek out and attempt to destroy any intruders onboard your ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="drone_COMBAT_1_desc">
+	<mod:setValue>Powerful drone that continually attacks the enemy ship. 10% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="drone_COMBAT_2_desc">
+	<mod:setValue>Powerful drone that continually attacks the enemy ship. Moves and shoots faster than Mark I. 10% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="drone_COMBAT_BEAM_desc">
+	<mod:setValue>Combat drone that repeatedly attacks with a small beam weapon. 10% fire chance per tile.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="drone_COMBAT_BEAM_2_desc">
+	<mod:setValue>Combat drone that repeatedly attacks with a larger beam weapon. 10% fire chance per tile.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="drone_COMBAT_FIRE_desc">
+	<mod:setValue>Combat drone that repeatedly attacks with a small beam weapon that lights rooms on fire. 90% fire chance per tile.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="drone_DEFENSE_1_desc">
+	<mod:setValue>Shoots down incoming missiles, boarding drones, asteroids, and flak debris.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="drone_DEFENSE_2_desc">
+	<mod:setValue>Shoots down all types of incoming projectiles and fires faster than Mark I.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="drone_DRONE_SHIELD_desc">
+	<mod:setValue>Creates single Supershield barrier periodically. Takes longer for each layer of Supershield already present.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="drone_DRONE_SHIELD_PLAYER_title">
+	<mod:setValue>Shield Overcharger+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_ANAEROBIC_SCOUT_class">
+	<mod:setValue>Lanius Disruptor</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_AUTO_BASIC_class">
+	<mod:setValue>Auto-Drone</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_FED_BOMBER_class">
+	<mod:setValue>Federation Fighter</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_FED_BOMBER_PIRATE_class">
+	<mod:setValue>Pirate Fighter</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_PLAYER_SHIP_FED_2_name">
+	<mod:setValue>The Albatross</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_PLAYER_SHIP_FED_2_desc">
+	<mod:setValue>This ship needs to adjust its weapon choice for each situation.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_PLAYER_SHIP_JELLY_desc">
+	<mod:setValue>Designed for use inside nebulae, this cruiser lacks sensors and relies instead on the guile and cunning of the Slugs.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_PLAYER_SHIP_KESTREL_3_name">
+	<mod:setValue>The Loon</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_PLAYER_SHIP_KESTREL_3_desc">
+	<mod:setValue>This model was modified by pirates and is quick to escape when a fight goes sour.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_PLAYER_SHIP_MANTIS_unlock">
+	<mod:setValue>The famous Mantis thief, KazaaakplethKilik, owns this ship. You'll have to "convince" her to help you.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_PLAYER_SHIP_MANTIS_2_desc">
+	<mod:setValue>This warship encourages sending massive boarding parties and keeping strong defenses. Due to an intentional flaw in the design caused by the Engi designers, Defense Drones cannot fully protect the Basilisk's Shields and Drone Control.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_PLAYER_SHIP_STEALTH_3_desc">
+	<mod:setValue>This ship was part of an Engi experiment to make a power efficient version of the Zoltan Shield. Unfortunately this required the removal of the Cloaking System.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="system_battery_desc">
+	<mod:setValue>Provides a 30-second power boost to your Reactor, followed by a 20-second recharge time before you can use it again. Upgrading increases the boost amount.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="system_cloaking_desc">
+	<mod:setValue>Cloaks the ship, adding 60 to your evasion and preventing the enemy ship from locking on with their weapons. Firing non-Beam weaponry while cloaked reduces your remaining cloak time by 1/2/3 seconds for Tier 1/2/3 Cloaking.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="system_clonebay_desc">
+	<mod:setValue>Automatically clones dead crew with a 20% skill penalty, except for Combat skill which decreases by 1. Taking advantage of micro-cloning, crew heals partially every jump. Jump heal is passive and requires no power.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="system_hacking_desc">
+	<mod:setValue>Targets a system: locks its doors, halves repair speed, and grants the ability to temporarily disable or disrupt it. Requires drone part to launch.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="system_mind_desc">
+	<mod:setValue>Temporarily turn enemies into allies or counters enemy Mind Control. Tier-1 lasts 14 seconds; Tier-2 lasts 20 seconds, granting the enemy +15hp and +25% damage; Tier-3 lasts 28 seconds, granting +30hp and +100% damage.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="system_oxygen_desc">
+	<mod:setValue>Refills the oxygen in the ship. Upgrading increases the rate of refill - Tier-2 can combat a breach with sufficient open doors; Tier-3 can combat a breach by itself.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="system_shields_desc">
+	<mod:setValue>Powers your shields. Each additional barrier can block one shot. Tier 0->1 and Tier 1->2 refill after 2 seconds; Tier 2->3 takes 1.72 seconds; Tier 3->4 takes 1.5 seconds.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="system_teleporter_desc">
+	<mod:setValue>Allows you to send your crewmembers to board enemy vessels.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ARTILLERY_FED_desc">
+	<mod:setValue>Powers a slow, high-powered beam that pierces all shields and does one damage per room hit. More power means faster cooldown. 10% fire chance per tile.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ARTILLERY_FED_tooltip">
+	<mod:setValue>Artillery: Beam that automatically fires a 1 damage beam that pierces all shields.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ARTILLERY_FED_C_desc">
+	<mod:setValue>Powers a slow, high-powered flak gun that fires eight projectiles. More power means faster cooldown.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ARTILLERY_FED_C_tooltip">
+	<mod:setValue>Artillery: Flak gun that automatically fires 8 projectiles.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BEAM_1_desc">
+	<mod:setValue>A low-power, efficient beam weapon. 10% fire chance per tile.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BEAM_1_tooltip">
+	<mod:setValue>One damage per room beam weapon; does not pierce shields.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BEAM_2_tooltip">
+	<mod:setValue>Beam weapon that does 2 damage per room, partially piercing up to 1 layer of shields.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BEAM_3_desc">
+	<mod:setValue>One of the most powerful weapons of war ever created. Slow to charge, but known to take out some ships in a single blast.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BEAM_3_tooltip">
+	<mod:setValue>Beam weapon that does 3 damage per room, partially piercing up to 2 layers of shields.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BEAM_BIO_desc">
+	<mod:setValue>This terrifying beam does no physical damage but rips through organic material, dealing 60 damage to crewmembers and on-board drones.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BEAM_BIO_tooltip">
+	<mod:setValue>Beam weapon that deals 60 damage to crew and drones; does not pierce shields.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BEAM_FIRE_desc">
+	<mod:setValue>This terrifying beam does no physical damage but ignites fires. 80% fire chance per tile.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BEAM_FIRE_tooltip">
+	<mod:setValue>Beam weapon that starts fires; does not pierce shields.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BEAM_HULL_tooltip">
+	<mod:setValue>Beam weapon that does 1 damage per room; does not pierce shields. 2x damage in systemless rooms.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BEAM_LONG_tooltip">
+	<mod:setValue>Beam weapon that does 1 damage per room across an extended line; does not pierce shields.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_1_short">
+	<mod:setValue>Small B.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_1_desc">
+	<mod:setValue>Self-teleporting explosive that damages systems and crew but not the hull. Can target your own ship. 10% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_1_tooltip">
+	<mod:setValue>Bomb weapon; requires a missile; does 2 damage to systems and 30 to crew. Can target your own ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_BREACH_1_desc">
+	<mod:setValue>Self-teleporting explosive designed to damage systems and cause a breach. Can target your own ship. 100% breach chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_BREACH_1_tooltip">
+	<mod:setValue>Bomb weapon; requires a missile; 1 damage to systems; 30 damage to crew; creates hull breach. Can target your own ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_BREACH_2_desc">
+	<mod:setValue>Causes a breach and does good damage to both systems and crew. Can target your own ship. 100% breach chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_BREACH_2_tooltip">
+	<mod:setValue>Bomb weapon; requires a missile; 3 damage to systems and 45 to crew; creates a hull breach. Can target your own ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_FIRE_desc">
+	<mod:setValue>Self-teleporting explosive designed to damage crew-members and light fires. Can target your own ship. 100% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_FIRE_tooltip">
+	<mod:setValue>Bomb weapon; requires a missile; 30 damage to crew; no damage to systems but lights fires. Can target your own ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_HEAL_tooltip">
+	<mod:setValue>Bomb weapon; requires a missile; heals nearby crewmembers fully. Can target your own ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_HEAL_SYSTEM_tooltip">
+	<mod:setValue>Bomb weapon; requires a missile; fully repairs system. Can target your own ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_ION_short">
+	<mod:setValue>Ion B.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_ION_tooltip">
+	<mod:setValue>Bomb weapon; requires a missile; does no direct damage but deals 4 ion damage. Can target your own ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_STUN_desc">
+	<mod:setValue>Self-teleporting explosive that does 1 ion damage and stuns all crew inside the room for 15 seconds. Can target your own ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_CRYSTAL_BURST_1_desc">
+	<mod:setValue>Modified projectile weapon that fires 2 shield piercing crystals. 10% breach chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_CRYSTAL_BURST_2_desc">
+	<mod:setValue>Modified projectile weapon that fires 3 shield piercing crystals. 10% breach chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_CRYSTAL_HEAVY_1_desc">
+	<mod:setValue>Modified projectile weapon that fires a shield piercing large crystal. 20% breach chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_CRYSTAL_HEAVY_2_desc">
+	<mod:setValue>Modified projectile weapon that fires a shield piercing large crystal. 100% breach chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_CRYSTAL_HEAVY_2_tooltip">
+	<mod:setValue>Pierces 2 shields; fires 1 crystal that deals 4 damage and causes a hull breach.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ION_2_title">
+	<mod:setValue>Heavy Ion Stunner</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ION_2_short">
+	<mod:setValue>H. Ion Stun</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ION_2_desc">
+	<mod:setValue>Ion weapons can disable systems without causing hull damage. Stuns crew inside the room for 7 seconds.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ION_CHAINGUN_desc">
+	<mod:setValue>This weapon's ion damage increases each time it fires to a max of 4.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_BURST_1_title">
+	<mod:setValue>Basic Laser</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_BURST_1_desc">
+	<mod:setValue>Low-power, weak laser. 10% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_BURST_1_tooltip">
+	<mod:setValue>Shoots 1 laser that does 1 damage.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_BURST_2_desc">
+	<mod:setValue>Dual lasers. Packs moderate firepower into a low-energy package. 10% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_BURST_2_A_desc">
+	<mod:setValue>This simple burst laser packs a decent punch for a reasonable cost. 10% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_BURST_3_desc">
+	<mod:setValue>Improved version of the Burst Laser I that fires an extra shot per charge. 10% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_BURST_3_tooltip">
+	<mod:setValue>Shoots 3 lasers that do 1 damage each.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_BURST_5_desc">
+	<mod:setValue>Cheaply made burst laser that fires off an impressive barrage, but requires a lot of power and takes time to charge. 10% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_CHAINGUN_desc">
+	<mod:setValue>This dual shot laser decreases in cooldown the more it fires. After 3 volleys it only takes 6 seconds to charge. 10% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_CHAINGUN_2_desc">
+	<mod:setValue>This laser weapon takes a long time to warm up. Each time it fires it decreases the cooldown, eventually able to fire faster than shields recharge. 10% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_CHARGEGUN_short">
+	<mod:setValue>Charge I</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_CHARGEGUN_desc">
+	<mod:setValue>This laser weapon can charge two times, giving it flexibility. 10% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_CHARGEGUN_2_title">
+	<mod:setValue>Laser Charger II</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_CHARGEGUN_2_desc">
+	<mod:setValue>This laser weapon can charge multiple times, giving it flexibility. 10% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_CHARGEGUN_PLAYER_title">
+	<mod:setValue>Laser Charger+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_CHARGEGUN_PLAYER_short">
+	<mod:setValue>Charge+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_CHARGEGUN_PLAYER_desc">
+	<mod:setValue>This laser weapon can charge two times, giving it flexibility. This improved version only requires 1 power. 10% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_HEAVY_1_desc">
+	<mod:setValue>Heavy lasers can wreak more havoc than their smaller, burst laser counterparts. 30% breach chance; 21% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_HEAVY_1_tooltip">
+	<mod:setValue>Shoots 1 heavy laser that does 2 damage. 30% breach chance; 21% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_HEAVY_1_SP_desc">
+	<mod:setValue>Heavy lasers can wreak more havoc than their smaller, burst laser counterparts. This modified version pierces 1 shield. 30% breach chance; 21% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_HEAVY_1_SP_tooltip">
+	<mod:setValue>Shoots 1 heavy laser that does 2 damage and ignores 1 shield. 30% breach chance; 21% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_HEAVY_2_desc">
+	<mod:setValue>Shoots 2 heavy lasers that do 2 damage each. 30% breach chance; 21% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_HEAVY_2_tooltip">
+	<mod:setValue>Fires 2 heavy lasers, 2 damage each; moderate breach and fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_HULL_1_desc">
+	<mod:setValue>A powerful laser designed to maximize hull damage. 20% breach chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_HULL_2_desc">
+	<mod:setValue>A more powerful version of the Hull Laser I, designed to maximize hull damage and cause breaches. 40% breach chance, 6% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILES_1_short">
+	<mod:setValue>Leto M.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILES_1_desc">
+	<mod:setValue>This launcher is outdated and weak, but can still be effective. 10% breach chance; 9% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILES_2_desc">
+	<mod:setValue>Standard missile launcher on most Federation ships. 10% breach chance; 9% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILES_2_PLAYER_desc">
+	<mod:setValue>Standard missile launcher on most Federation ships. 10% breach chance; 9% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILES_3_desc">
+	<mod:setValue>Standard, cheap missile weapon. 20% breach chance; 24% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILES_BREACH_short">
+	<mod:setValue>Breach M.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILES_BREACH_desc">
+	<mod:setValue>These missiles are designed to cause maximum destruction to ship armor. 100% breach chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILES_BREACH_tooltip">
+	<mod:setValue>Fires 1 missile; 4 damage; pierces all shields; guaranteed breach.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILES_BURST_desc">
+	<mod:setValue>Creative missile design allows for two projectiles for the cost of one! 20% breach chance; 24% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILES_BURST_tooltip">
+	<mod:setValue>Fires 2 missiles, 2 damage each; pierces all shields.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILES_HULL_short">
+	<mod:setValue>Hull M.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILES_HULL_desc">
+	<mod:setValue>High hull damage missile. 40% breach chance; 6% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILE_CHARGEGUN_desc">
+	<mod:setValue>If given time to prepare, the 'Swarm' launcher can replicate multiple warheads. Slightly inaccurate. 10% breach chance; 9% fire chance.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_SHOTGUN_desc">
+	<mod:setValue>Fires a blast of debris across a random area doing up to 3 damage. Good at taking down shields but inaccurate.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_SHOTGUN_2_desc">
+	<mod:setValue>Fires a blast of debris across a large random area, doing up to 7 damage. Good at taking down shields but inaccurate.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_SHOTGUN_PLAYER_desc">
+	<mod:setValue>Low-power weapon that fires a blast of debris across a random area doing up to 3 damage. Good at taking down shields but somewhat inaccurate.</mod:setValue>
+</mod:findName>
+</FTL>

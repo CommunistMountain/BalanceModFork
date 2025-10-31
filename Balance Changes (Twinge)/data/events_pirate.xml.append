@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="event" name="START_BEACON_PIRATE">
+	<mod-append:choice req="FTL_JUMPER" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event>
+			<reveal_map/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="engines" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="eventList" name="SAVE_CIVILIAN_LIST">
+	<mod:findWithChildLike type="event" child-type="text">
+	<mod:selector id="event_SAVE_CIVILIAN_LIST_1_text"/>
+		<mod:findLike type="choice">
+			<mod:removeTag/>
+		</mod:findLike>
+		<mod-append:crewMember amount="1"/>
+	</mod:findWithChildLike>
+	<mod-append:event>
+		<text id="event_SAVE_CIVILIAN_LIST_2_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_SAVE_CIVILIAN_LIST_3_text"/>
+		<autoReward level="LOW">standard</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_SAVE_CIVILIAN_LIST_4_text"/>
+		<choice>
+			<text id="event_SAVE_CIVILIAN_LIST_4_c1_choice"/>
+			<event>
+				<autoReward level="LOW">weapon</autoReward>
+			</event>
+		</choice>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_SAVE_CIVILIAN_LIST_5_text"/>
+		<damage amount="-5"/>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_SAVE_CIVILIAN_LIST_6_text"/>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="event" name="PIRATE_CHOICE">
+	<mod:findWithChildLike type="choice" child-type="text">
+	<mod:selector id="event_PIRATE_CHOICE_c1_choice"/>
+		<mod:removeTag/>
+	</mod:findWithChildLike>
+	<mod-append:choice>
+		<text id="event_PIRATE_CHOICE_c1_choice"/>
+		<event>
+			<text id="event_PIRATE_CHOICE_c1_text"/>
+			<item_modify>
+				<item type="scrap" min="-22" max="-11"/>
+			</item_modify>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="PIRATE_SLAVER">
+	<mod:findWithChildLike type="choice" child-type="text">
+	<mod:selector id="event_PIRATE_SLAVER_c1_choice"/>
+		<mod:removeTag/>
+	</mod:findWithChildLike>
+	<mod:findLike type="choice">
+	<mod:selector req="engines"/>
+		<mod:removeTag/>
+	</mod:findLike>
+	<mod-append:choice>
+		<text id="event_PIRATE_SLAVER_c1_choice"/>
+		<event>
+			<text id="event_PIRATE_SLAVER_c1_text"/>
+			<removeCrew>
+				<clone>false</clone>
+				<text id="event_PIRATE_SLAVER_c1_c0_clone"/>
+			</removeCrew>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="engines" lvl="6" hidden="true">
+		<text id="event_PIRATE_SLAVER_c3_choice"/>
+		<event load="PIRATE_SLAVER_RUN"/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="FRIENDLY_SLAVER">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="item_modify">
+				<mod:findLike type="item">
+					<mod:setAttributes min="-24" max="-14"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="FRIENDLY_SLAVER_TELEPORTER">
+	<mod-append:event>
+		<text id="event_FRIENDLY_SLAVER_TELEPORTER_3_text"/>
+		<ship hostile="true"/>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="event" name="FLOATING_CARGO">
+	<mod:findLike type="choice">
+	<mod:selector req="ADV_SCANNERS"/>
+		<mod:setAttributes req="LIFE_SCANNER"/>
+		<mod:findLike type="event">
+			<mod:setAttributes load="FLOATING_CARGO_LIFEFORM_LIST"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="FLOATING_CARGO_SCAN_LIST">
+	<mod:findWithChildLike type="event" child-type="item_modify">
+		<mod:findLike type="item_modify">
+			<mod:removeTag/>
+		</mod:findLike>
+		<mod-append:autoReward level="MED">scrap_only</mod-append:autoReward>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<eventList name="FLOATING_CARGO_LIFEFORM_LIST">
+	<event>
+		<text id="event_FLOATING_CARGO_SCAN_LIST_1_text"/>
+		<autoReward level="MED">scrap_only</autoReward>
+	</event>
+	<event>
+		<text>You detect no lifeforms, so you pull the cargo on board. Looks like there are various supplies inside; you take everything you can use.</text>
+		<autoReward level="MED">standard</autoReward>
+	</event>
+	<event>
+		<text>Your suspicions were correct - you detect life inside the crates. They appear to be armed - this looks like a planned pirate ambush.</text>
+		<choice hidden="true">
+			<text id="event_FLOATING_CARGO_SCAN_LIST_3_c1_choice"/>
+			<event>
+				<text id="event_FLOATING_CARGO_SCAN_LIST_3_c1_text"/>
+				<ship load="PIRATE" hostile="true"/>
+			</event>
+		</choice>
+		<choice>
+			<text id="event_FLOATING_CARGO_SCAN_LIST_3_c2_choice"/>
+			<event/>
+		</choice>
+	</event>
+</eventList>
+</FTL>

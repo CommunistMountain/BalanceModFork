@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="eventList" name="DISTRESS_BEACON_MANTIS">
+	<mod:findLike type="event">
+	<mod:selector load="DISTRESS_INFESTATION"/>
+		<mod:removeTag/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="START_BEACON_MANTIS">
+	<mod-append:choice req="FTL_JUMPER" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event>
+			<reveal_map/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="engines" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="MANTIS_CREW">
+	<mod-append:choice hidden="true" req="LIFE_SCANNER">
+		<text>(Lifeform Scanner) Check the pod for life.</text>
+		<event load="MANTIS_CREW_LIST_SCAN"/>
+	</mod-append:choice>
+</mod:findName>
+
+<eventList name="MANTIS_CREW_LIST_SCAN">	
+	<event>
+		<text>You're surprised to detect a human inside. You pry open the pod and they burst out in a panic, screaming - a rare survivor of Mantis captivity. Once calm, the survivor offers to join your crew.</text>
+		<crewMember amount="1" class="human"/>
+	</event>
+	<event>
+		<text>You detect a live Mantis inside. Mantis are not known for their gratefulness; you consider how to proceed.</text>
+		<choice>
+			<text id="event_MANTIS_CREW_c1_choice"/>
+			<event>
+				<text>You send the pod back out the airlock - it's not worth the risk.</text>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Pry it open anyway.</text>
+			<event load="MANTIS_CREW_LIST_SCAN_MANT"/>
+		</choice>
+	</event>
+</eventList>
+
+<eventList name="MANTIS_CREW_LIST_SCAN_MANT">
+	<event>
+		<text>The Mantis inside is FURIOUS. She cuts the closest person in half with a single swipe. Kill her before anyone else is hurt.</text>
+		<boarders min="1" max="1" class="mantis"/>
+		<removeCrew>
+			<clone>true</clone>
+			<text>The Mantis is shocked to see the crewmember she just slaughtered step out of the Clone Bay.</text>
+		</removeCrew>
+	</event>
+	<event>
+		<text id="event_MANTIS_CREW_LIST_2_text"/>
+		<crewMember amount="1" class="mantis"/>
+	</event>
+	<event>
+		<text id="event_MANTIS_CREW_LIST_2_text"/>
+		<crewMember amount="1" class="mantis"/>
+	</event>
+</eventList>
+
+<mod:findName type="event" name="MANTIS_NAMED_THIEF_DEFEAT">
+	<mod-append:choice hidden="true" req="LIFE_SCANNER">
+		<text>(Lifeform Scanner) Check the ship for signs of life.</text>
+				<event>
+			<text id="event_MANTIS_NAMED_THIEF_DEFEAT_c3_text"/>
+			<choice hidden="true">
+				<text>Let her die.</text>
+				<event>
+					<text>Thus ends the life of the famed captain, KazaaakplethKilik... You wonder what secrets went with her to the grave as you thoroughly loot her ship.</text>
+					<autoReward level="HIGH">standard</autoReward>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text>Dock and try to speak with her.</text>
+				<event>
+					<text>In her dying moments she gives up the location of her secret stash. You strip the ship wondering what other secrets went with her to the grave.</text>
+					<quest event="MANTIS_NAMED_THIEF_STASH"/>
+					<autoReward level="HIGH">standard</autoReward>
+				</event>
+			</choice>
+			<choice hidden="true" req="medbay" lvl="2">
+				<text>(Improved Medbay) Dock and quickly take her back to the Medbay.</text>
+				<event>
+					<text>Your haste has paid off and you are able to bring her back from the brink of death. When her senses return she says, "I never thought I would see this day, but... I am willing to devote myself and my ships to your cause."</text>
+					<choice hidden="true">
+						<text id="event_MANTIS_NAMED_THIEF_DEFEAT_c2_c3_c1_choice"/>
+						<event>
+							<text>KazaaakplethKilik joins your crew, offers the coordinates for a nearby stash of stolen military goods and transmits the coordinates for a custom cruiser she has been working on. You forward it to the Federation, sure they can make good use of it.</text>
+							<augment name="CREW_STIMS"/>
+							<autoReward level="HIGH">scrap_only</autoReward>
+							<crewMember amount="1" class="mantis" all_skills="2">Kazaaak</crewMember>
+							<quest event="MANTIS_NAMED_THIEF_STASH"/>
+							<unlockShip id="2"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" req="clonebay" lvl="2">
+				<text>(Improved Clone Bay) Quickly configure the Clone Bay to save her.</text>
+				<event>
+					<text>Your haste has paid off and you register her into the Clone Bay's database. After she passes away she is quickly reconstructed on board your ship. When her senses return she says, "I never thought I would see this day, but... I am willing to devote myself and my ships to your cause."</text>
+					<choice hidden="true">
+						<text>Accept.</text>
+						<event>
+							<text>KazaaakplethKilik joins your crew, offers the coordinates for a nearby stash of stolen military goods and transmits the coordinates for a custom cruiser she has been working on. You forward it to the Federation, sure they can make good use of it.</text>
+							<augment name="CREW_STIMS"/>
+							<autoReward level="HIGH">scrap_only</autoReward>
+							<crewMember amount="1" class="mantis" all_skills="2">Kazaaak</crewMember>
+							<quest event="MANTIS_NAMED_THIEF_STASH"/>
+							<unlockShip id="2"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+</FTL>

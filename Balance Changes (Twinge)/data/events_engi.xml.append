@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="event" name="START_BEACON_ENGI">
+	<mod-append:choice req="FTL_JUMPER" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event>
+			<reveal_map/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="engines" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="ENGI_FLEET_DELAY">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="autoReward">
+				<mod:setAttributes level="LOW"/>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="ENGI_SURRENDER">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="autoReward">
+				<mod:setAttributes level="MED"/>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="ENGI_SURRENDER_LIST">
+	<mod:findLike type="event">
+		<mod:findLike type="autoReward">
+			<mod:setAttributes level="HIGH"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod-append:event>
+		<text id="event_ENGI_SURRENDER_LIST_2_text"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="DISTRESS_ENGI_REBEL_LIST1">
+	<mod:findLike type="event">
+		<mod:findLike type="item_modify">
+			<mod:findLike type="item">
+				<mod:setAttributes min="-15" max="-15"/>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+	<mod-append:event>
+		<text id="event_DISTRESS_ENGI_REBEL_LIST1_3_text"/>
+		<drone name="RANDOM"/>
+		<item_modify>
+			<item type="scrap" min="-15" max="-15"/>
+		</item_modify>
+	</mod-append:event>
+	<mod-append:event>
+		<text>The Engi are grateful. They don't have any supplies or weapons to spare, but they do send over a self-teleporting repair device they hope they won't need.</text>
+		<weapon name="BOMB_HEAL_SYSTEM"/>
+		<item_modify>
+			<item type="scrap" min="-15" max="-15"/>
+		</item_modify>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="event" name="DISTRESS_ENGI_REBEL_LIST2">
+	<mod:findLike type="item_modify">
+		<mod:findLike type="item">
+		<mod:selector type="scrap"/>
+			<mod:setAttributes min="-20" max="-20"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="DISTRESS_ENGI_REACTOR_DRONE">
+	<mod:findLike type="event">
+		<mod:findLike type="autoReward">
+			<mod:setValue>drone</mod:setValue>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="ENGI_UNLOCK_2FAKE_SURRENDER">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findWithChildLike type="choice" child-type="text">
+			<mod:selector id="event_ENGI_UNLOCK_2FAKE_SURRENDER_c1_c1_choice"/>
+				<mod:removeTag/>
+			</mod:findWithChildLike>
+			<mod-append:choice>
+				<text id="event_ENGI_UNLOCK_2FAKE_SURRENDER_c1_c1_choice"/>
+				<event>
+					<ship hostile="false"/>
+				</event>
+			</mod-append:choice>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="ENGI_VIRUS">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="choice">
+				<mod:findLike type="event">
+					<mod:findLike type="status">
+					<mod:selector system="engines"/>
+						<mod:setAttributes type="limit" amount="1"/>
+					</mod:findLike>
+					<mod:findLike type="status">
+					<mod:selector system="shields"/>
+						<mod:setAttributes type="limit" target="enemy" system="engines" amount="1"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+</FTL>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findLike type="eventCounts">
+		<mod:selector sector="0"/>
+		</mod:findLike>
+		<mod:findLike type="eventCounts">
+		<mod:selector sector="1"/>
+		</mod:findLike>
+		<mod:findLike type="eventCounts">
+		<mod:selector sector="2"/>
+		</mod:findLike>
+		<mod:findLike type="eventCounts">
+		<mod:selector sector="3"/>
+		</mod:findLike>
+	</mod:par>
+	<mod:removeTag/>
+</mod:findComposite>
+
+<eventList name="HOSTILE1_SEC1">
+	<event load="SQUAT_WARNING"/>
+	<event load="AUTO_WARNING"/>
+	<event load="AUTO_ASTEROID"/>
+	<event load="REBEL_AUTO"/>
+	<event load="AUTO_CIVILIAN"/>
+	<event load="PIRATE_CHOICE"/>
+	<event load="AUTO_REFUEL_STATION"/>
+	<event load="REBEL"/>
+	<event load="MANTIS_HOSTILE"/>
+</eventList>
+
+<mod:findName type="event" name="TAVERN_HIRE">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="item_modify">
+				<mod:findLike type="item">
+				<mod:selector min="-45"/>
+					<mod:setAttributes min="-28" max="-18"/>
+				</mod:findLike>
+				<mod:findLike type="item">
+				<mod:selector min="-55"/>
+					<mod:setAttributes min="-31" max="-20"/>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="TRADER_UPGRADES_EXCHANGE">
+	<mod:findWithChildLike type="choice" child-type="event">
+	<mod:selector load="TRADER_UPGRADES_EXCHANGE_LIST"/>
+		<mod:setAttributes req="reactor" max_lvl="24" blue="false"/>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="TRADER_UPGRADES_LIST">
+	<mod:findLike type="event">
+		<mod:findLike type="choice">
+		<mod:selector req="oxygen" max_lvl="1"/>
+			<mod:findLike type="event">
+				<mod:findLike type="item_modify">
+					<mod:findLike type="item">
+						<mod:setAttributes min="-15" max="-10"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+		<mod:findLike type="choice">
+		<mod:selector req="oxygen" max_lvl="2"/>
+			<mod:findLike type="event">
+				<mod:findLike type="item_modify">
+					<mod:findLike type="item">
+						<mod:setAttributes min="-19" max="-12"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+		<mod:findLike type="choice">
+		<mod:selector req="pilot" max_lvl="1"/>
+			<mod:findLike type="event">
+				<mod:findLike type="item_modify">
+					<mod:findLike type="item">
+						<mod:setAttributes min="-15" max="-10"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+		<mod:findLike type="choice">
+		<mod:selector req="pilot" max_lvl="2"/>
+			<mod:findLike type="event">
+				<mod:findLike type="item_modify">
+					<mod:findLike type="item">
+						<mod:setAttributes min="-27" max="-17"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+		<mod:findLike type="choice">
+		<mod:selector req="doors" max_lvl="1"/>
+			<mod:findLike type="event">
+				<mod:findLike type="item_modify">
+					<mod:findLike type="item">
+						<mod:setAttributes min="-19" max="-12"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+		<mod:findLike type="choice">
+		<mod:selector req="doors" max_lvl="2"/>
+			<mod:findLike type="event">
+				<mod:findLike type="item_modify">
+					<mod:findLike type="item">
+						<mod:setAttributes min="-31" max="-19"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+		<mod:findLike type="choice">
+		<mod:selector req="sensors" max_lvl="1"/>
+			<mod:findLike type="event">
+				<mod:findLike type="item_modify">
+					<mod:findLike type="item">
+						<mod:setAttributes min="-11" max="-7"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+		<mod:findLike type="choice">
+		<mod:selector req="sensors" max_lvl="2"/>
+			<mod:findLike type="event">
+				<mod:findLike type="item_modify">
+					<mod:findLike type="item">
+						<mod:setAttributes min="-15" max="-10"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findWithChildLike type="event" child-type="text">
+	<mod:selector id="event_TRADER_UPGRADES_LIST_5_text"/>
+		<mod:findLike type="choice">
+			<mod:removeTag/>
+		</mod:findLike>
+		<mod-append:choice req="reactor" max_lvl="9" max_group="0"   blue="false">
+			<text id="event_TRADER_UPGRADES_LIST_1_c1_choice"/>
+			<event>
+				<text id="event_TRADER_UPGRADES_LIST_1_c1_text"/>
+				<item_modify>
+					<item type="scrap" min="-12" max="-9"/>
+				</item_modify>
+				<upgrade amount="1" system="reactor"/>
+			</event>
+		</mod-append:choice>
+		<mod-append:choice req="reactor" max_lvl="14" max_group="0"   blue="false">
+			<text id="event_TRADER_UPGRADES_LIST_1_c1_choice"/>
+			<event>
+				<text id="event_TRADER_UPGRADES_LIST_1_c1_text"/>
+				<item_modify>
+					<item type="scrap" min="-17" max="-12"/>
+				</item_modify>
+				<upgrade amount="1" system="reactor"/>
+			</event>
+		</mod-append:choice>
+		<mod-append:choice req="reactor" max_lvl="19" max_group="0"   blue="false">
+			<text id="event_TRADER_UPGRADES_LIST_1_c1_choice"/>
+			<event>
+				<text id="event_TRADER_UPGRADES_LIST_1_c1_text"/>
+				<item_modify>
+					<item type="scrap" min="-21" max="-15"/>
+				</item_modify>
+				<upgrade amount="1" system="reactor"/>
+			</event>
+		</mod-append:choice>
+		<mod-append:choice req="reactor" max_lvl="24" max_group="0"   blue="false">
+			<text id="event_TRADER_UPGRADES_LIST_1_c1_choice"/>
+			<event>
+				<text id="event_TRADER_UPGRADES_LIST_1_c1_text"/>
+				<item_modify>
+					<item type="scrap" min="-24" max="-17"/>
+				</item_modify>
+				<upgrade amount="1" system="reactor"/>
+			</event>
+		</mod-append:choice>
+		<mod-append:choice hidden="true">
+			<text id="event_TRADER_UPGRADES_LIST_1_c3_choice"/>
+			<event>
+				<text id="event_TRADER_UPGRADES_LIST_1_c3_text"/>
+			</event>
+		</mod-append:choice>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="REFUGEE_GHOST_LIST">
+	<mod-append:event>
+		<text id="event_REFUGEE_GHOST_LIST_2_text"/>
+		<autoReward level="MED">missiles</autoReward>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="FUELING_STATION_IGNORE">
+	<mod:findLike type="event">
+		<mod:findLike type="ship">
+			<mod:setAttributes load="PIRATE_FUEL_PLATFORM"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="FUELING_STATION_NORMAL_LIST">
+	<mod:findWithChildLike type="event" child-type="text">
+	<mod:selector id="event_FUELING_STATION_NORMAL_LIST_1_text"/>
+		<mod:findLike type="choice">
+			<mod:findLike type="event">
+				<mod:findLike type="item_modify">
+					<mod:findLike type="item">
+					<mod:selector type="fuel"/>
+						<mod:setAttributes min="6" max="6"/>
+					</mod:findLike>
+					<mod:findLike type="item">
+					<mod:selector type="scrap"/>
+						<mod:setAttributes min="-11" max="-6"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findWithChildLike>
+	<mod:findWithChildLike type="event" child-type="text">
+	<mod:selector id="event_FUELING_STATION_NORMAL_LIST_2_text"/>
+		<mod:findLike type="choice">
+			<mod:findLike type="event">
+				<mod:findLike type="item_modify">
+					<mod:findLike type="item">
+						<mod:setAttributes min="4" max="6"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="FUELING_STATION_BLOW">
+	<mod:findWithChildLike type="event" child-type="damage">
+		<mod:findLike type="item_modify">
+			<mod:findLike type="item">
+				<mod:setAttributes min="-2" max="-2"/>
+			</mod:findLike>
+		</mod:findLike>
+		<mod:findLike type="damage">
+				<mod:setAttributes amount="4"/>
+		</mod:findLike>
+	</mod:findWithChildLike>
+	<mod-append:event>
+		<text id="event_FUELING_STATION_BLOW_1_text"/>
+		<item_modify>
+			<item type="fuel" min="5" max="5"/>
+		</item_modify>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_FUELING_STATION_BLOW_1_text"/>
+		<item_modify>
+			<item type="fuel" min="5" max="5"/>
+		</item_modify>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="FUELING_STATION_PIRATE_LIST">
+	<mod:findLike type="event">
+		<mod:findLike type="choice">
+			<mod:findWithChildLike type="event" child-type="item_modify">
+				<mod:findLike type="item_modify">
+					<mod:findLike type="item">
+						<mod:setAttributes min="6" max="6"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findWithChildLike>
+			<mod:findWithChildLike type="event" child-type="damage">
+				<mod:findLike type="damage">
+					<mod:setAttributes amount="1"/>
+				</mod:findLike>
+				<mod-append:item_modify>
+					<item type="fuel" min="2" max="2"/>
+				</mod-append:item_modify>
+			</mod:findWithChildLike>
+		</mod:findLike>
+		<mod:findLike type="ship">
+			<mod:setAttributes load="PIRATE_FUEL_PLATFORM"/>
+		</mod:findLike>
+		<mod:findLike type="damage">
+			<mod:setAttributes amount="2"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="CONFUSED_MANTIS">
+	<mod:findLike type="choice">
+		<mod:findWithChildLike type="event" child-type="choice">
+			<mod:findLike type="choice">
+			<mod:selector req="mantis"/>
+				<mod:removeTag/>
+			</mod:findLike>
+			<mod-append:choice req="mantis" hidden="true">
+				<text id="event_CONFUSED_MANTIS_c1_c4_choice"/>
+				<event>
+					<text id="event_CONFUSED_MANTIS_c1_c4_text"/>
+					<autoReward level="LOW">standard</autoReward>
+				</event>
+			</mod-append:choice>
+		</mod:findWithChildLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="CONFUSED_MANTIS_DEFAULT">
+	<mod-append:event>
+		<text id="event_CONFUSED_MANTIS_DEFAULT_1_text"/>
+		<choice>
+			<text id="continue"/>
+			<event load="CONFUSED_MANTIS_HOME"/>
+		</choice>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="REBEL_BRIBE_RESULT">
+	<mod-append:event>
+		<text>One of the civilian ships contacts you on an encrypted channel and reveals they are Federation loyalists. They quietly beam over a ship augment to support the cause.</text>
+		<augment name="RANDOM"/>
+	</mod-append:event>
+	<mod-append:event>
+		<text>Turns out one of the detained ships was a notorious weapons smuggler. She beams over one of her products in thanks, and casually mentions the location of her shop in case you want more quality goods.</text>
+		<weapon name="RANDOM"/>
+		<quest event="QUEST_STORE"/>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_REBEL_BRIBE_RESULT_3_text"/>
+		<autoReward level="LOW">standard</autoReward>
+	</mod-append:event>
+	<mod-append:event>
+		<text id="event_REBEL_BRIBE_RESULT_4_text"/>
+		<ship load="REBEL" hostile="true"/>
+	</mod-append:event>
+	<mod-append:event>
+		<text>One of the civilian ships contacts you on an encrypted channel and reveals they are Federation loyalists. They quietly beam over a ship augment to support the cause.</text>
+		<augment name="RANDOM"/>
+	</mod-append:event>
+	<mod-append:event>
+		<text>Turns out one of the detained ships was an infamous weapons smuggler. She beams over one of her products in thanks, and casually mentions the location of her shop in case you want more quality goods.</text>
+		<weapon name="RANDOM"/>
+		<quest event="QUEST_STORE"/>
+	</mod-append:event>	
+</mod:findName>
+</FTL>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="text" name="ACH_NO_BUYING_desc">
+	<mod:setValue>Get to sector 8 without buying at a store (repairs are ok).</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ACH_SUFFOCATE_desc">
+	<mod:setValue>Empty the oxygen (net level less than 5 percent) of a non-automated, hostile enemy ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ACH_ENERGY_SHIELDS_desc">
+	<mod:setValue>Destroy a ship before it gets through your Zoltan Shield.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ACH_MANTIS_CREW_DEAD_desc">
+	<mod:setValue>Kill the crew of 20 ships by the end of sector 6 in the Mantis Cruiser.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ACH_SLUG_NEBULA_desc">
+	<mod:setValue>Jump to 30 nebula locations before sector 8 while using the Slug Cruiser.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ACH_FED_DIPLOMACY_desc">
+	<mod:setValue>While using the Federation Cruiser, use your crew in 4 special blue event choices by the end of sector 5.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ACH_LANIUS_ADVANCED_desc">
+	<mod:setValue>Have Hacking, Mind Control and the Backup Battery active at once.</mod:setValue>
+</mod:findName>
+</FTL>

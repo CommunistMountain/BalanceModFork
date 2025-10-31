@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="text" name="tooltip_doors">
+    <mod:setValue>Doors: Allows for remote opening/closing of doors. Upgrade to impede fire and boarders.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_engines">
+    <mod:setValue>Engines: Charges the FTL drive and powers evasion. Manning increases dodge chance and FTL charge rate.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_medbay">
+    <mod:setValue>Medbay: Heals crewmembers inside the Medbay.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_cloaking">
+    <mod:setValue>Cloaking: Partially disappear into another dimension, providing +60 to dodge and temporarily stopping enemy weapon charging.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_hacking">
+    <mod:setValue>Hacking: Lockdown a system room while periodically disrupting the system and halving repair speed.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_doors_enemy">
+    <mod:setValue>Doors: Powers enemy blast doors, delaying boarder movement and slowing the spread of fires.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_shields_enemy">
+    <mod:setValue>Shields: Powers the enemy's projectile-blocking shields.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_pilot_enemy">
+    <mod:setValue>Piloting: If functional with a crewmember, the enemy can dodge your shots.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_weapons_enemy">
+    <mod:setValue>Weapons: Powers the enemy's weapons. Destroy it to stop them firing.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_droneCount">
+    <mod:setValue>Number of drone parts. Using a drone consumes one drone part.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_missileCount">
+    <mod:setValue>Number of missiles. Bomb and Missile weaponry consume one missile when fired.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_scrapCount">
+    <mod:setValue>Current scrap total.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_jump_noPiloting">
+    <mod:setValue>Your Pilot System must be functioning in order to jump.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_jump_noCrew">
+    <mod:setValue>You must have a crewmember in the Pilot System to jump.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_jump_noEngines">
+    <mod:setValue>Your Engine System must be functioning in order to jump.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_evadeDisplay">
+    <mod:setValue>Evasion: The percentage chance incoming shots will miss your ship. Determined by your Engine power level.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_autofire">
+    <mod:setValue>Toggle to activate/deactivate weapons automatically firing. \nHotkey: \1\n\n\2 + AIM can force a weapon to do the opposite of current setting.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="tooltip_PDS_FLEET">
+    <mod:setValue>The fleet's Anti-Ship Batteries are targeting you.</mod:setValue>
+</mod:findName>
+</FTL>

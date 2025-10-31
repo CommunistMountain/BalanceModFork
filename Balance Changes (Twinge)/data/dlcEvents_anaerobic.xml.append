@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findName type="event" name="START_BEACON_LANIUS">
+	<mod-append:choice req="FTL_JUMPER" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event>
+			<reveal_map/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="engines" hidden="true" blue="false" max_group="0">
+		<text id="continue"/>
+		<event/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="eventList" name="LANIUS_DEAD_CREW">
+	<mod:findWithChildLike type="event" child-type="crewMember">
+		<mod:findLike type="crewMember">
+			<mod:removeTag/>
+		</mod:findLike>
+		<mod:findLike type="autoReward">
+			<mod:setValue>augment</mod:setValue>
+		</mod:findLike>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="SAVE_CIVILIAN_LIST_LANIUS">
+	<mod:findWithChildLike type="event" child-type="text">
+	<mod:selector id="event_SAVE_CIVILIAN_LIST_LANIUS_1_text"/>
+		<mod:findLike type="choice">
+			<mod:removeTag/>
+		</mod:findLike>
+		<mod-append:crewMember amount="1"/>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="event" name="LANIUS_RESEARCHER_CRAFT">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="choice">
+				<mod:findComposite>
+					<mod:par op="OR">
+						<mod:findWithChildLike type="event" child-type="augment"/>
+						<mod:findWithChildLike type="event" child-type="drone"/>
+					</mod:par>
+					<mod:findLike type="item_modify">
+						<mod:findLike type="item">
+							<mod:setAttributes min="-30" max="-30"/>
+						</mod:findLike>
+					</mod:findLike>
+				</mod:findComposite>
+				<mod:findWithChildLike type="event" child-type="weapon">
+					<mod:findLike type="item_modify">
+						<mod:findLike type="item">
+							<mod:setAttributes min="-40" max="-40"/>
+						</mod:findLike>
+					</mod:findLike>
+				</mod:findWithChildLike>
+				<mod:findLike type="event">
+					<mod:findLike type="choice">
+						<mod:findComposite>
+							<mod:par op="OR">
+								<mod:findWithChildLike type="event" child-type="augment"/>
+								<mod:findWithChildLike type="event" child-type="drone"/>
+							</mod:par>
+							<mod:findLike type="item_modify">
+								<mod:findLike type="item">
+									<mod:setAttributes min="-20" max="-20"/>
+								</mod:findLike>
+							</mod:findLike>
+						</mod:findComposite>
+						<mod:findWithChildLike type="event" child-type="weapon">
+							<mod:findLike type="item_modify">
+								<mod:findLike type="item">
+									<mod:setAttributes min="-30" max="-30"/>
+								</mod:findLike>
+							</mod:findLike>
+						</mod:findWithChildLike>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="LANIUS_TRADER_LIST">
+	<mod:findLike type="event">
+		<mod:findWithChildLike type="item_modify" child-type="item">
+		<mod:selector type="fuel"/>
+			<mod:findLike type="item">
+			<mod:selector type="fuel"/>
+				<mod:setAttributes min="-6"/>
+			</mod:findLike>
+			<mod:findLike type="item">
+			<mod:selector type="scrap"/>
+				<mod:setAttributes min="17" max="33"/>
+			</mod:findLike>
+		</mod:findWithChildLike>
+		<mod:findWithChildLike type="item_modify" child-type="item">
+		<mod:selector type="missiles"/>
+			<mod:findLike type="item">
+			<mod:selector type="missiles"/>
+				<mod:setAttributes min="-8" max="-4"/>
+			</mod:findLike>
+			<mod:findLike type="item">
+			<mod:selector min="scrap"/>
+				<mod:setAttributes min="19" max="39"/>
+			</mod:findLike>
+		</mod:findWithChildLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="LANIUS_TRADER_LIST2">
+	<mod:findLike type="event">
+		<mod:findWithChildLike type="item_modify" child-type="item">
+		<mod:selector type="fuel"/>
+			<mod:findLike type="item">
+			<mod:selector type="fuel"/>
+				<mod:setAttributes min="-6"/>
+			</mod:findLike>
+			<mod:findLike type="item">
+			<mod:selector type="scrap"/>
+				<mod:setAttributes min="22" max="36"/>
+			</mod:findLike>
+		</mod:findWithChildLike>
+		<mod:findWithChildLike type="item_modify" child-type="item">
+		<mod:selector type="missiles"/>
+			<mod:findLike type="item">
+			<mod:selector type="missiles"/>
+				<mod:setAttributes max="-4"/>
+			</mod:findLike>
+			<mod:findLike type="item">
+			<mod:selector min="scrap"/>
+				<mod:setAttributes min="26" max="47"/>
+			</mod:findLike>
+		</mod:findWithChildLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="LANIUS_HARVESTER_SHIP_LIST">
+	<mod:findWithChildLike type="event" child-type="autoReward">
+	<mod:selector level="HIGH"/>
+		<mod:removeTag/>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="event" name="LANIUS_BEACON_EATER">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:findLike type="choice">
+				<mod:findLike type="event">
+					<mod:findLike type="item_modify">
+						<mod:findLike type="item">
+						<mod:selector type="scrap"/>
+							<mod:setAttributes min="-20" max="-20"/>
+						</mod:findLike>
+						<mod:findLike type="item">
+						<mod:selector type="missiles"/>
+							<mod:setAttributes min="-5" max="-5"/>
+						</mod:findLike>
+						<mod:findLike type="item">
+						<mod:selector type="drones"/>
+							<mod:setAttributes min="-5" max="-5"/>
+						</mod:findLike>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="LANIUS_BEACON_EATER_ASK">
+	<mod:findLike type="event">
+		<mod:findLike type="choice">
+			<mod:findLike type="event">
+				<mod:findLike type="item_modify">
+					<mod:findLike type="item">
+						<mod:setAttributes min="-20" max="-20"/>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="LANIUS_BEACON_EATER_SCRAP">
+	<mod:findLike type="event">
+		<mod:findLike type="item_modify">
+			<mod:findLike type="item">
+				<mod:setAttributes min="-15" max="-15"/>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+	<mod-append:event>
+		<text id="event_LANIUS_BEACON_EATER_SCRAP_1_text"/>
+		<item_modify>
+			<item type="scrap" min="-15" max="-15"/>
+		</item_modify>
+		<augment name="RANDOM"/>
+	</mod-append:event>
+</mod:findName>
+</FTL>

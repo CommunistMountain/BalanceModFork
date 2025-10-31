@@ -1,0 +1,40 @@
+<metadata>
+  <title><![CDATA[ Twinge's Balance & Bugfix Mod ]]></title>
+  <threadUrl><![CDATA[ http://www.it-is-law.com/ftl-balance/index.php ]]></threadUrl>
+  <author><![CDATA[ Twinge ]]></author>
+  <version><![CDATA[ 4.0.3 ]]></version>
+  <description>
+<![CDATA[
+
+Full change list: http://www.it-is-law.com/ftl-balance/index.php
+
+If you want to help the development of content like this mod, consider watching my stream on Twitch: http://www.twitch.tv/darktwinge, supporting me on Patreon: http://www.patreon.com/DarkTwinge or on Paypal: http://twitch.streamlabs.com/darktwinge
+
+OVERVIEW OF MAJOR CHANGES:
+
+* Many events tweaked, making far more options actually worth considering (e.g., the black market weapons trade is far more reasonable). All event choices requiring you to risk a crewmember (e.g. Giant Alien Spiders) now only have a 25% chance or lower of losing crew.
+* Improved player ship targeting zones and shrunk shield bubble visuals, significantly increasing the reliability of Defense Drones and Anti-Combat Drones (especially impactful on the Stealth C).
+* You can no longer bypass enemy Defense Drones with Hacking, and Hacking is much more expensive.
+* All weak weapons made relevantly cheaper or otherwise improved. Best weapons more expensive, Flak I less accurate, Flak I & Halberd less common.
+* Kestrel C and Federation B have been redesigned in an effort to offer a unique experience compared to other ships.
+* Stealth C's Shield+ Drone now requires 1 power; Engi B starts with Level 3 Piloting and Heavy Ion is buffed; Rock A starts with Explosive Replicator (with fewer missiles) and Hull Missile is buffed; Fed C starts with Repair Burst; Stealth B starts with Titanium System Casing and Level 3 Cloaking is cheaper.
+* Most augments improved or made cheaper. Advanced FTL Navigation now maps every new sector (and costs more). Hacking Stun removed from game. Long-Ranged Scanners cost more. Species augments sell for less to encourage their use.
+* Shield Drones & Ion Intruders now require only 2 power and cost less. Fire Drone slightly weaker but only requires 2 power. Combat II & Beam II Drones have been buffed slightly and are more common. Defense II and Combat II cheaper.
+* Drone Control significantly cheaper to buy and upgrade, and is no longer more common than other systems. Cloaking more expensive (L3 cheaper), L2 and L5 Engines more expensive, Teleporters slightly cheaper. Most other systems cheaper at the higher levels (especially Engines & Artillery).
+* Moderately reduced the odds of free crew from events and tweaked many event scrap gains up or down appropriately. Less free stuff in Engi Sectors.
+* Fewer dead beacons in Sector 1, Mantis Sectors, Rock Sectors, and Abandoned Sectors. Reduced average reward for Civilian Sectors. Sector 8 events make more sense.
+* Various quality of life tweaks: easier beam aiming, more consistent event option ordering (standard choices are first, better blue options are listed first), better default weapon/crew positions, more informative text, etc.
+* Fixed numerous game bugs.
+* Stores: Missiles & Drone Parts cheaper. Most crew cheaper.
+* Fixed enemy base power so they no longer have excessive spare power during plasma storms. (Enemy Slugs Ships, Zoltan Ships, and Automated Drones handle plasma storms slightly better than other ships.)
+* The Rebel Flagship is less of a difficulty spike when playing on Easy difficulty (less HP in all phases and several systems are lower level, most notably Hacking and Mind Control).
+* Enemy AE ships buffed to be more in line with their non-DLC counterparts.
+* Enemy ships are stronger in Sectors 6-8. Some weaker ship classes can no longer appear in late sectors. "Scout" class enemy ships now always have only 6 missiles, Medium enemy ships always have 10 missiles, Large enemy ships always have 14 missiles.
+* Rock ships have worse Cloaking but can equip Swarm Missiles. Lanius Bomber slightly weaker.
+* Large number of punctuation and grammar fixes. Event phrasing tweaked to be more consistent and clear. Event text more inclusive.
+* Fixed visuals on many ships, including shield positioning/size, cloaking lines, and system graphics.
+
+Special Thanks: My stream community, Mike Hopley, slow, mekloz, DiscordDraconequus, LethalFrag, and many other great folks that've helped out who I've lost track of over the years!
+]]>
+  </description>
+</metadata>

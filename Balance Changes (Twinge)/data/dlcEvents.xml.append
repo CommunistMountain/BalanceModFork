@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FTL>
+<mod:findComposite>
+	<mod:par op="OR">
+		<mod:findName type="event" name="REBEL_PDS"/>
+		<mod:findName type="event" name="REBEL_AUTO_PDS"/>
+	</mod:par>
+	<mod:findLike type="choice">
+	<mod:selector req="hacking"/>
+		<mod:setAttributes max_group="0"/>
+	</mod:findLike>
+</mod:findComposite>
+</FTL>
