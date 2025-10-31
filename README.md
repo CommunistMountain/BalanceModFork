@@ -20,7 +20,7 @@ Mod order:
 ## Bugfixes (gameplay)
 <ol>
     <li>Hull Missile: Now considered a missile weapon for events.</li>
-    <li>Anti-Ship Fire Drone: Now considered a combat drone for events.</li>
+    <li>Fire Drone: Now considered a combat drone for events.</li>
     <li>AE Weapons: No longer show up in Hidden Crystal Worlds stores.</li>
     <li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
     <li>crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.</li>
@@ -60,7 +60,7 @@ Mod order:
 ## QOL (gameplay)
 <ol>
     <li>Map: integrated Sleeper Games + MantisManMike's Enhanced Fleet Pursuit mod, showing the Rebel fleet's position in future jumps. Made it redder for better contrast against very bright white portions of backgrounds, and when the fleet is delayed, better contrast against very dark portions of backgrounds (lines in map_warningcircle.png from 0, 0, 0 at 10% opacity to 137, 58, 56 at 30% opacity).</li>
-    <li>Mini-Beam: increased length from 45 to 47.</li>
+    <li>Mini-Beam: length from 45 to 47.</li>
     <li>Shifted starting crew to generally better positions. Credit to MantisManMike. Order is Pilot, Engines, Weapons, Shields:</li>
     <ol>
         <li>Kestrel B: Human Human Zoltan Mantis -> HZHM</li>
@@ -92,7 +92,7 @@ Mod order:
 
 ## Bugfixes (non-gameplay)
 <ol>
-    <li>Anti-Ship Beam Drone II, Small Bomb, Hull Beam, Stun Bomb, Ion Charger, Beam Projectiles, Explosions: Fixed animations.</li>
+    <li>Beam Drone 2, Small Bomb, Hull Beam, Stun Bomb, Ion Charger, Beam Projectiles, Explosions: Fixed animations.</li>
     <li>Ion Intruder Drone: Fixed bad pixels. Credit to Masala.</li>
     <li>Ship Upgrade Menu: Fixed misaligned Accept button base.</li>
     <li>Shifted misaligned crew sprites:</li>
@@ -119,7 +119,6 @@ Mod order:
     </ol>
     <li>playerHpColorFix: HP color now scales according to a 3-third ratio instead of a hardcoded value.</li>
     <li>warningLightPositionFix: Warning lights that appear during a fire or breach are now positioned correctly.</li>
-    <li>shiftotherelementsslightlytotheleftsotheyrealigned: Fixes crew arrows being visually offset.</li>
     <li>EVENTS:</li>
     <ol>
         <li>MERCHANT_REQUEST: Added text to an event where an "added quest marker" message has no accompanying text.</li>
@@ -182,6 +181,7 @@ Mod order:
     <li>customChoiceColors: Enables coloring choices.</li>
     <li>customTextStyle: Enables coloring text.</li>
     <li>systemNoPurchaseThreshold: Visual fix for high system costs so that they are limited to a certain number of digits (I chose 3), and if it's any higher, the cost is replaced with "--".</li>
+    <li>shiftotherelementsslightlytotheleftsotheyrealigned: Fixes crew page arrows being visually offset.</li>
 </ol>
 
 # Balance Changes (CM)
