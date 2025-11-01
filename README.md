@@ -22,7 +22,6 @@ Mod order:
     <li>Hull Missile: Now considered a missile weapon for events.</li>
     <li>Fire Drone: Now considered a combat drone for events.</li>
     <li>AE Weapons: No longer show up in Hidden Crystal Worlds stores.</li>
-    <li>Korean language now shows the amount of evasion an enemy ship has when hacking Pilot or Engines.</li>
     <li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
     <li>crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.</li>
     <li>defenseDroneFix: Defense drones no longer have a blind spot (doesn't work at the time of writing, hopefully it will be in the future)</li>
@@ -93,6 +92,7 @@ Mod order:
 
 ## Bugfixes (non-gameplay)
 <ol>
+    <li>Chinese language now shows the ranking number for highscore ships.</li>
     <li>Beam Drone 2, Small Bomb, Hull Beam, Stun Bomb, Ion Charger, Beam Projectiles, Explosions: Fixed animations.</li>
     <li>Ion Intruder Drone: Fixed bad pixels. Credit to Masala.</li>
     <li>Ship Upgrade Menu: Fixed misaligned Accept button base.</li>
@@ -182,7 +182,6 @@ Mod order:
     <li>customChoiceColors: Enables coloring choices.</li>
     <li>customTextStyle: Enables coloring text.</li>
     <li>systemNoPurchaseThreshold: Visual fix for high system costs so that they are limited to a certain number of digits (I chose 3), and if it's any higher, the cost is replaced with "--".</li>
-    <li>shiftotherelementsslightlytotheleftsotheyrealigned: Fixes crew page arrows being visually offset.</li>
 </ol>
 
 # Balance Changes (CM)

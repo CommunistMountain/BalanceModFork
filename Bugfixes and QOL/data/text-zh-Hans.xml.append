@@ -40,6 +40,9 @@
 <mod:findName type="text" name="current_evasion">
     <mod:setValue>当前闪避率：\1%</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="current_oxygen">
+    <mod:setValue>当前氧气量：\1%</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
 </mod:findName>
@@ -105,5 +108,8 @@
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_PEACE_class">
     <mod:setValue>佐尔坦战舰</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="stats_ranking">
+    <mod:setValue>第\1</mod:setValue>
 </mod:findName>
 </FTL>

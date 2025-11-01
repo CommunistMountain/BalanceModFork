@@ -40,6 +40,9 @@
 <mod:findName type="text" name="current_evasion">
     <mod:setValue>現回避率：\1%</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="current_oxygen">
+    <mod:setValue>現酸素量：\1%</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
 </mod:findName>

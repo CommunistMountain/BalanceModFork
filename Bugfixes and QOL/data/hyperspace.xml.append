@@ -356,6 +356,4 @@
 <mod:findLike type="systemNoPurchaseThreshold">
     <mod:setAttributes enabled="true" threshold="999"/>
 </mod:findLike>
-
-<shiftotherelementsslightlytotheleftsotheyrealigned>true</shiftotherelementsslightlytotheleftsotheyrealigned>
 </FTL>
