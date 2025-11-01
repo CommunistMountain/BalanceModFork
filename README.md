@@ -22,6 +22,7 @@ Mod order:
     <li>Hull Missile: Now considered a missile weapon for events.</li>
     <li>Fire Drone: Now considered a combat drone for events.</li>
     <li>AE Weapons: No longer show up in Hidden Crystal Worlds stores.</li>
+    <li>Korean language now correctly shows the amount of evasion an enemy ship has when hacking Pilot or Engines, and amount of oxygen when hacking O2.</li>
     <li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
     <li>crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.</li>
     <li>defenseDroneFix: Defense drones no longer have a blind spot (doesn't work at the time of writing, hopefully it will be in the future)</li>
