@@ -50,24 +50,10 @@ local numberImage = {
 }
 
 function initButtonSpeeds()
-    if Hyperspace.metaVariables.speedui_setting == 1 then
-        if not Hyperspace.FPS.speedEnabled or Hyperspace.metaVariables.speedui_speed == 0 then
-            Hyperspace.FPS.speedLevel = 0
-            slowButton.bActive = true
-            normButton.bActive = false
-            fastButton.bActive = true
-        elseif Hyperspace.metaVariables.speedui_speed < 0 then
-            Hyperspace.FPS.speedLevel = -2
-            slowButton.bActive = false
-            normButton.bActive = true
-            fastButton.bActive = true
-        else -- elseif Hyperspace.metaVariables.speedui_speed > 0 then
-            Hyperspace.FPS.speedLevel = 2
-            slowButton.bActive = true
-            normButton.bActive = true
-            fastButton.bActive = false
-        end
-    elseif Hyperspace.metaVariables.speedui_setting == 2 then
+    Hyperspace.FPS.speedEnabled = false
+    if Hyperspace.metaVariables.speedui_setting == 2 then
+        pauseButton.bActive = false
+        playButton.bActive = true
         if Hyperspace.metaVariables.speedui_speed <= -2 then
             Hyperspace.FPS.speedLevel = -2
             upButton.bActive = true
@@ -81,15 +67,13 @@ function initButtonSpeeds()
             upButton.bActive = true
             downButton.bActive = true
         end
-        if Hyperspace.FPS.speedEnabled then
-            pauseButton.bActive = true
-            playButton.bActive = false
-        else
-            pauseButton.bActive = false
-            playButton.bActive = true
-        end
-    else
+    else -- For both 0 and 1
         Hyperspace.FPS.speedLevel = 0
+        if Hyperspace.metaVariables.speedui_setting == 1 then
+            slowButton.bActive = true
+            normButton.bActive = false
+            fastButton.bActive = true
+        end
     end
 end
 script.on_game_event("START_BEACON", false, initButtonSpeeds)
