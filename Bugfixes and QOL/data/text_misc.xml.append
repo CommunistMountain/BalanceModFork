@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="current_evasion">
+    <mod:setValue>Current Evasion: \1%</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
 </mod:findName>
@@ -21,6 +24,12 @@
 </mod:findName>
 <mod:findName type="text" name="mind_3">
     <mod:setValue>28s, +30 HP, +100% DPS</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="pilot_skill">
+    <mod:setValue>Evasion +\1%</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="engine_skill">
+    <mod:setValue>Evasion +\1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_oxygen">
     <mod:setValue>Temporarily drain the enemy ship of oxygen. (-6%/s)</mod:setValue>

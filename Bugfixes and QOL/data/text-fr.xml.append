@@ -37,6 +37,9 @@
 <mod:findName type="text" name="crew_rock_power_1">
     <mod:setValue>Immunité contre le feu (Contre l'incendie +67%)</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="current_evasion">
+    <mod:setValue>Esquive actuelle : \1%</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>12/8/6 HP</mod:setValue>
 </mod:findName>
@@ -48,6 +51,9 @@
 </mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>Évasion : \1%/ SPL : \2x</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="engine_skill">
+    <mod:setValue>Esquive +\1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_drones">
     <mod:setValue>Gèle temporairement les drones ennemis, avec une chance de les détruire. (39%/62%/77%)</mod:setValue>
@@ -81,6 +87,9 @@
 </mod:findName>
 <mod:findName type="text" name="mind_3">
     <mod:setValue>28s, +30 HP, +100% DPS</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="pilot_skill">
+    <mod:setValue>Esquive +\1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
     <mod:setValue>Hacker zoltan</mod:setValue>

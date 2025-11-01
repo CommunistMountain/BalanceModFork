@@ -22,6 +22,7 @@ Mod order:
     <li>Hull Missile: Now considered a missile weapon for events.</li>
     <li>Fire Drone: Now considered a combat drone for events.</li>
     <li>AE Weapons: No longer show up in Hidden Crystal Worlds stores.</li>
+    <li>Korean language now shows the amount of evasion an enemy ship has when hacking Pilot or Engines.</li>
     <li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
     <li>crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.</li>
     <li>defenseDroneFix: Defense drones no longer have a blind spot (doesn't work at the time of writing, hopefully it will be in the future)</li>
@@ -146,7 +147,7 @@ Mod order:
         <li>Human description: stated +11% experience gain (they have -10% experience required).</li>
         <li>Rock description: stated +67% firefighting speed.</li>
         <li>Upgraded doors show their Easy/Normal/Hard hit points in brackets, e.g. Blast Doors (12/8/6).</li>
-        <li>Added '%' after Engines dodge chance.</li>
+        <li>Added '%' after Engines dodge chance, hacked Pilot/Engines current evasion, and Pilot/Engines manning bonus.</li>
         <li>Added duration, health boost and damage boost to Mind Control level descriptions.</li>
         <li>More information about hacking targets:</li>
         <ol>
