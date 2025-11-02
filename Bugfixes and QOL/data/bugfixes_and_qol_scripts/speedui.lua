@@ -51,7 +51,20 @@ local numberImage = {
 
 function initButtonSpeeds()
     Hyperspace.FPS.speedEnabled = false
-    if Hyperspace.metaVariables.speedui_setting == 2 then
+    if Hyperspace.metaVariables.speedui_setting == 0 then
+        Hyperspace.FPS.speedLevel = 0
+    elseif Hyperspace.metaVariables.speedui_setting == 1 then
+        if Hyperspace.metaVariables.speedui_speed < 0 then
+            Hyperspace.FPS.speedLevel = -2
+        elseif Hyperspace.metaVariables.speedui_speed > 0 then
+            Hyperspace.FPS.speedLevel = 2
+        else
+            Hyperspace.FPS.speedLevel = 0
+        end
+        slowButton.bActive = true
+        normButton.bActive = false
+        fastButton.bActive = true
+    else -- elseif Hyperspace.metaVariables.speedui_setting == 2 then
         pauseButton.bActive = false
         playButton.bActive = true
         if Hyperspace.metaVariables.speedui_speed <= -2 then
@@ -67,12 +80,6 @@ function initButtonSpeeds()
             upButton.bActive = true
             downButton.bActive = true
         end
-    elseif Hyperspace.metaVariables.speedui_setting == 1 then
-        slowButton.bActive = true
-        normButton.bActive = false
-        fastButton.bActive = true
-    else -- elseif Hyperspace.metaVariables.speedui_setting == 0 then
-        Hyperspace.FPS.speedLevel = 0
     end
 end
 script.on_game_event("START_BEACON", false, initButtonSpeeds)
