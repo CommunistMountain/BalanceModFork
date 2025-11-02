@@ -67,13 +67,12 @@ function initButtonSpeeds()
             upButton.bActive = true
             downButton.bActive = true
         end
-    else -- For both 0 and 1
+    elseif Hyperspace.metaVariables.speedui_setting == 1 then
+        slowButton.bActive = true
+        normButton.bActive = false
+        fastButton.bActive = true
+    else -- elseif Hyperspace.metaVariables.speedui_setting == 0 then
         Hyperspace.FPS.speedLevel = 0
-        if Hyperspace.metaVariables.speedui_setting == 1 then
-            slowButton.bActive = true
-            normButton.bActive = false
-            fastButton.bActive = true
-        end
     end
 end
 script.on_game_event("START_BEACON", false, initButtonSpeeds)
