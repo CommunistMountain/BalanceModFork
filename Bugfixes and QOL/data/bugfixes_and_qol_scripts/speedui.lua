@@ -49,8 +49,15 @@ local numberImage = {
     y = -5
 }
 
-function initButtonSpeeds()
-    Hyperspace.FPS.speedEnabled = false
+function initButtonSpeeds(onInit)
+    if onInit then
+        Hyperspace.FPS.speedEnabled = false
+        slowButton.bActive = true
+        normButton.bActive = false
+        fastButton.bActive = true
+        pauseButton.bActive = false
+        playButton.bActive = true
+    end
     if Hyperspace.metaVariables.speedui_setting == 0 then
         Hyperspace.FPS.speedLevel = 0
     elseif Hyperspace.metaVariables.speedui_setting == 1 then
@@ -61,12 +68,7 @@ function initButtonSpeeds()
         else
             Hyperspace.FPS.speedLevel = 0
         end
-        slowButton.bActive = true
-        normButton.bActive = false
-        fastButton.bActive = true
     else -- elseif Hyperspace.metaVariables.speedui_setting == 2 then
-        pauseButton.bActive = false
-        playButton.bActive = true
         if Hyperspace.metaVariables.speedui_speed <= -2 then
             Hyperspace.FPS.speedLevel = -2
             upButton.bActive = true
@@ -82,8 +84,8 @@ function initButtonSpeeds()
         end
     end
 end
-script.on_game_event("START_BEACON", false, initButtonSpeeds)
-script.on_init(initButtonSpeeds)
+script.on_game_event("START_BEACON", false, function() return initButtonSpeeds(false) end)
+script.on_init(function() return initButtonSpeeds(true) end)
 
 script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function()
     if Hyperspace.metaVariables.speedui_setting == 1 then

@@ -82,7 +82,7 @@ Mod order:
     </ol>
     <li>preIgniteChargers: Charge weapons can enter a fight fully charged if you have a Pre-Igniter.</li>
     <li>Rebel Flagship and Rebel Elites no longer try to escape if you are out of fuel (this mechanic which is meant to avoid stalemates ironically causes an even worse stalemate in the case of these enemies). This also solves a bug where you have no fuel while fighting the Phase 3 RFS, and win when it leaves.</li>
-    <li>Added Speed UI from INS+/MV. Credit to JamesTripleQ, slowriderxcorps, Arc, Chrono Vortex (and anyone else that I missed). I have also improved its performance. At the start of each run, there will be an option to toggle which Speed UI variant you want:</li>
+    <li>Added Speed UI from INS+/MV. Credit to JamesTripleQ, slowriderxcorps, Arc, Chrono Vortex (and anyone else that I missed). I have also improved its performance. At the start of each Civilian Sector, there will be an option to toggle which Speed UI variant you want:</li>
     <ol>
         <li>Disabled: Vanilla.</li>
         <li>Enabled Variant 1: There are 3 buttons for selecting preset speeds: 0.125x, 1x and 2x from left to right. You may bind a key to "Toggle Speedhack" in Options -> Configure Keyboard Hotkeys, to toggle between 1x speed and either 0.125x or 2x, whichever you used last (if it's your first time using this, or if you have reset speed to 1x with Variant 2, this won't have any effect).</li>
