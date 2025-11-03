@@ -22,7 +22,6 @@ Mod order:
     <li>Hull Missile: Now considered a missile weapon for events.</li>
     <li>Fire Drone: Now considered a combat drone for events.</li>
     <li>AE Weapons: No longer show up in Hidden Crystal Worlds stores.</li>
-    <li>Korean language now correctly shows the amount of evasion an enemy ship has when hacking Pilot or Engines, and oxygen level when hacking Oxygen.</li>
     <li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
     <li>crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.</li>
     <li>defenseDroneFix: Defense drones no longer have a blind spot (doesn't work at the time of writing, hopefully it will be in the future)</li>
@@ -52,9 +51,13 @@ Mod order:
     </ol>
     <li>SHIPS:</li>
     <ol>
-        <li>Pirate Mantis Interceptor (MANTIS_SCOUT_P_DLC): Highest sector it can appear from 5 to 6, to match non-pirate version.</li>
-        <li>Rebel Disruptor (REBEL_FAT_DLC): Hacking max from 1 to 2, to match pirate version.</li>
-        <li>Pirate Slug Instigator (JELLY_TRUFFLE_P_DLC): Pilot max from 0 (effectively 1) to 3, to match non-pirate version.</li>
+        <li>Pirate Mantis Interceptor: Highest sector it can appear from 5 to 6, to match non-pirate version.</li>
+        <li>Rebel Disruptor: Hacking max from 1 to 2, to match pirate version.</li>
+        <li>Pirate Slug Instigator: Pilot max from 0 (effectively 1) to 3, to match non-pirate version.</li>
+    </ol>
+    <li>TEXT</li>
+    <ol>
+        <li>Korean language: now correctly shows the amount of evasion an enemy ship has when hacking Pilot or Engines, and oxygen level when hacking Oxygen.</li>
     </ol>
 </ol>
 
@@ -93,7 +96,6 @@ Mod order:
 
 ## Bugfixes (non-gameplay)
 <ol>
-    <li>Chinese language now shows the ranking number for highscore ships.</li>
     <li>Beam Drone 2, Small Bomb, Hull Beam, Stun Bomb, Ion Charger, Beam Projectiles, Explosions: Fixed animations.</li>
     <li>Ion Intruder Drone: Fixed bad pixels. Credit to Masala.</li>
     <li>Ship Upgrade Menu: Fixed misaligned Accept button base.</li>
@@ -129,6 +131,11 @@ Mod order:
     <li>SHIPS:</li>
     <ol>
         <li>BOSS_SCOUT_RESCUE, JELLY, JELLY_UNLOCK1, PIRATE_SLAVER, PIRATE_SMUGGLE, REBEL, SQUAT_TRANSPORT: A generic gotaway message is now displayed if they successfully escape.</li>
+    </ol>
+    <li>TEXT</li>
+    <ol>
+        <li>Chinese language: now shows the ranking number for highscore ships.</li>
+        <li>Korean language: autofire tooltip now includes hotkey information.</li>
     </ol>
 </ol>
 
