@@ -113,6 +113,12 @@ Mod order:
         <li>Rock: 1 left, 3 up (except clone sprite: 1 left, 1 up)</li>
         <li>Slug: 1 right</li>
     </ol>
+    <li>Shifted misaligned shields vertically (more positive = more down) (technically has slight gameplay impact):</li>
+    <ol>
+        <li>Federation Cruisers: -3 to 0.</li>
+        <li>Zoltan B: -13 to -14.</li>
+        <li>Mantis Cruisers: -3 to 0.</li>
+    </ol>
     <li>Federation Cruiser: Shield visually shorter by 1 pixel horizontally to match the ellipse size defined in the .txt.</li>
     <li>Zoltan, Slug, Rock and Crystal Cruiser: Fixed unsmooth shields.</li>
     <li>Ship floor images now have consistent width around walls and doors, and reveal more of the underlying art.</li>
