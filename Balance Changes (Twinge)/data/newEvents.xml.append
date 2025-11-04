@@ -48,13 +48,6 @@
 	</mod:findLike>
 </mod:findName>
 
-<mod:findName type="event" name="TRADER_UPGRADES_EXCHANGE">
-	<mod:findWithChildLike type="choice" child-type="event">
-	<mod:selector load="TRADER_UPGRADES_EXCHANGE_LIST"/>
-		<mod:setAttributes req="reactor" max_lvl="24" blue="false"/>
-	</mod:findWithChildLike>
-</mod:findName>
-
 <mod:findName type="eventList" name="TRADER_UPGRADES_LIST">
 	<mod:findLike type="event">
 		<mod:findLike type="choice">

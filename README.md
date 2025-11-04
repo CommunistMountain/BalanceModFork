@@ -41,6 +41,10 @@ Mod order:
         <li>MERCHANT_REQUEST: Added missing Lifeform Scanner blue option from the STATION_SICK event as intended.</li>
         <li>ROCK_STARSHIP_MINE: Fixed missile option not requiring 1 missile.</li>
         <li>STORM_BOARDING, STORM_REBEL, STORM_SLUG_FIGHT: These events no longer appear to be at non-nebula beacons on the map in Slug Controlled Nebula and Slug Home Nebula, and will slow the Rebel fleet appropriately.</li>
+        <li>TRADER_UPGRADES_EXCHANGE: You are now prevented from selecting the option to upgrade your reactor if you are at 25 reactor.</li>
+        <ol>
+            <li>Note for modders: Mods with ships that have reactor limits above 25 will be impacted. Undo/edit this change if necessary.</li>
+        </ol>
         <li>AutoReward interactions with free weapon/drone/augment:</li>
         <ol>
             <li>Augment rewards outside autoReward now overwrite autoReward augments, instead of being overwritten by autoReward augments. Fixes events ENGI_UNLOCK_1, ENGI_VIRUS and NEBULA_SLUG_FIGHT_UNLOCK in rare cases.</li>
