@@ -82,12 +82,13 @@ Mod order:
         <li>Stealth C: Human Rock Slug -> SHR</li>
         <li>Crystal A: Human Human Crystal Crystal -> CHCH</li>
     </ol>
-    <li>(Not a feature of the mod, but HS itself: HS adds a magnifying glass at the bottom right of the screen during a run, which can be clicked to show you more info such as weapon cooldowns and beacon connections.)</li>
     <li>checkCargo: Include cargo weapons/drones for event checks (you still need the relevant system).</li>
     <ol>
         <li>Note for modders: this setting by itself allows weapons/drones to be used in choices without the system. I made custom requirement definitions in hyperspace.xml (I named them MULTIREQ_thing), then changed the requirements in event choices, to check for the system. You need to use these custom requirements, or implement more custom requirements, if you also want to check for the system.</li>
     </ol>
     <li>preIgniteChargers: Charge weapons can enter a fight fully charged if you have a Pre-Igniter.</li>
+    <li>showNumericalWeaponCooldown: Shows weapon cooldowns.</li>
+    <li>showAllConnections: Shows all connections between beacons on the map.</li>
     <li>Rebel Flagship and Rebel Elites no longer try to escape if you are out of fuel (this mechanic which is meant to avoid stalemates ironically causes an even worse stalemate in the case of these enemies). This also solves a bug where you have no fuel while fighting the Phase 3 RFS, and win when it leaves.</li>
     <li>Added Speed UI from INS+/MV. Credit to JamesTripleQ, slowriderxcorps, Arc, Chrono Vortex (and anyone else that I missed). I have also improved its performance. At the start of each Civilian Sector, there will be an option to toggle which Speed UI variant you want:</li>
     <ol>
@@ -145,6 +146,9 @@ Mod order:
 
 ## QOL (non-gameplay)
 <ol>
+    <li>redesignedWeaponTooltips: Shows more information about weapons.</li>
+    <li>redesignedDroneTooltips: Shows more information about drones.</li>
+    <li>redesignedAugmentTooltips: Shows more information about augments.</li>
     <li>showReactor: Shows starting reactor and max reactor of ships in hangar.</li>
     <li>extraShipInfo: Shows missiles, drone parts, and crew limit of ships in hangar.</li>
     <li>showDummyEquipmentSlots: Show weapon/drone slots below "SYSTEM NOT INSTALLED" message, to show how many slots you would get if you obtain the system.</li>

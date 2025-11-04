@@ -126,6 +126,8 @@
 <mod:findComposite>
     <mod:par op="OR">
         <mod:findLike type="preIgniteChargers"/>
+        <mod:findLike type="showNumericalWeaponCooldown"/>
+        <mod:findLike type="showAllConnections"/>
     </mod:par>
     <mod:setAttributes enabled="true"/>
 </mod:findComposite>
@@ -278,6 +280,9 @@
 <!--QOL (non-gameplay)-->
 <mod:findComposite>
     <mod:par op="OR">
+        <mod:findLike type="redesignedWeaponTooltips"/>
+        <mod:findLike type="redesignedDroneTooltips"/>
+        <mod:findLike type="redesignedAugmentTooltips"/>
         <mod:findLike type="showReactor"/>
         <mod:findLike type="allowRenameInputSpecialCharacters"/>
         <mod:findLike type="insertNewlineForMultipleCrewTooltips"/>
