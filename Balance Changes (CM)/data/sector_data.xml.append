@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="sectorDescription" name="STANDARD_SPACE">
+    <mod:findName type="event" name="STORE">
+        <mod:setAttributes max="1"/>
+    </mod:findName>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="CIVILIAN_SECTOR">
+    <mod:findName type="event" name="STORE">
+        <mod:setAttributes max="2"/>
+    </mod:findName>
+</mod:findName>
+
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="sectorDescription" name="STANDARD_SPACE"/>
+        <mod:findName type="sectorDescription" name="CIVILIAN_SECTOR"/>
+    </mod:par>
+    <mod:findName type="event" name="NOTHING">
+        <mod:removeTag/>
+    </mod:findName>
+    <mod-append:event name="NOTHING" min="1" max="2"/>
+</mod:findComposite>
+
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="sectorDescription" name="ENGI_SECTOR"/>
+        <mod:findName type="sectorDescription" name="ENGI_HOME"/>
+    </mod:par>
+    <mod:findName type="event" name="STORE_ENGI">
+        <mod:setAttributes max="2"/>
+    </mod:findName>
+    <mod:findName type="event" name="NOTHING_ENGI">
+        <mod:removeTag/>
+    </mod:findName>
+    <mod-append:event name="NOTHING_ENGI" min="1" max="2"/>
+</mod:findComposite>
+
+<mod:findName type="sectorDescription" name="PIRATE_SECTOR">
+    <mod:findName type="event" name="STORE_PIRATE">
+        <mod:setAttributes min="2"/>
+    </mod:findName>
+    <mod:findName type="event" name="NOTHING_PIRATE">
+        <mod:removeTag/>
+    </mod:findName>
+    <mod-append:event name="NOTHING_PIRATE" min="1" max="2"/>
+</mod:findName>
+
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="sectorDescription" name="REBEL_SECTOR_MINIBOSS"/>
+        <mod:findName type="sectorDescription" name="REBEL_SECTOR"/>
+    </mod:par>
+    <mod:findName type="event" name="STORE_REBEL">
+        <mod:setAttributes min="2"/>
+    </mod:findName>
+    <mod:findName type="event" name="NOTHING_REBEL">
+        <mod:removeTag/>
+    </mod:findName>
+    <mod-append:event name="NOTHING_REBEL" min="1" max="2"/>
+</mod:findComposite>
+
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="sectorDescription" name="MANTIS_SECTOR"/>
+        <mod:findName type="sectorDescription" name="MANTIS_HOME"/>
+    </mod:par>
+    <mod:findName type="event" name="STORE_MANTIS">
+        <mod:setAttributes min="2"/>
+    </mod:findName>
+    <mod:findName type="event" name="NOTHING_MANTIS">
+        <mod:removeTag/>
+    </mod:findName>
+    <mod-append:event name="NOTHING_MANTIS" min="2" max="3"/>
+</mod:findComposite>
+
+<mod:findName type="sectorDescription" name="NEBULA_SECTOR">
+    <mod:findName type="event" name="STORE">
+        <mod:setAttributes min="1"/>
+    </mod:findName>
+    <mod:findName type="event" name="NEBULA_EMPTY">
+        <mod:removeTag/>
+    </mod:findName>
+    <mod-append:event name="NEBULA_EMPTY" min="4" max="4"/>
+</mod:findName>
+
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="sectorDescription" name="SLUG_HOME"/>
+        <mod:findName type="sectorDescription" name="SLUG_SECTOR"/>
+    </mod:par>
+    <mod:findName type="event" name="STORE">
+        <mod:setAttributes max="0"/>
+    </mod:findName>
+    <mod:findName type="event" name="NOTHING_SLUG">
+        <mod:removeTag/>
+    </mod:findName>
+    <mod:findName type="event" name="NEBULA_NOTHING_SLUG">
+        <mod:removeTag/>
+    </mod:findName>
+    <mod-append:event name="NOTHING_SLUG" min="0" max="2"/>
+    <mod-append:event name="NEBULA_NOTHING_SLUG" min="2" max="4"/>
+</mod:findComposite>
+
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="sectorDescription" name="ZOLTAN_SECTOR"/>
+        <mod:findName type="sectorDescription" name="ZOLTAN_HOME"/>
+    </mod:par>
+    <mod:findName type="event" name="NOTHING_ZOLTAN">
+        <mod:removeTag/>
+    </mod:findName>
+    <mod-append:event name="NOTHING_ZOLTAN" min="1" max="2"/>
+</mod:findComposite>
+
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="sectorDescription" name="ROCK_SECTOR"/>
+        <mod:findName type="sectorDescription" name="ROCK_HOME"/>
+    </mod:par>
+    <mod:findName type="event" name="NOTHING_ROCK">
+        <mod:removeTag/>
+    </mod:findName>
+    <mod-append:event name="NOTHING_ROCK" min="2" max="3"/>
+</mod:findComposite>
+
+<mod:findName type="sectorDescription" name="CRYSTAL_HOME">
+    <mod:findName type="event" name="STORE_CRYSTAL">
+        <mod:setAttributes max="2"/>
+    </mod:findName>
+    <mod:findName type="event" name="NOTHING_CRYSTAL">
+        <mod:removeTag/>
+    </mod:findName>
+    <mod-append:event name="NOTHING_CRYSTAL" min="2" max="2"/>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="LANIUS_SECTOR">
+    <mod:findName type="event" name="NOTHING_LANIUS">
+        <mod:removeTag/>
+    </mod:findName>
+    <mod-append:event name="NOTHING_LANIUS" min="1" max="2"/>
+</mod:findName>
+</FTL>

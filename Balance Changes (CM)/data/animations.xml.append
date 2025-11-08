@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="weaponAnim" name="beam_3">
+    <mod:removeTag/>
+</mod:findName>
+<animSheet name="beam_3_chargeglow" w="99" h="75" fw="33" fh="75">weapons/beam_3_chargeglow.png</animSheet>
+<anim name="beam_3_chargeglow">
+    <sheet>beam_3_chargeglow</sheet>
+    <desc length="3" x="0" y="0"/>
+    <time>1.0</time>
+</anim>
+<weaponAnim name="beam_3">
+    <sheet>beam_3</sheet>
+    <desc length="10" x="0" y="0" />
+    <chargedFrame>1</chargedFrame>
+    <fireFrame>2</fireFrame>
+    <firePoint x="19" y="40" />
+    <mountPoint x="4" y="62" />
+    <chargeImage>weapons/beam_3_glow.png</chargeImage>
+    <boost>beam_3_chargeglow</boost>
+</weaponAnim>
+</FTL>

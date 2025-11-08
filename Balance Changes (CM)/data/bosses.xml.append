@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="shipBlueprint" name="BOSS_1_EASY">
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="42"/>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_2_EASY">
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="44"/>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_3_EASY">
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="8"/>
+        </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="31"/>
+    </mod:findLike>
+</mod:findName>
+</FTL>

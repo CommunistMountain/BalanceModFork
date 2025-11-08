@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="text" name="weapon_BEAM_3_short">
+    <mod:setValue>Glaive B</mod:setValue> 
+</mod:findName>
+</FTL>

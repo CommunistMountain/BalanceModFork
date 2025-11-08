@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="event" name="TAVERN_HIRE">
+    <mod:findLike type="choice">
+        <mod:findLike type="event">
+            <mod:findLike type="item_modify">
+                <mod:findLike type="item">
+                    <mod:setAttributes min="-40" max="-20"/>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="TRADER_UPGRADES_LIST">
+    <mod:findLike type="event">
+        <mod:findLike type="choice">
+        <mod:selector req="oxygen" max_lvl="1"/>
+            <mod:findLike type="event">
+                <mod:findLike type="item_modify">
+                    <mod:findLike type="item">
+                        <mod:setAttributes min="-20" max="-10"/>
+                    </mod:findLike>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+        <mod:findLike type="choice">
+        <mod:selector req="oxygen" max_lvl="2"/>
+            <mod:findLike type="event">
+                <mod:findLike type="item_modify">
+                    <mod:findLike type="item">
+                        <mod:setAttributes min="-24" max="-12"/>
+                    </mod:findLike>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike><mod:findLike type="choice">
+        <mod:selector req="sensors" max_lvl="1"/>
+            <mod:findLike type="event">
+                <mod:findLike type="item_modify">
+                    <mod:findLike type="item">
+                        <mod:setAttributes min="-20" max="-10"/>
+                    </mod:findLike>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+        <mod:findLike type="choice">
+        <mod:selector req="sensors" max_lvl="2"/>
+            <mod:findLike type="event">
+                <mod:findLike type="item_modify">
+                    <mod:findLike type="item">
+                        <mod:setAttributes min="-24" max="-12"/>
+                    </mod:findLike>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+        <mod:findLike type="choice">
+        <mod:selector req="doors" max_lvl="1"/>
+            <mod:findLike type="event">
+                <mod:findLike type="item_modify">
+                    <mod:findLike type="item">
+                        <mod:setAttributes min="-28" max="-14"/>
+                    </mod:findLike>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+        <mod:findLike type="choice">
+        <mod:selector req="doors" max_lvl="2"/>
+            <mod:findLike type="event">
+                <mod:findLike type="item_modify">
+                    <mod:findLike type="item">
+                        <mod:setAttributes min="-40" max="-20"/>
+                    </mod:findLike>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+        <mod:findLike type="choice">
+        <mod:selector req="pilot" max_lvl="1"/>
+            <mod:findLike type="event">
+                <mod:findLike type="item_modify">
+                    <mod:findLike type="item">
+                        <mod:setAttributes min="-28" max="-14"/>
+                    </mod:findLike>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+        <mod:findLike type="choice">
+        <mod:selector req="pilot" max_lvl="2"/>
+            <mod:findLike type="event">
+                <mod:findLike type="item_modify">
+                    <mod:findLike type="item">
+                        <mod:setAttributes min="-40" max="-20"/>
+                    </mod:findLike>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findLike>
+    <mod:findWithChildLike type="event" child-type="text">
+    <mod:selector id="event_TRADER_UPGRADES_LIST_5_text"/>
+        <mod:findLike type="choice">
+        <mod:selector req="reactor" max_lvl="24"/>
+            <mod:setAttributes max_group="1"/>
+            <mod:findLike type="event">
+                <mod:findLike type="item_modify">
+                    <mod:findLike type="item">
+                        <mod:setAttributes min="-28" max="-14"/>
+                    </mod:findLike>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+        <mod-append:choice req="reactor" max_lvl="19" blue="false" max_group="1">
+            <text id="event_TRADER_UPGRADES_LIST_1_c1_choice"/>
+            <event>
+                <text id="event_TRADER_UPGRADES_LIST_1_c1_text"/>
+                <item_modify>
+                    <item type="scrap" min="-24" max="-12"/>
+                </item_modify>
+                <upgrade amount="1" system="reactor"/>
+            </event>
+        </mod-append:choice>
+        <mod-append:choice req="reactor" max_lvl="14" blue="false" max_group="1">
+            <text id="event_TRADER_UPGRADES_LIST_1_c1_choice"/>
+            <event>
+                <text id="event_TRADER_UPGRADES_LIST_1_c1_text"/>
+                <item_modify>
+                    <item type="scrap" min="-20" max="-10"/>
+                </item_modify>
+                <upgrade amount="1" system="reactor"/>
+            </event>
+        </mod-append:choice>
+        <mod-append:choice req="reactor" max_lvl="9" blue="false" max_group="1">
+            <text id="event_TRADER_UPGRADES_LIST_1_c1_choice"/>
+            <event>
+                <text id="event_TRADER_UPGRADES_LIST_1_c1_text"/>
+                <item_modify>
+                    <item type="scrap" min="-16" max="-8"/>
+                </item_modify>
+                <upgrade amount="1" system="reactor"/>
+            </event>
+        </mod-append:choice>
+        <mod-append:choice req="reactor" max_lvl="4" blue="false" max_group="1">
+            <text id="event_TRADER_UPGRADES_LIST_1_c1_choice"/>
+            <event>
+                <text id="event_TRADER_UPGRADES_LIST_1_c1_text"/>
+                <item_modify>
+                    <item type="scrap" min="-24" max="-12"/>
+                </item_modify>
+                <upgrade amount="1" system="reactor"/>
+            </event>
+        </mod-append:choice>
+    </mod:findWithChildLike>
+</mod:findName>
+</FTL>

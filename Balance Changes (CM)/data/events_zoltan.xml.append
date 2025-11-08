@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="eventList" name="ZOLTAN_PEACE_QUEST_REWARD">
+    <mod:findLike type="event">
+        <mod:findLike type="autoReward">
+            <mod:removeTag/>
+        </mod:findLike>
+    </mod:findLike>
+    <mod:findWithChildLike type="event" child-type="crewMember">
+        <mod-append:augment name="ENERGY_SHIELD"/>
+    </mod:findWithChildLike>
+</mod:findName>
+</FTL>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="weaponBlueprint" name="LASER_BURST_5">
+    <mod:findLike type="fireChance">
+        <mod:setValue>1</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BEAM_1">
+    <mod:findLike type="fireChance">
+        <mod:setValue>0</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BEAM_3">
+    <mod:findLike type="damage">
+        <mod:setValue>1</mod:setValue> 
+    </mod:findLike>
+    <mod:findLike type="cooldown">
+        <mod:setValue>8</mod:setValue> 
+    </mod:findLike>
+    <mod-append:chargeLevels>3</mod-append:chargeLevels>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BEAM_FIRE">
+    <mod:findLike type="fireChance">
+        <mod:setValue>9</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cooldown">
+        <mod:setValue>18</mod:setValue>
+    </mod:findLike>
+    <mod-append:speed>7</mod-append:speed>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH">
+    <mod:findLike type="aug">
+    <mod:selector name="SYSTEM_CASING"/>
+        <mod:removeTag/>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK">
+    <mod:findLike type="weaponList">
+        <mod:setAttributes missiles="40"/>
+    </mod:findLike>
+</mod:findName>
+</FTL>

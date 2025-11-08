@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="weaponBlueprint" name="SHOTGUN_PLAYER"/>
+        <mod:findName type="weaponBlueprint" name="SHOTGUN"/>
+        <mod:findName type="weaponBlueprint" name="SHOTGUN_2"/>
+        <mod:findName type="weaponBlueprint" name="ARTILLERY_FED_C"/>
+    </mod:par>
+    <mod:findLike type="projectiles">
+        <mod:findLike type="projectile">
+        <mod:selector fake="true"/>
+            <mod:removeTag/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findComposite>
+
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="weaponBlueprint" name="LASER_CHARGEGUN_PLAYER"/>
+        <mod:findName type="weaponBlueprint" name="LASER_CHARGEGUN"/>
+    </mod:par>
+    <mod:findLike type="fireChance">
+        <mod:setValue>1</mod:setValue>
+    </mod:findLike>
+</mod:findComposite>
+
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="droneBlueprint" name="DRONE_SHIELD"/>
+        <mod:findName type="droneBlueprint" name="DRONE_SHIELD_PLAYER"/>
+    </mod:par>
+	<mod-append:cooldowns>
+		<noLayers>6.0</noLayers>
+		<oneLayer>8.0</oneLayer>
+		<twoLayers>10.0</twoLayers>
+		<threeLayers>12.0</threeLayers>
+		<moreLayers>14.0</moreLayers>
+	</mod-append:cooldowns>
+</mod:findComposite>
+</FTL>
