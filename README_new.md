@@ -57,6 +57,7 @@
         <li>Lock Bomb: Cooldown from 15s to 12s.</li>
         <li>Small Bomb: Rarity from 1 to 4, cost from 45 to 65, fire chance from 10% to 0%.</li>
         <li>Mini-Beam: Cost from 20 to 60 (sell price from 10 to 30). Fire chance from 10% to 0%.</li>
+        <li>Hull Beam: Cooldown from 14s to 16s.</li>
         <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 80.</li>
         <li>Glaive Beam: Rarity from 5 to 3. Cooldown from 25s to 24s, split into 8s over 3 charges. Its damage is equal to the number of charges. (todo fix the targeting bug)</li>
         <li>Fire Beam: Cooldown from 20s to 18s, speed from 5 to 7, fire chance from 80% to 90%.</li>
@@ -77,7 +78,7 @@
     </ol>
     <li>AUGMENTS:</li>
     <ol>
-        <li>(TODO for all new rarity 0 augments, check that they are not present in any augment list, or if they are, check that it's OK to leave them there.)</li>
+        <li>(TODO for all new rarity 0 augments, check that they are not present in any augment list, or if they are, check that it's OK to leave them there. If not, DELETE.)</li>
         <li>(TODO check more unused augments, see which can go in stores, or maybe give to all ships for free?)</li>
         <li>Almost all ship types now have hidden augments (don't take up slots, but are unsellable) that are now unavailable in stores and random rewards, but can be obtained from events. All other augments are removed from ships, except Long-Ranged Scanner, and Slug B's new augments. The consequences of these changes are listed under subpoints:</li>
         <ol>
@@ -93,7 +94,7 @@
                 <li>Engi A and Engi NPC ships no longer have Engi Med-bot Dispersal.</li>
                 <li>Engi C no longer has Defense Scrambler.</li>
             </ol>
-            <li>Fed Cruisers: system limit from 8 to 9. (Not technically an augment, but I'm including it here for the sake of consistency)</li>
+            <li>Fed Cruisers: System limit from 8 to 9. Effectively, Artillery System doesn't take a system slot. (Not an augment, but I'm including it here for the sake of consistency)</li>
             <ol>
                 <li>Fed C no longer has Emergency Respirators.</li>
             </ol>
@@ -123,7 +124,11 @@
         <li>Changes for hidden augments:</li>
         <ol>
             <li>All hidden augments now cost 50 (and thus sell for 25 if obtained from an event).</li>
-            <li>Advanced FTL Navigation: Travelling to a previously visited beacon refunds 1 fuel (you still need 1 fuel to make the jump) and delays the Rebel Fleet by 1 (beacons that are about to be taken over will still have ASB and an Elite upon arrival). (TODO check if nebula is OK, if not then fix)</li>
+            <li>Advanced FTL Navigation: Travelling to a previously visited beacon refunds 1 fuel (you still need 1 fuel to make the jump) and delays the Rebel Fleet by 1.</li>
+            <ol>
+                <li>NOTE 1: Beacons that are about to be taken over will still have ASB and an Elite upon arrival.</li>
+                <li>NOTE 2: If you have this augment and jump into a previously visited beacon which is overtaken by the Fleet, defeating the Rebel Elite will not grant any fuel.</li>
+            </ol>
             <li>Crystal Vengeance: fires 2 projectiles instead of 1 (todo test), breach chance from 10% to 100%.</li>
             <li>Drone Reactor Booster: Crew drone speed boost from +25% to +100%, and also gives +20% damage. Combat drones and defense drones shoot 20% faster. (TODO see if it can be applied to all drones, or just a subset. Reference slow's INS+ DRB)</li>
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
@@ -131,11 +136,23 @@
             <li>Slug Repair Gel: Breach repair speed from 75% of Human to 300% of Human. Now prevents Sensors from being disabled. Sensors and Doors behave as though they are always manned. (TODO experiment with :ClearStatus() )</li>
             <li>Zoltan Shield: causes -2% evasion per layer (general change for all supershields).</li>
         </ol>
-        <li>These augments are now stackable (TODO CONTINUE)</li>
+        <li>These augments are now stackable. Their effects still don't scale based on how many you have, this just means they will not be immediately converted into 25 scrap when you get a duplicate. (TODO check if they actually have no effect for all below with TODO)</li>
         <ol>
-            <li>Distraction Buoys: Delay the fleet at the start of each sector by the amount you have. (TODO CHECK IF IT WORKS LIKE THIS, IF NOT, MAKE IT WITH LUA)</li>
+            <li>Defense Scrambler</li>
+            <li>Hacking Stun (todo ensure drone part reduction doesn't go below 1 when implementing my change)</li>
+            <li>Stealth Weapons</li>
+            <li>Weapon Pre-Igniter</li>
+            <li>Zoltan Shield Bypass</li>
+            <li>Repair Arm: (TODO)</li>
+            <li>Backup DNA Bank</li>
+            <li>Emergency Respirators: (TODO )</li>
+            <li>Distraction Buoys: (TODO)</li>
+            <li>Drone Recovery Arm: TODO</li>
+            <li>Lifeform Scanner</li>
+            <li>Long-Ranged Scanners</li>
+            <li>Engi Med-bot Dispersal: (TODO)</li>
         </ol>
-        <li>Added Advanced FTL Navigation 2 to stores and random rewards, which allows you to jump to any beacon, by spending fuel equal to the shortest number of jumps to that beacon. Rarity 3, cost 30. (TODO just need to change rarity, cost is already 30.)</li>
+        <li>Added Advanced FTL Navigation 2 to stores and random rewards, which allows you to jump to any beacon, by spending fuel equal to the shortest number of jumps to that beacon. Rarity 3, cost 30. (TODO just need to change rarity, cost is already 30.) (TODO 2 add to augment lists if needed)</li>
         <ol>
             <li>NOTE: If you also have Advanced FTL Navigation, it will NOT take the distance between your destination and the nearest visited beacon from that destination. You will need to manually jump to the visted beacon nearest to the destination first.</li>
         </ol>
@@ -147,9 +164,9 @@
         <li>Hacking Stun: Now also sets the cost of deploying Hacking drone from 2 back to 1.</li>
         <li>Lifeform Scanner: Rarity from 3 to 1. Cost from 40 to 20.</li>
         <li>Long-Ranged Scanners: Rarity from 1 to 3.</li>
-        <li>Repair Arm: Scrap penalty from 15% to 5%.</li>
+        <li>Repair Arm: Scrap penalty from -15% to -5%.</li>
         <li>Reverse Ion Field: Effect chance from 50% to 100%.</li>
-        <li>Scrap Recovery Arm: Rarity from 1 to 3. Cost from 50 to 30.</li>
+        <li>Scrap Recovery Arm: Rarity from 1 to 3. Scrap bonus from +10% to +15%.</li>
         <li>Zoltan Shield Bypass: Rarity from 3 to 1. Cost from 55 to 40.</li>
     </ol>
     <li>PLAYER SHIPS (other than augment changes above):</li>
@@ -183,17 +200,16 @@
         <li>Auto-scout and Auto-surveyor: Shields are now guaranteed.</li>
         <li>Auto-ships, and Flagship when automated: now able to fix breaches, at about 1/3 of Human. (TODO Custom value version of 0.083 (check that more decimal places than 2 are allowed?). Call it SLUG_GEL_SLOW)</li>
         <li>Engi NPC ships: May now spawn with Anti-Personnel Drones.</li>
-        <li>Lanius Bombers: crew range from 3-4 to 3.</li>
+        <li>Lanius Bomber: Crew range from 3-4 to 3.</li>
         <li>Slug Interceptor and Slug Scout: Added doors connecting Oxygen and Engines.</li>
-        <li>Flagship: Oxygen is disabled when it becomes automated. (TODO instant drain O2 instead of slowly reduce)</li>
+        <li>Flagship: Oxygen is disabled when it becomes automated. (TODO at start of P2 and P3 event (before automated popup) check if the crew is already dead. If so, instantly set the oxygen to 0 with LUA instead of waiting for oxygen to drain)</li>
         <li>Flagship (Non-AE Easy version): Shield layers from 3 to 4.</li>
         <li>Flagship (Normal version): Now has vanilla Hard's layout.</li>
-        <li>Flagship (Hard version): Shifted extra room to go between each side's 2 artilleries, connecting them. They will be destroyed when subsequent phases lose their respective sides. (TODO maybe when the side is destroyed, the old hard room appears)</li>
+        <li>Flagship (Hard version): In Phase 1, there are extra rooms between each side's 2 Artilleries, connecting all of them, and no room between laser/missile Artilleries and Shields. In Phase 2, the left extra room will be destroyed, but a new room will appear between laser Artillery and Shields. Likewise for the right extra room in Phase 3, so Phase 3 has vanilla Hard's layout.</li>
         <li>Flagship (Phase 3): supershield causes -2% evasion per layer (general change for all supershields).</li>
     </ol>
     <li>EVENTS:</li>
     <ol>
-        <li>(TODO think of how events like trade drones/missiles for scrap will change with the changed resources above...)</li>
         <li>(TODO more events for Lifeform Scanner just like Twinge. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates.)</li>
         <li>All sectors have 2 guaranteed stores, except for Sector 1 and Sector 8 which have 1 guaranteed store:</li>
         <ol>
@@ -203,9 +219,15 @@
             <li>Slug Sectors: from 0-1 to 0 (in non-nebula).</li>
             <li>Uncharted Nebula Sectors: from 0-1 to 1 (in non-nebula).</li>
         </ol>
-        <li>When generating events for sectors, "Nothing" events are now at the bottom of the list, making it less likely for them to be generated.</li>
-        <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have none).</li>
-        <li>ASTEROID_DERELICT_SHIP: when you choose to "Grab the stasis chamber", you have a 10% chance of instantly getting Ruwen.</li>
+        <li>Uncharted Nebula has 2-4 empty beacons (in nebula only), Slug sectors have 1-2 empty beacons in non-nebula and 1-2 in nebula, and all other sectors have 1-2 empty beacons (in non-nebula only).</li>
+        <ol>
+            <li>Uncharted Nebula sector: empty beacon range from 4 to 2-4.</li>
+            <li>Slug sectors: non-nebula empty beacon range from 0-2 to 1-2, nebula empty beacon range from 2-4 to 1-2.</li>
+            <li>Mantis and Rock sectors: empty beacon range from 2-3 to 1-2.</li>
+            <li>Crystal sector: empty beacon range from 2 to 1-2.</li>
+        </ol>
+        <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
+        <li>ASTEROID_DERELICT_SHIP: When you choose to "Grab the stasis chamber", you have a 10% chance of instantly getting Ruwen.</li>
         <li>AUTO_HACKER: Now disables 1 level of your Shields, instead of half of your Shield levels rounded up.</li>
         <li>CRYSTAL_CACHE: Engines blue option level requirement from 7 to 5.</li>
         <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation, and fleet delay from 2 to 1.</li>
@@ -214,6 +236,8 @@
         <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire") (TODO make a custom req which includes all; Fire Drone will need its own custom req which sees if there's a Drone System.).</li>
         <li>ROCK_STARSHIP_MINE: Engines blue option level requirement from 5 to 3.</li>
         <li>ROCK_UNLOCK: Completing the event chain gives a High standard autoReward and a random missile or bomb weapon on top of other rewards.</li>
+        <li>SELL_DRONES_STATION: Scrap per drone part from 4 to 3.</li>
+        <li>SELL_MISSILES_STATION: Scrap per missile from 3 to 2.</li>
         <li>TAVERN_HIRE: Cost ranges from 25-45 and 25-55 to 20-40 for both.</li>
         <li>TRADER_UPGRADES: All cost ranges are now 40%-80% of the normal cost.</li>
         <ol>

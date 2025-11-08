@@ -39,4 +39,10 @@
 		<moreLayers>14.0</moreLayers>
 	</mod-append:cooldowns>
 </mod:findComposite>
+
+<mod:findName type="shipBlueprint" name="ANAEROBIC_BOMBER">
+    <mod:findLike type="crewCount">
+        <mod:setAttributes max="4"/>
+    </mod:findLike>
+</mod:findName>
 </FTL>
