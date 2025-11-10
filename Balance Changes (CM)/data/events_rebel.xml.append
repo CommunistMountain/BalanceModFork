@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="event" name="AUTO_HACKER">
+    <mod:findLike type="choice">
+        <mod:findLike type="event">
+            <mod:findLike type="status">
+            <mod:selector system="shields"/>
+                <mod:setAttributes type="loss" amount="1"/>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+</FTL>

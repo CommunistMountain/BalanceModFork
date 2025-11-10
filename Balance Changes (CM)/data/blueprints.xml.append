@@ -33,6 +33,26 @@
     <mod-append:speed>7</mod-append:speed>
 </mod:findName>
 
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="augBlueprint" name="NANO_MEDBAY"/>
+        <mod:findName type="augBlueprint" name="CLOAK_FIRE"/>
+        <mod:findName type="augBlueprint" name="ADV_SCANNERS"/>
+        <mod:findName type="augBlueprint" name="WEAPON_PREIGNITE"/>
+        <mod:findName type="augBlueprint" name="DRONE_RECOVERY"/>
+        <mod:findName type="augBlueprint" name="FTL_JUMPER_GOOD"/>
+    </mod:par>
+    <mod:findLike type="stackable">
+        <mod:setValue>true</mod:setValue>
+    </mod:findLike>
+</mod:findComposite>
+
+<mod:findName type="augBlueprint" name="FTL_JUMPER_GOOD">
+    <mod:findLike type="rarity">
+        <mod:setValue>3</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH">
     <mod:findLike type="aug">
     <mod:selector name="SYSTEM_CASING"/>

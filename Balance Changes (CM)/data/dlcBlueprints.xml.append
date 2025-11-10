@@ -3,6 +3,20 @@
 <FTL>
 <mod:findComposite>
     <mod:par op="OR">
+        <mod:findName type="augBlueprint" name="FLEET_DISTRACTION"/>
+        <mod:findName type="augBlueprint" name="DEFENSE_SCRAMBLER"/>
+        <mod:findName type="augBlueprint" name="BACKUP_DNA"/>
+        <mod:findName type="augBlueprint" name="HACKING_STUN"/>
+        <mod:findName type="augBlueprint" name="LIFE_SCANNER"/>
+        <mod:findName type="augBlueprint" name="ZOLTAN_BYPASS"/>
+    </mod:par>
+    <mod:findLike type="stackable">
+        <mod:setValue>true</mod:setValue>
+    </mod:findLike>
+</mod:findComposite>
+
+<mod:findComposite>
+    <mod:par op="OR">
         <mod:findName type="weaponBlueprint" name="SHOTGUN_PLAYER"/>
         <mod:findName type="weaponBlueprint" name="SHOTGUN"/>
         <mod:findName type="weaponBlueprint" name="SHOTGUN_2"/>
@@ -15,6 +29,16 @@
         </mod:findLike>
     </mod:findLike>
 </mod:findComposite>
+
+<mod:findName type="weaponBlueprint" name="ARTILLERY_FED_C">
+    <mod:findLike type="damage">
+        <mod:setValue>0</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="sp">
+        <mod:setValue>5</mod:setValue>
+    </mod:findLike>
+    <!--mod-append:persDamage>-10</mod-append:persDamage-->
+</mod:findName>
 
 <mod:findComposite>
     <mod:par op="OR">

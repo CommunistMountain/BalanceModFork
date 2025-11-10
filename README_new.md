@@ -23,7 +23,7 @@
         <li>Oxygen: Level 3 cost from 50 to 30.</li>
         <li>Engines: Level 4/5/6/7/8 cost from 30/40/60/80/120 to 55/25/20/20/35.</li>
         <li>Hacking: Cost of deploying hacking drone from 1 to 2. Drone will explode if the system is depowered while the drone is mid-flight. (TODO ensure cost increase works for enemies? try editing power tag in dlcBlueprints.xml DRONE_HACKING. Or see https://github.com/FTL-Hyperspace/FTL-Hyperspace/wiki/Lua-Hyperspace-Module hacking int spenddrone)</li>
-        <li>Artillery: Cost of level ??? from ??? to ??? (TODO)</li>
+        <li>Artillery: Level 2/3/4 cost from 30/50/80 to 15/25/50.</li>
     </ol>
     <li>WEAPONS:</li>
     <ol>
@@ -40,14 +40,14 @@
         <li>Hull Laser 1: Rarity from 2 to 3, cooldown from 14s to 15s, projectile speed from 75 to 90, fire chance from 0% to 10%, breach chance from 20% to 18%.</li>
         <li>Chain Vulcan: Rarity from 5 to 2. Starting cooldown from 11.1s to 9.1s, number of shots needed to get to 1.1s cooldown from 5 to 4 (total duration from 35.5s to 24.4s).</li>
         <li>Advanced Flak, Flak 1, Flak 2, Flak Artillery: removed fake projectiles.</li>
+        <li>Advanced Flak: Cooldown from 8s to 5s, projectiles from 3 to 2.</li>
         <li>Flak 1: Rarity from 1 to 4, cost from 65 to 80.</li>
-        <li>Advanced Flak: projectiles from 3 to 2. Cooldown from 8s to 5s.</li>
-        <li>Flak Artillery: shield piercing from 0 to 5, damage from 1 to 0, now heals your crew instead (TODO by how much?)</li>
+        <li>Flak Artillery: shield piercing from 0 to 5, damage from 1 to 0, now heals your crew by 150 per projectile. (TODO check if it's enough that it hits a room, or it needs to hit the tile to work. If the former, heal can afford to be less) (TODO 2 find out how to apply heal, maybe need LUA, and remove persDamage since it doesnt work)</li>
         <li>Heavy Crystal 2: Rarity from 5 to 4, power requirement from 3 to 2.</li>
         <li>Hull Missile: Cooldown from 17s to 14s.</li>
         <li>Pegasus Missile: Cooldown from 20s to 16s.</li>
         <li>Breach Missiles: Cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
-        <li>Swarm Missiles: Projectile speed from 45 to 35, stun chance from 0% to 10%</li>
+        <li>Swarm Missiles: Projectile speed from 45 to 35, stun chance from 0% to 10%.</li>
         <li>Healing Burst: cooldown from 18s to 9s.</li>
         <li>Repair Burst: Cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100% (though if it's a room with open external doors, it will become instantly vacuum again). (TODO: test if all these features work. Also check that o2 works against auto and lanius)</li>
         <li>Breach Bomb 1: Power requirement from 1 to 2, system damage from 1 to 2.</li>
@@ -79,7 +79,6 @@
     <li>AUGMENTS:</li>
     <ol>
         <li>(TODO for all new rarity 0 augments, check that they are not present in any augment list, or if they are, check that it's OK to leave them there. If not, DELETE.)</li>
-        <li>(TODO check more unused augments, see which can go in stores, or maybe give to all ships for free?)</li>
         <li>Almost all ship types now have hidden augments (don't take up slots, but are unsellable) that are now unavailable in stores and random rewards, but can be obtained from events. All other augments are removed from ships, except Long-Ranged Scanner, and Slug B's new augments. The consequences of these changes are listed under subpoints:</li>
         <ol>
             <li>Kestrel Cruisers: added hidden Advanced FTL Navigation (which now includes the effects of FTL Jammer and FTL Recharge Booster).</li>
@@ -124,10 +123,7 @@
         <li>Changes for hidden augments:</li>
         <ol>
             <li>All hidden augments now cost 50 (and thus sell for 25 if obtained from an event).</li>
-            <li>Advanced FTL Navigation: Travelling to a previously visited beacon refunds 1 fuel (you still need 1 fuel to make the jump) and delays the Rebel Fleet by 1.</li>
-            <ol>
-                <li>NOTE 1: Beacons that are about to be taken over will still have ASB and an Elite upon arrival.</li>
-                <li>NOTE 2: If you have this augment and jump into a previously visited beacon which is overtaken by the Fleet, defeating the Rebel Elite will not grant any fuel.</li>
+            <li>Advanced FTL Navigation: Travelling to a previously visited beacon refunds 1 fuel (you still need 1 fuel to make the jump) and delays the Rebel Fleet by 1. (Beacons that are about to be taken over will still have ASB and an Elite upon arrival.)</li>
             </ol>
             <li>Crystal Vengeance: fires 2 projectiles instead of 1 (todo test), breach chance from 10% to 100%.</li>
             <li>Drone Reactor Booster: Crew drone speed boost from +25% to +100%, and also gives +20% damage. Combat drones and defense drones shoot 20% faster. (TODO see if it can be applied to all drones, or just a subset. Reference slow's INS+ DRB)</li>
@@ -136,29 +132,27 @@
             <li>Slug Repair Gel: Breach repair speed from 75% of Human to 300% of Human. Now prevents Sensors from being disabled. Sensors and Doors behave as though they are always manned. (TODO experiment with :ClearStatus() )</li>
             <li>Zoltan Shield: causes -2% evasion per layer (general change for all supershields).</li>
         </ol>
-        <li>These augments are now stackable. Their effects still don't scale based on how many you have, this just means they will not be immediately converted into 25 scrap when you get a duplicate. (TODO check if they actually have no effect for all below with TODO)</li>
+        <li>These augments are now stackable. Stack effects will be mentioned if any, and if not, simply means they will not be immediately converted into 25 scrap when you get a duplicate.</li>
         <ol>
+            <li>Backup DNA Bank</li>
             <li>Defense Scrambler</li>
+            <li>Distraction Buoys</li>
+            <li>Drone Recovery Arm</li>
+            <li>Engi Med-bot Dispersal: Heal stacks.</li>
             <li>Hacking Stun (todo ensure drone part reduction doesn't go below 1 when implementing my change)</li>
+            <li>Lifeform Scanner</li>
+            <li>Long-Ranged Scanners</li>
             <li>Stealth Weapons</li>
             <li>Weapon Pre-Igniter</li>
             <li>Zoltan Shield Bypass</li>
-            <li>Repair Arm: (TODO)</li>
-            <li>Backup DNA Bank</li>
-            <li>Emergency Respirators: (TODO )</li>
-            <li>Distraction Buoys: (TODO)</li>
-            <li>Drone Recovery Arm: TODO</li>
-            <li>Lifeform Scanner</li>
-            <li>Long-Ranged Scanners</li>
-            <li>Engi Med-bot Dispersal: (TODO)</li>
         </ol>
-        <li>Added Advanced FTL Navigation 2 to stores and random rewards, which allows you to jump to any beacon, by spending fuel equal to the shortest number of jumps to that beacon. Rarity 3, cost 30. (TODO just need to change rarity, cost is already 30.) (TODO 2 add to augment lists if needed)</li>
+        <li>Added Advanced FTL Navigation 2 to stores and random rewards, which allows you to jump to any beacon, by spending fuel equal to the shortest number of jumps to that beacon. Rarity 3, cost 30. Stackable, but having multiple does not change it's effect. (TODO 2 add to augment lists if needed)</li>
         <ol>
             <li>NOTE: If you also have Advanced FTL Navigation, it will NOT take the distance between your destination and the nearest visited beacon from that destination. You will need to manually jump to the visted beacon nearest to the destination first.</li>
         </ol>
         <li>Automated Reloader: Rarity from 2 to 4, cost from 40 to 60.</li>
         <li>Battery Charger: Rarity from 2 to 0.</li>
-        <li>Distraction Buoys: Cost from 55 to 30.</li>
+        <li>Distraction Buoys: Cost from 55 to 40.</li>
         <li>Emergency Respirators: damage taken from lack of oxygen from -50% to -80%. Rarity from 2 to 4.</li>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40. (TODO add to augment lists if needed)</li>
         <li>Hacking Stun: Now also sets the cost of deploying Hacking drone from 2 back to 1.</li>
@@ -201,6 +195,7 @@
         <li>Auto-ships, and Flagship when automated: now able to fix breaches, at about 1/3 of Human. (TODO Custom value version of 0.083 (check that more decimal places than 2 are allowed?). Call it SLUG_GEL_SLOW)</li>
         <li>Engi NPC ships: May now spawn with Anti-Personnel Drones.</li>
         <li>Lanius Bomber: Crew range from 3-4 to 3.</li>
+        <li>Mantis Fighter and Mantis Interceptor (including pirate versions): Medical systems are now optional instead of guaranteed.</li>
         <li>Slug Interceptor and Slug Scout: Added doors connecting Oxygen and Engines.</li>
         <li>Flagship: Oxygen is disabled when it becomes automated. (TODO at start of P2 and P3 event (before automated popup) check if the crew is already dead. If so, instantly set the oxygen to 0 with LUA instead of waiting for oxygen to drain)</li>
         <li>Flagship (Non-AE Easy version): Shield layers from 3 to 4.</li>
