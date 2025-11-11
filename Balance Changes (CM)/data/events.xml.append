@@ -1,34 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
-<event name="ROCK_CRYSTAL_BEACON_REVISIT">
-    <revisitEvent>ROCK_CRYSTAL_BEACON_REVISIT</revisitEvent>
-	<text id="event_ROCK_CRYSTAL_BEACON_text"/>
-	<choice hidden="true">
-		<text id="event_ROCK_CRYSTAL_BEACON_c2_choice"/>
-		<event>
-			<text id="event_ROCK_CRYSTAL_BEACON_c2_text"/>
-		</event>
-	</choice>
-	<choice hidden="true" req="crystal">
-		<text id="event_ROCK_CRYSTAL_BEACON_c3_choice"/>
-		<event>
-			<text id="event_ROCK_CRYSTAL_BEACON_c3_text"/>
-			<item_modify>
-				<item type="fuel" min="1" max="1"/>
-			</item_modify>
-			<choice hidden="true">
-				<text id="event_ROCK_CRYSTAL_BEACON_c3_c1_choice"/>
-				<event>
-					<text id="event_ROCK_CRYSTAL_BEACON_c3_c1_text"/>
-					<secretSector/>
-				</event>
-			</choice>
-		</event>
-	</choice>
-</event>
+<event name="EMPTY_CM"/>
 
-<mod:findName type="event" name="ROCK_CRYSTAL_BEACON">
-    <mod-append:revisitEvent>ROCK_CRYSTAL_BEACON_REVISIT</mod-append:revisitEvent>
+<mod:findName type="eventList" name="ROCK_CRYSTAL_BEACON_LIST">
+    <mod:findLike type="event">
+        <mod-append:renameBeacon>EMPTY_CM</mod-append:renameBeacon>
+    </mod:findLike>
 </mod:findName>
 </FTL>
