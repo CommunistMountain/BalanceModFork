@@ -146,12 +146,13 @@
             <li>Weapon Pre-Igniter</li>
             <li>Zoltan Shield Bypass</li>
         </ol>
-        <li>Added Advanced FTL Navigation 2 to stores and random rewards, which allows you to jump to any beacon, by spending fuel equal to the shortest number of jumps to that beacon. Rarity 3, cost 30. Stackable, but having multiple does not change it's effect. (TODO 2 add to augment lists if needed)</li>
+        <li>Added Advanced FTL Navigation 2 to stores and random rewards, which allows you to jump to any beacon, by spending fuel equal to the shortest number of jumps to that beacon. Rarity 3, cost 30. Stackable, but having multiple does not change it's effect. (TODO add to augment lists if needed)</li>
         <ol>
             <li>NOTE: If you also have Advanced FTL Navigation, it will NOT take the distance between your destination and the nearest visited beacon from that destination. You will need to manually jump to the visted beacon nearest to the destination first.</li>
         </ol>
         <li>Automated Reloader: Rarity from 2 to 4, cost from 40 to 60.</li>
         <li>Battery Charger: Rarity from 2 to 0.</li>
+        <li>Damaged Stasis Pod: Cost from 30 to 0 (and thus sells for 0).</li>
         <li>Distraction Buoys: Cost from 55 to 40.</li>
         <li>Emergency Respirators: damage taken from lack of oxygen from -50% to -80%. Rarity from 2 to 4.</li>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40. (TODO add to augment lists if needed)</li>
@@ -190,13 +191,14 @@
     <li>NPC SHIPS:</li>
     <ol>
         <li>The rooms of friendly ships can now be seen.</li>
+        <li>Engi NPC ships: May now spawn with Anti-Personnel Drones.</li>
+        <li>Lanius Bomber: Crew range from 3-4 to 3.</li>
+        <li>Mantis Fighter and Mantis Interceptor (and pirate versions): Medical systems are now optional instead of guaranteed.</li>
+        <li>Slug Interceptor and Slug Scout: Added doors connecting Oxygen and Engines.</li>
+        <li>Rock Assault (Elite): Crew range from 4 to 5.</li>
         <li>Auto-ships: Removed doors.</li>
         <li>Auto-scout and Auto-surveyor: Shields are now guaranteed.</li>
         <li>Auto-ships, and Flagship when automated: now able to fix breaches, at about 1/3 of Human. (TODO Custom value version of 0.083 (check that more decimal places than 2 are allowed?). Call it SLUG_GEL_SLOW)</li>
-        <li>Engi NPC ships: May now spawn with Anti-Personnel Drones.</li>
-        <li>Lanius Bomber: Crew range from 3-4 to 3.</li>
-        <li>Mantis Fighter and Mantis Interceptor (including pirate versions): Medical systems are now optional instead of guaranteed.</li>
-        <li>Slug Interceptor and Slug Scout: Added doors connecting Oxygen and Engines.</li>
         <li>Flagship: Oxygen is disabled when it becomes automated. (TODO at start of P2 and P3 event (before automated popup) check if the crew is already dead. If so, instantly set the oxygen to 0 with LUA instead of waiting for oxygen to drain)</li>
         <li>Flagship (Non-AE Easy version): Shield layers from 3 to 4.</li>
         <li>Flagship (Normal version): Now has vanilla Hard's layout.</li>
@@ -229,6 +231,7 @@
         <li>LANIUS_RESEARCHER_CRAFT: Choosing to craft an augment now always gives Reconstructive Teleport instead of a random AE augment.</li>
         <li>NEBULA_SLUG_FIGHT_UNLOCK: Completing the event chain gives Anti-Bio Beam on top of other rewards.</li>
         <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire") (TODO make a custom req which includes all; Fire Drone will need its own custom req which sees if there's a Drone System.).</li>
+        <li>ROCK_CRYSTAL_BEACON: If you choose to leave the ancient device alone, you will be able to see this event again when revisiting the beacon. However, the choice to scrap it will only be present on the first visit.</li>
         <li>ROCK_STARSHIP_MINE: Engines blue option level requirement from 5 to 3.</li>
         <li>ROCK_UNLOCK: Completing the event chain gives a High standard autoReward and a random missile or bomb weapon on top of other rewards.</li>
         <li>SELL_DRONES_STATION: Scrap per drone part from 4 to 3.</li>
