@@ -28,25 +28,27 @@
     <li>WEAPONS:</li>
     <ol>
         <li>Enemy Artemis: Renamed to "Artemis-". Rarity from 0 to 2 (now available in stores and random rewards), costs 38. (TODO: add to missile lists if it's not in them.)</li>
-        <li>Ion Blast 2: Power requirement from 3 to 2.</li>
+        <li>Ion Blast 2: Cost from 70 to 60, power requirement from 3 to 2.</li>
         <li>Heavy Ion: Cooldown from 13s to 10s.</li>
         <li>Chain Ion: Cooldown from 14s to 8s.</li>
         <li>Laser Charger: Fire chance from 0% to 10%.</li>
         <li>Laser Charger (S): Cost from 30 to 60 (sell price from 15 to 30). Fire chance from 0% to 10%.</li>
         <li>Dual Lasers: Cost from 25 to 60 (sell price from 12 to 30).</li>
         <li>Burst Laser 1: Rarity from 1 to 3.</li>
-        <li>Burst Laser 3: Rarity from 4 to 2, Projectiles from 5 to 6, fire chance from 0% to 10%.</li>
+        <li>Burst Laser 3: Rarity from 4 to 2, cost from 95 to 70, projectiles from 5 to 6, fire chance from 0% to 10%.</li>
         <li>Heavy Laser 1: Rarity from 2 to 4.</li>
         <li>Hull Laser 1: Rarity from 2 to 3, cooldown from 14s to 15s, projectile speed from 75 to 90, fire chance from 0% to 10%, breach chance from 20% to 18%.</li>
-        <li>Chain Vulcan: Rarity from 5 to 2. Starting cooldown from 11.1s to 9.1s, number of shots needed to get to 1.1s cooldown from 5 to 4 (total duration from 35.5s to 24.4s).</li>
+        <li>Chain Vulcan: Rarity from 5 to 2, cost from 95 to 80. Starting cooldown from 11.1s to 9.1s, number of shots needed to get to 1.1s cooldown from 5 to 4 (total duration from 35.5s to 24.4s).</li>
         <li>Advanced Flak, Flak 1, Flak 2, Flak Artillery: removed fake projectiles.</li>
         <li>Advanced Flak: Cooldown from 8s to 5s, projectiles from 3 to 2.</li>
         <li>Flak 1: Rarity from 1 to 4, cost from 65 to 80.</li>
+        <li>Flak 2: Cost from 80 to 70.</li>
         <li>Flak Artillery: shield piercing from 0 to 5, damage from 1 to 0, now heals your crew by 150 per projectile. (TODO check if it's enough that it hits a room, or it needs to hit the tile to work. If the former, heal can afford to be less) (TODO 2 find out how to apply heal, maybe need LUA, and remove persDamage since it doesnt work)</li>
+        <li>Crystal weapons: Cost from 20 to 50.</li>
         <li>Heavy Crystal 2: Rarity from 5 to 4, power requirement from 3 to 2.</li>
-        <li>Hull Missile: Cooldown from 17s to 14s.</li>
+        <li>Hull Missile: Cost from 65 to 50, cooldown from 17s to 14s.</li>
         <li>Pegasus Missile: Cooldown from 20s to 16s.</li>
-        <li>Breach Missiles: Cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
+        <li>Breach Missiles: Cost from 65 to 50, cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
         <li>Swarm Missiles: Projectile speed from 45 to 35, stun chance from 0% to 10%.</li>
         <li>Healing Burst: cooldown from 18s to 9s.</li>
         <li>Repair Burst: Cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100% (though if it's a room with open external doors, it will become instantly vacuum again). (TODO: test if all these features work. Also check that o2 works against auto and lanius)</li>
@@ -55,11 +57,11 @@
         <li>Ion Bomb: Cooldown from 22s to 20s.</li>
         <li>Stun Bomb: Cooldown from 17s to 15s.</li>
         <li>Lock Bomb: Cooldown from 15s to 12s.</li>
-        <li>Small Bomb: Rarity from 1 to 4, cost from 45 to 65, fire chance from 10% to 0%.</li>
+        <li>Small Bomb: Rarity from 1 to 4, cost from 45 to 70, fire chance from 10% to 0%.</li>
         <li>Mini-Beam: Cost from 20 to 60 (sell price from 10 to 30). Fire chance from 10% to 0%.</li>
         <li>Hull Beam: Cooldown from 14s to 16s.</li>
         <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 80.</li>
-        <li>Glaive Beam: Rarity from 5 to 3. Cooldown from 25s to 24s, split into 8s over 3 charges. Its damage is equal to the number of charges. (todo fix the targeting bug)</li>
+        <li>Glaive Beam: Rarity from 5 to 3, cost from 95 to 75, cooldown from 25s to 24s, split into 8s over 3 charges. Its damage is equal to the number of charges. (todo fix the targeting bug)</li>
         <li>Fire Beam: Cooldown from 20s to 18s, speed from 5 to 7, fire chance from 80% to 90%.</li>
         <li>Anti-Bio Beam: Rarity from 5 to 4.</li>
     </ol>
