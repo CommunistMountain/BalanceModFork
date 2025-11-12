@@ -2,14 +2,26 @@
 
 <FTL>
 <mod:findName type="weaponBlueprint" name="LASER_BURST_5">
+    <mod:findLike type="shots">
+        <mod:setValue>6</mod:setValue>
+    </mod:findLike>
     <mod:findLike type="fireChance">
         <mod:setValue>1</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>70</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="rarity">
+        <mod:setValue>2</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="BEAM_1">
     <mod:findLike type="fireChance">
         <mod:setValue>0</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>60</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
@@ -53,16 +65,30 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS_2"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE_2"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY_2"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK_2"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_ENERGY"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_ENERGY_2"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CRYSTAL"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CRYSTAL_2"/>
+    </mod:par>
+    <mod:findLike type="aug">
+        <mod:removeTag/>
+    </mod:findLike>
+</mod:findComposite>
+
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH">
     <mod:findLike type="aug">
     <mod:selector name="SYSTEM_CASING"/>
         <mod:removeTag/>
-    </mod:findLike>
-</mod:findName>
-
-<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK">
-    <mod:findLike type="weaponList">
-        <mod:setAttributes missiles="40"/>
     </mod:findLike>
 </mod:findName>
 </FTL>

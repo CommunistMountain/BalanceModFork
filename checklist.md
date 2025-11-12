@@ -31,15 +31,12 @@
         <li>Ion Blast 2: Cost from 70 to 60, power requirement from 3 to 2.</li>
         <li>Heavy Ion: Cooldown from 13s to 10s.</li>
         <li>Chain Ion: Cooldown from 14s to 8s.</li>
-        <li>Laser Charger: Fire chance from 0% to 10%.</li>
-        <li>Laser Charger (S): Cost from 30 to 60 (sell price from 15 to 30). Fire chance from 0% to 10%.</li>
+        <li>Laser Charger (S): Cost from 30 to 60 (sell price from 15 to 30).</li>
         <li>Dual Lasers: Cost from 25 to 60 (sell price from 12 to 30).</li>
         <li>Burst Laser 1: Rarity from 1 to 3.</li>
-        <li>Burst Laser 3: Rarity from 4 to 2, cost from 95 to 70, projectiles from 5 to 6, fire chance from 0% to 10%.</li>
         <li>Heavy Laser 1: Rarity from 2 to 4.</li>
         <li>Hull Laser 1: Rarity from 2 to 3, cooldown from 14s to 15s, projectile speed from 75 to 90, fire chance from 0% to 10%, breach chance from 20% to 18%.</li>
         <li>Chain Vulcan: Rarity from 5 to 2, cost from 95 to 80. Starting cooldown from 11.1s to 9.1s, number of shots needed to get to 1.1s cooldown from 5 to 4 (total duration from 35.5s to 24.4s).</li>
-        <li>Advanced Flak, Flak 1, Flak 2, Flak Artillery: removed fake projectiles.</li>
         <li>Advanced Flak: Cooldown from 8s to 5s, projectiles from 3 to 2.</li>
         <li>Flak 1: Rarity from 1 to 4, cost from 65 to 80.</li>
         <li>Flak 2: Cost from 80 to 70.</li>
@@ -58,11 +55,9 @@
         <li>Stun Bomb: Cooldown from 17s to 15s.</li>
         <li>Lock Bomb: Cooldown from 15s to 12s.</li>
         <li>Small Bomb: Rarity from 1 to 4, cost from 45 to 70, fire chance from 10% to 0%.</li>
-        <li>Mini-Beam: Cost from 20 to 60 (sell price from 10 to 30). Fire chance from 10% to 0%.</li>
         <li>Hull Beam: Cooldown from 14s to 16s.</li>
         <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 80.</li>
         <li>Glaive Beam: Rarity from 5 to 3, cost from 95 to 75, cooldown from 25s to 24s, split into 8s over 3 charges. Its damage is equal to the number of charges. (todo fix the targeting bug)</li>
-        <li>Fire Beam: Cooldown from 20s to 18s, speed from 5 to 7, fire chance from 80% to 90%.</li>
         <li>Anti-Bio Beam: Rarity from 5 to 4.</li>
     </ol>
     <li>DRONES:</li>
@@ -71,7 +66,6 @@
         <li>Combat Drone 2, Beam Drone 2: Rarity from 5 to 4.</li>
         <li>Fire Drone: Power requirement from 3 to 2.</li>
         <li>Defense Drone 1: Rarity from 1 to 3.</li>
-        <li>Shield Drones: causes -2% evasion per layer (general change for all supershields). Cooldown per layer changed from 8/10/13/16/20s to 6/8/10/12/14s.</li>
         <li>Hull Repair Drone: Cost from 85 to 40. Power requirement from 2 to 1. Drone Recovery Arm no longer retrieves it if you jump while it is repairing.</li>
         <li>System Repair Drone: Health from 25 to 50.</li>
         <li>Anti-Personnel Drone: Power requirement from 2 to 1.</li>
@@ -119,41 +113,29 @@
             <li>Lanius Cruisers: added hidden Reconstructive Teleport, removed Emergency Respirators.</li>
             <ol>
                 <li>Lanius NPC ships now have Reconstructive Teleport.</li>
-                <li>Reconstructive Teleport: Rarity from 3 to 0.</li>
+                <li>Reconstructive Teleport: rarity from 3 to 0.</li>
             </ol>
         </ol>
         <li>Changes for hidden augments:</li>
         <ol>
             <li>All hidden augments now cost 50 (and thus sell for 25 if obtained from an event).</li>
-            <li>Advanced FTL Navigation: Travelling to a previously visited beacon refunds 1 fuel (you still need 1 fuel to make the jump) and delays the Rebel Fleet by 1. (Beacons that are about to be taken over will still have ASB and an Elite upon arrival.)</li>
             <li>Crystal Vengeance: fires 2 projectiles instead of 1 (todo test), breach chance from 10% to 100%.</li>
             <li>Drone Reactor Booster: Crew drone speed boost from +25% to +100%, and also gives +20% damage. Combat drones and defense drones shoot 20% faster. (TODO see if it can be applied to all drones, or just a subset. Reference slow's INS+ DRB)</li>
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
             <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 83% of Human to 50% of Human.</li>
             <li>Slug Repair Gel: Breach repair speed from 75% of Human to 300% of Human. Now prevents Sensors from being disabled. Sensors and Doors behave as though they are always manned. (TODO experiment with :ClearStatus() )</li>
-            <li>Zoltan Shield: causes -2% evasion per layer (general change for all supershields).</li>
         </ol>
-        <li>These augments are now stackable. Most of their effects will not change when having multiple, it simply means they will not be immediately converted into 25 scrap when you get a duplicate.</li>
+        <li>These augments are now stackable. Stack effects will be mentioned if any, and if not, simply means they will not be immediately converted into 25 scrap when you get a duplicate.</li>
         <ol>
-            <li>Backup DNA Bank</li>
-            <li>Defense Scrambler</li>
-            <li>Distraction Buoys</li>
-            <li>Drone Recovery Arm</li>
-            <li>Engi Med-bot Dispersal: Heal stacks.</li>
             <li>Hacking Stun (todo ensure drone part reduction doesn't go below 1 when implementing my change)</li>
-            <li>Lifeform Scanner</li>
-            <li>Long-Ranged Scanners</li>
-            <li>Stealth Weapons</li>
-            <li>Weapon Pre-Igniter</li>
-            <li>Zoltan Shield Bypass</li>
         </ol>
-        <li>Added Advanced FTL Navigation 2 to stores and random rewards, which allows you to jump to any beacon, by spending fuel equal to the shortest number of jumps to that beacon. Rarity 3, cost 30. Stackable, but having multiple does not change it's effect. (TODO add to augment lists if needed) (TODO 2 add this to ESCORT_BEACON blue option like Adv FTL Nav 1)</li>
+        <li>Added Advanced FTL Navigation 2 to stores and random rewards (TODO add to augment lists if needed) (TODO 2 add this to ESCORT_BEACON blue option like Adv FTL Nav 1)</li>
         <ol>
             <li>NOTE: If you also have Advanced FTL Navigation, it will NOT take the distance between your destination and the nearest visited beacon from that destination. You will need to manually jump to the visted beacon nearest to the destination first.</li>
         </ol>
         <li>Automated Reloader: Rarity from 2 to 4, cost from 40 to 60.</li>
         <li>Battery Charger: Rarity from 2 to 0.</li>
-        <li>Damaged Stasis Pod: Cost from 30 to 0 (sell price from 15 to 0).</li>
+        <li>Damaged Stasis Pod: Cost from 30 to 0 (and thus sells for 0).</li>
         <li>Distraction Buoys: Cost from 55 to 40.</li>
         <li>Emergency Respirators: damage taken from lack of oxygen from -50% to -80%. Rarity from 2 to 4.</li>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40. (TODO add to augment lists if needed)</li>
@@ -193,7 +175,6 @@
     <ol>
         <li>The rooms of friendly ships can now be seen.</li>
         <li>Engi NPC ships: May now spawn with Anti-Personnel Drones.</li>
-        <li>Lanius Bomber: Crew range from 3-4 to 3.</li>
         <li>Mantis Fighter and Mantis Interceptor (and pirate versions): Medical systems are now optional instead of guaranteed.</li>
         <li>Slug Interceptor and Slug Scout: Added doors connecting Oxygen and Engines.</li>
         <li>Rock Assault (Elite): Crew range from 4 to 5.</li>
@@ -201,32 +182,14 @@
         <li>Auto-scout and Auto-surveyor: Shields are now guaranteed.</li>
         <li>Auto-ships, and Flagship when automated: now able to fix breaches, at about 1/3 of Human. (TODO Custom value version of 0.083 (check that more decimal places than 2 are allowed?). Call it SLUG_GEL_SLOW)</li>
         <li>Flagship: Oxygen is disabled when it becomes automated. (TODO at start of P2 and P3 event (before automated popup) check if the crew is already dead. If so, instantly set the oxygen to 0 with LUA instead of waiting for oxygen to drain)</li>
-        <li>Flagship (Non-AE Easy version): Shield layers from 3 to 4, reactor from 40/42/29 to 42/44/31 for each Phase.</li>
         <li>Flagship (Normal version): Now has vanilla Hard's layout.</li>
         <li>Flagship (Hard version): In Phase 1, there are extra rooms between each side's 2 Artilleries, connecting all of them, and no room between laser/missile Artilleries and Shields. In Phase 2, the left extra room will be destroyed, but a new room will appear between laser Artillery and Shields. Likewise for the right extra room in Phase 3, so Phase 3 has vanilla Hard's layout.</li>
-        <li>Flagship (Phase 3): supershield causes -2% evasion per layer (general change for all supershields).</li>
     </ol>
     <li>EVENTS:</li>
     <ol>
         <li>(TODO more events for Lifeform Scanner just like Twinge. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates.)</li>
-        <li>All sectors have 2 guaranteed stores, except for Sector 1 and Sector 8 which have 1 guaranteed store:</li>
-        <ol>
-            <li>Sector 1: from 1-2 to 1.</li>
-            <li>Non-Sector 1 Civilian, Engi and Crystal Sectors: from 2-3 to 2.</li>
-            <li>Mantis, Pirate and non-Sector 8 Rebel Sectors: from 1-2 to 2.</li>
-            <li>Slug Sectors: from 0-1 to 0 (in non-nebula).</li>
-            <li>Uncharted Nebula Sectors: from 0-1 to 1 (in non-nebula).</li>
-        </ol>
-        <li>Uncharted Nebula has 2-4 empty beacons (in nebula only), Slug sectors have 1-2 empty beacons in non-nebula and 1-2 in nebula, and all other sectors have 1-2 empty beacons (in non-nebula only).</li>
-        <ol>
-            <li>Uncharted Nebula sector: empty beacon range from 4 to 2-4.</li>
-            <li>Slug sectors: non-nebula empty beacon range from 0-2 to 1-2, nebula empty beacon range from 2-4 to 1-2.</li>
-            <li>Mantis and Rock sectors: empty beacon range from 2-3 to 1-2.</li>
-            <li>Crystal sector: empty beacon range from 2 to 1-2.</li>
-        </ol>
         <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
         <li>ASTEROID_DERELICT_SHIP: When you choose to "Grab the stasis chamber", you have a 10% chance of instantly getting Ruwen.</li>
-        <li>AUTO_HACKER: Now disables 1 level of your Shields, instead of half of your Shield levels rounded up.</li>
         <li>CRYSTAL_CACHE: Engines blue option level requirement from 7 to 5.</li>
         <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation, and fleet delay from 2 to 1.</li>
         <li>FUEL_FOR_DRONE: Drone parts received from 1-3 to 2-4.</li>
@@ -238,16 +201,6 @@
         <li>ROCK_UNLOCK: Completing the event chain gives a High standard autoReward and a random missile or bomb weapon on top of other rewards.</li>
         <li>SELL_DRONES_STATION: Scrap per drone part from 4 to 3.</li>
         <li>SELL_MISSILES_STATION: Scrap per missile from 3 to 2.</li>
-        <li>TAVERN_HIRE: Cost ranges from 25-45 and 25-55 to 20-40 for both.</li>
-        <li>TRADER_UPGRADES: All cost ranges are now 40%-80% of the normal cost.</li>
-        <ol>
-            <li>Oxygen: Level 2 from 15-20 to 10-20, level 3 from 25-40 to 12-24.</li>
-            <li>Sensors: Level 3 from 35-45 to 12-24.</li>
-            <li>Doors: Level 2 from 8-15 to 14-28, level 3 from 25-40 to 20-40.</li>
-            <li>Pilot: Level 2 from 8-15 to 14-28, level 3 from 25-40 to 20-40.</li>
-            <li>Reactor: From 15-25 for all levels to 12-24/8-16/10-20/12-24/14-28 for levels 1-5/6-10/11-15/16-20/21-25.</li>
-        </ol>
         <li>ZOLTAN_BOARDERS: Number of Zoltan boarders from 3-4 to 3.</li>
-        <li>ZOLTAN_PEACE_QUEST: Zoltan Shield outcome: no longer has low scrap autoReward. Envoy outcome: now also gives Zoltan Shield, but no longer has high standard autoReward.</li>
     </ol>
 </ol>
