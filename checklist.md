@@ -36,7 +36,7 @@
         <li>Burst Laser 1: Rarity from 1 to 3.</li>
         <li>Heavy Laser 1: Rarity from 2 to 4.</li>
         <li>Hull Laser 1: Rarity from 2 to 3, cooldown from 14s to 15s, projectile speed from 75 to 90, fire chance from 0% to 10%, breach chance from 20% to 18%.</li>
-        <li>Chain Vulcan: Rarity from 5 to 2, cost from 95 to 80. Starting cooldown from 11.1s to 9.1s, number of shots needed to get to 1.1s cooldown from 5 to 4 (total duration from 35.5s to 24.4s).</li>
+        <li>Chain Vulcan: Rarity from 5 to 3, cost from 95 to 80. Starting cooldown from 11.1s to 9.1s, number of shots needed to get to 1.1s cooldown from 5 to 4 (total duration from 35.5s to 24.4s).</li>
         <li>Advanced Flak: Cooldown from 8s to 5s, projectiles from 3 to 2.</li>
         <li>Flak 1: Rarity from 1 to 4, cost from 65 to 80.</li>
         <li>Flak 2: Cost from 80 to 70.</li>
@@ -65,7 +65,8 @@
         <li>Beam Drone 1, Beam Drone 2: Fire chance from 10% to 0%.</li>
         <li>Combat Drone 2, Beam Drone 2: Rarity from 5 to 4.</li>
         <li>Fire Drone: Power requirement from 3 to 2.</li>
-        <li>Defense Drone 1: Rarity from 1 to 3.</li>
+        <li>Defense Drone 1: Rarity from 1 to 3, speed from 5 to 6.</li>
+        <li>Defense Drone 2: Cooldown from 0.88s to 0.7s.</li>
         <li>Hull Repair Drone: Cost from 85 to 40. Power requirement from 2 to 1. Drone Recovery Arm no longer retrieves it if you jump while it is repairing.</li>
         <li>System Repair Drone: Health from 25 to 50.</li>
         <li>Anti-Personnel Drone: Power requirement from 2 to 1.</li>
@@ -160,14 +161,14 @@
         <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2.</li>
         <li>Zoltan B: Starts with Long-Ranged Scanners. Starts with no Shields instead of weak Shields (TODO remember to set the level of shields to 2 in files)</li>
         <li>Mantis A: Weapon slots from 3 to 4. Crew from 3 Mantis 1 Engi to 2 Mantis 1 Engi (rearranged crew positions from MMEM to EMM). Added level 1 Sensors.</li>
-        <li>Mantis B: Engines level from 1 to 2. Reactor 11 to 9.</li>
+        <li>Mantis B: Engines level from 1 to 2. Medbay level from 1 to 2. Reactor 11 to 9.</li>
         <li>Slug Cruisers: Doors level from 2 to 1.</li>
         <li>Rock B: Added an external door to the Backup Battery room. (TODO remember to change floor image) Oxygen level from 2 to 1.</li>
         <li>Stealth A: Engines level from 4 to 3, Weapon Control from level 2 to 3, weapon slots from 3 to 4. Weapons from 1 Mini-Beam and 1 Dual Lasers to 1 Mini-Beam and 2 Basic Lasers.</li>
         <li>Stealth B: Weapon slots from 3 to 4. Engines level from 2 to 3.</li>
         <li>Stealth C: Added level 2 Sensors.</li>
         <li>Crystal A: Removed Doors.</li>
-        <li>Crystal B: Weapon slots from 4 to 3.</li>
+        <li>Crystal B: Weapon slots from 4 to 3. Medbay level from 1 to 2.</li>
         <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 3. Engines level from 1 to 2.</li>
         <li>Lanius B: Removed Clone Bay. Teleporter level from 1 to 3. Engines level from 1 to 2. Added level 1 Sensors.</li>
     </ol>

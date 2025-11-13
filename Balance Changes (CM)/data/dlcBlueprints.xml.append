@@ -55,6 +55,9 @@
         <mod:findName type="droneBlueprint" name="DRONE_SHIELD"/>
         <mod:findName type="droneBlueprint" name="DRONE_SHIELD_PLAYER"/>
     </mod:par>
+    <mod:findLike type="speed">
+        <mod:setValue>8</mod:setValue>
+    </mod:findLike>
 	<mod-append:cooldowns>
 		<noLayers>6.0</noLayers>
 		<oneLayer>8.0</oneLayer>
