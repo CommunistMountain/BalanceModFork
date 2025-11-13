@@ -204,7 +204,6 @@
         <li>Auto-ships, and Flagship when automated: now able to fix breaches, at about 1/3 of Human. (TODO Custom value version of 0.083 (check that more decimal places than 2 are allowed?). Call it SLUG_GEL_SLOW)</li>
         <li>Flagship: Oxygen is disabled when it becomes automated. (TODO at start of P2 and P3 event (before automated popup) check if the crew is already dead. If so, instantly set the oxygen to 0 with LUA instead of waiting for oxygen to drain)</li>
         <li>Flagship (Non-AE Easy version): Shield layers from 3 to 4, reactor from 40/42/29 to 42/44/31 for each Phase.</li>
-        <li>Flagship (Normal version): Now has vanilla Hard's layout.</li>
         <li>Flagship (Hard version): In Phase 1, there are extra rooms between each side's 2 Artilleries, connecting all of them, and no room between laser/missile Artilleries and Shields. In Phase 2, the left extra room will be destroyed, but a new room will appear between laser Artillery and Shields. Likewise for the right extra room in Phase 3, so Phase 3 has vanilla Hard's layout.</li>
         <li>Flagship (Phase 3): supershield causes -2% evasion per layer (general change for all supershields).</li>
     </ol>
@@ -237,7 +236,7 @@
         <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire") (TODO make a custom req which includes all; Fire Drone will need its own custom req which sees if there's a Drone System.).</li>
         <li>ROCK_CRYSTAL_BEACON: This event may be revisited if you choose not to scrap the ancient device. (TODO use playervariable "unscrapped=true". If it's Rock Home, find the location of this event. Then, every time you visit the event (except waiting at the beacon when out of fuel), if this is true, start this event. Picking the "scrap" option will set the variable to false, via custom event (currently it's renameEvent but maybe it should be a simple event start))</li>
         <li>ROCK_STARSHIP_MINE: Engines blue option level requirement from 5 to 3.</li>
-        <li>ROCK_UNLOCK: Completing the event chain gives a High standard autoReward and Fire Bomb on top of other rewards.</li>
+        <li>ROCK_UNLOCK: Completing the event chain gives a Rock crew and Fire Bomb on top of other rewards.</li>
         <li>SELL_DRONES_STATION: Scrap per drone part from 4 to 3.</li>
         <li>SELL_MISSILES_STATION: Scrap per missile from 3 to 2.</li>
         <li>TAVERN_HIRE: Cost ranges from 25-45 and 25-55 to 20-40 for both.</li>

@@ -1,3 +1,17 @@
+--[[script.on_render_event(Defines.RenderEvents.SHIP_MANAGER, function() end, function(ship, showInterior, doorControlMode)
+    if ship._targetable.hostile == false then
+        ret.bShowRoom = true
+    return Defines.Chain.CONTINUE, sector, event, bp, ret
+end)
+--]]
+
+script.on_game_event("BOSS_AUTOMATED", false, function()
+    local shipManager = Hyperspace.Global.GetInstance():GetShipManager(1)
+    for i=0, shipManager.ship.vRoomList:size() - 1 do
+        shipManager.oxygenSystem:ModifyRoomOxygen(i, -100)
+    end
+end)
+
 script.on_internal_event(Defines.InternalEvents.GET_DODGE_FACTOR, function(ship, value)
     return Defines.Chain.CONTINUE, value - 2 * ship.shieldSystem.shields.power.super.first
 end)

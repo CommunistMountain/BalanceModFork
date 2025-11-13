@@ -14,7 +14,7 @@
             <mod:findLike type="choice">
                 <mod:findLike type="event">
                     <mod-append:weapon name="BOMB_FIRE"/>
-                    <mod-append:autoReward level="HIGH">standard</mod-append:autoReward>
+                    <mod-append:crewMember amount="1" class="rock"/>
                 </mod:findLike>
             </mod:findLike>
         </mod:findLike>

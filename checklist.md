@@ -142,13 +142,11 @@
         <li>Auto-ships: Removed doors.</li>
         <li>Auto-scout and Auto-surveyor: Shields are now guaranteed.</li>
         <li>Auto-ships, and Flagship when automated: now able to fix breaches, at about 1/3 of Human. (TODO Custom value version of 0.083 (check that more decimal places than 2 are allowed?). Call it SLUG_GEL_SLOW)</li>
-        <li>Flagship: Oxygen is disabled when it becomes automated. (TODO at start of P2 and P3 event (before automated popup) check if the crew is already dead. If so, instantly set the oxygen to 0 with LUA instead of waiting for oxygen to drain)</li>
-        <li>Flagship (Normal version): Now has vanilla Hard's layout.</li>
         <li>Flagship (Hard version): In Phase 1, there are extra rooms between each side's 2 Artilleries, connecting all of them, and no room between laser/missile Artilleries and Shields. In Phase 2, the left extra room will be destroyed, but a new room will appear between laser Artillery and Shields. Likewise for the right extra room in Phase 3, so Phase 3 has vanilla Hard's layout.</li>
     </ol>
     <li>EVENTS:</li>
     <ol>
-        <li>(TODO more events for Lifeform Scanner just like Twinge. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates.)</li>
+        <li>(TODO more events for Lifeform Scanner just like Twinge. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates. Actually, some LRS blues should be replaced with Life Scanner if it's against lifeforms)</li>
         <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation (TODO it has to be the custom one with integrated augs).</li>
         <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire") (TODO make a custom req which includes all; Fire Drone will need its own custom req which sees if there's a Drone System.).</li>
         <li>ROCK_CRYSTAL_BEACON: This event may be revisited if you choose not to scrap the ancient device. (TODO use playervariable "unscrapped=true". If it's Rock Home, find the location of this event. Then, every time you visit the event (except waiting at the beacon when out of fuel), if this is true, start this event. Picking the "scrap" option will set the variable to false, via custom event (currently it's renameEvent but maybe it should be a simple event start))</li>
