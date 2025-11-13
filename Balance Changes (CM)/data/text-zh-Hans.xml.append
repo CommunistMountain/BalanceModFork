@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_c1_text">
+    <mod:setValue>休眠舱滑开，重组的外星人走出。它一字一句地说，“你好。我好像欠你个人情。我的族人在很久以前就与世隔绝了，但也许是时候重建联系了。岩石人主星系附近有一个隐藏的虫洞。也许你能把我送到那里，让我能适当地报答你？”</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_text">
+    <mod:setValue>“厉害！它具有重构传送期间损坏的身体的能力。看。”他们再次激活了休眠舱，你看到里面的几团水晶重组成人形结构。</mod:setValue>
+</mod:findName>
+</FTL>

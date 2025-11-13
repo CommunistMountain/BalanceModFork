@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_c1_text">
+    <mod:setValue>Kapsuła otwiera się i ze środka wychodzi istota o krystalicznym ciele. Pierwsze słowa dobiera bardzo ostrożnie: „Witajcie, jestem zobowiązany za pomoc. Moi pobratymcy dawno temu odcięli się od reszty galaktyki, ale może czas to zmienić? W pobliżu ojczystych światów Głazów jest ukryty tunel czasoprzestrzenny. Jeśli mnie tam zabierzesz, będę mógł ci się należycie zrewanżować”.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_text">
+    <mod:setValue>„Niesamowite! Ta maszyna potrafi rekonstruować przechowywane ciała! Zobacz!”. Naukowcy włączają kapsułę, a w środku zaczyna wirować chmura odłamków kryształu. Po chwili powstaje z nich człekokształtna istota.</mod:setValue>
+</mod:findName>
+</FTL>

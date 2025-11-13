@@ -49,6 +49,9 @@
     <mod:findLike type="cooldown">
         <mod:setValue>4</mod:setValue>
     </mod:findLike>
+    <mod:findLike type="rarity">
+        <mod:setValue>1</mod:setValue>
+    </mod:findLike>
 </mod:findName>
 
 <mod:findComposite>

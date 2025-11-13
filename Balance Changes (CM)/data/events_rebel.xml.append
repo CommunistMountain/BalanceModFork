@@ -11,4 +11,10 @@
         </mod:findLike>
     </mod:findLike>
 </mod:findName>
+
+<mod:findName type="event" name="FLAGSHIP_CONSTRUCTION_DONE">
+    <mod:findLike type="modifyPursuit">
+        <mod:setAttributes amount="-1"/>
+    </mod:findLike>
+</mod:findName>
 </FTL>

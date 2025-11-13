@@ -51,8 +51,8 @@
         <li>Pegasus Missile: Cooldown from 20s to 16s.</li>
         <li>Breach Missiles: Cost from 65 to 50, cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
         <li>Swarm Missiles: Projectile speed from 45 to 35, stun chance from 0% to 10%.</li>
-        <li>Healing Burst: cooldown from 18s to 9s.</li>
-        <li>Repair Burst: Cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100% (though if it's a room with open external doors, it will become instantly vacuum again). (TODO: test if all these features work. Also check that o2 works against auto and lanius)</li>
+        <li>Healing Burst: Rarity from 3 to 1, cooldown from 18s to 9s.</li>
+        <li>Repair Burst: Rarity from 3 to 1, cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100% (though if it's a room with open external doors, it will become instantly vacuum again). (TODO: test if all these features work. Also check that o2 works against auto and lanius)</li>
         <li>Breach Bomb 1: Power requirement from 1 to 2, system damage from 1 to 2.</li>
         <li>Fire Bomb: System damage from 0 to 1 (now does damage to supershields because of this), crew damage from 30 to 15.</li>
         <li>Ion Bomb: Cooldown from 22s to 20s.</li>
@@ -227,9 +227,9 @@
             <li>Crystal sector: empty beacon range from 2 to 1-2.</li>
         </ol>
         <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
-        <li>ASTEROID_DERELICT_SHIP: When you choose to "Grab the stasis chamber", you have a 10% chance of instantly getting Ruwen.</li>
+        <li>ASTEROID_DERELICT_SHIP: When you choose to "Grab the stasis chamber", you have a 10% chance getting Ruwen immediately instead of the Stasis Pod.</li>
         <li>AUTO_HACKER: Now disables 1 level of your Shields, instead of half of your Shield levels rounded up.</li>
-        <li>CRYSTAL_CACHE: Engines blue option level requirement from 7 to 5.</li>
+        <li>CRYSTAL_CACHE: Engines blue option level requirement from 7 to 4.</li>
         <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation, and fleet delay from 2 to 1.</li>
         <li>FUEL_FOR_DRONE: Drone parts received from 1-3 to 2-4.</li>
         <li>LANIUS_RESEARCHER_CRAFT: Choosing to craft an augment now always gives Reconstructive Teleport instead of a random AE augment.</li>
@@ -237,7 +237,7 @@
         <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire") (TODO make a custom req which includes all; Fire Drone will need its own custom req which sees if there's a Drone System.).</li>
         <li>ROCK_CRYSTAL_BEACON: This event may be revisited if you choose not to scrap the ancient device. (TODO use playervariable "unscrapped=true". If it's Rock Home, find the location of this event. Then, every time you visit the event (except waiting at the beacon when out of fuel), if this is true, start this event. Picking the "scrap" option will set the variable to false, via custom event (currently it's renameEvent but maybe it should be a simple event start))</li>
         <li>ROCK_STARSHIP_MINE: Engines blue option level requirement from 5 to 3.</li>
-        <li>ROCK_UNLOCK: Completing the event chain gives a High standard autoReward and a random missile or bomb weapon on top of other rewards.</li>
+        <li>ROCK_UNLOCK: Completing the event chain gives a High standard autoReward and Fire Bomb on top of other rewards.</li>
         <li>SELL_DRONES_STATION: Scrap per drone part from 4 to 3.</li>
         <li>SELL_MISSILES_STATION: Scrap per missile from 3 to 2.</li>
         <li>TAVERN_HIRE: Cost ranges from 25-45 and 25-55 to 20-40 for both.</li>
@@ -250,6 +250,7 @@
             <li>Reactor: From 15-25 for all levels to 12-24/8-16/10-20/12-24/14-28 for levels 1-5/6-10/11-15/16-20/21-25.</li>
         </ol>
         <li>ZOLTAN_BOARDERS: Number of Zoltan boarders from 3-4 to 3.</li>
+        <li>ZOLTAN_BOARDERS_MANTIS: Number of Mantis boarders from 2-3 to 2.</li>
         <li>ZOLTAN_PEACE_QUEST: Zoltan Shield outcome: no longer has low scrap autoReward. Envoy outcome: now also gives Zoltan Shield, but no longer has high standard autoReward.</li>
     </ol>
 </ol>

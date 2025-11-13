@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="eventList" name="CRYSTAL_CACHE_LIST">
+    <mod:findLike type="event">
+        <mod:findLike type="choice">
+        <mod:selector req="engines"/>
+            <mod:setAttributes lvl="4"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+</FTL>

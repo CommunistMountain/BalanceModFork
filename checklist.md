@@ -149,19 +149,8 @@
     <li>EVENTS:</li>
     <ol>
         <li>(TODO more events for Lifeform Scanner just like Twinge. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates.)</li>
-        <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
-        <li>ASTEROID_DERELICT_SHIP: When you choose to "Grab the stasis chamber", you have a 10% chance of instantly getting Ruwen.</li>
-        <li>CRYSTAL_CACHE: Engines blue option level requirement from 7 to 5.</li>
-        <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation, and fleet delay from 2 to 1.</li>
-        <li>FUEL_FOR_DRONE: Drone parts received from 1-3 to 2-4.</li>
-        <li>LANIUS_RESEARCHER_CRAFT: Choosing to craft an augment now always gives Reconstructive Teleport instead of a random AE augment.</li>
-        <li>NEBULA_SLUG_FIGHT_UNLOCK: Completing the event chain gives Anti-Bio Beam on top of other rewards.</li>
+        <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation (TODO it has to be the custom one with integrated augs).</li>
         <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire") (TODO make a custom req which includes all; Fire Drone will need its own custom req which sees if there's a Drone System.).</li>
         <li>ROCK_CRYSTAL_BEACON: This event may be revisited if you choose not to scrap the ancient device. (TODO use playervariable "unscrapped=true". If it's Rock Home, find the location of this event. Then, every time you visit the event (except waiting at the beacon when out of fuel), if this is true, start this event. Picking the "scrap" option will set the variable to false, via custom event (currently it's renameEvent but maybe it should be a simple event start))</li>
-        <li>ROCK_STARSHIP_MINE: Engines blue option level requirement from 5 to 3.</li>
-        <li>ROCK_UNLOCK: Completing the event chain gives a High standard autoReward and a random missile or bomb weapon on top of other rewards.</li>
-        <li>SELL_DRONES_STATION: Scrap per drone part from 4 to 3.</li>
-        <li>SELL_MISSILES_STATION: Scrap per missile from 3 to 2.</li>
-        <li>ZOLTAN_BOARDERS: Number of Zoltan boarders from 3-4 to 3.</li>
     </ol>
 </ol>

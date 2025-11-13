@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="ship" name="JELLY_UNLOCK3">
+    <mod:findComposite>
+        <mod:par op="OR">
+            <mod:findLike type="destroyed"/>
+            <mod:findLike type="deadCrew"/>
+        </mod:par>
+        <mod-append:weapon name="BEAM_BIO"/>
+    </mod:findComposite>
+</mod:findName>
 </FTL>

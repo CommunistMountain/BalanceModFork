@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="event" name="ZOLTAN_BOARDERS">
+    <mod:findLike type="boarders">
+        <mod:setAttributes max="3"/>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="ZOLTAN_BOARDERS_MANTIS">
+    <mod:findLike type="boarders">
+        <mod:setAttributes max="2"/>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findName type="eventList" name="ZOLTAN_PEACE_QUEST_REWARD">
     <mod:findLike type="event">
         <mod:findLike type="autoReward">

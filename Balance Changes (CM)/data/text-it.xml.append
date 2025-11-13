@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_c1_text">
+    <mod:setValue>La capsula si apre e ne esce un alieno appena formato. Parla lentamente: "I miei saluti. A quanto pare, vi sono debitore. La mia gente si è isolata molte ere fa, ma forse è giunta l'ora di ristabilire un legame. C'è un tunnel spaziotemporale vicino al pianeta madre dei rockman. Potreste portarmi lì, di modo che io possa ripagarvi a dovere?".</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_text">
+    <mod:setValue>"Fantastico! Ha la capacità di ricostruire il corpo del passeggero, nel caso che venga danneggiato durante il transito! Guardate...". Riattiva la capsula e vedi che i pezzi di cristallo all'interno si compongono fino a formare una struttura umanoide.</mod:setValue>
+</mod:findName>
+</FTL>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="event" name="ROCK_STARSHIP_MINE">
+    <mod:findLike type="choice">
+    <mod:selector req="engines"/>
+        <mod:setAttributes lvl="3"/>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="ROCK_UNLOCK3">
+    <mod:findLike type="choice">
+        <mod:findLike type="event">
+            <mod:findLike type="choice">
+                <mod:findLike type="event">
+                    <mod-append:weapon name="BOMB_FIRE"/>
+                    <mod-append:autoReward level="HIGH">standard</mod-append:autoReward>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+</FTL>

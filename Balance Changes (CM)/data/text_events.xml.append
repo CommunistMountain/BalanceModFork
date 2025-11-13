@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_c1_text">
+    <mod:setValue>The pod slides open and the re-formed alien steps out. It speaks slowly, "Greetings. I appear to be in your debt. My people isolated themselves a long time ago, but perhaps it's time to re-establish a connection. There's a hidden wormhole near the Rock home-worlds. Perhaps you can take me there so I can properly repay you?"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_text">
+    <mod:setValue>"Amazing! It has the ability to reconstruct the body if it was damaged during transit. Watch." They reactivate the pod and you watch as the hunks of crystal inside reform to build a humanoid structure.</mod:setValue>
+</mod:findName>
+</FTL>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_c1_text">
+    <mod:setValue>A cápsula se abre e o alienígena remontado dá um passo para fora. Ele fala lentamente, "Saudações. Parece que estou em dívida com você. Meu povo se isolou há muito tempo, mas talvez seja hora de restabelecer relações. Há um buraco de minhoca oculto perto do planeta natal dos Litoide. Se puderem me levar até lá, eu poderei te recompensar dignamente."</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_text">
+    <mod:setValue>"Incrível! Ela consegue reconstruir o corpo se ele tiver sido danificado durante o transporte. Observe." Eles reativam a câmara e você observa os pedaços de cristal dentro dela se remontarem em uma estrutura humanoide.</mod:setValue>
+</mod:findName>
+</FTL>

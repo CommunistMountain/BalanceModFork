@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_c1_text">
+    <mod:setValue>장치의 문이 열리고, 재구성된 외계인이 걸어나왔습니다. 그 외계인이 천천히 말하기 시작합니다. "반갑소. 그대에게는 빚을 진 듯 싶군. 나의 일족은 오래 전 세상으로부터 떨어져 나와 지냈으나, 이제는 다시 모습을 드러내야 할 때인듯 싶군. 락맨들의 모행성계에 숨겨진 웜홀이 있을거요. 나를 그곳으로 데려가주어 은혜를 갚을 수 있도록 해주시겠소?"</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_text">
+    <mod:setValue>"엄청나군요! 이 장치는 전송 도중에 손상된 신체를 재구성해주는 기능을 가지고 있습니다. 확인해보시죠." 그들은 동면 장치를 재가동하였고, 당신은 동면 장치 내부에 있던 크리스탈 덩어리가 인간의 형태로 재구성되는 모습을 보았습니다.</mod:setValue>
+</mod:findName>
+</FTL>

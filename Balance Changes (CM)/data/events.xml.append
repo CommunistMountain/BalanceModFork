@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<!--START ANCIENT DEVICE WIP-->
 <event name="EMPTY_CM"/>
 
 <mod:findName type="eventList" name="ROCK_CRYSTAL_BEACON_LIST">
@@ -8,4 +9,112 @@
         <mod-append:renameBeacon>EMPTY_CM</mod-append:renameBeacon>
     </mod:findLike>
 </mod:findName>
+<!--END ANCIENT DEVICE WIP-->
+
+<mod:findName type="event" name="CREW_STUCK">
+	<mod-append:item_modify steal="true">
+		<item type="fuel" min="-1" max="-1"/>
+	</mod-append:item_modify>
+</mod:findName>
+
+<mod:findName type="event" name="FUEL_FOR_DRONE">
+    <mod:findLike type="choice">
+        <mod:findLike type="event">
+            <mod:findLike type="item_modify">
+                <mod:findLike type="item">
+                <mod:selector type="drones"/>
+                    <mod:setAttributes min="2" max="4"/>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="SELL_MISSILES_STATION">
+    <mod:findLike type="choice">
+        <mod:findLike type="event">
+            <mod:findLike type="item_modify">
+                <mod:findLike type="item">
+                <mod:selector min="15"/>
+                    <mod:setAttributes min="10" max="10"/>
+                </mod:findLike>
+                <mod:findLike type="item">
+                <mod:selector min="30"/>
+                    <mod:setAttributes min="20" max="20"/>
+                </mod:findLike>
+                <mod:findLike type="item">
+                <mod:selector min="45"/>
+                    <mod:setAttributes min="30" max="30"/>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="SELL_DRONES_STATION">
+    <mod:findLike type="choice">
+        <mod:findLike type="event">
+            <mod:findLike type="item_modify">
+                <mod:findLike type="item">
+                <mod:selector min="12"/>
+                    <mod:setAttributes min="9" max="9"/>
+                </mod:findLike>
+                <mod:findLike type="item">
+                <mod:selector min="24"/>
+                    <mod:setAttributes min="18" max="18"/>
+                </mod:findLike>
+                <mod:findLike type="item">
+                <mod:selector min="48"/>
+                    <mod:setAttributes min="36" max="36"/>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<event name="STASIS_POD_VANILLA_CM">
+    <text id="event_ASTEROID_DERELICT_SHIP_ROCK_1_c1_c2_c1_text"/>
+    <augment name="STASIS_POD"/>
+    <autoReward level="LOW">scrap_only</autoReward>
+</event>
+
+<eventList name="CHANCE_OF_RUWEN_CM">
+    <event load="STASIS_POD_VANILLA_CM"/>
+    <event load="STASIS_POD_VANILLA_CM"/>
+    <event load="STASIS_POD_VANILLA_CM"/>
+    <event load="STASIS_POD_VANILLA_CM"/>
+    <event load="STASIS_POD_VANILLA_CM"/>
+    <event load="STASIS_POD_VANILLA_CM"/>
+    <event load="STASIS_POD_VANILLA_CM"/>
+    <event load="STASIS_POD_VANILLA_CM"/>
+    <event load="STASIS_POD_VANILLA_CM"/>
+    <event>
+        <text id="event_ZOLTAN_CREW_STUDY_c4_c1_c1_text"/>
+        <crewMember amount="1" class="crystal" id="name_Ruwen"/>
+        <autoReward level="LOW">scrap_only</autoReward>
+    </event>
+</eventList>
+
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="eventList" name="ASTEROID_DERELICT_SHIP_SEARCH"/>
+        <mod:findName type="eventList" name="ASTEROID_DERELICT_SHIP_ROCK"/>
+    </mod:par>
+    <mod:findLike type="event">
+        <mod:findLike type="choice">
+            <mod:findLike type="event">
+                <mod:findLike type="choice">
+                    <mod:findLike type="event">
+                        <mod:findLike type="choice">
+                            <mod:findWithChildLike type="event" child-type="augment">
+                                <mod:removeTag/>
+                            </mod:findWithChildLike>
+                            <mod-append:event load="CHANCE_OF_RUWEN_CM"/>
+                        </mod:findLike>
+                    </mod:findLike>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findComposite>
 </FTL>
