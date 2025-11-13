@@ -15,6 +15,12 @@
     </mod:findLike>
 </mod:findComposite>
 
+<mod:findName type="systemBlueprint" name="battery">
+    <mod:findLike type="cost">
+        <mod:setValue>50</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findComposite>
     <mod:par op="OR">
         <mod:findName type="weaponBlueprint" name="SHOTGUN_PLAYER"/>
@@ -30,6 +36,32 @@
     </mod:findLike>
 </mod:findComposite>
 
+<mod:findName type="weaponBlueprint" name="SHOTGUN_PLAYER">
+    <mod:findLike type="cooldown">
+        <mod:setValue>5</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="projectiles">
+        <mod:findLike type="projectile">
+            <mod:setAttributes count="2"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="SHOTGUN">
+    <mod:findLike type="cost">
+        <mod:setValue>80</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="rarity">
+        <mod:setValue>4</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="SHOTGUN_2">
+    <mod:findLike type="cost">
+        <mod:setValue>70</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findName type="weaponBlueprint" name="ARTILLERY_FED_C">
     <mod:findLike type="damage">
         <mod:setValue>0</mod:setValue>
@@ -38,6 +70,29 @@
         <mod:setValue>5</mod:setValue>
     </mod:findLike>
     <!--mod-append:persDamage>-10</mod-append:persDamage-->
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="ION_CHAINGUN">
+    <mod:findLike type="cooldown">
+        <mod:setValue>8</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="LASER_CHAINGUN_2">
+    <mod:findLike type="cooldown">
+        <mod:setValue>9.1</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>80</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="rarity">
+        <mod:setValue>3</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="boost">
+        <mod:findLike type="count">
+            <mod:setValue>4</mod:setValue>
+        </mod:findLike>
+    </mod:findLike>
 </mod:findName>
 
 <mod:findComposite>
@@ -49,6 +104,12 @@
         <mod:setValue>1</mod:setValue>
     </mod:findLike>
 </mod:findComposite>
+
+<mod:findName type="weaponBlueprint" name="LASER_CHARGEGUN_PLAYER">
+    <mod:findLike type="cost">
+        <mod:setValue>60</mod:setValue>
+    </mod:findLike>
+</mod:findName>
 
 <mod:findComposite>
     <mod:par op="OR">

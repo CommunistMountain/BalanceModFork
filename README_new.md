@@ -33,6 +33,7 @@
         <li>Chain Ion: Cooldown from 14s to 8s.</li>
         <li>Laser Charger: Fire chance from 0% to 10%.</li>
         <li>Laser Charger (S): Cost from 30 to 60 (sell price from 15 to 30). Fire chance from 0% to 10%.</li>
+        <li>Basic Laser: Cost from 20 to 30 (sell price from 10 to 15).</li>
         <li>Dual Lasers: Cost from 25 to 60 (sell price from 12 to 30).</li>
         <li>Burst Laser 1: Rarity from 1 to 3.</li>
         <li>Burst Laser 3: Rarity from 4 to 2, cost from 95 to 70, projectiles from 5 to 6, fire chance from 0% to 10%.</li>

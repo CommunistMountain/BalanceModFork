@@ -10,40 +10,20 @@
     </ol>
     <li>STORE:</li>
     <ol>
-        <li>Missiles: Cost from 6 to 4. Store stock from 2-6 to 4-8.</li>
-        <li>Drone Parts: Cost from 8 to 6. Store stock from 2-4 to 3-5.</li>
+        <li>Missiles: Store stock from 2-6 to 4-8.</li>
+        <li>Drone Parts: Store stock from 2-4 to 3-5.</li>
         <li>Drone Control: Boarding Drone is now a possible discounted drone that can be packaged with Drone Control.</li>
     </ol>
     <li>SYSTEMS:</li>
     <ol>
-        <li>Backup Battery: Cost from 35 to 50. Now includes the effects of Battery Charger.</li>
-        <li>Doors: Cost from 60 to 45.</li>
-        <li>Sensors: Cost from 40 to 30. Level 3 cost from 40 to 30.</li>
-        <li>Pilot: Level 2 cost from 20 to 35.</li>
-        <li>Oxygen: Level 3 cost from 50 to 30.</li>
-        <li>Engines: Level 4/5/6/7/8 cost from 30/40/60/80/120 to 55/25/20/20/35.</li>
+        <li>Backup Battery: Now includes the effects of Battery Charger.</li>
         <li>Hacking: Cost of deploying hacking drone from 1 to 2. Drone will explode if the system is depowered while the drone is mid-flight. (TODO ensure cost increase works for enemies? try editing power tag in dlcBlueprints.xml DRONE_HACKING. Or see https://github.com/FTL-Hyperspace/FTL-Hyperspace/wiki/Lua-Hyperspace-Module hacking int spenddrone)</li>
-        <li>Artillery: Level 2/3/4 cost from 30/50/80 to 15/25/50.</li>
     </ol>
     <li>WEAPONS:</li>
     <ol>
-        <li>Enemy Artemis: Renamed to "Artemis-". Rarity from 0 to 2 (now available in stores and random rewards), costs 38. (TODO: add to missile lists if it's not in them.)</li>
-        <li>Ion Blast 2: Cost from 70 to 60, power requirement from 3 to 2.</li>
-        <li>Heavy Ion: Cooldown from 13s to 10s.</li>
-        <li>Chain Ion: Cooldown from 14s to 8s.</li>
-        <li>Laser Charger (S): Cost from 30 to 60 (sell price from 15 to 30).</li>
-        <li>Dual Lasers: Cost from 25 to 60 (sell price from 12 to 30).</li>
-        <li>Burst Laser 1: Rarity from 1 to 3.</li>
-        <li>Heavy Laser 1: Rarity from 2 to 4.</li>
-        <li>Hull Laser 1: Rarity from 2 to 3, cooldown from 14s to 15s, projectile speed from 75 to 90, fire chance from 0% to 10%, breach chance from 20% to 18%.</li>
-        <li>Chain Vulcan: Rarity from 5 to 3, cost from 95 to 80. Starting cooldown from 11.1s to 9.1s, number of shots needed to get to 1.1s cooldown from 5 to 4 (total duration from 35.5s to 24.4s).</li>
-        <li>Advanced Flak: Cooldown from 8s to 5s, projectiles from 3 to 2.</li>
-        <li>Flak 1: Rarity from 1 to 4, cost from 65 to 80.</li>
-        <li>Flak 2: Cost from 80 to 70.</li>
+        <li>Enemy Artemis: Renamed to "Artemis-". (TODO: add to missile lists if it's not in them.)</li>
         <li>Flak Artillery: shield piercing from 0 to 5, damage from 1 to 0, now heals your crew by 150 per projectile. (TODO check if it's enough that it hits a room, or it needs to hit the tile to work. If the former, heal can afford to be less) (TODO 2 find out how to apply heal, maybe need LUA, and remove persDamage since it doesnt work)</li>
-        <li>Crystal weapons: Cost from 20 to 50.</li>
-        <li>Heavy Crystal 2: Rarity from 5 to 4, power requirement from 3 to 2.</li>
-        <li>Hull Missile: Cost from 65 to 50, cooldown from 17s to 14s.</li>
+        <li>Heavy Crystal 2: Rarity from 5 to 4 (TODO need to set in Sector Data)</li>
         <li>Pegasus Missile: Cooldown from 20s to 16s.</li>
         <li>Breach Missiles: Cost from 65 to 50, cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
         <li>Swarm Missiles: Projectile speed from 45 to 35, stun chance from 0% to 10%.</li>
@@ -55,7 +35,6 @@
         <li>Stun Bomb: Cooldown from 17s to 15s.</li>
         <li>Lock Bomb: Cooldown from 15s to 12s.</li>
         <li>Small Bomb: Rarity from 1 to 4, cost from 45 to 70, fire chance from 10% to 0%.</li>
-        <li>Hull Beam: Cooldown from 14s to 16s.</li>
         <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 80.</li>
         <li>Glaive Beam: Rarity from 5 to 3, cost from 95 to 75, cooldown from 25s to 24s, split into 8s over 3 charges. Its damage is equal to the number of charges. (todo fix the targeting bug)</li>
         <li>Anti-Bio Beam: Rarity from 5 to 4.</li>
