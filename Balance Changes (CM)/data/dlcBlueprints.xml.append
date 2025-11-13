@@ -21,6 +21,36 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findName type="droneBlueprint" name="BOARDER_ION">
+    <mod:findLike type="cost">
+        <mod:setValue>40</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="DRONE_BEAM2">
+    <mod:findLike type="fireChance">
+        <mod:setValue>0</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="droneBlueprint" name="COMBAT_BEAM_2">
+    <mod:findLike type="rarity">
+        <mod:setValue>4</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="droneBlueprint" name="COMBAT_FIRE">
+    <mod:findLike type="power">
+        <mod:setValue>2</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BOMB_HEAL_SYSTEM">
+    <mod:findLike type="cooldown">
+        <mod:setValue>4</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findComposite>
     <mod:par op="OR">
         <mod:findName type="weaponBlueprint" name="SHOTGUN_PLAYER"/>
@@ -60,6 +90,13 @@
     <mod:findLike type="cost">
         <mod:setValue>70</mod:setValue>
     </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="MISSILE_CHARGEGUN">
+    <mod:findLike type="speed">
+        <mod:setValue>35</mod:setValue>
+    </mod:findLike>
+    <mod-append:stunChance>1</mod-append:stunChance>
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="ARTILLERY_FED_C">
@@ -108,6 +145,12 @@
 <mod:findName type="weaponBlueprint" name="LASER_CHARGEGUN_PLAYER">
     <mod:findLike type="cost">
         <mod:setValue>60</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BOMB_STUN">
+    <mod:findLike type="cooldown">
+        <mod:setValue>15</mod:setValue>
     </mod:findLike>
 </mod:findName>
 

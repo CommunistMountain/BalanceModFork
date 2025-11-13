@@ -24,33 +24,14 @@
         <li>Enemy Artemis: Renamed to "Artemis-". (TODO: add to missile lists if it's not in them.)</li>
         <li>Flak Artillery: shield piercing from 0 to 5, damage from 1 to 0, now heals your crew by 150 per projectile. (TODO check if it's enough that it hits a room, or it needs to hit the tile to work. If the former, heal can afford to be less) (TODO 2 find out how to apply heal, maybe need LUA, and remove persDamage since it doesnt work)</li>
         <li>Heavy Crystal 2: Rarity from 5 to 4 (TODO need to set in Sector Data)</li>
-        <li>Pegasus Missile: Cooldown from 20s to 16s.</li>
-        <li>Breach Missiles: Cost from 65 to 50, cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
-        <li>Swarm Missiles: Projectile speed from 45 to 35, stun chance from 0% to 10%.</li>
-        <li>Healing Burst: cooldown from 18s to 9s.</li>
-        <li>Repair Burst: Cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100% (though if it's a room with open external doors, it will become instantly vacuum again). (TODO: test if all these features work. Also check that o2 works against auto and lanius)</li>
-        <li>Breach Bomb 1: Power requirement from 1 to 2, system damage from 1 to 2.</li>
-        <li>Fire Bomb: System damage from 0 to 1 (now does damage to supershields because of this), crew damage from 30 to 15.</li>
-        <li>Ion Bomb: Cooldown from 22s to 20s.</li>
-        <li>Stun Bomb: Cooldown from 17s to 15s.</li>
-        <li>Lock Bomb: Cooldown from 15s to 12s.</li>
-        <li>Small Bomb: Rarity from 1 to 4, cost from 45 to 70, fire chance from 10% to 0%.</li>
-        <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 80.</li>
-        <li>Glaive Beam: Rarity from 5 to 3, cost from 95 to 75, cooldown from 25s to 24s, split into 8s over 3 charges. Its damage is equal to the number of charges. (todo fix the targeting bug)</li>
-        <li>Anti-Bio Beam: Rarity from 5 to 4.</li>
+        <li>Repair Burst: Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100% (though if it's a room with open external doors, it will become instantly vacuum again). (TODO: test if all these features work. Also check that o2 works against auto and lanius)</li>
+        <li>Glaive Beam: Its damage is equal to the number of charges. (todo fix the targeting bug)</li>
     </ol>
     <li>DRONES:</li>
     <ol>
-        <li>Beam Drone 1, Beam Drone 2: Fire chance from 10% to 0%.</li>
-        <li>Combat Drone 2, Beam Drone 2: Rarity from 5 to 4.</li>
-        <li>Fire Drone: Power requirement from 3 to 2.</li>
-        <li>Defense Drone 1: Rarity from 1 to 3, speed from 5 to 6.</li>
-        <li>Defense Drone 2: Cooldown from 0.88s to 0.7s.</li>
-        <li>Hull Repair Drone: Cost from 85 to 40. Power requirement from 2 to 1. Drone Recovery Arm no longer retrieves it if you jump while it is repairing.</li>
-        <li>System Repair Drone: Health from 25 to 50.</li>
-        <li>Anti-Personnel Drone: Power requirement from 2 to 1.</li>
-        <li>Boarding Drone: Cost from 70 to 30. 1 drone part will be retrieved at the end of combat if it is not destroyed. (todo BOARDER_RECOVERY for all ships. TODO 2 test if it retrieves at the end of fight (correct) or when jumping (wrong))</li>
-        <li>Ion Intruder Drone: Cost from 65 to 40. 1 drone part will be retrieved at the end of combat if it is not destroyed.</li>
+        <li>Hull Repair Drone: Drone Recovery Arm no longer retrieves it if you jump while it is repairing.</li>
+        <li>Boarding Drone: 1 drone part will be retrieved at the end of combat if it is not destroyed. (todo BOARDER_RECOVERY for all ships.) (TODO 2 test if it retrieves at the end of fight (correct) or when jumping (wrong))</li>
+        <li>Ion Intruder Drone: 1 drone part will be retrieved at the end of combat if it is not destroyed.</li>
     </ol>
     <li>AUGMENTS:</li>
     <ol>
