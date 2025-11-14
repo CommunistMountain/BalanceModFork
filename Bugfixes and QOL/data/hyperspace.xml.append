@@ -349,7 +349,6 @@
         <mod:findLike type="droneSelectHotkeys"/>
         <mod:findLike type="droneSaveStations"/>
         <mod:findLike type="enemyPreigniterFix"/>
-        <mod:findLike type="artilleryGibMountFix"/>
         <mod:findLike type="multiShipFix"/>
         <mod:findLike type="scaleSlugGel"/>
         <mod:findLike type="customChoiceColors"/>
