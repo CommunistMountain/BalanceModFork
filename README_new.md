@@ -132,7 +132,7 @@
             <li>Drone Reactor Booster: Crew drone speed boost from +25% to +100%, and also gives +20% damage. Combat drones and defense drones shoot 20% faster. (TODO see if it can be applied to all drones, or just a subset. Reference slow's INS+ DRB)</li>
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
             <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 83% of Human to 50% of Human.</li>
-            <li>Slug Repair Gel: Breach repair speed from 75% of Human to 300% of Human. Now prevents Sensors from being disabled. Sensors and Doors behave as though they are always manned. (TODO experiment with :ClearStatus() )</li>
+            <li>Slug Repair Gel: Now prevents Sensors from being disabled by nebula or events (it will still be disabled by hacking). Sensors and Doors behave as though they are always manned.</li>
             <li>Zoltan Shield: causes -2% evasion per layer (general change for all supershields).</li>
         </ol>
         <li>These augments are now stackable. Most of their effects will not change when having multiple, it simply means they will not be immediately converted into 25 scrap when you get a duplicate.</li>
@@ -173,7 +173,7 @@
         <li>Kestrel B: Removed Doors.</li>
         <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 4 Ion Stunners. Weapon Control level from 2 to 4. Reactor from 7 to 8. Sensors level from 2 to 1.</li>
         <li>Engi A: Reactor from 10 to 9.</li>
-        <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 3. Added level 1 Sensors.</li>
+        <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Added level 1 Sensors.</li>
         <li>Fed A: Weapon Control level from 3 to 4. Removed Doors.</li>
         <li>Fed B: Missiles from 9 to 14. Reactor from 9 to 8.</li>
         <li>Fed C: Artillery level from 1 to 4.</li>
@@ -188,12 +188,11 @@
         <li>Stealth C: Added level 2 Sensors.</li>
         <li>Crystal A: Removed Doors.</li>
         <li>Crystal B: Weapon slots from 4 to 3. Medbay level from 1 to 2.</li>
-        <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 3. Engines level from 1 to 2.</li>
+        <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 2. Engines level from 1 to 2.</li>
         <li>Lanius B: Removed Clone Bay. Teleporter level from 1 to 3. Engines level from 1 to 2. Added level 1 Sensors.</li>
     </ol>
     <li>NPC SHIPS:</li>
     <ol>
-        <li>The rooms of friendly ships can now be seen.</li>
         <li>Engi NPC ships: May now spawn with Anti-Personnel Drones.</li>
         <li>Lanius Bomber: Crew range from 3-4 to 3.</li>
         <li>Mantis Fighter and Mantis Interceptor (and pirate versions): Medical systems are now optional instead of guaranteed.</li>
