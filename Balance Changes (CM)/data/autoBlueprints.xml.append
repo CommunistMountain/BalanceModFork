@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="shipBlueprint" name="AUTO_BASIC"/>
+        <mod:findName type="shipBlueprint" name="AUTO_ASSAULT"/>
+    </mod:par>
+    <mod-append:aug name="SLUG_GEL_SLOW_CM"/>
+</mod:findComposite>
 </FTL>
