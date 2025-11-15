@@ -1,5 +1,8 @@
 script.on_game_event("BOSS_AUTOMATED", false, function()
     local enemyShipManager = Hyperspace.Global.GetInstance():GetShipManager(1)
+    if enemyShipManager:HasAugmentation("SLUG_GEL_SLOW_CM") <= 0 then
+        enemyShipManager:AddAugmentation("SLUG_GEL_SLOW_CM")
+    end
     for i=0, enemyShipManager.ship.vRoomList:size() - 1 do
         enemyShipManager.oxygenSystem:ModifyRoomOxygen(i, -100)
     end

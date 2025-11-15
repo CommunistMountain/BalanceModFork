@@ -7,7 +7,7 @@
 
 <mod:findLike type="augments" limit="1">
     <mod-append:aug name="SLUG_GEL_SLOW_CM">
-        <function name="SLUG_GEL" value="0.11"/>
+        <function name="SLUG_GEL" value="0.083"/>
     </mod-append:aug>
 </mod:findLike>
 </FTL>
