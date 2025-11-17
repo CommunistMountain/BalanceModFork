@@ -194,5 +194,5 @@ function onClick(change)
     end
     return Defines.Chain.CONTINUE
 end
-script.on_internal_event(Defines.InternalEvents.ON_MOUSE_L_BUTTON_DOWN, function() return onClick(1) end)
-script.on_internal_event(Defines.InternalEvents.ON_MOUSE_R_BUTTON_DOWN, function() return onClick(5) end)
+script.on_internal_event(Defines.InternalEvents.ON_MOUSE_L_BUTTON_DOWN, function(x, y) return onClick(1) end)
+script.on_internal_event(Defines.InternalEvents.ON_MOUSE_R_BUTTON_DOWN, function(x, y) return onClick(5) end)

@@ -23,9 +23,9 @@ script.on_internal_event(Defines.InternalEvents.JUMP_ARRIVE, function(shipManage
     end
 end)
 
-script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projectile, weapon)
-    if weapon.blueprint.name == "BEAM_3" then
-        projectile.damage.iDamage = weapon.weaponVisual.boostLevel + 1
+script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projectile, projectileFactory)
+    if projectileFactory.blueprint.name == "BEAM_3" then
+        projectile.damage.iDamage = projectileFactory.weaponVisual.boostLevel + 1
     end
 end)
 
