@@ -15,6 +15,18 @@
     </mod:findLike>
 </mod:findComposite>
 
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="augBlueprint" name="EXPLOSIVE_REPLICATOR"/>
+        <mod:findName type="augBlueprint" name="FIRE_EXTINGUISHERS"/>
+        <mod:findName type="augBlueprint" name="TELEPORT_HEAL"/>
+        <mod:findName type="augBlueprint" name="BATTERY_BOOSTER"/>
+    </mod:par>
+    <mod:findLike type="rarity">
+        <mod:setValue>0</mod:setValue>
+    </mod:findLike>
+</mod:findComposite>
+
 <mod:findName type="systemBlueprint" name="battery">
     <mod:findLike type="cost">
         <mod:setValue>50</mod:setValue>

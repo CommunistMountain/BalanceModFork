@@ -35,15 +35,9 @@
     </ol>
     <li>AUGMENTS:</li>
     <ol>
-        <li>(TODO for all new rarity 0 augments, check that they are not present in any augment list, or if they are, check that it's OK to leave them there. If not, DELETE.)</li>
         <li>Almost all ship types now have hidden augments (don't take up slots, but are unsellable) that are now unavailable in stores and random rewards, but can be obtained from events. All other augments are removed from ships, except Long-Ranged Scanner, and Slug B's new augments. The consequences of these changes are listed under subpoints:</li>
         <ol>
             <li>Kestrel Cruisers: added hidden Advanced FTL Navigation (which now includes the effects of FTL Jammer and FTL Recharge Booster).</li>
-            <ol>
-                <li>Advanced FTL Navigation: rarity from 3 to 0.</li>
-                <li>FTL Jammer: rarity from 3 to 0.</li>
-                <li>FTL Recharge Booster: rarity from 2 to 0.</li>
-            </ol>
             <li>Engi A, Engi C: added hidden Drone Reactor Booster. Engi B: Drone Reactor Booster is now hidden.</li>
             <ol>
                 <li>Engi NPC ships now have Drone Reactor Booster.</li>
@@ -58,13 +52,11 @@
             <li>Mantis Cruisers: Mantis Pheromones is now hidden. Mantis Pheromones now includes the effects of Fire Suppression.</li>
             <ol>
                 <li>Mantis NPC ships now have the effects of Fire Suppression.</li>
-                <li>Fire Suppression: rarity from 3 to 0.</li>
             </ol>
             <li>Slug Cruisers: Slug Repair Gel is now hidden. Added Backup DNA Bank and Engi Med-bot Dispersal to Slug B.</li>
             <li>Rock Cruisers: Rock Plating is now hidden. Rock Plating now includes the effects of Explosive Replicator.</li>
             <ol>
                 <li>Rock NPC ships now have the effects of Explosive Replicator. (TODO test if NPC can use it)</li>
-                <li>Explosive Replicator: rarity from 3 to 0.</li>
             </ol>
             <li>Stealth A: Titanium System Casing is now hidden. Stealth B, Stealth C: added hidden Titanium System Casing.</li>
             <li>Crystal Cruisers: Crystal Vengeance is now hidden.</li>
@@ -74,7 +66,6 @@
             <li>Lanius Cruisers: added hidden Reconstructive Teleport, removed Emergency Respirators.</li>
             <ol>
                 <li>Lanius NPC ships now have Reconstructive Teleport.</li>
-                <li>Reconstructive Teleport: rarity from 3 to 0.</li>
             </ol>
         </ol>
         <li>Changes for hidden augments:</li>
@@ -94,10 +85,8 @@
             <li>NOTE: If you also have Advanced FTL Navigation, it will NOT take the distance between your destination and the nearest visited beacon from that destination. You will need to manually jump to the visted beacon nearest to the destination first.</li>
         </ol>
         <li>Automated Reloader: Rarity from 2 to 4, cost from 40 to 60.</li>
-        <li>Battery Charger: Rarity from 2 to 0.</li>
         <li>Damaged Stasis Pod: Cost from 30 to 0 (and thus sells for 0).</li>
         <li>Distraction Buoys: Cost from 55 to 40.</li>
-        <li>Emergency Respirators: damage taken from lack of oxygen from -50% to -80%. Rarity from 2 to 4.</li>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40. (TODO add to augment lists if needed)</li>
         <li>Hacking Stun: Now also sets the cost of deploying Hacking drone from 2 back to 1.</li>
         <li>Lifeform Scanner: Rarity from 3 to 1. Cost from 40 to 20.</li>

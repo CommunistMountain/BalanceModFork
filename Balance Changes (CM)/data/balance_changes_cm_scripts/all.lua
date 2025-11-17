@@ -1,3 +1,5 @@
+local lastSector = 0
+
 script.on_game_event("BOSS_AUTOMATED", false, function()
     local enemyShipManager = Hyperspace.Global.GetInstance():GetShipManager(1)
     if enemyShipManager:HasAugmentation("SLUG_GEL_SLOW_CM") <= 0 then
@@ -9,12 +11,22 @@ script.on_game_event("BOSS_AUTOMATED", false, function()
     end
 end)
 
+script.on_init(function()
+    local starMap = Hyperspace.Global.GetInstance():GetCApp().world.starMap
+    lastSector = starMap.currentSector.level
+end)
+
 script.on_internal_event(Defines.InternalEvents.GET_DODGE_FACTOR, function(shipManager, value)
     return Defines.Chain.CONTINUE, value - 2 * shipManager.shieldSystem.shields.power.super.first
 end)
 
 script.on_internal_event(Defines.InternalEvents.JUMP_ARRIVE, function(shipManager)
     local starMap = Hyperspace.Global.GetInstance():GetCApp().world.starMap
+    if starMap.currentSector.level > lastSector then
+        starMap:ModifyPursuit(math.min(1 - shipManager:HasAugmentation("FLEET_DISTRACTION"), 0))
+    end
+    lastSector = starMap.currentSector.level
+    
     if shipManager:HasAugmentation("FTL_JUMPER") > 0 then
         if starMap.currentLoc.visited > 1 then
             shipManager.fuel_count = shipManager.fuel_count + 1

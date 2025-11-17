@@ -16,7 +16,7 @@
     </ol>
     <li>SYSTEMS:</li>
     <ol>
-        <li>Backup Battery: Cost from 35 to 50. Now includes the effects of Battery Charger.</li>
+        <li>Backup Battery: Cost from 35 to 50. Now includes the effects of Battery Charger. Battery Charger rarity from 2 to 0.</li>
         <li>Doors: Cost from 60 to 45.</li>
         <li>Sensors: Cost from 40 to 30. Level 3 cost from 40 to 30.</li>
         <li>Pilot: Level 2 cost from 20 to 35.</li>
@@ -139,7 +139,7 @@
         <ol>
             <li>Backup DNA Bank</li>
             <li>Defense Scrambler</li>
-            <li>Distraction Buoys</li>
+            <li>Distraction Buoys: Fleet delay stacks (the message will still say the Fleet is delayed by 1 jump, but it will be delayed by the number of Buoys you have).</li>
             <li>Drone Recovery Arm</li>
             <li>Engi Med-bot Dispersal: Heal stacks.</li>
             <li>Hacking Stun (todo ensure drone part reduction doesn't go below 1 when implementing my change)</li>
@@ -154,10 +154,8 @@
             <li>NOTE: If you also have Advanced FTL Navigation, it will NOT take the distance between your destination and the nearest visited beacon from that destination. You will need to manually jump to the visted beacon nearest to the destination first.</li>
         </ol>
         <li>Automated Reloader: Rarity from 2 to 4, cost from 40 to 60.</li>
-        <li>Battery Charger: Rarity from 2 to 0.</li>
         <li>Damaged Stasis Pod: Cost from 30 to 0 (sell price from 15 to 0).</li>
         <li>Distraction Buoys: Cost from 55 to 40.</li>
-        <li>Emergency Respirators: damage taken from lack of oxygen from -50% to -80%. Rarity from 2 to 4.</li>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40. (TODO add to augment lists if needed)</li>
         <li>Hacking Stun: Now also sets the cost of deploying Hacking drone from 2 back to 1.</li>
         <li>Lifeform Scanner: Rarity from 3 to 1. Cost from 40 to 20.</li>

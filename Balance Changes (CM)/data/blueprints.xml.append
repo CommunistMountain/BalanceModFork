@@ -386,6 +386,17 @@
     </mod:findLike>
 </mod:findComposite>
 
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="augBlueprint" name="FTL_BOOSTER"/>
+        <mod:findName type="augBlueprint" name="FTL_JUMPER"/>
+        <mod:findName type="augBlueprint" name="FTL_JAMMER"/>
+    </mod:par>
+    <mod:findLike type="rarity">
+        <mod:setValue>0</mod:setValue>
+    </mod:findLike>
+</mod:findComposite>
+
 <mod:findName type="augBlueprint" name="FTL_JUMPER_GOOD">
     <mod:findLike type="rarity">
         <mod:setValue>3</mod:setValue>
