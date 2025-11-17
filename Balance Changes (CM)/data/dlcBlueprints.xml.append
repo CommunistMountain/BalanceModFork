@@ -120,7 +120,7 @@
 
 <mod:findName type="weaponBlueprint" name="LASER_CHAINGUN_2">
     <mod:findLike type="cooldown">
-        <mod:setValue>9.1</mod:setValue>
+        <mod:setValue>8.5</mod:setValue>
     </mod:findLike>
     <mod:findLike type="cost">
         <mod:setValue>80</mod:setValue>
@@ -129,8 +129,8 @@
         <mod:setValue>3</mod:setValue>
     </mod:findLike>
     <mod:findLike type="boost">
-        <mod:findLike type="count">
-            <mod:setValue>4</mod:setValue>
+        <mod:findLike type="amount">
+            <mod:setValue>1.5</mod:setValue>
         </mod:findLike>
     </mod:findLike>
 </mod:findName>

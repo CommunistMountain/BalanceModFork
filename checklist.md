@@ -144,7 +144,6 @@
     <li>EVENTS:</li>
     <ol>
         <li>(TODO more events for Lifeform Scanner just like Twinge. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates. Actually, some LRS blues should be replaced with Life Scanner if it's against lifeforms)</li>
-        <li>If you exit a sector before the exit beacon is about to be taken over by the Rebel Fleet, the Fleet will be delayed by 1 in the next sector (stacks with Distraction Buoys). (TODO check 6 cases: with and without Distraction Buoys; clear exit, overtaking exit, overtaken exit)</li>
         <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation (TODO it has to be the custom one with integrated augs).</li>
         <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire") (TODO make a custom req which includes all; Fire Drone will need its own custom req which sees if there's a Drone System.).</li>
         <li>LANIUS_TRADER: TODO figure out values, then transfer to readme_new</li>
