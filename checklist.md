@@ -1,23 +1,10 @@
 # Balance Changes (CM)
 <ol>
-    <li>REWARDS (TODO remember to edit the custom rewards.):</li>
-    <ol>
-        <li>Scrap Curve: Hard mode base value changed from 15 in sectors 1 and 2, then +6 for each sector after 2, to 15 in sector 1, then +4 for each sector after 1. (Change: 0%/+26.67%/+9.52%/0%/-6.06%/-10.26%/-13.33%/-15.69%).</li>
-        <li>Scrap: Low range from 50%-70% of base value to 50%-75%. Medium range from 80%-130% of base value to 75%-130%. (Change: Low +4.17%, Medium -2.38%, Random 0%)</li>
-        <li>Fuel: Low range from 1-3 to 2. High range from 3-6 to 4. (Change: Low 0% (more consistent), High -11.11%, Random -5.26%)</li>
-        <li>Missiles: Low range from 1-2 to 1-3. Medium range from 2-4 to 3-5. High range from 4-8 to 5-7. (Change: Low +33.33%, Medium +33.33%, High 0% (more consistent), Random +14.29%)</li>
-        <li>Drone Parts: Medium range from 1 to 1-2. High range from 1-2 to 2. (Change: Medium +50%, High +33.33%, Random +28.57%)</li>
-    </ol>
-    <li>STORE:</li>
-    <ol>
-        <li>Missiles: Store stock from 2-6 to 4-8.</li>
-        <li>Drone Parts: Store stock from 2-4 to 3-5.</li>
-        <li>Drone Control: Boarding Drone is now a possible discounted drone that can be packaged with Drone Control.</li>
-    </ol>
+    <li>TODO change text for everything in readme_new that needs it</li>
     <li>SYSTEMS:</li>
     <ol>
         <li>Backup Battery: Now includes the effects of Battery Charger.</li>
-        <li>Hacking: Cost of deploying hacking drone from 1 to 2. Drone will explode if the system is depowered while the drone is mid-flight. (TODO ensure cost increase works for enemies? try editing power tag in dlcBlueprints.xml DRONE_HACKING. Or see https://github.com/FTL-Hyperspace/FTL-Hyperspace/wiki/Lua-Hyperspace-Module hacking int spenddrone) (TODO 2 enemy ships that start with hacking, like AUTO_ASSAULT_DLC, also need 2x drone parts)</li>
+        <li>Hacking: Cost of deploying hacking drone from 1 to 2. Drone will explode if the system is depowered while the drone is mid-flight. (TODO only do for player. See https://github.com/FTL-Hyperspace/FTL-Hyperspace/wiki/Lua-Hyperspace-Module hacking int spenddrone)</li>
     </ol>
     <li>WEAPONS:</li>
     <ol>

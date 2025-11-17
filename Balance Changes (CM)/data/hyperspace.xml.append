@@ -10,4 +10,57 @@
         <function name="SLUG_GEL" value="0.083"/>
     </mod-append:aug>
 </mod:findLike>
+
+<mod:findLike type="rewards" limit="1">
+    <mod-append:rewardScaling difficulty="2">
+        <scrap baseAmount="15.0" sectorAmount="4.0" difficultyAmount="0"/>
+    </mod-append:rewardScaling>
+
+    <mod-append:resourceRewards>
+        <scrap level="LOW" min="500" max="750"/>
+        <scrap level="MED" min="750" max="1300"/>
+
+        <fuel level="LOW" min="2" max="2"/>
+        <fuel level="HIGH" min="4" max="4"/>
+
+        <missiles level="LOW" min="1" max="3"/>
+        <missiles level="MED" min="3" max="5"/>
+        <missiles level="HIGH" min="5" max="7"/>
+
+        <droneparts level="MED" min="1" max="2"/>
+        <droneparts level="HIGH" min="2" max="2"/>
+    </mod-append:resourceRewards>
+    
+    <mod:findComposite>
+        <mod:par op="OR">
+            <mod:findName type="reward" name="standard_droneparts-1"/>
+            <mod:findName type="reward" name="stuff_droneparts-1"/>
+            <mod:findName type="reward" name="stuff_fuel-100"/>
+        </mod:par>
+        <mod:findLike type="resourceRewards">
+            <mod:findLike type="droneparts">
+            <mod:selector level="MED"/>
+                <mod:setAttributes max="1"/>
+            </mod:findLike>
+            <mod:findLike type="droneparts">
+            <mod:selector level="HIGH"/>
+                <mod:setAttributes min="1"/>
+            </mod:findLike>
+            <mod:findLike type="fuel">
+            <mod:selector level="LOW"/>
+                <mod:setAttributes min="-98" max="-98"/>
+            </mod:findLike>
+            <mod:findLike type="fuel">
+            <mod:selector level="HIGH"/>
+                <mod:setAttributes min="-96" max="-96"/>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findComposite>
+</mod:findLike>
+
+<mod:findLike type="store" limit="1">
+    <mod:findLike type="freeDrones">
+        <mod-append:BOARDER/>
+    </mod:findLike>
+</mod:findLike>
 </FTL>

@@ -10,8 +10,8 @@
     </ol>
     <li>STORE:</li>
     <ol>
-        <li>Missiles: Cost from 6 to 4. Store stock from 2-6 to 4-8.</li>
-        <li>Drone Parts: Cost from 8 to 6. Store stock from 2-4 to 3-5.</li>
+        <li>Missiles: Cost from 6 to 4.</li>
+        <li>Drone Parts: Cost from 8 to 6.</li>
         <li>Drone Control: Boarding Drone is now a possible discounted drone that can be packaged with Drone Control.</li>
     </ol>
     <li>SYSTEMS:</li>
