@@ -340,9 +340,10 @@ Continued from Twinge's Balance and Bugfix Mod 4.0.2. This starts at 4.0.3 since
     <li>EVENTS:</li>
     <ol>
     </ol>
-    <li>MISCELLANEOUS:</li>
+    <li>MISC:</li>
     <ol>
         <li>Text has been added or changed to reflect gameplay changes, add/remove punctuation, or be more inclusive. Note that text changes are in English only.</li>
         <li>Main Menu image replaced to show the mod's name and version number.</li>
+        <li>The name of the FTL window is renamed to "FTL: Twinge's Balance Mod" (TODO)</li>
     </ol>
 </ol>

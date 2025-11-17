@@ -171,7 +171,7 @@
     <ol>
         <li>Kestrel A: Crew from 3 Humans to 2 Humans.</li>
         <li>Kestrel B: Removed Doors.</li>
-        <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 4 Ion Stunners. Weapon Control level from 2 to 4. Reactor from 7 to 8. Sensors level from 2 to 1.</li>
+        <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 2 Ion Blasts and 2 Ion Stunners. Weapon Control level from 2 to 4. Reactor from 7 to 8. Sensors level from 2 to 1.</li>
         <li>Engi A: Reactor from 10 to 9.</li>
         <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Added level 1 Sensors.</li>
         <li>Fed A: Weapon Control level from 3 to 4. Removed Doors.</li>
@@ -224,13 +224,13 @@
             <li>Mantis and Rock sectors: empty beacon range from 2-3 to 1-2.</li>
             <li>Crystal sector: empty beacon range from 2 to 1-2.</li>
         </ol>
-        <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
         <li>ASTEROID_DERELICT_SHIP: When you choose to "Grab the stasis chamber", you have a 10% chance getting Ruwen immediately instead of the Stasis Pod.</li>
         <li>AUTO_HACKER: Now disables 1 level of your Shields, instead of half of your Shield levels rounded up.</li>
         <li>CRYSTAL_CACHE: Engines blue option level requirement from 7 to 4.</li>
-        <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation, and fleet delay from 2 to 1.</li>
+        <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation, and Fleet delay from 2 to 1.</li>
         <li>FUEL_FOR_DRONE: Drone parts received from 1-3 to 2-4.</li>
         <li>LANIUS_RESEARCHER_CRAFT: Choosing to craft an augment now always gives Reconstructive Teleport instead of a random AE augment.</li>
+        <li>LANIUS_TRADER: TODO figure out values, then transfer to readme_new</li>
         <li>NEBULA_SLUG_FIGHT_UNLOCK: Completing the event chain gives Anti-Bio Beam on top of other rewards.</li>
         <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire") (TODO make a custom req which includes all; Fire Drone will need its own custom req which sees if there's a Drone System.).</li>
         <li>ROCK_CRYSTAL_BEACON: This event may be revisited if you choose not to scrap the ancient device. (TODO use playervariable "unscrapped=true". If it's Rock Home, find the location of this event. Then, every time you visit the event (except waiting at the beacon when out of fuel), if this is true, start this event. Picking the "scrap" option will set the variable to false, via custom event (currently it's renameEvent but maybe it should be a simple event start))</li>
@@ -250,5 +250,14 @@
         <li>ZOLTAN_BOARDERS: Number of Zoltan boarders from 3-4 to 3.</li>
         <li>ZOLTAN_BOARDERS_MANTIS: Number of Mantis boarders from 2-3 to 2.</li>
         <li>ZOLTAN_PEACE_QUEST: Zoltan Shield outcome: no longer has low scrap autoReward. Envoy outcome: now also gives Zoltan Shield, but no longer has high standard autoReward.</li>
+    </ol>
+    <li>MECHANICS:</li>
+    <ol>
+        <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
+        <li>If you exit a sector before the exit beacon is about to be taken over by the Rebel Fleet, the Fleet will be delayed by 1 in the next sector (stacks with Distraction Buoys).</li>
+    </ol>
+    <li>MISC:</li>
+    <ol>
+        <li>The name of the FTL window is renamed to "FTL: CM's Balance Mod"</li>
     </ol>
 </ol>

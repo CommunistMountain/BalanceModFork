@@ -111,7 +111,7 @@
     <ol>
         <li>Kestrel A: Crew from 3 Humans to 2 Humans.</li>
         <li>Kestrel B: Removed Doors.</li>
-        <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 4 Ion Stunners. Weapon Control level from 2 to 4. Reactor from 7 to 8. Sensors level from 2 to 1.</li>
+        <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 2 Ion Blasts and 2 Ion Stunners. Weapon Control level from 2 to 4. Reactor from 7 to 8. Sensors level from 2 to 1.</li>
         <li>Engi A: Reactor from 10 to 9.</li>
         <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Added level 1 Sensors.</li>
         <li>Fed A: Weapon Control level from 3 to 4. Removed Doors.</li>
@@ -144,8 +144,14 @@
     <li>EVENTS:</li>
     <ol>
         <li>(TODO more events for Lifeform Scanner just like Twinge. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates. Actually, some LRS blues should be replaced with Life Scanner if it's against lifeforms)</li>
+        <li>If you exit a sector before the exit beacon is about to be taken over by the Rebel Fleet, the Fleet will be delayed by 1 in the next sector (stacks with Distraction Buoys). (TODO check 6 cases: with and without Distraction Buoys; clear exit, overtaking exit, overtaken exit)</li>
         <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation (TODO it has to be the custom one with integrated augs).</li>
         <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire") (TODO make a custom req which includes all; Fire Drone will need its own custom req which sees if there's a Drone System.).</li>
-        <li>ROCK_CRYSTAL_BEACON: This event may be revisited if you choose not to scrap the ancient device. (TODO use playervariable "unscrapped=true". If it's Rock Home, find the location of this event. Then, every time you visit the event (except waiting at the beacon when out of fuel), if this is true, start this event. Picking the "scrap" option will set the variable to false, via custom event (currently it's renameEvent but maybe it should be a simple event start))</li>
+        <li>LANIUS_TRADER: TODO figure out values, then transfer to readme_new</li>
+        <li>ROCK_CRYSTAL_BEACON: This event may be revisited if you choose not to scrap the ancient device. (TODO use playervariable "unscrapped=true". If it's Rock Home, find the location of this event. Then, every time you visit the event (except waiting at the beacon when out of fuel), if this is true, start this event. Picking the "scrap" option will set the variable to false, via custom event (currently it's renameEvent but maybe it should be a simple event start)) (TODO 2 maybe try to use ON_WAIT lua)</li>
+    </ol>
+    <li>MISC:</li>
+    <ol>
+        <li>The name of the FTL window is renamed to "FTL: CM's Balance Mod"</li>
     </ol>
 </ol>
