@@ -106,11 +106,11 @@ Mod order:
     <li>Ship Upgrade Menu: Fixed misaligned Accept button base.</li>
     <li>Shifted misaligned crew sprites:</li>
     <ol>
-        <li>Crystal: 1 left, 2 up (except clone sprite: 1 left)</li>
+        <li>Crystal: 1 left (except teleport sprites: 1 left, 5 down)</li>
         <li>Engi: 1 left, 1 up</li>
         <li>Lanius: 1 right, 2 up (except clone sprite: 1 left, 2 up)</li>
-        <li>Mantis: 1 left, 2 up</li>
-        <li>Rock: 1 left, 3 up (except clone sprite: 1 left, 1 up)</li>
+        <li>Mantis: 1 left (except clone sprite: 1 left, 2 up; and teleport sprites: 1 left, 5 down)</li>
+        <li>Rock: 1 left, 1 up (except teleport sprites: 1 left, 3 down)</li>
         <li>Slug: 1 right</li>
     </ol>
     <li>Shifted misaligned shields vertically (more positive = more down) (technically has slight gameplay impact):</li>

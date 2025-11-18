@@ -358,6 +358,9 @@
     <mod:findLike type="cost">
         <mod:setValue>30</mod:setValue>
     </mod:findLike>
+    <mod:findLike type="rarity">
+        <mod:setValue>2</mod:setValue>
+    </mod:findLike>
 </mod:findName>
 
 <mod:findName type="itemBlueprint" name="drones">

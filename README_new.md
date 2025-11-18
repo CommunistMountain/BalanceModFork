@@ -77,8 +77,8 @@
         <li>Hull Repair Drone: Cost from 85 to 40. Power requirement from 2 to 1. Drone Recovery Arm no longer retrieves it if you jump while it is repairing.</li>
         <li>System Repair Drone: Cost from 30 to 20.</li>
         <li>Anti-Personnel Drone: Power requirement from 2 to 1.</li>
-        <li>Boarding Drone: Cost from 70 to 30. 1 drone part will be retrieved at the end of combat if it is not destroyed. (todo BOARDER_RECOVERY for all ships. TODO 2 test if it retrieves at the end of fight (correct) or when jumping (wrong))</li>
-        <li>Ion Intruder Drone: Cost from 65 to 40. 1 drone part will be retrieved at the end of combat if it is not destroyed.</li>
+        <li>Boarding Drone: Rarity from 4 to 2, cost from 70 to 30. 1 drone part will be retrieved at the end of combat if it is not destroyed. (todo BOARDER_RECOVERY for all ships. TODO 2 test if it retrieves at the end of fight (correct) or when jumping (wrong))</li>
+        <li>Ion Intruder Drone: Rarity from 4 to 2, cost from 65 to 40. 1 drone part will be retrieved at the end of combat if it is not destroyed.</li>
     </ol>
     <li>AUGMENTS:</li>
     <ol>
