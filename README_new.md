@@ -83,7 +83,7 @@
     <li>AUGMENTS:</li>
     <ol>
         <li>(TODO for all new rarity 0 augments, check that they are not present in any augment list, or if they are, check that it's OK to leave them there. If not, DELETE.)</li>
-        <li>Almost all ship types now have hidden augments (don't take up slots, but are unsellable) that are now unavailable in stores and random rewards, but can be obtained from events. All other augments are removed from ships, except Long-Ranged Scanner, and Slug B's new augments. The consequences of these changes are listed under subpoints:</li>
+        <li>Almost all ship types now have hidden augments (don't take up slots, but are unsellable) that are now unavailable in stores and random rewards, but can be obtained from events. All other augments are removed from ships, except Long-Ranged Scanners. The consequences of these changes are listed under subpoints:</li>
         <ol>
             <li>Kestrel Cruisers: added hidden Advanced FTL Navigation (which now includes the effects of FTL Jammer and FTL Recharge Booster).</li>
             <ol>
@@ -107,7 +107,7 @@
                 <li>Mantis NPC ships now have the effects of Fire Suppression.</li>
                 <li>Fire Suppression: rarity from 3 to 0.</li>
             </ol>
-            <li>Slug Cruisers: Slug Repair Gel is now hidden. Added Backup DNA Bank and Engi Med-bot Dispersal to Slug B.</li>
+            <li>Slug Cruisers: Slug Repair Gel is now hidden.</li>
             <li>Rock Cruisers: Rock Plating is now hidden. Rock Plating now includes the effects of Explosive Replicator.</li>
             <ol>
                 <li>Rock NPC ships now have the effects of Explosive Replicator. (TODO test if NPC can use it)</li>
@@ -169,25 +169,26 @@
     <ol>
         <li>Kestrel A: Crew from 3 Humans to 2 Humans.</li>
         <li>Kestrel B: Removed Doors.</li>
-        <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 2 Ion Blasts and 2 Ion Stunners. Weapon Control level from 2 to 4. Reactor from 7 to 8. Sensors level from 2 to 1.</li>
+        <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 2 Ion Blasts and 2 Ion Stunners. Weapon Control level from 2 to 4. Reactor from 7 to 9. Sensors level from 2 to 1.</li>
         <li>Engi A: Reactor from 10 to 9.</li>
         <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Added level 1 Sensors.</li>
         <li>Fed A: Weapon Control level from 2 to 4. Removed Doors.</li>
         <li>Fed B: Missiles from 9 to 14. Reactor from 9 to 8.</li>
-        <li>Fed C: Artillery level from 1 to 4.</li>
-        <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2.</li>
+        <li>Fed C: Artillery level from 1 to 4. Reactor from 7 to 8.</li>
+        <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2. Reactor from 5 to 6.</li>
         <li>Zoltan B: Starts with Long-Ranged Scanners. Starts with no Shields instead of weak Shields (TODO remember to set the level of shields to 2 in files)</li>
         <li>Mantis A: Weapon slots from 3 to 4. Crew from 3 Mantis 1 Engi to 2 Mantis 1 Engi (rearranged crew positions from MMEM to EMM). Added level 1 Sensors.</li>
         <li>Mantis B: Engines level from 1 to 2. Medbay level from 1 to 2. Reactor 11 to 9.</li>
         <li>Slug Cruisers: Doors level from 2 to 1.</li>
-        <li>Rock B: Added an external door to the Backup Battery room. (TODO remember to change floor image) Oxygen level from 2 to 1.</li>
+        <li>Slug B: Reactor from 7 to 8.</li>
+        <li>Rock B: Added an external door to the Backup Battery room. (TODO remember to change floor image) Oxygen level from 2 to 1. Reactor from 8 to 7.</li>
         <li>Stealth A: Engines level from 4 to 3, Weapon Control from level 2 to 3, weapon slots from 3 to 4. Weapons from 1 Mini-Beam and 1 Dual Lasers to 1 Mini-Beam and 2 Basic Lasers.</li>
-        <li>Stealth B: Weapon slots from 3 to 4. Engines level from 2 to 3.</li>
-        <li>Stealth C: Added level 2 Sensors.</li>
+        <li>Stealth B: Weapon slots from 3 to 4. Engines level from 2 to 3. Reactor from 7 to 9.</li>
+        <li>Stealth C: Added level 2 Sensors. Reactor from 7 to 8.</li>
         <li>Crystal A: Removed Doors.</li>
-        <li>Crystal B: Weapon slots from 4 to 3. Medbay level from 1 to 2.</li>
-        <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 2.</li>
-        <li>Lanius B: Removed Clone Bay. Teleporter level from 1 to 3. Added level 1 Sensors.</li>
+        <li>Crystal B: Weapon slots from 4 to 3. Medbay level from 1 to 2. Reactor from 8 to 7.</li>
+        <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 2. Reactor from 8 to 7.</li>
+        <li>Lanius B: Removed Clone Bay. Teleporter level from 1 to 3. Added level 1 Sensors. Reactor from 8 to 9.</li>
     </ol>
     <li>NPC SHIPS:</li>
     <ol>

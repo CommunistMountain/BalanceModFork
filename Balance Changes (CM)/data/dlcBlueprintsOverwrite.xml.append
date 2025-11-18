@@ -33,6 +33,7 @@
         </mod:findLike>
     </mod:findLike>
     <mod:findLike type="weaponList">
+        <mod:setAttributes count="4"/>
         <mod:findLike type="weapon">
             <mod:removeTag/>
         </mod:findLike>
@@ -42,7 +43,7 @@
         <mod-append:weapon name="ION_1"/>
     </mod:findLike>
     <mod:findLike type="maxPower">
-        <mod:setAttributes amount="8"/>
+        <mod:setAttributes amount="9"/>
     </mod:findLike>
 </mod:findName>
 
@@ -51,6 +52,9 @@
         <mod:findLike type="artillery">
             <mod:setAttributes power="4"/>
         </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="8"/>
     </mod:findLike>
 </mod:findName>
 
@@ -67,6 +71,9 @@
         <mod:findLike type="sensors">
             <mod:setAttributes power="2" start="true"/>
         </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="8"/>
     </mod:findLike>
 </mod:findName>
 </FTL>

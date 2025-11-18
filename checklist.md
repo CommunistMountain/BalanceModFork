@@ -22,7 +22,7 @@
     </ol>
     <li>AUGMENTS:</li>
     <ol>
-        <li>Almost all ship types now have hidden augments (don't take up slots, but are unsellable) that are now unavailable in stores and random rewards, but can be obtained from events. All other augments are removed from ships, except Long-Ranged Scanner, and Slug B's new augments. The consequences of these changes are listed under subpoints:</li>
+        <li>Almost all ship types now have hidden augments (don't take up slots, but are unsellable) that are now unavailable in stores and random rewards, but can be obtained from events. All other augments are removed from ships, except Long-Ranged Scanners. The consequences of these changes are listed under subpoints:</li>
         <ol>
             <li>Kestrel Cruisers: added hidden Advanced FTL Navigation (which now includes the effects of FTL Jammer and FTL Recharge Booster).</li>
             <li>Engi A, Engi C: added hidden Drone Reactor Booster. Engi B: Drone Reactor Booster is now hidden.</li>
@@ -81,7 +81,6 @@
     </ol>
     <li>PLAYER SHIPS (other than augment changes above):</li>
     <ol>
-        <li>Fed C: Artillery level from 1 to 4.</li>
         <li>Rock B: Added an external door to the Backup Battery room. (TODO remember to change floor image)</li>
     </ol>
     <li>NPC SHIPS:</li>

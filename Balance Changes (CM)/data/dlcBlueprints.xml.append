@@ -208,6 +208,9 @@
     <mod:findLike type="crewCount">
         <mod:removeTag/>
     </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="7"/>
+    </mod:findLike>
     <mod-append:crewCount amount="1" class="anaerobic"/>
 </mod:findName>
 
@@ -222,6 +225,9 @@
         <mod:findLike type="teleporter">
             <mod:setAttributes power="3"/>
         </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="9"/>
     </mod:findLike>
 </mod:findName>
 

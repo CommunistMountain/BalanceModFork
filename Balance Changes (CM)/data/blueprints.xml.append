@@ -483,6 +483,7 @@
         <mod:setValue>4</mod:setValue>
     </mod:findLike>
     <mod:findLike type="weaponList">
+        <mod:setAttributes count="3"/>
         <mod:findLike type="weapon">
             <mod:removeTag/>
         </mod:findLike>
@@ -504,6 +505,9 @@
     </mod:findLike>
     <mod:findLike type="weaponSlots">
         <mod:setValue>4</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="9"/>
     </mod:findLike>
 </mod:findName>
 
@@ -561,8 +565,9 @@
             <mod:setAttributes power="1"/>
         </mod:findLike>
     </mod:findLike>
-    <mod-append:aug name="BACKUP_DNA"/>
-    <mod-append:aug name="NANO_MEDBAY"/>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="8"/>
+    </mod:findLike>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK_2">
@@ -570,6 +575,9 @@
         <mod:findLike type="oxygen">
             <mod:setAttributes power="1"/>
         </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="7"/>
     </mod:findLike>
 </mod:findName>
 
@@ -581,6 +589,9 @@
         <mod:findLike type="engines">
             <mod:setAttributes power="2"/>
         </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="6"/>
     </mod:findLike>
 </mod:findName>
 
@@ -609,6 +620,9 @@
     </mod:findLike>
     <mod:findLike type="weaponSlots">
         <mod:setValue>3</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="7"/>
     </mod:findLike>
 </mod:findName>
 </FTL>
