@@ -60,6 +60,23 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="droneBlueprint" name="DRONE_SHIELD"/>
+        <mod:findName type="droneBlueprint" name="DRONE_SHIELD_PLAYER"/>
+    </mod:par>
+    <mod:findLike type="speed">
+        <mod:setValue>8</mod:setValue>
+    </mod:findLike>
+    <mod-append:cooldowns>
+        <noLayers>6.0</noLayers>
+        <oneLayer>8.0</oneLayer>
+        <twoLayers>10.0</twoLayers>
+        <threeLayers>12.0</threeLayers>
+        <moreLayers>14.0</moreLayers>
+    </mod-append:cooldowns>
+</mod:findComposite>
+
 <mod:findName type="weaponBlueprint" name="BOMB_HEAL_SYSTEM">
     <mod:findLike type="cooldown">
         <mod:setValue>4</mod:setValue>
@@ -174,20 +191,39 @@
 
 <mod:findComposite>
     <mod:par op="OR">
-        <mod:findName type="droneBlueprint" name="DRONE_SHIELD"/>
-        <mod:findName type="droneBlueprint" name="DRONE_SHIELD_PLAYER"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_ANAEROBIC"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_ANAEROBIC_2"/>
     </mod:par>
-    <mod:findLike type="speed">
-        <mod:setValue>8</mod:setValue>
+    <mod:findLike type="aug">
+        <mod:removeTag/>
     </mod:findLike>
-	<mod-append:cooldowns>
-		<noLayers>6.0</noLayers>
-		<oneLayer>8.0</oneLayer>
-		<twoLayers>10.0</twoLayers>
-		<threeLayers>12.0</threeLayers>
-		<moreLayers>14.0</moreLayers>
-	</mod-append:cooldowns>
 </mod:findComposite>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ANAEROBIC">
+    <mod:findLike type="systemList">
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="2"/>
+        </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="1" class="anaerobic"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ANAEROBIC_2">
+    <mod:findLike type="systemList">
+        <mod:findLike type="sensors">
+            <mod:setAttributes start="true"/>
+        </mod:findLike>
+        <mod:findLike type="clonebay">
+            <mod:setAttributes start="false"/>
+        </mod:findLike>
+        <mod:findLike type="teleporter">
+            <mod:setAttributes power="3"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
 
 <mod:findName type="shipBlueprint" name="ANAEROBIC_BOMBER">
     <mod:findLike type="crewCount">

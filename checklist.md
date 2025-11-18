@@ -28,19 +28,15 @@
             <li>Engi A, Engi C: added hidden Drone Reactor Booster. Engi B: Drone Reactor Booster is now hidden.</li>
             <ol>
                 <li>Engi NPC ships now have Drone Reactor Booster.</li>
-                <li>Engi A and Engi NPC ships no longer have Engi Med-bot Dispersal.</li>
-                <li>Engi C no longer has Defense Scrambler.</li>
+                <li>Engi NPC ships no longer have Engi Med-bot Dispersal.</li>
             </ol>
             <li>Fed Cruisers: System limit from 8 to 9. Effectively, Artillery System doesn't take a system slot. (Not an augment, but I'm including it here for the sake of consistency)</li>
-            <ol>
-                <li>Fed C no longer has Emergency Respirators.</li>
-            </ol>
             <li>Zoltan Cruisers: Zoltan Shield is now hidden.</li>
             <li>Mantis Cruisers: Mantis Pheromones is now hidden. Mantis Pheromones now includes the effects of Fire Suppression.</li>
             <ol>
                 <li>Mantis NPC ships now have the effects of Fire Suppression.</li>
             </ol>
-            <li>Slug Cruisers: Slug Repair Gel is now hidden. Added Backup DNA Bank and Engi Med-bot Dispersal to Slug B.</li>
+            <li>Slug Cruisers: Slug Repair Gel is now hidden.</li>
             <li>Rock Cruisers: Rock Plating is now hidden. Rock Plating now includes the effects of Explosive Replicator.</li>
             <ol>
                 <li>Rock NPC ships now have the effects of Explosive Replicator. (TODO test if NPC can use it)</li>
@@ -50,7 +46,7 @@
             <ol>
                 <li>Crystal NPC ships now have Crystal Vengeance.</li>
             </ol>
-            <li>Lanius Cruisers: added hidden Reconstructive Teleport, removed Emergency Respirators.</li>
+            <li>Lanius Cruisers: added hidden Reconstructive Teleport</li>
             <ol>
                 <li>Lanius NPC ships now have Reconstructive Teleport.</li>
             </ol>
@@ -85,27 +81,8 @@
     </ol>
     <li>PLAYER SHIPS (other than augment changes above):</li>
     <ol>
-        <li>Kestrel A: Crew from 3 Humans to 2 Humans.</li>
-        <li>Kestrel B: Removed Doors.</li>
-        <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 2 Ion Blasts and 2 Ion Stunners. Weapon Control level from 2 to 4. Reactor from 7 to 8. Sensors level from 2 to 1.</li>
-        <li>Engi A: Reactor from 10 to 9.</li>
-        <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Added level 1 Sensors.</li>
-        <li>Fed A: Weapon Control level from 3 to 4. Removed Doors.</li>
-        <li>Fed B: Missiles from 9 to 14. Reactor from 9 to 8.</li>
         <li>Fed C: Artillery level from 1 to 4.</li>
-        <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2.</li>
-        <li>Zoltan B: Starts with Long-Ranged Scanners. Starts with no Shields instead of weak Shields (TODO remember to set the level of shields to 2 in files)</li>
-        <li>Mantis A: Weapon slots from 3 to 4. Crew from 3 Mantis 1 Engi to 2 Mantis 1 Engi (rearranged crew positions from MMEM to EMM). Added level 1 Sensors.</li>
-        <li>Mantis B: Engines level from 1 to 2. Medbay level from 1 to 2. Reactor 11 to 9.</li>
-        <li>Slug Cruisers: Doors level from 2 to 1.</li>
-        <li>Rock B: Added an external door to the Backup Battery room. (TODO remember to change floor image) Oxygen level from 2 to 1.</li>
-        <li>Stealth A: Engines level from 4 to 3, Weapon Control from level 2 to 3, weapon slots from 3 to 4. Weapons from 1 Mini-Beam and 1 Dual Lasers to 1 Mini-Beam and 2 Basic Lasers.</li>
-        <li>Stealth B: Weapon slots from 3 to 4. Engines level from 2 to 3.</li>
-        <li>Stealth C: Added level 2 Sensors.</li>
-        <li>Crystal A: Removed Doors.</li>
-        <li>Crystal B: Weapon slots from 4 to 3. Medbay level from 1 to 2.</li>
-        <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 2. Engines level from 1 to 2.</li>
-        <li>Lanius B: Removed Clone Bay. Teleporter level from 1 to 3. Engines level from 1 to 2. Added level 1 Sensors.</li>
+        <li>Rock B: Added an external door to the Backup Battery room. (TODO remember to change floor image)</li>
     </ol>
     <li>NPC SHIPS:</li>
     <ol>

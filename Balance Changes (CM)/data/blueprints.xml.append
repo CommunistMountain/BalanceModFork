@@ -426,10 +426,189 @@
     </mod:findLike>
 </mod:findComposite>
 
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD">
+    <mod:findLike type="crewCount">
+        <mod:setAttributes amount="2"/>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_2">
+    <mod:findLike type="systemList">
+        <mod:findLike type="doors">
+            <mod:setAttributes start="false"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS">
+    <mod:findLike type="systemList">
+        <mod:findLike type="sensors">
+            <mod:setAttributes start="true"/>
+        </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="weaponSlots">
+        <mod:setValue>4</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="1" class="engi"/>
+    <mod-append:crewCount amount="2" class="mantis"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS_2">
+    <mod:findLike type="systemList">
+        <mod:findLike type="engines">
+            <mod:setAttributes power="2"/>
+        </mod:findLike>
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="2"/>
+        </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="9"/>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH">
+    <mod:findLike type="systemList">
+        <mod:findLike type="engines">
+            <mod:setAttributes power="3"/>
+        </mod:findLike>
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="3"/>
+        </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="weaponSlots">
+        <mod:setValue>4</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="weaponList">
+        <mod:findLike type="weapon">
+            <mod:removeTag/>
+        </mod:findLike>
+        <mod-append:weapon name="LASER_BURST_1"/>
+        <mod-append:weapon name="LASER_BURST_1"/>
+        <mod-append:weapon name="BEAM_1"/>
+    </mod:findLike>
     <mod:findLike type="aug">
     <mod:selector name="SYSTEM_CASING"/>
         <mod:removeTag/>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH_2">
+    <mod:findLike type="systemList">
+        <mod:findLike type="engines">
+            <mod:setAttributes power="3"/>
+        </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="weaponSlots">
+        <mod:setValue>4</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE">
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="9"/>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE_2">
+    <mod:findLike type="systemList">
+        <mod:findLike type="pilot">
+            <mod:setAttributes power="2"/>
+        </mod:findLike>
+        <mod:findLike type="sensors">
+            <mod:setAttributes start="true"/>
+        </mod:findLike>
+        <mod:findLike type="engines">
+            <mod:setAttributes power="2"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED">
+    <mod:findLike type="systemList">
+        <mod:findLike type="doors">
+            <mod:setAttributes start="false"/>
+        </mod:findLike>
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="4"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED_2">
+    <mod:findLike type="weaponList">
+        <mod:setAttributes missiles="14"/>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="8"/>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY">
+    <mod:findLike type="systemList">
+        <mod:findLike type="doors">
+            <mod:setAttributes power="1"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY_2">
+    <mod:findLike type="systemList">
+        <mod:findLike type="doors">
+            <mod:setAttributes power="1"/>
+        </mod:findLike>
+    </mod:findLike>
+    <mod-append:aug name="BACKUP_DNA"/>
+    <mod-append:aug name="NANO_MEDBAY"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK_2">
+    <mod:findLike type="systemList">
+        <mod:findLike type="oxygen">
+            <mod:setAttributes power="1"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ENERGY">
+    <mod:findLike type="systemList">
+        <mod:findLike type="doors">
+            <mod:setAttributes power="1"/>
+        </mod:findLike>
+        <mod:findLike type="engines">
+            <mod:setAttributes power="2"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ENERGY_2">
+    <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes power="2" start="false"/>
+        </mod:findLike>
+    </mod:findLike>
+    <mod-append:aug name="ADV_SCANNERS"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CRYSTAL">
+    <mod:findLike type="systemList">
+        <mod:findLike type="doors">
+            <mod:setAttributes start="false"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CRYSTAL_2">
+    <mod:findLike type="systemList">
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="2"/>
+        </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="weaponSlots">
+        <mod:setValue>3</mod:setValue>
     </mod:findLike>
 </mod:findName>
 </FTL>

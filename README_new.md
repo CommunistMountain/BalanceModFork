@@ -172,7 +172,7 @@
         <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 2 Ion Blasts and 2 Ion Stunners. Weapon Control level from 2 to 4. Reactor from 7 to 8. Sensors level from 2 to 1.</li>
         <li>Engi A: Reactor from 10 to 9.</li>
         <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Added level 1 Sensors.</li>
-        <li>Fed A: Weapon Control level from 3 to 4. Removed Doors.</li>
+        <li>Fed A: Weapon Control level from 2 to 4. Removed Doors.</li>
         <li>Fed B: Missiles from 9 to 14. Reactor from 9 to 8.</li>
         <li>Fed C: Artillery level from 1 to 4.</li>
         <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2.</li>
@@ -186,8 +186,8 @@
         <li>Stealth C: Added level 2 Sensors.</li>
         <li>Crystal A: Removed Doors.</li>
         <li>Crystal B: Weapon slots from 4 to 3. Medbay level from 1 to 2.</li>
-        <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 2. Engines level from 1 to 2.</li>
-        <li>Lanius B: Removed Clone Bay. Teleporter level from 1 to 3. Engines level from 1 to 2. Added level 1 Sensors.</li>
+        <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 2.</li>
+        <li>Lanius B: Removed Clone Bay. Teleporter level from 1 to 3. Added level 1 Sensors.</li>
     </ol>
     <li>NPC SHIPS:</li>
     <ol>

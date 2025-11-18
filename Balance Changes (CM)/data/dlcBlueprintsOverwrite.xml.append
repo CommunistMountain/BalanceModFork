@@ -9,10 +9,63 @@
     <mod-append:aug name="SLUG_GEL_SLOW_CM"/>
 </mod:findComposite>
 
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE_3"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED_3"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY_3"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_ENERGY_3"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK_3"/>
+        <mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS_3"/>
+    </mod:par>
+    <mod:findLike type="aug">
+        <mod:removeTag/>
+    </mod:findLike>
+</mod:findComposite>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_3">
+    <mod:findLike type="systemList">
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="1"/>
+        </mod:findLike>
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="4"/>
+        </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="weaponList">
+        <mod:findLike type="weapon">
+            <mod:removeTag/>
+        </mod:findLike>
+        <mod-append:weapon name="ION_STUN"/>
+        <mod-append:weapon name="ION_STUN"/>
+        <mod-append:weapon name="ION_1"/>
+        <mod-append:weapon name="ION_1"/>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="8"/>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED_3">
     <mod:findLike type="systemList">
         <mod:findLike type="artillery">
             <mod:setAttributes power="4"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY_3">
+    <mod:findLike type="systemList">
+        <mod:findLike type="doors">
+            <mod:setAttributes power="1"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH_3">
+    <mod:findLike type="systemList">
+        <mod:findLike type="sensors">
+            <mod:setAttributes power="2" start="true"/>
         </mod:findLike>
     </mod:findLike>
 </mod:findName>
