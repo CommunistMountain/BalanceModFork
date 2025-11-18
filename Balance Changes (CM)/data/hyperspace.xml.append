@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findLike type="hackingDroneFix"/>
+        <mod:findLike type="repairDroneRecoveryFix"/>
+    </mod:par>
+    <mod:setAttributes enabled="true"/>
+</mod:findComposite>
+
 <mod:findLike type="scripts" limit="1">
     <mod-append:script>data/balance_changes_cm_scripts/all.lua</mod-append:script>
+</mod:findLike>
+
+<mod:findLike type="ships" limit="1">
+    <mod-append:customShip>
+        <hiddenAug>BATTERY_BOOSTER</hiddenAug>
+        <hiddenAug>BOARDER_RECOVERY</hiddenAug>
+    </mod-append:customShip>
 </mod:findLike>
 
 <mod:findLike type="augments" limit="1">

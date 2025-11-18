@@ -1,11 +1,6 @@
 # Balance Changes (CM)
 <ol>
     <li>TODO change text for everything in readme_new that needs it</li>
-    <li>SYSTEMS:</li>
-    <ol>
-        <li>Backup Battery: Now includes the effects of Battery Charger.</li>
-        <li>Hacking: Cost of deploying hacking drone from 1 to 2. Drone will explode if the system is depowered while the drone is mid-flight. (TODO only do for player. See https://github.com/FTL-Hyperspace/FTL-Hyperspace/wiki/Lua-Hyperspace-Module hacking int spenddrone)</li>
-    </ol>
     <li>WEAPONS:</li>
     <ol>
         <li>Enemy Artemis: Renamed to "Artemis-". (TODO: add to missile lists if it's not in them.)</li>
@@ -13,12 +8,6 @@
         <li>Heavy Crystal 2: Rarity from 5 to 4 (TODO need to set in Sector Data)</li>
         <li>Repair Burst: Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100% (though if it's a room with open external doors, it will become instantly vacuum again). (TODO: test if all these features work. Also check that o2 works against auto and lanius)</li>
         <li>Glaive Beam: Its damage is equal to the number of charges. (todo fix the targeting bug)</li>
-    </ol>
-    <li>DRONES:</li>
-    <ol>
-        <li>Hull Repair Drone: Drone Recovery Arm no longer retrieves it if you jump while it is repairing.</li>
-        <li>Boarding Drone: 1 drone part will be retrieved at the end of combat if it is not destroyed. (todo BOARDER_RECOVERY for all ships.) (TODO 2 test if it retrieves at the end of fight (correct) or when jumping (wrong))</li>
-        <li>Ion Intruder Drone: 1 drone part will be retrieved at the end of combat if it is not destroyed.</li>
     </ol>
     <li>AUGMENTS:</li>
     <ol>
@@ -59,10 +48,6 @@
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
             <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 83% of Human to 50% of Human.</li>
         </ol>
-        <li>These augments are now stackable. Stack effects will be mentioned if any, and if not, simply means they will not be immediately converted into 25 scrap when you get a duplicate.</li>
-        <ol>
-            <li>Hacking Stun (todo ensure drone part reduction doesn't go below 1 when implementing my change)</li>
-        </ol>
         <li>Added Advanced FTL Navigation 2 to stores and random rewards (TODO add to augment lists if needed) (TODO 2 add this to ESCORT_BEACON blue option like Adv FTL Nav 1)</li>
         <ol>
             <li>NOTE: If you also have Advanced FTL Navigation, it will NOT take the distance between your destination and the nearest visited beacon from that destination. You will need to manually jump to the visted beacon nearest to the destination first.</li>
@@ -71,7 +56,6 @@
         <li>Damaged Stasis Pod: Cost from 30 to 0 (and thus sells for 0).</li>
         <li>Distraction Buoys: Cost from 55 to 40.</li>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40. (TODO add to augment lists if needed)</li>
-        <li>Hacking Stun: Now also sets the cost of deploying Hacking drone from 2 back to 1.</li>
         <li>Lifeform Scanner: Rarity from 3 to 1. Cost from 40 to 20.</li>
         <li>Long-Ranged Scanners: Rarity from 1 to 3.</li>
         <li>Repair Arm: Scrap penalty from -15% to -5%.</li>

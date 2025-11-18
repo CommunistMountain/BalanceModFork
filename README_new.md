@@ -22,7 +22,7 @@
         <li>Pilot: Level 2 cost from 20 to 35.</li>
         <li>Oxygen: Level 3 cost from 50 to 30.</li>
         <li>Engines: Level 4/5/6/7/8 cost from 30/40/60/80/120 to 55/25/20/20/35.</li>
-        <li>Hacking: Cost of deploying hacking drone from 1 to 2 (for the player only). Drone will explode if the system is depowered while the drone is mid-flight. (TODO ensure cost increase works for enemies? try editing power tag in dlcBlueprints.xml DRONE_HACKING. Or see https://github.com/FTL-Hyperspace/FTL-Hyperspace/wiki/Lua-Hyperspace-Module hacking int spenddrone)</li>
+        <li>Hacking: Cost of deploying hacking drone from 1 to 2 drone parts, for the player only (due to limitations in implementation, you can still try to deploy the hacking drone at 1 drone part, but the drone will immediately explode, and no drone parts will be consumed). Drone will explode if the system is depowered while the drone is mid-flight.</li>
         <li>Artillery: Level 2/3/4 cost from 30/50/80 to 15/25/50.</li>
     </ol>
     <li>WEAPONS:</li>
@@ -142,7 +142,7 @@
             <li>Distraction Buoys: Fleet delay stacks (the message will still say the Fleet is delayed by 1 jump, but it will be delayed by the number of Buoys you have).</li>
             <li>Drone Recovery Arm</li>
             <li>Engi Med-bot Dispersal: Heal stacks.</li>
-            <li>Hacking Stun (todo ensure drone part reduction doesn't go below 1 when implementing my change)</li>
+            <li>Hacking Stun</li>
             <li>Lifeform Scanner</li>
             <li>Long-Ranged Scanners</li>
             <li>Stealth Weapons</li>
@@ -157,7 +157,7 @@
         <li>Damaged Stasis Pod: Cost from 30 to 0 (sell price from 15 to 0).</li>
         <li>Distraction Buoys: Cost from 55 to 40.</li>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40. (TODO add to augment lists if needed)</li>
-        <li>Hacking Stun: Now also sets the cost of deploying Hacking drone from 2 back to 1.</li>
+        <li>Hacking Stun: Now also sets the cost of deploying Hacking drone from 2 drone parts back to 1.</li>
         <li>Lifeform Scanner: Rarity from 3 to 1. Cost from 40 to 20.</li>
         <li>Long-Ranged Scanners: Rarity from 1 to 3.</li>
         <li>Repair Arm: Scrap penalty from -15% to -5%.</li>
