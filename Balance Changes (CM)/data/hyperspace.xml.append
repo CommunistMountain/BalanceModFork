@@ -73,6 +73,28 @@
     </mod:findComposite>
 </mod:findLike>
 
+<mod:findLike type="events" limit="1">
+    <mod-append:req name="MULTIREQ_COMBAT_FIRE" type="all" lvl="1">
+        <req lvl="1">
+            <name>COMBAT_FIRE</name>
+        </req>
+        <req lvl="1">
+            <name>drones</name>
+        </req>
+    </mod-append:req>
+    <mod-append:req name="ANYREQ_FIRE" type="any" lvl="1">
+        <req lvl="1">
+            <name>MULTIREQ_COMBAT_FIRE</name>
+        </req>
+        <req lvl="1">
+            <name>BEAM_FIRE</name>
+        </req>
+        <req lvl="1">
+            <name>BOMB_FIRE</name>
+        </req>
+    </mod-append:req>
+</mod:findLike>
+
 <mod:findLike type="store" limit="1">
     <mod:findLike type="freeDrones">
         <mod-append:BOARDER/>

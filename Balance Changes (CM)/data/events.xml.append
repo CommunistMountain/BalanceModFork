@@ -74,6 +74,13 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findName type="event" name="QUEST_CREWDEAD_START_2">
+    <mod:findLike type="choice">
+    <mod:selector req="BOMB_FIRE"/>
+        <mod:setAttributes req="ANYREQ_FIRE"/>
+    </mod:findLike>
+</mod:findName>
+
 <event name="STASIS_POD_VANILLA_CM">
     <text id="event_ASTEROID_DERELICT_SHIP_ROCK_1_c1_c2_c1_text"/>
     <augment name="STASIS_POD"/>
