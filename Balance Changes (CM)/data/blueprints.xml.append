@@ -487,6 +487,14 @@
     </mod:findLike>
 </mod:findName>
 
+<augBlueprint name="FTL_JUMPER_CM">
+	<title id="aug_FTL_JUMPER_title"/>
+	<desc id="aug_FTL_JUMPER_desc"/>
+	<cost>50</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
 <mod:findComposite>
     <mod:par op="OR">
         <mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS"/>

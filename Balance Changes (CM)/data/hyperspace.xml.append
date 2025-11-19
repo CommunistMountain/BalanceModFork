@@ -18,9 +18,42 @@
         <hiddenAug>BATTERY_BOOSTER</hiddenAug>
         <hiddenAug>BOARDER_RECOVERY</hiddenAug>
     </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_HARD">
+        <hiddenAug>FTL_JUMPER_CM</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_HARD_2">
+        <hiddenAug>FTL_JUMPER_CM</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_HARD_3">
+        <hiddenAug>FTL_JUMPER_CM</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_CIRCLE">
+        <hiddenAug>DRONE_SPEED</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_CIRCLE_2">
+        <hiddenAug>DRONE_SPEED</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_CIRCLE_3">
+        <hiddenAug>DRONE_SPEED</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_FED">
+        <systemLimit>9</systemLimit>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_FED_2">
+        <systemLimit>9</systemLimit>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_FED_3">
+        <systemLimit>9</systemLimit>
+    </mod-append:customShip>
 </mod:findLike>
 
 <mod:findLike type="augments" limit="1">
+    <mod-append:aug name="FTL_JUMPER_CM">
+        <function name="FTL_BOOSTER"/>
+        <function name="FTL_JAMMER" warning="false"/>
+        <function name="FTL_JUMPER" warning="false"/>
+    </mod-append:aug>
+    
     <mod-append:aug name="SLUG_GEL_SLOW_CM">
         <function name="SLUG_GEL" value="0.083"/>
     </mod-append:aug>

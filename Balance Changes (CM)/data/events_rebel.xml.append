@@ -16,5 +16,6 @@
     <mod:findLike type="modifyPursuit">
         <mod:setAttributes amount="-1"/>
     </mod:findLike>
+    <mod-append:augment name="FTL_JUMPER_CM"/>
 </mod:findName>
 </FTL>

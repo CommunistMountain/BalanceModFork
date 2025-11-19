@@ -11,6 +11,16 @@
 
 <mod:findComposite>
     <mod:par op="OR">
+        <mod:findName type="shipBlueprint" name="CIRCLE_SCOUT_DLC"/>
+        <mod:findName type="shipBlueprint" name="CIRCLE_BOMBER_DLC"/>
+    </mod:par>
+    <mod:findLike type="aug">
+        <mod:setAttributes name="DRONE_SPEED"/>
+    </mod:findLike>
+</mod:findComposite>
+
+<mod:findComposite>
+    <mod:par op="OR">
         <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE_3"/>
         <mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED_3"/>
         <mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY_3"/>
