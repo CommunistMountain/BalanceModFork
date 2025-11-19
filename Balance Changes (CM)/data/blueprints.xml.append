@@ -19,6 +19,15 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findName type="systemBlueprint" name="shields">
+    <mod:findLike type="upgradeCost">
+        <mod:findLike type="level">
+        <mod:selector>100</mod:selector>
+            <mod:setValue>120</mod:setValue>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findName type="systemBlueprint" name="artillery">
     <mod:findLike type="upgradeCost">
         <mod:findLike type="level">
@@ -475,6 +484,9 @@
         <mod:findLike type="engines">
             <mod:setAttributes power="3"/>
         </mod:findLike>
+        <mod:findLike type="shields">
+            <mod:setAttributes power="1" start="true"/>
+        </mod:findLike>
         <mod:findLike type="weapons">
             <mod:setAttributes power="3"/>
         </mod:findLike>
@@ -487,9 +499,8 @@
         <mod:findLike type="weapon">
             <mod:removeTag/>
         </mod:findLike>
-        <mod-append:weapon name="LASER_BURST_1"/>
-        <mod-append:weapon name="LASER_BURST_1"/>
         <mod-append:weapon name="BEAM_1"/>
+        <mod-append:weapon name="LASER_BURST_1"/>
     </mod:findLike>
     <mod:findLike type="aug">
     <mod:selector name="SYSTEM_CASING"/>
@@ -501,6 +512,9 @@
     <mod:findLike type="systemList">
         <mod:findLike type="engines">
             <mod:setAttributes power="3"/>
+        </mod:findLike>
+        <mod:findLike type="shields">
+            <mod:setAttributes power="1" start="true"/>
         </mod:findLike>
     </mod:findLike>
     <mod:findLike type="weaponSlots">
@@ -596,11 +610,6 @@
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_ENERGY_2">
-    <mod:findLike type="systemList">
-        <mod:findLike type="shields">
-            <mod:setAttributes power="2" start="false"/>
-        </mod:findLike>
-    </mod:findLike>
     <mod-append:aug name="ADV_SCANNERS"/>
 </mod:findName>
 
