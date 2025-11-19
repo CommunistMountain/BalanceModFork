@@ -28,13 +28,13 @@
         <hiddenAug>FTL_JUMPER_CM</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_CIRCLE">
-        <hiddenAug>DRONE_SPEED</hiddenAug>
+        <hiddenAug>DRONE_SPEED_CM</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_CIRCLE_2">
-        <hiddenAug>DRONE_SPEED</hiddenAug>
+        <hiddenAug>DRONE_SPEED_CM</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_CIRCLE_3">
-        <hiddenAug>DRONE_SPEED</hiddenAug>
+        <hiddenAug>DRONE_SPEED_CM</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_FED">
         <systemLimit>9</systemLimit>
@@ -53,7 +53,40 @@
         <function name="FTL_JAMMER" warning="false"/>
         <function name="FTL_JUMPER" warning="false"/>
     </mod-append:aug>
-    
+    <mod-append:aug name="DRONE_SPEED_CM">
+        <function name="DRONE_SPEED" value="1" warning="false"/>
+        <statBoosts>
+            <statBoost name="healSpeed">
+                <boostType>SET</boostType>
+                <shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+                <droneTarget>DRONES</droneTarget>
+                <amount>0.75</amount>
+                <whiteList>
+                    <battle/>
+                    <boarder/>
+                    <boarder_ion/>
+                    <repair/>
+                </whiteList>
+            </statBoost>
+            <statBoost name="truePassiveHealAmount">
+                <boostType>FLAT</boostType>
+                <shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+                <droneTarget>DRONES</droneTarget>
+                <amount>1.6</amount>
+                <systemPowerDependency>
+                    <drones/>
+                </systemPowerDependency>
+                <whiteList>
+                    <battle/>
+                    <boarder/>
+                    <boarder_ion/>
+                    <repair/>
+                </whiteList>
+            </statBoost>
+        </statBoosts>
+    </mod-append:aug>
     <mod-append:aug name="SLUG_GEL_SLOW_CM">
         <function name="SLUG_GEL" value="0.083"/>
     </mod-append:aug>

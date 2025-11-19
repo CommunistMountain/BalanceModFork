@@ -15,7 +15,7 @@
         <mod:findName type="shipBlueprint" name="CIRCLE_BOMBER"/>
     </mod:par>
     <mod:findLike type="aug">
-        <mod:setAttributes name="DRONE_SPEED"/>
+        <mod:setAttributes name="DRONE_SPEED_CM"/>
     </mod:findLike>
 </mod:findComposite>
 </FTL>
