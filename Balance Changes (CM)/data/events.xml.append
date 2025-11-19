@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
-<!--START ANCIENT DEVICE WIP-->
 <event name="EMPTY_CM"/>
+
+<mod:findName type="event" name="ROCK_CRYSTAL_BEACON">
+    <mod-append:revisitEvent>ROCK_CRYSTAL_BEACON</mod-append:revisitEvent>
+</mod:findName>
 
 <mod:findName type="eventList" name="ROCK_CRYSTAL_BEACON_LIST">
     <mod:findLike type="event">
         <mod-append:renameBeacon>EMPTY_CM</mod-append:renameBeacon>
     </mod:findLike>
 </mod:findName>
-<!--END ANCIENT DEVICE WIP-->
 
 <mod:findName type="event" name="CREW_STUCK">
 	<mod-append:item_modify steal="true">

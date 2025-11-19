@@ -130,6 +130,18 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findName type="weaponBlueprint" name="CRYSTAL_1">
+    <mod:findLike type="damage">
+        <mod:setValue>0</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="breachChance">
+        <mod:setValue>10</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="stunChance">
+        <mod:setValue>10</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findName type="weaponBlueprint" name="MISSILES_2">
     <mod:findLike type="rarity">
         <mod:setValue>2</mod:setValue>
@@ -411,6 +423,12 @@
         <mod:setValue>0</mod:setValue>
     </mod:findLike>
 </mod:findComposite>
+
+<mod:findName type="augBlueprint" name="CRYSTAL_SHARDS">
+    <mod:findLike type="value">
+        <mod:setValue>1</mod:setValue>
+    </mod:findLike>
+</mod:findName>
 
 <mod:findName type="augBlueprint" name="NANO_MEDBAY">
     <mod:findLike type="cost">
