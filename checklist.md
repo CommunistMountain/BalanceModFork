@@ -45,23 +45,12 @@
             <li>All hidden augments now cost 50 (and thus sell for 25 if obtained from an event).</li>
             <li>Crystal Vengeance: fires 2 projectiles instead of 1 (todo test), breach chance from 10% to 100%.</li>
             <li>Drone Reactor Booster: Crew drone speed boost from +25% to +100%, and also gives +20% damage. Combat drones and defense drones shoot 20% faster. (TODO see if it can be applied to all drones, or just a subset. Reference slow's INS+ DRB)</li>
-            <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
-            <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 83% of Human to 50% of Human.</li>
         </ol>
         <li>Added Advanced FTL Navigation 2 to stores and random rewards (TODO add to augment lists if needed) (TODO 2 add this to ESCORT_BEACON blue option like Adv FTL Nav 1)</li>
         <ol>
             <li>NOTE: If you also have Advanced FTL Navigation, it will NOT take the distance between your destination and the nearest visited beacon from that destination. You will need to manually jump to the visted beacon nearest to the destination first.</li>
         </ol>
-        <li>Automated Reloader: Rarity from 2 to 4, cost from 40 to 60.</li>
-        <li>Damaged Stasis Pod: Cost from 30 to 0 (and thus sells for 0).</li>
-        <li>Distraction Buoys: Cost from 55 to 40.</li>
-        <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40. (TODO add to augment lists if needed)</li>
-        <li>Lifeform Scanner: Rarity from 3 to 1. Cost from 40 to 20.</li>
-        <li>Long-Ranged Scanners: Rarity from 1 to 3.</li>
-        <li>Repair Arm: Scrap penalty from -15% to -5%.</li>
-        <li>Reverse Ion Field: Effect chance from 50% to 100%.</li>
-        <li>Scrap Recovery Arm: Rarity from 1 to 3. Scrap bonus from +10% to +15%.</li>
-        <li>Zoltan Shield Bypass: Rarity from 3 to 1. Cost from 55 to 40.</li>
+        <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. (TODO add to augment lists if needed)</li>
     </ol>
     <li>PLAYER SHIPS (other than augment changes above):</li>
     <ol>
@@ -69,12 +58,14 @@
     </ol>
     <li>NPC SHIPS:</li>
     <ol>
-        <li>Engi NPC ships: May now spawn with Anti-Personnel Drones.</li>
+        <li>Engi ships: May now spawn with Anti-Personnel Drones.</li>
         <li>Mantis Fighter and Mantis Interceptor (and pirate versions): Medical systems are now optional instead of guaranteed.</li>
         <li>Slug Interceptor and Slug Scout: Added doors connecting Oxygen and Engines.</li>
+        <li>Rock ships: May now spawn with Fire Bombs.</li>
         <li>Rock Assault (Elite): Crew range from 4 to 5.</li>
         <li>Auto-ships: Removed doors.</li>
         <li>Auto-scout and Auto-surveyor: Shields are now guaranteed.</li>
+        <li>Flagship (AE versions): Medbay level from 3 to 2, added level 1 Clone Bay in the room to the right of Medbay.</li>
         <li>Flagship (Hard version): In Phase 1, there are extra rooms between each side's 2 Artilleries, connecting all of them, and no room between laser/missile Artilleries and Shields. In Phase 2, the left extra room will be destroyed, but a new room will appear between laser Artillery and Shields. Likewise for the right extra room in Phase 3, so Phase 3 has vanilla Hard's layout.</li>
     </ol>
     <li>EVENTS:</li>

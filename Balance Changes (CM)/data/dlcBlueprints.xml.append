@@ -27,6 +27,42 @@
     </mod:findLike>
 </mod:findComposite>
 
+<mod:findName type="augBlueprint" name="EXPLOSIVE_REPLICATOR">
+    <mod:findLike type="value">
+        <mod:setValue>0.2</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="FIRE_EXTINGUISHERS">
+    <mod:findLike type="value">
+        <mod:setValue>0.6</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="FLEET_DISTRACTION">
+    <mod:findLike type="cost">
+        <mod:setValue>40</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="LIFE_SCANNER">
+    <mod:findLike type="cost">
+        <mod:setValue>20</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="rarity">
+        <mod:setValue>1</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="ZOLTAN_BYPASS">
+    <mod:findLike type="cost">
+        <mod:setValue>40</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="rarity">
+        <mod:setValue>1</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findName type="systemBlueprint" name="battery">
     <mod:findLike type="cost">
         <mod:setValue>50</mod:setValue>

@@ -38,7 +38,7 @@
         <li>Dual Lasers: Cost from 25 to 60 (sell price from 12 to 30).</li>
         <li>Burst Laser 1: Rarity from 1 to 3.</li>
         <li>Burst Laser 3: Rarity from 4 to 2, cost from 95 to 70, projectiles from 5 to 6, fire chance from 0% to 10%.</li>
-        <li>Heavy Laser 1: Rarity from 2 to 4.</li>
+        <li>Heavy Laser 1: Rarity from 2 to 4, cooldown from 9s to 11s.</li>
         <li>Hull Laser 1: Rarity from 2 to 3, cooldown from 14s to 15s, projectile speed from 75 to 90, fire chance from 0% to 10%, breach chance from 20% to 18%.</li>
         <li>Chain Vulcan: Rarity from 5 to 3, cost from 95 to 80. Starting cooldown from 11.1s to 8.5s, cooldown reduction per shot from -2s to -1.5s (time needed before final cooldown from 35.5s to 27.5s, final cooldown from 1.1s to 1s).</li>
         <li>Advanced Flak, Flak 1, Flak 2, Flak Artillery: removed fake projectiles.</li>
@@ -194,16 +194,18 @@
     </ol>
     <li>NPC SHIPS:</li>
     <ol>
-        <li>Engi NPC ships: May now spawn with Anti-Personnel Drones.</li>
+        <li>Engi ships: May now spawn with Anti-Personnel Drones.</li>
         <li>Lanius Bomber: Crew range from 3-4 to 3.</li>
         <li>Mantis Fighter and Mantis Interceptor (and pirate versions): Medical systems are now optional instead of guaranteed.</li>
         <li>Slug Interceptor and Slug Scout: Added doors connecting Oxygen and Engines.</li>
+        <li>Rock ships: May now spawn with Fire Bombs.</li>
         <li>Rock Assault (Elite): Crew range from 4 to 5.</li>
         <li>Auto-ships: Removed doors.</li>
         <li>Auto-scout and Auto-surveyor: Shields are now guaranteed.</li>
         <li>Auto-ships, and Flagship when automated: Now have a weaker version of Slug Repair Gel, which fixes breaches at about 1/4 the rate of a Human.</li>
         <li>Flagship: Oxygen is disabled when it becomes automated. (TODO at start of P2 and P3 event (before automated popup) check if the crew is already dead. If so, instantly set the oxygen to 0 with LUA instead of waiting for oxygen to drain)</li>
         <li>Flagship (Non-AE Easy version): Shield layers from 3 to 4, reactor from 40/42/29 to 42/44/31 for each Phase.</li>
+        <li>Flagship (AE versions): Medbay level from 3 to 2, added level 1 Clone Bay in the room to the right of Medbay.</li>
         <li>Flagship (Hard version): In Phase 1, there are extra rooms between each side's 2 Artilleries, connecting all of them, and no room between laser/missile Artilleries and Shields. In Phase 2, the left extra room will be destroyed, but a new room will appear between laser Artillery and Shields. Likewise for the right extra room in Phase 3, so Phase 3 has vanilla Hard's layout.</li>
         <li>Flagship (Phase 3): supershield causes -2% evasion per layer (general change for all supershields).</li>
     </ol>

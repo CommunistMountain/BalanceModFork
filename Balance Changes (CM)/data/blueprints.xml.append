@@ -122,6 +122,9 @@
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="LASER_HEAVY_1">
+    <mod:findLike type="cooldown">
+        <mod:setValue>11</mod:setValue> 
+    </mod:findLike>
     <mod:findLike type="rarity">
         <mod:setValue>4</mod:setValue>
     </mod:findLike>
@@ -408,6 +411,57 @@
         <mod:setValue>0</mod:setValue>
     </mod:findLike>
 </mod:findComposite>
+
+<mod:findName type="augBlueprint" name="NANO_MEDBAY">
+    <mod:findLike type="cost">
+        <mod:setValue>40</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="rarity">
+        <mod:setValue>2</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="ION_ARMOR">
+    <mod:findLike type="value">
+        <mod:setValue>1</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="REPAIR_ARM">
+    <mod:findLike type="value">
+        <mod:setValue>0.05</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="SCRAP_COLLECTOR">
+    <mod:findLike type="rarity">
+        <mod:setValue>3</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="value">
+        <mod:setValue>0.15</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="ADV_SCANNERS">
+    <mod:findLike type="rarity">
+        <mod:setValue>3</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="AUTO_COOLDOWN">
+    <mod:findLike type="cost">
+        <mod:setValue>60</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="rarity">
+        <mod:setValue>4</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="STASIS_POD">
+    <mod:findLike type="cost">
+        <mod:setValue>0</mod:setValue>
+    </mod:findLike>
+</mod:findName>
 
 <mod:findName type="augBlueprint" name="FTL_JUMPER_GOOD">
     <mod:findLike type="rarity">
