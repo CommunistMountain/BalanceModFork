@@ -49,7 +49,7 @@ local numberImage = {
     y = -5
 }
 
-function initSpeedButtonsCMPleaseNoCopyPasteschniko(onInit)
+local function initSpeedButtons(onInit)
     if onInit then
         Hyperspace.FPS.speedEnabled = false
         slowButton.bActive = true
@@ -84,8 +84,8 @@ function initSpeedButtonsCMPleaseNoCopyPasteschniko(onInit)
         end
     end
 end
-script.on_game_event("START_BEACON", false, function() return initSpeedButtonsCMPleaseNoCopyPasteschniko(false) end)
-script.on_init(function() return initSpeedButtonsCMPleaseNoCopyPasteschniko(true) end)
+script.on_game_event("START_BEACON", false, function() return initSpeedButtons(false) end)
+script.on_init(function() return initSpeedButtons(true) end)
 
 script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function()
     if Hyperspace.metaVariables.speedui_setting == 1 then
@@ -154,7 +154,7 @@ script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function
     end
 end)
 
-function onClickSpeedButtonCMPleaseNoCopyPasteschniko(change)
+local function onClickSpeedButton(change)
     if Hyperspace.metaVariables.speedui_setting == 1 then
         if slowButton.bHover and slowButton.bActive then
             Hyperspace.metaVariables.speedui_speed = -2
@@ -194,5 +194,5 @@ function onClickSpeedButtonCMPleaseNoCopyPasteschniko(change)
     end
     return Defines.Chain.CONTINUE
 end
-script.on_internal_event(Defines.InternalEvents.ON_MOUSE_L_BUTTON_DOWN, function(x, y) return onClickSpeedButtonCMPleaseNoCopyPasteschniko(1) end)
-script.on_internal_event(Defines.InternalEvents.ON_MOUSE_R_BUTTON_DOWN, function(x, y) return onClickSpeedButtonCMPleaseNoCopyPasteschniko(5) end)
+script.on_internal_event(Defines.InternalEvents.ON_MOUSE_L_BUTTON_DOWN, function(x, y) return onClickSpeedButton(1) end)
+script.on_internal_event(Defines.InternalEvents.ON_MOUSE_R_BUTTON_DOWN, function(x, y) return onClickSpeedButton(5) end)
