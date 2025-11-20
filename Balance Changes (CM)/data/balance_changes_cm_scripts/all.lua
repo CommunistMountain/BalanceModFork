@@ -1,4 +1,5 @@
 local lastSector = 0
+local getLastSector = false
 
 script.on_game_event("BOSS_AUTOMATED", false, function()
     local enemyShipManager = Hyperspace.Global.GetInstance():GetShipManager(1)
@@ -12,8 +13,7 @@ script.on_game_event("BOSS_AUTOMATED", false, function()
 end)
 
 script.on_init(function()
-    local starMap = Hyperspace.Global.GetInstance():GetCApp().world.starMap
-    lastSector = starMap.currentSector.level
+    getLastSector = true
 end)
 
 script.on_internal_event(Defines.InternalEvents.GET_DODGE_FACTOR, function(shipManager, value)
@@ -42,6 +42,14 @@ script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projec
 end)
 
 script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
+    if getLastSector then
+        local currentSector = Hyperspace.Global.GetInstance():GetCApp().world.starMap.currentSector
+        if currentSector ~= nil then
+            lastSector = currentSector.level
+            getLastSector = false
+        end
+    end
+    
     if shipManager:HasAugmentation("SLUG_GEL") > 0 then
         if shipManager:HasSystem(7) then
             local sensors = shipManager:GetSystem(7)
