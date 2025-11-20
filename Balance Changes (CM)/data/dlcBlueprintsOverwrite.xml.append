@@ -21,6 +21,14 @@
 
 <mod:findComposite>
     <mod:par op="OR">
+        <mod:findName type="shipBlueprint" name="CRYSTAL_SCOUT_DLC"/>
+        <mod:findName type="shipBlueprint" name="CRYSTAL_BOMBER_DLC"/>
+    </mod:par>
+    <mod-append:aug name="CRYSTAL_SHARDS"/>
+</mod:findComposite>
+
+<mod:findComposite>
+    <mod:par op="OR">
         <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE_3"/>
         <mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED_3"/>
         <mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY_3"/>

@@ -18,4 +18,12 @@
         <mod:setAttributes name="DRONE_SPEED_CM"/>
     </mod:findLike>
 </mod:findComposite>
+
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="shipBlueprint" name="CRYSTAL_SCOUT"/>
+        <mod:findName type="shipBlueprint" name="CRYSTAL_BOMBER"/>
+    </mod:par>
+    <mod-append:aug name="CRYSTAL_SHARDS"/>
+</mod:findComposite>
 </FTL>

@@ -46,6 +46,45 @@
     <mod-append:customShip name="PLAYER_SHIP_FED_3">
         <systemLimit>9</systemLimit>
     </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_ENERGY">
+        <hiddenAug>ENERGY_SHIELD</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_ENERGY_2">
+        <hiddenAug>ENERGY_SHIELD</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_ENERGY_3">
+        <hiddenAug>ENERGY_SHIELD</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_JELLY">
+        <hiddenAug>SLUG_GEL</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_JELLY_2">
+        <hiddenAug>SLUG_GEL</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_JELLY_3">
+        <hiddenAug>SLUG_GEL</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_STEALTH">
+        <hiddenAug>SYSTEM_CASING</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_STEALTH_2">
+        <hiddenAug>SYSTEM_CASING</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_STEALTH_3">
+        <hiddenAug>SYSTEM_CASING</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_CRYSTAL">
+        <hiddenAug>CRYSTAL_SHARDS</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_CRYSTAL_2">
+        <hiddenAug>CRYSTAL_SHARDS</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_ANAEROBIC">
+        <hiddenAug>TELEPORT_HEAL</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_ANAEROBIC_2">
+        <hiddenAug>TELEPORT_HEAL</hiddenAug>
+    </mod-append:customShip>
 </mod:findLike>
 
 <mod:findLike type="augments" limit="1">

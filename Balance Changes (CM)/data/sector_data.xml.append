@@ -95,6 +95,11 @@
 </mod:findComposite>
 
 <mod:findName type="sectorDescription" name="CRYSTAL_HOME">
+    <mod:findLike type="rarityList">
+        <mod:findName type="blueprint" name="CRYSTAL_HEAVY_2">
+            <mod:setAttributes rarity="4"/>
+        </mod:findName>
+    </mod:findLike>
     <mod:findName type="event" name="STORE_CRYSTAL">
         <mod:setAttributes max="2"/>
     </mod:findName>

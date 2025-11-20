@@ -273,6 +273,16 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="shipBlueprint" name="ANAEROBIC_SCOUT"/>
+        <mod:findName type="shipBlueprint" name="ANAEROBIC_BOMBER"/>
+    </mod:par>
+    <mod:findLike type="aug">
+        <mod:setAttributes name="TELEPORT_HEAL"/>
+    </mod:findLike>
+</mod:findComposite>
+
 <mod:findName type="shipBlueprint" name="ANAEROBIC_BOMBER">
     <mod:findLike type="crewCount">
         <mod:setAttributes max="4"/>

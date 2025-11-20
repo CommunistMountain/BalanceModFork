@@ -4,7 +4,6 @@
     <li>WEAPONS:</li>
     <ol>
         <li>Flak Artillery: shield piercing from 0 to 5, damage from 1 to 0, now heals your crew by 150 per projectile. (TODO check if it's enough that it hits a room, or it needs to hit the tile to work. If the former, heal can afford to be less) (TODO 2 find out how to apply heal, maybe need LUA, and remove persDamage since it doesnt work)</li>
-        <li>Heavy Crystal 2: Rarity from 5 to 4 (TODO need to set in Sector Data)</li>
         <li>Repair Burst: Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100% (though if it's a room with open external doors, it will become instantly vacuum again). (TODO: test if all these features work. Also check that o2 works against auto and lanius)</li>
         <li>Glaive Beam: Its damage is equal to the number of charges. (todo fix the targeting bug)</li>
     </ol>
@@ -12,24 +11,13 @@
     <ol>
         <li>Almost all ship types now have hidden augments (don't take up slots, but are unsellable) that are now unavailable in stores and random rewards, but can be obtained from events. All other augments are removed from ships, except Long-Ranged Scanners. The consequences of these changes are listed under subpoints:</li>
         <ol>
-            <li>Zoltan Cruisers: Zoltan Shield is now hidden.</li>
             <li>Mantis Cruisers: Mantis Pheromones is now hidden. Mantis Pheromones now includes the effects of Fire Suppression.</li>
             <ol>
                 <li>Mantis NPC ships now have the effects of Fire Suppression.</li>
             </ol>
-            <li>Slug Cruisers: Slug Repair Gel is now hidden.</li>
             <li>Rock Cruisers: Rock Plating is now hidden. Rock Plating now includes the effects of Explosive Replicator.</li>
             <ol>
                 <li>Rock NPC ships now have the effects of Explosive Replicator. (TODO test if NPC can use it)</li>
-            </ol>
-            <li>Stealth A: Titanium System Casing is now hidden. Stealth B, Stealth C: added hidden Titanium System Casing.</li>
-            <li>Crystal Cruisers: Crystal Vengeance is now hidden.</li>
-            <ol>
-                <li>Crystal NPC ships now have Crystal Vengeance.</li>
-            </ol>
-            <li>Lanius Cruisers: added hidden Reconstructive Teleport</li>
-            <ol>
-                <li>Lanius NPC ships now have Reconstructive Teleport.</li>
             </ol>
         </ol>
         <li>Changes for hidden augments:</li>
