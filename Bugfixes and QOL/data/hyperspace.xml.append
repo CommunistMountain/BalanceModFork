@@ -264,6 +264,7 @@
 </mod:findLike>
 
 <mod:findLike type="scripts" limit="1">
+    <mod-append:script>data/bugfixes_and_qol_scripts/all.lua</mod-append:script>
     <mod-append:script>data/bugfixes_and_qol_scripts/speedui.lua</mod-append:script>
 </mod:findLike>
 <!--End of Speed UI-->

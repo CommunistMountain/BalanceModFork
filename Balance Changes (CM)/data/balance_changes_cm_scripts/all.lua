@@ -1,5 +1,4 @@
 local lastSector = 0
-local useAnotherDronePart = false
 
 script.on_game_event("BOSS_AUTOMATED", false, function()
     local enemyShipManager = Hyperspace.Global.GetInstance():GetShipManager(1)
@@ -43,22 +42,6 @@ script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projec
 end)
 
 script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
-    if shipManager.iShipId == 0 then  -- if-block for all player-specific checks
-        if shipManager.hackingSystem ~= nil and shipManager:HasAugmentation("HACKING_STUN") <= 0 then
-            if shipManager.hackingSystem.spendDrone == 1 then
-                if shipManager:GetDroneCount() >= 2 then
-                    useAnotherDronePart = true
-                else
-                    shipManager.hackingSystem.spendDrone = 0
-                    shipManager.hackingSystem:BlowHackingDrone()
-                end
-            elseif useAnotherDronePart then
-                shipManager.hackingSystem.spendDrone = 1
-                useAnotherDronePart = false
-            end
-        end
-    end
-    
     if shipManager:HasAugmentation("SLUG_GEL") > 0 then
         if shipManager:HasSystem(7) then
             local sensors = shipManager:GetSystem(7)

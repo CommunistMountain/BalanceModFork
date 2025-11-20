@@ -22,6 +22,7 @@ Mod order:
     <li>Hull Missile: Now considered a missile weapon for events.</li>
     <li>Fire Drone: Now considered a combat drone for events.</li>
     <li>AE Weapons: No longer show up in Hidden Crystal Worlds stores.</li>
+    <li>Hacking: When you are at 1 drone part and target hacking at the enemy ship while paused, then deploy another drone, the hacking drone will blow up once you resume, preventing it from being used with 0 drone parts.</li>
     <li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
     <li>crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.</li>
     <li>defenseDroneFix: Defense drones no longer have a blind spot (doesn't work at the time of writing, hopefully it will be in the future)</li>

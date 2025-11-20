@@ -17,6 +17,7 @@
     <mod-append:customShip>
         <hiddenAug>BATTERY_BOOSTER</hiddenAug>
         <hiddenAug>BOARDER_RECOVERY</hiddenAug>
+        <hiddenAug>HACKING_USE_MORE_PARTS_CM</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_HARD">
         <hiddenAug>FTL_JUMPER_CM</hiddenAug>
@@ -90,6 +91,7 @@
     <mod-append:aug name="SLUG_GEL_SLOW_CM">
         <function name="SLUG_GEL" value="0.083"/>
     </mod-append:aug>
+    <mod-append:aug name="HACKING_USE_MORE_PARTS_CM"/>
 </mod:findLike>
 
 <mod:findLike type="rewards" limit="1">
