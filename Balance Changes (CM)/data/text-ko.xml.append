@@ -7,4 +7,7 @@
 <mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_text">
     <mod:setValue>"엄청나군요! 이 장치는 전송 도중에 손상된 신체를 재구성해주는 기능을 가지고 있습니다. 확인해보시죠." 그들은 동면 장치를 재가동하였고, 당신은 동면 장치 내부에 있던 크리스탈 덩어리가 인간의 형태로 재구성되는 모습을 보았습니다.</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="weapon_BEAM_3_short">
+    <mod:setValue>글레이브</mod:setValue> 
+</mod:findName>
 </FTL>

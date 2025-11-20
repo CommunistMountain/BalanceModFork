@@ -7,4 +7,7 @@
 <mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_text">
     <mod:setValue>"¡Increíble! Tiene la capacidad de reconstruir el cuerpo si este ha sufrido daños durante el tránsito. Observa". Reactivan la cápsula y observas cómo los pedazos de cristal del interior se recomponen para formar una estructura humanoide.</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="weapon_BEAM_3_short">
+    <mod:setValue>R archa</mod:setValue> 
+</mod:findName>
 </FTL>

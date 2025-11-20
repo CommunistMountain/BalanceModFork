@@ -1,6 +1,6 @@
 # Balance Changes (CM)
 <ol>
-    <li>REWARDS (TODO remember to edit the custom rewards.):</li>
+    <li>REWARDS:</li>
     <ol>
         <li>Scrap Curve: Hard mode base value changed from 15 in sectors 1 and 2, then +6 for each sector after 2, to 15 in sector 1, then +4 for each sector after 1. (Change: 0%/+26.67%/+9.52%/0%/-6.06%/-10.26%/-13.33%/-15.69%).</li>
         <li>Scrap: Low range from 50%-70% of base value to 50%-75%. Medium range from 80%-130% of base value to 75%-130%. (Change: Low +4.17%, Medium -2.38%, Random 0%)</li>
@@ -28,12 +28,12 @@
     </ol>
     <li>WEAPONS:</li>
     <ol>
-        <li>Enemy Artemis: Renamed to "Artemis-". Rarity from 0 to 2 (now available in stores and random rewards), costs 38. (TODO: add to missile lists if it's not in them.)</li>
+        <li>Artemis (enemy version): Rarity from 0 to 2 (now available in stores and random rewards), costs 38.</li>
         <li>Ion Blast 2: Cost from 70 to 60, power requirement from 3 to 2.</li>
         <li>Heavy Ion: Cooldown from 13s to 10s.</li>
         <li>Chain Ion: Cooldown from 14s to 8s.</li>
-        <li>Laser Charger: Fire chance from 0% to 10%.</li>
-        <li>Laser Charger (S): Cost from 30 to 60 (sell price from 15 to 30). Fire chance from 0% to 10%.</li>
+        <li>Laser Charger (both versions): Fire chance from 0% to 10%.</li>
+        <li>Laser Charger (player version): Cost from 30 to 60 (sell price from 15 to 30).</li>
         <li>Basic Laser: Cost from 20 to 30 (sell price from 10 to 15).</li>
         <li>Dual Lasers: Cost from 25 to 60 (sell price from 12 to 30).</li>
         <li>Burst Laser 1: Rarity from 1 to 3.</li>
@@ -41,7 +41,7 @@
         <li>Heavy Laser 1: Rarity from 2 to 4, cooldown from 9s to 11s.</li>
         <li>Hull Laser 1: Rarity from 2 to 3, cooldown from 14s to 15s, projectile speed from 75 to 90, fire chance from 0% to 10%, breach chance from 20% to 18%.</li>
         <li>Chain Vulcan: Rarity from 5 to 3, cost from 95 to 80. Starting cooldown from 11.1s to 8.5s, cooldown reduction per shot from -2s to -1.5s (time needed before final cooldown from 35.5s to 27.5s, final cooldown from 1.1s to 1s).</li>
-        <li>Advanced Flak, Flak 1, Flak 2, Flak Artillery: removed fake projectiles.</li>
+        <li>Flak weapons: removed fake projectiles.</li>
         <li>Advanced Flak: Cooldown from 8s to 5s, projectiles from 3 to 2.</li>
         <li>Flak 1: Rarity from 1 to 4, cost from 65 to 80.</li>
         <li>Flak 2: Cost from 80 to 70.</li>
@@ -53,7 +53,7 @@
         <li>Breach Missiles: Cost from 65 to 50, cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
         <li>Swarm Missiles: Projectile speed from 45 to 35, stun chance from 0% to 10%.</li>
         <li>Healing Burst: Rarity from 3 to 1, cooldown from 18s to 9s.</li>
-        <li>Repair Burst: Rarity from 3 to 1, cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100% (though if it's a room with open external doors, it will become instantly vacuum again). (TODO: test if all these features work. Also check that o2 works against auto and lanius)</li>
+        <li>Repair Burst: Rarity from 3 to 1, cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100% (though if it's a room with open external doors, it will become instantly vacuum again).</li>
         <li>Breach Bomb 1: Power requirement from 1 to 2, system damage from 1 to 2.</li>
         <li>Fire Bomb: System damage from 0 to 1 (now does damage to supershields because of this), crew damage from 30 to 15.</li>
         <li>Ion Bomb: Cooldown from 22s to 20s.</li>
@@ -63,7 +63,7 @@
         <li>Mini-Beam: Cost from 20 to 60 (sell price from 10 to 30). Fire chance from 10% to 0%.</li>
         <li>Hull Beam: Cooldown from 14s to 16s.</li>
         <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 80.</li>
-        <li>Glaive Beam: Rarity from 5 to 3, cost from 95 to 75, cooldown from 25s to 24s, split into 8s over 3 charges. Its damage is equal to the number of charges. (todo fix the targeting bug)</li>
+        <li>Glaive Beam: Rarity from 5 to 3, cost from 95 to 75, cooldown from 25s to 24s, split into 8s over 3 charges. Its damage is equal to the number of charges.</li>
         <li>Fire Beam: Cooldown from 20s to 18s, speed from 5 to 7, fire chance from 80% to 90%.</li>
         <li>Anti-Bio Beam: Rarity from 5 to 4.</li>
     </ol>
@@ -79,12 +79,11 @@
         <li>Hull Repair Drone: Cost from 85 to 40. Power requirement from 2 to 1. Drone Recovery Arm no longer retrieves it if you jump while it is repairing.</li>
         <li>System Repair Drone: Cost from 30 to 20.</li>
         <li>Anti-Personnel Drone: Power requirement from 2 to 1.</li>
-        <li>Boarding Drone: Rarity from 4 to 2, cost from 70 to 30. 1 drone part will be retrieved at the end of combat if it is not destroyed. (todo BOARDER_RECOVERY for all ships. TODO 2 test if it retrieves at the end of fight (correct) or when jumping (wrong))</li>
+        <li>Boarding Drone: Rarity from 4 to 2, cost from 70 to 30. 1 drone part will be retrieved at the end of combat if it is not destroyed.</li>
         <li>Ion Intruder Drone: Rarity from 4 to 2, cost from 65 to 40. 1 drone part will be retrieved at the end of combat if it is not destroyed.</li>
     </ol>
     <li>AUGMENTS:</li>
     <ol>
-        <li>(TODO for all new rarity 0 augments, check that they are not present in any augment list, or if they are, check that it's OK to leave them there. If not, DELETE.)</li>
         <li>Almost all ship types now have hidden augments (don't take up slots, but are unsellable) that are now unavailable in stores and random rewards, but can be obtained from events. All other augments are removed from ships, except Long-Ranged Scanners. The consequences of these changes are listed under subpoints:</li>
         <ol>
             <li>Kestrel Cruisers: added hidden Advanced FTL Navigation (which now includes the effects of FTL Jammer and FTL Recharge Booster).</li>
@@ -112,7 +111,7 @@
             <li>Slug Cruisers: Slug Repair Gel is now hidden.</li>
             <li>Rock Cruisers: Rock Plating is now hidden. Rock Plating now includes the effects of Explosive Replicator.</li>
             <ol>
-                <li>Rock NPC ships now have the effects of Explosive Replicator. (TODO test if NPC can use it)</li>
+                <li>Rock NPC ships now have the effects of Explosive Replicator.</li>
                 <li>Explosive Replicator: rarity from 3 to 0.</li>
             </ol>
             <li>Stealth A: Titanium System Casing is now hidden. Stealth B, Stealth C: added hidden Titanium System Casing.</li>
@@ -150,11 +149,11 @@
             <li>Weapon Pre-Igniter</li>
             <li>Zoltan Shield Bypass</li>
         </ol>
-        <li>Added Advanced FTL Navigation 2 to stores and random rewards, which allows you to jump to any beacon, by spending fuel equal to the shortest number of jumps from your location to that beacon. Rarity 3, cost 30. Stackable, but having multiple does not change it's effect. (TODO add to augment lists if needed) (TODO 2 add this to ESCORT_BEACON blue option like Adv FTL Nav 1)</li>
+        <li>Added Advanced FTL Navigation 2 to stores and random rewards, which allows you to jump to any beacon, by spending fuel equal to the shortest number of jumps from your location to that beacon. Rarity 3, cost 30. Stackable, but having multiple does not change it's effect.</li>
         <li>Automated Reloader: Rarity from 2 to 4, cost from 40 to 60.</li>
         <li>Damaged Stasis Pod: Cost from 30 to 0 (sell price from 15 to 0).</li>
         <li>Distraction Buoys: Cost from 55 to 40.</li>
-        <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40. (TODO add to augment lists if needed)</li>
+        <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40.</li>
         <li>Hacking Stun: Now also sets the cost of deploying Hacking drone from 2 drone parts back to 1.</li>
         <li>Lifeform Scanner: Rarity from 3 to 1. Cost from 40 to 20.</li>
         <li>Long-Ranged Scanners: Rarity from 1 to 3.</li>
@@ -179,7 +178,7 @@
         <li>Mantis B: Engines level from 1 to 2. Medbay level from 1 to 2. Reactor 11 to 9.</li>
         <li>Slug Cruisers: Doors level from 2 to 1.</li>
         <li>Slug B: Reactor from 7 to 8.</li>
-        <li>Rock B: Added an external door to the Backup Battery room. (TODO remember to change floor image) Oxygen level from 2 to 1. Reactor from 8 to 7.</li>
+        <li>Rock B: Added an external door to the Backup Battery room. Oxygen level from 2 to 1. Reactor from 8 to 7.</li>
         <li>Stealth Cruisers: Added level 1 Shields.</li>
         <li>Stealth A: Engines level from 4 to 3, Weapon Control from level 2 to 3, weapon slots from 3 to 4. Weapons from 1 Mini-Beam and 1 Dual Lasers to 1 Mini-Beam and 1 Basic Laser.</li>
         <li>Stealth B: Weapon slots from 3 to 4. Engines level from 2 to 3. Reactor from 7 to 9.</li>
@@ -200,14 +199,14 @@
         <li>Auto-ships: Removed doors.</li>
         <li>Auto-scout and Auto-surveyor: Shields are now guaranteed.</li>
         <li>Auto-ships, and Flagship when automated: Now have a weaker version of Slug Repair Gel, which fixes breaches at about 1/4 the rate of a Human.</li>
-        <li>Flagship: Oxygen is disabled when it becomes automated. (TODO at start of P2 and P3 event (before automated popup) check if the crew is already dead. If so, instantly set the oxygen to 0 with LUA instead of waiting for oxygen to drain)</li>
+        <li>Flagship: Oxygen is instantly drained and disabled when it becomes automated.</li>
         <li>Flagship (Non-AE Easy version): Shield layers from 3 to 4, reactor from 40/42/29 to 42/44/31 for each Phase.</li>
         <li>Flagship (AE versions): Medbay level from 3 to 2, added level 1 Clone Bay in the room to the right of Medbay.</li>
         <li>Flagship (Hard version): In Phase 1, there are extra rooms between each side's 2 Artilleries, connecting all of them, and no room between laser/missile Artilleries and Shields. In Phase 2, the left extra room will be destroyed, but a new room will appear between laser Artillery and Shields. Likewise for the right extra room in Phase 3, so Phase 3 has vanilla Hard's layout.</li>
     </ol>
     <li>EVENTS:</li>
     <ol>
-        <li>(TODO more events for Lifeform Scanner just like Twinge. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates.)</li>
+        <li>(TODO more events for Lifeform Scanner just like Twinge. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates. Then add here.)</li>
         <li>All sectors have 2 guaranteed stores, except for Sector 1 and Sector 8 which have 1 guaranteed store:</li>
         <ol>
             <li>Sector 1: from 1-2 to 1.</li>
@@ -226,6 +225,7 @@
         <li>ASTEROID_DERELICT_SHIP: When you choose to "Grab the stasis chamber", you have a 10% chance getting Ruwen immediately instead of the Stasis Pod.</li>
         <li>AUTO_HACKER: Now disables 1 level of your Shields, instead of half of your Shield levels rounded up.</li>
         <li>CRYSTAL_CACHE: Engines blue option level requirement from 7 to 4.</li>
+        <li>ESCORT_BEACON: Advanced FTL Navigation 2 can be used for the Advanced FTL Navigation blue option.</li>
         <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation, and Fleet delay from 2 to 1.</li>
         <li>FUEL_FOR_DRONE: Drone parts received from 1-3 to 2-4.</li>
         <li>LANIUS_RESEARCHER_CRAFT: Choosing to craft an augment now always gives Reconstructive Teleport instead of a random AE augment.</li>
@@ -252,7 +252,6 @@
     <li>MECHANICS:</li>
     <ol>
         <li>Each supershield layer causes -2% evasion.</li>
-        <li>Powered space drones no longer collide with enemy non-ion projectiles.</li>
         <li>Unpowered space drones can be ionized by enemy ion projectiles.</li>
         <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
     </ol>

@@ -7,4 +7,7 @@
 <mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_text">
     <mod:setValue>"Incrível! Ela consegue reconstruir o corpo se ele tiver sido danificado durante o transporte. Observe." Eles reativam a câmara e você observa os pedaços de cristal dentro dela se remontarem em uma estrutura humanoide.</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="weapon_BEAM_3_short">
+    <mod:setValue>F Glaive</mod:setValue> 
+</mod:findName>
 </FTL>
