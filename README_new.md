@@ -159,7 +159,7 @@
         <li>Lifeform Scanner: Rarity from 3 to 1. Cost from 40 to 20.</li>
         <li>Long-Ranged Scanners: Rarity from 1 to 3.</li>
         <li>Repair Arm: Scrap penalty from -15% to -5%.</li>
-        <li>Reverse Ion Field: Effect chance from 50% to 100%.</li>
+        <li>Reverse Ion Field: Cost from 45 to 20.</li>
         <li>Scrap Recovery Arm: Rarity from 1 to 3. Scrap bonus from +10% to +15%.</li>
         <li>Zoltan Shield Bypass: Rarity from 3 to 1. Cost from 55 to 40.</li>
     </ol>
