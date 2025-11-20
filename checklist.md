@@ -64,4 +64,9 @@
         <li>(TODO more events for Lifeform Scanner just like Twinge. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates. Actually, some LRS blues should be replaced with Life Scanner if it's against lifeforms)</li>
         <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire").</li>
     </ol>
+    <li>MECHANICS:</li>
+    <ol>
+        <li>Powered space drones no longer collide with enemy laser and missile projectiles.</li>
+        <li>Unpowered space drones can be ionized by enemy ion projectiles.</li>
+    </ol>
 </ol>

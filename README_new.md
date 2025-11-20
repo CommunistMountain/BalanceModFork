@@ -72,9 +72,10 @@
         <li>Beam Drone 1, Beam Drone 2: Fire chance from 10% to 0%.</li>
         <li>Combat Drone 2, Beam Drone 2: Rarity from 5 to 4.</li>
         <li>Fire Drone: Power requirement from 3 to 2.</li>
-        <li>Defense Drone 1: Rarity from 1 to 3, speed from 5 to 6.</li>
+        <li>Shield Overcharger (both versions): Rotation speed from 5 to 8, cooldown per layer changed from 8/10/13/16/20s to 6/8/10/12/14s.</li>
+        <li>Anti-Combat Drone: Rotation speed from 5 to 7.</li>
+        <li>Defense Drone 1: Rarity from 1 to 3, rotation speed from 5 to 6.</li>
         <li>Defense Drone 2: Cooldown from 0.88s to 0.7s.</li>
-        <li>Shield Drones: causes -2% evasion per layer (general change for all supershields), speed from 5 to 8, cooldown per layer changed from 8/10/13/16/20s to 6/8/10/12/14s.</li>
         <li>Hull Repair Drone: Cost from 85 to 40. Power requirement from 2 to 1. Drone Recovery Arm no longer retrieves it if you jump while it is repairing.</li>
         <li>System Repair Drone: Cost from 30 to 20.</li>
         <li>Anti-Personnel Drone: Power requirement from 2 to 1.</li>
@@ -134,7 +135,6 @@
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
             <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 83% of Human to 50% of Human.</li>
             <li>Slug Repair Gel: Now prevents Sensors from being disabled by nebula or events (it will still be disabled by hacking). Sensors and Doors behave as though they are always manned.</li>
-            <li>Zoltan Shield: causes -2% evasion per layer (general change for all supershields).</li>
         </ol>
         <li>These augments are now stackable. Most of their effects will not change when having multiple, it simply means they will not be immediately converted into 25 scrap when you get a duplicate.</li>
         <ol>
@@ -204,7 +204,6 @@
         <li>Flagship (Non-AE Easy version): Shield layers from 3 to 4, reactor from 40/42/29 to 42/44/31 for each Phase.</li>
         <li>Flagship (AE versions): Medbay level from 3 to 2, added level 1 Clone Bay in the room to the right of Medbay.</li>
         <li>Flagship (Hard version): In Phase 1, there are extra rooms between each side's 2 Artilleries, connecting all of them, and no room between laser/missile Artilleries and Shields. In Phase 2, the left extra room will be destroyed, but a new room will appear between laser Artillery and Shields. Likewise for the right extra room in Phase 3, so Phase 3 has vanilla Hard's layout.</li>
-        <li>Flagship (Phase 3): supershield causes -2% evasion per layer (general change for all supershields).</li>
     </ol>
     <li>EVENTS:</li>
     <ol>
@@ -252,6 +251,9 @@
     </ol>
     <li>MECHANICS:</li>
     <ol>
+        <li>Each supershield layer causes -2% evasion.</li>
+        <li>Powered space drones no longer collide with enemy non-ion projectiles.</li>
+        <li>Unpowered space drones can be ionized by enemy ion projectiles.</li>
         <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
     </ol>
 </ol>
