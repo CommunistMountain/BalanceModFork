@@ -63,6 +63,22 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findName type="systemBlueprint" name="hacking">
+    <mod:findLike type="upgradeCost">
+        <mod:findLike type="level">
+        <mod:selector>35</mod:selector>
+            <mod:setValue>50</mod:setValue>
+        </mod:findLike>
+        <mod:findLike type="level">
+        <mod:selector>60</mod:selector>
+            <mod:setValue>40</mod:setValue>
+        </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>100</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findName type="systemBlueprint" name="battery">
     <mod:findLike type="cost">
         <mod:setValue>50</mod:setValue>

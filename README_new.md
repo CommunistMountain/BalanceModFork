@@ -21,9 +21,10 @@
         <li>Pilot: Level 2 cost from 20 to 35.</li>
         <li>Sensors: Cost from 40 to 30. Level 3 cost from 40 to 30.</li>
         <li>Artillery: Level 2/3/4 cost from 30/50/80 to 15/25/50.</li>
+        <li>Cloaking: Cost from 150 to 110, level 2 cost from 30 to 70.</li>
         <li>Engines: Level 4/5/6/7/8 cost from 30/40/60/80/120 to 55/25/20/20/35.</li>
         <li>Oxygen: Level 3 cost from 50 to 30.</li>
-        <li>Hacking: Cost of deploying hacking drone from 1 to 2 drone parts, for the player only (due to limitations in implementation, you can still try to deploy the hacking drone at 1 drone part, but the drone will immediately explode, and no drone parts will be consumed). Drone will explode if the system is depowered while the drone is mid-flight.</li>
+        <li>Hacking: Cost from 80 to 100, level 2/3 cost from 35/60 to 50/40. Cost of deploying hacking drone from 1 to 2 drone parts, for the player only (due to limitations in implementation, you can still try to deploy the hacking drone at 1 drone part, but the drone will immediately explode, and no drone parts will be consumed). Drone will explode if the system is depowered while the drone is mid-flight.</li>
         <li>Shields: Level 2/8 cost from 100/100 to 120/120.</li>
     </ol>
     <li>WEAPONS:</li>

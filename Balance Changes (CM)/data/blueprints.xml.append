@@ -10,6 +10,18 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findName type="systemBlueprint" name="cloaking">
+    <mod:findLike type="upgradeCost">
+        <mod:findLike type="level">
+        <mod:selector>30</mod:selector>
+            <mod:setValue>70</mod:setValue>
+        </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>110</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findName type="systemBlueprint" name="pilot">
     <mod:findLike type="upgradeCost">
         <mod:findLike type="level">
