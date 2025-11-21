@@ -94,6 +94,7 @@
         <function name="FTL_JUMPER" warning="false"/>
     </mod-append:aug>
     <mod-append:aug name="DRONE_SPEED_CM">
+        <function name="DRONE_RECOVERY" warning="false"/>
         <function name="DRONE_SPEED" value="1" warning="false"/>
         <statBoosts>
             <statBoost name="healSpeed">

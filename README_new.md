@@ -38,7 +38,7 @@
         <li>Basic Laser: Cost from 20 to 30 (sell price from 10 to 15).</li>
         <li>Dual Lasers: Cost from 25 to 60 (sell price from 12 to 30).</li>
         <li>Burst Laser 1: Rarity from 1 to 3.</li>
-        <li>Burst Laser 3: Rarity from 4 to 2, cost from 95 to 70, projectiles from 5 to 6, fire chance from 0% to 10%.</li>
+        <li>Burst Laser 3: Rarity from 4 to 2, cost from 95 to 70, cooldown from 19s to 14s, fire chance from 0% to 10%.</li>
         <li>Heavy Laser 1: Rarity from 2 to 4, cooldown from 9s to 11s.</li>
         <li>Hull Laser 1: Rarity from 2 to 3, cooldown from 14s to 15s, projectile speed from 75 to 90, fire chance from 0% to 10%, breach chance from 20% to 18%.</li>
         <li>Chain Vulcan: Rarity from 5 to 3, cost from 95 to 80. Starting cooldown from 11.1s to 8.5s, cooldown reduction per shot from -2s to -1.5s (time needed before final cooldown from 35.5s to 27.5s, final cooldown from 1.1s to 1s).</li>
@@ -93,11 +93,12 @@
                 <li>FTL Jammer: rarity from 3 to 0.</li>
                 <li>FTL Recharge Booster: rarity from 2 to 0.</li>
             </ol>
-            <li>Engi A, Engi C: added hidden Drone Reactor Booster. Engi B: Drone Reactor Booster is now hidden.</li>
+            <li>Engi A, Engi C: added hidden Drone Reactor Booster. Engi B: Drone Reactor Booster is now hidden. Drone Reactor Booster now includes the effects of Drone Recovery Arm.</li>
             <ol>
                 <li>Engi NPC ships now have Drone Reactor Booster.</li>
                 <li>Engi A and Engi NPC ships no longer have Engi Med-bot Dispersal.</li>
                 <li>Engi C no longer has Defense Scrambler.</li>
+                <li>Drone Recovery Arm: rarity from 2 to 0.</li>
             </ol>
             <li>Fed Cruisers: System limit from 8 to 9. Effectively, Artillery System doesn't take a system slot. (Not an augment, but I'm including it here for the sake of consistency)</li>
             <ol>
@@ -141,7 +142,6 @@
             <li>Backup DNA Bank</li>
             <li>Defense Scrambler</li>
             <li>Distraction Buoys: Fleet delay stacks (the message will still say the Fleet is delayed by 1 jump, but it will be delayed by the number of Buoys you have).</li>
-            <li>Drone Recovery Arm</li>
             <li>Engi Med-bot Dispersal: Heal stacks.</li>
             <li>Hacking Stun</li>
             <li>Lifeform Scanner</li>

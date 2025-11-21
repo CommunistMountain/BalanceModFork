@@ -119,11 +119,11 @@
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="LASER_BURST_5">
-    <mod:findLike type="shots">
-        <mod:setValue>6</mod:setValue>
-    </mod:findLike>
     <mod:findLike type="fireChance">
         <mod:setValue>1</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cooldown">
+        <mod:setValue>14</mod:setValue>
     </mod:findLike>
     <mod:findLike type="cost">
         <mod:setValue>70</mod:setValue>
@@ -417,7 +417,6 @@
         <mod:findName type="augBlueprint" name="CLOAK_FIRE"/>
         <mod:findName type="augBlueprint" name="ADV_SCANNERS"/>
         <mod:findName type="augBlueprint" name="WEAPON_PREIGNITE"/>
-        <mod:findName type="augBlueprint" name="DRONE_RECOVERY"/>
         <mod:findName type="augBlueprint" name="FTL_JUMPER_GOOD"/>
     </mod:par>
     <mod:findLike type="stackable">
@@ -429,6 +428,7 @@
     <mod:par op="OR">
         <mod:findName type="augBlueprint" name="FTL_BOOSTER"/>
         <mod:findName type="augBlueprint" name="FTL_JUMPER"/>
+        <mod:findName type="augBlueprint" name="DRONE_RECOVERY"/>
         <mod:findName type="augBlueprint" name="FTL_JAMMER"/>
     </mod:par>
     <mod:findLike type="rarity">
