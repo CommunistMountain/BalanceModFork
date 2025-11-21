@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<text name="aug_CREW_STIMS_CM_desc">Your crew's movement speed is increased by 25 percent. Automatically put out fires throughout the ship (Mantis rate).</text>
+<text name="aug_DRONE_SPEED_CM_desc">Your shipboard drones have their movement speed increased by 100 percent, healing in drone control increased from 1.28 HP/s to 6.4HP/s, and now heal outside drone control at 1.6 HP/s. Non-destroyed drones will be retrieved when jumping, allowing their parts to be reused.</text>
+<text name="aug_FTL_JUMPER_CM_desc">Allows the ship to jump to any previously visited Beacon. The ship's FTL Drive powers up 25 percent faster. Scramble enemy ships' FTL computers, doubling the time it takes for them to jump.</text>
+<text name="aug_ROCK_ARMOR_CM_desc">Superior hull armor provides a 15 percent chance to negate incoming hull damage (hit systems will still be damaged). Missile based weapons have a 20 percent chance of not using a missile.</text>
 <mod:findName type="text" name="weapon_BEAM_3_short">
     <mod:setValue>Glaive B</mod:setValue> 
 </mod:findName>

@@ -19,6 +19,20 @@
 	</mod-append:item_modify>
 </mod:findName>
 
+<mod:findName type="event" name="ESCORT_BEACON">
+    <mod:findLike type="choice">
+    <mod:selector req="FTL_JUMPER"/>
+        <mod:setAttributes max_group="0"/>
+    </mod:findLike>
+	<mod-append:choice req="FTL_JUMPER_GOOD" hidden="true" max_group="0">
+		<text id="event_ESCORT_BEACON_c3_choice"/>
+		<event>
+			<text id="event_ESCORT_BEACON_c3_text"/>
+			<autoReward level="HIGH">standard</autoReward>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
 <mod:findName type="event" name="FUEL_FOR_DRONE">
     <mod:findLike type="choice">
         <mod:findLike type="event">

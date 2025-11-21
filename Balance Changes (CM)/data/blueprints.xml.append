@@ -18,7 +18,7 @@
         </mod:findLike>
     </mod:findLike>
     <mod:findLike type="cost">
-        <mod:setValue>110</mod:setValue>
+        <mod:setValue>115</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
@@ -437,8 +437,17 @@
 </mod:findComposite>
 
 <mod:findName type="augBlueprint" name="CRYSTAL_SHARDS">
+    <mod:findLike type="cost">
+        <mod:setValue>50</mod:setValue>
+    </mod:findLike>
     <mod:findLike type="value">
         <mod:setValue>1</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="ENERGY_SHIELD">
+    <mod:findLike type="cost">
+        <mod:setValue>50</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
@@ -448,6 +457,18 @@
     </mod:findLike>
     <mod:findLike type="rarity">
         <mod:setValue>2</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="SLUG_GEL">
+    <mod:findLike type="cost">
+        <mod:setValue>50</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="augBlueprint" name="SYSTEM_CASING">
+    <mod:findLike type="cost">
+        <mod:setValue>50</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
@@ -501,7 +522,7 @@
 
 <augBlueprint name="FTL_JUMPER_CM">
 	<title id="aug_FTL_JUMPER_title"/>
-	<desc id="aug_FTL_JUMPER_desc"/>
+	<desc id="aug_FTL_JUMPER_CM_desc"/>
 	<cost>50</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -509,7 +530,23 @@
 
 <augBlueprint name="DRONE_SPEED_CM">
 	<title id="aug_DRONE_SPEED_title"/>
-	<desc id="aug_DRONE_SPEED_desc"/>
+	<desc id="aug_DRONE_SPEED_CM_desc"/>
+	<cost>50</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
+<augBlueprint name="CREW_STIMS_CM">
+	<title id="aug_CREW_STIMS_title"/>
+	<desc id="aug_CREW_STIMS_CM_desc"/>
+	<cost>50</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
+<augBlueprint name="ROCK_ARMOR_CM">
+	<title id="aug_ROCK_ARMOR_title"/>
+	<desc id="aug_ROCK_ARMOR_CM_desc"/>
 	<cost>50</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -595,7 +632,6 @@
         <mod:setValue>4</mod:setValue>
     </mod:findLike>
     <mod:findLike type="weaponList">
-        <mod:setAttributes count="3"/>
         <mod:findLike type="weapon">
             <mod:removeTag/>
         </mod:findLike>
@@ -616,12 +652,18 @@
         <mod:findLike type="shields">
             <mod:setAttributes power="1" start="true"/>
         </mod:findLike>
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="5"/>
+        </mod:findLike>
+        <mod:findLike type="cloaking">
+            <mod:setAttributes power="1"/>
+        </mod:findLike>
     </mod:findLike>
     <mod:findLike type="weaponSlots">
         <mod:setValue>4</mod:setValue>
     </mod:findLike>
     <mod:findLike type="maxPower">
-        <mod:setAttributes amount="9"/>
+        <mod:setAttributes amount="8"/>
     </mod:findLike>
 </mod:findName>
 
@@ -642,6 +684,9 @@
         <mod:findLike type="engines">
             <mod:setAttributes power="2"/>
         </mod:findLike>
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="4"/>
+        </mod:findLike>
     </mod:findLike>
 </mod:findName>
 
@@ -651,7 +696,7 @@
             <mod:setAttributes start="false"/>
         </mod:findLike>
         <mod:findLike type="weapons">
-            <mod:setAttributes power="4"/>
+            <mod:setAttributes power="3"/>
         </mod:findLike>
     </mod:findLike>
 </mod:findName>
@@ -677,6 +722,9 @@
     <mod:findLike type="systemList">
         <mod:findLike type="doors">
             <mod:setAttributes power="1"/>
+        </mod:findLike>
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="3"/>
         </mod:findLike>
     </mod:findLike>
     <mod:findLike type="maxPower">

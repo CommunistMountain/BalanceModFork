@@ -19,12 +19,13 @@
         <li>Backup Battery: Cost from 35 to 50. Now includes the effects of Battery Charger. Battery Charger rarity from 2 to 0.</li>
         <li>Doors: Cost from 60 to 45.</li>
         <li>Pilot: Level 2 cost from 20 to 35.</li>
-        <li>Sensors: Cost from 40 to 30. Level 3 cost from 40 to 30.</li>
+        <li>Sensors: Cost from 40 to 30, level 3 cost from 40 to 30.</li>
         <li>Artillery: Level 2/3/4 cost from 30/50/80 to 15/25/50.</li>
-        <li>Cloaking: Cost from 150 to 110, level 2 cost from 30 to 70.</li>
+        <li>Cloaking: Cost from 150 to 115, level 2 cost from 30 to 70.</li>
         <li>Engines: Level 4/5/6/7/8 cost from 30/40/60/80/120 to 55/25/20/20/35.</li>
         <li>Oxygen: Level 3 cost from 50 to 30.</li>
         <li>Hacking: Cost from 80 to 100, level 2/3 cost from 35/60 to 50/40. Cost of deploying hacking drone from 1 to 2 drone parts, for the player only (due to limitations in implementation, you can still try to deploy the hacking drone at 1 drone part, but the drone will immediately explode, and no drone parts will be consumed). Drone will explode if the system is depowered while the drone is mid-flight.</li>
+        <li>Mind Control: Cost from 75 to 90, level 3 cost from 60 to 55.</li>
         <li>Shields: Level 2/8 cost from 100/100 to 120/120.</li>
     </ol>
     <li>WEAPONS:</li>
@@ -107,7 +108,7 @@
             <li>Zoltan Cruisers: Zoltan Shield is now hidden.</li>
             <li>Mantis Cruisers: Mantis Pheromones is now hidden. Mantis Pheromones now includes the effects of Fire Suppression.</li>
             <ol>
-                <li>Mantis NPC ships now have the effects of Fire Suppression.</li>
+                <li>Mantis NPC ships now have Mantis Pheromones with the effects of Fire Suppression.</li>
                 <li>Fire Suppression: rarity from 3 to 0.</li>
             </ol>
             <li>Slug Cruisers: Slug Repair Gel is now hidden.</li>
@@ -169,20 +170,22 @@
         <li>Kestrel B: Removed Doors.</li>
         <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 2 Ion Blasts and 2 Ion Stunners. Weapon Control level from 2 to 4. Reactor from 7 to 9. Sensors level from 2 to 1.</li>
         <li>Engi A: Reactor from 10 to 9.</li>
-        <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Added level 1 Sensors.</li>
-        <li>Fed A: Weapon Control level from 2 to 4. Removed Doors.</li>
+        <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Weapon Control level from 3 to 4. Added level 1 Sensors.</li>
+        <li>Fed A: Weapon Control level from 2 to 3. Removed Doors.</li>
         <li>Fed B: Missiles from 9 to 14. Reactor from 9 to 8.</li>
         <li>Fed C: Artillery level from 1 to 4. Reactor from 7 to 8.</li>
         <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2. Reactor from 5 to 6.</li>
         <li>Zoltan B: Added Long-Ranged Scanners.</li>
+        <li>Zoltan C: Weapon Control level from 2 to 3.</li>
         <li>Mantis A: Weapon slots from 3 to 4. Crew from 3 Mantis 1 Engi to 2 Mantis 1 Engi (rearranged crew positions from MMEM to EMM). Added level 1 Sensors.</li>
         <li>Mantis B: Engines level from 1 to 2. Medbay level from 1 to 2. Reactor 11 to 9.</li>
         <li>Slug Cruisers: Doors level from 2 to 1.</li>
-        <li>Slug B: Reactor from 7 to 8.</li>
+        <li>Slug B: Weapon Control level from 2 to 3. Reactor from 7 to 8.</li>
+        <li>Slug C: Weapon Control level from 2 to 3.</li>
         <li>Rock B: Added an external door to the Backup Battery room. Oxygen level from 2 to 1. Reactor from 8 to 7.</li>
         <li>Stealth Cruisers: Added level 1 Shields.</li>
         <li>Stealth A: Engines level from 4 to 3, Weapon Control from level 2 to 3, weapon slots from 3 to 4. Weapons from 1 Mini-Beam and 1 Dual Lasers to 1 Mini-Beam and 1 Basic Laser.</li>
-        <li>Stealth B: Weapon slots from 3 to 4. Engines level from 2 to 3. Reactor from 7 to 9.</li>
+        <li>Stealth B: Weapon Control level from 4 to 5, weapon slots from 3 to 4. Cloaking level from 2 to 1. Engines level from 2 to 3. Reactor from 7 to 8.</li>
         <li>Stealth C: Added level 2 Sensors. Reactor from 7 to 8.</li>
         <li>Crystal A: Removed Doors.</li>
         <li>Crystal B: Weapon slots from 4 to 3. Medbay level from 1 to 2. Reactor from 8 to 7.</li>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="event" name="MANTIS_NAMED_THIEF_DEFEAT">
+    <mod:findLike type="choice">
+        <mod:findLike type="event">
+            <mod:findLike type="choice">
+                <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                        <mod:findLike type="event">
+                            <mod:findLike type="augment">
+                                <mod:setAttributes name="CREW_STIMS_CM"/>
+                            </mod:findLike>
+                        </mod:findLike>
+                    </mod:findLike>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+</FTL>

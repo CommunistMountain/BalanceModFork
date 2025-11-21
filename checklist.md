@@ -9,25 +9,7 @@
     </ol>
     <li>AUGMENTS:</li>
     <ol>
-        <li>Almost all ship types now have hidden augments (don't take up slots, but are unsellable) that are now unavailable in stores and random rewards, but can be obtained from events. All other augments are removed from ships, except Long-Ranged Scanners. The consequences of these changes are listed under subpoints:</li>
-        <ol>
-            <li>Mantis Cruisers: Mantis Pheromones is now hidden. Mantis Pheromones now includes the effects of Fire Suppression.</li>
-            <ol>
-                <li>Mantis NPC ships now have the effects of Fire Suppression.</li>
-            </ol>
-            <li>Rock Cruisers: Rock Plating is now hidden. Rock Plating now includes the effects of Explosive Replicator.</li>
-            <ol>
-                <li>Rock NPC ships now have the effects of Explosive Replicator. (TODO test if NPC can use it)</li>
-            </ol>
-        </ol>
-        <li>Changes for hidden augments:</li>
-        <ol>
-            <li>All hidden augments now cost 50 (and thus sell for 25 if obtained from an event). (TODO ensure it's for new augs instead of old)</li>
-        </ol>
         <li>Added Advanced FTL Navigation 2 to stores and random rewards (TODO add to augment lists if needed) (TODO 2 add this to ESCORT_BEACON blue option like Adv FTL Nav 1)</li>
-        <ol>
-            <li>NOTE: If you also have Advanced FTL Navigation, it will NOT take the distance between your destination and the nearest visited beacon from that destination. You will need to manually jump to the visted beacon nearest to the destination first.</li>
-        </ol>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. (TODO add to augment lists if needed)</li>
     </ol>
     <li>PLAYER SHIPS (other than augment changes above):</li>

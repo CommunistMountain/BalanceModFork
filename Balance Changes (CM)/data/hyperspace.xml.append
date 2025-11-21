@@ -55,6 +55,15 @@
     <mod-append:customShip name="PLAYER_SHIP_ENERGY_3">
         <hiddenAug>ENERGY_SHIELD</hiddenAug>
     </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_MANTIS">
+        <hiddenAug>CREW_STIMS_CM</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_MANTIS_2">
+        <hiddenAug>CREW_STIMS_CM</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_MANTIS_3">
+        <hiddenAug>CREW_STIMS_CM</hiddenAug>
+    </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_JELLY">
         <hiddenAug>SLUG_GEL</hiddenAug>
     </mod-append:customShip>
@@ -63,6 +72,15 @@
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_JELLY_3">
         <hiddenAug>SLUG_GEL</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_ROCK">
+        <hiddenAug>ROCK_ARMOR_CM</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_ROCK_2">
+        <hiddenAug>ROCK_ARMOR_CM</hiddenAug>
+    </mod-append:customShip>
+    <mod-append:customShip name="PLAYER_SHIP_ROCK_3">
+        <hiddenAug>ROCK_ARMOR_CM</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_STEALTH">
         <hiddenAug>SYSTEM_CASING</hiddenAug>
@@ -127,6 +145,14 @@
                 </whiteList>
             </statBoost>
         </statBoosts>
+    </mod-append:aug>
+    <mod-append:aug name="CREW_STIMS_CM">
+        <function name="CREW_STIMS" warning="false"/>
+        <function name="FIRE_EXTINGUISHERS" value="0.6" warning="false"/>
+    </mod-append:aug>
+    <mod-append:aug name="ROCK_ARMOR_CM">
+        <function name="ROCK_ARMOR" warning="false"/>
+        <function name="EXPLOSIVE_REPLICATOR" value="0.2" warning="false"/>
     </mod-append:aug>
     <mod-append:aug name="SLUG_GEL_SLOW_CM">
         <function name="SLUG_GEL" value="0.083"/>
