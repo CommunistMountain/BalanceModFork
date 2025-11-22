@@ -573,6 +573,12 @@
 </mod:findComposite>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD">
+    <mod:findLike type="weaponList">
+        <mod:setAttributes missiles="15"/>
+    </mod:findLike>
+    <mod:findLike type="droneList">
+        <mod:setAttributes drones="0"/>
+    </mod:findLike>
     <mod:findLike type="crewCount">
         <mod:setAttributes amount="2"/>
     </mod:findLike>
@@ -584,6 +590,9 @@
             <mod:setAttributes start="false"/>
         </mod:findLike>
     </mod:findLike>
+    <mod:findLike type="weaponList">
+        <mod:setAttributes missiles="0"/>
+    </mod:findLike>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS">
@@ -591,6 +600,9 @@
         <mod:findLike type="sensors">
             <mod:setAttributes start="true"/>
         </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="weaponList">
+        <mod:setAttributes missiles="15"/>
     </mod:findLike>
     <mod:findLike type="weaponSlots">
         <mod:setValue>4</mod:setValue>
@@ -699,11 +711,17 @@
             <mod:setAttributes power="3"/>
         </mod:findLike>
     </mod:findLike>
+    <mod:findLike type="weaponList">
+        <mod:setAttributes missiles="0"/>
+    </mod:findLike>
+    <mod:findLike type="droneList">
+        <mod:setAttributes drones="0"/>
+    </mod:findLike>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED_2">
     <mod:findLike type="weaponList">
-        <mod:setAttributes missiles="14"/>
+        <mod:setAttributes missiles="15"/>
     </mod:findLike>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="8"/>
@@ -727,8 +745,17 @@
             <mod:setAttributes power="3"/>
         </mod:findLike>
     </mod:findLike>
+    <mod:findLike type="weaponList">
+        <mod:setAttributes missiles="30"/>
+    </mod:findLike>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="8"/>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK">
+    <mod:findLike type="weaponList">
+        <mod:setAttributes missiles="30"/>
     </mod:findLike>
 </mod:findName>
 
@@ -737,6 +764,9 @@
         <mod:findLike type="oxygen">
             <mod:setAttributes power="1"/>
         </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="weaponList">
+        <mod:setAttributes missiles="15"/>
     </mod:findLike>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="7"/>
@@ -752,12 +782,21 @@
             <mod:setAttributes power="2"/>
         </mod:findLike>
     </mod:findLike>
+    <mod:findLike type="weaponList">
+        <mod:setAttributes missiles="15"/>
+    </mod:findLike>
+    <mod:findLike type="droneList">
+        <mod:setAttributes drones="0"/>
+    </mod:findLike>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="6"/>
     </mod:findLike>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_ENERGY_2">
+    <mod:findLike type="droneList">
+        <mod:setAttributes drones="0"/>
+    </mod:findLike>
     <mod-append:aug name="ADV_SCANNERS"/>
 </mod:findName>
 

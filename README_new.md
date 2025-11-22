@@ -134,6 +134,7 @@
             <li>Advanced FTL Navigation: Travelling to a previously visited beacon refunds 1 fuel (you still need 1 fuel to make the jump) and delays the Rebel Fleet by 1. (Beacons that are about to be taken over will still have ASB and an Elite upon arrival.)</li>
             <li>Crystal Vengeance: Effect chance from 10% to 100%, damage from 1 to 0, breach chance from 10% to 100%, stun chance from 20% to 100%.</li>
             <li>Drone Reactor Booster: Crew and Boarding drones speed boost from +25% to +100%. Crew drones heal in Drone Control from +1.28HP/s to +6.4HP/s (if powered). Crew and Boarding drones heal outside Drone Control at +1.6HP/s (if powered).</li>
+            <li>Drone Recovery Arm (component of Drone Reactor Booster): Drone recovery chance from 100% to 20% (rolled independently for each drone).</li>
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
             <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 83% of Human to 50% of Human.</li>
             <li>Slug Repair Gel: Now prevents Sensors from being disabled by nebula or events (it will still be disabled by hacking). Sensors and Doors behave as though they are always manned.</li>
@@ -156,7 +157,7 @@
         <li>Damaged Stasis Pod: Cost from 30 to 0 (sell price from 15 to 0).</li>
         <li>Distraction Buoys: Cost from 55 to 40.</li>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40.</li>
-        <li>Hacking Stun: Now also sets the cost of deploying Hacking drone from 2 drone parts back to 1.</li>
+        <li>Hacking Stun: Stun no longer affects friendly crew. Now also sets the cost of deploying Hacking drone from 2 drone parts back to 1.</li>
         <li>Lifeform Scanner: Rarity from 3 to 1. Cost from 40 to 20.</li>
         <li>Long-Ranged Scanners: Rarity from 1 to 3.</li>
         <li>Repair Arm: Scrap penalty from -15% to -5%.</li>
@@ -166,13 +167,34 @@
     </ol>
     <li>PLAYER SHIPS (other than augment changes above):</li>
     <ol>
+        <li>Ships are standardised to have 15 missiles per missile/bomb weapon, 20 drone parts if it has hacking, 15 drone parts per offensive drone, 10 drone parts per defensive drone, 5 drone parts per boarding drone, and 2 drone parts per crew drone.</li>
+        <ol>
+            <li>Kestrel A: Missiles from 8 to 15, drone parts from 2 to 0.</li>
+            <li>Kestrel B: Missiles from 5 to 0.</li>
+            <li>Kestrel C: Missiles from 4 to 0, drone parts from 3 to 0.</li>
+            <li>Engi C: Drone parts from 25 to 35.</li>
+            <li>Fed A: Missiles from 5 to 0, drone parts from 2 to 0.</li>
+            <li>Fed B: Missiles from 9 to 15.</li>
+            <li>Fed C: Missiles from 5 to 0.</li>
+            <li>Zoltan A: Missiles from 12 to 15, drone parts from 2 to 0.</li>
+            <li>Zoltan B: Drone parts from 2 to 0.</li>
+            <li>Zoltan C: Missiles from 2 to 0.</li>
+            <li>Mantis A: Missiles from 16 to 15.</li>
+            <li>Mantis C: Missiles from 20 to 30.</li>
+            <li>Slug B: Missiles from 25 to 30.</li>
+            <li>Slug C: Missiles from 1 to 0, drone parts from 15 to 20.</li>
+            <li>Rock A: Missiles from 28 to 30.</li>
+            <li>Rock B: Missiles from 18 to 15.</li>
+            <li>Stealth C: Drone parts from 16 to 20.</li>
+            <li>Lanius A: Missiles from 3 to 0, drone parts from 9 to 20.</li>
+        </ol>
         <li>Kestrel A: Crew from 3 Humans to 2 Humans.</li>
         <li>Kestrel B: Removed Doors.</li>
         <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 2 Ion Blasts and 2 Ion Stunners. Weapon Control level from 2 to 4. Reactor from 7 to 9. Sensors level from 2 to 1.</li>
         <li>Engi A: Reactor from 10 to 9.</li>
         <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Weapon Control level from 3 to 4. Added level 1 Sensors.</li>
         <li>Fed A: Weapon Control level from 2 to 3. Removed Doors.</li>
-        <li>Fed B: Missiles from 9 to 14. Reactor from 9 to 8.</li>
+        <li>Fed B: Reactor from 9 to 8.</li>
         <li>Fed C: Artillery level from 1 to 4. Reactor from 7 to 8.</li>
         <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2. Reactor from 5 to 6.</li>
         <li>Zoltan B: Added Long-Ranged Scanners.</li>

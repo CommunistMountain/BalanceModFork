@@ -71,7 +71,7 @@
         </mod:findLike>
     </mod:findLike>
     <mod:findLike type="weaponList">
-        <mod:setAttributes count="4"/>
+        <mod:setAttributes count="4" missiles="0"/>
         <mod:findLike type="weapon">
             <mod:removeTag/>
         </mod:findLike>
@@ -80,8 +80,17 @@
         <mod-append:weapon name="ION_1"/>
         <mod-append:weapon name="ION_1"/>
     </mod:findLike>
+    <mod:findLike type="droneList">
+        <mod:setAttributes drones="0"/>
+    </mod:findLike>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="9"/>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE_3">
+    <mod:findLike type="droneList">
+        <mod:setAttributes drones="35"/>
     </mod:findLike>
 </mod:findName>
 
@@ -90,6 +99,9 @@
         <mod:findLike type="artillery">
             <mod:setAttributes power="4"/>
         </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="weaponList">
+        <mod:setAttributes missiles="0"/>
     </mod:findLike>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="8"/>
@@ -105,6 +117,12 @@
             <mod:setAttributes power="3"/>
         </mod:findLike>
     </mod:findLike>
+    <mod:findLike type="weaponList">
+        <mod:setAttributes missiles="0"/>
+    </mod:findLike>
+    <mod:findLike type="droneList">
+        <mod:setAttributes drones="20"/>
+    </mod:findLike>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH_3">
@@ -116,6 +134,9 @@
             <mod:setAttributes power="1" start="true"/>
         </mod:findLike>
     </mod:findLike>
+    <mod:findLike type="droneList">
+        <mod:setAttributes drones="20"/>
+    </mod:findLike>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="8"/>
     </mod:findLike>
@@ -126,6 +147,15 @@
         <mod:findLike type="weapons">
             <mod:setAttributes power="3"/>
         </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="weaponList">
+        <mod:setAttributes missiles="0"/>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS_3">
+    <mod:findLike type="weaponList">
+        <mod:setAttributes missiles="30"/>
     </mod:findLike>
 </mod:findName>
 </FTL>

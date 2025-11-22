@@ -9,8 +9,10 @@
     </ol>
     <li>AUGMENTS:</li>
     <ol>
+        <li>Drone Recovery Arm (component of Drone Reactor Booster): Drone recovery chance from 100% to 20% (rolled independently for each drone). (TODO recreate the effect, test that it includes/excludes the right drones and recover at the right times e.g. Hull Repair cannot be retrieved, and difference between combat and defense, THEN add the percentage)</li>
         <li>Added Advanced FTL Navigation 2 to stores and random rewards (TODO add to augment lists if needed) (TODO 2 add this to ESCORT_BEACON blue option like Adv FTL Nav 1)</li>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. (TODO add to augment lists if needed)</li>
+        <li>Hacking Stun: Stun no longer affects friendly crew. Now also sets the cost of deploying Hacking drone from 2 drone parts back to 1. (todo don't hardcode friendly and enemy, so enemies can potentially use it)</li>
     </ol>
     <li>PLAYER SHIPS (other than augment changes above):</li>
     <ol>
