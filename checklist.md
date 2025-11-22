@@ -1,6 +1,11 @@
 # Balance Changes (CM)
 <ol>
-    <li>TODO change text for everything in readme_new that needs it</li>
+    <li>TODO change text for everything in readme_new that needs it (list them out)</li>
+    <li>SYSTEMS:</li>
+    <ol>
+        <li>Drone Control: TODO costs</li>
+        <li>Weapon Control: TODO costs</li>
+    </ol>
     <li>WEAPONS:</li>
     <ol>
         <li>Flak Artillery: shield piercing from 0 to 5, damage from 1 to 0, now heals your crew by 150 per projectile. (TODO check if it's enough that it hits a room, or it needs to hit the tile to work. If the former, heal can afford to be less) (TODO 2 find out how to apply heal, maybe need LUA, and remove persDamage since it doesnt work)</li>
@@ -10,8 +15,6 @@
     <li>AUGMENTS:</li>
     <ol>
         <li>Drone Recovery Arm (component of Drone Reactor Booster): Drone recovery chance from 100% to 20% (rolled independently for each drone). (TODO recreate the effect, test that it includes/excludes the right drones and recover at the right times e.g. Hull Repair cannot be retrieved, and difference between combat and defense, THEN add the percentage)</li>
-        <li>Added Advanced FTL Navigation 2 to stores and random rewards (TODO add to augment lists if needed) (TODO 2 add this to ESCORT_BEACON blue option like Adv FTL Nav 1)</li>
-        <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. (TODO add to augment lists if needed)</li>
         <li>Hacking Stun: Stun no longer affects friendly crew. Now also sets the cost of deploying Hacking drone from 2 drone parts back to 1. (todo don't hardcode friendly and enemy, so enemies can potentially use it)</li>
     </ol>
     <li>PLAYER SHIPS (other than augment changes above):</li>
@@ -20,13 +23,7 @@
     </ol>
     <li>NPC SHIPS:</li>
     <ol>
-        <li>Engi ships: May now spawn with Anti-Personnel Drones.</li>
-        <li>Mantis Fighter and Mantis Interceptor (and pirate versions): Medical systems are now optional instead of guaranteed.</li>
         <li>Slug Interceptor and Slug Scout: Added doors connecting Oxygen and Engines.</li>
-        <li>Rock ships: May now spawn with Fire Bombs.</li>
-        <li>Rock Assault (Elite): Crew range from 4 to 5.</li>
-        <li>Auto-ships: Removed doors.</li>
-        <li>Auto-scout and Auto-surveyor: Shields are now guaranteed.</li>
         <li>Flagship (AE versions): Medbay level from 3 to 2, added level 1 Clone Bay in the room to the right of Medbay.</li>
         <li>Flagship (Hard version): In Phase 1, there are extra rooms between each side's 2 Artilleries, connecting all of them, and no room between laser/missile Artilleries and Shields. In Phase 2, the left extra room will be destroyed, but a new room will appear between laser Artillery and Shields. Likewise for the right extra room in Phase 3, so Phase 3 has vanilla Hard's layout.</li>
     </ol>

@@ -24,4 +24,20 @@
     </mod:par>
     <mod-append:aug name="CREW_STIMS_CM"/>
 </mod:findComposite>
+
+<mod:findName type="shipBlueprint" name="MANTIS_FIGHTER_P">
+    <mod:findLike type="systemList">
+        <mod:findLike type="medbay">
+            <mod:setAttributes start="false"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="MANTIS_FIGHTER_P_DLC">
+    <mod:findLike type="systemList">
+        <mod:findLike type="clonebay">
+            <mod:setAttributes start="false"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
 </FTL>

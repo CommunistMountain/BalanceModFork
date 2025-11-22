@@ -251,6 +251,7 @@
         <li>ASTEROID_DERELICT_SHIP: When you choose to "Grab the stasis chamber", you have a 10% chance getting Ruwen immediately instead of the Stasis Pod.</li>
         <li>AUTO_HACKER: Now disables 1 level of your Shields, instead of half of your Shield levels rounded up.</li>
         <li>CRYSTAL_CACHE: Engines blue option level requirement from 7 to 4.</li>
+        <li>ENGI_UNLOCK_1: When the real ship surrenders, you now have the option of continuing the fight.</li>
         <li>ESCORT_BEACON: Advanced FTL Navigation 2 can be used for the Advanced FTL Navigation blue option.</li>
         <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation, and Fleet delay from 2 to 1.</li>
         <li>FUEL_FOR_DRONE: Drone parts received from 1-3 to 2-4.</li>
@@ -273,12 +274,17 @@
         </ol>
         <li>ZOLTAN_BOARDERS: Number of Zoltan boarders from 3-4 to 3.</li>
         <li>ZOLTAN_BOARDERS_MANTIS: Number of Mantis boarders from 2-3 to 2.</li>
-        <li>ZOLTAN_PEACE_QUEST: Zoltan Shield outcome: no longer has low scrap autoReward. Envoy outcome: now also gives Zoltan Shield, but no longer has high standard autoReward.</li>
+        <li>ZOLTAN_PEACE_QUEST: Zoltan Shield outcome: no longer has a Low scrap autoReward. Envoy outcome: now also gives Zoltan Shield, but no longer has a High standard autoReward.</li>
+        <li>ZOLTAN_SCIENCE_DOCK: When the enemy surrenders, you now have the choice of continuing the fight.</li>
     </ol>
     <li>MECHANICS:</li>
     <ol>
         <li>Each supershield layer causes -2% evasion.</li>
         <li>Unpowered space drones can be ionized by enemy ion projectiles.</li>
         <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
+    </ol>
+    <li>MISC:</li>
+    <ol>
+        <li>Hangar system level graphic heightened by 8 pixels to fit 5 system levels nicely.</li>
     </ol>
 </ol>

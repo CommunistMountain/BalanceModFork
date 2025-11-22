@@ -10,4 +10,29 @@
         <mod-append:weapon name="BEAM_BIO"/>
     </mod:findComposite>
 </mod:findName>
+
+<mod:findName type="ship" name="ZOLTAN_SCIENCE_DOCK">
+    <mod:findLike type="surrender">
+        <mod:findComposite>
+            <mod:par op="OR">
+                <mod:findLike type="ship"/>
+                <mod:findLike type="crewMember"/>
+                <mod:findLike type="autoReward"/>
+            </mod:par>
+            <mod:removeTag/>
+        </mod:findComposite>
+        <mod-append:choice>
+            <text id="event_PIRATE_SURRENDER_c1_choice"/>
+            <event>
+                <ship hostile="false"/>
+                <crewMember amount="1" class="energy"/>
+                <autoReward level="LOW">standard</autoReward>
+            </event>
+        </mod-append:choice>
+        <mod-append:choice>
+            <text id="event_PIRATE_SURRENDER_c2_choice"/>
+            <event/>
+        </mod-append:choice>
+    </mod:findLike>
+</mod:findName>
 </FTL>
