@@ -179,6 +179,7 @@ Mod order:
             <li>Drones and Hacking: 39%/62%/77% chance of destroying the drone in a level 1/2/3 hack</li>
         </ol>
         <li>NPC Zoltan ships are now called Zoltan X instead of Energy X.</li>
+        <li>Flagship class now shows game difficulty.</li>
     </ol>
 </ol>
 

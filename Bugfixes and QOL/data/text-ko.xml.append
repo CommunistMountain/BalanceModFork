@@ -94,6 +94,60 @@
 <mod:findName type="text" name="pilot_skill">
     <mod:setValue>회피율 + \1%</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_EASY_class">
+    <mod:setValue>반란군 기함 (쉬움)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_EASY_class">
+    <mod:setValue>반란군 기함 (쉬움)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_EASY_class">
+    <mod:setValue>반란군 기함 (쉬움)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_EASY_DLC_class">
+    <mod:setValue>반란군 기함 (쉬움)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_EASY_DLC_class">
+    <mod:setValue>반란군 기함 (쉬움)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_EASY_DLC_class">
+    <mod:setValue>반란군 기함 (쉬움)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_NORMAL_class">
+    <mod:setValue>반란군 기함 (보통)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_NORMAL_class">
+    <mod:setValue>반란군 기함 (보통)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_NORMAL_class">
+    <mod:setValue>반란군 기함 (보통)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_NORMAL_DLC_class">
+    <mod:setValue>반란군 기함 (보통)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_NORMAL_DLC_class">
+    <mod:setValue>반란군 기함 (보통)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_NORMAL_DLC_class">
+    <mod:setValue>반란군 기함 (보통)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_HARD_class">
+    <mod:setValue>반란군 기함 (어려움)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_HARD_class">
+    <mod:setValue>반란군 기함 (어려움)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_HARD_class">
+    <mod:setValue>반란군 기함 (어려움)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_HARD_DLC_class">
+    <mod:setValue>반란군 기함 (어려움)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_HARD_DLC_class">
+    <mod:setValue>반란군 기함 (어려움)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_HARD_DLC_class">
+    <mod:setValue>반란군 기함 (어려움)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="tooltip_autofire">
     <mod:setValue>무기의 자동사격을 활성화/비활성화 시킵니다.\n단축키: \1\n\n\2 버튼과 함께 조준하면 현재 자동사격 설정과 반대로 작동하도록 지정할 수 있습니다.</mod:setValue>
 </mod:findName>

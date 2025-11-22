@@ -94,6 +94,60 @@
 <mod:findName type="text" name="pilot_skill">
     <mod:setValue>Evasão +\1%</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_EASY_class">
+    <mod:setValue>Capitânia Rebelde (Fácil)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_EASY_class">
+    <mod:setValue>Capitânia Rebelde (Fácil)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_EASY_class">
+    <mod:setValue>Capitânia Rebelde (Fácil)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_EASY_DLC_class">
+    <mod:setValue>Capitânia Rebelde (Fácil)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_EASY_DLC_class">
+    <mod:setValue>Capitânia Rebelde (Fácil)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_EASY_DLC_class">
+    <mod:setValue>Capitânia Rebelde (Fácil)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_NORMAL_class">
+    <mod:setValue>Capitânia Rebelde (Normal)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_NORMAL_class">
+    <mod:setValue>Capitânia Rebelde (Normal)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_NORMAL_class">
+    <mod:setValue>Capitânia Rebelde (Normal)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_NORMAL_DLC_class">
+    <mod:setValue>Capitânia Rebelde (Normal)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_NORMAL_DLC_class">
+    <mod:setValue>Capitânia Rebelde (Normal)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_NORMAL_DLC_class">
+    <mod:setValue>Capitânia Rebelde (Normal)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_HARD_class">
+    <mod:setValue>Capitânia Rebelde (Difícil)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_HARD_class">
+    <mod:setValue>Capitânia Rebelde (Difícil)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_HARD_class">
+    <mod:setValue>Capitânia Rebelde (Difícil)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_HARD_DLC_class">
+    <mod:setValue>Capitânia Rebelde (Difícil)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_HARD_DLC_class">
+    <mod:setValue>Capitânia Rebelde (Difícil)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_HARD_DLC_class">
+    <mod:setValue>Capitânia Rebelde (Difícil)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_DLC_class">
     <mod:setValue>Hacker Zoltan</mod:setValue>
 </mod:findName>

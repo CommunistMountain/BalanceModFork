@@ -34,6 +34,60 @@
 <mod:findName type="text" name="crew_rock_power_1">
     <mod:setValue>Immune to fire (Firefighting +67%)</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_EASY_class">
+    <mod:setValue>Rebel Flagship (Easy)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_EASY_class">
+    <mod:setValue>Rebel Flagship (Easy)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_EASY_class">
+    <mod:setValue>Rebel Flagship (Easy)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_EASY_DLC_class">
+    <mod:setValue>Rebel Flagship (Easy)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_EASY_DLC_class">
+    <mod:setValue>Rebel Flagship (Easy)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_EASY_DLC_class">
+    <mod:setValue>Rebel Flagship (Easy)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_NORMAL_class">
+    <mod:setValue>Rebel Flagship (Normal)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_NORMAL_class">
+    <mod:setValue>Rebel Flagship (Normal)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_NORMAL_class">
+    <mod:setValue>Rebel Flagship (Normal)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_NORMAL_DLC_class">
+    <mod:setValue>Rebel Flagship (Normal)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_NORMAL_DLC_class">
+    <mod:setValue>Rebel Flagship (Normal)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_NORMAL_DLC_class">
+    <mod:setValue>Rebel Flagship (Normal)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_HARD_class">
+    <mod:setValue>Rebel Flagship (Hard)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_HARD_class">
+    <mod:setValue>Rebel Flagship (Hard)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_HARD_class">
+    <mod:setValue>Rebel Flagship (Hard)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_1_HARD_DLC_class">
+    <mod:setValue>Rebel Flagship (Hard)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_2_HARD_DLC_class">
+    <mod:setValue>Rebel Flagship (Hard)</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="ship_BOSS_3_HARD_DLC_class">
+    <mod:setValue>Rebel Flagship (Hard)</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="ship_ZOLTAN_BOMBER_class">
     <mod:setValue>Zoltan Bomber</mod:setValue>
 </mod:findName>
