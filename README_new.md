@@ -31,8 +31,8 @@
     <li>WEAPONS:</li>
     <ol>
         <li>Artemis (enemy version): Rarity from 0 to 2 (now available in stores and random rewards), costs 38.</li>
-        <li>Ion Blast 2: Cost from 70 to 60, power requirement from 3 to 2.</li>
         <li>Heavy Ion: Cooldown from 13s to 10s.</li>
+        <li>Ion Blast 2: Power requirement from 3 to 2, cooldown from 4s to 3.5s.</li>
         <li>Chain Ion: Cooldown from 14s to 8s.</li>
         <li>Laser Charger (both versions): Fire chance from 0% to 10%.</li>
         <li>Laser Charger (player version): Cost from 30 to 60 (sell price from 15 to 30).</li>
@@ -41,6 +41,7 @@
         <li>Burst Laser 1: Rarity from 1 to 3.</li>
         <li>Burst Laser 3: Rarity from 4 to 2, cost from 95 to 70, cooldown from 19s to 14s, fire chance from 0% to 10%.</li>
         <li>Heavy Laser 1: Rarity from 2 to 4, cooldown from 9s to 11s.</li>
+        <li>Heavy Pierce 1: Power requirement from 2 to 1, cooldown from 10s to 15s</li>
         <li>Hull Laser 1: Rarity from 2 to 3, cooldown from 14s to 15s, projectile speed from 75 to 90, fire chance from 0% to 10%, breach chance from 20% to 18%.</li>
         <li>Chain Vulcan: Rarity from 5 to 3, cost from 95 to 80. Starting cooldown from 11.1s to 8.5s, cooldown reduction per shot from -2s to -1.5s (time needed before final cooldown from 35.5s to 27.5s, final cooldown from 1.1s to 1s).</li>
         <li>Flak weapons: removed fake projectiles.</li>
@@ -204,9 +205,9 @@
         <li>Slug Cruisers: Doors level from 2 to 1.</li>
         <li>Slug B: Weapon Control level from 2 to 3. Reactor from 7 to 8.</li>
         <li>Slug C: Weapon Control level from 2 to 3.</li>
-        <li>Rock B: Added an external door to the Backup Battery room. Oxygen level from 2 to 1. Reactor from 8 to 7.</li>
+        <li>Rock B: Added an external door to the Backup Battery room. Oxygen level from 2 to 1.</li>
         <li>Stealth Cruisers: Added level 1 Shields.</li>
-        <li>Stealth A: Engines level from 4 to 3, Weapon Control from level 2 to 3, weapon slots from 3 to 4. Weapons from 1 Mini-Beam and 1 Dual Lasers to 1 Mini-Beam and 1 Basic Laser.</li>
+        <li>Stealth A: Engines level from 4 to 3, weapon slots from 3 to 4.</li>
         <li>Stealth B: Weapon Control level from 4 to 5, weapon slots from 3 to 4. Cloaking level from 2 to 1. Engines level from 2 to 3. Reactor from 7 to 8.</li>
         <li>Stealth C: Added level 2 Sensors. Reactor from 7 to 8.</li>
         <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 2. Reactor from 8 to 7.</li>

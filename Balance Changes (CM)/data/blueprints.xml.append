@@ -142,6 +142,15 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findName type="weaponBlueprint" name="LASER_HEAVY_1_SP">
+    <mod:findLike type="cooldown">
+        <mod:setValue>15</mod:setValue> 
+    </mod:findLike>
+    <mod:findLike type="power">
+        <mod:setValue>1</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findName type="weaponBlueprint" name="CRYSTAL_1">
     <mod:findLike type="damage">
         <mod:setValue>0</mod:setValue>
@@ -265,11 +274,11 @@
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="ION_4">
+    <mod:findLike type="cooldown">
+        <mod:setValue>3.5</mod:setValue>
+    </mod:findLike>
     <mod:findLike type="power">
         <mod:setValue>2</mod:setValue>
-    </mod:findLike>
-    <mod:findLike type="cost">
-        <mod:setValue>60</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
@@ -636,19 +645,9 @@
         <mod:findLike type="shields">
             <mod:setAttributes power="1" start="true"/>
         </mod:findLike>
-        <mod:findLike type="weapons">
-            <mod:setAttributes power="3"/>
-        </mod:findLike>
     </mod:findLike>
     <mod:findLike type="weaponSlots">
         <mod:setValue>4</mod:setValue>
-    </mod:findLike>
-    <mod:findLike type="weaponList">
-        <mod:findLike type="weapon">
-            <mod:removeTag/>
-        </mod:findLike>
-        <mod-append:weapon name="BEAM_1"/>
-        <mod-append:weapon name="LASER_BURST_1"/>
     </mod:findLike>
     <mod:findLike type="aug">
     <mod:selector name="SYSTEM_CASING"/>
@@ -767,9 +766,6 @@
     </mod:findLike>
     <mod:findLike type="weaponList">
         <mod:setAttributes missiles="15"/>
-    </mod:findLike>
-    <mod:findLike type="maxPower">
-        <mod:setAttributes amount="7"/>
     </mod:findLike>
 </mod:findName>
 
