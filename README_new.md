@@ -31,9 +31,11 @@
     <li>WEAPONS:</li>
     <ol>
         <li>Artemis (enemy version): Rarity from 0 to 2 (now available in stores and random rewards), costs 38.</li>
-        <li>Heavy Ion: Cooldown from 13s to 10s.</li>
+        <li>Ion Charger: Stun chance from 0% to 10%.</li>
+        <li>Ion Blast 1: Cooldown from 8s to 10s.</li>
+        <li>Heavy Ion: Cooldown from 13s to 8s, projectile speed from 40 to 30, stun chance from 20% to 10%.</li>
         <li>Ion Blast 2: Power requirement from 3 to 2, cooldown from 4s to 3.5s.</li>
-        <li>Chain Ion: Cooldown from 14s to 8s.</li>
+        <li>Chain Ion: Cooldown from 14s to 8s, stun chance from 0% to 10%.</li>
         <li>Laser Charger (both versions): Fire chance from 0% to 10%.</li>
         <li>Laser Charger (player version): Cost from 30 to 60 (sell price from 15 to 30).</li>
         <li>Basic Laser: Cost from 20 to 30 (sell price from 10 to 15).</li>
@@ -41,7 +43,7 @@
         <li>Burst Laser 1: Rarity from 1 to 3.</li>
         <li>Burst Laser 3: Rarity from 4 to 2, cost from 95 to 70, cooldown from 19s to 14s, fire chance from 0% to 10%.</li>
         <li>Heavy Laser 1: Rarity from 2 to 4, cooldown from 9s to 11s.</li>
-        <li>Heavy Pierce 1: Power requirement from 2 to 1, cooldown from 10s to 15s</li>
+        <li>Heavy Pierce 1: Power requirement from 2 to 1, cooldown from 10s to 15s, stun chance from 0% to 20%.</li>
         <li>Hull Laser 1: Rarity from 2 to 3, cooldown from 14s to 15s, projectile speed from 75 to 90, fire chance from 0% to 10%, breach chance from 20% to 18%.</li>
         <li>Chain Vulcan: Rarity from 5 to 3, cost from 95 to 80. Starting cooldown from 11.1s to 8.5s, cooldown reduction per shot from -2s to -1.5s (time needed before final cooldown from 35.5s to 27.5s, final cooldown from 1.1s to 1s).</li>
         <li>Flak weapons: removed fake projectiles.</li>
@@ -60,7 +62,7 @@
         <li>Breach Bomb 1: Power requirement from 1 to 2, system damage from 1 to 2.</li>
         <li>Fire Bomb: System damage from 0 to 1 (now does damage to supershields because of this), crew damage from 30 to 15.</li>
         <li>Ion Bomb: Cooldown from 22s to 20s.</li>
-        <li>Stun Bomb: Cooldown from 17s to 15s.</li>
+        <li>Stun Bomb: Cooldown from 17s to 12s, stun from 15s to 12s.</li>
         <li>Lock Bomb: Cooldown from 15s to 12s.</li>
         <li>Small Bomb: Rarity from 1 to 4, cost from 45 to 70, fire chance from 10% to 0%.</li>
         <li>Mini-Beam: Cost from 20 to 60 (sell price from 10 to 30). Fire chance from 10% to 0%.</li>

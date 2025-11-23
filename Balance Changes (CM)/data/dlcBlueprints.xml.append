@@ -212,6 +212,11 @@
     <mod:findLike type="cooldown">
         <mod:setValue>8</mod:setValue>
     </mod:findLike>
+    <mod-append:stunChance>1</mod-append:stunChance>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="ION_CHARGEGUN">
+    <mod-append:stunChance>1</mod-append:stunChance>
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="LASER_CHAINGUN_2">

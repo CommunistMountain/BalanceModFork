@@ -149,6 +149,7 @@
     <mod:findLike type="power">
         <mod:setValue>1</mod:setValue>
     </mod:findLike>
+    <mod-append:stunChance>2</mod-append:stunChance>
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="CRYSTAL_1">
@@ -267,9 +268,21 @@
     </mod:findLike>
 </mod:findName>
 
-<mod:findName type="weaponBlueprint" name="ION_2">
+<mod:findName type="weaponBlueprint" name="ION_1">
     <mod:findLike type="cooldown">
         <mod:setValue>10</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="ION_2">
+    <mod:findLike type="speed">
+        <mod:setValue>30</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="stunChance">
+        <mod:setValue>1</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cooldown">
+        <mod:setValue>8</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
