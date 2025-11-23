@@ -99,10 +99,10 @@
         <mod:findLike type="weapon">
             <mod:removeTag/>
         </mod:findLike>
-        <mod-append:weapon name="ION_STUN"/>
-        <mod-append:weapon name="ION_STUN"/>
         <mod-append:weapon name="ION_1"/>
         <mod-append:weapon name="ION_1"/>
+        <mod-append:weapon name="ION_STUN"/>
+        <mod-append:weapon name="ION_STUN"/>
     </mod:findLike>
     <mod:findLike type="droneList">
         <mod:setAttributes drones="0"/>

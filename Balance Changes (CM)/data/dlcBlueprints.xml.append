@@ -171,7 +171,7 @@
     </mod:findLike>
     <mod:findLike type="projectiles">
         <mod:findLike type="projectile">
-            <mod:setAttributes count="2"/>
+            <mod:setAttributes count="1"/>
         </mod:findLike>
     </mod:findLike>
 </mod:findName>
@@ -253,8 +253,11 @@
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="BOMB_STUN">
+    <mod:findLike type="stun">
+        <mod:setValue>12</mod:setValue>
+    </mod:findLike>
     <mod:findLike type="cooldown">
-        <mod:setValue>15</mod:setValue>
+        <mod:setValue>12</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
