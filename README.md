@@ -284,8 +284,8 @@ Continued from Twinge's Balance and Bugfix Mod 4.0.2. This starts at 4.0.3 since
             <li>Slug: 654x436 -> 574x450</li>
             <li>Rock: 654x436 -> 604x446</li>
             <li>Stealth: 700x492 -> 680x476</li>
-            <li>Crystal: 770x484 -> 680x474</li>
             <li>Lanius: 682x562 -> 628x510</li>
+            <li>Crystal: 770x484 -> 680x474</li>
         </ol>
         <li>Repositioned all shields except Engi Cruiser's (values in x, y; higher x = more right, higher y = more down):</li>
         <ol>
@@ -302,10 +302,10 @@ Continued from Twinge's Balance and Bugfix Mod 4.0.2. This starts at 4.0.3 since
             <li>Rock B: -42 0 -> -30 0</li>
             <li>Stealth A and C: -70 0 -> -73 -2</li>
             <li>Stealth B: -70 0 -> -60 1</li>
-            <li>Crystal A: 22 -40 -> 5 -32</li>
-            <li>Crystal B: 22 -40 -> 22 -32</li>
             <li>Lanius A: -30 0 -> -15 -1</li>
             <li>Lanius B: -30 0 -> -32 -1</li>
+            <li>Crystal A: 22 -40 -> 5 -32</li>
+            <li>Crystal B: 22 -40 -> 22 -32</li>
         </ol>
         <li>Shifted 1 door on Slug B.</li>
     </ol>

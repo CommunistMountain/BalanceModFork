@@ -118,14 +118,14 @@
                 <li>Explosive Replicator: rarity from 3 to 0.</li>
             </ol>
             <li>Stealth A: Titanium System Casing is now hidden. Stealth B, Stealth C: added hidden Titanium System Casing.</li>
-            <li>Crystal Cruisers: Crystal Vengeance is now hidden.</li>
-            <ol>
-                <li>Crystal NPC ships now have Crystal Vengeance.</li>
-            </ol>
             <li>Lanius Cruisers: added hidden Reconstructive Teleport, removed Emergency Respirators.</li>
             <ol>
                 <li>Lanius NPC ships now have Reconstructive Teleport.</li>
                 <li>Reconstructive Teleport: Rarity from 3 to 0.</li>
+            </ol>
+            <li>Crystal Cruisers: Crystal Vengeance is now hidden.</li>
+            <ol>
+                <li>Crystal NPC ships now have Crystal Vengeance.</li>
             </ol>
         </ol>
         <li>Changes for hidden augments:</li>
@@ -209,10 +209,10 @@
         <li>Stealth A: Engines level from 4 to 3, Weapon Control from level 2 to 3, weapon slots from 3 to 4. Weapons from 1 Mini-Beam and 1 Dual Lasers to 1 Mini-Beam and 1 Basic Laser.</li>
         <li>Stealth B: Weapon Control level from 4 to 5, weapon slots from 3 to 4. Cloaking level from 2 to 1. Engines level from 2 to 3. Reactor from 7 to 8.</li>
         <li>Stealth C: Added level 2 Sensors. Reactor from 7 to 8.</li>
-        <li>Crystal A: Removed Doors.</li>
-        <li>Crystal B: Weapon slots from 4 to 3. Medbay level from 1 to 2. Reactor from 8 to 7.</li>
         <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 2. Reactor from 8 to 7.</li>
         <li>Lanius B: Removed Clone Bay. Teleporter level from 1 to 3. Added level 1 Sensors. Reactor from 8 to 9.</li>
+        <li>Crystal A: Removed Doors.</li>
+        <li>Crystal B: Weapon slots from 4 to 3. Medbay level from 1 to 2. Reactor from 8 to 7.</li>
     </ol>
     <li>NPC SHIPS:</li>
     <ol>
