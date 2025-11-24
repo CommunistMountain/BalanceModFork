@@ -82,6 +82,48 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findName type="systemBlueprint" name="weapons">
+    <mod:findLike type="upgradeCost">
+        <mod:findLike type="level">
+        <mod:selector>35</mod:selector>
+            <mod:setValue>40</mod:setValue>
+        </mod:findLike>
+        <mod:findLike type="level">
+        <mod:selector>50</mod:selector>
+            <mod:setValue>55</mod:setValue>
+        </mod:findLike>
+        <mod:findLike type="level">
+        <mod:selector>75</mod:selector>
+            <mod:setValue>70</mod:setValue>
+        </mod:findLike>
+        <mod:findLike type="level">
+        <mod:selector>90</mod:selector>
+            <mod:setValue>85</mod:setValue>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="systemBlueprint" name="drones">
+    <mod:findLike type="upgradeCost">
+        <mod:findLike type="level">
+        <mod:selector>45</mod:selector>
+            <mod:setValue>40</mod:setValue>
+        </mod:findLike>
+        <mod:findLike type="level">
+        <mod:selector>60</mod:selector>
+            <mod:setValue>50</mod:setValue>
+        </mod:findLike>
+        <mod:findLike type="level">
+        <mod:selector>80</mod:selector>
+            <mod:setValue>60</mod:setValue>
+        </mod:findLike>
+        <mod:findLike type="level">
+        <mod:selector>100</mod:selector>
+            <mod:setValue>70</mod:setValue>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findName type="systemBlueprint" name="sensors">
     <mod:findLike type="upgradeCost">
         <mod:findLike type="level">
@@ -292,6 +334,9 @@
     </mod:findLike>
     <mod:findLike type="power">
         <mod:setValue>2</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>60</mod:setValue>
     </mod:findLike>
 </mod:findName>
 

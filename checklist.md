@@ -3,8 +3,6 @@
     <li>TODO change text for everything in readme_new that needs it (list them out)</li>
     <li>SYSTEMS:</li>
     <ol>
-        <li>Drone Control: TODO costs</li>
-        <li>Weapon Control: TODO costs</li>
     </ol>
     <li>WEAPONS:</li>
     <ol>
