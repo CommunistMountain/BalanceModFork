@@ -18,6 +18,7 @@
         <hiddenAug>BATTERY_BOOSTER</hiddenAug>
         <hiddenAug>BOARDER_RECOVERY</hiddenAug>
         <hiddenAug>HACKING_USE_MORE_PARTS_CM</hiddenAug>
+        <hiddenAug>TELEPORTER_ARMOR_CM</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_HARD">
         <hiddenAug>FTL_JUMPER_CM</hiddenAug>
@@ -121,12 +122,6 @@
                 <crewTarget>ALLIES</crewTarget>
                 <droneTarget>DRONES</droneTarget>
                 <amount>0.75</amount>
-                <whiteList>
-                    <battle/>
-                    <boarder/>
-                    <boarder_ion/>
-                    <repair/>
-                </whiteList>
             </statBoost>
             <statBoost name="truePassiveHealAmount">
                 <boostType>FLAT</boostType>
@@ -137,12 +132,6 @@
                 <systemPowerDependency>
                     <drones/>
                 </systemPowerDependency>
-                <whiteList>
-                    <battle/>
-                    <boarder/>
-                    <boarder_ion/>
-                    <repair/>
-                </whiteList>
             </statBoost>
         </statBoosts>
     </mod-append:aug>
@@ -158,6 +147,20 @@
         <function name="SLUG_GEL" value="0.083"/>
     </mod-append:aug>
     <mod-append:aug name="HACKING_USE_MORE_PARTS_CM"/>
+    <mod-append:aug name="TELEPORTER_ARMOR_CM">
+        <statBoosts>
+            <statBoost name="damageTakenMultiplier">
+                <boostType>MULT</boostType>
+                <shipTarget>ALL</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+                <droneTarget>CREW</droneTarget>
+                <amount>0.9</amount>
+                <systemPowerDependency>
+                    <teleporter/>
+                </systemPowerDependency>
+            </statBoost>
+        </statBoosts>
+    </mod-append:aug>
 </mod:findLike>
 
 <mod:findLike type="rewards" limit="1">

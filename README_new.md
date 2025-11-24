@@ -28,6 +28,7 @@
         <li>Hacking: Cost from 80 to 100, level 2/3 cost from 35/60 to 50/40. Cost of deploying hacking drone from 1 to 2 drone parts, for the player only (due to limitations in implementation, you can still try to deploy the hacking drone at 1 drone part, but the drone will immediately explode, and no drone parts will be consumed). Drone will explode if the system is depowered while the drone is mid-flight.</li>
         <li>Mind Control: Cost from 75 to 90, level 3 cost from 60 to 55.</li>
         <li>Shields: Level 2/8 cost from 100/100 to 120/120.</li>
+        <li>Teleporter: Crew take -10% damage from combat while it is powered and not hacked.</li>
         <li>Weapons Control: Level 4/5/6/7 cost from 35/50/75/90 to 40/55/70/85.</li>
     </ol>
     <li>WEAPONS:</li>

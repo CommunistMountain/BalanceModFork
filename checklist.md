@@ -1,9 +1,6 @@
 # Balance Changes (CM)
 <ol>
     <li>TODO change text for everything in readme_new that needs it (list them out)</li>
-    <li>SYSTEMS:</li>
-    <ol>
-    </ol>
     <li>WEAPONS:</li>
     <ol>
         <li>Flak Artillery: shield piercing from 0 to 5, damage from 1 to 0, now heals your crew by 150 per projectile. (TODO check if it's enough that it hits a room, or it needs to hit the tile to work. If the former, heal can afford to be less) (TODO 2 find out how to apply heal, maybe need LUA, and remove persDamage since it doesnt work)</li>
