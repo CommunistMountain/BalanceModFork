@@ -21,32 +21,4 @@
         </mod:findLike>
     </mod:findLike>
 </mod:findName>
-
-<mod:findName type="event" name="ENGI_VIRUS">
-    <mod:findLike type="choice">
-        <mod:findLike type="event">
-            <mod:findLike type="choice">
-                <mod:findLike type="event">
-                    <mod:findLike type="augment">
-                        <mod:setAttributes name="DRONE_SPEED_CM"/>
-                    </mod:findLike>
-                    <mod:findLike type="choice">
-                        <mod:findLike type="event">
-                            <mod:findLike type="augment">
-                                <mod:setAttributes name="DRONE_SPEED_CM"/>
-                            </mod:findLike>
-                            <mod:findLike type="choice">
-                                <mod:findLike type="event">
-                                    <mod:findLike type="augment">
-                                        <mod:setAttributes name="DRONE_SPEED_CM"/>
-                                    </mod:findLike>
-                                </mod:findLike>
-                            </mod:findLike>
-                        </mod:findLike>
-                    </mod:findLike>
-                </mod:findLike>
-            </mod:findLike>
-        </mod:findLike>
-    </mod:findLike>
-</mod:findName>
 </FTL>

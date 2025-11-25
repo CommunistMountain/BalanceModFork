@@ -27,22 +27,11 @@
 
 <mod:findComposite>
     <mod:par op="OR">
-        <mod:findName type="shipBlueprint" name="ROCK_SCOUT_DLC"/>
-        <mod:findName type="shipBlueprint" name="ROCK_FIGHT_DLC"/>
-        <mod:findName type="shipBlueprint" name="ROCK_ASSAULT_DLC"/>
-    </mod:par>
-    <mod:findLike type="aug">
-        <mod:setAttributes name="ROCK_ARMOR_CM"/>
-    </mod:findLike>
-</mod:findComposite>
-
-<mod:findComposite>
-    <mod:par op="OR">
         <mod:findName type="shipBlueprint" name="MANTIS_SCOUT_DLC"/>
         <mod:findName type="shipBlueprint" name="MANTIS_FIGHTER_DLC"/>
         <mod:findName type="shipBlueprint" name="MANTIS_BOMBER_DLC"/>
     </mod:par>
-    <mod-append:aug name="CREW_STIMS_CM"/>
+    <mod-append:aug name="CREW_STIMS"/>
 </mod:findComposite>
 
 <mod:findName type="shipBlueprint" name="MANTIS_FIGHTER_DLC">
@@ -59,7 +48,7 @@
         <mod:findName type="shipBlueprint" name="CIRCLE_BOMBER_DLC"/>
     </mod:par>
     <mod:findLike type="aug">
-        <mod:setAttributes name="DRONE_SPEED_CM"/>
+        <mod:setAttributes name="DRONE_SPEED"/>
     </mod:findLike>
 </mod:findComposite>
 

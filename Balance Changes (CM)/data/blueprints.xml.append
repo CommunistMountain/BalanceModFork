@@ -503,18 +503,22 @@
     </mod:findLike>
 </mod:findComposite>
 
-<mod:findName type="augBlueprint" name="CRYSTAL_SHARDS">
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="augBlueprint" name="ROCK_ARMOR"/>
+        <mod:findName type="augBlueprint" name="CRYSTAL_SHARDS"/>
+        <mod:findName type="augBlueprint" name="ENERGY_SHIELD"/>
+        <mod:findName type="augBlueprint" name="SLUG_GEL"/>
+        <mod:findName type="augBlueprint" name="SYSTEM_CASING"/>
+    </mod:par>
     <mod:findLike type="cost">
         <mod:setValue>50</mod:setValue>
     </mod:findLike>
+</mod:findComposite>
+
+<mod:findName type="augBlueprint" name="CRYSTAL_SHARDS">
     <mod:findLike type="value">
         <mod:setValue>1</mod:setValue>
-    </mod:findLike>
-</mod:findName>
-
-<mod:findName type="augBlueprint" name="ENERGY_SHIELD">
-    <mod:findLike type="cost">
-        <mod:setValue>50</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
@@ -524,18 +528,6 @@
     </mod:findLike>
     <mod:findLike type="rarity">
         <mod:setValue>2</mod:setValue>
-    </mod:findLike>
-</mod:findName>
-
-<mod:findName type="augBlueprint" name="SLUG_GEL">
-    <mod:findLike type="cost">
-        <mod:setValue>50</mod:setValue>
-    </mod:findLike>
-</mod:findName>
-
-<mod:findName type="augBlueprint" name="SYSTEM_CASING">
-    <mod:findLike type="cost">
-        <mod:setValue>50</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
@@ -586,38 +578,6 @@
         <mod:setValue>3</mod:setValue>
     </mod:findLike>
 </mod:findName>
-
-<augBlueprint name="FTL_JUMPER_CM">
-	<title id="aug_FTL_JUMPER_title"/>
-	<desc id="aug_FTL_JUMPER_CM_desc"/>
-	<cost>50</cost>
-	<rarity>0</rarity>
-	<stackable>false</stackable>
-</augBlueprint>
-
-<augBlueprint name="DRONE_SPEED_CM">
-	<title id="aug_DRONE_SPEED_title"/>
-	<desc id="aug_DRONE_SPEED_CM_desc"/>
-	<cost>50</cost>
-	<rarity>0</rarity>
-	<stackable>false</stackable>
-</augBlueprint>
-
-<augBlueprint name="CREW_STIMS_CM">
-	<title id="aug_CREW_STIMS_title"/>
-	<desc id="aug_CREW_STIMS_CM_desc"/>
-	<cost>50</cost>
-	<rarity>0</rarity>
-	<stackable>false</stackable>
-</augBlueprint>
-
-<augBlueprint name="ROCK_ARMOR_CM">
-	<title id="aug_ROCK_ARMOR_title"/>
-	<desc id="aug_ROCK_ARMOR_CM_desc"/>
-	<cost>50</cost>
-	<rarity>0</rarity>
-	<stackable>false</stackable>
-</augBlueprint>
 
 <mod:findComposite>
     <mod:par op="OR">

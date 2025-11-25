@@ -21,22 +21,22 @@
         <hiddenAug>TELEPORTER_ARMOR_CM</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_HARD">
-        <hiddenAug>FTL_JUMPER_CM</hiddenAug>
+        <hiddenAug>FTL_JUMPER</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_HARD_2">
-        <hiddenAug>FTL_JUMPER_CM</hiddenAug>
+        <hiddenAug>FTL_JUMPER</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_HARD_3">
-        <hiddenAug>FTL_JUMPER_CM</hiddenAug>
+        <hiddenAug>FTL_JUMPER</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_CIRCLE">
-        <hiddenAug>DRONE_SPEED_CM</hiddenAug>
+        <hiddenAug>DRONE_SPEED</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_CIRCLE_2">
-        <hiddenAug>DRONE_SPEED_CM</hiddenAug>
+        <hiddenAug>DRONE_SPEED</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_CIRCLE_3">
-        <hiddenAug>DRONE_SPEED_CM</hiddenAug>
+        <hiddenAug>DRONE_SPEED</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_FED">
         <systemLimit>9</systemLimit>
@@ -57,13 +57,13 @@
         <hiddenAug>ENERGY_SHIELD</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_MANTIS">
-        <hiddenAug>CREW_STIMS_CM</hiddenAug>
+        <hiddenAug>CREW_STIMS</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_MANTIS_2">
-        <hiddenAug>CREW_STIMS_CM</hiddenAug>
+        <hiddenAug>CREW_STIMS</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_MANTIS_3">
-        <hiddenAug>CREW_STIMS_CM</hiddenAug>
+        <hiddenAug>CREW_STIMS</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_JELLY">
         <hiddenAug>SLUG_GEL</hiddenAug>
@@ -75,13 +75,13 @@
         <hiddenAug>SLUG_GEL</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_ROCK">
-        <hiddenAug>ROCK_ARMOR_CM</hiddenAug>
+        <hiddenAug>ROCK_ARMOR</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_ROCK_2">
-        <hiddenAug>ROCK_ARMOR_CM</hiddenAug>
+        <hiddenAug>ROCK_ARMOR</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_ROCK_3">
-        <hiddenAug>ROCK_ARMOR_CM</hiddenAug>
+        <hiddenAug>ROCK_ARMOR</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_STEALTH">
         <hiddenAug>SYSTEM_CASING</hiddenAug>
@@ -107,14 +107,12 @@
 </mod:findLike>
 
 <mod:findLike type="augments" limit="1">
-    <mod-append:aug name="FTL_JUMPER_CM">
+    <mod-append:aug name="FTL_JUMPER_EXTENSION_CM">
         <function name="FTL_BOOSTER"/>
-        <function name="FTL_JAMMER" warning="false"/>
-        <function name="FTL_JUMPER" warning="false"/>
+        <function name="FTL_JAMMER"/>
     </mod-append:aug>
-    <mod-append:aug name="DRONE_SPEED_CM">
-        <function name="DRONE_RECOVERY" warning="false"/>
-        <function name="DRONE_SPEED" value="1" warning="false"/>
+    <mod-append:aug name="DRONE_SPEED_EXTENSION_CM">
+        <function name="DRONE_RECOVERY"/>
         <statBoosts>
             <statBoost name="healSpeed">
                 <boostType>SET</boostType>
@@ -135,13 +133,11 @@
             </statBoost>
         </statBoosts>
     </mod-append:aug>
-    <mod-append:aug name="CREW_STIMS_CM">
-        <function name="CREW_STIMS" warning="false"/>
-        <function name="FIRE_EXTINGUISHERS" value="0.6" warning="false"/>
+    <mod-append:aug name="CREW_STIMS_EXTENSION_CM">
+        <function name="FIRE_EXTINGUISHERS" value="0.6"/>
     </mod-append:aug>
-    <mod-append:aug name="ROCK_ARMOR_CM">
-        <function name="ROCK_ARMOR" warning="false"/>
-        <function name="EXPLOSIVE_REPLICATOR" value="0.2" warning="false"/>
+    <mod-append:aug name="ROCK_ARMOR_EXTENSION_CM">
+        <function name="EXPLOSIVE_REPLICATOR" value="0.2"/>
     </mod-append:aug>
     <mod-append:aug name="SLUG_GEL_SLOW_CM">
         <function name="SLUG_GEL" value="0.083"/>
