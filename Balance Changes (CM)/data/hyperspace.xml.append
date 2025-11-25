@@ -139,8 +139,19 @@
     <mod-append:aug name="ROCK_ARMOR_EXTENSION_CM">
         <function name="EXPLOSIVE_REPLICATOR" value="0.2"/>
     </mod-append:aug>
-    <mod-append:aug name="SLUG_GEL_SLOW_CM">
-        <function name="SLUG_GEL" value="0.083"/>
+    <mod-append:aug name="NANO_MEDBAY_EXTENSION_CM">
+        <statBoosts>
+            <statBoost name="passiveHealAmount">
+                <boostType>FLAT</boostType>
+                <shipTarget>ORIGINAL_OTHER_SHIP</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+                <droneTarget>CREW</droneTarget>
+                <amount>1.6</amount>
+                <systemPowerDependency>
+                    <medbay/>
+                </systemPowerDependency>
+            </statBoost>
+        </statBoosts>
     </mod-append:aug>
     <mod-append:aug name="HACKING_USE_MORE_PARTS_CM"/>
     <mod-append:aug name="TELEPORTER_ARMOR_CM">
@@ -156,6 +167,9 @@
                 </systemPowerDependency>
             </statBoost>
         </statBoosts>
+    </mod-append:aug>
+    <mod-append:aug name="SLUG_GEL_SLOW_CM">
+        <function name="SLUG_GEL" value="0.083"/>
     </mod-append:aug>
 </mod:findLike>
 

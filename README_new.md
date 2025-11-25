@@ -263,7 +263,7 @@
         <li>FUEL_FOR_DRONE: Drone parts received from 1-3 to 2-4.</li>
         <li>LANIUS_RESEARCHER_CRAFT: Choosing to craft an augment now always gives Reconstructive Teleport instead of a random AE augment.</li>
         <li>NEBULA_SLUG_FIGHT_UNLOCK: Completing the event chain gives Anti-Bio Beam on top of other rewards.</li>
-        <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire").</li>
+        <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire"). Note that you also need Drone Control for Fire Drone to be valid.</li>
         <li>ROCK_CRYSTAL_BEACON: This event will happen again if you choose not to scrap the ancient device, and revisit the beacon later. (Due to limitations in implementation, if you run out of fuel at this beacon, get one of the out-of-fuel events, then gain fuel and leave, revisiting this beacon will not give this event again.)</li>
         <li>ROCK_STARSHIP_MINE: Engines blue option level requirement from 5 to 3.</li>
         <li>ROCK_UNLOCK: Completing the event chain gives a Rock crew and Fire Bomb on top of other rewards.</li>

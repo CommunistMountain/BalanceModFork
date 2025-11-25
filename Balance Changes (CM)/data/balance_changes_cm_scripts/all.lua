@@ -1,5 +1,7 @@
 local lastSector = 0
 local getLastSector = false
+local vanillaAugs = {"CREW_STIMS", "DRONE_SPEED", "FTL_JUMPER", "NANO_MEDBAY", "ROCK_ARMOR"}
+local vanillaAugExtensions = {"CREW_STIMS_EXTENSION_CM", "DRONE_SPEED_EXTENSION_CM", "FTL_JUMPER_EXTENSION_CM", "NANO_MEDBAY_EXTENSION_CM", "ROCK_ARMOR_EXTENSION_CM"}
 
 script.on_game_event("BOSS_AUTOMATED", false, function()
     local enemyShipManager = Hyperspace.Global.GetInstance():GetShipManager(1)
@@ -47,6 +49,14 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
         if currentSector ~= nil then
             lastSector = currentSector.level
             getLastSector = false
+        end
+    end
+    
+    for i=1, #vanillaAugs do
+        if shipManager:HasAugmentation(vanillaAugExtensions[i]) < shipManager:HasAugmentation(vanillaAugs[i]) then
+            shipManager:AddAugmentation("HIDDEN " .. vanillaAugExtensions[i])
+        elseif shipManager:HasAugmentation(vanillaAugExtensions[i]) > shipManager:HasAugmentation(vanillaAugs[i]) then
+            shipManager:RemoveAugmentation("HIDDEN " .. vanillaAugExtensions[i])
         end
     end
     
