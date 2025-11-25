@@ -10,11 +10,7 @@
     <li>AUGMENTS:</li>
     <ol>
         <li>Drone Recovery Arm (component of Drone Reactor Booster): Drone recovery chance from 100% to 20% (rolled independently for each drone). (TODO recreate the effect, test that it includes/excludes the right drones and recover at the right times e.g. Hull Repair cannot be retrieved, and difference between combat and defense, THEN add the percentage)</li>
-        <li>Hacking Stun: Stun no longer affects friendly crew. Now also sets the cost of deploying Hacking drone from 2 drone parts back to 1. (todo don't hardcode friendly and enemy, so enemies can potentially use it)</li>
-    </ol>
-    <li>PLAYER SHIPS (other than augment changes above):</li>
-    <ol>
-        <li>Rock B: Added an external door to the Backup Battery room. (TODO remember to change floor image)</li>
+        <li>Hacking Stun: Stun no longer affects friendly crew. (todo don't hardcode friendly and enemy, so enemies can potentially use it)</li>
     </ol>
     <li>NPC SHIPS:</li>
     <ol>

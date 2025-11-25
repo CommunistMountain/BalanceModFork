@@ -531,6 +531,12 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findName type="augBlueprint" name="DRONE_SPEED">
+    <mod:findLike type="value">
+        <mod:setValue>1</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findName type="augBlueprint" name="ION_ARMOR">
     <mod:findLike type="cost">
         <mod:setValue>20</mod:setValue>
