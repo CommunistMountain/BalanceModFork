@@ -139,7 +139,7 @@
             <li>All hidden augments now cost 50 (and thus sell for 25 if obtained from an event).</li>
             <li>Advanced FTL Navigation: Travelling to a previously visited beacon refunds 1 fuel (you still need 1 fuel to make the jump) and delays the Rebel Fleet by 1. (Beacons that are about to be taken over will still have ASB and an Elite upon arrival.)</li>
             <li>Crystal Vengeance: Effect chance from 10% to 100%, damage from 1 to 0, breach chance from 10% to 100%, stun chance from 20% to 100%.</li>
-            <li>Drone Reactor Booster: Crew and Boarding drones speed boost from +25% to +100%. Crew drones heal in Drone Control from +1.28HP/s to +6.4HP/s (if powered). Crew and Boarding drones heal outside Drone Control at +1.6HP/s (if powered).</li>
+            <li>Drone Reactor Booster: Crew and Boarding drones speed boost from +25% to +100%. Crew drones heal in Drone Control from +1.28HP/s to +6.4HP/s (if powered and not hacked). Crew and Boarding drones heal outside Drone Control at +1.6HP/s (if powered and not hacked).</li>
             <li>Drone Recovery Arm (component of Drone Reactor Booster): Drone recovery chance from 100% to 20% (rolled independently for each drone).</li>
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
             <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 83% of Human to 50% of Human.</li>

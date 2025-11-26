@@ -52,6 +52,12 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
         end
     end
     
+    if shipManager.iShipId == 0 then -- if-block for player-specific actions
+        if shipManager:HasAugmentation("HACKING_USE_MORE_PARTS_CM") <= 0 then
+            shipManager:AddAugmentation("HIDDEN HACKING_USE_MORE_PARTS_CM")
+        end
+    end
+    
     for i=1, #vanillaAugs do
         if shipManager:HasAugmentation(vanillaAugExtensions[i]) < shipManager:HasAugmentation(vanillaAugs[i]) then
             shipManager:AddAugmentation("HIDDEN " .. vanillaAugExtensions[i])

@@ -31,7 +31,6 @@
     <mod-append:customShip>
         <hiddenAug>BATTERY_BOOSTER</hiddenAug>
         <hiddenAug>BOARDER_RECOVERY</hiddenAug>
-        <hiddenAug>HACKING_USE_MORE_PARTS_CM</hiddenAug>
         <hiddenAug>TELEPORTER_ARMOR_CM</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_HARD">
@@ -134,6 +133,15 @@
                 <crewTarget>ALLIES</crewTarget>
                 <droneTarget>DRONES</droneTarget>
                 <amount>0.75</amount>
+                <systemPowerDependency>
+                    <drones/>
+                </systemPowerDependency>
+                <systemPowerScaling>
+                    <noSys>0</noSys>
+                    <hackedSys>0</hackedSys>
+                    <noPwr>0</noPwr>
+                    <morePwr>1</morePwr>
+                </systemPowerScaling>
             </statBoost>
             <statBoost name="truePassiveHealAmount">
                 <boostType>FLAT</boostType>
@@ -144,6 +152,12 @@
                 <systemPowerDependency>
                     <drones/>
                 </systemPowerDependency>
+                <systemPowerScaling>
+                    <noSys>0</noSys>
+                    <hackedSys>0</hackedSys>
+                    <noPwr>0</noPwr>
+                    <morePwr>1</morePwr>
+                </systemPowerScaling>
             </statBoost>
         </statBoosts>
     </mod-append:aug>
@@ -167,7 +181,6 @@
             </statBoost>
         </statBoosts>
     </mod-append:aug>
-    <mod-append:aug name="HACKING_USE_MORE_PARTS_CM"/>
     <mod-append:aug name="TELEPORTER_ARMOR_CM">
         <statBoosts>
             <statBoost name="damageTakenMultiplier">
@@ -179,9 +192,16 @@
                 <systemPowerDependency>
                     <teleporter/>
                 </systemPowerDependency>
+                <systemPowerScaling>
+                    <noSys>0</noSys>
+                    <hackedSys>0</hackedSys>
+                    <noPwr>0</noPwr>
+                    <morePwr>1</morePwr>
+                </systemPowerScaling>
             </statBoost>
         </statBoosts>
     </mod-append:aug>
+    <mod-append:aug name="HACKING_USE_MORE_PARTS_CM"/>
     <mod-append:aug name="SLUG_GEL_SLOW_CM">
         <function name="SLUG_GEL" value="0.083"/>
     </mod-append:aug>
