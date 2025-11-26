@@ -26,15 +26,15 @@ script.on_internal_event(Defines.InternalEvents.JUMP_ARRIVE, function(shipManage
     local starMap = Hyperspace.Global.GetInstance():GetCApp().world.starMap
     if starMap.currentSector.level > lastSector then
         starMap:ModifyPursuit(math.min(1 - shipManager:HasAugmentation("FLEET_DISTRACTION"), 0))
-    end
-    lastSector = starMap.currentSector.level
     
-    if shipManager:HasAugmentation("FTL_JUMPER") > 0 then
+    elseif starMap.currentSector.level == lastSector and shipManager:HasAugmentation("FTL_JUMPER") > 0 then
         if starMap.currentLoc.visited > 1 then
             shipManager.fuel_count = shipManager.fuel_count + 1
             starMap:ModifyPursuit(-1)
         end
     end
+    
+    lastSector = starMap.currentSector.level
 end)
 
 script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projectile, projectileFactory)
