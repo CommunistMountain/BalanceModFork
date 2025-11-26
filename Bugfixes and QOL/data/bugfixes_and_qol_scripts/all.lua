@@ -1,5 +1,5 @@
 script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
-    if shipManager.iShipId == 0 then  -- if-block for all player-specific checks
+    if shipManager.iShipId == 0 then  -- for all player-specific checks
         local hackingSystem = shipManager.hackingSystem
         if hackingSystem ~= nil and hackingSystem.spendDrone == 1 then
             hackingSystem.spendDrone = 0 -- don't use this method, directly modify drone count

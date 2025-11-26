@@ -87,7 +87,7 @@ end
 script.on_game_event("START_BEACON", false, function() return initSpeedButtons(false) end)
 script.on_init(function() return initSpeedButtons(true) end)
 
-script.on_render_event(Defines.RenderEvents.GUI_CONTAINER, function() end, function()
+script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function()
     if Hyperspace.metaVariables.speedui_setting == 1 then
         local mousePos = Hyperspace.Mouse.position
         if not Hyperspace.FPS.speedEnabled or Hyperspace.metaVariables.speedui_speed == 0 then
