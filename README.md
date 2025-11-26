@@ -154,10 +154,7 @@ Mod order:
 
 ## QOL (non-gameplay)
 <ol>
-    <li>Game time while unpaused will be displayed when defeating the Flagship. 2 times will be displayed: first based on real-time ticks (unaffected by Speed UI changes), and second based on frame ticks (affected by Speed UI changes).</li>
-    <ol>
-        <li>Due to limitations in implementation, timers will not be reset if you restart a game mid-run; you will have to quit to hangar and start a new run.</li>
-    </ol>
+    <li>Timers will be displayed when defeating the Flagship. First includes time paused, second excludes time paused.</li>
     <li>redesignedWeaponTooltips: Shows more information about weapons.</li>
     <li>redesignedDroneTooltips: Shows more information about drones.</li>
     <li>redesignedAugmentTooltips: Shows more information about augments.</li>

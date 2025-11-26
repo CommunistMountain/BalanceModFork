@@ -23,7 +23,7 @@ script.on_internal_event(Defines.InternalEvents.GET_DODGE_FACTOR, function(shipM
 end)
 
 script.on_internal_event(Defines.InternalEvents.JUMP_ARRIVE, function(shipManager)
-    local starMap = Hyperspace.Global.GetInstance():GetCApp().world.starMap
+    local starMap = Hyperspace.App.world.starMap
     if starMap.currentSector.level > lastSector then
         starMap:ModifyPursuit(math.min(1 - shipManager:HasAugmentation("FLEET_DISTRACTION"), 0))
     
@@ -45,7 +45,7 @@ end)
 
 script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
     if getLastSector then
-        local currentSector = Hyperspace.Global.GetInstance():GetCApp().world.starMap.currentSector
+        local currentSector = Hyperspace.App.world.starMap.currentSector
         if currentSector ~= nil then
             lastSector = currentSector.level
             getLastSector = false
