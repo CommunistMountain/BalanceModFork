@@ -33,4 +33,24 @@
         <mod:setAttributes amount="31"/>
     </mod:findLike>
 </mod:findName>
+
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findName type="shipBlueprint" name="BOSS_1_EASY_DLC"/>
+        <mod:findName type="shipBlueprint" name="BOSS_2_EASY_DLC"/>
+        <mod:findName type="shipBlueprint" name="BOSS_3_EASY_DLC"/>
+        <mod:findName type="shipBlueprint" name="BOSS_1_NORMAL_DLC"/>
+        <mod:findName type="shipBlueprint" name="BOSS_2_NORMAL_DLC"/>
+        <mod:findName type="shipBlueprint" name="BOSS_3_NORMAL_DLC"/>
+        <mod:findName type="shipBlueprint" name="BOSS_1_HARD_DLC"/>
+        <mod:findName type="shipBlueprint" name="BOSS_2_HARD_DLC"/>
+        <mod:findName type="shipBlueprint" name="BOSS_3_HARD_DLC"/>
+    </mod:par>
+    <mod:findLike type="systemList">
+        <mod:findLike type="medbay">
+            <mod:setAttributes power="2"/>
+        </mod:findLike>
+        <mod-append:clonebay power="1" room="6"/>
+    </mod:findLike>
+</mod:findComposite>
 </FTL>

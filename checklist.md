@@ -12,15 +12,9 @@
         <li>Drone Recovery Arm (component of Drone Reactor Booster): Drone recovery chance from 100% to 20% (rolled independently for each drone). (TODO recreate the effect, test that it includes/excludes the right drones and recover at the right times e.g. Hull Repair cannot be retrieved, and difference between combat and defense, THEN add the percentage)</li>
         <li>Hacking Stun: Stun no longer affects friendly crew. (todo don't hardcode friendly and enemy, so enemies can potentially use it)</li>
     </ol>
-    <li>NPC SHIPS:</li>
-    <ol>
-        <li>Flagship (AE versions): Medbay level from 3 to 2, added level 1 Clone Bay in the room to the right of Medbay.</li>
-        <li>Flagship (Hard version): In Phase 1, there are extra rooms between each side's 2 Artilleries, connecting all of them, and no room between laser/missile Artilleries and Shields. In Phase 2, the left extra room will be destroyed, but a new room will appear between laser Artillery and Shields. Likewise for the right extra room in Phase 3, so Phase 3 has vanilla Hard's layout.</li>
-    </ol>
     <li>EVENTS:</li>
     <ol>
         <li>(TODO more events for Lifeform Scanner just like Twinge. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates. Actually, some LRS blues should be replaced with Life Scanner if it's against lifeforms)</li>
-        <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire").</li>
     </ol>
     <li>MECHANICS:</li>
     <ol>

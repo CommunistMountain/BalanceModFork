@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="event_QUEST_CREWDEAD_START_2_c5_choice">
+    <mod:setValue>（火）「クルーを焙りだそう」と伝える。</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_c1_text">
     <mod:setValue>ポッドの扉が滑るように開き、蘇った異星人が外へ歩み出た。蘇ったそれがゆっくりと話す。「こんにちは。君には借りができたようだ。長らく孤立してきた我が種族も、絆を結び直す時かもしれない。ロックの母星の近くに、秘密のワームホールがある。私が然るべき礼を果たせるよう、そこまで連れていってくれないか？」</mod:setValue>
 </mod:findName>

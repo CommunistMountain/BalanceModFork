@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="event_QUEST_CREWDEAD_START_2_c5_choice">
+    <mod:setValue>(Feu) Proposer de brûler l'équipage du vaisseau.</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_c1_text">
     <mod:setValue>Le caisson s'ouvre et l'alien reconstitué en sort. Il parle lentement : "Salutations. Il semblerait que je sois votre débiteur. Voilà longtemps que les miens se sont isolés, mais peut-être est-il temps de rétablir des liens avec les autres espèces. Il y a un vortex près des mondes natals des Rocailleux. Vous pourriez peut-être m'y conduire afin que je puisse vous dédommager comme il se doit ?"</mod:setValue>
 </mod:findName>

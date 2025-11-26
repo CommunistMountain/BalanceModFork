@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="event_QUEST_CREWDEAD_START_2_c5_choice">
+    <mod:setValue>(불) 그들의 선원을 태워버릴것을 제안한다</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_c1_text">
     <mod:setValue>장치의 문이 열리고, 재구성된 외계인이 걸어나왔습니다. 그 외계인이 천천히 말하기 시작합니다. "반갑소. 그대에게는 빚을 진 듯 싶군. 나의 일족은 오래 전 세상으로부터 떨어져 나와 지냈으나, 이제는 다시 모습을 드러내야 할 때인듯 싶군. 락맨들의 모행성계에 숨겨진 웜홀이 있을거요. 나를 그곳으로 데려가주어 은혜를 갚을 수 있도록 해주시겠소?"</mod:setValue>
 </mod:findName>

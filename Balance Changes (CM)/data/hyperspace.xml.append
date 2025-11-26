@@ -14,6 +14,20 @@
 </mod:findLike>
 
 <mod:findLike type="ships" limit="1">
+    <mod:findComposite>
+        <mod:par op="OR">
+            <mod:findName type="customShip" name="BOSS_1_EASY_DLC"/>
+            <mod:findName type="customShip" name="BOSS_2_EASY_DLC"/>
+            <mod:findName type="customShip" name="BOSS_3_EASY_DLC"/>
+            <mod:findName type="customShip" name="BOSS_1_NORMAL_DLC"/>
+            <mod:findName type="customShip" name="BOSS_2_NORMAL_DLC"/>
+            <mod:findName type="customShip" name="BOSS_3_NORMAL_DLC"/>
+            <mod:findName type="customShip" name="BOSS_1_HARD_DLC"/>
+            <mod:findName type="customShip" name="BOSS_2_HARD_DLC"/>
+            <mod:findName type="customShip" name="BOSS_3_HARD_DLC"/>
+        </mod:par>
+        <mod-append:exclusivityOverride/>
+    </mod:findComposite>
     <mod-append:customShip>
         <hiddenAug>BATTERY_BOOSTER</hiddenAug>
         <hiddenAug>BOARDER_RECOVERY</hiddenAug>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="text" name="event_QUEST_CREWDEAD_START_2_c5_choice">
+    <mod:setValue>(Feuer) Anbieten, die Crew auszuräuchern.</mod:setValue>
+</mod:findName>
 <mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_c1_text">
     <mod:setValue>Die Kapsel gleitet auf und das wiederhergestellte Alien tritt heraus. Es spricht langsam: "Hallo. Ich scheine in Ihrer Schuld zu stehen. Mein Volk hat sich vor langer Zeit isoliert, aber vielleicht ist die Zeit gekommen, eine neue Verbindung herzustellen. Es gibt ein verborgenes Wurmloch bei den Heimatwelten der Felis. Würden Sie mich dorthin bringen, dann ich Sie angemessen bezahlen?"</mod:setValue>
 </mod:findName>
