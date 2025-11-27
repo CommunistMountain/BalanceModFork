@@ -207,7 +207,7 @@ Mod order:
     <li>systemNoPurchaseThreshold: Visual fix for high system costs so that they are limited to a certain number of digits (I chose 3), and if it's any higher, the cost is replaced with "--".</li>
 </ol>
 
-#Balance Changes (Twinge)
+# Balance Changes (Twinge)
 Continued from Twinge's Balance and Bugfix Mod 4.0.2. This starts at 4.0.3 since it is not exactly the same, I fixed some errors in 4.0.2. Importantly, this now uses xml.append files instead of xml files, allowing it to be compatible with more mods. Most Bugfixes/QOL have been moved to the Bugfixes and QOL mod, and those that remain are what I think are not really bugs. (TODO, WIP)
 
 ## Gameplay Changes
