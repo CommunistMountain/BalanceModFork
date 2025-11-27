@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
-<mod:findName type="weaponBlueprint" name="BEAM_1">
-    <mod:findLike type="length">
-        <mod:setValue>47</mod:setValue>
-    </mod:findLike>
-</mod:findName>
-
-<mod:findName type="weaponBlueprint" name="BEAM_2">
-    <mod:findLike type="length">
-        <mod:setValue>82</mod:setValue>
-    </mod:findLike>
-</mod:findName>
-
-<mod:findName type="weaponBlueprint" name="BEAM_3">
-    <mod:findLike type="length">
-        <mod:setValue>82</mod:setValue>
-    </mod:findLike>
-</mod:findName>
-
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_2">
     <mod:findLike type="crewCount">
         <mod:removeTag/>
