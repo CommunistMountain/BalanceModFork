@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="eventList" name="STORM_SLUG">
+    <mod:setAttributes name="NEBULA_STORM_SLUG"/>
+</mod:findName>
+
 <mod:findComposite>
     <mod:par op="OR">
         <mod:findName type="event" name="SLUG_DISTRESS_TRICK"/>
@@ -8,8 +12,4 @@
     </mod:par>
     <mod-append:distressBeacon/>
 </mod:findComposite>
-
-<mod:findName type="eventList" name="STORM_SLUG">
-    <mod:setAttributes name="NEBULA_STORM_SLUG"/>
-</mod:findName>
 </FTL>

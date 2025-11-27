@@ -41,7 +41,7 @@ Mod order:
         <li>ESCORT_BEACON and QUEST_ESCORT: extended the conversation when you get the reactor upgrade outcome, so that revisiting the beacon multiple times will not upgrade your reactor again for free.</li>
         <li>MERCHANT_REQUEST: Added missing Lifeform Scanner blue option from the STATION_SICK event as intended.</li>
         <li>ROCK_STARSHIP_MINE: Fixed missile option not requiring 1 missile.</li>
-        <li>STORM_BOARDING, STORM_REBEL, STORM_SLUG_FIGHT: These events no longer appear to be at non-nebula beacons on the map in Slug Controlled Nebula and Slug Home Nebula, and will slow the Rebel Fleet appropriately.</li>
+        <li>STORM_BOARDING, STORM_REBEL, STORM_SLUG_FIGHT: These events no longer appear at non-nebula beacons on the map (will slow the Rebel Fleet appropriately).</li>
         <li>TRADER_UPGRADES_EXCHANGE: You are now prevented from selecting the option to upgrade your reactor if you are at 25 reactor.</li>
         <ol>
             <li>Note for modders: Mods with ships that have reactor limits above 25 will be impacted. Undo/edit this change if necessary.</li>
