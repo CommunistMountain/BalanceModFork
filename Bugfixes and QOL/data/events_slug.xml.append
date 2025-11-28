@@ -7,8 +7,19 @@
 
 <mod:findComposite>
     <mod:par op="OR">
-        <mod:findName type="event" name="SLUG_DISTRESS_TRICK"/>
+        <mod:findName type="event" name="SLUG_UNLOCK_1"/>
+        <mod:findName type="event" name="QUEST_SLUG_PIRATE_TRAP2"/>
+    </mod:par>
+    <mod-append:quest>
+        <nonNebulaBeacon>false</nonNebulaBeacon>
+        <nebulaBeacon>true</nebulaBeacon>
+    </mod-append:quest>
+</mod:findComposite>
+
+<mod:findComposite>
+    <mod:par op="OR">
         <mod:findName type="event" name="SLUG_DISTRESS_RESCUE"/>
+        <mod:findName type="event" name="SLUG_DISTRESS_TRICK"/>
     </mod:par>
     <mod-append:distressBeacon/>
 </mod:findComposite>

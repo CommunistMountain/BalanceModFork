@@ -40,6 +40,10 @@ Mod order:
         <li>ENGI_UNLOCK_1: Now unable to tell the difference between the real and fake ships through minor text differences, or based on when they decide to surrender.</li>
         <li>ESCORT_BEACON and QUEST_ESCORT: extended the conversation when you get the reactor upgrade outcome, so that revisiting the beacon multiple times will not upgrade your reactor again for free.</li>
         <li>MERCHANT_REQUEST: Added missing Lifeform Scanner blue option from the STATION_SICK event as intended.</li>
+        <li>NEBULA_SLUG_FIGHT_UNLOCK, QUEST_SLUG_PIRATE_TRAP: The quests of these events now appear at nebula beacons instead of non-nebula beacons on the map (will slow the Rebel Fleet appropriately).</li>
+        <ol>
+            <li>Note that if all nebula beacons in the current sector are either visited or overtaken by the Rebel Fleet, it will be transferred to the next sector, and if there are no nebula beacon events in the next sector, the quest will not appear.</li>
+        </ol>
         <li>ROCK_STARSHIP_MINE: Fixed missile option not requiring 1 missile.</li>
         <li>STORM_BOARDING, STORM_REBEL, STORM_SLUG_FIGHT: These events no longer appear at non-nebula beacons on the map (will slow the Rebel Fleet appropriately).</li>
         <li>TRADER_UPGRADES_EXCHANGE: You are now prevented from selecting the option to upgrade your reactor if you are at 25 reactor.</li>
