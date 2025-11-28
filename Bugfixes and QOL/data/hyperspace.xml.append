@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
-<!--Bugfixes (gameplay)-->
+<mod:findLike type="defaults" limit="1">
+    <mod:findLike type="checkCargo">
+        <mod:setValue>true</mod:setValue>
+    </mod:findLike>
+</mod:findLike>
+
 <mod:findComposite>
     <mod:par op="OR">
         <mod:findLike type="hackingIonFix"/>
@@ -10,9 +15,123 @@
         <mod:findLike type="cloakRenderFix"/>
         <mod:findLike type="disableDefaultTutorial"/>
         <mod:findLike type="multipleOverCapacity"/>
+        
+        <mod:findLike type="preIgniteChargers"/>
+        <mod:findLike type="showNumericalWeaponCooldown"/>
+        <mod:findLike type="showAllConnections"/>
+        
+        <mod:findLike type="playerHpColorFix"/>
+        <mod:findLike type="warningLightPositionFix"/>
+        
+        <mod:findLike type="redesignedWeaponTooltips"/>
+        <mod:findLike type="redesignedDroneTooltips"/>
+        <mod:findLike type="redesignedAugmentTooltips"/>
+        <mod:findLike type="showReactor"/>
+        <mod:findLike type="allowRenameInputSpecialCharacters"/>
+        <mod:findLike type="insertNewlineForMultipleCrewTooltips"/>
+
+        <mod:findLike type="altLockedMiniships"/>
+        <mod:findLike type="oxygenWithoutSystem"/>
+        <mod:findLike type="shieldWithoutSystem"/>
+        <mod:findLike type="droneSelectHotkeys"/>
+        <mod:findLike type="droneSaveStations"/>
+        <mod:findLike type="enemyPreigniterFix"/>
+        <mod:findLike type="multiShipFix"/>
+        <mod:findLike type="scaleSlugGel"/>
+        <mod:findLike type="customChoiceColors"/>
+        <mod:findLike type="customTextStyle"/>
     </mod:par>
     <mod:setAttributes enabled="true"/>
 </mod:findComposite>
+
+<mod:findLike type="extraShipInfo">
+    <mod:setAttributes missileCount="true" droneCount="true" crewLimit="true"/>
+</mod:findLike>
+
+<mod:findLike type="showDummyEquipmentSlots">
+    <mod:setAttributes enabled="true" opacity="0.3"/>
+</mod:findLike>
+
+<mod:findLike type="renameShipInRun">
+    <mod:setAttributes enabled="true" allowButton="true"/>
+</mod:findLike>
+
+<mod:findLike type="systemNoPurchaseThreshold">
+    <mod:setAttributes enabled="true" threshold="999"/>
+</mod:findLike>
+
+<mod:findComposite>
+    <mod:par op="OR">
+        <mod:findLike type="console"/>
+        <mod:findLike type="dismissSound"/>
+        <mod:findLike type="hackingDroneFix"/>
+        <mod:findLike type="repairDroneRecoveryFix"/>
+    </mod:par>
+    <mod:setAttributes enabled="false"/>
+</mod:findComposite>
+
+<mod:findLike type="ships" limit="1">
+    <mod-append:customShip name="BOSS_1_EASY">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_EASY">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_EASY">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_NORMAL">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_NORMAL">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_NORMAL">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_HARD">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_HARD">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_HARD">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_EASY_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_EASY_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_EASY_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_NORMAL_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_NORMAL_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_NORMAL_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_1_HARD_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_2_HARD_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="BOSS_3_HARD_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="REBEL_SKINNY_ELITE">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+    <mod-append:customShip name="REBEL_SKINNY_ELITE_DLC">
+        <noFuelStalemate/>
+    </mod-append:customShip>
+</mod:findLike>
 
 <mod:findLike type="rewards" limit="1">
     <mod-append:reward name="standard_droneparts-1">
@@ -122,85 +241,6 @@
     </mod-append:reward>
 </mod:findLike>
 
-<!--QOL (gameplay)-->
-<mod:findComposite>
-    <mod:par op="OR">
-        <mod:findLike type="preIgniteChargers"/>
-        <mod:findLike type="showNumericalWeaponCooldown"/>
-        <mod:findLike type="showAllConnections"/>
-    </mod:par>
-    <mod:setAttributes enabled="true"/>
-</mod:findComposite>
-
-<mod:findLike type="defaults" limit="1">
-    <mod:findLike type="checkCargo">
-        <mod:setValue>true</mod:setValue>
-    </mod:findLike>
-</mod:findLike>
-
-<mod:findLike type="ships" limit="1">
-    <mod-append:customShip name="BOSS_1_EASY">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_2_EASY">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_3_EASY">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_1_NORMAL">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_2_NORMAL">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_3_NORMAL">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_1_HARD">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_2_HARD">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_3_HARD">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_1_EASY_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_2_EASY_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_3_EASY_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_1_NORMAL_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_2_NORMAL_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_3_NORMAL_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_1_HARD_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_2_HARD_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="BOSS_3_HARD_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="REBEL_SKINNY_ELITE">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-    <mod-append:customShip name="REBEL_SKINNY_ELITE_DLC">
-        <noFuelStalemate/>
-    </mod-append:customShip>
-</mod:findLike>
-
 <mod:findLike type="events" limit="1">
     <mod-append:req name="MULTIREQ_BATTLE" type="all" lvl="1">
         <req lvl="1">
@@ -269,53 +309,8 @@
 <mod:findLike type="scripts" limit="1">
     <mod-append:script>data/bugfixes_and_qol_scripts/all.lua</mod-append:script>
     <mod-append:script>data/bugfixes_and_qol_scripts/speedui.lua</mod-append:script>
+    <!--End of Speed UI-->
 </mod:findLike>
-<!--End of Speed UI-->
-
-<!--Bugfixes (non-gameplay)-->
-<mod:findComposite>
-    <mod:par op="OR">
-        <mod:findLike type="playerHpColorFix"/>
-        <mod:findLike type="warningLightPositionFix"/>
-    </mod:par>
-    <mod:setAttributes enabled="true"/>
-</mod:findComposite>
-
-<!--QOL (non-gameplay)-->
-<mod:findComposite>
-    <mod:par op="OR">
-        <mod:findLike type="redesignedWeaponTooltips"/>
-        <mod:findLike type="redesignedDroneTooltips"/>
-        <mod:findLike type="redesignedAugmentTooltips"/>
-        <mod:findLike type="showReactor"/>
-        <mod:findLike type="allowRenameInputSpecialCharacters"/>
-        <mod:findLike type="insertNewlineForMultipleCrewTooltips"/>
-    </mod:par>
-    <mod:setAttributes enabled="true"/>
-</mod:findComposite>
-
-<mod:findLike type="extraShipInfo">
-    <mod:setAttributes missileCount="true" droneCount="true" crewLimit="true"/>
-</mod:findLike>
-
-<mod:findLike type="showDummyEquipmentSlots">
-    <mod:setAttributes enabled="true" opacity="0.3"/>
-</mod:findLike>
-
-<mod:findLike type="renameShipInRun">
-    <mod:setAttributes enabled="true" allowButton="true"/>
-</mod:findLike>
-
-<!--Disabled HS Defaults; remove below and DRONES_BOSS_VANILLA in blueprints.xml.append once HS uses defaults that match vanilla.-->
-<mod:findComposite>
-    <mod:par op="OR">
-        <mod:findLike type="console"/>
-        <mod:findLike type="dismissSound"/>
-        <mod:findLike type="hackingDroneFix"/>
-        <mod:findLike type="repairDroneRecoveryFix"/>
-    </mod:par>
-    <mod:setAttributes enabled="false"/>
-</mod:findComposite>
 
 <mod:findLike type="boss" limit="1">
     <mod:findLike type="surgeDrones">
@@ -342,26 +337,5 @@
         <mod-append:drone difficulty="2" name="DRONES_BOSS_VANILLA" count="1" />
         <mod-append:drone difficulty="2" name="DRONES_BOSS_VANILLA" count="1" />
     </mod:findLike>
-</mod:findLike>
-
-<!--Bugfixes/QOL for mods (no vanilla impact)-->
-<mod:findComposite>
-    <mod:par op="OR">
-        <mod:findLike type="altLockedMiniships"/>
-        <mod:findLike type="oxygenWithoutSystem"/>
-        <mod:findLike type="shieldWithoutSystem"/>
-        <mod:findLike type="droneSelectHotkeys"/>
-        <mod:findLike type="droneSaveStations"/>
-        <mod:findLike type="enemyPreigniterFix"/>
-        <mod:findLike type="multiShipFix"/>
-        <mod:findLike type="scaleSlugGel"/>
-        <mod:findLike type="customChoiceColors"/>
-        <mod:findLike type="customTextStyle"/>
-    </mod:par>
-    <mod:setAttributes enabled="true"/>
-</mod:findComposite>
-
-<mod:findLike type="systemNoPurchaseThreshold">
-    <mod:setAttributes enabled="true" threshold="999"/>
 </mod:findLike>
 </FTL>
