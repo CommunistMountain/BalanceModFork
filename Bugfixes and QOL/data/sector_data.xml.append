@@ -6,9 +6,25 @@
         <mod:findName type="sectorDescription" name="SLUG_HOME"/>
         <mod:findName type="sectorDescription" name="SLUG_SECTOR"/>
     </mod:par>
-    <mod:findName type="event" name="STORM_SLUG">
-        <mod:setAttributes name="NEBULA_STORM_SLUG"/>
+    <mod:findName type="event" name="DISTRESS_BEACON_SLUG">
+        <mod:setAttributes min="2" max="2"/>
     </mod:findName>
+    <mod:findComposite>
+        <mod:par op="OR">
+            <mod:findName type="event" name="NEBULA_NOTHING_SLUG"/>
+            <mod:findName type="event" name="NEBULA_HOSTILE_SLUG"/>
+            <mod:findName type="event" name="STORM_SLUG"/>
+            <mod:findName type="event" name="NEBULA_NEUTRAL_SLUG"/>
+            <mod:findName type="event" name="NEUTRAL"/>
+        </mod:par>
+        <mod:removeTag/>
+    </mod:findComposite>
+    <mod-append:event name="NEBULA_DISTRESS_BEACON_SLUG" min="1" max="2"/>
+    <mod-append:event name="NEBULA_NOTHING_SLUG" min="2" max="4"/>
+    <mod-append:event name="NEBULA_HOSTILE_SLUG" min="5" max="7"/>
+    <mod-append:event name="NEBULA_STORM_SLUG" min="1" max="3"/>
+    <mod-append:event name="NEBULA_NEUTRAL_SLUG" min="3" max="5"/>
+    <mod-append:event name="NEUTRAL" min="1" max="2"/>
 </mod:findComposite>
 
 <mod:findName type="sectorDescription" name="CRYSTAL_HOME">

@@ -45,7 +45,7 @@ Mod order:
             <li>Note that if all nebula beacons in the current sector are either visited or overtaken by the Rebel Fleet, it will be transferred to the next sector, and if there are no nebula beacon events in the next sector, the quest will not appear.</li>
         </ol>
         <li>ROCK_STARSHIP_MINE: Fixed missile option not requiring 1 missile.</li>
-        <li>STORM_BOARDING, STORM_REBEL, STORM_SLUG_FIGHT: These events no longer appear at non-nebula beacons on the map (will slow the Rebel Fleet appropriately).</li>
+        <li>SLUG_DISTRESS_QUESTION, SLUG_DISTRESS_RESCUE, SLUG_DISTRESS_ROCK, SLUG_DISTRESS_TRICK, STORM_BOARDING, STORM_REBEL, STORM_SLUG_FIGHT: These events no longer appear at non-nebula beacons on the map (will slow the Rebel Fleet appropriately).</li>
         <li>TRADER_UPGRADES_EXCHANGE: You are now prevented from selecting the option to upgrade your reactor if you are at 25 reactor.</li>
         <ol>
             <li>Note for modders: Mods with ships that have reactor limits above 25 will be impacted. Undo/edit this change if necessary.</li>

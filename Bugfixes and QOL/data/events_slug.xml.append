@@ -5,6 +5,33 @@
     <mod:setAttributes name="NEBULA_STORM_SLUG"/>
 </mod:findName>
 
+<mod:findName type="eventList" name="DISTRESS_BEACON_SLUG">
+    <mod:findComposite>
+        <mod:par op="OR">
+            <mod:findLike type="event">
+            <mod:selector load="SLUG_DISTRESS_ROCK"/>
+            </mod:findLike>
+            <mod:findLike type="event">
+            <mod:selector load="SLUG_DISTRESS_QUESTION"/>
+            </mod:findLike>
+            <mod:findLike type="event">
+            <mod:selector load="SLUG_DISTRESS_TRICK"/>
+            </mod:findLike>
+            <mod:findLike type="event">
+            <mod:selector load="SLUG_DISTRESS_RESCUE"/>
+            </mod:findLike>
+        </mod:par>
+        <mod:removeTag/>
+    </mod:findComposite>
+</mod:findName>
+
+<eventList name="NEBULA_DISTRESS_BEACON_SLUG">
+    <event load="SLUG_DISTRESS_ROCK"/>
+    <event load="SLUG_DISTRESS_QUESTION"/>
+    <event load="SLUG_DISTRESS_TRICK"/>
+    <event load="SLUG_DISTRESS_RESCUE"/>
+</eventList>
+
 <mod:findComposite>
     <mod:par op="OR">
         <mod:findName type="event" name="SLUG_UNLOCK_1"/>
