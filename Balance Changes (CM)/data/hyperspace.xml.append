@@ -209,7 +209,7 @@
 
 <mod:findLike type="rewards" limit="1">
     <mod-append:rewardScaling difficulty="2">
-        <scrap baseAmount="15.0" sectorAmount="4.0" difficultyAmount="0"/>
+        <scrap baseAmount="15.0" sectorAmount="4.0" difficultyAmount="1"/>
     </mod-append:rewardScaling>
 
     <mod-append:resourceRewards>

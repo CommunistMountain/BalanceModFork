@@ -143,9 +143,6 @@
         <mod:findLike type="sensors">
             <mod:setAttributes power="2" start="true"/>
         </mod:findLike>
-        <mod:findLike type="shields">
-            <mod:setAttributes power="1" start="true"/>
-        </mod:findLike>
     </mod:findLike>
     <mod:findLike type="droneList">
         <mod:setAttributes drones="20"/>

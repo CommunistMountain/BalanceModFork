@@ -211,7 +211,6 @@
         <li>Slug B: Weapon Control level from 2 to 3. Reactor from 7 to 8.</li>
         <li>Slug C: Weapon Control level from 2 to 3.</li>
         <li>Rock B: Added an external door to the Backup Battery room. Oxygen level from 2 to 1.</li>
-        <li>Stealth Cruisers: Added level 1 Shields.</li>
         <li>Stealth A: Engines level from 4 to 3, weapon slots from 3 to 4.</li>
         <li>Stealth B: Weapon Control level from 4 to 5, weapon slots from 3 to 4. Cloaking level from 2 to 1. Engines level from 2 to 3. Reactor from 7 to 8.</li>
         <li>Stealth C: Added level 2 Sensors. Reactor from 7 to 8.</li>

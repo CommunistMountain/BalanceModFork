@@ -666,9 +666,6 @@
         <mod:findLike type="engines">
             <mod:setAttributes power="3"/>
         </mod:findLike>
-        <mod:findLike type="shields">
-            <mod:setAttributes power="1" start="true"/>
-        </mod:findLike>
     </mod:findLike>
     <mod:findLike type="weaponSlots">
         <mod:setValue>4</mod:setValue>
@@ -683,9 +680,6 @@
     <mod:findLike type="systemList">
         <mod:findLike type="engines">
             <mod:setAttributes power="3"/>
-        </mod:findLike>
-        <mod:findLike type="shields">
-            <mod:setAttributes power="1" start="true"/>
         </mod:findLike>
         <mod:findLike type="weapons">
             <mod:setAttributes power="5"/>
