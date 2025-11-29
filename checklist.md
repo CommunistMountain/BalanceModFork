@@ -1,5 +1,6 @@
 # Balance Changes (CM)
 <ol>
+    <li>TODO summaries for all 3 mods so people know at a glance what they're getting into.</li>
     <li>TODO change text for everything in readme_new that needs it (list them out)</li>
     <li>WEAPONS:</li>
     <ol>

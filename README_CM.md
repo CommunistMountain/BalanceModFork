@@ -14,6 +14,10 @@
         <li>Drone Parts: Cost from 8 to 6.</li>
         <li>Drone Control: Boarding Drone is now a possible discounted drone that can be packaged with Drone Control.</li>
     </ol>
+    <li>CREW:</li>
+    <ol>
+        <li>Human: Cost from 45 to 40.</li>
+    </ol>
     <li>SYSTEMS:</li>
     <ol>
         <li>Backup Battery: Cost from 35 to 50. Now includes the effects of Battery Charger. Battery Charger rarity from 2 to 0.</li>
