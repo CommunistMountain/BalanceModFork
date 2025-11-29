@@ -170,24 +170,32 @@
     <mod-append:aug name="NANO_MEDBAY_EXTENSION_CM">
         <statBoosts>
             <statBoost name="passiveHealAmount">
-                <boostType>FLAT</boostType>
-                <shipTarget>ORIGINAL_OTHER_SHIP</shipTarget>
                 <crewTarget>ALLIES</crewTarget>
                 <droneTarget>CREW</droneTarget>
+                <shipTarget>ORIGINAL_OTHER_SHIP</shipTarget>
+                
+                <boostType>FLAT</boostType>
                 <amount>1.6</amount>
                 <systemPowerDependency>
                     <medbay/>
                 </systemPowerDependency>
+                <systemPowerScaling>
+                    <noSys>0</noSys>
+                    <hackedSys>0</hackedSys>
+                    <noPwr>0</noPwr>
+                    <morePwr>1</morePwr>
+                </systemPowerScaling>
             </statBoost>
         </statBoosts>
     </mod-append:aug>
     <mod-append:aug name="TELEPORTER_ARMOR_CM">
         <statBoosts>
             <statBoost name="damageTakenMultiplier">
-                <boostType>MULT</boostType>
-                <shipTarget>ALL</shipTarget>
                 <crewTarget>ALLIES</crewTarget>
                 <droneTarget>CREW</droneTarget>
+                <shipTarget>ALL</shipTarget>
+                
+                <boostType>MULT</boostType>
                 <amount>0.9</amount>
                 <systemPowerDependency>
                     <teleporter/>
