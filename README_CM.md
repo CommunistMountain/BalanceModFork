@@ -181,6 +181,47 @@
     </ol>
     <li>PLAYER SHIPS (other than augment changes above):</li>
     <ol>
+        <li>General Changes:</li>
+        <ol>
+            <li>Kestrel A: Crew from 3 Humans to 2 Humans.</li>
+            <li>Kestrel B: Removed Doors.</li>
+            <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 2 Ion Blasts and 2 Ion Stunners. Weapon Control level from 2 to 4. Sensors level from 2 to 1.</li>
+            <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Weapon Control level from 3 to 4. Added level 1 Sensors.</li>
+            <li>Fed A: Weapon Control level from 2 to 3. Removed Doors.</li>
+            <li>Fed C: Artillery level from 1 to 4.</li>
+            <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2.</li>
+            <li>Zoltan B: Added Long-Ranged Scanners.</li>
+            <li>Zoltan C: Weapon Control level from 2 to 3.</li>
+            <li>Mantis A: Weapon slots from 3 to 4. Crew from 3 Mantis 1 Engi to 2 Mantis 1 Engi (rearranged crew positions from MMEM to EMM). Added level 1 Sensors.</li>
+            <li>Mantis B: Engines level from 1 to 2. Medbay level from 1 to 2.</li>
+            <li>Slug Cruisers: Doors level from 2 to 1.</li>
+            <li>Slug B: Weapon Control level from 2 to 3.</li>
+            <li>Slug C: Weapon Control level from 2 to 3.</li>
+            <li>Rock B: Added an external door to the Backup Battery room. Oxygen level from 2 to 1.</li>
+            <li>Stealth A: Engines level from 4 to 3, weapon slots from 3 to 4.</li>
+            <li>Stealth B: Weapon Control level from 4 to 5, weapon slots from 3 to 4. Cloaking level from 2 to 1. Engines level from 2 to 3.</li>
+            <li>Stealth C: Added level 2 Sensors.</li>
+            <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 2.</li>
+            <li>Lanius B: Removed Clone Bay. Teleporter level from 1 to 3. Added level 1 Sensors.</li>
+            <li>Crystal A: Removed Doors.</li>
+            <li>Crystal B: Weapon slots from 4 to 3. Medbay level from 1 to 2.</li>
+        </ol>
+        <li>Ships are standardised to have just enough reactor to power all non-medical systems. Each Zoltan counts as 1 reactor, except 1 Zoltan if it needs to be Pilot. Ships which tend to not have crew in Pilot (Engi B, Mantis B, and Lanius A due to changes above) don't have reactor for Engines as well.</li>
+        <ol>
+            <li>Kestrel C: Reactor from 7 to 9.</li>
+            <li>Engi A: Reactor from 10 to 9.</li>
+            <li>Fed B: Reactor from 9 to 8.</li>
+            <li>Fed C: Reactor from 7 to 8.</li>
+            <li>Zoltan A: Reactor from 5 to 6.</li>
+            <li>Mantis B: Reactor 11 to 9.</li>
+            <li>Slug B: Reactor from 7 to 8.</li>
+            <li>Stealth A: Reactor from 8 to 7.</li>
+            <li>Stealth B: Reactor from 7 to 8.</li>
+            <li>Stealth C: Reactor from 7 to 8.</li>
+            <li>Lanius A: Reactor from 8 to 7.</li>
+            <li>Lanius B: Reactor from 8 to 9.</li>
+            <li>Crystal B: Reactor from 8 to 7.</li>
+        </ol>
         <li>Ships are standardised to have 15 missiles per missile/bomb weapon, 20 drone parts if it has hacking, 15 drone parts per offensive drone, 10 drone parts per defensive drone, 5 drone parts per boarding drone, and 2 drone parts per crew drone.</li>
         <ol>
             <li>Kestrel A: Missiles from 8 to 15, drone parts from 2 to 0.</li>
@@ -202,30 +243,6 @@
             <li>Stealth C: Drone parts from 16 to 20.</li>
             <li>Lanius A: Missiles from 3 to 0, drone parts from 9 to 20.</li>
         </ol>
-        <li>Kestrel A: Crew from 3 Humans to 2 Humans.</li>
-        <li>Kestrel B: Removed Doors.</li>
-        <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 2 Ion Blasts and 2 Ion Stunners. Weapon Control level from 2 to 4. Reactor from 7 to 9. Sensors level from 2 to 1.</li>
-        <li>Engi A: Reactor from 10 to 9.</li>
-        <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Weapon Control level from 3 to 4. Added level 1 Sensors.</li>
-        <li>Fed A: Weapon Control level from 2 to 3. Removed Doors.</li>
-        <li>Fed B: Reactor from 9 to 8.</li>
-        <li>Fed C: Artillery level from 1 to 4. Reactor from 7 to 8.</li>
-        <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2. Reactor from 5 to 6.</li>
-        <li>Zoltan B: Added Long-Ranged Scanners.</li>
-        <li>Zoltan C: Weapon Control level from 2 to 3.</li>
-        <li>Mantis A: Weapon slots from 3 to 4. Crew from 3 Mantis 1 Engi to 2 Mantis 1 Engi (rearranged crew positions from MMEM to EMM). Added level 1 Sensors.</li>
-        <li>Mantis B: Engines level from 1 to 2. Medbay level from 1 to 2. Reactor 11 to 9.</li>
-        <li>Slug Cruisers: Doors level from 2 to 1.</li>
-        <li>Slug B: Weapon Control level from 2 to 3. Reactor from 7 to 8.</li>
-        <li>Slug C: Weapon Control level from 2 to 3.</li>
-        <li>Rock B: Added an external door to the Backup Battery room. Oxygen level from 2 to 1.</li>
-        <li>Stealth A: Engines level from 4 to 3, weapon slots from 3 to 4.</li>
-        <li>Stealth B: Weapon Control level from 4 to 5, weapon slots from 3 to 4. Cloaking level from 2 to 1. Engines level from 2 to 3. Reactor from 7 to 8.</li>
-        <li>Stealth C: Added level 2 Sensors. Reactor from 7 to 8.</li>
-        <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 2. Reactor from 8 to 7.</li>
-        <li>Lanius B: Removed Clone Bay. Teleporter level from 1 to 3. Added level 1 Sensors. Reactor from 8 to 9.</li>
-        <li>Crystal A: Removed Doors.</li>
-        <li>Crystal B: Weapon slots from 4 to 3. Medbay level from 1 to 2. Reactor from 8 to 7.</li>
     </ol>
     <li>NPC SHIPS:</li>
     <ol>

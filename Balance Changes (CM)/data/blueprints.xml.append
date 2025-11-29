@@ -698,6 +698,9 @@
     <mod:selector name="SYSTEM_CASING"/>
         <mod:removeTag/>
     </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="7"/>
+    </mod:findLike>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH_2">
