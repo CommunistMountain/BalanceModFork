@@ -16,8 +16,11 @@
     </ol>
     <li>CREW:</li>
     <ol>
-        <li>Engi: Can be healed by Drone Control as though they are drones.</li>
+        <li>Engi: Can be healed by Drone Control as though they were drones.</li>
         <li>Human: Cost from 45 to 40.</li>
+        <li>Mantis: Cost from 55 to 50.</li>
+        <li>Rock: Cost from 55 to 50.</li>
+        <li>Zoltan: Cost from 60 to 50.</li>
     </ol>
     <li>SYSTEMS:</li>
     <ol>

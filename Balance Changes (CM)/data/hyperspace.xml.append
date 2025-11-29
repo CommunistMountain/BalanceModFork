@@ -119,20 +119,19 @@
     </mod-append:customShip>
 </mod:findLike>
 
-<mod:findLike type="augments" limit="1">
-    <mod-append:aug name="FTL_JUMPER_EXTENSION_CM">
-        <function name="FTL_BOOSTER"/>
-        <function name="FTL_JAMMER"/>
-    </mod-append:aug>
-    <mod-append:aug name="DRONE_SPEED_EXTENSION_CM">
-        <function name="DRONE_RECOVERY"/>
-        <statBoosts>
-            <statBoost name="healSpeed">
-                <boostType>SET</boostType>
-                <shipTarget>ALL</shipTarget>
-                <crewTarget>ALLIES</crewTarget>
-                <droneTarget>DRONES</droneTarget>
-                <amount>0.75</amount>
+<mod:findLike type="crew" limit="1">
+    <mod:findName type="race" name="engi">
+        <mod-append:passiveStatBoosts>
+            <statBoost name="passiveHealAmount">
+                <crewTarget>SELF</crewTarget>
+                <shipTarget>ORIGINAL_SHIP</shipTarget>
+                <systemList>
+                    <drones/>
+                </systemList>
+                <systemRoomTarget>ALL</systemRoomTarget>
+                
+                <boostType>FLAT</boostType>
+                <amount>1.28</amount>
                 <systemPowerDependency>
                     <drones/>
                 </systemPowerDependency>
@@ -143,12 +142,100 @@
                     <morePwr>1</morePwr>
                 </systemPowerScaling>
             </statBoost>
-            <statBoost name="truePassiveHealAmount">
-                <boostType>FLAT</boostType>
-                <shipTarget>ALL</shipTarget>
+        </mod-append:passiveStatBoosts>
+    </mod:findName>
+</mod:findLike>
+
+<mod:findLike type="augments" limit="1">
+    <mod-append:aug name="FTL_JUMPER_EXTENSION_CM">
+        <function name="FTL_BOOSTER"/>
+        <function name="FTL_JAMMER"/>
+    </mod-append:aug>
+    <mod-append:aug name="DRONE_SPEED_EXTENSION_CM">
+        <function name="DRONE_RECOVERY"/>
+        <statBoosts>
+            <statBoost name="healSpeed">
                 <crewTarget>ALLIES</crewTarget>
                 <droneTarget>DRONES</droneTarget>
+                <shipTarget>ALL</shipTarget>
+                
+                <boostType>SET</boostType>
+                <amount>1</amount>
+                <systemPowerDependency>
+                    <drones/>
+                </systemPowerDependency>
+                <systemPowerScaling>
+                    <noSys>0</noSys>
+                    <hackedSys>0</hackedSys>
+                    <noPwr>0</noPwr>
+                    <morePwr>1</morePwr>
+                </systemPowerScaling>
+            </statBoost>
+            <statBoost name="passiveHealAmount">
+                <crewTarget>ALLIES</crewTarget>
+                <whiteList>
+                    <battle/>
+                    <boarder_ion/>
+                    <repair/>
+                    <engi/>
+                </whiteList>
+                <shipTarget>ALL</shipTarget>
+                <systemList>
+                    <drones/>
+                </systemList>
+                <systemRoomTarget>NONE</systemRoomTarget>
+                
+                <boostType>FLAT</boostType>
                 <amount>1.6</amount>
+                <systemPowerDependency>
+                    <drones/>
+                </systemPowerDependency>
+                <systemPowerScaling>
+                    <noSys>0</noSys>
+                    <hackedSys>0</hackedSys>
+                    <noPwr>0</noPwr>
+                    <morePwr>1</morePwr>
+                </systemPowerScaling>
+            </statBoost>
+            <statBoost name="passiveHealAmount">
+                <crewTarget>ALLIES</crewTarget>
+                <whiteList>
+                    <battle/>
+                    <boarder_ion/>
+                    <repair/>
+                    <engi/>
+                </whiteList>
+                <shipTarget>ORIGINAL_OTHER_SHIP</shipTarget>
+                <systemList>
+                    <drones/>
+                </systemList>
+                <systemRoomTarget>ALL</systemRoomTarget>
+                
+                <boostType>FLAT</boostType>
+                <amount>1.6</amount>
+                <systemPowerDependency>
+                    <drones/>
+                </systemPowerDependency>
+                <systemPowerScaling>
+                    <noSys>0</noSys>
+                    <hackedSys>0</hackedSys>
+                    <noPwr>0</noPwr>
+                    <morePwr>1</morePwr>
+                </systemPowerScaling>
+            </statBoost>
+            <statBoost name="passiveHealAmount">
+                <crewTarget>ALLIES</crewTarget>
+                <whiteList>
+                    <engi/>
+                </whiteList>
+                <shipTarget>ORIGINAL_SHIP</shipTarget>
+                <systemList>
+                    <drones/>
+                </systemList>
+                <systemRoomTarget>ALL</systemRoomTarget>
+                
+                <boostType>FLAT</boostType>
+                <amount>5.12</amount>
                 <systemPowerDependency>
                     <drones/>
                 </systemPowerDependency>

@@ -7,6 +7,24 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findName type="crewBlueprint" name="mantis">
+    <mod:findLike type="cost">
+        <mod:setValue>50</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="crewBlueprint" name="rock">
+    <mod:findLike type="cost">
+        <mod:setValue>50</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="crewBlueprint" name="energy">
+    <mod:findLike type="cost">
+        <mod:setValue>50</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findName type="systemBlueprint" name="oxygen">
     <mod:findLike type="upgradeCost">
         <mod:findLike type="level">
