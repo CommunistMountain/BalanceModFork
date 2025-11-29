@@ -192,8 +192,9 @@
             <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2.</li>
             <li>Zoltan B: Added Long-Ranged Scanners.</li>
             <li>Zoltan C: Weapon Control level from 2 to 3.</li>
-            <li>Mantis A: Weapon slots from 3 to 4. Crew from 3 Mantis 1 Engi to 2 Mantis 1 Engi (rearranged crew positions from MMEM to EMM). Added level 1 Sensors.</li>
-            <li>Mantis B: Engines level from 1 to 2. Medbay level from 1 to 2.</li>
+            <li>Mantis A: Weapon slots from 3 to 4. Crew from 3 Mantis 1 Engi to 2 Mantis 1 Engi (rearranged crew positions from MMEM to EMM).</li>
+            <li>Mantis B: Engines level from 1 to 2. Medbay level from 1 to 2. Removed Sensors.</li>
+            <li>Mantis C: Removed Sensors.</li>
             <li>Slug Cruisers: Doors level from 2 to 1.</li>
             <li>Slug B: Weapon Control level from 2 to 3.</li>
             <li>Slug C: Weapon Control level from 2 to 3.</li>

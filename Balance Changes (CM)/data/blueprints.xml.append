@@ -653,11 +653,6 @@
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS">
-    <mod:findLike type="systemList">
-        <mod:findLike type="sensors">
-            <mod:setAttributes start="true"/>
-        </mod:findLike>
-    </mod:findLike>
     <mod:findLike type="weaponList">
         <mod:setAttributes missiles="15"/>
     </mod:findLike>
@@ -673,6 +668,9 @@
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS_2">
     <mod:findLike type="systemList">
+        <mod:findLike type="sensors">
+            <mod:setAttributes start="false"/>
+        </mod:findLike>
         <mod:findLike type="engines">
             <mod:setAttributes power="2"/>
         </mod:findLike>
