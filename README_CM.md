@@ -146,7 +146,7 @@
         <ol>
             <li>All hidden augments now cost 50 (and thus sell for 25 if obtained from an event).</li>
             <li>Advanced FTL Navigation: Travelling to a previously visited beacon refunds 1 fuel (you still need 1 fuel to make the jump) and delays the Rebel Fleet by 1. (Beacons that are about to be taken over will still have ASB and an Elite upon arrival.)</li>
-            <li>Crystal Vengeance: Effect chance from 10% to 100%, damage from 1 to 0, breach chance from 10% to 100%, stun chance from 20% to 100%.</li>
+            <li>Crystal Vengeance: Speed from 35 to 50, effect chance from 10% to 100%, damage from 1 to 0, breach chance from 10% to 100%, stun chance from 20% to 100%.</li>
             <li>Drone Reactor Booster: Crew and Boarding drones speed boost from +25% to +100%, healing factor from 0.2 to 1 (heal in Drone Control from 1.28HP/s to 6.4HP/s, if powered and not hacked). Crew and Boarding drones heal outside Drone Control at 1.6HP/s (if powered and not hacked).</li>
             <li>Drone Recovery Arm (component of Drone Reactor Booster): Chance for each drone to be recovered from 100% to 20%.</li>
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
@@ -192,15 +192,15 @@
             <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2.</li>
             <li>Zoltan B: Added Long-Ranged Scanners.</li>
             <li>Zoltan C: Weapon Control level from 2 to 3.</li>
-            <li>Mantis A: Weapon slots from 3 to 4. Crew from 3 Mantis 1 Engi to 2 Mantis 1 Engi (rearranged crew positions from MMEM to EMM).</li>
+            <li>Mantis A: Drone Control has 3 drone slots when bought.</li>
             <li>Mantis B: Engines level from 1 to 2. Medbay level from 1 to 2. Removed Sensors.</li>
             <li>Mantis C: Removed Sensors.</li>
             <li>Slug Cruisers: Doors level from 2 to 1.</li>
             <li>Slug B: Weapon Control level from 2 to 3.</li>
             <li>Slug C: Weapon Control level from 2 to 3.</li>
             <li>Rock B: Added an external door to the Backup Battery room. Oxygen level from 2 to 1.</li>
-            <li>Stealth A: Engines level from 4 to 3, weapon slots from 3 to 4.</li>
-            <li>Stealth B: Weapon Control level from 4 to 5, weapon slots from 3 to 4. Cloaking level from 2 to 1. Engines level from 2 to 3.</li>
+            <li>Stealth A: Engines level from 4 to 3. Drone Control has 3 drone slots when bought.</li>
+            <li>Stealth B: Weapon Control level from 4 to 5. Cloaking level from 2 to 1. Engines level from 2 to 3. Drone Control has 3 drone slots when bought.</li>
             <li>Stealth C: Added level 2 Sensors.</li>
             <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 2.</li>
             <li>Lanius B: Removed Clone Bay. Teleporter level from 1 to 3. Added level 1 Sensors.</li>
@@ -310,6 +310,7 @@
     </ol>
     <li>MECHANICS:</li>
     <ol>
+        <li>The rooms of neutral ships are now visible.</li>
         <li>Each supershield layer causes -2% evasion.</li>
         <li>Unpowered space drones can be ionized by enemy ion projectiles.</li>
         <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>

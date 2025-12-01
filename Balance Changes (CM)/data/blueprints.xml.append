@@ -228,6 +228,7 @@
     <mod:findLike type="stunChance">
         <mod:setValue>10</mod:setValue>
     </mod:findLike>
+    <mod-append:speed>50</mod-append:speed>
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="MISSILES_2">
@@ -656,14 +657,9 @@
     <mod:findLike type="weaponList">
         <mod:setAttributes missiles="15"/>
     </mod:findLike>
-    <mod:findLike type="weaponSlots">
-        <mod:setValue>4</mod:setValue>
+    <mod:findLike type="droneSlots">
+        <mod:setValue>3</mod:setValue>
     </mod:findLike>
-    <mod:findLike type="crewCount">
-        <mod:removeTag/>
-    </mod:findLike>
-    <mod-append:crewCount amount="1" class="engi"/>
-    <mod-append:crewCount amount="2" class="mantis"/>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS_2">
@@ -689,8 +685,8 @@
             <mod:setAttributes power="3"/>
         </mod:findLike>
     </mod:findLike>
-    <mod:findLike type="weaponSlots">
-        <mod:setValue>4</mod:setValue>
+    <mod:findLike type="droneSlots">
+        <mod:setValue>3</mod:setValue>
     </mod:findLike>
     <mod:findLike type="aug">
     <mod:selector name="SYSTEM_CASING"/>
@@ -713,8 +709,8 @@
             <mod:setAttributes power="1"/>
         </mod:findLike>
     </mod:findLike>
-    <mod:findLike type="weaponSlots">
-        <mod:setValue>4</mod:setValue>
+    <mod:findLike type="droneSlots">
+        <mod:setValue>3</mod:setValue>
     </mod:findLike>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="8"/>

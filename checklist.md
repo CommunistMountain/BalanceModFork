@@ -19,6 +19,7 @@
     </ol>
     <li>MECHANICS:</li>
     <ol>
+        <li>The rooms of neutral ships are now visible.</li>
         <li>Unpowered space drones can be ionized by enemy ion projectiles.</li>
     </ol>
 </ol>

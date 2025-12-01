@@ -23,7 +23,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
 <ol>
     <li>Hull Missile: Now considered a missile weapon for events.</li>
     <li>Fire Drone: Now considered a combat drone for events.</li>
-    <li>AE Weapons: No longer show up in Hidden Crystal Worlds stores.</li>
+    <li>Stores in Crystal Homeworlds: No longer have Advanced Edition weapons.</li>
     <li>Hacking: When you are at 1 drone part and target hacking at the enemy ship while paused, then deploy another drone, the hacking drone will blow up once you resume, preventing it from being used with 0 drone parts.</li>
     <li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
     <li>crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.</li>
@@ -44,7 +44,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
         <li>MERCHANT_REQUEST: Added missing Lifeform Scanner blue option from the STATION_SICK event as intended.</li>
         <li>NEBULA_SLUG_FIGHT_UNLOCK, QUEST_SLUG_PIRATE_TRAP: The quests of these events now appear at nebula beacons instead of non-nebula beacons on the map (will slow the Rebel Fleet appropriately).</li>
         <ol>
-            <li>Note that if all nebula beacons in the current sector are either visited or overtaken by the Rebel Fleet, it will be transferred to the next sector, and if there are no nebula beacon events in the next sector, the quest will not appear.</li>
+            <li>Note that if all nebula beacons in the current sector are either visited or overtaken by the Rebel Fleet, the quest will be transferred to the next sector, and if there are no nebula beacon events in the next sector, the quest will not appear in it (or any subsequent sectors even if they have nebulas).</li>
         </ol>
         <li>ROCK_STARSHIP_MINE: Fixed missile option not requiring 1 missile.</li>
         <li>SLUG_DISTRESS_QUESTION, SLUG_DISTRESS_RESCUE, SLUG_DISTRESS_ROCK, SLUG_DISTRESS_TRICK, STORM_BOARDING, STORM_REBEL, STORM_SLUG_FIGHT: These events no longer appear at non-nebula beacons on the map (will slow the Rebel Fleet appropriately).</li>
@@ -57,7 +57,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
             <li>Augment rewards outside autoReward now overwrite autoReward augments, instead of being overwritten by autoReward augments. Fixes events ENGI_UNLOCK_1, ENGI_VIRUS and NEBULA_SLUG_FIGHT_UNLOCK in rare cases.</li>
             <li>Weapon rewards outside autoReward no longer overwrite autoReward drones and augments. Fixes events CRYSTAL_CACHE and DONOR_MANTIS_CHASE in rare cases, and event CRYSTAL_HELP_DIG now gives an augment and high scrap with the free weapon as intended.</li>
             <li>Drone rewards outside autoReward no longer overwrite autoReward weapons and augments. Fixes event ZOLTAN_CREW_STUDY in rare cases.</li>
-        </ol>        
+        </ol>
         <li>CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK: Fixed certain options having a chance of not consuming resources, if the reward after the choice includes that resource. (I used custom autoRewards for this, ideally HS can fix this in the future so that they aren't required.)</li>
     </ol>
     <li>SHIPS:</li>
@@ -193,8 +193,8 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
 <ol>
     <li>console: Disabled console.</li>
     <li>dismissSound: The depressurization sound no longer plays when dismissing crew.</li>
-    <li>hackingDroneFix: Hacking drones do not explode mid-flight if Hacking system is depowered. (This setting is re-enabled in the Balance mod (or at least, I'm considering at the time of writing).)</li>
-    <li>repairDroneRecoveryFix: Drone Recovery Arm is not prevented from retrieving Hull Repair Drones that are still in the process of repairing your hull. (This setting is re-enabled in the Balance mod (or at least, I'm considering at the time of writing).)</li>
+    <li>hackingDroneFix: Hacking drones do not explode mid-flight if Hacking system is depowered.</li>
+    <li>repairDroneRecoveryFix: Drone Recovery Arm is not prevented from retrieving Hull Repair Drones that are still in the process of repairing your hull.</li>
     <li>surgeDrones: Drone distribution of Phase 2 Flagship Power Surge is not fixed to 2/2 Combat/Beam Drones on Easy, 3/3 on Normal, 4/3 on Hard. Each drone has a 50% chance of being either.</li>
 </ol>
 
