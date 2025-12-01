@@ -166,12 +166,6 @@
     </mod:findLike>
 </mod:findName>
 
-<mod:findName type="weaponBlueprint" name="LASER_BURST_1">
-    <mod:findLike type="cost">
-        <mod:setValue>30</mod:setValue>
-    </mod:findLike>
-</mod:findName>
-
 <mod:findName type="weaponBlueprint" name="LASER_BURST_2">
     <mod:findLike type="cost">
         <mod:setValue>60</mod:setValue>
