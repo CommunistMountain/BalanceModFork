@@ -44,14 +44,6 @@ script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projec
 end)
 
 script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
-    if getLastSector then
-        local currentSector = Hyperspace.App.world.starMap.currentSector
-        if currentSector ~= nil then
-            lastSector = currentSector.level
-            getLastSector = false
-        end
-    end
-    
     if shipManager.iShipId == 0 then -- for player-specific actions
         if shipManager:HasAugmentation("HACKING_USE_MORE_PARTS_CM") <= 0 then
             shipManager:AddAugmentation("HIDDEN HACKING_USE_MORE_PARTS_CM")
@@ -77,6 +69,16 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
             local doors = shipManager:GetSystem(8)
             doors.bManned = true
             doors.iActiveManned = 1
+        end
+    end
+end)
+
+script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function()
+    if getLastSector then
+        local currentSector = Hyperspace.App.world.starMap.currentSector
+        if currentSector ~= nil then
+            lastSector = currentSector.level
+            getLastSector = false
         end
     end
 end)
