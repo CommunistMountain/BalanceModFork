@@ -299,16 +299,7 @@
     </mod:findLike>
 </mod:findName>
 
-<mod:findName type="weaponBlueprint" name="MISSILES_2_PLAYER">
-    <mod:findLike type="cost">
-        <mod:setValue>40</mod:setValue>
-    </mod:findLike>
-</mod:findName>
-
 <mod:findName type="weaponBlueprint" name="MISSILES_2">
-    <mod:findLike type="cost">
-        <mod:setValue>40</mod:setValue>
-    </mod:findLike>
     <mod:findLike type="rarity">
         <mod:setValue>2</mod:setValue>
     </mod:findLike>
@@ -332,33 +323,18 @@
     </mod:findLike>
 </mod:findName>
 
-<mod:findName type="weaponBlueprint" name="ION_1">
+<mod:findName type="weaponBlueprint" name="ION_2">
+    <mod:findLike type="speed">
+        <mod:setValue>30</mod:setValue>
+    </mod:findLike>
     <mod:findLike type="cooldown">
         <mod:setValue>10</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
-<mod:findName type="weaponBlueprint" name="ION_2">
-    <mod:findLike type="speed">
-        <mod:setValue>30</mod:setValue>
-    </mod:findLike>
-    <mod:findLike type="stunChance">
-        <mod:setValue>1</mod:setValue>
-    </mod:findLike>
-    <mod:findLike type="cooldown">
-        <mod:setValue>8</mod:setValue>
-    </mod:findLike>
-</mod:findName>
-
 <mod:findName type="weaponBlueprint" name="ION_4">
-    <mod:findLike type="cooldown">
-        <mod:setValue>3.5</mod:setValue>
-    </mod:findLike>
     <mod:findLike type="power">
         <mod:setValue>2</mod:setValue>
-    </mod:findLike>
-    <mod:findLike type="cost">
-        <mod:setValue>60</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
