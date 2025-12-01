@@ -41,7 +41,6 @@
     </ol>
     <li>WEAPONS:</li>
     <ol>
-        <li>Artemis (enemy version): Rarity from 0 to 2 (now available in stores and random rewards), costs 38.</li>
         <li>Ion Charger: Stun chance from 0% to 10%.</li>
         <li>Ion Blast 1: Cooldown from 8s to 10s.</li>
         <li>Heavy Ion: Cooldown from 13s to 8s, projectile speed from 40 to 30, stun chance from 20% to 10%.</li>
@@ -64,6 +63,8 @@
         <li>Crystal weapons: Cost from 20 to 50.</li>
         <li>Heavy Crystal 2: Rarity from 5 to 4, power requirement from 3 to 2.</li>
         <li>Hull Missile: Cost from 65 to 50, cooldown from 17s to 14s.</li>
+        <li>Artemis (enemy version): Rarity from 0 to 2 (now available in stores and random rewards), costs 40.</li>
+        <li>Artemis (player version): Cost from 38 to 40 (sell price from 19 to 20).</li>
         <li>Pegasus Missile: Cooldown from 20s to 16s.</li>
         <li>Breach Missiles: Cost from 65 to 50, cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
         <li>Swarm Missiles: Projectile speed from 45 to 35, stun chance from 0% to 10%.</li>

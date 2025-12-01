@@ -225,12 +225,6 @@
     <mod-append:speed>50</mod-append:speed>
 </mod:findName>
 
-<mod:findName type="weaponBlueprint" name="MISSILES_2">
-    <mod:findLike type="rarity">
-        <mod:setValue>2</mod:setValue>
-    </mod:findLike>
-</mod:findName>
-
 <mod:findName type="weaponBlueprint" name="BEAM_1">
     <mod:findLike type="fireChance">
         <mod:setValue>0</mod:setValue>
@@ -308,6 +302,21 @@
     </mod:findLike>
     <mod:findLike type="cost">
         <mod:setValue>50</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="MISSILES_2_PLAYER">
+    <mod:findLike type="cost">
+        <mod:setValue>40</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="MISSILES_2">
+    <mod:findLike type="cost">
+        <mod:setValue>40</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="rarity">
+        <mod:setValue>2</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
