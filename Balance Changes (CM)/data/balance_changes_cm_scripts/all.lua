@@ -18,6 +18,18 @@ script.on_init(function()
     getLastSector = true
 end)
 
+script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(targetedShipManager, projectile, pointF, damage, bShipFriendlyFire)
+    if projectile.extend.name == "ARTILLERY_FED_C" then
+        local roomId = targetedShipManager.ship:GetSelectedRoomId(pointF.x, pointF.y, true)
+        for i=0, targetedShipManager.vCrewList:size() - 1 do
+            local crewMember = targetedShipManager.vCrewList[i]
+            if crewMember:GetIntruder() and crewMember:InsideRoom(roomId) then
+                crewMember:DirectModifyHealth(75)
+            end
+        end
+    end
+end)
+
 script.on_internal_event(Defines.InternalEvents.GET_DODGE_FACTOR, function(shipManager, iValue)
     return Defines.Chain.CONTINUE, iValue - 2 * shipManager.shieldSystem.shields.power.super.first
 end)

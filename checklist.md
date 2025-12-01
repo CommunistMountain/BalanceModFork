@@ -4,7 +4,6 @@
     <li>TODO change text for everything in readme_new that needs it (list them out)</li>
     <li>WEAPONS:</li>
     <ol>
-        <li>Flak Artillery: shield piercing from 0 to 5, damage from 1 to 0, now heals your crew by 150 per projectile. (TODO check if it's enough that it hits a room, or it needs to hit the tile to work. If the former, heal can afford to be less) (TODO 2 find out how to apply heal, maybe need LUA, and remove persDamage since it doesnt work)</li>
         <li>Repair Burst: Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100% (though if it's a room with open external doors, it will become instantly vacuum again). (TODO: test if all these features work. Also check that o2 works against auto and lanius)</li>
         <li>Glaive Beam: Its damage is equal to the number of charges. (todo fix the targeting bug)</li>
     </ol>

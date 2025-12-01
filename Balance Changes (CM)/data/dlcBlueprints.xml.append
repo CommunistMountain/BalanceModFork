@@ -199,7 +199,6 @@
     <mod:findLike type="sp">
         <mod:setValue>5</mod:setValue>
     </mod:findLike>
-    <!--mod-append:persDamage>-10</mod-append:persDamage-->
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="ION_CHAINGUN">

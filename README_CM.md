@@ -57,7 +57,7 @@
         <li>Flak weapons: removed fake projectiles.</li>
         <li>Advanced Flak: Cooldown from 8s to 5s, projectiles from 3 to 2.</li>
         <li>Flak 1: Rarity from 1 to 4, cost from 65 to 80.</li>
-        <li>Flak Artillery: shield piercing from 0 to 5, damage from 1 to 0, now heals your crew by 150 per projectile. (TODO check if it's enough that it hits a room, or it needs to hit the tile to work. If the former, heal can afford to be less) (TODO 2 find out how to apply heal, maybe need LUA, and remove persDamage since it doesnt work)</li>
+        <li>Flak Artillery: Shield piercing from 0 to 5, damage from 1 to 0. Each flak heals 75 health for all friendly crew in the room.</li>
         <li>Crystal weapons: Cost from 20 to 50.</li>
         <li>Heavy Crystal 2: Rarity from 5 to 4, power requirement from 3 to 2.</li>
         <li>Hull Missile: Cost from 65 to 50, cooldown from 17s to 14s.</li>
