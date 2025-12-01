@@ -47,10 +47,10 @@
         <li>Ion Blast 2: Cost from 70 to 60, power requirement from 3 to 2, cooldown from 4s to 3.5s.</li>
         <li>Chain Ion: Cooldown from 14s to 8s, stun chance from 0% to 10%.</li>
         <li>Laser Charger (both versions): Fire chance from 0% to 10%.</li>
-        <li>Laser Charger (player version): Cost from 30 to 60 (sell price from 15 to 30).</li>
-        <li>Dual Lasers: Cost from 25 to 60 (sell price from 12 to 30).</li>
+        <li>Laser Charger (player version): Cost from 30 to 50 (sell price from 15 to 25).</li>
+        <li>Dual Lasers: Cost from 25 to 50 (sell price from 12 to 25).</li>
         <li>Burst Laser 1: Rarity from 1 to 3.</li>
-        <li>Burst Laser 3: Rarity from 4 to 2, cost from 95 to 70, cooldown from 19s to 14s, fire chance from 0% to 10%.</li>
+        <li>Burst Laser 3: Rarity from 4 to 2, cooldown from 19s to 14s, fire chance from 0% to 10%.</li>
         <li>Heavy Laser 1: Rarity from 2 to 4, cooldown from 9s to 11s.</li>
         <li>Heavy Pierce 1: Power requirement from 2 to 1, cooldown from 10s to 15s, stun chance from 0% to 20%.</li>
         <li>Hull Laser 1: Rarity from 2 to 3, cooldown from 14s to 15s, projectile speed from 75 to 90, fire chance from 0% to 10%, breach chance from 20% to 18%.</li>
@@ -75,7 +75,7 @@
         <li>Stun Bomb: Cooldown from 17s to 12s, stun from 15s to 12s.</li>
         <li>Lock Bomb: Cooldown from 15s to 12s.</li>
         <li>Small Bomb: Rarity from 1 to 4, cost from 45 to 60, fire chance from 10% to 0%.</li>
-        <li>Mini-Beam: Cost from 20 to 60 (sell price from 10 to 30). Fire chance from 10% to 0%.</li>
+        <li>Mini-Beam: Cost from 20 to 50 (sell price from 10 to 25). Fire chance from 10% to 0%.</li>
         <li>Hull Beam: Cooldown from 14s to 16s.</li>
         <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 80.</li>
         <li>Glaive Beam: Rarity from 5 to 3, cooldown from 25s to 24s, split into 8s over 3 charges. Its damage is equal to the number of charges.</li>

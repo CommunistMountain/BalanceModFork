@@ -239,7 +239,7 @@
 
 <mod:findName type="weaponBlueprint" name="LASER_CHARGEGUN_PLAYER">
     <mod:findLike type="cost">
-        <mod:setValue>60</mod:setValue>
+        <mod:setValue>50</mod:setValue>
     </mod:findLike>
 </mod:findName>
 

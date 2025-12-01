@@ -168,7 +168,7 @@
 
 <mod:findName type="weaponBlueprint" name="LASER_BURST_2">
     <mod:findLike type="cost">
-        <mod:setValue>60</mod:setValue>
+        <mod:setValue>50</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
@@ -184,9 +184,6 @@
     </mod:findLike>
     <mod:findLike type="cooldown">
         <mod:setValue>14</mod:setValue>
-    </mod:findLike>
-    <mod:findLike type="cost">
-        <mod:setValue>70</mod:setValue>
     </mod:findLike>
     <mod:findLike type="rarity">
         <mod:setValue>2</mod:setValue>
@@ -230,7 +227,7 @@
         <mod:setValue>0</mod:setValue>
     </mod:findLike>
     <mod:findLike type="cost">
-        <mod:setValue>60</mod:setValue>
+        <mod:setValue>50</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
