@@ -18,8 +18,8 @@ script.on_init(function()
     getLastSector = true
 end)
 
-script.on_internal_event(Defines.InternalEvents.GET_DODGE_FACTOR, function(shipManager, value)
-    return Defines.Chain.CONTINUE, value - 2 * shipManager.shieldSystem.shields.power.super.first
+script.on_internal_event(Defines.InternalEvents.GET_DODGE_FACTOR, function(shipManager, iValue)
+    return Defines.Chain.CONTINUE, iValue - 2 * shipManager.shieldSystem.shields.power.super.first
 end)
 
 script.on_internal_event(Defines.InternalEvents.JUMP_ARRIVE, function(shipManager)
