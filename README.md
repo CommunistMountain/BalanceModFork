@@ -96,6 +96,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
     <li>showNumericalWeaponCooldown: Shows weapon cooldowns.</li>
     <li>showAllConnections: Shows all connections between beacons on the map.</li>
     <li>Rebel Flagship and Rebel Elites no longer try to escape if you are out of fuel (this mechanic which is meant to avoid stalemates ironically causes an even worse stalemate in the case of these enemies). This also solves a bug where you have no fuel while fighting the Phase 3 RFS, and win when it leaves.</li>
+    <li>The game starts paused when starting a new game or loading a game from a save.</li>
     <li>Added Speed UI from INS+/MV. Credit to JamesTripleQ, slowriderxcorps, Arc, Chrono Vortex (and anyone else that I missed). I have also improved its performance. At the start of each Civilian Sector, there will be an option to toggle which Speed UI variant you want:</li>
     <ol>
         <li>Disabled: Vanilla.</li>

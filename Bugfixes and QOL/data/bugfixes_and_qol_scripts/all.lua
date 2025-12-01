@@ -28,6 +28,10 @@ script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function
     end
 end)
 
+script.on_init(function()
+    Hyperspace.App.gui.bPaused = true
+end)
+
 script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
     if shipManager.iShipId == 0 then -- for all player-specific checks
         no_pause_time_increments = no_pause_time_increments + time_increment_cm()
