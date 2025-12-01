@@ -185,12 +185,6 @@
     </mod:findLike>
 </mod:findName>
 
-<mod:findName type="weaponBlueprint" name="SHOTGUN_2">
-    <mod:findLike type="cost">
-        <mod:setValue>70</mod:setValue>
-    </mod:findLike>
-</mod:findName>
-
 <mod:findName type="weaponBlueprint" name="MISSILE_CHARGEGUN">
     <mod:findLike type="speed">
         <mod:setValue>35</mod:setValue>
@@ -222,9 +216,6 @@
 <mod:findName type="weaponBlueprint" name="LASER_CHAINGUN_2">
     <mod:findLike type="cooldown">
         <mod:setValue>8.5</mod:setValue>
-    </mod:findLike>
-    <mod:findLike type="cost">
-        <mod:setValue>80</mod:setValue>
     </mod:findLike>
     <mod:findLike type="rarity">
         <mod:setValue>3</mod:setValue>

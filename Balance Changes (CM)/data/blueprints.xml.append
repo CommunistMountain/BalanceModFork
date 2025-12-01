@@ -250,9 +250,6 @@
     <mod:findLike type="cooldown">
         <mod:setValue>8</mod:setValue> 
     </mod:findLike>
-    <mod:findLike type="cost">
-        <mod:setValue>75</mod:setValue>
-    </mod:findLike>
     <mod:findLike type="rarity">
         <mod:setValue>3</mod:setValue>
     </mod:findLike>
@@ -373,7 +370,7 @@
         <mod:setValue>0</mod:setValue>
     </mod:findLike>
     <mod:findLike type="cost">
-        <mod:setValue>70</mod:setValue>
+        <mod:setValue>60</mod:setValue>
     </mod:findLike>
     <mod:findLike type="rarity">
         <mod:setValue>4</mod:setValue>
