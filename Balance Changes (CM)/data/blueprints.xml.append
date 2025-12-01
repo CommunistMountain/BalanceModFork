@@ -185,9 +185,6 @@
     <mod:findLike type="cooldown">
         <mod:setValue>14</mod:setValue>
     </mod:findLike>
-    <mod:findLike type="rarity">
-        <mod:setValue>2</mod:setValue>
-    </mod:findLike>
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="LASER_HEAVY_1">
@@ -248,7 +245,7 @@
         <mod:setValue>8</mod:setValue> 
     </mod:findLike>
     <mod:findLike type="rarity">
-        <mod:setValue>3</mod:setValue>
+        <mod:setValue>4</mod:setValue>
     </mod:findLike>
     <mod-append:chargeLevels>3</mod-append:chargeLevels>
 </mod:findName>
@@ -275,9 +272,6 @@
     </mod:findLike>
     <mod:findLike type="cooldown">
         <mod:setValue>15</mod:setValue>
-    </mod:findLike>
-    <mod:findLike type="rarity">
-        <mod:setValue>3</mod:setValue>
     </mod:findLike>
     <mod:findLike type="speed">
         <mod:setValue>90</mod:setValue>
