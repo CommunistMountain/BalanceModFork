@@ -29,7 +29,9 @@ script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function
 end)
 
 script.on_init(function()
-    Hyperspace.App.gui.bPaused = true
+    if Hyperspace.App.world.starMap.currentSector == nil then -- happens when loading from a save but not when starting a new game
+        Hyperspace.App.gui.bPaused = true
+    end
 end)
 
 script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
