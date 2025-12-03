@@ -48,7 +48,6 @@ Continued from Twinge's Balance and Bugfix Mod 4.0.2. This starts at 4.0.3 since
         <li>Ion Bomb: Cost from 55 to 50, cooldown from 22s to 21s.</li>
         <li>Healing Burst: Rarity from 3 to 4, cost from 40 to 25, cooldown from 18s to 9s.</li>
         <li>Lock Bomb: Cost from 45 to 25, cooldown from 15s to 6s.</li>
-        <li>Mini-Beam: Length from 45 to 47.</li>
         <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 85, cooldown from 17s to 18s.</li>
         <li>Glaive Beam: Cost from 95 to 80.</li>
         <li>Anti-Bio Beam: Cost from 50 to 40.</li>

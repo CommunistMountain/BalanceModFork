@@ -326,12 +326,6 @@
 	</mod:findLike>
 </mod:findName>
 
-<mod:findName type="weaponBlueprint" name="BEAM_1">
-    <mod:findLike type="length">
-        <mod:setValue>47</mod:setValue>
-    </mod:findLike>
-</mod:findName>
-
 <mod:findName type="weaponBlueprint" name="BEAM_2">
 	<mod:findLike type="cooldown">
 		<mod:setValue>18</mod:setValue>
