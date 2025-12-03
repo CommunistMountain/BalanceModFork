@@ -244,6 +244,13 @@
     </ol>
     <li>NPC SHIPS:</li>
     <ol>
+        <li>All NPC ships, other than the Flagship and the Flagship Construction, have a maximum Engines level of 5. The affected ships and their original max Engines level are:</li>
+        <ol>
+            <li>Auto-Scout and Auto-Surveyor: 8</li>
+            <li>Rebel Rigger and Rebel Disruptor (and pirate versions): 4</li>
+            <li>Slug Interceptor and Slug Scout (and pirate versions): 8</li>
+            <li>Slug Light-Cruiser and Slug Light-Surveyor (and pirate versions): 6</li>
+        </ol>
         <li>Engi ships: May now spawn with Anti-Personnel Drones.</li>
         <li>Lanius ships: Ratio of Lanius Scouts to Lanius Bombers in Sector 4+ Abandoned Sector from 1:1 to 2:1.</li>
         <li>Mantis Fighter and Mantis Interceptor (and pirate versions): Medical systems are now optional instead of guaranteed.</li>
@@ -251,10 +258,11 @@
         <li>Rock ships: May now spawn with Fire Bombs.</li>
         <li>Rock Assault (Elite): Crew range from 4 to 5.</li>
         <li>Auto-ships: Removed doors.</li>
-        <li>Auto-scout and Auto-surveyor: Shields are now guaranteed.</li>
+        <li>Auto-Scout and Auto-Surveyor: Shields are now guaranteed.</li>
         <li>Auto-ships, and Flagship when automated: Now have a weaker version of Slug Repair Gel, which fixes breaches at about 1/4 the rate of a Human.</li>
         <li>Flagship: Oxygen is instantly drained and disabled when it becomes automated.</li>
         <li>Flagship (Non-AE Easy version): Shield layers from 3 to 4, reactor from 40/42/29 to 42/44/31 for each Phase.</li>
+        <li>Flagship (Phase 3): Engines level from 6 to 8.</li>
         <li>Flagship (AE versions): Medbay level from 3 to 2, added level 1 Clone Bay in the room to the right of Medbay.</li>
         <li>Flagship (Hard version): In Phase 1, there are extra rooms between each side's 2 Artilleries, connecting all of them, and no room between laser/missile Artilleries and Shields. In Phase 2, the left extra room will be destroyed, but a new room will appear between laser Artillery and Shields. Likewise for the right extra room in Phase 3, so Phase 3 has vanilla Hard's layout.</li>
     </ol>

@@ -11,6 +11,20 @@
 
 <mod:findComposite>
     <mod:par op="OR">
+        <mod:findName type="shipBlueprint" name="REBEL_FAT_DLC"/>
+        <mod:findName type="shipBlueprint" name="AUTO_BASIC_DLC"/>
+        <mod:findName type="shipBlueprint" name="JELLY_BUTTON_DLC"/>
+        <mod:findName type="shipBlueprint" name="JELLY_CROISSANT_DLC"/>
+    </mod:par>
+    <mod:findLike type="systemList">
+        <mod:findLike type="engines">
+            <mod:setAttributes max="5"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findComposite>
+
+<mod:findComposite>
+    <mod:par op="OR">
         <mod:findName type="shipBlueprint" name="AUTO_BASIC_DLC"/>
         <mod:findName type="shipBlueprint" name="AUTO_ASSAULT_DLC"/>
     </mod:par>

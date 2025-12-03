@@ -36,6 +36,22 @@
 
 <mod:findComposite>
     <mod:par op="OR">
+        <mod:findName type="shipBlueprint" name="BOSS_3_EASY"/>
+        <mod:findName type="shipBlueprint" name="BOSS_3_NORMAL"/>
+        <mod:findName type="shipBlueprint" name="BOSS_3_HARD"/>
+        <mod:findName type="shipBlueprint" name="BOSS_3_EASY_DLC"/>
+        <mod:findName type="shipBlueprint" name="BOSS_3_NORMAL_DLC"/>
+        <mod:findName type="shipBlueprint" name="BOSS_3_HARD_DLC"/>
+    </mod:par>
+    <mod:findLike type="systemList">
+        <mod:findLike type="engines">
+            <mod:setAttributes power="8"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findComposite>
+
+<mod:findComposite>
+    <mod:par op="OR">
         <mod:findName type="shipBlueprint" name="BOSS_1_EASY_DLC"/>
         <mod:findName type="shipBlueprint" name="BOSS_2_EASY_DLC"/>
         <mod:findName type="shipBlueprint" name="BOSS_3_EASY_DLC"/>

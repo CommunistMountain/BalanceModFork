@@ -3,6 +3,22 @@
 <FTL>
 <mod:findComposite>
     <mod:par op="OR">
+        <mod:findName type="shipBlueprint" name="REBEL_FAT_P"/>
+        <mod:findName type="shipBlueprint" name="REBEL_FAT_P_DLC"/>
+        <mod:findName type="shipBlueprint" name="JELLY_BUTTON_P"/>
+        <mod:findName type="shipBlueprint" name="JELLY_BUTTON_P_DLC"/>
+        <mod:findName type="shipBlueprint" name="JELLY_CROISSANT_P"/>
+        <mod:findName type="shipBlueprint" name="JELLY_CROISSANT_P_DLC"/>
+    </mod:par>
+    <mod:findLike type="systemList">
+        <mod:findLike type="engines">
+            <mod:setAttributes max="5"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findComposite>
+
+<mod:findComposite>
+    <mod:par op="OR">
         <mod:findName type="shipBlueprint" name="MANTIS_SCOUT_P"/>
         <mod:findName type="shipBlueprint" name="MANTIS_SCOUT_P_DLC"/>
         <mod:findName type="shipBlueprint" name="MANTIS_FIGHTER_P"/>
