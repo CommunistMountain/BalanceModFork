@@ -299,6 +299,10 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findName type="blueprintList" name="SHIPS_LANIUS">
+    <mod-append:name>ANAEROBIC_SCOUT</mod-append:name>
+</mod:findName>
+
 <mod:findComposite>
     <mod:par op="OR">
         <mod:findName type="shipBlueprint" name="ANAEROBIC_SCOUT"/>
@@ -308,10 +312,4 @@
         <mod:setAttributes name="TELEPORT_HEAL"/>
     </mod:findLike>
 </mod:findComposite>
-
-<mod:findName type="shipBlueprint" name="ANAEROBIC_BOMBER">
-    <mod:findLike type="crewCount">
-        <mod:setAttributes max="4"/>
-    </mod:findLike>
-</mod:findName>
 </FTL>

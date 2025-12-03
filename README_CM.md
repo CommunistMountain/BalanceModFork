@@ -245,7 +245,7 @@
     <li>NPC SHIPS:</li>
     <ol>
         <li>Engi ships: May now spawn with Anti-Personnel Drones.</li>
-        <li>Lanius Bomber: Crew range from 3-4 to 3.</li>
+        <li>Lanius ships: Ratio of Lanius Scouts to Lanius Bombers in Sector 4+ Abandoned Sector from 1:1 to 2:1.</li>
         <li>Mantis Fighter and Mantis Interceptor (and pirate versions): Medical systems are now optional instead of guaranteed.</li>
         <li>Slug Interceptor and Slug Scout: Added doors connecting Oxygen and Engines.</li>
         <li>Rock ships: May now spawn with Fire Bombs.</li>
