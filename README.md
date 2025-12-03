@@ -63,7 +63,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
     <li>SHIPS:</li>
     <ol>
         <li>Pirate Mantis Interceptor: Highest sector it can appear from 5 to 6, to match non-pirate version.</li>
-        <li>Rebel Disruptor: Hacking max from 1 to 2, to match pirate version.</li>
+        <li>Pirate Rebel Disruptor: Hacking max from 2 to 1, to match non-pirate version.</li>
         <li>Pirate Slug Instigator: Pilot max from 0 (effectively 1) to 3, to match non-pirate version.</li>
     </ol>
     <li>TEXT</li>
