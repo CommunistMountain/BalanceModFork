@@ -10,7 +10,7 @@
 </mod:findComposite>
 
 <mod:findLike type="scripts" limit="1">
-    <mod-append:script>data/balance_changes_cm_scripts/all.lua</mod-append:script>
+    <mod-append:script>data/balance_changes_cm_scripts/core.lua</mod-append:script>
 </mod:findLike>
 
 <mod:findLike type="ships" limit="1">
