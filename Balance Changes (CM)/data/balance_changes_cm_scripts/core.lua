@@ -18,12 +18,30 @@ script.on_init(function()
     getLastSector = true
 end)
 
+script.on_internal_event(Defines.InternalEvents.CALCULATE_STAT_PRE, function(crewMember, crewStat, crewDefinition, fAmount, bValue)
+    if crewMember.intruder then
+        local hackedShipManager = Hyperspace.Global.GetInstance():GetShipManager(1 - crewMember.iShipId)
+        local hackerShipManager = Hyperspace.Global.GetInstance():GetShipManager(crewMember.iShipId)
+        if hackerShipManager ~= nil and hackerShipManager:HasAugmentation("HACKING_STUN") > 0 then
+            for i=0, hackedShipManager.vSystemList:size() - 1 do
+                if crewMember.iRoomId == hackedShipManager.vSystemList[i]:GetRoomId() then
+                    if hackedShipManager:IsSystemHacked(hackedShipManager.vSystemList[i]:GetId()) == 2 then
+                        crewMember.fStunTime = 0
+                    end
+                    break
+                end
+            end
+        end
+    end
+    return Defines.Chain.CONTINUE, fAmount, bValue
+end)
+
 script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(targetedShipManager, projectile, pointF, damage, bShipFriendlyFire)
     if projectile.extend.name == "ARTILLERY_FED_C" then
         local roomId = targetedShipManager.ship:GetSelectedRoomId(pointF.x, pointF.y, true)
         for i=0, targetedShipManager.vCrewList:size() - 1 do
             local crewMember = targetedShipManager.vCrewList[i]
-            if crewMember:GetIntruder() and crewMember:InsideRoom(roomId) then
+            if crewMember.intruder and crewMember.iRoomId == roomId then
                 crewMember:DirectModifyHealth(50)
             end
         end

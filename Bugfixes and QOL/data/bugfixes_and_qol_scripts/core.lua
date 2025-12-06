@@ -1,5 +1,29 @@
 mods.bugfixes_and_qol = {}
 
+function mods.bugfixes_and_qol.print_object_fields(object, parent_member_name)
+    if object ~= nil then
+        local object_metatable = getmetatable(object)
+        if object_metatable ~= nil then
+            local getters = object_metatable[".get"]
+            if getters ~= nil then
+                parent_member_name = parent_member_name or "" -- if parent_member_name is not provided
+                for member_name, getter in pairs(getters) do
+                    print(parent_member_name .. "." .. member_name, getter(object))
+                    if not string.match(parent_member_name, "." .. member_name) then -- to avoid loops. though this may also eliminate some non-loops
+                        --mods.bugfixes_and_qol.print_object_fields(getter(object), parent_member_name .. "." .. member_name) --recursion is buggy for now
+                    end
+                end
+            else
+                --print("Failed printing Object fields: Object metatable getters is nil.")
+            end
+        else
+            --print("Failed printing Object fields: Object metatable is nil.")
+        end
+    else
+        --print("Failed printing Object fields: Object is nil.")
+    end
+end
+
 function mods.bugfixes_and_qol.time_increment()
     if Hyperspace.FPS.speedLevel ~= 0 and Hyperspace.FPS.speedEnabled then
         return Hyperspace.FPS.SpeedFactor/16

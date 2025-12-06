@@ -168,7 +168,7 @@
         <li>Damaged Stasis Pod: Cost from 30 to 0 (sell price from 15 to 0).</li>
         <li>Distraction Buoys: Cost from 55 to 40.</li>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40.</li>
-        <li>Hacking Stun: Stun no longer affects friendly crew. Now also sets the cost of deploying Hacking drone from 2 drone parts back to 1.</li>
+        <li>Hacking Stun: Now makes friendly crew inside the hacked room immune to stuns instead of stunning them, and also sets the cost of deploying Hacking drone from 2 drone parts back to 1.</li>
         <li>Lifeform Scanner: Rarity from 3 to 1. Cost from 40 to 20.</li>
         <li>Long-Ranged Scanners: Rarity from 1 to 3.</li>
         <li>Repair Arm: Scrap penalty from -15% to -5%.</li>
