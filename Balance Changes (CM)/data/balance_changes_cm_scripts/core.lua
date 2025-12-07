@@ -2,6 +2,14 @@ local lastSector = 0
 local getLastSector = false
 local vanillaAugs = {"CREW_STIMS", "DRONE_SPEED", "FTL_JUMPER", "NANO_MEDBAY", "ROCK_ARMOR"}
 local vanillaAugExtensions = {"CREW_STIMS_EXTENSION_CM", "DRONE_SPEED_EXTENSION_CM", "FTL_JUMPER_EXTENSION_CM", "NANO_MEDBAY_EXTENSION_CM", "ROCK_ARMOR_EXTENSION_CM"}
+local repairDroneRecoveryFix = false
+local hyperspaceDoc = RapidXML.xml_document("data/hyperspace.xml")
+for _, child_node in ipairs(mods.bugfixes_and_qol.child_nodes(hyperspaceDoc:first_node("FTL") or hyperspaceDoc, true)) do
+    if child_node:name() == "repairDroneRecoveryFix" and child_node:first_attribute("enabled"):value() == "true" then
+        repairDroneRecoveryFix = true
+        break
+    end
+end
 
 script.on_game_event("BOSS_AUTOMATED", false, function()
     local enemyShipManager = Hyperspace.ships.enemy
@@ -66,6 +74,22 @@ script.on_internal_event(Defines.InternalEvents.JUMP_ARRIVE, function(shipManage
     end
     
     lastSector = starMap.currentSector.level
+end)
+
+script.on_internal_event(Defines.InternalEvents.JUMP_LEAVE, function(shipManager)
+    if shipManager:HasAugmentation("DRONE_RECOVERY_CM") > 0 then
+        local recoveredDrones = 0
+        local spaceDrones = Hyperspace.App.world.space.drones
+        for i=0, spaceDrones:size() - 1 do
+            local spaceDrone = spaceDrones[i]
+            if spaceDrone.iShipId == shipManager.iShipId and spaceDrone.deployedLastFrame then
+                if spaceDrone.type == 0 or (not repairDroneRecoveryFix and spaceDrone.type == 5) or spaceDrone.type == 7 then -- defense, hull repair, shield
+                    recoveredDrones = recoveredDrones + 1
+                end
+            end
+        end
+        shipManager:ModifyDroneCount(recoveredDrones)
+    end
 end)
 
 script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projectile, projectileFactory)

@@ -315,7 +315,6 @@
     </ol>
     <li>MECHANICS:</li>
     <ol>
-        <li>The rooms of neutral ships are now visible.</li>
         <li>Each supershield layer causes -2% evasion.</li>
         <li>Unpowered space drones can be ionized by enemy ion projectiles.</li>
         <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>

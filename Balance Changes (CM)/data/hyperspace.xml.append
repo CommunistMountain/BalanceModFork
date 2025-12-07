@@ -151,8 +151,9 @@
         <function name="FTL_BOOSTER"/>
         <function name="FTL_JAMMER"/>
     </mod-append:aug>
+    <mod-append:aug name="DRONE_RECOVERY_CM"/>
     <mod-append:aug name="DRONE_SPEED_EXTENSION_CM">
-        <function name="DRONE_RECOVERY"/>
+        <function name="DRONE_RECOVERY_CM"/>
         <statBoosts>
             <statBoost name="healSpeed">
                 <crewTarget>ALLIES</crewTarget>
