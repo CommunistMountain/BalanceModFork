@@ -29,7 +29,8 @@ function mods.bugfixes_and_qol.child_nodes(node, reversed)
     return child_table
 end
 
-function mods.bugfixes_and_qol.print_object_fields(object, parent_member_name)
+function mods.bugfixes_and_qol.print_object_fields(object, parent_member_name, print_error_messages)
+    print_error_messages = print_error_messages or true -- if print_error_messages is not provided
     if object ~= nil then
         local object_metatable = getmetatable(object)
         if object_metatable ~= nil then
@@ -42,14 +43,14 @@ function mods.bugfixes_and_qol.print_object_fields(object, parent_member_name)
                         --mods.bugfixes_and_qol.print_object_fields(getter(object), parent_member_name .. "." .. member_name) --recursion is buggy for now
                     end
                 end
-            else
-                --print("Failed printing Object fields: Object metatable getters is nil.")
+            elseif print_error_messages then
+                print("Failed printing Object fields: Object metatable getters is nil.")
             end
-        else
-            --print("Failed printing Object fields: Object metatable is nil.")
+        elseif print_error_messages then
+            print("Failed printing Object fields: Object metatable is nil.")
         end
-    else
-        --print("Failed printing Object fields: Object is nil.")
+    elseif print_error_messages then
+        print("Failed printing Object fields: Object is nil.")
     end
 end
 
