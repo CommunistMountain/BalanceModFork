@@ -1,5 +1,34 @@
 mods.bugfixes_and_qol = {}
 
+function mods.bugfixes_and_qol.child_nodes(node, reversed)
+    local child_table = {}
+    if node ~= nil then
+        reversed = reversed or false -- if reversed is not provided
+        if not reversed then
+            local first_child = node:first_node()
+            if first_child ~= nil then
+                table.insert(child_table, first_child)
+                local next_child = first_child:next_sibling()
+                while next_child ~= nil do
+                    table.insert(child_table, next_child)
+                    next_child = next_child:next_sibling()
+                end
+            end
+        else
+            local first_child = node:last_node()
+            if first_child ~= nil then
+                table.insert(child_table, first_child)
+                local next_child = first_child:previous_sibling()
+                while next_child ~= nil do
+                    table.insert(child_table, next_child)
+                    next_child = next_child:previous_sibling()
+                end
+            end
+        end
+    end
+    return child_table
+end
+
 function mods.bugfixes_and_qol.print_object_fields(object, parent_member_name)
     if object ~= nil then
         local object_metatable = getmetatable(object)
@@ -50,6 +79,22 @@ script.on_init(function()
     if Hyperspace.App.world.starMap.currentSector == nil then -- happens when loading from a save but not when starting a new game
         Hyperspace.App.gui.bPaused = true
     end
+end)
+
+script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA, function(targetedShipManager, projectile, pointF, damage, evasion, bShipFriendlyFire)
+    if projectile.extend.name == "CRYSTAL_1" then
+        local doc = RapidXML.xml_document("data/blueprints.xml")
+        for _, child_node in ipairs(mods.bugfixes_and_qol.child_nodes(doc:first_node("FTL") or doc, true)) do
+            if child_node:name() == "weaponBlueprint" and child_node:first_attribute("name"):value() == "CRYSTAL_1" then
+                local damage_node = child_node:last_node("damage")
+                if damage_node ~= nil then
+                    damage.iDamage = damage_node:value()
+                end
+                break
+            end
+        end
+    end
+    return Defines.Chain.CONTINUE, evasion, bShipFriendlyFire
 end)
 
 script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)

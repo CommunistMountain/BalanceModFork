@@ -46,6 +46,7 @@ script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(target
             end
         end
     end
+    return Defines.Chain.CONTINUE
 end)
 
 script.on_internal_event(Defines.InternalEvents.GET_DODGE_FACTOR, function(shipManager, iValue)

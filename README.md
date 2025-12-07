@@ -203,6 +203,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
 
 ## Bugfixes/QOL for mods (These have no effect on vanilla gameplay)
 <ol>
+    <li>Crystal Vengeance's internal weapon, CRYSTAL_1, takes its damage from the damage defined in blueprints.xml instead of having hardcoded 1 damage.</li>
     <li>altLockedMiniships: Prioritises the image with the "_base" postfix for locked miniships.</li>
     <li>oxygenWithoutSystem: Allows oxygen to function without a system.</li>
     <li>shieldWithoutSystem: Allows supershields to work even if no shield declared in a ship's shipBlueprint.</li>
