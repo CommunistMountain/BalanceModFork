@@ -4,7 +4,7 @@ local vanillaAugs = {"CREW_STIMS", "DRONE_SPEED", "FTL_JUMPER", "NANO_MEDBAY", "
 local vanillaAugExtensions = {"CREW_STIMS_EXTENSION_CM", "DRONE_SPEED_EXTENSION_CM", "FTL_JUMPER_EXTENSION_CM", "NANO_MEDBAY_EXTENSION_CM", "ROCK_ARMOR_EXTENSION_CM"}
 
 script.on_game_event("BOSS_AUTOMATED", false, function()
-    local enemyShipManager = Hyperspace.Global.GetInstance():GetShipManager(1)
+    local enemyShipManager = Hyperspace.ships.enemy
     if enemyShipManager:HasAugmentation("SLUG_GEL_SLOW_CM") <= 0 then
         enemyShipManager:AddAugmentation("SLUG_GEL_SLOW_CM")
     end
@@ -37,7 +37,7 @@ script.on_internal_event(Defines.InternalEvents.CALCULATE_STAT_PRE, function(cre
 end)
 
 script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(targetedShipManager, projectile, pointF, damage, bShipFriendlyFire)
-    if projectile.extend.name == "ARTILLERY_FED_C" then
+    if projectile ~= nil and projectile.extend.name == "ARTILLERY_FED_C" then
         local roomId = targetedShipManager.ship:GetSelectedRoomId(pointF.x, pointF.y, true)
         for i=0, targetedShipManager.vCrewList:size() - 1 do
             local crewMember = targetedShipManager.vCrewList[i]

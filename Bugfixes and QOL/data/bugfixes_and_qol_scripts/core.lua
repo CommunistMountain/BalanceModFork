@@ -82,7 +82,7 @@ script.on_init(function()
 end)
 
 script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA, function(targetedShipManager, projectile, pointF, damage, evasion, bShipFriendlyFire)
-    if projectile.extend.name == "CRYSTAL_1" then
+    if projectile ~= nil and projectile.extend.name == "CRYSTAL_1" then
         local doc = RapidXML.xml_document("data/blueprints.xml")
         for _, child_node in ipairs(mods.bugfixes_and_qol.child_nodes(doc:first_node("FTL") or doc, true)) do
             if child_node:name() == "weaponBlueprint" and child_node:first_attribute("name"):value() == "CRYSTAL_1" then
