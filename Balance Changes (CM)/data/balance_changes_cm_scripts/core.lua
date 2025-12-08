@@ -68,20 +68,13 @@ script.on_internal_event(Defines.InternalEvents.JUMP_ARRIVE, function(shipManage
     lastSector = starMap.currentSector.level
 end)
 
-script.on_internal_event(Defines.InternalEvents.JUMP_LEAVE, function(shipManager)
-    if shipManager:HasAugmentation("DRONE_RECOVERY_CM") > 0 then
-        local recoveredDrones = 0
-        local spaceDrones = Hyperspace.App.world.space.drones
-        for i=0, spaceDrones:size() - 1 do
-            local spaceDrone = spaceDrones[i]
-            if spaceDrone.iShipId == shipManager.iShipId and spaceDrone.deployedLastFrame then
-                if spaceDrone.type == 0 or spaceDrone.type == 7 then -- defense, shield
-                    recoveredDrones = recoveredDrones + 1
-                end
-            end
+script.on_internal_event(Defines.InternalEvents.HAS_AUGMENTATION, function(shipManager, sAugment, iValue)
+    if sAugment == "DRONE_RECOVERY" then
+        if math.random() < 0.8 then
+            shipManager:ModifyDroneCount(-1)
         end
-        shipManager:ModifyDroneCount(recoveredDrones)
     end
+    return Defines.Chain.CONTINUE, iValue
 end)
 
 script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projectile, projectileFactory)
