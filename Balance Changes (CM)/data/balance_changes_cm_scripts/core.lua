@@ -1,5 +1,5 @@
 local lastSector = 0
-local getLastSector = false
+local initVars = false
 local vanillaAugs = {"CREW_STIMS", "DRONE_SPEED", "FTL_JUMPER", "NANO_MEDBAY", "ROCK_ARMOR"}
 local vanillaAugExtensions = {"CREW_STIMS_EXTENSION_CM", "DRONE_SPEED_EXTENSION_CM", "FTL_JUMPER_EXTENSION_CM", "NANO_MEDBAY_EXTENSION_CM", "ROCK_ARMOR_EXTENSION_CM"}
 
@@ -15,7 +15,7 @@ script.on_game_event("BOSS_AUTOMATED", false, function()
 end)
 
 script.on_init(function()
-    getLastSector = true
+    initVars = true
 end)
 
 script.on_internal_event(Defines.InternalEvents.CALCULATE_STAT_PRE, function(crewMember, crewStat, crewDefinition, fAmount, bValue)
@@ -121,11 +121,16 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
 end)
 
 script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function()
-    if getLastSector then
+    if initVars then
+        local fail = false -- flag that can be used for multiple checks, set to true if any one of them fails, which means we need to check again
+        
         local currentSector = Hyperspace.App.world.starMap.currentSector
         if currentSector ~= nil then
             lastSector = currentSector.level
-            getLastSector = false
+        else
+            fail = true
         end
+        
+        initVars = fail
     end
 end)
