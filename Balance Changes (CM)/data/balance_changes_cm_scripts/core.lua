@@ -1,5 +1,5 @@
-local lastSector = 0
 local initVars = false
+local lastSector = 0
 local vanillaAugs = {"CREW_STIMS", "DRONE_SPEED", "FTL_JUMPER", "NANO_MEDBAY", "ROCK_ARMOR"}
 local vanillaAugExtensions = {"CREW_STIMS_EXTENSION_CM", "DRONE_SPEED_EXTENSION_CM", "FTL_JUMPER_EXTENSION_CM", "NANO_MEDBAY_EXTENSION_CM", "ROCK_ARMOR_EXTENSION_CM"}
 
@@ -66,15 +66,6 @@ script.on_internal_event(Defines.InternalEvents.JUMP_ARRIVE, function(shipManage
     end
     
     lastSector = starMap.currentSector.level
-end)
-
-script.on_internal_event(Defines.InternalEvents.HAS_AUGMENTATION, function(shipManager, sAugment, iValue)
-    if sAugment == "DRONE_RECOVERY" then
-        if math.random() < 0.8 then
-            shipManager:ModifyDroneCount(-1)
-        end
-    end
-    return Defines.Chain.CONTINUE, iValue
 end)
 
 script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projectile, projectileFactory)
