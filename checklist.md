@@ -11,8 +11,4 @@
     <ol>
         <li>(TODO more events for Lifeform Scanner just like Twinge. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates. Actually, some LRS blues should be replaced with Life Scanner if it's against lifeforms)</li>
     </ol>
-    <li>MECHANICS:</li>
-    <ol>
-        <li>Unpowered space drones can be ionized by enemy ion projectiles.</li>
-    </ol>
 </ol>

@@ -5,6 +5,8 @@
     <mod:par op="OR">
         <mod:findLike type="hackingDroneFix"/>
         <mod:findLike type="repairDroneRecoveryFix"/>
+        <mod:findLike type="scaleDRA"/>
+        <mod:findLike type="droneIonDodgeFix"/>
     </mod:par>
     <mod:setAttributes enabled="true"/>
 </mod:findComposite>

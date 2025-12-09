@@ -145,7 +145,7 @@
             <li>Advanced FTL Navigation: Travelling to a previously visited beacon refunds 1 fuel (you still need 1 fuel to make the jump) and delays the Rebel Fleet by 1. (Beacons that are about to be taken over will still have ASB and an Elite upon arrival.)</li>
             <li>Crystal Vengeance: Speed from 35 to 50, effect chance from 10% to 100%, damage from 1 to 0, breach chance from 10% to 100%, stun chance from 20% to 100%.</li>
             <li>Drone Reactor Booster: Crew and Boarding drones speed boost from +25% to +100%, healing factor from 0.2 to 1 (heal in Drone Control from 1.28HP/s to 6.4HP/s, if powered and not hacked). Crew and Boarding drones heal outside Drone Control at 1.6HP/s (if powered and not hacked).</li>
-            <li>Drone Recovery Arm (component of Drone Reactor Booster): Chance for each drone to be recovered from 100% to 20% (TODO chance change needs a future version of Hyperspace at the time of writing).</li>
+            <li>Drone Recovery Arm (component of Drone Reactor Booster): Chance for each drone to be recovered from 100% to 20% (TODO: change needs a future version of Hyperspace at the time of writing).</li>
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
             <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 83% of Human to 50% of Human.</li>
             <li>Slug Repair Gel: Now prevents Sensors from being disabled by nebula or events (it will still be disabled by hacking). Sensors and Doors behave as though they are always manned.</li>
@@ -316,7 +316,7 @@
     <li>MECHANICS:</li>
     <ol>
         <li>Each supershield layer causes -2% evasion.</li>
-        <li>Unpowered space drones can be ionized by enemy ion projectiles.</li>
+        <li>Unpowered space drones can be ionized by enemy ion projectiles. (TODO: change needs a future version of Hyperspace at the time of writing)</li>
         <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
     </ol>
     <li>MISC:</li>
