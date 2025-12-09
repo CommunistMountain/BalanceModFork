@@ -67,7 +67,7 @@
         <li>Swarm Missiles: Projectile speed from 45 to 35, stun chance from 0% to 10%.</li>
         <li>Healing Burst: Rarity from 3 to 1, cooldown from 18s to 9s.</li>
         <li>Repair Burst: Rarity from 3 to 1, cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100% (though if it's a room with open external doors, it will become instantly vacuum again).</li>
-        <li>Breach Bomb 1: Power requirement from 1 to 2, system damage from 1 to 2.</li>
+        <li>Breach Bomb 1: Crew damage from 30 to 15.</li>
         <li>Fire Bomb: System damage from 0 to 1 (now does damage to supershields because of this), crew damage from 30 to 15.</li>
         <li>Ion Bomb: Cooldown from 22s to 20s.</li>
         <li>Stun Bomb: Cooldown from 17s to 12s, stun from 15s to 12s.</li>

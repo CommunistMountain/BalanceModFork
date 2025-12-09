@@ -345,11 +345,8 @@
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="BOMB_BREACH_1">
-    <mod:findLike type="sysDamage">
-        <mod:setValue>2</mod:setValue>
-    </mod:findLike>
-    <mod:findLike type="power">
-        <mod:setValue>2</mod:setValue>
+    <mod:findLike type="persDamage">
+        <mod:setValue>1</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
