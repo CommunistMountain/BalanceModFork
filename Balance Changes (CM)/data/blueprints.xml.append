@@ -562,6 +562,10 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findName type="augBlueprint" name="DRONE_RECOVERY">
+    <mod-append:value>0.2</mod-append:value>
+</mod:findName>
+
 <mod:findName type="augBlueprint" name="STASIS_POD">
     <mod:findLike type="cost">
         <mod:setValue>0</mod:setValue>
