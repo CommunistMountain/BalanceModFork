@@ -37,12 +37,33 @@ script.on_internal_event(Defines.InternalEvents.CALCULATE_STAT_PRE, function(cre
 end)
 
 script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(targetedShipManager, projectile, pointF, damage, bShipFriendlyFire)
-    if projectile ~= nil and projectile.extend.name == "ARTILLERY_FED_C" then
+    if projectile ~= nil then
         local roomId = targetedShipManager.ship:GetSelectedRoomId(pointF.x, pointF.y, true)
-        for i=0, targetedShipManager.vCrewList:size() - 1 do
-            local crewMember = targetedShipManager.vCrewList[i]
-            if crewMember.intruder and crewMember.iRoomId == roomId then
-                crewMember:DirectModifyHealth(50)
+        local roomShape = Hyperspace.ShipGraph.GetShipInfo(targetedShipManager.iShipId):GetRoomShape(roomId)
+        local roomWidth = roomShape.w / 35
+        local roomHeight = roomShape.h / 35
+        
+        if projectile.extend.name == "ARTILLERY_FED_C" then
+            for i=0, targetedShipManager.vCrewList:size() - 1 do
+                local crewMember = targetedShipManager.vCrewList[i]
+                if crewMember.intruder and crewMember.iRoomId == roomId then
+                    crewMember:DirectModifyHealth(50)
+                end
+            end
+        
+        elseif projectile.extend.name == "BOMB_HEAL_SYSTEM" then
+            targetedShipManager.oxygenSystem:ModifyRoomOxygen(roomId, 100)
+            local breaches = targetedShipManager.ship:GetHullBreaches(true)
+            for i=0, breaches:size() - 1 do
+                local breach = breaches[i]
+                if breach.roomId == roomId then
+                    breach.fDamage = 0
+                end
+            end
+            for x=0, roomWidth - 1 do
+                for y=0, roomHeight - 1 do
+                    targetedShipManager:GetFireAtPoint(roomShape.x + x * 35, roomShape.y + y * 35).fDamage = 0
+                end
             end
         end
     end
