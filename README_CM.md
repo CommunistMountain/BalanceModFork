@@ -150,21 +150,9 @@
             <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 83% of Human to 50% of Human.</li>
             <li>Slug Repair Gel: Now prevents Sensors from being disabled by nebula or events (it will still be disabled by hacking). Sensors and Doors behave as though they are always manned.</li>
         </ol>
-        <li>These augments are now stackable. Most of their effects will not change when having multiple, it simply means they will not be immediately converted into 25 scrap when you get a duplicate.</li>
-        <ol>
-            <li>Backup DNA Bank</li>
-            <li>Defense Scrambler</li>
-            <li>Distraction Buoys: Fleet delay stacks (the message will still say the Fleet is delayed by 1 jump, but it will be delayed by the number of Buoys you have).</li>
-            <li>Engi Med-bot Dispersal: Heal stacks.</li>
-            <li>Hacking Stun</li>
-            <li>Lifeform Scanner</li>
-            <li>Long-Ranged Scanners</li>
-            <li>Stealth Weapons</li>
-            <li>Weapon Pre-Igniter</li>
-            <li>Zoltan Shield Bypass</li>
-        </ol>
         <li>Added Advanced FTL Navigation 2 to stores and random rewards, which allows you to jump to any beacon, by spending fuel equal to the shortest number of jumps from your location to that beacon. Rarity 3, cost 30. Stackable, but having multiple does not change its effect.</li>
         <li>Automated Reloader: Rarity from 2 to 4, cost from 40 to 60.</li>
+        <li>Backup DNA Bank: Extinguishes fires and repairs breaches in the Clone Bay room, and repairs Clone Bay system damage, at 1/3 the rate of a Human (in that sequence and not simultaneously, just like actual crew repair).</li>
         <li>Damaged Stasis Pod: Cost from 30 to 0 (sell price from 15 to 0).</li>
         <li>Distraction Buoys: Cost from 55 to 40.</li>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40.</li>
@@ -175,6 +163,19 @@
         <li>Reverse Ion Field: Cost from 45 to 20.</li>
         <li>Scrap Recovery Arm: Rarity from 1 to 3. Scrap bonus from +10% to +15%.</li>
         <li>Zoltan Shield Bypass: Rarity from 3 to 1. Cost from 55 to 40.</li>
+        <li>These augments are now stackable. Most of their effects will not change when having multiple, it simply means they will not be immediately converted into 25 scrap when you get a duplicate.</li>
+        <ol>
+            <li>Backup DNA Bank: Fire/Breach/Damage repair speeds stack.</li>
+            <li>Defense Scrambler</li>
+            <li>Distraction Buoys: Fleet delay stacks (the message will still say the Fleet is delayed by 1 jump, but it will be delayed by the number of Buoys you have).</li>
+            <li>Engi Med-bot Dispersal: Heal stacks.</li>
+            <li>Hacking Stun</li>
+            <li>Lifeform Scanner</li>
+            <li>Long-Ranged Scanners</li>
+            <li>Stealth Weapons</li>
+            <li>Weapon Pre-Igniter</li>
+            <li>Zoltan Shield Bypass</li>
+        </ol>
     </ol>
     <li>PLAYER SHIPS (other than augment changes above):</li>
     <ol>
@@ -259,7 +260,7 @@
         <li>Rock Assault (Elite): Crew range from 4 to 5.</li>
         <li>Auto-ships: Removed doors.</li>
         <li>Auto-Scout and Auto-Surveyor: Shields are now guaranteed.</li>
-        <li>Auto-ships, and Flagship when automated: Now have a weaker version of Slug Repair Gel, which fixes breaches at about 1/4 the rate of a Human.</li>
+        <li>Auto-ships, and Flagship when automated: Now have a weaker version of Slug Repair Gel, which fixes breaches at 1/3 the rate of the original Slug Gel.</li>
         <li>Flagship: Oxygen is instantly drained and disabled when it becomes automated.</li>
         <li>Flagship (Non-AE Easy version): Shield layers from 3 to 4, reactor from 40/42/29 to 42/44/31 for each Phase.</li>
         <li>Flagship (Phase 3): Engines level from 6 to 8.</li>
