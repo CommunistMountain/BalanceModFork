@@ -123,6 +123,12 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
             doors.iActiveManned = 1
         end
     end
+    
+    if shipManager.cloneSystem ~= nil then
+        for i=1, shipManager:HasAugmentation("BACKUP_DNA") do
+            shipManager.cloneSystem:PartialRepair(0.33, false)
+        end
+    end
 end)
 
 script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function()
