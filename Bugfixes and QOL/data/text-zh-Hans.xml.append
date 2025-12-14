@@ -5,7 +5,7 @@
 <text name="speed_ui_variant_1" language="zh-Hans">更改Speed UI（当前为变体 1）</text>
 <text name="speed_ui_variant_2" language="zh-Hans">更改Speed UI（当前为变体 2）</text>
 <mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
-    <mod:setValue>自动扑灭飞船中的火情。（83%）</mod:setValue>
+    <mod:setValue>自动扑灭飞船中的火情。（~83%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_NANO_MEDBAY_desc">
     <mod:setValue>恩吉纳米医疗机器人可治愈医疗舱之外的船员。（1.6 HP/s）</mod:setValue>
@@ -29,13 +29,13 @@
     <mod:setValue>窒息伤害减少。（-50%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_3">
-    <mod:setValue>移动速度-20%;救火-17%</mod:setValue>
+    <mod:setValue>移动速度-20%;救火-~17%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_human_power_1">
-    <mod:setValue>技能提升速度稍快（+11%）</mod:setValue>
+    <mod:setValue>技能提升速度稍快（+~11%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_rock_power_1">
-    <mod:setValue>免疫火焰伤害（救火+67%）</mod:setValue>
+    <mod:setValue>免疫火焰伤害（救火+~67%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="current_evasion">
     <mod:setValue>当前闪避率：\1%</mod:setValue>
@@ -44,13 +44,16 @@
     <mod:setValue>当前氧气量：\1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
-    <mod:setValue>12/8/6 HP</mod:setValue>
+    <mod:setValue>简单/普通/困难：12/8/6 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_3">
-    <mod:setValue>16/12/10 HP</mod:setValue>
+    <mod:setValue>简单/普通/困难：16/12/10 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_4">
-    <mod:setValue>20/18/15 HP</mod:setValue>
+    <mod:setValue>简单/普通/困难：20/18/15 HP</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="drone_ANTI_DRONE_desc">
+    <mod:setValue>眩晕攻击你的飞船的战斗无人机。（~48%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>闪避：\1% / 超光速：\2 倍</mod:setValue>
@@ -59,16 +62,16 @@
     <mod:setValue>闪避 +\1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_drones">
-    <mod:setValue>暂时冻结敌方无人机，并有机率将其摧毁。（39%/62%/77%）</mod:setValue>
+    <mod:setValue>暂时冻结敌方无人机，并有机率将其摧毁。（~39%/~62%/~77%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_drones_player">
-    <mod:setValue>系统被劫持：无人机被眩晕并可能爆炸。（39%/62%/77%）</mod:setValue>
+    <mod:setValue>系统被劫持：无人机被眩晕并可能爆炸。（~39%/~62%/~77%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_hacking">
-    <mod:setValue>暂时中断并关闭敌方的黑客系统。（39%/62%/77%）</mod:setValue>
+    <mod:setValue>暂时中断并关闭敌方的黑客系统。（~39%/~62%/~77%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_hacking_player">
-    <mod:setValue>系统被劫持：黑客攻击暂时中断（39%/62%/77%）</mod:setValue>
+    <mod:setValue>系统被劫持：黑客攻击暂时中断（~39%/~62%/~77%）</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_medbay">
     <mod:setValue>暂时使医疗舱伤害而不是治疗敌方船员。（-12.8 HP/s）</mod:setValue>

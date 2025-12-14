@@ -5,7 +5,7 @@
 <text name="speed_ui_variant_1" language="de">Speed UI ändern (derzeit Variante 1)</text>
 <text name="speed_ui_variant_2" language="de">Speed UI ändern (derzeit Variante 2)</text>
 <mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
-    <mod:setValue>Löscht automatisch jedes Feuer an Bord. (83%)</mod:setValue>
+    <mod:setValue>Löscht automatisch jedes Feuer an Bord. (~83%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_NANO_MEDBAY_desc">
     <mod:setValue>Engi-Nano-Medbots heilen die Crew außerhalb der Krankenstation. (1.6 HP/s)</mod:setValue>
@@ -29,13 +29,13 @@
     <mod:setValue>Verringerter Schaden durch Sauerstoffmangel. (-50%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_3">
-    <mod:setValue>Bewegung -20%; Brandbekämpfung -17%</mod:setValue>
+    <mod:setValue>Bewegung -20%; Brandbekämpfung -~17%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_human_power_1">
-    <mod:setValue>Fertigkeiten verbessern sich etwas schneller. (+11%)</mod:setValue>
+    <mod:setValue>Fertigkeiten verbessern sich etwas schneller. (+~11%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_rock_power_1">
-    <mod:setValue>Immun gegen Feuer. (Brandbekämpfung +67%)</mod:setValue>
+    <mod:setValue>Immun gegen Feuer. (Brandbekämpfung +~67%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="current_evasion">
     <mod:setValue>Ausweichen: \1%</mod:setValue>
@@ -44,13 +44,16 @@
     <mod:setValue>Sauerstoffvorrat: \1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
-    <mod:setValue>12/8/6 HP</mod:setValue>
+    <mod:setValue>Leicht/Normal/Schwer: 12/8/6 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_3">
-    <mod:setValue>16/12/10 HP</mod:setValue>
+    <mod:setValue>Leicht/Normal/Schwer: 16/12/10 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_4">
-    <mod:setValue>20/18/15 HP</mod:setValue>
+    <mod:setValue>Leicht/Normal/Schwer: 20/18/15 HP</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="drone_ANTI_DRONE_desc">
+    <mod:setValue>Betäubt Kampfdrohnen, die dein Schiff angreifen. (~48%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>Ausweichen: \1% / FTL: \2x</mod:setValue>
@@ -59,16 +62,16 @@
     <mod:setValue>Ausweichen +\1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_drones">
-    <mod:setValue>Deaktiviert gegnerische Drohnen kurzzeitig und kann sie sogar zerstören. (39%/62%/77%)</mod:setValue>
+    <mod:setValue>Deaktiviert gegnerische Drohnen kurzzeitig und kann sie sogar zerstören. (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_drones_player">
-    <mod:setValue>SYSTEM GEHACKT: DROHNEN AUSSER BETRIEB, KÖNNEN EXPLODIEREN. (39%/62%/77%)</mod:setValue>
+    <mod:setValue>SYSTEM GEHACKT: DROHNEN AUSSER BETRIEB, KÖNNEN EXPLODIEREN. (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_hacking">
-    <mod:setValue>Unterbricht und verhindert kurzzeitig feindliches Hacking. (39%/62%/77%)</mod:setValue>
+    <mod:setValue>Unterbricht und verhindert kurzzeitig feindliches Hacking. (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_hacking_player">
-    <mod:setValue>SYSTEM GEHACKT: HACKING KURZZEITIG GESTÖRT! (39%/62%/77%)</mod:setValue>
+    <mod:setValue>SYSTEM GEHACKT: HACKING KURZZEITIG GESTÖRT! (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_medbay">
     <mod:setValue>Die Krankenstation richtet bei der gegnerischen Crew kurzzeitig Schaden an. (-12.8 HP/s)</mod:setValue>

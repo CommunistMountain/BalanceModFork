@@ -173,19 +173,20 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
     <li>insertNewlineForMultipleCrewTooltips: Inserts a newline between each unit's description in a tooltip when mousing over a tile where multiple units are fighting.</li>
     <li>TEXT (includes changes for all languages unless otherwise stated):</li>
     <ol>
-        <li>Augments Engi Med-bot Dispersal, Fire Suppression, Repair Arm and Slug Repair Gel have numbers that state their effectiveness (1.6 HP/s, 83% of baseline, 2 repairs, 75% of baseline respectively)</li>
-        <li>Crystal description: stated Lockdown duration, and cooldown starting from when you use it (12s/50s); stated -50% suffocation damage and -17% firefighting speed.</li>
+        <li>Augments Engi Med-bot Dispersal, Fire Suppression, Repair Arm and Slug Repair Gel have numbers that state their effectiveness (1.6 HP/s, ~83% of baseline, 2 repairs, 75% of baseline respectively)</li>
+        <li>Crystal description: stated Lockdown duration, and cooldown starting from when you use it (12s/50s); stated -50% suffocation damage and -~17% firefighting speed.</li>
         <li>Lanius description: stated that oxygen drain is equivalent to a breach, and that it has -15% speed.</li>
-        <li>Human description: stated +11% experience gain (they have -10% experience required).</li>
-        <li>Rock description: stated +67% firefighting speed.</li>
-        <li>Upgraded doors show their Easy/Normal/Hard hit points in brackets, e.g. Blast Doors (12/8/6).</li>
+        <li>Human description: stated +~11% experience gain (they have -10% experience required).</li>
+        <li>Rock description: stated +~67% firefighting speed.</li>
+        <li>Anti-Combat Drone description: stated ~48% chance of destroying the enemy drone.</li>
+        <li>Doors level descriptions: stated Easy/Normal/Hard hit points.</li>
+        <li>Mind Control level descriptions: stated duration, health boost and damage boost.</li>
         <li>Added '%' after Engines dodge chance, hacked Pilot/Engines current evasion, and Pilot/Engines manning bonus.</li>
-        <li>Added duration, health boost and damage boost to Mind Control level descriptions.</li>
         <li>More information about hacking targets:</li>
         <ol>
             <li>Oxygen: -6%/s</li>
             <li>Medbay: -12.8 HP/s</li>
-            <li>Drones and Hacking: 39%/62%/77% chance of destroying the drone in a level 1/2/3 hack</li>
+            <li>Drones and Hacking: ~39%/~62%/~77% chance of destroying the drone in a level 1/2/3 hack</li>
         </ol>
         <li>NPC Zoltan ships are now called Zoltan X instead of Energy X.</li>
         <li>Flagship class now shows game difficulty.</li>

@@ -2,11 +2,11 @@
 <ol>
     <li>REWARDS:</li>
     <ol>
-        <li>Scrap Curve: Hard mode base value changed from 15 in sectors 1 and 2, then +6 for each sector after 2, to 15 in sector 1, then +4 for each sector after 1. (Change: 0%/+26.67%/+9.52%/0%/-6.06%/-10.26%/-13.33%/-15.69%).</li>
-        <li>Scrap: Low range from 50%-70% of base value to 50%-75%. Medium range from 80%-130% of base value to 75%-130%. (Change: Low +4.17%, Medium -2.38%, Random 0%)</li>
-        <li>Fuel: Low range from 1-3 to 2. High range from 3-6 to 4. (Change: Low 0% (more consistent), High -11.11%, Random -5.26%)</li>
-        <li>Missiles: Low range from 1-2 to 1-3. Medium range from 2-4 to 3-5. High range from 4-8 to 5-7. (Change: Low +33.33%, Medium +33.33%, High 0% (more consistent), Random +14.29%)</li>
-        <li>Drone Parts: Medium range from 1 to 1-2. High range from 1-2 to 2. (Change: Medium +50%, High +33.33%, Random +28.57%)</li>
+        <li>Scrap Curve: Hard mode base value changed from 15 in sectors 1 and 2, then +6 for each sector after 2, to 15 in sector 1, then +4 for each sector after 1. (Approximate change: 0%/+26.67%/+9.52%/0%/-6.06%/-10.26%/-13.33%/-15.69%).</li>
+        <li>Scrap: Low range from 50%-70% of base value to 50%-75%. Medium range from 80%-130% of base value to 75%-130%. (Approximate change: Low +4.17%, Medium -2.38%, Random 0%)</li>
+        <li>Fuel: Low range from 1-3 to 2. High range from 3-6 to 4. (Approximate change: Low 0% (more consistent), High -11.11%, Random -5.26%)</li>
+        <li>Missiles: Low range from 1-2 to 1-3. Medium range from 2-4 to 3-5. High range from 4-8 to 5-7. (Approximate change: Low +33.33%, Medium +33.33%, High 0% (more consistent), Random +14.29%)</li>
+        <li>Drone Parts: Medium range from 1 to 1-2. High range from 1-2 to 2. (Approximate change: Medium +50%, High +33.33%, Random +28.57%)</li>
     </ol>
     <li>STORE:</li>
     <ol>
@@ -66,7 +66,7 @@
         <li>Breach Missiles: Cost from 65 to 50, cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
         <li>Swarm Missiles: Projectile speed from 45 to 35, stun chance from 0% to 10%.</li>
         <li>Healing Burst: Rarity from 3 to 1, cooldown from 18s to 9s.</li>
-        <li>Repair Burst: Rarity from 3 to 1, cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100% (though if it's a room with open external doors, it will become instantly vacuum again).</li>
+        <li>Repair Burst: Rarity from 3 to 1, cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100%.</li>
         <li>Breach Bomb 1: Crew damage from 30 to 15.</li>
         <li>Fire Bomb: System damage from 0 to 1 (now does damage to supershields because of this), crew damage from 30 to 15.</li>
         <li>Ion Bomb: Cooldown from 22s to 20s.</li>
@@ -147,12 +147,12 @@
             <li>Drone Reactor Booster: Crew and Boarding drones speed boost from +25% to +100%, healing factor from 0.2 to 1 (heal in Drone Control from 1.28HP/s to 6.4HP/s, if powered and not hacked). Crew and Boarding drones heal outside Drone Control at 1.6HP/s (if powered and not hacked).</li>
             <li>Drone Recovery Arm (component of Drone Reactor Booster): Chance for each drone to be recovered from 100% to 20% (TODO: change needs a future version of Hyperspace at the time of writing).</li>
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
-            <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 83% of Human to 50% of Human.</li>
-            <li>Slug Repair Gel: Now prevents Sensors from being disabled by nebula or events (it will still be disabled by hacking). Sensors and Doors behave as though they are always manned.</li>
+            <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 5/6 of Human rate to 1/2 of Human rate.</li>
+            <li>Slug Repair Gel: Now prevents Sensors from being disabled by nebula or events (it will still be disabled by hacking). Sensors and Doors behave as though they are manned if they are not damaged.</li>
         </ol>
         <li>Added Advanced FTL Navigation 2 to stores and random rewards, which allows you to jump to any beacon, by spending fuel equal to the shortest number of jumps from your location to that beacon. Rarity 3, cost 30. Stackable, but having multiple does not change its effect.</li>
         <li>Automated Reloader: Rarity from 2 to 4, cost from 40 to 60.</li>
-        <li>Backup DNA Bank: Extinguishes fires and repairs breaches in the Clone Bay room, and repairs Clone Bay system damage, at 1/3 the rate of a Human (in that sequence and not simultaneously, just like actual crew repair).</li>
+        <li>Backup DNA Bank: Extinguishes fires and repairs breaches in the Clone Bay room, and repairs Clone Bay system damage, at 1/3 of Human rate (in that sequence and not simultaneously, just like actual crew repair).</li>
         <li>Damaged Stasis Pod: Cost from 30 to 0 (sell price from 15 to 0).</li>
         <li>Distraction Buoys: Cost from 55 to 40.</li>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40.</li>
@@ -260,7 +260,7 @@
         <li>Rock Assault (Elite): Crew range from 4 to 5.</li>
         <li>Auto-ships: Removed doors.</li>
         <li>Auto-Scout and Auto-Surveyor: Shields are now guaranteed.</li>
-        <li>Auto-ships, and Flagship when automated: Now have a weaker version of Slug Repair Gel, which fixes breaches at 1/3 the rate of the original Slug Gel.</li>
+        <li>Auto-ships, and Flagship when automated: Now have a weaker version of Slug Repair Gel, which fixes breaches at 1/3 of the original Slug Repair Gel's rate.</li>
         <li>Flagship: Oxygen is instantly drained and disabled when it becomes automated.</li>
         <li>Flagship (Non-AE Easy version): Shield layers from 3 to 4, reactor from 40/42/29 to 42/44/31 for each Phase.</li>
         <li>Flagship (Phase 3): Engines level from 6 to 8.</li>

@@ -8,13 +8,13 @@
     <mod:setValue>Current Oxygen: \1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
-    <mod:setValue>12/8/6 HP</mod:setValue>
+    <mod:setValue>Easy/Normal/Hard: 12/8/6 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_3">
-    <mod:setValue>16/12/10 HP</mod:setValue>
+    <mod:setValue>Easy/Normal/Hard: 16/12/10 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_4">
-    <mod:setValue>20/18/15 HP</mod:setValue>
+    <mod:setValue>Easy/Normal/Hard: 20/18/15 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>Dodge: \1% / FTL: \2x</mod:setValue>
@@ -41,10 +41,10 @@
     <mod:setValue>Temporarily cause the medbay to damage instead of heal enemy crew. (-12.8 HP/s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_drones">
-    <mod:setValue>Temporarily freeze enemy drones with a chance of destroying them. (39%/62%/77%)</mod:setValue>
+    <mod:setValue>Temporarily freeze enemy drones with a chance of destroying them. (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_hacking">
-    <mod:setValue>Temporarily interrupt and shut down the enemy hacking. (39%/62%/77%)</mod:setValue>
+    <mod:setValue>Temporarily interrupt and shut down the enemy hacking. (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_oxygen_player">
     <mod:setValue>SYSTEM HACKED: LOSING OXYGEN RAPIDLY. (-6%/s)</mod:setValue>
@@ -53,9 +53,9 @@
     <mod:setValue>SYSTEM HACKED: MEDBAY DAMAGES CREW! (-12.8 HP/s)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_drones_player">
-    <mod:setValue>SYSTEM HACKED: DRONES STUNNED AND MAY EXPLODE. (39%/62%/77%)</mod:setValue>
+    <mod:setValue>SYSTEM HACKED: DRONES STUNNED AND MAY EXPLODE. (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_hacking_player">
-    <mod:setValue>SYSTEM HACKED: HACKING TEMPORARILY INTERRUPTED (39%/62%/77%)</mod:setValue>
+    <mod:setValue>SYSTEM HACKED: HACKING TEMPORARILY INTERRUPTED (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 </FTL>

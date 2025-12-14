@@ -5,7 +5,7 @@
 <text name="speed_ui_variant_1" language="ru">Изменить Speed UI (сейчас вариант 1)</text>
 <text name="speed_ui_variant_2" language="ru">Изменить Speed UI (сейчас вариант 2)</text>
 <mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
-    <mod:setValue>Тушение всех пожаров на борту корабля происходит в автоматическом режиме. (83%)</mod:setValue>
+    <mod:setValue>Тушение всех пожаров на борту корабля происходит в автоматическом режиме. (~83%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_NANO_MEDBAY_desc">
     <mod:setValue>Медицинские нанороботы энджи лечат экипаж за пределами медотсека. (1.6 HP/s)</mod:setValue>
@@ -29,13 +29,13 @@
     <mod:setValue>Меньше урона от нехватки кислорода. (-50%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_3">
-    <mod:setValue>Передвигается -20%; Пожаротушение -17%</mod:setValue>
+    <mod:setValue>Передвигается -20%; Пожаротушение -~17%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_human_power_1">
-    <mod:setValue>Развивает умения чуть быстрее. (+11%)</mod:setValue>
+    <mod:setValue>Развивает умения чуть быстрее. (+~11%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_rock_power_1">
-    <mod:setValue>Не получает урона от огня. (Пожаротушение +67%)</mod:setValue>
+    <mod:setValue>Не получает урона от огня. (Пожаротушение +~67%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="current_evasion">
     <mod:setValue>Уклонение: \1%</mod:setValue>
@@ -44,13 +44,16 @@
     <mod:setValue>Уровень кислорода: \1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
-    <mod:setValue>12/8/6 HP</mod:setValue>
+    <mod:setValue>Легко/Стандарт/Трудно: 12/8/6 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_3">
-    <mod:setValue>16/12/10 HP</mod:setValue>
+    <mod:setValue>Легко/Стандарт/Трудно: 16/12/10 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_4">
-    <mod:setValue>20/18/15 HP</mod:setValue>
+    <mod:setValue>Легко/Стандарт/Трудно: 20/18/15 HP</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="drone_ANTI_DRONE_desc">
+    <mod:setValue>Парализует боевых дронов, атакующих ваш корабль. (~48%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>Уклонение: \1% / ССД: \2x</mod:setValue>
@@ -59,16 +62,16 @@
     <mod:setValue>Уклонение +\1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_drones">
-    <mod:setValue>Временная парализация вражеских дронов с вероятностью их уничтожения. (39%/62%/77%)</mod:setValue>
+    <mod:setValue>Временная парализация вражеских дронов с вероятностью их уничтожения. (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_drones_player">
-    <mod:setValue>СИСТЕМА ВЗЛОМАНА: ДРОНЫ ПАРАЛИЗОВАНЫ И МОГУТ ВЗОРВАТЬСЯ. (39%/62%/77%)</mod:setValue>
+    <mod:setValue>СИСТЕМА ВЗЛОМАНА: ДРОНЫ ПАРАЛИЗОВАНЫ И МОГУТ ВЗОРВАТЬСЯ. (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_hacking">
-    <mod:setValue>Прерывание и временная блокировка взлома со сторон врага. (39%/62%/77%)</mod:setValue>
+    <mod:setValue>Прерывание и временная блокировка взлома со сторон врага. (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_hacking_player">
-    <mod:setValue>СИСТЕМА ВЗЛОМАНА: ВЗЛОМ ВРЕМЕННО НЕДОСТУПЕН (39%/62%/77%)</mod:setValue>
+    <mod:setValue>СИСТЕМА ВЗЛОМАНА: ВЗЛОМ ВРЕМЕННО НЕДОСТУПЕН (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_medbay">
     <mod:setValue>Временное переключение вражеского медотсека на нанесение вреда экипажу вместо лечения. (-12.8 HP/s)</mod:setValue>

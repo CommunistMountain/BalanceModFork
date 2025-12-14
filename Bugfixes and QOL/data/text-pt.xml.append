@@ -5,7 +5,7 @@
 <text name="speed_ui_variant_1" language="pt">Alterar Speed UI (atualmente Variante 1)</text>
 <text name="speed_ui_variant_2" language="pt">Alterar Speed UI (atualmente Variante 2)</text>
 <mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
-    <mod:setValue>Apaga automaticamente incêndios na nave. (83%)</mod:setValue>
+    <mod:setValue>Apaga automaticamente incêndios na nave. (~83%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_NANO_MEDBAY_desc">
     <mod:setValue>Nanobots médicos Engi que curam a tripulação fora da ala médica. (1.6 HP/s)</mod:setValue>
@@ -29,13 +29,13 @@
     <mod:setValue>Reduz dano de sufocamento. (-50%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_3">
-    <mod:setValue>Desacelera movimento -20%; Combate a incêndios -17%</mod:setValue>
+    <mod:setValue>Desacelera movimento -20%; Combate a incêndios -~17%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_human_power_1">
-    <mod:setValue>Talentos melhoram pouco + rápido. (+11%)</mod:setValue>
+    <mod:setValue>Talentos melhoram pouco + rápido. (+~11%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_rock_power_1">
-    <mod:setValue>Imune a fogo (Combate a incêndios +67%)</mod:setValue>
+    <mod:setValue>Imune a fogo (Combate a incêndios +~67%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="current_evasion">
     <mod:setValue>Evasão atual: \1%</mod:setValue>
@@ -44,13 +44,16 @@
     <mod:setValue>O2 atual: \1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
-    <mod:setValue>12/8/6 HP</mod:setValue>
+    <mod:setValue>Fácil/Normal/Difícil: 12/8/6 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_3">
-    <mod:setValue>16/12/10 HP</mod:setValue>
+    <mod:setValue>Fácil/Normal/Difícil: 16/12/10 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_4">
-    <mod:setValue>20/18/15 HP</mod:setValue>
+    <mod:setValue>Fácil/Normal/Difícil: 20/18/15 HP</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="drone_ANTI_DRONE_desc">
+    <mod:setValue>Atordoa drones de combate atacando você. (~48%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>Evasão: \1% / FTL: \2x</mod:setValue>
@@ -59,16 +62,16 @@
     <mod:setValue>Evasão +\1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_drones">
-    <mod:setValue>Congela os drones inimigos, com uma chance de destruí-los (temporário). (39%/62%/77%)</mod:setValue>
+    <mod:setValue>Congela os drones inimigos, com uma chance de destruí-los (temporário). (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_drones_player">
-    <mod:setValue>SISTEMA HACKEADO: DRONES INUT. E PODEM EXPLODIR. (39%/62%/77%)</mod:setValue>
+    <mod:setValue>SISTEMA HACKEADO: DRONES INUT. E PODEM EXPLODIR. (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_hacking">
-    <mod:setValue>Interrompe e desliga a capacidade inimiga de hackear (temporário). (39%/62%/77%)</mod:setValue>
+    <mod:setValue>Interrompe e desliga a capacidade inimiga de hackear (temporário). (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_hacking_player">
-    <mod:setValue>SISTEMA HACKEADO: HACKS INDISPONÍVEIS (39%/62%/77%)</mod:setValue>
+    <mod:setValue>SISTEMA HACKEADO: HACKS INDISPONÍVEIS (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_medbay">
     <mod:setValue>Sistema médico fere tripulantes inimigos em vez de curá-los (temporário). (-12.8 HP/s)</mod:setValue>

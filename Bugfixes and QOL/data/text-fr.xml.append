@@ -5,7 +5,7 @@
 <text name="speed_ui_variant_1" language="fr">Changer Speed UI (actuellement Variante 1)</text>
 <text name="speed_ui_variant_2" language="fr">Changer Speed UI (actuellement Variante 2)</text>
 <mod:findName type="text" name="aug_FIRE_EXTINGUISHERS_desc">
-    <mod:setValue>Éteint automatiquement tous les incendies qui se sont déclenchés à bord du vaisseau. (83%)</mod:setValue>
+    <mod:setValue>Éteint automatiquement tous les incendies qui se sont déclenchés à bord du vaisseau. (~83%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="aug_NANO_MEDBAY_desc">
     <mod:setValue>Les nanomédibots engis soignent même en dehors de l'infirmerie. (1.6 HP/s)</mod:setValue>
@@ -29,13 +29,13 @@
     <mod:setValue>Dégâts de suffocation réduits (-50%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_crystal_power_3">
-    <mod:setValue>Vitesse de déplacement -20%; Contre l'incendie -17%</mod:setValue>
+    <mod:setValue>Vitesse de déplacement -20%; Contre l'incendie -~17%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_human_power_1">
-    <mod:setValue>Les talents augmentent légèrement plus rapidement (+11%)</mod:setValue>
+    <mod:setValue>Les talents augmentent légèrement plus rapidement (+~11%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="crew_rock_power_1">
-    <mod:setValue>Immunité contre le feu (Contre l'incendie +67%)</mod:setValue>
+    <mod:setValue>Immunité contre le feu (Contre l'incendie +~67%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="current_evasion">
     <mod:setValue>Esquive actuelle : \1%</mod:setValue>
@@ -44,13 +44,16 @@
     <mod:setValue>Oxygène actuel : \1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_2">
-    <mod:setValue>12/8/6 HP</mod:setValue>
+    <mod:setValue>Facile/Normal/Difficile: 12/8/6 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_3">
-    <mod:setValue>16/12/10 HP</mod:setValue>
+    <mod:setValue>Facile/Normal/Difficile: 16/12/10 HP</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="door_4">
-    <mod:setValue>20/18/15 HP</mod:setValue>
+    <mod:setValue>Facile/Normal/Difficile: 20/18/15 HP</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="drone_ANTI_DRONE_desc">
+    <mod:setValue>Étourdit les drones de combat attaquant votre vaisseau. (~48%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="engine">
     <mod:setValue>Évasion : \1%/ SPL : \2x</mod:setValue>
@@ -59,16 +62,16 @@
     <mod:setValue>Esquive +\1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_drones">
-    <mod:setValue>Gèle temporairement les drones ennemis, avec une chance de les détruire. (39%/62%/77%)</mod:setValue>
+    <mod:setValue>Gèle temporairement les drones ennemis, avec une chance de les détruire. (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_drones_player">
-    <mod:setValue>SYSTÈME PIRATÉ : LES DRONES SONT ÉTOURDIS ET PEUVENT EXPLOSER. (39%/62%/77%)</mod:setValue>
+    <mod:setValue>SYSTÈME PIRATÉ : LES DRONES SONT ÉTOURDIS ET PEUVENT EXPLOSER. (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_hacking">
-    <mod:setValue>Interrompt temporairement le piratage ennemi et le désactive. (39%/62%/77%)</mod:setValue>
+    <mod:setValue>Interrompt temporairement le piratage ennemi et le désactive. (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_hacking_player">
-    <mod:setValue>SYSTÈME PIRATÉ : PIRATAGE TEMPORAIREMENT INTERROMPU (39%/62%/77%)</mod:setValue>
+    <mod:setValue>SYSTÈME PIRATÉ : PIRATAGE TEMPORAIREMENT INTERROMPU (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_medbay">
     <mod:setValue>L'infirmerie ennemie inflige temporairement des dégâts à l'équipage ennemi au lieu de le soigner. (-12.8 HP/s)</mod:setValue>
