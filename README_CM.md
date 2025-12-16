@@ -211,7 +211,7 @@
         <ol>
             <li>Kestrel A: Crew from 3 Humans to 2 Humans.</li>
             <li>Kestrel B: Removed Doors.</li>
-            <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 2 Ion Blasts and 2 Ion Stunners. Weapon Control level from 2 to 4. Sensors level from 2 to 1.</li>
+            <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 1 Breach Bomb 1 and 3 Ion Stunners. Weapon Control level from 2 to 4. Sensors level from 2 to 1.</li>
             <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Weapon Control level from 3 to 4. Added level 1 Sensors.</li>
             <li>Fed A: Weapon Control level from 2 to 3. Removed Doors.</li>
             <li>Fed C: Artillery level from 1 to 4.</li>
@@ -253,7 +253,7 @@
         <ol>
             <li>Kestrel A: Missiles from 8 to 15, drone parts from 2 to 0.</li>
             <li>Kestrel B: Missiles from 5 to 0.</li>
-            <li>Kestrel C: Missiles from 4 to 0, drone parts from 3 to 0.</li>
+            <li>Kestrel C: Missiles from 4 to 15, drone parts from 3 to 0.</li>
             <li>Engi C: Drone parts from 25 to 35.</li>
             <li>Fed A: Missiles from 5 to 0, drone parts from 2 to 0.</li>
             <li>Fed B: Missiles from 9 to 15.</li>

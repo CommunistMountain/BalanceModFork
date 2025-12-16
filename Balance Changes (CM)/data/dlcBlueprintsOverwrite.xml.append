@@ -98,14 +98,14 @@
         </mod:findLike>
     </mod:findLike>
     <mod:findLike type="weaponList">
-        <mod:setAttributes count="4" missiles="0"/>
+        <mod:setAttributes count="4" missiles="15"/>
         <mod:findLike type="weapon">
             <mod:removeTag/>
         </mod:findLike>
-        <mod-append:weapon name="ION_1"/>
-        <mod-append:weapon name="ION_1"/>
         <mod-append:weapon name="ION_STUN"/>
         <mod-append:weapon name="ION_STUN"/>
+        <mod-append:weapon name="ION_STUN"/>
+        <mod-append:weapon name="BOMB_BREACH_1"/>
     </mod:findLike>
     <mod:findLike type="droneList">
         <mod:setAttributes drones="0"/>
