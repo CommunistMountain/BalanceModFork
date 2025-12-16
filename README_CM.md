@@ -177,6 +177,34 @@
             <li>Zoltan Shield Bypass</li>
         </ol>
     </ol>
+    <li>SHIPS</li>
+    <ol>
+        <li>Ships are standardised to have at most 1 door connecting each room pair. Number of removed doors:</li>
+        <ol>
+            <li>Kestrel A: 1</li>
+            <li>Kestrel B: 2</li>
+            <li>Kestrel C: 4</li>
+            <li>Engi A: 1</li>
+            <li>Engi B: 3</li>
+            <li>Zoltan A: 3</li>
+            <li>Zoltan B: 2</li>
+            <li>Zoltan C: 1</li>
+            <li>Mantis A: 1</li>
+            <li>Mantis B: 2</li>
+            <li>Slug C: 2</li>
+            <li>Rock A: 8</li>
+            <li>Rock B: 6</li>
+            <li>Crystal A: 2</li>
+            <li>Crystal B: 1</li>
+            <li>Engi Scout and Engi Outrider: 1</li>
+            <li>Engi Bomber and Engi Hacker: 1</li>
+            <li>Zoltan Bomber and Zoltan Hacker: 2</li>
+            <li>Mantis Scout and Mantis Interceptor: 1</li>
+            <li>Mantis Fighter and Mantis Assault: 1</li>
+            <li>Mantis Bomber and Mantis Aggressor: 1</li>
+            <li>Pirate Rebel Rigger and Pirate Rebel Disruptor: 1</li>
+        </ol>
+    </ol>
     <li>PLAYER SHIPS (other than augment changes above):</li>
     <ol>
         <li>General Changes:</li>
