@@ -130,6 +130,12 @@ end
 script.on_internal_event(Defines.InternalEvents.ON_MOUSE_L_BUTTON_DOWN, function(iX, iY) return onClickSpeedButton(1) end)
 script.on_internal_event(Defines.InternalEvents.ON_MOUSE_R_BUTTON_DOWN, function(iX, iY) return onClickSpeedButton(5) end)
 
+script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
+    if not Hyperspace.App.world.bStartedGame then
+        Hyperspace.FPS.speedEnabled = false
+    end
+end)
+
 script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function()
     if Hyperspace.metaVariables.speedui_setting == 1 then
         local mousePos = Hyperspace.Mouse.position

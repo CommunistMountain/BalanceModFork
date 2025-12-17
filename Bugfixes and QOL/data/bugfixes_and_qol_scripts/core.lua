@@ -1,4 +1,10 @@
 mods.bugfixes_and_qol = {}
+mods.bugfixes_and_qol.INT_MAX = 2147483647
+mods.bugfixes_and_qol.INT_MIN = -2147483648
+mods.bugfixes_and_qol.blueprintFiles = {
+    "data/blueprints.xml",
+    "data/dlcBlueprints.xml",
+}
 
 function mods.bugfixes_and_qol.child_nodes(node, reversed)
     local child_table = {}
@@ -61,6 +67,17 @@ function mods.bugfixes_and_qol.time_increment()
         return 1/Hyperspace.FPS.NumFrames
     else
         return 0
+    end
+end
+
+mods.bugfixes_and_qol.systemIds = {}
+for i=1, #mods.bugfixes_and_qol.blueprintFiles do
+    local doc = RapidXML.xml_document(mods.bugfixes_and_qol.blueprintFiles[i])
+    for _, child_node in ipairs(mods.bugfixes_and_qol.child_nodes(doc:first_node("FTL") or doc, true)) do
+        if child_node:name() == "systemBlueprint" then
+            local system_name = child_node:first_attribute("name"):value()
+            mods.bugfixes_and_qol.systemIds[Hyperspace.ShipSystem.NameToSystemId(system_name)] = system_name
+        end
     end
 end
 
