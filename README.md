@@ -161,6 +161,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
 
 ## QOL (non-gameplay)
 <ol>
+    <li>Ships in the hangar show a preview of missing systems. Credit to Arc and others from the MV team.</li>
     <li>Timers will be displayed when defeating the Flagship. First includes time paused, second excludes time paused.</li>
     <li>redesignedWeaponTooltips: Shows more information about weapons.</li>
     <li>redesignedDroneTooltips: Shows more information about drones.</li>

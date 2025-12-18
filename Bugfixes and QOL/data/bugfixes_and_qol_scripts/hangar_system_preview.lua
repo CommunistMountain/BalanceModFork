@@ -59,45 +59,57 @@ local function render_system_icon(sysTable, roomId, ship)
             local iconRenderOffsetY = 0
             if currentIcons == maxIcons then
                 -- 2+ x 1 rooms
-                if roomSize == 2 and n == 2 then
-                    iconRenderOffsetX = -1 * iconOffset
-                elseif roomSize == 2 and n == 3 then
-                    iconRenderOffsetX = iconOffset
+                if roomSize == 2 then
+                    if n == 2 then
+                        iconRenderOffsetX = -1 * iconOffset
+                    elseif n == 3 then
+                        iconRenderOffsetX = iconOffset
+                    end
                 -- 1 x 2+ rooms
-                elseif roomSize == 3 and n == 2 then
-                    iconRenderOffsetY = -1 * iconOffset
-                elseif roomSize == 3 and n == 3 then
-                    iconRenderOffsetY = iconOffset
+                elseif roomSize == 3 then
+                    if n == 2 then
+                        iconRenderOffsetY = -1 * iconOffset
+                    elseif n == 3 then
+                        iconRenderOffsetY = iconOffset
+                    end
                 -- 2+ x 2+ rooms
-                elseif roomSize == 4 and n == 1 then
-                    iconRenderOffsetX = -0.5 * iconOffset
-                    iconRenderOffsetY = -0.5 * iconOffset
-                elseif roomSize == 4 and n == 2 then
-                    iconRenderOffsetX = 0.5 * iconOffset
-                    iconRenderOffsetY = -0.5 * iconOffset
-                elseif roomSize == 4 and n == 3 then
-                    iconRenderOffsetX = -0.5 * iconOffset
-                    iconRenderOffsetY = 0.5 * iconOffset
-                elseif roomSize == 4 and n == 4 then
-                    iconRenderOffsetX = 0.5 * iconOffset
-                    iconRenderOffsetY = 0.5 * iconOffset
+                elseif roomSize == 4 then
+                    if n == 1 then
+                        iconRenderOffsetX = -0.5 * iconOffset
+                        iconRenderOffsetY = -0.5 * iconOffset
+                    elseif n == 2 then
+                        iconRenderOffsetX = 0.5 * iconOffset
+                        iconRenderOffsetY = -0.5 * iconOffset
+                    elseif n == 3 then
+                        iconRenderOffsetX = -0.5 * iconOffset
+                        iconRenderOffsetY = 0.5 * iconOffset
+                    elseif n == 4 then
+                        iconRenderOffsetX = 0.5 * iconOffset
+                        iconRenderOffsetY = 0.5 * iconOffset
+                    end
                 end
             elseif currentIcons == maxIcons - 1 then
                 -- 2+ x 1 rooms
-                if roomSize == 2 and n == 1 then
-                    iconRenderOffsetX = -0.5 * iconOffset
-                elseif roomSize == 2 and n == 2 then
-                    iconRenderOffsetX = 0.5 * iconOffset
+                if roomSize == 2 then
+                    if n == 1 then
+                        iconRenderOffsetX = -0.5 * iconOffset
+                    elseif n == 2 then
+                        iconRenderOffsetX = 0.5 * iconOffset
+                    end
                 -- 1 x 2+ rooms
-                elseif roomSize == 3 and n == 1 then
-                    iconRenderOffsetY = -0.5 * iconOffset
-                elseif roomSize == 3 and n == 2 then
-                    iconRenderOffsetY = 0.5 * iconOffset
+                elseif roomSize == 3 then
+                    if n == 1 then
+                        iconRenderOffsetY = -0.5 * iconOffset
+                    elseif n == 2 then
+                        iconRenderOffsetY = 0.5 * iconOffset
+                    end
                 -- 2+ x 2+ rooms
-                elseif roomSize == 4 and n == 2 then
-                    iconRenderOffsetX = -1 * iconOffset
-                elseif roomSize == 4 and n == 3 then
-                    iconRenderOffsetX = iconOffset
+                elseif roomSize == 4 then
+                    if n == 2 then
+                        iconRenderOffsetX = -1 * iconOffset
+                    elseif n == 3 then
+                        iconRenderOffsetX = iconOffset
+                    end
                 end
             elseif currentIcons == maxIcons - 2 and roomSize == 4 then
                 -- 2+ x 2+ rooms
@@ -134,7 +146,7 @@ script.on_render_event(Defines.RenderEvents.SHIP_SPARKS, function() end, functio
         end
 
         roomPreviewTimer = roomPreviewTimer + mods.bugfixes_and_qol.time_increment()
-        if roomPreviewTimer > mods.bugfixes_and_qol.INT_MAX then
+        if roomPreviewTimer >= mods.bugfixes_and_qol.INT_MAX then
             roomPreviewTimer = 0
         end
         for roomId, sysTable in pairs(roomSystems) do
