@@ -58,7 +58,6 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
             <li>Weapon rewards outside autoReward no longer overwrite autoReward drones and augments. Fixes events CRYSTAL_CACHE and DONOR_MANTIS_CHASE in rare cases, and event CRYSTAL_HELP_DIG now gives an augment and high scrap with the free weapon as intended.</li>
             <li>Drone rewards outside autoReward no longer overwrite autoReward weapons and augments. Fixes event ZOLTAN_CREW_STUDY in rare cases.</li>
         </ol>
-        <li>CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK: Fixed certain options having a chance of not consuming resources, if the reward after the choice includes that resource. (I used custom autoRewards for this, ideally HS can fix this in the future so that they aren't required.)</li>
     </ol>
     <li>SHIPS:</li>
     <ol>

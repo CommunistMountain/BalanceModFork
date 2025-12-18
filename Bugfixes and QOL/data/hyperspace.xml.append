@@ -134,60 +134,6 @@
 </mod:findLike>
 
 <mod:findLike type="rewards" limit="1">
-    <mod-append:reward name="standard_droneparts-1">
-        <resourceRewards>
-            <droneparts level="LOW" min="0" max="0"/>
-            <droneparts level="MED" min="0" max="0"/>
-            <droneparts level="HIGH" min="0" max="1"/>
-        </resourceRewards>
-        
-        <reward minResources="2" maxResources="2">
-            <resource name="scrap"/>
-            <resource name="fuel" level="LOW"/>
-            <resource name="missiles" level="LOW"/>
-            <resource name="droneparts" level="LOW"/>
-            <bonus roll="100">
-                <item chance="3"/>
-            </bonus>
-        </reward>
-    </mod-append:reward>
-    
-    <mod-append:reward name="stuff_droneparts-1">
-        <resourceRewards>
-            <droneparts level="LOW" min="0" max="0"/>
-            <droneparts level="MED" min="0" max="0"/>
-            <droneparts level="HIGH" min="0" max="1"/>
-        </resourceRewards>
-        
-        <reward minResources="2" maxResources="2">
-            <resource name="scrap" level="LOW"/>
-            <resource name="fuel"/>
-            <resource name="missiles"/>
-            <resource name="droneparts"/>
-            <bonus roll="100">
-                <item chance="6"/>
-            </bonus>
-        </reward>
-    </mod-append:reward>
-    
-    <mod-append:reward name="stuff_fuel-100">
-        <resourceRewards>
-            <fuel level="LOW" min="-99" max="-97"/>
-            <fuel level="MED" min="-98" max="-96"/>
-            <fuel level="HIGH" min="-97" max="-94"/>
-        </resourceRewards>
-        
-        <reward minResources="2" maxResources="2">
-            <resource name="scrap" level="LOW"/>
-            <resource name="fuel"/>
-            <resource name="missiles"/>
-            <resource name="droneparts"/>
-            <bonus roll="100">
-                <item chance="6"/>
-            </bonus>
-        </reward>
-    </mod-append:reward>
-
     <mod-append:reward name="item">
         <reward>
             <bonus roll="3">

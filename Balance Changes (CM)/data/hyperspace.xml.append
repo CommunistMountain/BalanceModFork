@@ -323,32 +323,6 @@
         <droneparts level="MED" min="1" max="2"/>
         <droneparts level="HIGH" min="2" max="2"/>
     </mod-append:resourceRewards>
-    
-    <mod:findComposite>
-        <mod:par op="OR">
-            <mod:findName type="reward" name="standard_droneparts-1"/>
-            <mod:findName type="reward" name="stuff_droneparts-1"/>
-            <mod:findName type="reward" name="stuff_fuel-100"/>
-        </mod:par>
-        <mod:findLike type="resourceRewards">
-            <mod:findLike type="droneparts">
-            <mod:selector level="MED"/>
-                <mod:setAttributes max="1"/>
-            </mod:findLike>
-            <mod:findLike type="droneparts">
-            <mod:selector level="HIGH"/>
-                <mod:setAttributes min="1"/>
-            </mod:findLike>
-            <mod:findLike type="fuel">
-            <mod:selector level="LOW"/>
-                <mod:setAttributes min="-98" max="-98"/>
-            </mod:findLike>
-            <mod:findLike type="fuel">
-            <mod:selector level="HIGH"/>
-                <mod:setAttributes min="-96" max="-96"/>
-            </mod:findLike>
-        </mod:findLike>
-    </mod:findComposite>
 </mod:findLike>
 
 <mod:findLike type="events" limit="1">

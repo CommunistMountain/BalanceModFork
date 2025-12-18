@@ -38,11 +38,6 @@
     <mod:findLike type="choice">
     <mod:selector req="REPAIR"/>
         <mod:setAttributes req="MULTIREQ_REPAIR"/>
-        <mod:findLike type="event">
-            <mod:findLike type="autoReward">
-                <mod:setValue>standard_droneparts-1</mod:setValue>
-            </mod:findLike>
-        </mod:findLike>
     </mod:findLike>
     <mod:findLike type="choice">
     <mod:selector req="SHIP_REPAIR"/>
