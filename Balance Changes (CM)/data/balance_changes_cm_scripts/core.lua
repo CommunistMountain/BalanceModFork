@@ -110,6 +110,16 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
         end
     end
     
+    if shipManager.cloneSystem ~= nil then
+        for i=1, shipManager:HasAugmentation("BACKUP_DNA") do
+            shipManager.cloneSystem:PartialRepair(1/3, false)
+        end
+    end
+    
+    if shipManager:HasAugmentation("O2_REPAIR_CM") > 0 then
+        shipManager.oxygenSystem:PartialRepair(0.1, false)
+    end
+    
     if shipManager:HasAugmentation("SLUG_GEL") > 0 then
         if shipManager:HasSystem(7) then
             local sensors = shipManager:GetSystem(7)
@@ -121,12 +131,6 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
             local doors = shipManager:GetSystem(8)
             doors.bManned = true
             doors.iActiveManned = 1
-        end
-    end
-    
-    if shipManager.cloneSystem ~= nil then
-        for i=1, shipManager:HasAugmentation("BACKUP_DNA") do
-            shipManager.cloneSystem:PartialRepair(0.33, false)
         end
     end
 end)

@@ -33,6 +33,7 @@
     <mod-append:customShip>
         <hiddenAug>BATTERY_BOOSTER</hiddenAug>
         <hiddenAug>BOARDER_RECOVERY</hiddenAug>
+        <hiddenAug>O2_REPAIR_CM</hiddenAug>
         <hiddenAug>TELEPORTER_ARMOR_CM</hiddenAug>
     </mod-append:customShip>
     <mod-append:customShip name="PLAYER_SHIP_HARD">

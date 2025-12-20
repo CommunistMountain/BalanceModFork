@@ -32,7 +32,7 @@
         <li>Cloaking: Cost from 150 to 115, level 2 cost from 30 to 70.</li>
         <li>Drone Control: Level 5/6/7/8 cost from 45/60/80/100 to 40/50/60/70.</li>
         <li>Engines: Level 4/5/6/7/8 cost from 30/40/60/80/120 to 55/25/20/20/35.</li>
-        <li>Oxygen: Level 3 cost from 50 to 30.</li>
+        <li>Oxygen: Level 3 cost from 50 to 30. Oxygen now repairs itself at 10% of Human rate (slow enough to be able to suffocate a Crystal before it is repaired).</li>
         <li>Hacking: Cost from 80 to 100, level 2/3 cost from 35/60 to 50/40. Cost of deploying hacking drone from 1 to 2 drone parts, for the player only (due to limitations in implementation, you can still try to deploy the hacking drone at 1 drone part, but the drone will immediately explode, and no drone parts will be consumed). Drone will explode if the system is depowered while the drone is mid-flight.</li>
         <li>Mind Control: Cost from 75 to 90, level 3 cost from 60 to 55.</li>
         <li>Shields: Level 2/8 cost from 100/100 to 120/120.</li>
@@ -152,7 +152,7 @@
         </ol>
         <li>Added Advanced FTL Navigation 2 to stores and random rewards, which allows you to jump to any beacon, by spending fuel equal to the shortest number of jumps from your location to that beacon. Rarity 3, cost 30. Stackable, but having multiple does not change its effect.</li>
         <li>Automated Reloader: Rarity from 2 to 4, cost from 40 to 60.</li>
-        <li>Backup DNA Bank: Repairs the Clone Bay at 33% (exact) of Human rate.</li>
+        <li>Backup DNA Bank: Repairs the Clone Bay at 1/3 of Human rate.</li>
         <li>Damaged Stasis Pod: Cost from 30 to 0 (sell price from 15 to 0).</li>
         <li>Distraction Buoys: Cost from 55 to 40.</li>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40.</li>
