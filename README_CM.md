@@ -297,7 +297,7 @@
     </ol>
     <li>EVENTS:</li>
     <ol>
-        <li>(TODO more events for Lifeform Scanner just like Twinge. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates. Then add here.)</li>
+        <li>(TODO more events for Lifeform Scanner)</li>
         <li>All sectors have 2 guaranteed stores, except for Sector 1 and Sector 8 which have 1 guaranteed store:</li>
         <ol>
             <li>Sector 1: from 1-2 to 1.</li>

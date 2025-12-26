@@ -1,5 +1,5 @@
 # Balance Changes (Twinge)
-Continued from Twinge's Balance and Bugfix Mod 4.0.2. This starts at 4.0.3 since it is not exactly the same, I fixed some errors in 4.0.2. Importantly, this now uses xml.append files instead of xml files, allowing it to be compatible with more mods. Most Bugfixes/QOL have been moved to the Bugfixes and QOL mod, and those that remain are what I think are not really bugs. (TODO, WIP)
+Continued from Twinge's Balance and Bugfix Mod 4.0.2. This starts at 4.0.3 since it is not exactly the same, I fixed some errors in 4.0.2. Importantly, this now uses xml.append files instead of xml files, allowing it to be compatible with more mods. Most Bugfixes/QOL have been moved to the Bugfixes and QOL mod, and those that remain are what I think are not really bugs. (README is WIP, refer to https://www.darktwinge.com/ftl-balance/index.php?title=Main_Page in the meantime)
 
 ## Gameplay Changes
 <ol>
