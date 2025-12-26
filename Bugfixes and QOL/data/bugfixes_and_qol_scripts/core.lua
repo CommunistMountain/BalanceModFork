@@ -9,7 +9,9 @@ mods.bugfixes_and_qol.blueprintFiles = {
 function mods.bugfixes_and_qol.child_nodes(node, reversed)
     local child_table = {}
     if node ~= nil then
-        reversed = reversed or false -- if reversed is not provided
+        if reversed == nil then
+            reversed = false
+        end
         if not reversed then
             local first_child = node:first_node()
             if first_child ~= nil then
@@ -36,7 +38,9 @@ function mods.bugfixes_and_qol.child_nodes(node, reversed)
 end
 
 function mods.bugfixes_and_qol.print_object_fields(object, parent_member_name, print_error_messages)
-    print_error_messages = print_error_messages or true -- if print_error_messages is not provided
+    if print_error_messages == nil then
+        print_error_messages = true
+    end
     if object ~= nil then
         local object_metatable = getmetatable(object)
         if object_metatable ~= nil then
@@ -60,8 +64,11 @@ function mods.bugfixes_and_qol.print_object_fields(object, parent_member_name, p
     end
 end
 
-function mods.bugfixes_and_qol.time_increment()
-    if Hyperspace.FPS.speedLevel ~= 0 and Hyperspace.FPS.speedEnabled then
+function mods.bugfixes_and_qol.time_increment(useSpeed)
+    if useSpeed == nil then
+        useSpeed = true
+    end
+    if useSpeed then
         return Hyperspace.FPS.SpeedFactor/16
     elseif Hyperspace.FPS.NumFrames ~= 0 then
         return 1/Hyperspace.FPS.NumFrames
@@ -82,14 +89,20 @@ for i=1, #mods.bugfixes_and_qol.blueprintFiles do
 end
 
 local all_time_increments = 0
+local all_time_fps_increments = 0
 local no_pause_time_increments = 0
+local no_pause_time_fps_increments = 0
 
 script.on_game_event("START_BEACON", false, function()
     if Hyperspace.App.world.starMap.currentSector.level == 0 then
         Hyperspace.metaVariables.all_time_cm = 0
         all_time_increments = 0
+        Hyperspace.metaVariables.all_time_fps_cm = 0
+        all_time_fps_increments = 0
         Hyperspace.metaVariables.no_pause_time_cm = 0
         no_pause_time_increments = 0
+        Hyperspace.metaVariables.no_pause_time_fps_cm = 0
+        no_pause_time_fps_increments = 0
     end
 end)
 
@@ -122,6 +135,11 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
             no_pause_time_increments = no_pause_time_increments - 1
             Hyperspace.metaVariables.no_pause_time_cm = Hyperspace.metaVariables.no_pause_time_cm + 1
         end
+        no_pause_time_fps_increments = no_pause_time_fps_increments + mods.bugfixes_and_qol.time_increment(false)
+        if no_pause_time_fps_increments > 1 then
+            no_pause_time_fps_increments = no_pause_time_fps_increments - 1
+            Hyperspace.metaVariables.no_pause_time_fps_cm = Hyperspace.metaVariables.no_pause_time_fps_cm + 1
+        end
         
         local hackingSystem = shipManager.hackingSystem
         if hackingSystem ~= nil and hackingSystem.spendDrone == 1 then
@@ -140,10 +158,16 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
         if shipManager.ship.bDestroyed and shipManager.ship.shipName == "boss_3" then
             local all_minutes = Hyperspace.metaVariables.all_time_cm // 60
             local all_seconds = Hyperspace.metaVariables.all_time_cm % 60 + all_time_increments
+            local all_minutes_fps = Hyperspace.metaVariables.all_time_fps_cm // 60
+            local all_seconds_fps = Hyperspace.metaVariables.all_time_fps_cm % 60 + all_time_fps_increments
             local no_pause_minutes = Hyperspace.metaVariables.no_pause_time_cm // 60
             local no_pause_seconds = Hyperspace.metaVariables.no_pause_time_cm % 60 + no_pause_time_increments
-            print(string.format("Time including pauses: %d min %.2f s", all_minutes, all_seconds))
-            print(string.format("Time excluding pauses: %d min %.2f s", no_pause_minutes, no_pause_seconds))
+            local no_pause_minutes_fps = Hyperspace.metaVariables.no_pause_time_fps_cm // 60
+            local no_pause_seconds_fps = Hyperspace.metaVariables.no_pause_time_fps_cm % 60 + no_pause_time_fps_increments
+            print(string.format("Time with pauses (speed setting-based): %d min %.2f s", all_minutes, all_seconds))
+            print(string.format("Time with pauses (FPS-based): %d min %.2f s", all_minutes_fps, all_seconds_fps))
+            print(string.format("Time without pauses (speed setting-based): %d min %.2f s", no_pause_minutes, no_pause_seconds))
+            print(string.format("Time without pauses (FPS-based): %d min %.2f s", no_pause_minutes_fps, no_pause_seconds_fps))
         end
     end
 end)
@@ -153,5 +177,10 @@ script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function
     if all_time_increments > 1 then
         all_time_increments = all_time_increments - 1
         Hyperspace.metaVariables.all_time_cm = Hyperspace.metaVariables.all_time_cm + 1
+    end
+    all_time_fps_increments = all_time_fps_increments + mods.bugfixes_and_qol.time_increment(false)
+    if all_time_fps_increments > 1 then
+        all_time_fps_increments = all_time_fps_increments - 1
+        Hyperspace.metaVariables.all_time_fps_cm = Hyperspace.metaVariables.all_time_fps_cm + 1
     end
 end)

@@ -246,7 +246,9 @@
     </mod-append:req>
     <!--Start of Timer-->
     <mod-append:metaVariable name="all_time_cm" op="set" val="0"/>
+    <mod-append:metaVariable name="all_time_fps_cm" op="set" val="0"/>
     <mod-append:metaVariable name="no_pause_time_cm" op="set" val="0"/>
+    <mod-append:metaVariable name="no_pause_time_fps_cm" op="set" val="0"/>
     <!--End of Timer, Start of Speed UI-->
     <mod-append:metaVariable name="speedui_setting" op="set" val="0"/>
     <mod-append:metaVariable name="speedui_speed" op="set" val="0"/>
