@@ -82,6 +82,7 @@
     </ol>
     <li>DRONES:</li>
     <ol>
+        <li>Unpowered space drones can be ionized by enemy ion projectiles. (TODO: change needs a future version of Hyperspace at the time of writing)</li>
         <li>Beam Drone 1, Beam Drone 2: Fire chance from 10% to 0%.</li>
         <li>Combat Drone 2, Beam Drone 2: Rarity from 5 to 4.</li>
         <li>Fire Drone: Power requirement from 3 to 2.</li>
@@ -298,6 +299,7 @@
     <li>EVENTS:</li>
     <ol>
         <li>(TODO more events for Lifeform Scanner)</li>
+        <li>Weapons and drone blueprints in cargo can be used for blue options. (TODO: In a future version of HS, I'll make it so they consider whether the relevant system is installed, because currently you can use a drone in cargo for a blue option without Drone Control)</li>
         <li>All sectors have 2 guaranteed stores, except for Sector 1 and Sector 8 which have 1 guaranteed store:</li>
         <ol>
             <li>Sector 1: from 1-2 to 1.</li>
@@ -344,11 +346,9 @@
     </ol>
     <li>MECHANICS:</li>
     <ol>
-        <li>Each supershield layer causes -2% evasion.</li>
-        <li>Unpowered space drones can be ionized by enemy ion projectiles. (TODO: change needs a future version of Hyperspace at the time of writing)</li>
-        <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
         <li>Damaged doors automatically close after they have repaired themselves.</li>
-        <li>Weapons and drone blueprints in cargo can be used for event checks. (TODO: In a future version of HS, I'll make it so they consider whether the relevant system is installed, because currently you can use a drone in cargo for a blue option without Drone Control)</li>
+        <li>Each supershield layer causes -2% evasion.</li>
+        <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
     </ol>
     <li>MISC:</li>
     <ol>
