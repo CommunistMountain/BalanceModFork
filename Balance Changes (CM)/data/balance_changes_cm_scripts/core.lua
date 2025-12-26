@@ -110,6 +110,13 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
         end
     end
     
+    for i=0, shipManager.ship.vDoorList:size() - 1 do
+        local door = shipManager.ship.vDoorList[i]
+        if door.forcedOpen.running then
+            door.bOpen = false
+        end
+    end
+    
     if shipManager.cloneSystem ~= nil then
         for i=1, shipManager:HasAugmentation("BACKUP_DNA") do
             shipManager.cloneSystem:PartialRepair(1/3, false)

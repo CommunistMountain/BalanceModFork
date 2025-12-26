@@ -347,6 +347,7 @@
         <li>Each supershield layer causes -2% evasion.</li>
         <li>Unpowered space drones can be ionized by enemy ion projectiles. (TODO: change needs a future version of Hyperspace at the time of writing)</li>
         <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
+        <li>Damaged doors automatically close after they have repaired themselves.</li>
     </ol>
     <li>MISC:</li>
     <ol>
