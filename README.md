@@ -48,10 +48,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
         </ol>
         <li>ROCK_STARSHIP_MINE: Fixed missile option not requiring 1 missile.</li>
         <li>SLUG_DISTRESS_QUESTION, SLUG_DISTRESS_RESCUE, SLUG_DISTRESS_ROCK, SLUG_DISTRESS_TRICK, STORM_BOARDING, STORM_REBEL, STORM_SLUG_FIGHT: These events no longer appear at non-nebula beacons on the map (will slow the Rebel Fleet appropriately).</li>
-        <li>TRADER_UPGRADES_EXCHANGE: You are now prevented from selecting the option to upgrade your reactor if you are at 25 reactor.</li>
-        <ol>
-            <li>Note for modders: Mods with ships that have reactor limits above 25 will be impacted. Undo/edit this change if necessary.</li>
-        </ol>
+        <li>TRADER_UPGRADES_EXCHANGE: You are now prevented from selecting the option to upgrade your reactor if you are at 25 reactor, like the TRADER_UPGRADES event.</li>
         <li>AutoReward interactions with free weapon/drone/augment:</li>
         <ol>
             <li>Augment rewards outside autoReward now overwrite autoReward augments, instead of being overwritten by autoReward augments. Fixes events ENGI_UNLOCK_1, ENGI_VIRUS and NEBULA_SLUG_FIGHT_UNLOCK in rare cases.</li>
