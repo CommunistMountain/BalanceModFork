@@ -348,6 +348,7 @@
         <li>Unpowered space drones can be ionized by enemy ion projectiles. (TODO: change needs a future version of Hyperspace at the time of writing)</li>
         <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
         <li>Damaged doors automatically close after they have repaired themselves.</li>
+        <li>Weapons and drone blueprints in cargo can be used for event checks. (TODO: In a future version of HS, I'll make it so they consider whether the relevant system is installed, because currently you can use a drone in cargo for a blue option without Drone Control)</li>
     </ol>
     <li>MISC:</li>
     <ol>

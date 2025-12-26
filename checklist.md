@@ -12,30 +12,19 @@ Low priority:
 
 Fix Distraction Buoys message not saying the correct fleet delay (actual fleet delay is correct)
 
-make multireq for all drones (or make a method that doesn't need hardcode)
-
 Review beam lengths (make them at exactly half of changing intervals, so hard swipes are clearly not possible?)
 
 remove external doors on enemies (txt files: 1 on rebel_long, 1 on boss_2 and boss_2_easy, 2 on boss_3 and boss_3_easy)
 
 reveal friendly ship rooms
 
-consider changing reactor amounts (only relevant for plasma storms)?
+consider changing reactor amounts (only relevant for plasma storms)
 
 review weapon cooldowns and projectile speeds? should probably arrive in this order: bomb, flak, missile, ion, crystal, laser, beam
 
 Teleport works on own ship
 
 Fleet Pursuit modifiers work in Sector 8, stopping beacon takeover or increasing takeover rate.
-
-shift these ships back by this many tiles to avoid the defense drone bug, and redesign those that can't (or just wait HS to fix):
-Kestrel: 2 (A and C need shift 2 but can't; B needs shift 2 but can only shift 1)
-Fed: 3 (A and C need shift 3 but can only shift 1; B needs shift 1 and can shift 1)
-Zoltan: 1 (all need shift 1, and can)
-Mantis: 2 (AC need shift 2 and B need shift 1, and can)
-Slug: 1 (AC need shift 0 and B need shift 1, and can)
-Stealth: 2 (AC need shift 2 and B need shift 1, and can)
-Crystal: 2 (A needs shift 2 but can't; B needs shift 1 but can't)
 
 Add graphics changes for these weapons that share the same sprite:
 1. All bombs

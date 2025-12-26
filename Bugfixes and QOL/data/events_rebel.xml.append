@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
-<mod:findName type="event" name="AUTO_DEFENSE_RADAR">
-    <mod:findLike type="choice">
-    <mod:selector req="COMBAT_DRONE_LIST"/>
-        <mod:setAttributes req="MULTIREQ_COMBAT_DRONE_LIST"/>
-    </mod:findLike>
-</mod:findName>
-
 <mod:findName type="eventList" name="REBEL_TRANSPORT_DESTROYED">
     <mod:findLike type="event">
         <mod:findLike type="autoReward">

@@ -89,10 +89,6 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
         <li>Stealth C: Human Rock Slug -> SHR</li>
         <li>Crystal A: Human Human Crystal Crystal -> CHCH</li>
     </ol>
-    <li>checkCargo: Include cargo weapons/drones for event checks (you still need the relevant system).</li>
-    <ol>
-        <li>Note for modders: this setting by itself allows weapons/drones to be used in choices without the system. I made custom requirement definitions in hyperspace.xml (I named them MULTIREQ_thing), then changed the requirements in event choices, to check for the system. You need to use these custom requirements, or implement more custom requirements, if you also want to check for the system.</li>
-    </ol>
     <li>preIgniteChargers: Charge weapons can enter a fight fully charged if you have a Pre-Igniter.</li>
     <li>showNumericalWeaponCooldown: Shows weapon cooldowns.</li>
     <li>showAllConnections: Shows all connections between beacons on the map.</li>

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findLike type="defaults" limit="1">
+    <mod:findLike type="checkCargo">
+        <mod:setValue>true</mod:setValue>
+    </mod:findLike>
+</mod:findLike>
+
 <mod:findComposite>
     <mod:par op="OR">
         <mod:findLike type="hackingDroneFix"/>
@@ -327,17 +333,9 @@
 </mod:findLike>
 
 <mod:findLike type="events" limit="1">
-    <mod-append:req name="MULTIREQ_COMBAT_FIRE" type="all" lvl="1">
-        <req lvl="1">
-            <name>COMBAT_FIRE</name>
-        </req>
-        <req lvl="1">
-            <name>drones</name>
-        </req>
-    </mod-append:req>
     <mod-append:req name="ANYREQ_FIRE" type="any" lvl="1">
         <req lvl="1">
-            <name>MULTIREQ_COMBAT_FIRE</name>
+            <name>COMBAT_FIRE</name>
         </req>
         <req lvl="1">
             <name>BEAM_FIRE</name>
