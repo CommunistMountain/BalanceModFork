@@ -70,8 +70,6 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
 
 ## QOL (gameplay)
 <ol>
-    <li>Mini-Beam: length from 45 to 47.</li>
-    <li>Halberd Beam and Glaive Beam: length from 80 to 83.</li>
     <li>Map: integrated Sleeper Games + MantisManMike's Enhanced Fleet Pursuit mod, showing the Rebel Fleet's position in future jumps. Made it redder for better contrast against very bright white portions of backgrounds, and when the fleet is delayed, better contrast against very dark portions of backgrounds (lines in map_warningcircle.png from 0, 0, 0 at 10% opacity to 137, 58, 56 at 30% opacity).</li>
     <li>Shifted starting crew to generally better positions. Credit to MantisManMike. Order is Pilot, Engines, Weapons, Shields:</li>
     <ol>
