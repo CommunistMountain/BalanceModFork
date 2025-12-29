@@ -234,6 +234,12 @@
             <li>Crystal A: Removed Doors.</li>
             <li>Crystal B: Weapon slots from 4 to 3. Medbay level from 1 to 2.</li>
         </ol>
+        <li>Ships are standardised to not have manning stations against doors.</li>
+        <ol>
+            <li>Fed C: Shields manning station shifted from top left tile facing left to top right tile facing up. Replaced Shields room image to fit it.</li>
+            <li>Rock C: Shifted 2 Doors.</li>
+            <li>Crystal A: removed 1 door (one of the 2 removed doors mentioned above)</li>
+        </ol>
         <li>Ships are standardised to have just enough reactor to power all non-medical systems. Each Zoltan counts as 1 reactor, except 1 Zoltan if it needs to be Pilot. Ships which tend to not have crew in Pilot (Engi B, Mantis B, and Lanius A due to changes above) don't have reactor for Engines as well.</li>
         <ol>
             <li>Kestrel C: Reactor from 7 to 9.</li>

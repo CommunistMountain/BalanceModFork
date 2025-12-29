@@ -123,6 +123,13 @@
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED_3">
     <mod:findLike type="systemList">
+        <mod:findLike type="shields">
+            <mod:setAttributes img="room_shields_7"/>
+            <mod-append:slot>
+                <direction>up</direction>
+                <number>1</number>
+            </mod-append:slot>
+        </mod:findLike>
         <mod:findLike type="artillery">
             <mod:setAttributes power="4"/>
         </mod:findLike>
