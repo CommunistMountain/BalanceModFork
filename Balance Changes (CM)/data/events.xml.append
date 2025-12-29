@@ -103,12 +103,6 @@
     <event load="STASIS_POD_VANILLA_CM"/>
     <event load="STASIS_POD_VANILLA_CM"/>
     <event load="STASIS_POD_VANILLA_CM"/>
-    <event load="STASIS_POD_VANILLA_CM"/>
-    <event load="STASIS_POD_VANILLA_CM"/>
-    <event load="STASIS_POD_VANILLA_CM"/>
-    <event load="STASIS_POD_VANILLA_CM"/>
-    <event load="STASIS_POD_VANILLA_CM"/>
-    <event load="STASIS_POD_VANILLA_CM"/>
     <event>
         <text id="event_ZOLTAN_CREW_STUDY_c4_c1_c1_text"/>
         <crewMember amount="1" class="crystal" id="name_Ruwen"/>

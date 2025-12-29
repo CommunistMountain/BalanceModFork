@@ -321,7 +321,7 @@
             <li>Mantis and Rock sectors: empty beacon range from 2-3 to 1-2.</li>
             <li>Crystal sector: empty beacon range from 2 to 1-2.</li>
         </ol>
-        <li>ASTEROID_DERELICT_SHIP: When you choose to "Grab the stasis chamber", you have a 10% chance getting Ruwen immediately instead of the Stasis Pod.</li>
+        <li>ASTEROID_DERELICT_SHIP: When you choose to "Grab the stasis chamber", you have a 25% chance getting Ruwen immediately instead of the Stasis Pod.</li>
         <li>AUTO_HACKER: Now disables 1 level of your Shields, instead of half of your Shield levels rounded up.</li>
         <li>CRYSTAL_CACHE: Engines blue option level requirement from 7 to 4.</li>
         <li>ENGI_UNLOCK_1: When the real ship surrenders, you now have the option of continuing the fight.</li>
