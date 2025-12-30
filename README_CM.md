@@ -149,7 +149,7 @@
             <li>Drone Recovery Arm (component of Drone Reactor Booster): Chance for each drone to be recovered from 100% to 20% (TODO: change needs a future version of Hyperspace at the time of writing).</li>
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
             <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 5/6 of Human rate to 1/2 of Human rate.</li>
-            <li>Slug Repair Gel: Now prevents Sensors from being disabled by nebula or events (it will still be disabled by hacking). Sensors and Doors behave as though they are manned if they are not damaged.</li>
+            <li>Slug Repair Gel: Now prevents Sensors from being disabled by nebula or events (it will still be disabled by hacking). Sensors and Doors behave as though they are always manned when undamaged (ion damage does not prevent this manning bonus).</li>
         </ol>
         <li>Added Advanced FTL Navigation 2 to stores and random rewards, which allows you to jump to any beacon, by spending fuel equal to the shortest number of jumps from your location to that beacon. Rarity 3, cost 30. Stackable, but having multiple does not change its effect.</li>
         <li>Automated Reloader: Rarity from 2 to 4, cost from 40 to 60.</li>
