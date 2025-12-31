@@ -24,8 +24,6 @@ review weapon cooldowns and projectile speeds? should probably arrive in this or
 
 Teleport works on own ship
 
-Fleet Pursuit modifiers work in Sector 8, stopping beacon takeover or increasing takeover rate.
-
 Add graphics changes for these weapons that share the same sprite:
 1. All bombs
 2. Adv. Flak and Flak I

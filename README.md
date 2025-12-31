@@ -131,7 +131,6 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
         <li>Lanius A: 1 up</li>
         <li>Lanius B: 1 up</li>
     </ol>
-    <li>playerHpColorFix: HP color now scales according to a 3-third ratio instead of a hardcoded value.</li>
     <li>warningLightPositionFix: Warning lights that appear during a fire or breach are now positioned correctly.</li>
     <li>EVENTS:</li>
     <ol>
@@ -201,6 +200,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
     <li>shieldWithoutSystem: Allows supershields to work even if no shield declared in a ship's shipBlueprint.</li>
     <li>droneSelectHotkeys: Allows selecting controllable crew drones with their hotkey.</li>
     <li>droneSaveStations: Allows the current stations of controllable crew drones to be saved.</li>
+    <li>playerHpColorFix: Hull color now scales according to a 3-third ratio instead of a hardcoded value.</li>
     <li>enemyPreigniterFix: Enemies are able to use the Weapon Pre-Igniter augment if they are defined to spawn with it.</li>
     <li>multiShipFix: Allows multiple ships to be loaded per beacon.</li>
     <li>scaleSlugGel: Slug Gel strength may now be edited by mods (value of 0.25 corresponds to vanilla speed).</li>
