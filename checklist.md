@@ -1,7 +1,7 @@
 <ol>
     <li>TODO summaries for all 3 mods so people know at a glance what they're getting into.</li>
     <li>TODO change text for everything in readme_new that needs it (list them out)</li>
-    <li>TODO HS branches</li>
+    <li>TODO HS branches. Any gameplay-affecting things should have an associated setting in hyperspace.xml. Then make changes accordingly in my mods (e.g. review rewardScaling). For scaleDRA, check if it's OK to not add the value XML tag, then add value in hyperspace.xml</li>
     <li>EVENTS:</li>
     <ol>
         <li>More events for Lifeform Scanner. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates. Actually, some LRS blues should be replaced with Life Scanner if it's against lifeforms</li>

@@ -37,7 +37,7 @@ script.on_internal_event(Defines.InternalEvents.CALCULATE_STAT_PRE, function(cre
 end)
 
 script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(targetedShipManager, projectile, pointF, damage, bShipFriendlyFire)
-    if projectile ~= nil then
+    if projectile ~= nil then -- for non-beams
         local roomId = targetedShipManager.ship:GetSelectedRoomId(pointF.x, pointF.y, true)
         local roomShape = Hyperspace.ShipGraph.GetShipInfo(targetedShipManager.iShipId):GetRoomShape(roomId)
         local roomWidth = roomShape.w / 35

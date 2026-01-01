@@ -151,7 +151,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
 ## QOL (non-gameplay)
 <ol>
     <li>Ships in the hangar show a preview of missing systems. Credit to Arc and others from the MV team.</li>
-    <li>Timers will be displayed when defeating the Flagship. First includes time paused, second excludes time paused.</li>
+    <li>4 timers will be displayed when defeating the Flagship: including or excluding time paused, and speed-based (in-game time when corrected for faster/slower speed settings) or FPS-based (real time). Note that even if you play the game with speed set to normal, the speed-based time will differ slightly from the FPS-based time.</li>
     <li>redesignedWeaponTooltips: Shows more information about weapons.</li>
     <li>redesignedDroneTooltips: Shows more information about drones.</li>
     <li>redesignedAugmentTooltips: Shows more information about augments.</li>
