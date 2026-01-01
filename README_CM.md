@@ -51,7 +51,7 @@
         <li>Burst Laser 1: Rarity from 1 to 3.</li>
         <li>Burst Laser 3: Cooldown from 19s to 14s, fire chance from 0% to 10%.</li>
         <li>Heavy Laser 1: Rarity from 2 to 4, cooldown from 9s to 11s.</li>
-        <li>Heavy Pierce 1: Power requirement from 2 to 1, cooldown from 10s to 15s, stun chance from 0% to 20%.</li>
+        <li>Heavy Pierce 1: Power requirement from 2 to 1, cooldown from 10s to 12s, stun chance from 0% to 20%.</li>
         <li>Hull Laser 1: Cooldown from 14s to 15s, projectile speed from 75 to 90, fire chance from 0% to 10%, breach chance from 20% to 18%.</li>
         <li>Chain Vulcan: Rarity from 5 to 4. Starting cooldown from 11.1s to 8.5s, cooldown reduction per shot from -2s to -1.5s (time needed before final cooldown from 35.5s to 27.5s, final cooldown from 1.1s to 1s).</li>
         <li>Flak weapons: removed fake projectiles.</li>
@@ -59,6 +59,7 @@
         <li>Flak 1: Rarity from 1 to 4, cost from 65 to 80.</li>
         <li>Flak Artillery: Shield piercing from 0 to 5, damage from 1 to 0. Each flak heals 50 health for all friendly crew in the room.</li>
         <li>Crystal weapons: Cost from 20 to 50.</li>
+        <li>Crystal Burst 1: Cooldown from 15s to 12s.</li>
         <li>Heavy Crystal 2: Rarity from 5 to 4, power requirement from 3 to 2.</li>
         <li>Hull Missile: Cost from 65 to 50, cooldown from 17s to 14s.</li>
         <li>Artemis (enemy version): Rarity from 0 to 2 (now available in stores and random rewards), costs 38.</li>
@@ -238,7 +239,7 @@
         <ol>
             <li>Fed C: Shields manning station shifted from top left tile facing left to top right tile facing up. Replaced Shields room image to fit it.</li>
             <li>Rock C: Shifted 2 Doors.</li>
-            <li>Crystal A: removed 1 door (one of the 2 removed doors mentioned above)</li>
+            <li>Crystal A: Removed 1 door (one of the 2 removed doors mentioned above)</li>
         </ol>
         <li>Ships are standardised to have just enough reactor to power all non-medical systems. Each Zoltan counts as 1 reactor, except 1 Zoltan if it needs to be Pilot. Ships which tend to not have crew in Pilot (Engi B, Mantis B, and Lanius A due to changes above) don't have reactor for Engines as well.</li>
         <ol>

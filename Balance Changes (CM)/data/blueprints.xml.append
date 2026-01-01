@@ -198,7 +198,7 @@
 
 <mod:findName type="weaponBlueprint" name="LASER_HEAVY_1_SP">
     <mod:findLike type="cooldown">
-        <mod:setValue>15</mod:setValue> 
+        <mod:setValue>12</mod:setValue> 
     </mod:findLike>
     <mod:findLike type="power">
         <mod:setValue>1</mod:setValue>
@@ -391,6 +391,12 @@
         <mod:setValue>50</mod:setValue>
     </mod:findLike>
 </mod:findComposite>
+
+<mod:findName type="weaponBlueprint" name="CRYSTAL_BURST_1">
+    <mod:findLike type="cooldown">
+        <mod:setValue>12</mod:setValue>
+    </mod:findLike>
+</mod:findName>
 
 <mod:findName type="weaponBlueprint" name="CRYSTAL_HEAVY_2">
     <mod:findLike type="power">
