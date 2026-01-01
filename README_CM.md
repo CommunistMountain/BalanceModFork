@@ -281,6 +281,7 @@
     </ol>
     <li>NPC SHIPS:</li>
     <ol>
+        <li>The rooms of neutral ships can be seen. (TODO: requires a future version of Hyperspace at the time of writing)</li>
         <li>All NPC ships, other than the Flagship and the Flagship Construction, have a maximum Engines level of 5. The affected ships and their original max Engines level are:</li>
         <ol>
             <li>Auto-Scout and Auto-Surveyor: 8</li>

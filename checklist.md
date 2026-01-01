@@ -12,11 +12,7 @@ Low priority:
 
 Fix Distraction Buoys message not saying the correct fleet delay (actual fleet delay is correct)
 
-Review beam lengths (make them at exactly half of changing intervals, so hard swipes are clearly not possible?)
-
 remove external doors on enemies (txt files: 1 on rebel_long, 1 on boss_2 and boss_2_easy, 2 on boss_3 and boss_3_easy)
-
-reveal friendly ship rooms
 
 consider changing reactor amounts (only relevant for plasma storms)
 

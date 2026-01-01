@@ -13,6 +13,7 @@
         <mod:findLike type="repairDroneRecoveryFix"/>
         <mod:findLike type="scaleDRA"/>
         <mod:findLike type="droneIonDodgeFix"/>
+        <mod:findLike type="seeNeutralShipRooms"/>
     </mod:par>
     <mod:setAttributes enabled="true"/>
 </mod:findComposite>
