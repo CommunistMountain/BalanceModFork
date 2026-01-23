@@ -282,6 +282,12 @@
     <li>NPC SHIPS:</li>
     <ol>
         <li>The rooms of neutral ships can be seen. (TODO: requires a future version of Hyperspace at the time of writing)</li>
+        <li>Pirate versions of NPC ships should match the non-pirate versions' system levels (if the same system exists) and sector limits:</li>
+        <ol>
+            <li>Pirate Mantis Interceptor: Highest sector it can appear from 5 to 6, to match non-pirate version.</li>
+            <li>Pirate Rebel Disruptor: Hacking max from 2 to 1, to match non-pirate version.</li>
+            <li>Pirate Slug Instigator: Pilot max from 0 (effectively 1) to 3, to match non-pirate version.</li>
+        </ol>
         <li>All NPC ships, other than the Flagship and the Flagship Construction, have a maximum Engines level of 5. The affected ships and their original max Engines level are:</li>
         <ol>
             <li>Auto-Scout and Auto-Surveyor: 8</li>

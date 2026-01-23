@@ -80,7 +80,7 @@
 		<weapons power="2" max="7" room="2"/>
 		<drones power="2" max="8" room="4"/>
 		<clonebay power="1" max="3" room="1" start="false"/>
-		<hacking power="1" max="1" room="5"/>
+		<hacking power="1" max="2" room="5"/>
 	</systemList>
 	<droneList drones="4" load="DRONES_STANDARD"/>
 	<weaponList missiles="10" load="WEAPONS_REBEL"/>
@@ -220,7 +220,7 @@
 	<class id="ship_JELLY_TRUFFLE_PIRATE_DLC_class"/>
 	<minSector>5</minSector>
 	<systemList>
-		<pilot power="1" max="3" room="0"/>
+		<pilot power="1" max="0" room="0"/>
 		<mind power="1" max="2" room="5" start="false"/>
 		<oxygen power="1" max="3" room="1"/>
 		<clonebay power="1" max="3" room="3" start="false"/>

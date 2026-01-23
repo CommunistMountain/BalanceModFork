@@ -56,12 +56,6 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
             <li>Drone rewards outside autoReward no longer overwrite autoReward weapons and augments. Fixes event ZOLTAN_CREW_STUDY in rare cases.</li>
         </ol>
     </ol>
-    <li>SHIPS:</li>
-    <ol>
-        <li>Pirate Mantis Interceptor: Highest sector it can appear from 5 to 6, to match non-pirate version.</li>
-        <li>Pirate Rebel Disruptor: Hacking max from 2 to 1, to match non-pirate version.</li>
-        <li>Pirate Slug Instigator: Pilot max from 0 (effectively 1) to 3, to match non-pirate version.</li>
-    </ol>
     <li>TEXT</li>
     <ol>
         <li>Korean language: now correctly shows the amount of evasion an enemy ship has when hacking Pilot or Engines, and oxygen amount when hacking Oxygen.</li>
