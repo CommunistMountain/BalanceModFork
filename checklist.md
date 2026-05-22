@@ -1,4 +1,5 @@
 <ol>
+    <li>TODO consider moving some bugfixes to balance changes</li>
     <li>TODO summaries for all 3 mods so people know at a glance what they're getting into.</li>
     <li>TODO change text for everything in readme_new that needs it (list them out)</li>
     <li>TODO HS branches. Any gameplay-affecting things should have an associated setting in hyperspace.xml. Then make changes accordingly in my mods (e.g. review rewardScaling). For scaleDRA, check if it's OK to not add the value XML tag, then add value in hyperspace.xml</li>
@@ -14,7 +15,9 @@ Fix Distraction Buoys message not saying the correct fleet delay (actual fleet d
 
 remove external doors on enemies (txt files: 1 on rebel_long, 1 on boss_2 and boss_2_easy, 2 on boss_3 and boss_3_easy)
 
-consider changing reactor amounts (only relevant for plasma storms)
+consider changing player reactor amounts again (esp. the ones where I reduced for no pilot)
+
+consider changing enemy reactor amounts (only relevant for plasma storms)
 
 review weapon cooldowns and projectile speeds? should probably arrive in this order: bomb, flak, missile, ion, crystal, laser, beam
 
