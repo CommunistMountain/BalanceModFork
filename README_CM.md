@@ -77,13 +77,13 @@
         <li>Mini-Beam: Cost from 20 to 50 (sell price from 10 to 25). Fire chance from 10% to 0%.</li>
         <li>Hull Beam: Cooldown from 14s to 16s.</li>
         <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 80.</li>
-        <li>Glaive Beam: Rarity from 5 to 4, cooldown from 25s to 24s, split into 8s over 3 charges. Its damage is equal to the number of charges. (TODO: At the time of writing, it has a bug where it sometimes can't target the enemy ship. A temporary workaround is to depower it momentarily then repower it. I'll fix it, maybe via a new Hyperspace version)</li>
+        <li>Glaive Beam: Rarity from 5 to 4, cooldown from 25s to 24s, split into 8s over 3 charges. Its damage is equal to the number of charges.</li>
         <li>Fire Beam: Cooldown from 20s to 18s, speed from 5 to 7, fire chance from 80% to 90%.</li>
         <li>Anti-Bio Beam: Rarity from 5 to 4.</li>
     </ol>
     <li>DRONES:</li>
     <ol>
-        <li>Unpowered space drones can be ionized by enemy ion projectiles. (TODO: change needs a future version of Hyperspace at the time of writing)</li>
+        <li>Unpowered space drones can be ionized by enemy ion projectiles.</li>
         <li>Beam Drone 1, Beam Drone 2: Fire chance from 10% to 0%.</li>
         <li>Combat Drone 2, Beam Drone 2: Rarity from 5 to 4.</li>
         <li>Fire Drone: Power requirement from 3 to 2.</li>
