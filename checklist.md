@@ -1,4 +1,5 @@
 <ol>
+    <li>TODO check if waiting removes supershield from Shield Drone in HS (it should not; and zoltan shield should maintain the previous amount)</li>
     <li>TODO consider moving some bugfixes to balance changes</li>
     <li>TODO summaries for all 3 mods so people know at a glance what they're getting into.</li>
     <li>TODO change text for everything in readme_new that needs it (list them out)</li>
