@@ -12,6 +12,8 @@
 
 Low priority:
 
+When selling something with full price not divisible by 2, store a variable (must be reset when starting new run) indicating you have 0.5 scrap, then when you sell such an item again you get scrap rounded up, not down. Implement this in Hyperspace, and add a setting for it, then enable the setting in my balance mod.
+
 Fix Distraction Buoys message not saying the correct fleet delay (actual fleet delay is correct)
 
 remove external doors on enemies (txt files: 1 on rebel_long, 1 on boss_2 and boss_2_easy, 2 on boss_3 and boss_3_easy)
