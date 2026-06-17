@@ -140,6 +140,14 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
             doors.iActiveManned = 1
         end
     end
+    
+    if shipManager:HasAugmentation("TELEPORT_HEAL") > 0 then
+        if shipManager:HasSystem(3) then
+            local weaponControl = shipManager:GetSystem(3)
+            weaponControl.bManned = true
+            weaponControl.iActiveManned = 1
+        end
+    end
 end)
 
 script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function() end, function()

@@ -37,7 +37,7 @@
         <li>Mind Control: Cost from 75 to 90, level 3 cost from 60 to 55.</li>
         <li>Shields: Level 2/8 cost from 100/100 to 120/120.</li>
         <li>Teleporter: Crew take -10% damage from combat while it is powered and not hacked.</li>
-        <li>Weapons Control: Level 4/5/6/7 cost from 35/50/75/90 to 40/55/70/85.</li>
+        <li>Weapon Control: Level 4/5/6/7 cost from 35/50/75/90 to 40/55/70/85.</li>
     </ol>
     <li>WEAPONS:</li>
     <ol>
@@ -151,6 +151,7 @@
             <li>Drone Recovery Arm (component of Drone Reactor Booster): Chance for each drone to be recovered from 100% to 20% (TODO: change needs a future version of Hyperspace at the time of writing).</li>
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
             <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 5/6 of Human rate to 1/2 of Human rate.</li>
+            <li>Reconstructive Teleport: Weapon Control behaves as though it is always manned (at white skill level) when undamaged. (TODO requires testing that crew can still gain XP if they manually man, as well as proper changes when crew of different skill enter/exit the room or fight intruders; also explore adjusting iActiveManned for other levels)</li>
             <li>Slug Repair Gel: Now prevents Sensors from being disabled by nebula or events (it will still be disabled by hacking). Sensors and Doors behave as though they are always manned when undamaged (ion damage does not prevent this manning bonus).</li>
         </ol>
         <li>Added Advanced FTL Navigation 2 to stores and random rewards, which allows you to jump to any beacon, by spending fuel equal to the shortest number of jumps from your location to that beacon. Rarity 3, cost 30. Stackable, but having multiple does not change its effect.</li>
@@ -300,7 +301,7 @@
         <li>Mantis Fighter and Mantis Interceptor (and pirate versions): Medical systems are now optional instead of guaranteed.</li>
         <li>Slug Interceptor and Slug Scout: Added doors connecting Oxygen and Engines.</li>
         <li>Rock ships: May now spawn with Fire Bombs.</li>
-        <li>Rock Assault (Elite): Crew range from 4 to 5.</li>
+        <li>Rock Assault (Elite): Crew range from 4-4 to 5-5.</li>
         <li>Auto-ships: Removed doors.</li>
         <li>Auto-Scout and Auto-Surveyor: Shields are now guaranteed.</li>
         <li>Auto-ships, and Flagship when automated: Now have a weaker version of Slug Repair Gel, which fixes breaches at approximately 1/3 of the original Slug Repair Gel's rate.</li>
