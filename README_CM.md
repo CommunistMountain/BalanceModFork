@@ -41,8 +41,9 @@
     </ol>
     <li>WEAPONS:</li>
     <ol>
+        <li>Ion Stunner: Cost from 35 to 50, now pierces 1 shield.</li>
         <li>Ion Charger: Stun chance from 0% to 10%.</li>
-        <li>Heavy Ion: Cooldown from 13s to 10s, projectile speed from 40 to 30.</li>
+        <li>Heavy Ion: Cost from 45 to 60, power requirement from 2 to 1, cooldown from 13s to 11s, projectile speed from 40 to 75, ion damage from 2 to 1, stun chance from 20% to 10%. On hit, applies 1 ion damage (with an independent 10% chance to stun for 3s) to a random system. (TODO: random system ion damage unimplemented at the time of writing)</li>
         <li>Ion Blast 2: Power requirement from 3 to 2.</li>
         <li>Chain Ion: Cooldown from 14s to 8s, stun chance from 0% to 10%.</li>
         <li>Laser Charger (both versions): Fire chance from 0% to 10%.</li>
@@ -71,13 +72,13 @@
         <li>Breach Bomb 1: Crew damage from 30 to 15.</li>
         <li>Fire Bomb: System damage from 0 to 1 (now does damage to supershields because of this), crew damage from 30 to 15.</li>
         <li>Ion Bomb: Cooldown from 22s to 20s.</li>
-        <li>Stun Bomb: Cooldown from 17s to 12s, stun from 15s to 12s.</li>
+        <li>Stun Bomb: Cooldown from 17s to 15s.</li>
         <li>Lock Bomb: Cooldown from 15s to 12s.</li>
         <li>Small Bomb: Rarity from 1 to 4, cost from 45 to 60, fire chance from 10% to 0%.</li>
         <li>Mini-Beam: Cost from 20 to 50 (sell price from 10 to 25). Fire chance from 10% to 0%.</li>
         <li>Hull Beam: Cooldown from 14s to 16s.</li>
         <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 80.</li>
-        <li>Glaive Beam: Rarity from 5 to 4, cooldown from 25s to 24s, split into 8s over 3 charges. Its damage is equal to the number of charges.</li>
+        <li>Glaive Beam: Rarity from 5 to 4, cooldown from 25s to 8s. Now has 3 charges, and does damage equal to the number of charges.</li>
         <li>Fire Beam: Cooldown from 20s to 18s, speed from 5 to 7, fire chance from 80% to 90%.</li>
         <li>Anti-Bio Beam: Rarity from 5 to 4.</li>
     </ol>
@@ -213,8 +214,8 @@
         <ol>
             <li>Kestrel A: Crew from 3 Humans to 2 Humans.</li>
             <li>Kestrel B: Removed Doors.</li>
-            <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 1 Breach Bomb 1 and 3 Ion Stunners. Weapon Control level from 2 to 4. Sensors level from 2 to 1.</li>
-            <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Weapon Control level from 3 to 4. Added level 1 Sensors.</li>
+            <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 1 Heavy Ion, 1 Ion Stunner and 1 Breach Bomb 1. Weapon Control level from 2 to 3. Sensors level from 2 to 1.</li>
+            <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Added level 1 Sensors.</li>
             <li>Fed A: Weapon Control level from 2 to 3. Removed Doors.</li>
             <li>Fed C: Artillery level from 1 to 4.</li>
             <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2.</li>
@@ -241,19 +242,18 @@
             <li>Rock C: Shifted 2 Doors.</li>
             <li>Crystal A: Removed 1 door (one of the 2 removed doors mentioned above)</li>
         </ol>
-        <li>Ships are standardised to have just enough reactor to power all non-medical systems. Each Zoltan counts as 1 reactor, except 1 Zoltan if it needs to be Pilot. Ships which tend to not have crew in Pilot (Engi B, Mantis B, and Lanius A due to changes above) don't have reactor for Engines as well.</li>
+        <li>Ships are standardised to have just enough reactor to power all non-medical systems. Each Zoltan counts as 1 reactor, except 1 Zoltan if it needs to be in Pilot.</li>
         <ol>
-            <li>Kestrel C: Reactor from 7 to 9.</li>
+            <li>Kestrel C: Reactor from 7 to 8.</li>
             <li>Engi A: Reactor from 10 to 9.</li>
             <li>Fed B: Reactor from 9 to 8.</li>
             <li>Fed C: Reactor from 7 to 8.</li>
             <li>Zoltan A: Reactor from 5 to 6.</li>
-            <li>Mantis B: Reactor 11 to 9.</li>
+            <li>Mantis B: Reactor 11 to 10.</li>
             <li>Slug B: Reactor from 7 to 8.</li>
             <li>Stealth A: Reactor from 8 to 7.</li>
             <li>Stealth B: Reactor from 7 to 8.</li>
             <li>Stealth C: Reactor from 7 to 8.</li>
-            <li>Lanius A: Reactor from 8 to 7.</li>
             <li>Lanius B: Reactor from 8 to 9.</li>
             <li>Crystal B: Reactor from 8 to 7.</li>
         </ol>

@@ -318,11 +318,23 @@
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="ION_2">
+    <mod:findLike type="ion">
+        <mod:setValue>1</mod:setValue>
+    </mod:findLike>
     <mod:findLike type="speed">
-        <mod:setValue>30</mod:setValue>
+        <mod:setValue>75</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="stunChance">
+        <mod:setValue>1</mod:setValue>
     </mod:findLike>
     <mod:findLike type="cooldown">
-        <mod:setValue>10</mod:setValue>
+        <mod:setValue>11</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="power">
+        <mod:setValue>1</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>60</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
@@ -645,7 +657,7 @@
         </mod:findLike>
     </mod:findLike>
     <mod:findLike type="maxPower">
-        <mod:setAttributes amount="9"/>
+        <mod:setAttributes amount="10"/>
     </mod:findLike>
 </mod:findName>
 
@@ -703,9 +715,6 @@
         </mod:findLike>
         <mod:findLike type="engines">
             <mod:setAttributes power="2"/>
-        </mod:findLike>
-        <mod:findLike type="weapons">
-            <mod:setAttributes power="4"/>
         </mod:findLike>
     </mod:findLike>
 </mod:findName>

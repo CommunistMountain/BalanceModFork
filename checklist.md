@@ -1,4 +1,5 @@
 <ol>
+    <li>TODO test that Ion Stunner pierce does not affect shields (should completely pass by 1 layer of shields without affecting Shield room). Also test Ion Stunner and Heavy Ion's effects against Reverse Ion augment. ALSO: test whether multiple ion stunner hits refresh stun duration or stack? should refresh not stack. ALSO: check Reverse Ion and stun interactions (can ion be blocked but stun still goes through?)</li>
     <li>TODO check if waiting removes supershield from Shield Drone in HS (it should not; and zoltan shield should maintain the previous amount)</li>
     <li>TODO consider moving some bugfixes to balance changes</li>
     <li>TODO summaries for all 3 mods so people know at a glance what they're getting into.</li>
@@ -8,17 +9,14 @@
     <ol>
         <li>More events for Lifeform Scanner. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates. Actually, some LRS blues should be replaced with Life Scanner if it's against lifeforms</li>
     </ol>
+    <li>TODO check all README for more TODOs/future follow ups</li>
 </ol>
 
 Low priority:
 
-When selling something with full price not divisible by 2, store a variable (must be reset when starting new run) indicating you have 0.5 scrap, then when you sell such an item again you get scrap rounded up, not down. Implement this in Hyperspace, and add a setting for it, then enable the setting in my balance mod.
+When selling something with full price not divisible by 2, store a variable (must be reset when starting new run) indicating you have 0.5 scrap, then when you sell such an item again you get scrap rounded up, not down. Implement this in Hyperspace, and add a setting for it, then enable the setting in my balance mod. (If this is truly impossible, ensure all sellables are divisible by 2 in my balance mod)
 
 Fix Distraction Buoys message not saying the correct fleet delay (actual fleet delay is correct)
-
-remove external doors on enemies (txt files: 1 on rebel_long, 1 on boss_2 and boss_2_easy, 2 on boss_3 and boss_3_easy)
-
-consider changing player reactor amounts again (esp. the ones where I reduced for no pilot)
 
 consider changing enemy reactor amounts (only relevant for plasma storms)
 

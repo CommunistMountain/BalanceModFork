@@ -242,12 +242,18 @@
     </mod:findLike>
 </mod:findName>
 
-<mod:findName type="weaponBlueprint" name="BOMB_STUN">
-    <mod:findLike type="stun">
-        <mod:setValue>12</mod:setValue>
+<mod:findName type="weaponBlueprint" name="ION_STUN">
+    <mod:findLike type="sp">
+        <mod:setValue>1</mod:setValue>
     </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>50</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BOMB_STUN">
     <mod:findLike type="cooldown">
-        <mod:setValue>12</mod:setValue>
+        <mod:setValue>15</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
@@ -272,9 +278,6 @@
     </mod:findLike>
     <mod:findLike type="droneList">
         <mod:setAttributes drones="20"/>
-    </mod:findLike>
-    <mod:findLike type="maxPower">
-        <mod:setAttributes amount="7"/>
     </mod:findLike>
     <mod:findLike type="crewCount">
         <mod:removeTag/>
