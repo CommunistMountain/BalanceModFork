@@ -41,7 +41,6 @@
     </ol>
     <li>WEAPONS:</li>
     <ol>
-        <li>Ion Stunner: Cost from 35 to 50, now pierces 1 shield.</li>
         <li>Ion Charger: Stun chance from 0% to 10%.</li>
         <li>Heavy Ion: Cooldown from 13s to 10s, projectiles from 1 to 2, ion damage from 2 to 1, stun chance from 20% to 10%.</li>
         <li>Ion Blast 2: Power requirement from 3 to 2.</li>
