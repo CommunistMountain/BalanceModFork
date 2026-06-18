@@ -321,23 +321,14 @@
     <mod:findLike type="ion">
         <mod:setValue>1</mod:setValue>
     </mod:findLike>
-    <mod:findLike type="speed">
-        <mod:setValue>75</mod:setValue>
+    <mod:findLike type="shots">
+        <mod:setValue>2</mod:setValue>
     </mod:findLike>
     <mod:findLike type="stunChance">
         <mod:setValue>1</mod:setValue>
     </mod:findLike>
     <mod:findLike type="cooldown">
-        <mod:setValue>11</mod:setValue>
-    </mod:findLike>
-    <mod:findLike type="power">
-        <mod:setValue>1</mod:setValue>
-    </mod:findLike>
-    <mod:findLike type="cost">
-        <mod:setValue>60</mod:setValue>
-    </mod:findLike>
-    <mod:findLike type="rarity">
-        <mod:setValue>4</mod:setValue>
+        <mod:setValue>10</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
