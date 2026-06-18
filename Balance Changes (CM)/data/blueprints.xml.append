@@ -321,6 +321,9 @@
     <mod:findLike type="ion">
         <mod:setValue>1</mod:setValue>
     </mod:findLike>
+    <mod:findLike type="speed">
+        <mod:setValue>30</mod:setValue>
+    </mod:findLike>
     <mod:findLike type="shots">
         <mod:setValue>2</mod:setValue>
     </mod:findLike>
@@ -712,6 +715,14 @@
         <mod:findLike type="engines">
             <mod:setAttributes power="2"/>
         </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="droneList">
+        <mod:findLike type="drone">
+            <mod:removeTag/>
+        </mod:findLike>
+        <mod-append:drone name="BATTLE"/>
+        <mod-append:drone name="REPAIR"/>
+        <mod-append:drone name="BOARDER_ION"/>
     </mod:findLike>
     <mod:findLike type="maxPower">
         <mod:setAttributes amount="11"/>
