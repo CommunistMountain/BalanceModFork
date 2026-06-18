@@ -336,6 +336,9 @@
     <mod:findLike type="cost">
         <mod:setValue>60</mod:setValue>
     </mod:findLike>
+    <mod:findLike type="rarity">
+        <mod:setValue>4</mod:setValue>
+    </mod:findLike>
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="ION_4">

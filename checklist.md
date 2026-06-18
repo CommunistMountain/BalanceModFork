@@ -1,4 +1,5 @@
 <ol>
+    <li>TODO review all ship reactor levels, as well as exceptions to system norms.</li>
     <li>TODO test that Reverse Ion field resist causes an ion projectile to pass through unaffected through a Zoltan Shield (it should just fizzle on hit and do nothing)</li>
     <li>TODO test that pulsars are absorbed by Zoltan Shield regardless of if there's a shield system installed.</li>
     <li>TODO test that Ion Stunner pierce does not affect shields (should completely pass by 1 layer of shields without affecting Shield room). Also test Ion Stunner and Heavy Ion's effects against Reverse Ion augment. ALSO: test whether multiple ion stunner hits refresh stun duration or stack? should refresh not stack. ALSO: check Reverse Ion and stun interactions (can ion be blocked but stun still goes through?)</li>

@@ -43,7 +43,7 @@
     <ol>
         <li>Ion Stunner: Cost from 35 to 50, now pierces 1 shield.</li>
         <li>Ion Charger: Stun chance from 0% to 10%.</li>
-        <li>Heavy Ion: Cost from 45 to 60, power requirement from 2 to 1, cooldown from 13s to 11s, projectile speed from 40 to 75, ion damage from 2 to 1, stun chance from 20% to 10%. On hit, applies 1 ion damage (with an independent 10% chance to stun for 3s) to a random system. (TODO: random system ion damage unimplemented at the time of writing)</li>
+        <li>Heavy Ion: Rarity from 3 to 4, cost from 45 to 60, power requirement from 2 to 1, cooldown from 13s to 11s, projectile speed from 40 to 75, ion damage from 2 to 1, stun chance from 20% to 10%. If it hits a shield layer or supershield, it does 1 normal damage in addition to its ionization damage (TODO: additional damage unimplemented at the time of writing)</li>
         <li>Ion Blast 2: Power requirement from 3 to 2.</li>
         <li>Chain Ion: Cooldown from 14s to 8s, stun chance from 0% to 10%.</li>
         <li>Laser Charger (both versions): Fire chance from 0% to 10%.</li>
