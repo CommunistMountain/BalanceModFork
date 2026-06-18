@@ -662,7 +662,7 @@
         </mod:findLike>
     </mod:findLike>
     <mod:findLike type="maxPower">
-        <mod:setAttributes amount="10"/>
+        <mod:setAttributes amount="9"/>
     </mod:findLike>
 </mod:findName>
 
@@ -721,6 +721,9 @@
         <mod:findLike type="engines">
             <mod:setAttributes power="2"/>
         </mod:findLike>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="11"/>
     </mod:findLike>
 </mod:findName>
 
