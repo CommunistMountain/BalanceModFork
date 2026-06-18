@@ -2,7 +2,7 @@
     <li>TODO review exceptions to system norms.</li>
     <li>TODO test that Reverse Ion field resist causes an ion projectile to pass through unaffected through a Zoltan Shield (it should just fizzle on hit and do nothing)</li>
     <li>TODO test that pulsars are absorbed by Zoltan Shield regardless of if there's a shield system installed.</li>
-    <li>TODO test that Ion Stunner pierce does not affect shields (should completely pass by 1 layer of shields without affecting Shield room). Also test Ion Stunner and Heavy Ion's effects against Reverse Ion augment. ALSO: test whether multiple ion stunner hits refresh stun duration or stack? should refresh not stack. ALSO: check Reverse Ion and stun interactions (can ion be blocked but stun still goes through?)</li>
+    <li>TODO test whether multiple ion stunner hits refresh stun duration or stack? should refresh not stack. ALSO: check Reverse Ion and stun interactions (can ion be blocked but stun still goes through?)</li>
     <li>TODO check if waiting removes supershield from Shield Drone in HS (it should not; and zoltan shield should maintain the previous amount)</li>
     <li>TODO consider moving some bugfixes to balance changes</li>
     <li>TODO summaries for all 3 mods so people know at a glance what they're getting into.</li>
