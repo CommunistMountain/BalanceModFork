@@ -170,7 +170,7 @@
         <ol>
             <li>Backup DNA Bank: Repair stacks.</li>
             <li>Defense Scrambler</li>
-            <li>Distraction Buoys: Fleet delay stacks (the message will still say the Fleet is delayed by 1 jump, but it will be delayed by the number of Buoys you have).</li>
+            <li>Distraction Buoys: Fleet delay stacks (TODO fix: the message will still say the Fleet is delayed by 1 jump, but it will be delayed by the number of Buoys you have).</li>
             <li>Engi Med-bot Dispersal: Heal stacks.</li>
             <li>Hacking Stun</li>
             <li>Lifeform Scanner</li>
@@ -367,5 +367,6 @@
     <li>MISC:</li>
     <ol>
         <li>Hangar system level graphic heightened by 8 pixels to fit 5 system levels nicely.</li>
+        <li>Removed external doors from the following enemy layouts: 1 from rebel_long, boss_2 and boss_2_easy, 2 from boss_3 and boss_3_easy. This is just for aesthetic purposes, although it does have gameplay implications if another mod allows them to be used for venting.</li>
     </ol>
 </ol>

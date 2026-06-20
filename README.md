@@ -27,9 +27,9 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
     <li>Hacking: When you are at 1 drone part and target hacking at the enemy ship while paused, then deploy another drone, the hacking drone will blow up once you resume, preventing it from being used with 0 drone parts.</li>
     <li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
     <li>crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.</li>
-    <li>defenseDroneFix: Defense drones no longer have a blind spot (doesn't work at the time of writing, hopefully it will be in the future)</li>
+    <li>defenseDroneFix: Defense drones no longer have a blind spot (TODO doesn't work at the time of writing, hopefully it will be in the future)</li>
     <li>cloakRenderFix: Cloaking while no crew is on board no longer hides rooms.</li>
-    <li>disableDefaultTutorial: HS breaks the tutorial. This replaces it with a custom tutorial (still incomplete at the time of writing though).</li>
+    <li>disableDefaultTutorial: HS breaks the tutorial. This replaces it with a custom tutorial (TODO still incomplete at the time of writing though).</li>
     <li>multipleOverCapacity: If you are over capacity on 2+ weapons/drones/augments, multiple Over Capacity boxes will contain all new items, allowing you to pick which ones to leave behind. If you are at a store, you also get the chance to sell what is in the Over Capacity boxes.</li>
     <li>EVENTS:</li>
     <ol>
