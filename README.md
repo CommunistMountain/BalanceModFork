@@ -11,7 +11,7 @@ Mod order:
 <ol>
     <li>Hyperspace</li>
     <li>Bugfixes and QOL</li>
-    <li>Balance Changes (CM) OR Balance Changes (Twinge) (pick 1, not both)</li>
+    <li>Balance Changes (CM) OR Balance Changes (Twinge) (pick 1, not both; or neither if you just want Bugfixes and QOL)</li>
     <li>Other mods</li>
 </ol>
 
