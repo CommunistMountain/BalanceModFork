@@ -4,6 +4,7 @@
 <mod:findComposite>
     <mod:par op="OR">
         <mod:findLike type="hackingIonFix"/>
+        <mod:findLike type="autoRewardOverwriteItemModifyFix"/>
         <mod:findLike type="crystalShardFix"/>
         <mod:findLike type="defenseDroneFix"/>
         <mod:findLike type="cloakRenderFix"/>

@@ -26,6 +26,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
     <li>Stores in Crystal Homeworlds: No longer have Advanced Edition weapons.</li>
     <li>Hacking: When you are at 1 drone part and target hacking at the enemy ship while paused, then deploy another drone, the hacking drone will blow up once you resume, preventing it from being used with 0 drone parts.</li>
     <li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
+    <li>autoRewardOverwriteItemModifyFix: autoReward now adds to, instead of overwrites, item_modify (if it rolls the same resources). Fixes events CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK.</li>
     <li>crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.</li>
     <li>defenseDroneFix: Defense drones no longer have a blind spot (TODO doesn't work at the time of writing, hopefully it will be in the future)</li>
     <li>cloakRenderFix: Cloaking while no crew is on board no longer hides rooms.</li>
