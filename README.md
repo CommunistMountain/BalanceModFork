@@ -156,7 +156,6 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
         <li>Anti-Combat Drone description: stated ~48% chance of destroying the enemy drone.</li>
         <li>Doors level descriptions: stated Easy/Normal/Hard hit points.</li>
         <li>Mind Control level descriptions: stated duration, health boost and damage boost.</li>
-        <li>Added '%' after Engines dodge chance, hacked Pilot/Engines current evasion, and Pilot/Engines manning bonus.</li>
         <li>More information about hacking targets:</li>
         <ol>
             <li>Oxygen: -6%/s</li>

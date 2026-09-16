@@ -49,12 +49,6 @@
 <mod:findName type="text" name="drone_ANTI_DRONE_desc">
     <mod:setValue>당신의 함선을 공격하는 전투 드론을 무력화합니다. (~48%)</mod:setValue>
 </mod:findName>
-<mod:findName type="text" name="engine">
-    <mod:setValue>회피: \1% / FTL: \2x</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="engine_skill">
-    <mod:setValue>회피율 + \1%</mod:setValue>
-</mod:findName>
 <mod:findName type="text" name="hack_drones">
     <mod:setValue>일시적으로 적의 드론들을 작동하지 못하도록 합니다. 일정 확률로 드론을 파괴합니다. (~39%/~62%/~77%)</mod:setValue>
 </mod:findName>
@@ -87,9 +81,6 @@
 </mod:findName>
 <mod:findName type="text" name="mind_3">
     <mod:setValue>28s, +30 HP, +100% DPS</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="pilot_skill">
-    <mod:setValue>회피율 + \1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_BOSS_1_EASY_class">
     <mod:setValue>반란군 기함 (쉬움)</mod:setValue>

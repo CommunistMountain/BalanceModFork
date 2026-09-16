@@ -37,12 +37,6 @@
 <mod:findName type="text" name="crew_rock_power_1">
     <mod:setValue>Не получает урона от огня. (Пожаротушение +~67%)</mod:setValue>
 </mod:findName>
-<mod:findName type="text" name="current_evasion">
-    <mod:setValue>Уклонение: \1%</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="current_oxygen">
-    <mod:setValue>Уровень кислорода: \1%</mod:setValue>
-</mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>Легко/Стандарт/Трудно: 12/8/6 HP</mod:setValue>
 </mod:findName>
@@ -54,12 +48,6 @@
 </mod:findName>
 <mod:findName type="text" name="drone_ANTI_DRONE_desc">
     <mod:setValue>Парализует боевых дронов, атакующих ваш корабль. (~48%)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="engine">
-    <mod:setValue>Уклонение: \1% / ССД: \2x</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="engine_skill">
-    <mod:setValue>Уклонение +\1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="hack_drones">
     <mod:setValue>Временная парализация вражеских дронов с вероятностью их уничтожения. (~39%/~62%/~77%)</mod:setValue>
@@ -93,9 +81,6 @@
 </mod:findName>
 <mod:findName type="text" name="mind_3">
     <mod:setValue>28s, +30 HP, +100% DPS</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="pilot_skill">
-    <mod:setValue>Уклонение +\1%</mod:setValue>
 </mod:findName>
 <mod:findName type="text" name="ship_BOSS_1_EASY_class">
     <mod:setValue>Флагман повстанцев (Легко)</mod:setValue>
