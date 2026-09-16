@@ -37,12 +37,6 @@
 <mod:findName type="text" name="crew_rock_power_1">
     <mod:setValue>불에 타지않습니다. (소방 +~67%)</mod:setValue>
 </mod:findName>
-<mod:findName type="text" name="current_evasion">
-    <mod:setValue>현재 회피율: \1%</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="current_oxygen">
-    <mod:setValue>현재 산소량: \1%</mod:setValue>
-</mod:findName>
 <mod:findName type="text" name="door_2">
     <mod:setValue>쉬움/보통/어려움: 12/8/6 HP</mod:setValue>
 </mod:findName>
@@ -150,8 +144,5 @@
 </mod:findName>
 <mod:findName type="text" name="ship_BOSS_3_HARD_DLC_class">
     <mod:setValue>반란군 기함 (어려움)</mod:setValue>
-</mod:findName>
-<mod:findName type="text" name="tooltip_autofire">
-    <mod:setValue>무기의 자동사격을 활성화/비활성화 시킵니다.\n단축키: \1\n\n\2 버튼과 함께 조준하면 현재 자동사격 설정과 반대로 작동하도록 지정할 수 있습니다.</mod:setValue>
 </mod:findName>
 </FTL>
