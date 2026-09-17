@@ -2,7 +2,6 @@
     <li>TODO review exceptions to system norms.</li>
     <li>TODO test that Reverse Ion field resist causes an ion projectile to pass through unaffected through a Zoltan Shield (it should just fizzle on hit and do nothing)</li>
     <li>TODO test that pulsars are absorbed by Zoltan Shield regardless of if there's a shield system installed.</li>
-    <li>TODO test whether multiple ion stunner hits refresh stun duration or stack? should refresh not stack. ALSO: check Reverse Ion and stun interactions (can ion be blocked but stun still goes through?)</li>
     <li>TODO check if waiting removes supershield from Shield Drone in HS (it should not; and zoltan shield should maintain the previous amount)</li>
     <li>TODO consider moving some bugfixes to balance changes (rule: changed events/enemies etc should reduce mental load not increase). Or vice versa (consider MISC of README_CM)</li>
     <li>TODO summaries for all 3 mods so people know at a glance what they're getting into.</li>
@@ -17,13 +16,9 @@
 
 Low priority:
 
-When selling something with full price not divisible by 2, store a variable (must be reset when starting new run) indicating you have 0.5 scrap, then when you sell such an item again you get scrap rounded up, not down. Implement this in Hyperspace, and add a setting for it, then enable the setting in my balance mod. (If this is truly impossible, ensure all sellables are divisible by 2 in my balance mod)
-
 consider changing enemy reactor amounts (only relevant for plasma storms)
 
 review weapon cooldowns and projectile speeds? should probably arrive in this order: bomb, flak, missile, ion, crystal, laser, beam
-
-Teleport works on own ship
 
 Add graphics changes for these weapons that share the same sprite:
 1. All bombs
