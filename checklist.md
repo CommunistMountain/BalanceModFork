@@ -1,8 +1,5 @@
 <ol>
     <li>TODO review exceptions to system norms.</li>
-    <li>TODO test that Reverse Ion field resist causes an ion projectile to pass through unaffected through a Zoltan Shield (it should just fizzle on hit and do nothing)</li>
-    <li>TODO test that pulsars are absorbed by Zoltan Shield regardless of if there's a shield system installed.</li>
-    <li>TODO check if waiting removes supershield from Shield Drone in HS (it should not; and zoltan shield should maintain the previous amount)</li>
     <li>TODO consider moving some bugfixes to balance changes (rule: changed events/enemies etc should reduce mental load not increase). Or vice versa (consider MISC of README_CM)</li>
     <li>TODO summaries for all 3 mods so people know at a glance what they're getting into.</li>
     <li>TODO change text for everything in readme_new that needs it (list them out)</li>
