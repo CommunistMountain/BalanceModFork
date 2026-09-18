@@ -92,6 +92,8 @@ end)
 script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projectile, projectileFactory)
     if projectileFactory.blueprint.name == "BEAM_3" then
         projectile.damage.iDamage = projectileFactory.weaponVisual.boostLevel + 1
+    elseif projectileFactory.blueprint.name == "ION_CHAINGUN" then
+        projectile.speed_magnitude = projectile.damage.iIonDamage * 30
     end
 end)
 
