@@ -72,7 +72,7 @@
         <li>Breach Bomb 1: Crew damage from 30 to 15.</li>
         <li>Fire Bomb: System damage from 0 to 1 (now does damage to supershields because of this), crew damage from 30 to 15.</li>
         <li>Ion Bomb: Cooldown from 22s to 20s.</li>
-        <li>Stun Bomb: Cooldown from 17s to 15s.</li>
+        <li>Stun Bomb: Cooldown from 17s to 10s, stun duration from 15s to 10s.</li>
         <li>Lock Bomb: Cooldown from 15s to 12s.</li>
         <li>Small Bomb: Rarity from 1 to 4, cost from 45 to 60, fire chance from 10% to 0%.</li>
         <li>Mini-Beam: Cost from 20 to 50 (sell price from 10 to 25). Fire chance from 10% to 0%.</li>
