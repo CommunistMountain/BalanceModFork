@@ -28,9 +28,9 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
     <li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
     <li>autoRewardOverwriteItemModifyFix: autoReward now adds to, instead of overwrites, item_modify (if it rolls the same resources). Fixes events CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK.</li>
     <li>crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.</li>
-    <li>defenseDroneFix: Defense drones no longer have a blind spot (TODO doesn't work at the time of writing, hopefully it will be in the future)</li>
+    <li>defenseDroneFix: Defense drones no longer have a blind spot.</li>
     <li>cloakRenderFix: Cloaking while no crew is on board no longer hides rooms.</li>
-    <li>disableDefaultTutorial: HS breaks the tutorial. This replaces it with a custom tutorial (TODO still incomplete at the time of writing though).</li>
+    <li>disableDefaultTutorial: HS breaks the tutorial. This replaces it with a custom tutorial.</li>
     <li>multipleOverCapacity: If you are over capacity on 2+ weapons/drones/augments, multiple Over Capacity boxes will contain all new items, allowing you to pick which ones to leave behind. If you are at a store, you also get the chance to sell what is in the Over Capacity boxes.</li>
     <li>EVENTS:</li>
     <ol>
@@ -84,7 +84,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
     <ol>
         <li>Disabled: Vanilla.</li>
         <li>Enabled Variant 1: There are 3 buttons for selecting preset speeds: 0.125x, 1x and 2x from left to right. You may bind a key to "Toggle Speedhack" in Options -> Configure Keyboard Hotkeys, to toggle between 1x speed and either 0.125x or 2x, whichever you used last (if it's your first time using this, or if you have reset speed to 1x with Variant 2, this won't have any effect).</li>
-        <li>Enabled Variant 2: There are 2 buttons for adjusting speed, which range from -2 to 99 (although the actual max depends on certain settings, see note below). -2 = 0.125x, -1 = 0.5x, 0 = 1x, 1 = 1.5x, 2 and above = Number x (I think). Left click changes it by 1, right click changes it by 5. The power button has the same function as the "Toggle Speedhack" hotkey mentioned above, and they can be used interchangeably (white = speed changes enabled, grey = 1x always).</li>
+        <li>Enabled Variant 2: There are 2 buttons for adjusting speed, which range from -2 to 99 (although the actual max depends on certain settings, see note below). -2 = 0.125x, -1 = 0.5x, 0 = 1x, 1 = 1.5x, 2 and above = Number x (I think). Left click changes it by 1, right click changes it by 5. The play/pause button has the same function as the "Toggle Speedhack" hotkey mentioned above, and they can be used interchangeably.</li>
         <li>NOTE: If you enabled the setting for VSync or Frame Limit in-game, or if you have set an FPS limit using an external program, the maximum speed will be dictated by that limit. 30FPS allows for 1x game speed at maximum, 60FPS allows for 2x, etc. So if you cap FPS at 30 to ensure level 1 Hacking can remove 2 shield layers, you will not be able to speed up (although slowing down is fine).</li>
     </ol>
 </ol>

@@ -147,7 +147,7 @@
             <li>Advanced FTL Navigation: Travelling to a previously visited beacon refunds 1 fuel (you still need 1 fuel to make the jump) and delays the Rebel Fleet by 1. (Beacons that are about to be taken over will still have ASB and an Elite upon arrival.)</li>
             <li>Crystal Vengeance: Speed from 35 to 50, effect chance from 10% to 100%, damage from 1 to 0, breach chance from 10% to 100%, stun chance from 20% to 100%.</li>
             <li>Drone Reactor Booster: Crew and Boarding drones speed boost from +25% to +100%, healing factor from 0.2 to 1 (heal in Drone Control from 1.28HP/s to 6.4HP/s, if powered and not hacked). Crew and Boarding drones heal outside Drone Control at 1.6HP/s (if powered and not hacked).</li>
-            <li>Drone Recovery Arm (component of Drone Reactor Booster): Chance for each drone to be recovered from 100% to 20% (TODO: change needs a future version of Hyperspace at the time of writing).</li>
+            <li>Drone Recovery Arm (component of Drone Reactor Booster): Chance for each drone to be recovered from 100% to 20%.</li>
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
             <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 5/6 of Human rate to 1/2 of Human rate.</li>
             <li>Reconstructive Teleport: Weapon Control behaves as though it is always manned (at white skill level) when undamaged. (TODO requires testing that crew can still gain XP if they manually man, as well as proper changes when crew of different skill enter/exit the room or fight intruders; also explore adjusting iActiveManned for other levels)</li>
@@ -170,7 +170,7 @@
         <ol>
             <li>Backup DNA Bank: Repair stacks.</li>
             <li>Defense Scrambler</li>
-            <li>Distraction Buoys: Fleet delay stacks (TODO fix: the message will still say the Fleet is delayed by 1 jump, but it will be delayed by the number of Buoys you have).</li>
+            <li>Distraction Buoys: Fleet delay stacks.</li>
             <li>Engi Med-bot Dispersal: Heal stacks.</li>
             <li>Hacking Stun</li>
             <li>Lifeform Scanner</li>
@@ -281,7 +281,7 @@
     </ol>
     <li>NPC SHIPS:</li>
     <ol>
-        <li>The rooms of neutral ships can be seen. (TODO: requires a future version of Hyperspace at the time of writing)</li>
+        <li>The rooms of neutral ships can be seen.</li>
         <li>Pirate versions of NPC ships should match the non-pirate versions' system levels (if the same system exists) and sector limits:</li>
         <ol>
             <li>Pirate Mantis Interceptor: Highest sector it can appear from 5 to 6, to match non-pirate version.</li>
@@ -308,12 +308,12 @@
         <li>Flagship (Non-AE Easy version): Shield layers from 3 to 4, reactor from 40/42/29 to 42/44/31 for each Phase.</li>
         <li>Flagship (Phase 3): Engines level from 6 to 8.</li>
         <li>Flagship (AE versions): Medbay level from 3 to 2, added level 1 Clone Bay in the room to the right of Medbay.</li>
-        <li>Flagship (Hard version): In Phase 1, there are extra rooms between each side's 2 Artilleries, connecting all of them, and no room between laser/missile Artilleries and Shields. In Phase 2, the left extra room will be destroyed, but a new room will appear between laser Artillery and Shields. Likewise for the right extra room in Phase 3, so Phase 3 has vanilla Hard's layout.</li>
+        <li>Flagship (Hard version): In Phase 1, there are extra rooms between each side's 2 Artilleries, connecting all of them, and no room between laser/missile Artilleries and Shields. In Phase 2, the left extra room will be destroyed, but a new room will appear between laser Artillery and Shields. Likewise for the right extra room in Phase 3, so Phase 3 is unchanged from vanilla.</li>
     </ol>
     <li>EVENTS:</li>
     <ol>
         <li>(TODO more events for Lifeform Scanner)</li>
-        <li>Weapons and drone blueprints in cargo can be used for blue options. (TODO: In a future version of HS, I'll make it so they consider whether the relevant system is installed, because currently you can use a drone in cargo for a blue option without Drone Control)</li>
+        <li>Weapons and drone blueprints in cargo can be used for blue options.</li>
         <li>All sectors have 2 guaranteed stores, except for Sector 1 and Sector 8 which have 1 guaranteed store:</li>
         <ol>
             <li>Sector 1: from 1-2 to 1.</li>
@@ -338,7 +338,7 @@
         <li>FUEL_FOR_DRONE: Drone parts received from 1-3 to 2-4.</li>
         <li>LANIUS_RESEARCHER_CRAFT: Choosing to craft an augment now always gives Reconstructive Teleport instead of a random AE augment.</li>
         <li>NEBULA_SLUG_FIGHT_UNLOCK: Completing the event chain gives Anti-Bio Beam on top of other rewards.</li>
-        <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire"). Note that you also need Drone Control for Fire Drone to be valid.</li>
+        <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire").</li>
         <li>ROCK_CRYSTAL_BEACON: This event will happen again if you choose not to scrap the ancient device, and revisit the beacon later. (Due to limitations in implementation, if you run out of fuel at this beacon, get one of the out-of-fuel events, then gain fuel and leave, revisiting this beacon will not give this event again.)</li>
         <li>ROCK_STARSHIP_MINE: Engines blue option level requirement from 5 to 3.</li>
         <li>ROCK_UNLOCK: Completing the event chain gives a Rock crew and Fire Bomb on top of other rewards.</li>

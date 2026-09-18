@@ -8,7 +8,6 @@
     <ol>
         <li>More events for Lifeform Scanner. Like wherever a Slug is used, LRS, high level sensors, or even more, like people hiding in crates. Actually, some LRS blues should be replaced with Life Scanner if it's against lifeforms</li>
     </ol>
-    <li>TODO check all README for more TODOs/future follow ups</li>
 </ol>
 
 Low priority:
