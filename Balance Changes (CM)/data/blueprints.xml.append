@@ -336,8 +336,8 @@
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="ION_4">
-    <mod:findLike type="power">
-        <mod:setValue>2</mod:setValue>
+    <mod:findLike type="cooldown">
+        <mod:setValue>3</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
@@ -702,8 +702,10 @@
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE">
-    <mod:findLike type="maxPower">
-        <mod:setAttributes amount="9"/>
+    <mod:findLike type="systemList">
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="4"/>
+        </mod:findLike>
     </mod:findLike>
 </mod:findName>
 
