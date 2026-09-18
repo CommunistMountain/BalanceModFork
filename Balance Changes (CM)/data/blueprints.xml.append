@@ -407,6 +407,12 @@
     </mod:findLike>
 </mod:findName>
 
+<mod:findName type="weaponBlueprint" name="CRYSTAL_BURST_2">
+    <mod:findLike type="power">
+        <mod:setValue>2</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
 <mod:findName type="weaponBlueprint" name="CRYSTAL_HEAVY_2">
     <mod:findLike type="power">
         <mod:setValue>2</mod:setValue>
