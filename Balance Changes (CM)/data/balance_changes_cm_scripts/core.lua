@@ -143,9 +143,19 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
     
     if shipManager:HasAugmentation("TELEPORT_HEAL") > 0 then
         if shipManager:HasSystem(3) then
-            local weaponControl = shipManager:GetSystem(3)
-            weaponControl.bManned = true
-            weaponControl.iActiveManned = 1
+            local noOneManningWeapons = true
+            for i=0, shipManager.vCrewList:size() - 1 do
+                local crewMember = shipManager.vCrewList[i]
+                if crewMember.iManningId == 3 and crewMember.bActiveManning then
+                    noOneManningWeapons = false
+                    break
+                end
+            end
+            if noOneManningWeapons then
+                local weaponControl = shipManager:GetSystem(3)
+                weaponControl.bManned = true
+                weaponControl.iActiveManned = 1
+            end
         end
     end
 end)

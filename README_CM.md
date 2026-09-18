@@ -151,7 +151,7 @@
             <li>Drone Recovery Arm (component of Drone Reactor Booster): Chance for each drone to be recovered from 100% to 20%.</li>
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
             <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 5/6 of Human rate to 1/2 of Human rate.</li>
-            <li>Reconstructive Teleport: Weapon Control behaves as though it is always manned (at white skill level) when undamaged. (TODO requires testing that crew can still gain XP if they manually man, as well as proper changes when crew of different skill enter/exit the room or fight intruders; also explore adjusting iActiveManned for other levels)</li>
+            <li>Reconstructive Teleport: Weapon Control behaves as though it is manned (at white skill level) when undamaged, while no one is manning it.</li>
             <li>Slug Repair Gel: Now prevents Sensors from being disabled by nebula or events (it will still be disabled by hacking). Sensors and Doors behave as though they are always manned when undamaged (ion damage does not prevent this manning bonus).</li>
         </ol>
         <li>Added Advanced FTL Navigation 2 to stores and random rewards, which allows you to jump to any beacon, by spending fuel equal to the shortest number of jumps from your location to that beacon. Rarity 3, cost 30. Stackable, but having multiple does not change its effect.</li>
