@@ -4,7 +4,7 @@
 <mod:findName type="event" name="ROCK_STARSHIP_MINE">
     <mod:findLike type="choice">
     <mod:selector req="engines"/>
-        <mod:setAttributes lvl="3"/>
+        <mod:setAttributes lvl="4"/>
     </mod:findLike>
 </mod:findName>
 

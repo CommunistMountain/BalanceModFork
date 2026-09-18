@@ -91,7 +91,7 @@
         <li>Anti-Combat Drone: Rotation speed from 5 to 7.</li>
         <li>Defense Drone 1: Rarity from 1 to 3, rotation speed from 5 to 6.</li>
         <li>Defense Drone 2: Cooldown from 0.88s to 0.7s.</li>
-        <li>Hull Repair Drone: Cost from 85 to 40. Power requirement from 2 to 1. Drone Recovery Arm no longer retrieves it if you jump while it is repairing.</li>
+        <li>Hull Repair Drone: Cost from 85 to 40. Drone Recovery Arm no longer retrieves it if you jump while it is repairing.</li>
         <li>System Repair Drone: Cost from 30 to 20.</li>
         <li>Anti-Personnel Drone: Power requirement from 2 to 1.</li>
         <li>Boarding Drone: Rarity from 4 to 2, cost from 70 to 30. 1 drone part will be retrieved at the end of combat if it is not destroyed.</li>
@@ -159,7 +159,7 @@
         <li>Damaged Stasis Pod: Cost from 30 to 0 (sell price from 15 to 0).</li>
         <li>Distraction Buoys: Cost from 55 to 40.</li>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40.</li>
-        <li>Hacking Stun: Now makes friendly crew inside the hacked room immune to stuns instead of stunning them, and also sets the cost of deploying Hacking drone from 2 drone parts back to 1.</li>
+        <li>Hacking Stun: Now makes friendly crew inside the hacked room immune to stuns instead of stunning them.</li>
         <li>Lifeform Scanner: Rarity from 3 to 1. Cost from 40 to 20.</li>
         <li>Long-Ranged Scanners: Rarity from 1 to 3.</li>
         <li>Repair Arm: Scrap penalty from -15% to -5%.</li>
@@ -262,6 +262,7 @@
             <li>Kestrel A: Missiles from 8 to 15, drone parts from 2 to 0.</li>
             <li>Kestrel B: Missiles from 5 to 0.</li>
             <li>Kestrel C: Missiles from 4 to 15, drone parts from 3 to 0.</li>
+            <li>Engi B: Drone parts from 6 to 9.</li>
             <li>Engi C: Drone parts from 25 to 35.</li>
             <li>Fed A: Missiles from 5 to 0, drone parts from 2 to 0.</li>
             <li>Fed B: Missiles from 9 to 15.</li>
@@ -340,7 +341,7 @@
         <li>NEBULA_SLUG_FIGHT_UNLOCK: Completing the event chain gives Anti-Bio Beam on top of other rewards.</li>
         <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire").</li>
         <li>ROCK_CRYSTAL_BEACON: This event will happen again if you choose not to scrap the ancient device, and revisit the beacon later. (Due to limitations in implementation, if you run out of fuel at this beacon, get one of the out-of-fuel events, then gain fuel and leave, revisiting this beacon will not give this event again.)</li>
-        <li>ROCK_STARSHIP_MINE: Engines blue option level requirement from 5 to 3.</li>
+        <li>ROCK_STARSHIP_MINE: Engines blue option level requirement from 5 to 4.</li>
         <li>ROCK_UNLOCK: Completing the event chain gives a Rock crew and Fire Bomb on top of other rewards.</li>
         <li>SELL_DRONES_STATION: Scrap per drone part from 4 to 3.</li>
         <li>SELL_MISSILES_STATION: Scrap per missile from 3 to 2.</li>

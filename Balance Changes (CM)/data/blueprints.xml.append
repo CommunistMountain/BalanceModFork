@@ -426,9 +426,6 @@
 </mod:findName>
 
 <mod:findName type="droneBlueprint" name="SHIP_REPAIR">
-    <mod:findLike type="power">
-        <mod:setValue>1</mod:setValue>
-    </mod:findLike>
     <mod:findLike type="cost">
         <mod:setValue>40</mod:setValue>
     </mod:findLike>
@@ -717,6 +714,7 @@
         </mod:findLike>
     </mod:findLike>
     <mod:findLike type="droneList">
+        <mod:setAttributes drones="9"/>
         <mod:findLike type="drone">
             <mod:removeTag/>
         </mod:findLike>
