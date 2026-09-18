@@ -314,7 +314,6 @@
     </ol>
     <li>EVENTS:</li>
     <ol>
-        <li>(TODO more events for Lifeform Scanner)</li>
         <li>Weapons and drone blueprints in cargo can be used for blue options.</li>
         <li>All sectors have 2 guaranteed stores, except for Sector 1 and Sector 8 which have 1 guaranteed store:</li>
         <ol>
@@ -334,13 +333,14 @@
         <li>ASTEROID_DERELICT_SHIP: When you choose to "Grab the stasis chamber", you have a 25% chance getting Ruwen immediately instead of the Stasis Pod.</li>
         <li>AUTO_HACKER: Now disables 1 level of your Shields, instead of half of your Shield levels rounded up.</li>
         <li>CRYSTAL_CACHE: Engines blue option level requirement from 7 to 4.</li>
+        <li>DISTRESS_ENGI_REACTOR: Added Lifeform Scanner blue option, which will let you save the Engi but not the drone schematic.</li>
         <li>ENGI_UNLOCK_1: When the real ship surrenders, you now have the option of continuing the fight.</li>
         <li>ESCORT_BEACON: Advanced FTL Navigation 2 can be used for the Advanced FTL Navigation blue option.</li>
         <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation, and Fleet delay from 2 to 1.</li>
         <li>FLOATING_CARGO: Added Lifeform Scanner blue option (same outcome as level 2+ Sensors and Long-Ranged Scanners blue options).</li>
         <li>FUEL_FOR_DRONE: Drone parts received from 1-3 to 2-4.</li>
         <li>LANIUS_RESEARCHER_CRAFT: Choosing to craft an augment now always gives Reconstructive Teleport instead of a random AE augment.</li>
-        <li>NEBULA_LOST_SHIP: Added Lifeform Scanner blue option (50% +1 crew, 50% nothing).</li>
+        <li>NEBULA_LOST_SHIP: Added Lifeform Scanner blue option that gives 1 crew.</li>
         <li>NEBULA_SLUG_FIGHT_UNLOCK: Completing the event chain gives Anti-Bio Beam on top of other rewards.</li>
         <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire").</li>
         <li>ROCK_CRYSTAL_BEACON: This event will happen again if you choose not to scrap the ancient device, and revisit the beacon later. (Due to limitations in implementation, if you run out of fuel at this beacon, get one of the out-of-fuel events, then gain fuel and leave, revisiting this beacon will not give this event again.)</li>

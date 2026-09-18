@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<mod:findName type="event" name="DISTRESS_ENGI_REACTOR">
+    <mod-append:choice hidden="true" req="LIFE_SCANNER">
+        <text id="event_STATION_SICK_c4_choice"/>
+        <event>
+            <text id="event_DISTRESS_ENGI_REACTOR_SCAN_text"/>
+            <choice hidden="true">
+                <text id="event_DISTRESS_ENGI_REACTOR_SCAN_c1_choice"/>
+                <event>
+                    <text id="event_DISTRESS_ENGI_REACTOR_SCAN_c1_text"/>
+                    <crewMember amount="1" class="engi"/>
+                    <autoReward level="LOW">scrap_only</autoReward>
+                </event>
+            </choice>
+        </event>
+    </mod-append:choice>
+</mod:findName>
+
 <mod:findName type="event" name="ENGI_UNLOCK_2REAL_SURRENDER">
     <mod:findLike type="choice">
         <mod:findLike type="event">
