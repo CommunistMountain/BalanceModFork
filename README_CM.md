@@ -84,6 +84,7 @@
     <li>DRONES:</li>
     <ol>
         <li>Unpowered space drones can be ionized by enemy ion projectiles.</li>
+        <li>Combat drones now travel at least 90 degrees between shots, when previously they could potentially travel a shorter angle if the start and end angles are close to the 0/360 boundary. Frequency of shots reduced by about 9% on average (e.g. COMBAT_1 goes from about 19.5 to about 17.75 shots per min; credit to Ataraxia-Mechanica for this fix and calculation).</li>
         <li>Beam Drone 1, Beam Drone 2: Fire chance from 10% to 0%.</li>
         <li>Combat Drone 2, Beam Drone 2: Rarity from 5 to 4.</li>
         <li>Fire Drone: Power requirement from 3 to 2.</li>
@@ -336,8 +337,10 @@
         <li>ENGI_UNLOCK_1: When the real ship surrenders, you now have the option of continuing the fight.</li>
         <li>ESCORT_BEACON: Advanced FTL Navigation 2 can be used for the Advanced FTL Navigation blue option.</li>
         <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation, and Fleet delay from 2 to 1.</li>
+        <li>FLOATING_CARGO: Added Lifeform Scanner blue option (same outcome as level 2+ Sensors and Long-Ranged Scanners blue options).</li>
         <li>FUEL_FOR_DRONE: Drone parts received from 1-3 to 2-4.</li>
         <li>LANIUS_RESEARCHER_CRAFT: Choosing to craft an augment now always gives Reconstructive Teleport instead of a random AE augment.</li>
+        <li>NEBULA_LOST_SHIP: Added Lifeform Scanner blue option (50% +1 crew, 50% nothing).</li>
         <li>NEBULA_SLUG_FIGHT_UNLOCK: Completing the event chain gives Anti-Bio Beam on top of other rewards.</li>
         <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire").</li>
         <li>ROCK_CRYSTAL_BEACON: This event will happen again if you choose not to scrap the ancient device, and revisit the beacon later. (Due to limitations in implementation, if you run out of fuel at this beacon, get one of the out-of-fuel events, then gain fuel and leave, revisiting this beacon will not give this event again.)</li>

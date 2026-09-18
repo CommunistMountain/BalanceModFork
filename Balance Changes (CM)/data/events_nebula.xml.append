@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="event" name="NEBULA_LOST_SHIP">
+    <mod-append:choice req="LIFE_SCANNER" hidden="true">
+        <text id="event_NEBULA_REBEL_CHASE_c5_choice"/>
+        <event>
+            <text id="event_NEBULA_LOST_SHIP_LIST2_2_text"/>
+            <crewMember amount="1"/>
+        </event>
+    </mod-append:choice>
+</mod:findName>
+</FTL>

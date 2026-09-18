@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+<mod:findName type="event" name="FLOATING_CARGO">
+    <mod-append:choice req="LIFE_SCANNER" hidden="true">
+        <text id="event_FUEL_OFF_ROCK_WRECK_c3_choice"/>
+        <event load="FLOATING_CARGO_SCAN_LIST"/>
+    </mod-append:choice>
+</mod:findName>
+</FTL>
