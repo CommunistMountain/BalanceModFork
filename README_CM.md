@@ -72,9 +72,8 @@
         <li>Repair Burst: Rarity from 3 to 1, cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100%.</li>
         <li>Breach Bomb 1: Crew damage from 30 to 15.</li>
         <li>Fire Bomb: System damage from 0 to 1 (now does damage to supershields because of this), crew damage from 30 to 15.</li>
-        <li>Ion Bomb: Cooldown from 22s to 20s.</li>
         <li>Stun Bomb: Cooldown from 17s to 10s, stun duration from 15s to 10s.</li>
-        <li>Lock Bomb: Cooldown from 15s to 12s.</li>
+        <li>Crystal Lockdown Bomb: Default rarity from 0 to 5 (now available in stores and random rewards outside Rock and Crystal sectors), cooldown from 15s to 6s.</li>
         <li>Small Bomb: Rarity from 1 to 4, cost from 45 to 60, fire chance from 10% to 0%.</li>
         <li>Mini-Beam: Cost from 20 to 50 (sell price from 10 to 25), fire chance from 10% to 0%.</li>
         <li>Hull Beam: Cooldown from 14s to 16s.</li>

@@ -369,12 +369,6 @@
     </mod:findLike>
 </mod:findName>
 
-<mod:findName type="weaponBlueprint" name="BOMB_ION">
-    <mod:findLike type="cooldown">
-        <mod:setValue>20</mod:setValue>
-    </mod:findLike>
-</mod:findName>
-
 <mod:findName type="weaponBlueprint" name="BOMB_HEAL">
     <mod:findLike type="cooldown">
         <mod:setValue>9</mod:setValue>
@@ -386,7 +380,10 @@
 
 <mod:findName type="weaponBlueprint" name="BOMB_LOCK">
     <mod:findLike type="cooldown">
-        <mod:setValue>12</mod:setValue>
+        <mod:setValue>6</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="rarity">
+        <mod:setValue>5</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
