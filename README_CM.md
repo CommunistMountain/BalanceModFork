@@ -43,7 +43,7 @@
     <ol>
         <li>Ion Charger: Stun chance from 0% to 10%.</li>
         <li>Heavy Ion: Cooldown from 13s to 10s, projectiles from 1 to 2, projectile speed from 40 to 30, ion damage from 2 to 1, stun chance from 20% to 10%.</li>
-        <li>Ion Blast 2: Cooldown from 4s to 3s.</li>
+        <li>Ion Blast 2: Power requirement from 3 to 2.</li>
         <li>Chain Ion: Cooldown from 14s to 10s, stun chance from 0% to 10%. Projectile speed is equal to 30 * ion damage (up to 120 at 4 ion damage).</li>
         <li>Laser Charger (both versions): Fire chance from 0% to 10%.</li>
         <li>Laser Charger (player version): Cost from 30 to 50 (sell price from 15 to 25).</li>
@@ -217,7 +217,6 @@
             <li>Kestrel A: Crew from 3 Humans to 2 Humans.</li>
             <li>Kestrel B: Removed Doors.</li>
             <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 1 Heavy Ion, 1 Ion Stunner and 1 Breach Bomb 1. Weapon Control level from 2 to 3. Sensors level from 2 to 1.</li>
-            <li>Engi A: Weapon Control level from 3 to 4.</li>
             <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Added level 1 Sensors. Drones changed from 1 Anti-Personnel and 2 System Repair to 1 Anti-Personnel, 1 System Repair and 1 Ion Intruder.</li>
             <li>Fed A: Weapon Control level from 2 to 3. Removed Doors.</li>
             <li>Fed C: Artillery level from 1 to 4.</li>
@@ -247,6 +246,7 @@
         <li>Ships are standardised to have just enough reactor to power all non-medical systems and at most 1 shield layer. Each Zoltan counts as 1 reactor, except 1 Zoltan if it needs to be in Pilot.</li>
         <ol>
             <li>Kestrel C: Reactor from 7 to 8.</li>
+            <li>Engi A: Reactor from 10 to 9.</li>
             <li>Engi B: Reactor from 9 to 11.</li>
             <li>Fed B: Reactor from 9 to 8.</li>
             <li>Fed C: Reactor from 7 to 8.</li>
