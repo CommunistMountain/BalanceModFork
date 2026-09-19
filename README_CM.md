@@ -90,11 +90,10 @@
         <li>Beam Drone 1, Beam Drone 2: Fire chance from 10% to 0%.</li>
         <li>Combat Drone 2, Beam Drone 2: Rarity from 5 to 4.</li>
         <li>Fire Drone: Power requirement from 3 to 2.</li>
-        <li>Shield Overcharger (both versions): Rotation speed from 5 to 8, cooldown per layer changed from 8/10/13/16/20s to 8s for all layers (which also makes the cooldown-resetting trick unnecessary).</li>
-        <li>Anti-Combat Drone: Rotation speed from 5 to 7.</li>
-        <li>Defense Drone 1: Rarity from 1 to 3, rotation speed from 5 to 6.</li>
+        <li>Shield Overcharger (both versions): Speed from 5 to 8, cooldown per layer changed from 8/10/13/16/20s to 8s for all layers (which also makes the cooldown-resetting trick unnecessary).</li>
+        <li>Defense Drone 1: Rarity from 1 to 3, speed from 5 to 6.</li>
         <li>Defense Drone 2: Cooldown from 0.88s to 0.7s.</li>
-        <li>Hull Repair Drone: Cost from 85 to 40. Drone Recovery Arm no longer retrieves it if you jump while it is repairing.</li>
+        <li>Hull Repair Drone: Cost from 85 to 40, speed from 20 to 15. Drone Recovery Arm no longer retrieves it if you jump while it is repairing.</li>
         <li>System Repair Drone: Cost from 30 to 20.</li>
         <li>Anti-Personnel Drone: Power requirement from 2 to 1.</li>
         <li>Boarding Drone: Rarity from 4 to 2, cost from 70 to 30. 1 drone part will be retrieved at the end of combat if it is not destroyed.</li>
@@ -148,7 +147,7 @@
         <ol>
             <li>All hidden augments now cost 50 (and thus sell for 25 if obtained from an event).</li>
             <li>Advanced FTL Navigation: Travelling to a previously visited beacon refunds 1 fuel (you still need 1 fuel to make the jump) and delays the Rebel Fleet by 1. (Beacons that are about to be taken over will still have ASB and an Elite upon arrival.)</li>
-            <li>Crystal Vengeance: Speed from 35 to 50, effect chance from 10% to 100%, damage from 1 to 0, breach chance from 10% to 100%, stun chance from 20% to 100%.</li>
+            <li>Crystal Vengeance: Effect chance from 10% to 100%, speed from 35 to 50, damage from 1 to 0, breach chance from 10% to 100%, stun chance from 20% to 100%.</li>
             <li>Drone Reactor Booster: Crew and Boarding drones speed boost from +25% to +100%, healing factor from 0.2 to 1 (heal in Drone Control from 1.28HP/s to 6.4HP/s, if powered and not hacked). Crew and Boarding drones heal outside Drone Control at 1.6HP/s (if powered and not hacked).</li>
             <li>Drone Recovery Arm (component of Drone Reactor Booster): Chance for each drone to be recovered from 100% to 20%.</li>
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
@@ -162,14 +161,14 @@
         <li>Damaged Stasis Pod: Cost from 30 to 0 (sell price from 15 to 0).</li>
         <li>Distraction Buoys: Cost from 55 to 40.</li>
         <li>Engi Med-bot Dispersal: Now works for your crew on enemy ships. Rarity from 0 to 2 (now available in stores and random rewards). Cost from 60 to 40.</li>
-        <li>Hacking Stun: Now makes friendly crew inside the hacked room immune to stuns instead of stunning them.</li>
+        <li>Hacking Stun: Now makes friendly crew inside the hacked room immune to stuns during the hack, instead of stunning them.</li>
         <li>Lifeform Scanner: Rarity from 3 to 1. Cost from 40 to 20.</li>
         <li>Long-Ranged Scanners: Rarity from 1 to 3.</li>
         <li>Repair Arm: Scrap penalty from -15% to -5%.</li>
         <li>Reverse Ion Field: Cost from 45 to 20.</li>
         <li>Scrap Recovery Arm: Rarity from 1 to 3. Scrap bonus from +10% to +15%.</li>
         <li>Zoltan Shield Bypass: Rarity from 3 to 1. Cost from 55 to 40.</li>
-        <li>These augments are now stackable. Most of their effects will not change when having multiple, it simply means they will not be immediately converted into 25 scrap when you get a duplicate.</li>
+        <li>These augments are now stackable. Their effects will not change when stacked unless otherwise stated; it simply means they will not be immediately converted into 25 scrap when you get a duplicate.</li>
         <ol>
             <li>Backup DNA Bank: Repair stacks.</li>
             <li>Defense Scrambler</li>
@@ -286,13 +285,13 @@
     <li>NPC SHIPS:</li>
     <ol>
         <li>The rooms of neutral ships can be seen.</li>
-        <li>Pirate versions of NPC ships should match the non-pirate versions' system levels (if the same system exists) and sector limits:</li>
+        <li>Pirate versions of NPC ships are standardised to match the non-pirate versions' system levels (if the same system exists) and sector limits:</li>
         <ol>
             <li>Pirate Mantis Interceptor: Highest sector it can appear from 5 to 6, to match non-pirate version.</li>
             <li>Pirate Rebel Disruptor: Hacking max from 2 to 1, to match non-pirate version.</li>
             <li>Pirate Slug Instigator: Pilot max from 0 (effectively 1) to 3, to match non-pirate version.</li>
         </ol>
-        <li>All NPC ships, other than the Flagship and the Flagship Construction, have a maximum Engines level of 5. The affected ships and their original max Engines level are:</li>
+        <li>All NPC ships, other than the Flagship and the Flagship Construction, are standardised to have a maximum Engines level of 5. The affected ships and their original max Engines level are:</li>
         <ol>
             <li>Auto-Scout and Auto-Surveyor: 8</li>
             <li>Rebel Rigger and Rebel Disruptor (and pirate versions): 4</li>
@@ -338,11 +337,11 @@
         <li>DISTRESS_ENGI_REACTOR: Added Lifeform Scanner blue option, which will let you save the Engi but not the drone schematic.</li>
         <li>ENGI_UNLOCK_1: When the real ship surrenders, you now have the option of continuing the fight.</li>
         <li>ESCORT_BEACON: Advanced FTL Navigation 2 can be used for the Advanced FTL Navigation blue option.</li>
-        <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation, and Fleet delay from 2 to 1.</li>
+        <li>FLAGSHIP_CONSTRUCTION: Defeating the Flagship under construction will give Advanced FTL Navigation on top of other rewards. Fleet delay from 2 to 1.</li>
         <li>FLOATING_CARGO: Added Lifeform Scanner blue option (same outcome as level 2+ Sensors and Long-Ranged Scanners blue options).</li>
         <li>FUEL_FOR_DRONE: Drone parts received from 1-3 to 2-4.</li>
         <li>LANIUS_RESEARCHER_CRAFT: Choosing to craft an augment now always gives Reconstructive Teleport instead of a random AE augment.</li>
-        <li>NEBULA_LOST_SHIP: Added Lifeform Scanner blue option that gives 1 crew.</li>
+        <li>NEBULA_LOST_SHIP: Added Lifeform Scanner blue option that gives 1 random crew.</li>
         <li>NEBULA_SLUG_FIGHT_UNLOCK: Completing the event chain gives Anti-Bio Beam on top of other rewards.</li>
         <li>QUEST_CREWDEAD_START: Fire Beam and Fire Drone also allow you to pick the Fire Bomb blue option (renamed to simply "Fire").</li>
         <li>ROCK_CRYSTAL_BEACON: This event will happen again if you choose not to scrap the ancient device, and revisit the beacon later. (Due to limitations in implementation, if you run out of fuel at this beacon, get one of the out-of-fuel events, then gain fuel and leave, revisiting this beacon will not give this event again.)</li>
