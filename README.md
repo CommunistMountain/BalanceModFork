@@ -28,7 +28,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
     <li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
     <li>autoRewardOverwriteItemModifyFix: autoReward now adds to, instead of overwrites, item_modify (if it rolls the same resources). Fixes events CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK.</li>
     <li>crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.</li>
-    <li>defenseDroneFix: Defense drones no longer have a blind spot.</li>
+    <li>defenseDroneFix: Defense drones no longer have a blind spot, and have infinite effective range.</li>
     <li>cloakRenderFix: Cloaking while no crew is on board no longer hides rooms.</li>
     <li>disableDefaultTutorial: HS breaks the tutorial. This replaces it with a custom tutorial.</li>
     <li>multipleOverCapacity: If you are over capacity on 2+ weapons/drones/augments, multiple Over Capacity boxes will contain all new items, allowing you to pick which ones to leave behind. If you are at a store, you also get the chance to sell what is in the Over Capacity boxes.</li>

@@ -44,7 +44,7 @@
         <li>Ion Charger: Stun chance from 0% to 10%.</li>
         <li>Heavy Ion: Cooldown from 13s to 10s, projectiles from 1 to 2, projectile speed from 40 to 30, ion damage from 2 to 1, stun chance from 20% to 10%.</li>
         <li>Ion Blast 2: Power requirement from 3 to 2.</li>
-        <li>Chain Ion: Cooldown from 14s to 10s, stun chance from 0% to 10%. Projectile speed is equal to 30 * ion damage (up to 120 at 4 ion damage).</li>
+        <li>Chain Ion: Cooldown from 14s to 8s, stun chance from 0% to 10%. Projectile speed is equal to 30 * ion damage (up to 120 at 4 ion damage).</li>
         <li>Laser Charger (both versions): Fire chance from 0% to 10%.</li>
         <li>Laser Charger (player version): Cost from 30 to 50 (sell price from 15 to 25).</li>
         <li>Dual Lasers: Cost from 25 to 50 (sell price from 12 to 25).</li>
@@ -81,7 +81,7 @@
         <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 80.</li>
         <li>Glaive Beam: Rarity from 5 to 4, cooldown from 25s to 8s. Now has 3 charges, and does damage equal to the number of charges.</li>
         <li>Fire Beam: Cooldown from 20s to 18s, speed from 5 to 7, fire chance from 80% to 90%.</li>
-        <li>Anti-Bio Beam: Rarity from 5 to 4.</li>
+        <li>Anti-Bio Beam: Rarity from 5 to 4, power requirement from 2 to 1.</li>
     </ol>
     <li>DRONES:</li>
     <ol>

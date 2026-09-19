@@ -252,6 +252,9 @@
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="BEAM_BIO">
+    <mod:findLike type="power">
+        <mod:setValue>1</mod:setValue>
+    </mod:findLike>
     <mod:findLike type="rarity">
         <mod:setValue>4</mod:setValue>
     </mod:findLike>

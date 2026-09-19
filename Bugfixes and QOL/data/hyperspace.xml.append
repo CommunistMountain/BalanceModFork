@@ -6,7 +6,6 @@
         <mod:findLike type="hackingIonFix"/>
         <mod:findLike type="autoRewardOverwriteItemModifyFix"/>
         <mod:findLike type="crystalShardFix"/>
-        <mod:findLike type="defenseDroneFix"/>
         <mod:findLike type="cloakRenderFix"/>
         <mod:findLike type="disableDefaultTutorial"/>
         <mod:findLike type="multipleOverCapacity"/>
@@ -45,6 +44,16 @@
 
 <mod:findLike type="showDummyEquipmentSlots">
     <mod:setAttributes enabled="true" opacity="0.3"/>
+</mod:findLike>
+
+<mod:findLike type="defenseDroneFix">
+    <mod:setAttributes enabled="true"/>
+    <mod:findLike type="boxRange">
+        <mod:setAttributes enemy="9999" player="9999"/>
+    </mod:findLike>
+    <mod:findLike type="ellipseRange">
+        <mod:setAttributes enemy="9999" player="9999"/>
+    </mod:findLike>
 </mod:findLike>
 
 <mod:findLike type="renameShipInRun">

@@ -197,7 +197,7 @@
 
 <mod:findName type="weaponBlueprint" name="ION_CHAINGUN">
     <mod:findLike type="cooldown">
-        <mod:setValue>10</mod:setValue>
+        <mod:setValue>8</mod:setValue>
     </mod:findLike>
     <mod-append:stunChance>1</mod-append:stunChance>
 </mod:findName>
