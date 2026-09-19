@@ -133,11 +133,11 @@
         <mod:setValue>8</mod:setValue>
     </mod:findLike>
     <mod-append:cooldowns>
-        <noLayers>6.0</noLayers>
+        <noLayers>8.0</noLayers>
         <oneLayer>8.0</oneLayer>
-        <twoLayers>10.0</twoLayers>
-        <threeLayers>12.0</threeLayers>
-        <moreLayers>14.0</moreLayers>
+        <twoLayers>8.0</twoLayers>
+        <threeLayers>8.0</threeLayers>
+        <moreLayers>8.0</moreLayers>
     </mod-append:cooldowns>
 </mod:findComposite>
 

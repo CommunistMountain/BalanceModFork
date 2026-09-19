@@ -31,7 +31,7 @@
         <li>Artillery: Level 2/3/4 cost from 30/50/80 to 15/25/50.</li>
         <li>Cloaking: Cost from 150 to 115, level 2 cost from 30 to 70.</li>
         <li>Drone Control: Level 5/6/7/8 cost from 45/60/80/100 to 40/50/60/70.</li>
-        <li>Engines: Level 4/5/6/7/8 cost from 30/40/60/80/120 to 55/25/20/20/35.</li>
+        <li>Engines: Level 2/3/4/5/6/7/8 cost from 10/15/30/40/60/80/120 to 20/25/30/35/25/30/45.</li>
         <li>Oxygen: Level 3 cost from 50 to 30. Oxygen now repairs itself at 10% of Human rate (slow enough to be able to suffocate a Crystal before it is repaired).</li>
         <li>Hacking: Cost from 80 to 100, level 2/3 cost from 35/60 to 50/40. Cost of deploying hacking drone from 1 to 2 drone parts, for the player only (due to limitations in implementation, you can still try to deploy the hacking drone at 1 drone part, but the drone will immediately explode, and no drone parts will be consumed). Drone will explode if the system is depowered while the drone is mid-flight.</li>
         <li>Mind Control: Cost from 75 to 90, level 3 cost from 60 to 55.</li>
@@ -43,7 +43,7 @@
     <ol>
         <li>Ion Charger: Stun chance from 0% to 10%.</li>
         <li>Heavy Ion: Cooldown from 13s to 10s, projectiles from 1 to 2, projectile speed from 40 to 30, ion damage from 2 to 1, stun chance from 20% to 10%.</li>
-        <li>Ion Blast 2: Cooldown from 4 to 3.</li>
+        <li>Ion Blast 2: Cooldown from 4s to 3s.</li>
         <li>Chain Ion: Cooldown from 14s to 10s, stun chance from 0% to 10%. Projectile speed is equal to 30 * ion damage (up to 120 at 4 ion damage).</li>
         <li>Laser Charger (both versions): Fire chance from 0% to 10%.</li>
         <li>Laser Charger (player version): Cost from 30 to 50 (sell price from 15 to 25).</li>
@@ -64,6 +64,7 @@
         <li>Heavy Crystal 2: Rarity from 5 to 4, power requirement from 3 to 2.</li>
         <li>Hull Missile: Cost from 65 to 50, cooldown from 17s to 14s.</li>
         <li>Artemis (enemy version): Rarity from 0 to 2 (now available in stores and random rewards), costs 38.</li>
+        <li>Hermes Missile: Projectile speed from 35 to 105, damage from 3 to 2.</li>
         <li>Pegasus Missile: Cooldown from 20s to 16s.</li>
         <li>Breach Missiles: Cost from 65 to 50, cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
         <li>Swarm Missiles: Projectile speed from 45 to 35, stun chance from 0% to 10%.</li>
@@ -75,7 +76,7 @@
         <li>Stun Bomb: Cooldown from 17s to 10s, stun duration from 15s to 10s.</li>
         <li>Lock Bomb: Cooldown from 15s to 12s.</li>
         <li>Small Bomb: Rarity from 1 to 4, cost from 45 to 60, fire chance from 10% to 0%.</li>
-        <li>Mini-Beam: Cost from 20 to 50 (sell price from 10 to 25). Fire chance from 10% to 0%.</li>
+        <li>Mini-Beam: Cost from 20 to 50 (sell price from 10 to 25), fire chance from 10% to 0%.</li>
         <li>Hull Beam: Cooldown from 14s to 16s.</li>
         <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 80.</li>
         <li>Glaive Beam: Rarity from 5 to 4, cooldown from 25s to 8s. Now has 3 charges, and does damage equal to the number of charges.</li>
@@ -89,7 +90,7 @@
         <li>Beam Drone 1, Beam Drone 2: Fire chance from 10% to 0%.</li>
         <li>Combat Drone 2, Beam Drone 2: Rarity from 5 to 4.</li>
         <li>Fire Drone: Power requirement from 3 to 2.</li>
-        <li>Shield Overcharger (both versions): Rotation speed from 5 to 8, cooldown per layer changed from 8/10/13/16/20s to 6/8/10/12/14s.</li>
+        <li>Shield Overcharger (both versions): Rotation speed from 5 to 8, cooldown per layer changed from 8/10/13/16/20s to 8s for all layers (which also makes the cooldown-resetting trick unnecessary).</li>
         <li>Anti-Combat Drone: Rotation speed from 5 to 7.</li>
         <li>Defense Drone 1: Rarity from 1 to 3, rotation speed from 5 to 6.</li>
         <li>Defense Drone 2: Cooldown from 0.88s to 0.7s.</li>

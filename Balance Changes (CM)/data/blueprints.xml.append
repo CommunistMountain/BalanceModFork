@@ -84,25 +84,16 @@
 <mod:findName type="systemBlueprint" name="engines">
     <mod:findLike type="upgradeCost">
         <mod:findLike type="level">
-        <mod:selector>30</mod:selector>
-            <mod:setValue>55</mod:setValue>
+            <mod:removeTag/>
         </mod:findLike>
-        <mod:findLike type="level">
-        <mod:selector>40</mod:selector>
-            <mod:setValue>25</mod:setValue>
-        </mod:findLike>
-        <mod:findLike type="level">
-        <mod:selector>60</mod:selector>
-            <mod:setValue>20</mod:setValue>
-        </mod:findLike>
-        <mod:findLike type="level">
-        <mod:selector>80</mod:selector>
-            <mod:setValue>20</mod:setValue>
-        </mod:findLike>
-        <mod:findLike type="level">
-        <mod:selector>120</mod:selector>
-            <mod:setValue>35</mod:setValue>
-        </mod:findLike>
+        <mod-append:level>20</mod-append:level>
+        <mod-append:level>25</mod-append:level>
+        <mod-append:level>30</mod-append:level>
+        <mod-append:level>35</mod-append:level>
+        <mod-append:level>25</mod-append:level>
+        <mod-append:level>30</mod-append:level>
+        <mod-append:level>45</mod-append:level>
+        <mod-append:level>150</mod-append:level>
     </mod:findLike>
 </mod:findName>
 
@@ -297,6 +288,13 @@
     <mod:findLike type="rarity">
         <mod:setValue>2</mod:setValue>
     </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="MISSILES_3">
+    <mod:findLike type="damage">
+        <mod:setValue>2</mod:setValue>
+    </mod:findLike>
+    <mod-append:speed>105</mod-append:speed>
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="MISSILES_BURST">
