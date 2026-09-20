@@ -37,15 +37,17 @@ script.on_internal_event(Defines.InternalEvents.CALCULATE_STAT_PRE, function(cre
 end)
 
 script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA, function(targetedShipManager, projectile, pointF, damage, evasion, bShipFriendlyFire)
-    if projectile.extend.name == "ARTILLERY_FED_C" then
-        damage.iSystemDamage = damage.iDamage
-        damage.iDamage = 0
+    if projectile ~= nil then -- exclude beams and boarding drones
+        if projectile.extend.name == "ARTILLERY_FED_C" then
+            damage.iSystemDamage = damage.iDamage
+            damage.iDamage = 0
+        end
     end
     return Defines.Chain.CONTINUE, evasion, bShipFriendlyFire
 end)
 
 script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(targetedShipManager, projectile, pointF, damage, bShipFriendlyFire)
-    if projectile ~= nil then -- for non-beams
+    if projectile ~= nil then -- exclude beams and boarding drones
         local roomId = targetedShipManager.ship:GetSelectedRoomId(pointF.x, pointF.y, true)
         local roomShape = Hyperspace.ShipGraph.GetShipInfo(targetedShipManager.iShipId):GetRoomShape(roomId)
         local roomWidth = roomShape.w / 35
