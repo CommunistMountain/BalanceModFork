@@ -59,7 +59,6 @@
         <li>Flak 1: Rarity from 1 to 4, cost from 65 to 80.</li>
         <li>Flak Artillery: Now only does system damage. Each flak heals 50 health for all friendly crew in the room.</li>
         <li>Crystal weapons: Cost from 20 to 50.</li>
-        <li>Crystal Burst 1: Cooldown from 15s to 12s.</li>
         <li>Crystal Burst 2: Power requirement from 3 to 2.</li>
         <li>Heavy Crystal 2: Rarity from 5 to 4, power requirement from 3 to 2.</li>
         <li>Hull Missile: Cost from 65 to 50, cooldown from 17s to 14s.</li>
