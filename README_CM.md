@@ -57,7 +57,7 @@
         <li>Flak weapons: removed fake projectiles.</li>
         <li>Advanced Flak: Cooldown from 8s to 5s, projectiles from 3 to 2.</li>
         <li>Flak 1: Rarity from 1 to 4, cost from 65 to 80.</li>
-        <li>Flak Artillery: Shield piercing from 0 to 5, damage from 1 to 0. Each flak heals 50 health for all friendly crew in the room.</li>
+        <li>Flak Artillery: Now only does system damage. Each flak heals 50 health for all friendly crew in the room.</li>
         <li>Crystal weapons: Cost from 20 to 50.</li>
         <li>Crystal Burst 1: Cooldown from 15s to 12s.</li>
         <li>Crystal Burst 2: Power requirement from 3 to 2.</li>

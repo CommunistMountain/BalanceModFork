@@ -186,15 +186,6 @@
     <mod-append:stunChance>1</mod-append:stunChance>
 </mod:findName>
 
-<mod:findName type="weaponBlueprint" name="ARTILLERY_FED_C">
-    <mod:findLike type="damage">
-        <mod:setValue>0</mod:setValue>
-    </mod:findLike>
-    <mod:findLike type="sp">
-        <mod:setValue>5</mod:setValue>
-    </mod:findLike>
-</mod:findName>
-
 <mod:findName type="weaponBlueprint" name="ION_CHAINGUN">
     <mod:findLike type="cooldown">
         <mod:setValue>8</mod:setValue>

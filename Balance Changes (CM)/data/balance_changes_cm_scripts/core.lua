@@ -36,6 +36,14 @@ script.on_internal_event(Defines.InternalEvents.CALCULATE_STAT_PRE, function(cre
     return Defines.Chain.CONTINUE, fAmount, bValue
 end)
 
+script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA, function(targetedShipManager, projectile, pointF, damage, evasion, bShipFriendlyFire)
+    if projectile.extend.name == "ARTILLERY_FED_C" then
+        damage.iSystemDamage = damage.iDamage
+        damage.iDamage = 0
+    end
+    return Defines.Chain.CONTINUE, evasion, bShipFriendlyFire
+end)
+
 script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(targetedShipManager, projectile, pointF, damage, bShipFriendlyFire)
     if projectile ~= nil then -- for non-beams
         local roomId = targetedShipManager.ship:GetSelectedRoomId(pointF.x, pointF.y, true)
