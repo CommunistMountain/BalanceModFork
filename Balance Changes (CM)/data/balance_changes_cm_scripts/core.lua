@@ -107,7 +107,59 @@ script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projec
     end
 end)
 
+script.on_internal_event(Defines.InternalEvents.ON_MOUSE_R_BUTTON_DOWN, function(iX, iY)
+    local spaceDrones = Hyperspace.App.world.space.drones
+    for i=0, spaceDrones:size() - 1 do
+        local spaceDrone = spaceDrones[i]
+        if spaceDrone.iShipId == 0 then
+            --spaceDrone.ionStun = 10
+        end
+    end
+    
+    local playerWeapons = Hyperspace.ships.player:GetWeaponList()
+    for i=0, playerWeapons:size() - 1 do
+        local playerWeapon = playerWeapons[i]
+        if playerWeapon.blueprint.name == 'BEAM_3' or playerWeapon.blueprint.name == 'BEAM_2' or playerWeapon.blueprint.name == 'LASER_CHARGEGUN' then
+            --[[
+            mods.bugfixes_and_qol.print_object_fields(playerWeapon)
+            print("FireNextShot() " .. tostring(playerWeapon:FireNextShot()))
+            print("IsChargedGoal() " .. tostring(playerWeapon:IsChargedGoal()))
+            print("NumTargetsRequired() " .. playerWeapon:NumTargetsRequired())
+            for j=0, playerWeapon.targets:size() - 1 do
+                print("Target " .. j .. ": X " .. playerWeapon.targets[j].x .. " Y " .. playerWeapon.targets[j].y)
+            end
+            for j=0, playerWeapon.lastTargets:size() - 1 do
+                print("Last Target " .. j .. ": X " .. playerWeapon.lastTargets[j].x .. " Y " .. playerWeapon.lastTargets[j].y)
+            end
+            for j=0, playerWeapon.queuedProjectiles:size() - 1 do
+                print("Projectile " .. j)
+            end]]
+        end
+    end
+    
+    return Defines.Chain.CONTINUE
+end)
+
+script.on_internal_event(Defines.InternalEvents.DRONE_COLLISION, function(spaceDrone, projectile, damage, collisionResponse)
+    --print("DRONE_COLLISION happened")
+    return Defines.Chain.CONTINUE
+end)
+
 script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
+    local playerWeapons = Hyperspace.ships.player:GetWeaponList()
+    for i=0, playerWeapons:size() - 1 do
+        local playerWeapon = playerWeapons[i]
+        --print(playerWeapon.blueprint.name .. " " .. playerWeapon.queuedProjectiles:size())
+    end
+    
+    local spaceDrones = Hyperspace.App.world.space.drones
+    for i=0, spaceDrones:size() - 1 do
+        local spaceDrone = spaceDrones[i]
+        if spaceDrone.iShipId == 0 then
+            --print(spaceDrone.ionStun)
+        end
+    end
+
     if shipManager.iShipId == 0 then -- for player-specific actions
         if shipManager:HasAugmentation("HACKING_USE_MORE_PARTS_CM") <= 0 then
             shipManager:AddAugmentation("HIDDEN HACKING_USE_MORE_PARTS_CM")

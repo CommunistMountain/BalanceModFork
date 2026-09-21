@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FTL>
+<event name="REWARDCM">
+    <text>I should get more than 50 of each</text>
+    <autoReward level="HIGH">standard</autoReward>
+    <item_modify>
+        <item type="fuel" min="50" max="50"/>
+        <item type="scrap" min="50" max="50"/>
+        <item type="missiles" min="50" max="50"/>
+        <item type="drones" min="50" max="50"/>
+    </item_modify>
+</event>
+
 <mod:findName type="event" name="ROCK_CRYSTAL_BEACON">
     <mod-append:revisitEvent>ROCK_CRYSTAL_BEACON</mod-append:revisitEvent>
 </mod:findName>
