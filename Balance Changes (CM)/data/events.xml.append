@@ -2,13 +2,13 @@
 
 <FTL>
 <event name="REWARDCM">
-    <text>I should get more than 50 of each</text>
+    <text>I should get >= 100 of each</text>
     <autoReward level="HIGH">standard</autoReward>
     <item_modify>
-        <item type="fuel" min="50" max="50"/>
-        <item type="scrap" min="50" max="50"/>
-        <item type="missiles" min="50" max="50"/>
-        <item type="drones" min="50" max="50"/>
+        <item type="fuel" min="100" max="100"/>
+        <item type="scrap" min="100" max="100"/>
+        <item type="missiles" min="100" max="100"/>
+        <item type="drones" min="100" max="100"/>
     </item_modify>
 </event>
 
