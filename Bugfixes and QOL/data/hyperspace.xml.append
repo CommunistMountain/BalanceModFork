@@ -4,7 +4,6 @@
 <mod:findComposite>
     <mod:par op="OR">
         <mod:findLike type="hackingIonFix"/>
-        <mod:findLike type="autoRewardOverwriteItemModifyFix"/>
         <mod:findLike type="crystalShardFix"/>
         <mod:findLike type="cloakRenderFix"/>
         <mod:findLike type="disableDefaultTutorial"/>
@@ -37,6 +36,10 @@
     </mod:par>
     <mod:setAttributes enabled="true"/>
 </mod:findComposite>
+
+<mod:findLike type="autoRewardItemModifyFixes">
+    <mod:setAttributes costFix="true" overwriteFix="true"/>
+</mod:findLike>
 
 <mod:findLike type="extraShipInfo">
     <mod:setAttributes missileCount="true" droneCount="true" crewLimit="true"/>
