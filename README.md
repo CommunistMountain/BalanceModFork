@@ -26,6 +26,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
     <li>Stores in Crystal Homeworlds: No longer have Advanced Edition weapons.</li>
     <li>Hacking: When you are at 1 drone part and target hacking at the enemy ship while paused, then deploy another drone, the hacking drone will blow up once you resume, preventing it from being used with 0 drone parts.</li>
     <li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
+    <li>upgradeFix: Upgrade events no longer happen repeatedly for free when revisiting a beacon with them as the first event. Fixes events ESCORT_BEACON and QUEST_ESCORT.</li>
     <li>autoRewardItemModifyFixes: autoReward no longer lets you select choices which have item_modify costs you can't pay for, if it would compensate the cost. Also, autoReward now adds to, instead of overwrites, item_modify (if it rolls the same resources). Fixes events CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK.</li>
     <li>crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.</li>
     <li>defenseDroneFix: Defense drones no longer have a blind spot, and have infinite effective range.</li>
@@ -41,7 +42,6 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
         <li>ENGI_SEX, ENGI_VIRUS, LANIUS_AUTO_REBEL, PIRATE_SMUGGLE, REBEL_TRANSPORT, ROCK_LOOTING: Fixed some of their outcomes being Random tier, they are now Medium tier (ENGI_SEX and ENGI_VIRUS) or Low tier (the rest) as intended.</li>
         <li>ENGI_STATION_DISTRESS, PIRATE_CIVILIAN_BEACON, REBEL_VS_FEDERATION, SLUG_DISTRESS_RESCUE, SLUG_DISTRESS_TRICK: Fixed these events not appearing at Distress Beacons on the map.</li>
         <li>ENGI_UNLOCK_1: Now unable to tell the difference between the real and fake ships through minor text differences, or based on when they decide to surrender.</li>
-        <li>ESCORT_BEACON and QUEST_ESCORT: extended the conversation when you get the reactor upgrade outcome, so that revisiting the beacon multiple times will not upgrade your reactor again for free.</li>
         <li>MERCHANT_REQUEST: Added missing Lifeform Scanner blue option from the STATION_SICK event as intended.</li>
         <li>NEBULA_SLUG_FIGHT_UNLOCK, QUEST_SLUG_PIRATE_TRAP: The quests of these events now appear at nebula beacons instead of non-nebula beacons on the map (will slow the Rebel Fleet appropriately).</li>
         <ol>

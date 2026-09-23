@@ -80,21 +80,6 @@
     </mod:findLike>
 </mod:findName>
 
-<mod:findName type="eventList" name="QUEST_ESCORT_ARRIVE">
-    <mod:findWithChildLike type="event" child-type="upgrade">
-        <mod:findLike type="upgrade">
-            <mod:removeTag/>
-        </mod:findLike>
-        <mod-append:choice>
-            <text id="event_SELL_MISSILES_STATION_c1_text"/>
-            <event>
-                <text id="event_ROCK_SLUG_GRATEFUL_3_c1_text"/>
-                <upgrade amount="1" system="reactor"/>
-            </event>
-        </mod-append:choice>
-    </mod:findWithChildLike>
-</mod:findName>
-
 <mod:findName type="eventList" name="ALISON_DEFECTOR_REJECT">
     <mod:findLike type="event">
         <mod:findWithChildLike type="choice" child-type="event">
