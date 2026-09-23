@@ -2,7 +2,7 @@
 <ol>
     <li>REWARDS:</li>
     <ol>
-        <li>Resources from bonus autoRewards no longer overwrite resources from the base autoReward. As a result, Low or High stuff autoRewards will still give Low scrap if they roll a bonus.</li>
+        <li>Resources from bonus autoRewards no longer overwrite resources from the base autoReward. As a result, Medium or High stuff autoRewards will still give Low scrap if they roll a bonus.</li>
         <li>Scrap Curve: Hard mode base value changed from 15 in sectors 1 and 2, then +6 for each sector after 2, to 15 in sector 1, then +4 for each sector after 1. (Approximate change: 0%/+26.67%/+9.52%/0%/-6.06%/-10.26%/-13.33%/-15.69%).</li>
         <li>Scrap: Low range from 50%-70% of base value to 50%-75%. Medium range from 80%-130% of base value to 75%-130%. (Approximate change: Low +4.17%, Medium -2.38%, Random 0%)</li>
         <li>Fuel: Low range from 1-3 to 2. High range from 3-6 to 4. (Approximate change: Low 0% (more consistent), High -11.11%, Random -5.26%)</li>
