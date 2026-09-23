@@ -4,7 +4,7 @@
 <mod:findComposite>
     <mod:par op="OR">
         <mod:findLike type="hackingIonFix"/>
-        <mod:findLike type="upgradeFix"/>
+        <mod:findLike type="upgradeRevisitFix"/>
         <mod:findLike type="crystalShardFix"/>
         <mod:findLike type="cloakRenderFix"/>
         <mod:findLike type="disableDefaultTutorial"/>
