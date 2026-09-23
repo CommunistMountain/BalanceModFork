@@ -38,7 +38,7 @@
 </mod:findComposite>
 
 <mod:findLike type="autoRewardItemModifyFixes">
-    <mod:setAttributes costFix="true" overwriteFix="true" basePriority="true"/>
+    <mod:setAttributes costFix="true" overwriteFix="true"/>
 </mod:findLike>
 
 <mod:findLike type="extraShipInfo">

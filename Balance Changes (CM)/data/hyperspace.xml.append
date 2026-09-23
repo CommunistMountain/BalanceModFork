@@ -19,6 +19,10 @@
     <mod:setAttributes enabled="true"/>
 </mod:findComposite>
 
+<mod:findLike type="autoRewardItemModifyFixes">
+    <mod:setAttributes basePriority="true"/>
+</mod:findLike>
+
 <mod:findLike type="scripts" limit="1">
     <mod-append:script>data/balance_changes_cm_scripts/core.lua</mod-append:script>
 </mod:findLike>
