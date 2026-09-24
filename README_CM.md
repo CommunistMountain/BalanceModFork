@@ -214,7 +214,6 @@
         <li>General Changes:</li>
         <ol>
             <li>Kestrel A: Crew from 3 Humans to 2 Humans.</li>
-            <li>Kestrel B: Removed Doors.</li>
             <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 1 Heavy Ion, 1 Ion Stunner and 1 Breach Bomb 1. Weapon Control level from 2 to 3. Sensors level from 2 to 1.</li>
             <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Added level 1 Sensors. Drones changed from 1 Anti-Personnel and 2 System Repair to 1 Anti-Personnel, 1 System Repair and 1 Ion Intruder.</li>
             <li>Fed A: Weapon Control level from 2 to 3. Removed Doors.</li>
@@ -242,15 +241,15 @@
             <li>Rock C: Shifted 2 Doors.</li>
             <li>Crystal A: Removed 1 door (one of the 2 removed doors mentioned above)</li>
         </ol>
-        <li>Ships are standardised to have just enough reactor to power all non-medical systems and at most 1 shield layer. Each Zoltan counts as 1 reactor, except 1 Zoltan if it needs to be in Pilot.</li>
+        <li>Ships are standardised to have just enough reactor to power all non-medical systems, except Kestrel B (-2). Each Zoltan counts as 1 reactor, except 1 Zoltan if it needs to be in Pilot.</li>
         <ol>
+            <li>Kestrel B: Reactor from 8 to 6.</li>
             <li>Kestrel C: Reactor from 7 to 8.</li>
             <li>Engi A: Reactor from 10 to 9.</li>
             <li>Engi B: Reactor from 9 to 11.</li>
             <li>Fed B: Reactor from 9 to 8.</li>
             <li>Fed C: Reactor from 7 to 8.</li>
             <li>Zoltan A: Reactor from 5 to 6.</li>
-            <li>Mantis B: Reactor 11 to 9.</li>
             <li>Slug B: Reactor from 7 to 8.</li>
             <li>Stealth A: Reactor from 8 to 7.</li>
             <li>Stealth B: Reactor from 7 to 8.</li>

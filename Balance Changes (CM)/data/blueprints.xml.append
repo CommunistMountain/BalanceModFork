@@ -619,13 +619,11 @@
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_2">
-    <mod:findLike type="systemList">
-        <mod:findLike type="doors">
-            <mod:setAttributes start="false"/>
-        </mod:findLike>
-    </mod:findLike>
     <mod:findLike type="weaponList">
         <mod:setAttributes missiles="0"/>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="6"/>
     </mod:findLike>
 </mod:findName>
 
@@ -655,9 +653,6 @@
         <mod:findLike type="medbay">
             <mod:setAttributes power="2"/>
         </mod:findLike>
-    </mod:findLike>
-    <mod:findLike type="maxPower">
-        <mod:setAttributes amount="9"/>
     </mod:findLike>
 </mod:findName>
 
