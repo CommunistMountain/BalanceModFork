@@ -63,7 +63,7 @@
         <li>Crystal Burst 2: Power requirement from 3 to 2.</li>
         <li>Heavy Crystal 2: Rarity from 5 to 4, power requirement from 3 to 2.</li>
         <li>Hull Missile: Cost from 65 to 50, cooldown from 17s to 14s.</li>
-        <li>Artemis (enemy version): Rarity from 0 to 2 (now available in stores and random rewards), costs 38.</li>
+        <li>Artemis Missiles (enemy version): Rarity from 0 to 2 (now available in stores and random rewards), costs 38.</li>
         <li>Hermes Missile: Projectile speed from 35 to 105, damage from 3 to 2.</li>
         <li>Pegasus Missile: Cooldown from 20s to 16s.</li>
         <li>Breach Missiles: Cost from 65 to 50, cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
@@ -217,6 +217,7 @@
             <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 1 Heavy Ion, 1 Ion Stunner and 1 Breach Bomb 1. Weapon Control level from 2 to 3. Sensors level from 2 to 1.</li>
             <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Added level 1 Sensors. Drones changed from 1 Anti-Personnel and 2 System Repair to 1 Anti-Personnel, 1 System Repair and 1 Ion Intruder.</li>
             <li>Fed A: Weapon Control level from 2 to 3. Removed Doors.</li>
+            <li>Engi C: Weapons from 1 Dual Lasers to 1 Artemis Missiles.</li>
             <li>Fed C: Artillery level from 1 to 4.</li>
             <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2.</li>
             <li>Zoltan B: Added Long-Ranged Scanners.</li>
@@ -263,7 +264,7 @@
             <li>Kestrel B: Missiles from 5 to 0.</li>
             <li>Kestrel C: Missiles from 4 to 15, drone parts from 3 to 0.</li>
             <li>Engi B: Drone parts from 6 to 9.</li>
-            <li>Engi C: Drone parts from 25 to 35.</li>
+            <li>Engi C: Missiles from 0 to 15, drone parts from 25 to 35.</li>
             <li>Fed A: Missiles from 5 to 0, drone parts from 2 to 0.</li>
             <li>Fed B: Missiles from 9 to 15.</li>
             <li>Fed C: Missiles from 5 to 0.</li>

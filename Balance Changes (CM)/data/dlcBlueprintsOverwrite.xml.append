@@ -115,6 +115,12 @@
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE_3">
+    <mod:findLike type="weaponList">
+        <mod:setAttributes missiles="15"/>
+        <mod:findLike type="weapon">
+            <mod:setAttributes name="MISSILES_2_PLAYER"/>
+        </mod:findLike>
+    </mod:findLike>
     <mod:findLike type="droneList">
         <mod:setAttributes drones="35"/>
     </mod:findLike>
