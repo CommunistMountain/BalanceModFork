@@ -204,9 +204,6 @@
     <mod:findLike type="breachChance">
         <mod:setValue>10</mod:setValue>
     </mod:findLike>
-    <mod:findLike type="stunChance">
-        <mod:setValue>10</mod:setValue>
-    </mod:findLike>
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="BEAM_1">
