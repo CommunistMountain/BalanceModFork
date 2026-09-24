@@ -25,20 +25,23 @@
     </ol>
     <li>SYSTEMS:</li>
     <ol>
-        <li>Backup Battery: Cost from 35 to 50. Now includes the effects of Battery Charger. Battery Charger rarity from 2 to 0.</li>
-        <li>Doors: Cost from 60 to 45.</li>
-        <li>Pilot: Level 2 cost from 20 to 35.</li>
-        <li>Sensors: Cost from 40 to 30, level 3 cost from 40 to 30.</li>
         <li>Artillery: Level 2/3/4 cost from 30/50/80 to 15/25/50.</li>
         <li>Cloaking: Cost from 150 to 115, level 2 cost from 30 to 70.</li>
         <li>Drone Control: Level 5/6/7/8 cost from 45/60/80/100 to 40/50/60/70.</li>
         <li>Engines: Level 2/3/4/5/6/7/8 cost from 10/15/30/40/60/80/120 to 20/25/30/35/25/30/45.</li>
-        <li>Oxygen: Level 3 cost from 50 to 30. Oxygen now repairs itself at 10% of Human rate (slow enough to be able to suffocate a Crystal before it is repaired).</li>
         <li>Hacking: Cost from 80 to 100, level 2/3 cost from 35/60 to 50/40. Cost of deploying hacking drone from 1 to 2 drone parts, for the player only (due to limitations in implementation, you can still try to deploy the hacking drone at 1 drone part, but the drone will immediately explode, and no drone parts will be consumed). Drone will explode if the system is depowered while the drone is mid-flight.</li>
         <li>Mind Control: Cost from 75 to 90, level 3 cost from 60 to 55.</li>
+        <li>Oxygen: Level 3 cost from 50 to 30. Oxygen now repairs itself at 10% of Human rate (slow enough to be able to suffocate a Crystal before it is repaired).</li>
         <li>Shields: Level 2/8 cost from 100/100 to 120/120.</li>
         <li>Teleporter: Crew take -10% damage from combat while it is powered and not hacked.</li>
         <li>Weapon Control: Level 4/5/6/7 cost from 35/50/75/90 to 40/55/70/85.</li>
+    </ol>
+    <li>SUBSYSTEMS:</li>
+    <ol>
+        <li>Backup Battery: Cost from 35 to 50. Now includes the effects of Battery Charger. Battery Charger rarity from 2 to 0.</li>
+        <li>Doors: Cost from 60 to 45.</li>
+        <li>Pilot: Level 2 cost from 20 to 35.</li>
+        <li>Sensors: Cost from 40 to 30, level 3 cost from 40 to 30.</li>
     </ol>
     <li>WEAPONS:</li>
     <ol>
@@ -217,7 +220,7 @@
             <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 1 Heavy Ion, 1 Ion Stunner and 1 Breach Bomb 1. Weapon Control level from 2 to 3. Sensors level from 2 to 1.</li>
             <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Added level 1 Sensors. Drones changed from 1 Anti-Personnel and 2 System Repair to 1 Anti-Personnel, 1 System Repair and 1 Ion Intruder.</li>
             <li>Engi C: Weapons from 1 Dual Lasers to 1 Artemis Missiles.</li>
-            <li>Fed A: Weapon Control level from 2 to 3. Removed Doors.</li>
+            <li>Fed A: Weapon Control level from 2 to 3.</li>
             <li>Fed C: Artillery level from 1 to 4.</li>
             <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2.</li>
             <li>Zoltan B: Added Long-Ranged Scanners.</li>
@@ -233,7 +236,6 @@
             <li>Stealth C: Added level 2 Sensors.</li>
             <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 2.</li>
             <li>Lanius B: Removed Clone Bay. Teleporter level from 1 to 3. Added level 1 Sensors.</li>
-            <li>Crystal A: Removed Doors.</li>
             <li>Crystal B: Weapon slots from 4 to 3. Medbay level from 1 to 2.</li>
         </ol>
         <li>Ships are standardised to not have manning stations against doors.</li>
