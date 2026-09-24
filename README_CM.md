@@ -225,7 +225,7 @@
             <li>Mantis B: Engines level from 1 to 2. Medbay level from 1 to 2.</li>
             <li>Slug Cruisers: Doors level from 2 to 1.</li>
             <li>Slug B: Weapon Control level from 2 to 3.</li>
-            <li>Slug C: Weapon Control level from 2 to 3.</li>
+            <li>Slug C: Crew from 3 Slugs to 1 Slug 1 Engi.</li>
             <li>Rock B: Added an external door to the Backup Battery room. Oxygen level from 2 to 1.</li>
             <li>Stealth A: Engines level from 4 to 3. Drone Control has 3 drone slots when bought.</li>
             <li>Stealth B: Weapon Control level from 4 to 5. Cloaking level from 2 to 1. Engines level from 2 to 3. Drone Control has 3 drone slots when bought.</li>

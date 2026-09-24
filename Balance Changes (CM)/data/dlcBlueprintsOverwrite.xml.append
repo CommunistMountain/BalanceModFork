@@ -146,9 +146,6 @@
         <mod:findLike type="doors">
             <mod:setAttributes power="1"/>
         </mod:findLike>
-        <mod:findLike type="weapons">
-            <mod:setAttributes power="3"/>
-        </mod:findLike>
     </mod:findLike>
     <mod:findLike type="weaponList">
         <mod:setAttributes missiles="0"/>
@@ -156,6 +153,11 @@
     <mod:findLike type="droneList">
         <mod:setAttributes drones="20"/>
     </mod:findLike>
+    <mod:findLike type="crewCount">
+        <mod:removeTag/>
+    </mod:findLike>
+    <mod-append:crewCount amount="1" class="slug"/>
+    <mod-append:crewCount amount="1" class="engi"/>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_STEALTH_3">
