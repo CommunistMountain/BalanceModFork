@@ -207,7 +207,6 @@
     <mod:findLike type="stunChance">
         <mod:setValue>10</mod:setValue>
     </mod:findLike>
-    <mod-append:speed>50</mod-append:speed>
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="BEAM_1">
