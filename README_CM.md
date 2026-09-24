@@ -216,8 +216,8 @@
             <li>Kestrel A: Crew from 3 Humans to 2 Humans.</li>
             <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 1 Heavy Ion, 1 Ion Stunner and 1 Breach Bomb 1. Weapon Control level from 2 to 3. Sensors level from 2 to 1.</li>
             <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Added level 1 Sensors. Drones changed from 1 Anti-Personnel and 2 System Repair to 1 Anti-Personnel, 1 System Repair and 1 Ion Intruder.</li>
-            <li>Fed A: Weapon Control level from 2 to 3. Removed Doors.</li>
             <li>Engi C: Weapons from 1 Dual Lasers to 1 Artemis Missiles.</li>
+            <li>Fed A: Weapon Control level from 2 to 3. Removed Doors.</li>
             <li>Fed C: Artillery level from 1 to 4.</li>
             <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2.</li>
             <li>Zoltan B: Added Long-Ranged Scanners.</li>
