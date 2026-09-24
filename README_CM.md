@@ -80,7 +80,7 @@
         <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 80.</li>
         <li>Glaive Beam: Rarity from 5 to 4, cooldown from 25s to 8s. Now has 3 charges, and does damage equal to the number of charges.</li>
         <li>Fire Beam: Cooldown from 20s to 18s, speed from 5 to 7, fire chance from 80% to 90%.</li>
-        <li>Anti-Bio Beam: Rarity from 5 to 4, power requirement from 2 to 1, cooldown from 16s to 12s, crew damage from 60 to 45.</li>
+        <li>Anti-Bio Beam: Rarity from 5 to 4, power requirement from 2 to 1, cooldown from 16s to 10s, crew damage from 60 to 30.</li>
     </ol>
     <li>DRONES:</li>
     <ol>
