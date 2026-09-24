@@ -71,8 +71,8 @@
         <li>Pegasus Missile: Cooldown from 20s to 16s.</li>
         <li>Breach Missiles: Cost from 65 to 50, cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
         <li>Swarm Missiles: Projectile speed from 45 to 35, stun chance from 0% to 10%.</li>
-        <li>Healing Burst: Rarity from 3 to 1, cooldown from 18s to 9s.</li>
-        <li>Repair Burst: Rarity from 3 to 1, cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100%.</li>
+        <li>Healing Burst: Rarity from 3 to 1, cost from 40 to 20, cooldown from 18s to 9s.</li>
+        <li>Repair Burst: Rarity from 3 to 1, cost from 40 to 20, cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100%.</li>
         <li>Breach Bomb 1: Crew damage from 30 to 15.</li>
         <li>Fire Bomb: System damage from 0 to 1 (now does damage to supershields because of this), crew damage from 30 to 15.</li>
         <li>Stun Bomb: Cooldown from 17s to 10s, stun duration from 15s to 8s.</li>
