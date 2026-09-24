@@ -229,7 +229,7 @@
 
 <mod:findName type="weaponBlueprint" name="BOMB_STUN">
     <mod:findLike type="stun">
-        <mod:setValue>10</mod:setValue>
+        <mod:setValue>8</mod:setValue>
     </mod:findLike>
     <mod:findLike type="cooldown">
         <mod:setValue>10</mod:setValue>
