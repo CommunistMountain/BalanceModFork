@@ -152,6 +152,9 @@
         <mod:findLike type="doors">
             <mod:setAttributes power="1"/>
         </mod:findLike>
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="3"/>
+        </mod:findLike>
     </mod:findLike>
     <mod:findLike type="weaponList">
         <mod:setAttributes missiles="0"/>
