@@ -748,9 +748,6 @@
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED">
     <mod:findLike type="systemList">
-        <mod:findLike type="doors">
-            <mod:setAttributes start="false"/>
-        </mod:findLike>
         <mod:findLike type="weapons">
             <mod:setAttributes power="3"/>
         </mod:findLike>
@@ -843,7 +840,7 @@
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CRYSTAL">
     <mod:findLike type="systemList">
-        <mod:findLike type="doors">
+        <mod:findLike type="sensors">
             <mod:setAttributes start="false"/>
         </mod:findLike>
     </mod:findLike>
@@ -851,6 +848,9 @@
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CRYSTAL_2">
     <mod:findLike type="systemList">
+        <mod:findLike type="sensors">
+            <mod:setAttributes start="false"/>
+        </mod:findLike>
         <mod:findLike type="drones">
             <mod:setAttributes start="true"/>
         </mod:findLike>

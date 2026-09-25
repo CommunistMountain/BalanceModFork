@@ -237,7 +237,8 @@
             <li>Stealth C: Added level 2 Sensors.</li>
             <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 2.</li>
             <li>Lanius B: Removed Clone Bay. Teleporter level from 1 to 3. Added level 1 Sensors.</li>
-            <li>Crystal B: Weapon slots from 4 to 3. Removed Cloaking. Added level 2 Drone Control with 1 Hull Repair Drone. Medbay level from 1 to 2.</li>
+            <li>Crystal A: Removed Sensors.</li>
+            <li>Crystal B: Weapon slots from 4 to 3. Removed Cloaking and Sensors. Added level 2 Drone Control with 1 Hull Repair Drone. Medbay level from 1 to 2.</li>
         </ol>
         <li>Ships are standardised to not have manning stations against doors.</li>
         <ol>
