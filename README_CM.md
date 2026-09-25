@@ -225,7 +225,7 @@
             <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2.</li>
             <li>Zoltan B: Added Long-Ranged Scanners.</li>
             <li>Zoltan C: Weapon Control level from 2 to 3.</li>
-            <li>Mantis A: Weapons from 1 Small Bomb and 1 Basic Laser to 1 Small Bomb. Drone Control has 3 drone slots when bought. Added level 1 Sensors.</li>
+            <li>Mantis A: Drone Control has 3 drone slots when bought. Added level 1 Sensors.</li>
             <li>Mantis B: Engines level from 1 to 2. Medbay level from 1 to 2.</li>
             <li>Slug Cruisers: Doors level from 2 to 1.</li>
             <li>Slug B: Weapon Control level from 2 to 3.</li>

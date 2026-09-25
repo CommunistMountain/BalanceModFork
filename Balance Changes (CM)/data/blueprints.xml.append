@@ -637,11 +637,7 @@
         </mod:findLike>
     </mod:findLike>
     <mod:findLike type="weaponList">
-        <mod:setAttributes count="1" missiles="15"/>
-        <mod:findLike type="weapon">
-            <mod:removeTag/>
-        </mod:findLike>
-        <mod-append:weapon name="BOMB_1"/>
+        <mod:setAttributes missiles="15"/>
     </mod:findLike>
     <mod:findLike type="droneSlots">
         <mod:setValue>3</mod:setValue>
