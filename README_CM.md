@@ -236,7 +236,7 @@
             <li>Stealth C: Added level 2 Sensors.</li>
             <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 2.</li>
             <li>Lanius B: Removed Clone Bay. Teleporter level from 1 to 3. Added level 1 Sensors.</li>
-            <li>Crystal B: Weapon slots from 4 to 3. Medbay level from 1 to 2.</li>
+            <li>Crystal B: Weapon slots from 4 to 3. Removed Cloaking. Added level 2 Drone Control with 1 Hull Repair Drone. Medbay level from 1 to 2.</li>
         </ol>
         <li>Ships are standardised to not have manning stations against doors.</li>
         <ol>
@@ -244,7 +244,7 @@
             <li>Rock C: Shifted 2 Doors.</li>
             <li>Crystal A: Removed 1 door (one of the 2 removed doors mentioned above)</li>
         </ol>
-        <li>Ships are standardised to have just enough reactor to power all non-medical systems, except Kestrel B (-2). Each Zoltan counts as 1 reactor, except 1 Zoltan if it needs to be in Pilot.</li>
+        <li>Ships are standardised to have just enough reactor to power all non-medical systems, except Kestrel B (-2) and Crystal B (-2). Each Zoltan counts as 1 reactor, except 1 Zoltan if it needs to be in Pilot.</li>
         <ol>
             <li>Kestrel B: Reactor from 8 to 6.</li>
             <li>Kestrel C: Reactor from 7 to 8.</li>
@@ -258,9 +258,9 @@
             <li>Stealth B: Reactor from 7 to 8.</li>
             <li>Stealth C: Reactor from 7 to 8.</li>
             <li>Lanius B: Reactor from 8 to 9.</li>
-            <li>Crystal B: Reactor from 8 to 7.</li>
+            <li>Crystal B: Reactor from 8 to 6.</li>
         </ol>
-        <li>Ships are standardised to have 15 missiles per missile/bomb weapon, 20 drone parts if it has hacking, 15 drone parts per offensive drone, 10 drone parts per defensive drone, 5 drone parts per boarding drone, and 2 drone parts per crew drone.</li>
+        <li>Ships are standardised to have 15 missiles per missile/bomb weapon, 20 drone parts if it has hacking, 15 drone parts per offensive drone, 10 drone parts per defensive drone (except Hull Repair Drone which is not given any drone parts), 5 drone parts per boarding drone, and 2 drone parts per crew drone.</li>
         <ol>
             <li>Kestrel A: Missiles from 8 to 15, drone parts from 2 to 0.</li>
             <li>Kestrel B: Missiles from 5 to 0.</li>

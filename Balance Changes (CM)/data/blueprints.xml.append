@@ -830,15 +830,25 @@
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CRYSTAL_2">
     <mod:findLike type="systemList">
+        <mod:findLike type="drones">
+            <mod:setAttributes start="true"/>
+        </mod:findLike>
         <mod:findLike type="medbay">
             <mod:setAttributes power="2"/>
+        </mod:findLike>
+        <mod:findLike type="cloaking">
+            <mod:setAttributes start="false"/>
         </mod:findLike>
     </mod:findLike>
     <mod:findLike type="weaponSlots">
         <mod:setValue>3</mod:setValue>
     </mod:findLike>
+    <mod:findLike type="droneList">
+        <mod:setAttributes count="1"/>
+        <mod-append:drone name="SHIP_REPAIR"/>
+    </mod:findLike>
     <mod:findLike type="maxPower">
-        <mod:setAttributes amount="7"/>
+        <mod:setAttributes amount="6"/>
     </mod:findLike>
 </mod:findName>
 </FTL>
