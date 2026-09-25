@@ -389,27 +389,48 @@
     </mod:findLike>
 </mod:findName>
 
-<mod:findComposite>
-    <mod:par op="OR">
-        <mod:findName type="weaponBlueprint" name="CRYSTAL_BURST_1"/>
-        <mod:findName type="weaponBlueprint" name="CRYSTAL_BURST_2"/>
-        <mod:findName type="weaponBlueprint" name="CRYSTAL_HEAVY_1"/>
-        <mod:findName type="weaponBlueprint" name="CRYSTAL_HEAVY_2"/>
-    </mod:par>
+<mod:findName type="weaponBlueprint" name="CRYSTAL_BURST_1">
     <mod:findLike type="cost">
         <mod:setValue>50</mod:setValue>
     </mod:findLike>
-</mod:findComposite>
+</mod:findName>
 
 <mod:findName type="weaponBlueprint" name="CRYSTAL_BURST_2">
+    <mod:findLike type="cooldown">
+        <mod:setValue>14</mod:setValue>
+    </mod:findLike>
     <mod:findLike type="power">
         <mod:setValue>2</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>75</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="CRYSTAL_HEAVY_1">
+    <mod:findLike type="damage">
+        <mod:setValue>0</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="breachChance">
+        <mod:setValue>5</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>50</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="CRYSTAL_HEAVY_2">
-    <mod:findLike type="power">
-        <mod:setValue>2</mod:setValue>
+    <mod:findLike type="breachChance">
+        <mod:setValue>5</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cooldown">
+        <mod:setValue>12</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>75</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="rarity">
+        <mod:setValue>4</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
