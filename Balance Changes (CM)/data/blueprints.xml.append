@@ -204,10 +204,6 @@
     <mod:findLike type="breachChance">
         <mod:setValue>10</mod:setValue>
     </mod:findLike>
-    <mod:findLike type="stunChance">
-        <mod:setValue>10</mod:setValue>
-    </mod:findLike>
-    <mod-append:speed>50</mod-append:speed>
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="BEAM_1">
@@ -252,6 +248,12 @@
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="BEAM_BIO">
+    <mod:findLike type="persDamage">
+        <mod:setValue>2</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cooldown">
+        <mod:setValue>10</mod:setValue>
+    </mod:findLike>
     <mod:findLike type="power">
         <mod:setValue>1</mod:setValue>
     </mod:findLike>
@@ -373,41 +375,62 @@
     <mod:findLike type="cooldown">
         <mod:setValue>9</mod:setValue>
     </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>20</mod:setValue>
+    </mod:findLike>
     <mod:findLike type="rarity">
         <mod:setValue>1</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="BOMB_LOCK">
-    <mod:findLike type="cooldown">
-        <mod:setValue>6</mod:setValue>
-    </mod:findLike>
     <mod:findLike type="rarity">
         <mod:setValue>5</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
-<mod:findComposite>
-    <mod:par op="OR">
-        <mod:findName type="weaponBlueprint" name="CRYSTAL_BURST_1"/>
-        <mod:findName type="weaponBlueprint" name="CRYSTAL_BURST_2"/>
-        <mod:findName type="weaponBlueprint" name="CRYSTAL_HEAVY_1"/>
-        <mod:findName type="weaponBlueprint" name="CRYSTAL_HEAVY_2"/>
-    </mod:par>
+<mod:findName type="weaponBlueprint" name="CRYSTAL_BURST_1">
     <mod:findLike type="cost">
         <mod:setValue>50</mod:setValue>
     </mod:findLike>
-</mod:findComposite>
+</mod:findName>
 
 <mod:findName type="weaponBlueprint" name="CRYSTAL_BURST_2">
+    <mod:findLike type="cooldown">
+        <mod:setValue>14</mod:setValue>
+    </mod:findLike>
     <mod:findLike type="power">
         <mod:setValue>2</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>75</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="CRYSTAL_HEAVY_1">
+    <mod:findLike type="damage">
+        <mod:setValue>0</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="breachChance">
+        <mod:setValue>5</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>50</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="CRYSTAL_HEAVY_2">
-    <mod:findLike type="power">
-        <mod:setValue>2</mod:setValue>
+    <mod:findLike type="breachChance">
+        <mod:setValue>5</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cooldown">
+        <mod:setValue>12</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>75</mod:setValue>
+    </mod:findLike>
+    <mod:findLike type="rarity">
+        <mod:setValue>4</mod:setValue>
     </mod:findLike>
 </mod:findName>
 
@@ -620,13 +643,11 @@
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_2">
-    <mod:findLike type="systemList">
-        <mod:findLike type="doors">
-            <mod:setAttributes start="false"/>
-        </mod:findLike>
-    </mod:findLike>
     <mod:findLike type="weaponList">
         <mod:setAttributes missiles="0"/>
+    </mod:findLike>
+    <mod:findLike type="maxPower">
+        <mod:setAttributes amount="6"/>
     </mod:findLike>
 </mod:findName>
 
@@ -652,9 +673,6 @@
         <mod:findLike type="medbay">
             <mod:setAttributes power="2"/>
         </mod:findLike>
-    </mod:findLike>
-    <mod:findLike type="maxPower">
-        <mod:setAttributes amount="9"/>
     </mod:findLike>
 </mod:findName>
 
@@ -730,9 +748,6 @@
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED">
     <mod:findLike type="systemList">
-        <mod:findLike type="doors">
-            <mod:setAttributes start="false"/>
-        </mod:findLike>
         <mod:findLike type="weapons">
             <mod:setAttributes power="3"/>
         </mod:findLike>
@@ -825,7 +840,7 @@
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CRYSTAL">
     <mod:findLike type="systemList">
-        <mod:findLike type="doors">
+        <mod:findLike type="sensors">
             <mod:setAttributes start="false"/>
         </mod:findLike>
     </mod:findLike>
@@ -833,15 +848,28 @@
 
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_CRYSTAL_2">
     <mod:findLike type="systemList">
+        <mod:findLike type="sensors">
+            <mod:setAttributes start="false"/>
+        </mod:findLike>
+        <mod:findLike type="drones">
+            <mod:setAttributes start="true"/>
+        </mod:findLike>
         <mod:findLike type="medbay">
             <mod:setAttributes power="2"/>
+        </mod:findLike>
+        <mod:findLike type="cloaking">
+            <mod:setAttributes start="false"/>
         </mod:findLike>
     </mod:findLike>
     <mod:findLike type="weaponSlots">
         <mod:setValue>3</mod:setValue>
     </mod:findLike>
+    <mod:findLike type="droneList">
+        <mod:setAttributes count="1"/>
+        <mod-append:drone name="SHIP_REPAIR"/>
+    </mod:findLike>
     <mod:findLike type="maxPower">
-        <mod:setAttributes amount="7"/>
+        <mod:setAttributes amount="6"/>
     </mod:findLike>
 </mod:findName>
 </FTL>

@@ -139,6 +139,9 @@
     <mod:findLike type="cooldown">
         <mod:setValue>4</mod:setValue>
     </mod:findLike>
+    <mod:findLike type="cost">
+        <mod:setValue>20</mod:setValue>
+    </mod:findLike>
     <mod:findLike type="rarity">
         <mod:setValue>1</mod:setValue>
     </mod:findLike>
@@ -229,7 +232,7 @@
 
 <mod:findName type="weaponBlueprint" name="BOMB_STUN">
     <mod:findLike type="stun">
-        <mod:setValue>10</mod:setValue>
+        <mod:setValue>8</mod:setValue>
     </mod:findLike>
     <mod:findLike type="cooldown">
         <mod:setValue>10</mod:setValue>

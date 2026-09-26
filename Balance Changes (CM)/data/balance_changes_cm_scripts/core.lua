@@ -57,7 +57,7 @@ script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(target
             for i=0, targetedShipManager.vCrewList:size() - 1 do
                 local crewMember = targetedShipManager.vCrewList[i]
                 if crewMember.intruder and crewMember.iRoomId == roomId then
-                    crewMember:DirectModifyHealth(50)
+                    crewMember:DirectModifyHealth(35)
                 end
             end
         

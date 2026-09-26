@@ -25,20 +25,23 @@
     </ol>
     <li>SYSTEMS:</li>
     <ol>
-        <li>Backup Battery: Cost from 35 to 50. Now includes the effects of Battery Charger. Battery Charger rarity from 2 to 0.</li>
-        <li>Doors: Cost from 60 to 45.</li>
-        <li>Pilot: Level 2 cost from 20 to 35.</li>
-        <li>Sensors: Cost from 40 to 30, level 3 cost from 40 to 30.</li>
         <li>Artillery: Level 2/3/4 cost from 30/50/80 to 15/25/50.</li>
         <li>Cloaking: Cost from 150 to 115, level 2 cost from 30 to 70.</li>
         <li>Drone Control: Level 5/6/7/8 cost from 45/60/80/100 to 40/50/60/70.</li>
         <li>Engines: Level 2/3/4/5/6/7/8 cost from 10/15/30/40/60/80/120 to 20/25/30/35/25/30/45.</li>
-        <li>Oxygen: Level 3 cost from 50 to 30. Oxygen now repairs itself at 10% of Human rate (slow enough to be able to suffocate a Crystal before it is repaired).</li>
         <li>Hacking: Cost from 80 to 100, level 2/3 cost from 35/60 to 50/40. Cost of deploying hacking drone from 1 to 2 drone parts, for the player only (due to limitations in implementation, you can still try to deploy the hacking drone at 1 drone part, but the drone will immediately explode, and no drone parts will be consumed). Drone will explode if the system is depowered while the drone is mid-flight.</li>
         <li>Mind Control: Cost from 75 to 90, level 3 cost from 60 to 55.</li>
+        <li>Oxygen: Level 3 cost from 50 to 30. Oxygen now repairs itself at 10% of Human rate (slow enough to be able to suffocate a Crystal before it is repaired).</li>
         <li>Shields: Level 2/8 cost from 100/100 to 120/120.</li>
         <li>Teleporter: Crew take -10% damage from combat while it is powered and not hacked.</li>
         <li>Weapon Control: Level 4/5/6/7 cost from 35/50/75/90 to 40/55/70/85.</li>
+    </ol>
+    <li>SUBSYSTEMS:</li>
+    <ol>
+        <li>Backup Battery: Cost from 35 to 50. Now includes the effects of Battery Charger. Battery Charger rarity from 2 to 0.</li>
+        <li>Doors: Cost from 60 to 45.</li>
+        <li>Pilot: Level 2 cost from 20 to 35.</li>
+        <li>Sensors: Cost from 40 to 30, level 3 cost from 40 to 30.</li>
     </ol>
     <li>WEAPONS:</li>
     <ol>
@@ -58,29 +61,30 @@
         <li>Flak weapons: removed fake projectiles.</li>
         <li>Advanced Flak: Cooldown from 8s to 5s, projectiles from 3 to 2.</li>
         <li>Flak 1: Rarity from 1 to 4, cost from 65 to 80.</li>
-        <li>Flak Artillery: Now only does system damage. Each flak heals 50 health for all friendly crew in the room.</li>
-        <li>Crystal weapons: Cost from 20 to 50.</li>
-        <li>Crystal Burst 2: Power requirement from 3 to 2.</li>
-        <li>Heavy Crystal 2: Rarity from 5 to 4, power requirement from 3 to 2.</li>
+        <li>Flak Artillery: Now only does system damage. Each flak heals 35 health for all friendly crew in the room.</li>
+        <li>Crystal Burst 1: Cost from 20 to 50.</li>
+        <li>Crystal Burst 2: Cost from 20 to 75, power requirement from 3 to 2, cooldown from 17s to 14s.</li>
+        <li>Heavy Crystal 1: Cost from 20 to 50, damage from 2 to 0 (can still pierce 1 shield layer but doesn't pop a layer against 2+ layers), breach chance from 10% to 50%.</li>
+        <li>Heavy Crystal 2: Rarity from 5 to 4, cost from 20 to 75, cooldown from 19s to 12s, breach chance from 100% to 50%.</li>
         <li>Hull Missile: Cost from 65 to 50, cooldown from 17s to 14s.</li>
-        <li>Artemis (enemy version): Rarity from 0 to 2 (now available in stores and random rewards), costs 38.</li>
+        <li>Artemis Missiles (enemy version): Rarity from 0 to 2 (now available in stores and random rewards), costs 38.</li>
         <li>Hermes Missile: Projectile speed from 35 to 105, damage from 3 to 2.</li>
         <li>Pegasus Missile: Cooldown from 20s to 16s.</li>
         <li>Breach Missiles: Cost from 65 to 50, cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
         <li>Swarm Missiles: Projectile speed from 45 to 35, stun chance from 0% to 10%.</li>
-        <li>Healing Burst: Rarity from 3 to 1, cooldown from 18s to 9s.</li>
-        <li>Repair Burst: Rarity from 3 to 1, cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100%.</li>
+        <li>Healing Burst: Rarity from 3 to 1, cost from 40 to 20, cooldown from 18s to 9s.</li>
+        <li>Repair Burst: Rarity from 3 to 1, cost from 40 to 20, cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100%.</li>
         <li>Breach Bomb 1: Crew damage from 30 to 15.</li>
         <li>Fire Bomb: System damage from 0 to 1 (now does damage to supershields because of this), crew damage from 30 to 15.</li>
-        <li>Stun Bomb: Cooldown from 17s to 10s, stun duration from 15s to 10s.</li>
-        <li>Crystal Lockdown Bomb: Default rarity from 0 to 5 (now available in stores and random rewards outside Rock and Crystal sectors), cooldown from 15s to 6s.</li>
+        <li>Stun Bomb: Cooldown from 17s to 10s, stun duration from 15s to 8s.</li>
+        <li>Crystal Lockdown Bomb: Default rarity from 0 to 5 (now available in stores and random rewards outside Rock and Crystal sectors).</li>
         <li>Small Bomb: Rarity from 1 to 4, cost from 45 to 60, fire chance from 10% to 0%.</li>
         <li>Mini-Beam: Cost from 20 to 50 (sell price from 10 to 25), fire chance from 10% to 0%.</li>
         <li>Hull Beam: Cooldown from 14s to 16s.</li>
         <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 80.</li>
         <li>Glaive Beam: Rarity from 5 to 4, cooldown from 25s to 8s. Now has 3 charges, and does damage equal to the number of charges.</li>
         <li>Fire Beam: Cooldown from 20s to 18s, speed from 5 to 7, fire chance from 80% to 90%.</li>
-        <li>Anti-Bio Beam: Rarity from 5 to 4, power requirement from 2 to 1.</li>
+        <li>Anti-Bio Beam: Rarity from 5 to 4, power requirement from 2 to 1, cooldown from 16s to 10s, crew damage from 60 to 30.</li>
     </ol>
     <li>DRONES:</li>
     <ol>
@@ -146,7 +150,7 @@
         <ol>
             <li>All hidden augments now cost 50 (and thus sell for 25 if obtained from an event).</li>
             <li>Advanced FTL Navigation: Travelling to a previously visited beacon refunds 1 fuel (you still need 1 fuel to make the jump) and delays the Rebel Fleet by 1. (Beacons that are about to be taken over will still have ASB and an Elite upon arrival.)</li>
-            <li>Crystal Vengeance: Effect chance from 10% to 100%, speed from 35 to 50, damage from 1 to 0 (note that it still does damage to supershields), breach chance from 10% to 100%, stun chance from 20% to 100%.</li>
+            <li>Crystal Vengeance: Effect chance from 10% to 100%, damage from 1 to 0 (note that it still does damage to supershields), breach chance from 10% to 100%.</li>
             <li>Drone Reactor Booster: Crew and Boarding drones speed boost from +25% to +100%, healing factor from 0.2 to 1 (heal in Drone Control from 1.28HP/s to 6.4HP/s, if powered and not hacked). Crew and Boarding drones heal outside Drone Control at 1.6HP/s (if powered and not hacked).</li>
             <li>Drone Recovery Arm (component of Drone Reactor Booster): Chance for each drone to be recovered from 100% to 20%.</li>
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
@@ -214,10 +218,10 @@
         <li>General Changes:</li>
         <ol>
             <li>Kestrel A: Crew from 3 Humans to 2 Humans.</li>
-            <li>Kestrel B: Removed Doors.</li>
             <li>Kestrel C: Weapons from 1 Dual Lasers and 1 Ion Stunner to 1 Heavy Ion, 1 Ion Stunner and 1 Breach Bomb 1. Weapon Control level from 2 to 3. Sensors level from 2 to 1.</li>
             <li>Engi B: Engines level from 1 to 2. Pilot level from 1 to 2. Added level 1 Sensors. Drones changed from 1 Anti-Personnel and 2 System Repair to 1 Anti-Personnel, 1 System Repair and 1 Ion Intruder.</li>
-            <li>Fed A: Weapon Control level from 2 to 3. Removed Doors.</li>
+            <li>Engi C: Weapons from 1 Dual Lasers to 1 Artemis Missiles.</li>
+            <li>Fed A: Weapon Control level from 2 to 3.</li>
             <li>Fed C: Artillery level from 1 to 4.</li>
             <li>Zoltan A: Doors level from 2 to 1. Engines level from 1 to 2.</li>
             <li>Zoltan B: Added Long-Ranged Scanners.</li>
@@ -226,15 +230,15 @@
             <li>Mantis B: Engines level from 1 to 2. Medbay level from 1 to 2.</li>
             <li>Slug Cruisers: Doors level from 2 to 1.</li>
             <li>Slug B: Weapon Control level from 2 to 3.</li>
-            <li>Slug C: Weapon Control level from 2 to 3.</li>
+            <li>Slug C: Crew from 3 Slugs to 1 Slug 1 Engi. Weapon Control level from 2 to 3.</li>
             <li>Rock B: Added an external door to the Backup Battery room. Oxygen level from 2 to 1.</li>
             <li>Stealth A: Engines level from 4 to 3. Drone Control has 3 drone slots when bought.</li>
             <li>Stealth B: Weapon Control level from 4 to 5. Cloaking level from 2 to 1. Engines level from 2 to 3. Drone Control has 3 drone slots when bought.</li>
             <li>Stealth C: Added level 2 Sensors.</li>
             <li>Lanius A: Crew from 1 Human 2 Lanius to 1 Lanius. Pilot level from 1 to 2.</li>
             <li>Lanius B: Removed Clone Bay. Teleporter level from 1 to 3. Added level 1 Sensors.</li>
-            <li>Crystal A: Removed Doors.</li>
-            <li>Crystal B: Weapon slots from 4 to 3. Medbay level from 1 to 2.</li>
+            <li>Crystal A: Removed Sensors.</li>
+            <li>Crystal B: Weapon slots from 4 to 3. Removed Cloaking and Sensors. Added level 2 Drone Control with 1 Hull Repair Drone. Medbay level from 1 to 2.</li>
         </ol>
         <li>Ships are standardised to not have manning stations against doors.</li>
         <ol>
@@ -242,29 +246,29 @@
             <li>Rock C: Shifted 2 Doors.</li>
             <li>Crystal A: Removed 1 door (one of the 2 removed doors mentioned above)</li>
         </ol>
-        <li>Ships are standardised to have just enough reactor to power all non-medical systems and at most 1 shield layer. Each Zoltan counts as 1 reactor, except 1 Zoltan if it needs to be in Pilot.</li>
+        <li>Ships are standardised to have just enough reactor to power all non-medical systems, except Kestrel B (-2) and Crystal B (-2). Each Zoltan counts as 1 reactor, except 1 Zoltan if it needs to be in Pilot.</li>
         <ol>
+            <li>Kestrel B: Reactor from 8 to 6.</li>
             <li>Kestrel C: Reactor from 7 to 8.</li>
             <li>Engi A: Reactor from 10 to 9.</li>
             <li>Engi B: Reactor from 9 to 11.</li>
             <li>Fed B: Reactor from 9 to 8.</li>
             <li>Fed C: Reactor from 7 to 8.</li>
             <li>Zoltan A: Reactor from 5 to 6.</li>
-            <li>Mantis B: Reactor 11 to 9.</li>
             <li>Slug B: Reactor from 7 to 8.</li>
             <li>Stealth A: Reactor from 8 to 7.</li>
             <li>Stealth B: Reactor from 7 to 8.</li>
             <li>Stealth C: Reactor from 7 to 8.</li>
             <li>Lanius B: Reactor from 8 to 9.</li>
-            <li>Crystal B: Reactor from 8 to 7.</li>
+            <li>Crystal B: Reactor from 8 to 6.</li>
         </ol>
-        <li>Ships are standardised to have 15 missiles per missile/bomb weapon, 20 drone parts if it has hacking, 15 drone parts per offensive drone, 10 drone parts per defensive drone, 5 drone parts per boarding drone, and 2 drone parts per crew drone.</li>
+        <li>Ships are standardised to have 15 missiles per missile/bomb weapon, 20 drone parts if it has hacking, 15 drone parts per offensive drone, 10 drone parts per defensive drone (except Hull Repair Drone which is not given any drone parts), 5 drone parts per boarding drone, and 2 drone parts per crew drone.</li>
         <ol>
             <li>Kestrel A: Missiles from 8 to 15, drone parts from 2 to 0.</li>
             <li>Kestrel B: Missiles from 5 to 0.</li>
             <li>Kestrel C: Missiles from 4 to 15, drone parts from 3 to 0.</li>
             <li>Engi B: Drone parts from 6 to 9.</li>
-            <li>Engi C: Drone parts from 25 to 35.</li>
+            <li>Engi C: Missiles from 0 to 15, drone parts from 25 to 35.</li>
             <li>Fed A: Missiles from 5 to 0, drone parts from 2 to 0.</li>
             <li>Fed B: Missiles from 9 to 15.</li>
             <li>Fed C: Missiles from 5 to 0.</li>
