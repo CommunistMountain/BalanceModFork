@@ -10,4 +10,7 @@
 <mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_text">
     <mod:setValue>“厉害！它具有重构传送期间损坏的身体的能力。看。”他们再次激活了休眠舱，你看到里面的几团水晶重组成人形结构。</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="weapon_ARTILLERY_FED_tooltip">
+    <mod:setValue>巨炮：自动发射可穿透所有护盾并造成 2 点伤害的光束</mod:setValue> 
+</mod:findName>
 </FTL>

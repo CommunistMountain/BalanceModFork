@@ -25,7 +25,7 @@
     </ol>
     <li>SYSTEMS:</li>
     <ol>
-        <li>Artillery: Level 2/3/4 cost from 30/50/80 to 15/25/50.</li>
+        <li>Artillery: Level 4 cost from 80 to 100.</li>
         <li>Cloaking: Cost from 150 to 115, level 2 cost from 30 to 70.</li>
         <li>Drone Control: Level 5/6/7/8 cost from 45/60/80/100 to 40/50/60/70.</li>
         <li>Engines: Level 2/3/4/5/6/7/8 cost from 10/15/30/40/60/80/120 to 20/25/30/35/25/30/45.</li>
@@ -85,6 +85,7 @@
         <li>Glaive Beam: Rarity from 5 to 4, cooldown from 25s to 8s. Now has 3 charges, and does damage equal to the number of charges.</li>
         <li>Fire Beam: Cooldown from 20s to 18s, speed from 5 to 7, fire chance from 80% to 90%.</li>
         <li>Anti-Bio Beam: Rarity from 5 to 4, power requirement from 2 to 1, cooldown from 16s to 10s, crew damage from 60 to 30.</li>
+        <li>Artillery Beam: Damage from 1 to 2.</li>
     </ol>
     <li>DRONES:</li>
     <ol>

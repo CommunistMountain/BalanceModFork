@@ -10,4 +10,7 @@
 <mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_text">
     <mod:setValue>"Fantastico! Ha la capacità di ricostruire il corpo del passeggero, nel caso che venga danneggiato durante il transito! Guardate...". Riattiva la capsula e vedi che i pezzi di cristallo all'interno si compongono fino a formare una struttura umanoide.</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="weapon_ARTILLERY_FED_tooltip">
+    <mod:setValue>Artiglieria: spara automaticamente un raggio che penetra tutti gli scudi per infliggere 2 punto danno.</mod:setValue> 
+</mod:findName>
 </FTL>

@@ -67,16 +67,8 @@
 <mod:findName type="systemBlueprint" name="artillery">
     <mod:findLike type="upgradeCost">
         <mod:findLike type="level">
-        <mod:selector>30</mod:selector>
-            <mod:setValue>15</mod:setValue>
-        </mod:findLike>
-        <mod:findLike type="level">
-        <mod:selector>50</mod:selector>
-            <mod:setValue>25</mod:setValue>
-        </mod:findLike>
-        <mod:findLike type="level">
         <mod:selector>80</mod:selector>
-            <mod:setValue>50</mod:setValue>
+            <mod:setValue>100</mod:setValue>
         </mod:findLike>
     </mod:findLike>
 </mod:findName>
@@ -154,6 +146,12 @@
 <mod:findName type="systemBlueprint" name="doors">
     <mod:findLike type="cost">
         <mod:setValue>45</mod:setValue>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="ARTILLERY_FED">
+    <mod:findLike type="damage">
+        <mod:setValue>2</mod:setValue>
     </mod:findLike>
 </mod:findName>
 

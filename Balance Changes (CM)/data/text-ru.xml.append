@@ -10,4 +10,7 @@
 <mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_text">
     <mod:setValue>«Невероятно! Капсула может восстановить тело пассажира, если он был ранен во время транзита. Смотрите». Они приводят капсулу в действие, и вы видите, как куски кристалла складываются в антропоморфную фигуру.</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="weapon_ARTILLERY_FED_tooltip">
+    <mod:setValue>Лучевая установка с автоматическим наведением. Пробивает все щиты и наносит 2 ед. урона.</mod:setValue> 
+</mod:findName>
 </FTL>
