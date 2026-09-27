@@ -186,6 +186,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
     <li>droneSelectHotkeys: Allows selecting controllable crew drones with their hotkey.</li>
     <li>droneSaveStations: Allows the current stations of controllable crew drones to be saved.</li>
     <li>playerHpColorFix: Hull color now scales according to a 3-third ratio instead of a hardcoded value.</li>
+    <li>questRevisitFix: Quests no longer spawn repeatedly for free when revisiting a beacon that spawns quests immediately upon arrival.</li>
     <li>enemyPreigniterFix: Enemies are able to use the Weapon Pre-Igniter augment if they are defined to spawn with it.</li>
     <li>multiShipFix: Allows multiple ships to be loaded per beacon.</li>
     <li>scaleSlugGel: Slug Gel strength may now be edited by mods (value of 0.25 corresponds to vanilla speed).</li>
