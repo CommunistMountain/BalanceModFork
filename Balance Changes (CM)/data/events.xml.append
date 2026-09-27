@@ -2,14 +2,40 @@
 
 <FTL>
 <event name="REWARDCM">
-    <text>I should get >= 100 of each</text>
-    <autoReward level="HIGH">standard</autoReward>
-    <item_modify>
-        <item type="fuel" min="100" max="100"/>
-        <item type="scrap" min="100" max="100"/>
-        <item type="missiles" min="100" max="100"/>
-        <item type="drones" min="100" max="100"/>
-    </item_modify>
+    <text>TEST</text>
+    <choice>
+        <text>This should be disabled!</text>
+        <event>
+            <text>Here's your reward</text>
+            <autoReward level="MED">stuff</autoReward>
+            <autoReward level="HIGH">standard</autoReward>
+            <item_modify>
+                <item type="scrap" min="-6" max="-6"/>
+            </item_modify>
+        </event>
+    </choice>
+    <choice>
+        <text>I don't have enough for above...</text>
+        <event>
+            <text>Good.</text>
+        </event>
+    </choice>
+</event>
+
+<event name="TTT">
+    <text>Here's your reward</text>
+    <autoReward level="HIGH">weapon</autoReward>
+</event>
+
+<mod:findName type="eventList" name="QUEST_ESCORT_ARRIVE">
+    <mod:removeTag/>
+</mod:findName>
+
+
+<event name="QUEST_ESCORT_ARRIVE">
+    <text id="event_QUEST_ESCORT_ARRIVE_4_text"/>
+    <upgrade amount="1" system="reactor"/>
+    <revisitEvent>QUEST_ESCORT_ARRIVE</revisitEvent>
 </event>
 
 <mod:findName type="event" name="ROCK_CRYSTAL_BEACON">
