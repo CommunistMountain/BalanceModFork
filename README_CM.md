@@ -25,7 +25,7 @@
     </ol>
     <li>SYSTEMS:</li>
     <ol>
-        <li>Artillery: Level 2/3/4 cost from 30/50/80 to 15/25/50.</li>
+        <li>Artillery: Level 4 cost from 80 to 100.</li>
         <li>Cloaking: Cost from 150 to 115, level 2 cost from 30 to 70.</li>
         <li>Drone Control: Level 5/6/7/8 cost from 45/60/80/100 to 40/50/60/70.</li>
         <li>Engines: Level 2/3/4/5/6/7/8 cost from 10/15/30/40/60/80/120 to 20/25/30/35/25/30/45.</li>
@@ -45,62 +45,97 @@
     </ol>
     <li>WEAPONS:</li>
     <ol>
-        <li>Ion Charger: Stun chance from 0% to 10%.</li>
-        <li>Heavy Ion: Cooldown from 13s to 10s, projectiles from 1 to 2, projectile speed from 40 to 30, ion damage from 2 to 1, stun chance from 20% to 10%.</li>
-        <li>Ion Blast 2: Power requirement from 3 to 2.</li>
-        <li>Chain Ion: Cooldown from 14s to 8s, stun chance from 0% to 10%. Projectile speed is equal to 30 * ion damage (up to 120 at 4 ion damage).</li>
-        <li>Laser Charger (both versions): Fire chance from 0% to 10%.</li>
-        <li>Laser Charger (player version): Cost from 30 to 50 (sell price from 15 to 25).</li>
-        <li>Dual Lasers: Cost from 25 to 50 (sell price from 12 to 25).</li>
-        <li>Burst Laser 1: Rarity from 1 to 3.</li>
-        <li>Burst Laser 3: Cooldown from 19s to 14s, fire chance from 0% to 10%.</li>
-        <li>Heavy Laser 1: Rarity from 2 to 4, cooldown from 9s to 11s.</li>
-        <li>Heavy Pierce 1: Power requirement from 2 to 1, cooldown from 10s to 12s, stun chance from 0% to 20%.</li>
-        <li>Hull Laser 1: Cooldown from 14s to 15s, projectile speed from 75 to 90, fire chance from 0% to 10%, breach chance from 20% to 18%.</li>
-        <li>Chain Vulcan: Rarity from 5 to 4. Starting cooldown from 11.1s to 8.5s, cooldown reduction per shot from -2s to -1.5s (time needed before final cooldown from 35.5s to 27.5s, final cooldown from 1.1s to 1s).</li>
-        <li>Flak weapons: removed fake projectiles.</li>
-        <li>Advanced Flak: Cooldown from 8s to 5s, projectiles from 3 to 2.</li>
-        <li>Flak 1: Rarity from 1 to 4, cost from 65 to 80.</li>
-        <li>Flak Artillery: Now only does system damage. Each flak heals 35 health for all friendly crew in the room.</li>
-        <li>Crystal Burst 1: Cost from 20 to 50.</li>
-        <li>Crystal Burst 2: Cost from 20 to 75, power requirement from 3 to 2, cooldown from 17s to 14s.</li>
-        <li>Heavy Crystal 1: Cost from 20 to 50, damage from 2 to 0 (can still pierce 1 shield layer but doesn't pop a layer against 2+ layers), breach chance from 10% to 50%.</li>
-        <li>Heavy Crystal 2: Rarity from 5 to 4, cost from 20 to 75, cooldown from 19s to 12s, breach chance from 100% to 50%.</li>
-        <li>Hull Missile: Cost from 65 to 50, cooldown from 17s to 14s.</li>
-        <li>Artemis Missiles (enemy version): Rarity from 0 to 2 (now available in stores and random rewards), costs 38.</li>
-        <li>Hermes Missile: Projectile speed from 35 to 105, damage from 3 to 2.</li>
-        <li>Pegasus Missile: Cooldown from 20s to 16s.</li>
-        <li>Breach Missiles: Cost from 65 to 50, cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
-        <li>Swarm Missiles: Projectile speed from 45 to 35, stun chance from 0% to 10%.</li>
-        <li>Healing Burst: Rarity from 3 to 1, cost from 40 to 20, cooldown from 18s to 9s.</li>
-        <li>Repair Burst: Rarity from 3 to 1, cost from 40 to 20, cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100%.</li>
-        <li>Breach Bomb 1: Crew damage from 30 to 15.</li>
-        <li>Fire Bomb: System damage from 0 to 1 (now does damage to supershields because of this), crew damage from 30 to 15.</li>
-        <li>Stun Bomb: Cooldown from 17s to 10s, stun duration from 15s to 8s.</li>
-        <li>Crystal Lockdown Bomb: Default rarity from 0 to 5 (now available in stores and random rewards outside Rock and Crystal sectors).</li>
-        <li>Small Bomb: Rarity from 1 to 4, cost from 45 to 60, fire chance from 10% to 0%.</li>
-        <li>Mini-Beam: Cost from 20 to 50 (sell price from 10 to 25), fire chance from 10% to 0%.</li>
-        <li>Hull Beam: Cooldown from 14s to 16s.</li>
-        <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 80.</li>
-        <li>Glaive Beam: Rarity from 5 to 4, cooldown from 25s to 8s. Now has 3 charges, and does damage equal to the number of charges.</li>
-        <li>Fire Beam: Cooldown from 20s to 18s, speed from 5 to 7, fire chance from 80% to 90%.</li>
-        <li>Anti-Bio Beam: Rarity from 5 to 4, power requirement from 2 to 1, cooldown from 16s to 10s, crew damage from 60 to 30.</li>
+        <li>ION:</li>
+        <ol>
+            <li>Chain Ion: Cooldown from 14s to 8s, stun chance from 0% to 10%. Projectile speed is equal to 30 * ion damage (up to 120 at 4 ion damage).</li>
+            <li>Heavy Ion: Cooldown from 13s to 10s, projectiles from 1 to 2, projectile speed from 40 to 30, ion damage from 2 to 1, stun chance from 20% to 10%.</li>
+            <li>Ion Blast 2: Power requirement from 3 to 2.</li>
+            <li>Ion Charger: Stun chance from 0% to 10%.</li>
+        </ol>
+        <li>LASER:</li>
+        <ol>
+            <li>Burst Laser 1: Rarity from 1 to 3.</li>
+            <li>Burst Laser 3: Cooldown from 19s to 14s, fire chance from 0% to 10%.</li>
+            <li>Chain Vulcan: Rarity from 5 to 4. Starting cooldown from 11.1s to 8.5s, cooldown reduction per shot from -2s to -1.5s (time needed before final cooldown from 35.5s to 27.5s, final cooldown from 1.1s to 1s).</li>
+            <li>Dual Lasers: Cost from 25 to 50 (sell price from 12 to 25).</li>
+            <li>Heavy Laser 1: Rarity from 2 to 4, cooldown from 9s to 11s.</li>
+            <li>Heavy Pierce 1: Power requirement from 2 to 1, cooldown from 10s to 12s, stun chance from 0% to 20%.</li>
+            <li>Hull Laser 1: Cooldown from 14s to 15s, projectile speed from 75 to 90, fire chance from 0% to 10%, breach chance from 20% to 18%.</li>
+            <li>Laser Charger (both versions): Fire chance from 0% to 10%.</li>
+            <li>Laser Charger (player version): Cost from 30 to 50 (sell price from 15 to 25).</li>
+        </ol>
+        <li>FLAK:</li>
+        <ol>
+            <li>Flak weapons: removed fake projectiles.</li>
+            <li>Advanced Flak: Cooldown from 8s to 5s, projectiles from 3 to 2.</li>
+            <li>Flak 1: Rarity from 1 to 4, cost from 65 to 80.</li>
+            <li>Flak Artillery: Now only does system damage. Each flak heals 35 health for all friendly crew in the room.</li>
+        </ol>
+        <li>CRYSTAL:</li>
+        <ol>
+            <li>Crystal Burst 1: Cost from 20 to 50.</li>
+            <li>Crystal Burst 2: Cost from 20 to 75, power requirement from 3 to 2, cooldown from 17s to 14s.</li>
+            <li>Heavy Crystal 1: Cost from 20 to 50, damage from 2 to 0 (can still pierce 1 shield layer but doesn't pop a layer against 2+ layers), breach chance from 10% to 50%.</li>
+            <li>Heavy Crystal 2: Rarity from 5 to 4, cost from 20 to 75, cooldown from 19s to 12s, breach chance from 100% to 50%.</li>
+        </ol>
+        <li>MISSILE:</li>
+        <ol>
+            <li>Artemis Missiles (enemy version): Rarity from 0 to 2 (now available in stores and random rewards), costs 38.</li>
+            <li>Breach Missiles: Cost from 65 to 50, cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
+            <li>Hermes Missile: Projectile speed from 35 to 105, damage from 3 to 2.</li>
+            <li>Hull Missile: Cost from 65 to 50, cooldown from 17s to 14s.</li>
+            <li>Pegasus Missile: Cooldown from 20s to 16s.</li>
+            <li>Swarm Missiles: Projectile speed from 45 to 35, stun chance from 0% to 10%.</li>
+        </ol>
+        <li>BOMB:</li>
+        <ol>
+            <li>Breach Bomb 1: Crew damage from 30 to 15.</li>
+            <li>Crystal Lockdown Bomb: Default rarity from 0 to 5 (now available in stores and random rewards outside Rock and Crystal sectors).</li>
+            <li>Fire Bomb: System damage from 0 to 1 (now does damage to supershields because of this), crew damage from 30 to 15.</li>
+            <li>Healing Burst: Rarity from 3 to 1, cost from 40 to 20, cooldown from 18s to 9s.</li>
+            <li>Repair Burst: Rarity from 3 to 1, cost from 40 to 20, cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100%.</li>
+            <li>Small Bomb: Rarity from 1 to 4, cost from 45 to 60, fire chance from 10% to 0%.</li>
+            <li>Stun Bomb: Cooldown from 17s to 10s, stun duration from 15s to 8s.</li>
+        </ol>
+        <li>BEAM:</li>
+        <ol>
+            <li>Anti-Bio Beam: Rarity from 5 to 4, power requirement from 2 to 1, cooldown from 16s to 10s, crew damage from 60 to 30.</li>
+            <li>Artillery Beam: Damage from 1 to 2.</li>
+            <li>Fire Beam: Cooldown from 20s to 18s, speed from 5 to 7, fire chance from 80% to 90%.</li>
+            <li>Glaive Beam: Rarity from 5 to 4, cooldown from 25s to 8s. Now has 3 charges, and does damage equal to the number of charges.</li>
+            <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 80.</li>
+            <li>Hull Beam: Cooldown from 14s to 16s.</li>
+            <li>Mini-Beam: Cost from 20 to 50 (sell price from 10 to 25), fire chance from 10% to 0%.</li>
+        </ol>
     </ol>
     <li>DRONES:</li>
     <ol>
         <li>Unpowered space drones can be ionized by enemy ion projectiles.</li>
-        <li>Combat drones now travel at least 90 degrees between shots, when previously they could potentially travel a shorter angle if the start and end angles are close to the 0/360 boundary. Frequency of shots reduced by about 9% on average (e.g. COMBAT_1 goes from about 19.5 to about 17.75 shots per min; credit to Ataraxia-Mechanica for this fix and calculation).</li>
-        <li>Beam Drone 1, Beam Drone 2: Fire chance from 10% to 0%.</li>
-        <li>Combat Drone 2, Beam Drone 2: Rarity from 5 to 4.</li>
-        <li>Fire Drone: Power requirement from 3 to 2.</li>
-        <li>Shield Overcharger (both versions): Speed from 5 to 8, cooldown per layer changed from 8/10/13/16/20s to 8s for all layers (which also makes the cooldown-resetting trick unnecessary).</li>
-        <li>Defense Drone 1: Rarity from 1 to 3, speed from 5 to 6.</li>
-        <li>Defense Drone 2: Cooldown from 0.88s to 0.7s.</li>
-        <li>Hull Repair Drone: Cost from 85 to 40, speed from 20 to 15. Drone Recovery Arm no longer retrieves it if you jump while it is repairing.</li>
-        <li>System Repair Drone: Cost from 30 to 20.</li>
-        <li>Anti-Personnel Drone: Power requirement from 2 to 1.</li>
-        <li>Boarding Drone: Rarity from 4 to 2, cost from 70 to 30. 1 drone part will be retrieved at the end of combat if it is not destroyed.</li>
-        <li>Ion Intruder Drone: Rarity from 4 to 2, cost from 65 to 40. 1 drone part will be retrieved at the end of combat if it is not destroyed.</li>
+        <li>OFFENSE:</li>
+        <ol>
+            <li>Offense drones now travel at least 90 degrees between shots, when previously they could potentially travel a shorter angle if the start and end angles are close to the 0/360 boundary. Frequency of shots reduced by about 9% on average (e.g. COMBAT_1 goes from about 19.5 to about 17.75 shots per min; credit to Ataraxia-Mechanica for this fix and calculation).</li>
+            <li>Beam Drone 1, Beam Drone 2: Fire chance from 10% to 0%.</li>
+            <li>Combat Drone 2, Beam Drone 2: Rarity from 5 to 4.</li>
+            <li>Fire Drone: Power requirement from 3 to 2.</li>
+        </ol>
+        <li>DEFENSE:</li>
+        <ol>
+            <li>Defense Drone 1: Rarity from 1 to 3, speed from 5 to 6.</li>
+            <li>Defense Drone 2: Cooldown from 0.88s to 0.7s.</li>
+            <li>Hull Repair Drone: Cost from 85 to 40, speed from 20 to 15. Drone Recovery Arm no longer retrieves it if you jump while it is repairing.</li>
+            <li>Shield Overcharger (both versions): Speed from 5 to 8, cooldown per layer changed from 8/10/13/16/20s to 8s for all layers (which also makes the cooldown-resetting trick unnecessary).</li>
+        </ol>
+        <li>CREW:</li>
+        <ol>
+            <li>Anti-Personnel Drone: Power requirement from 2 to 1.</li>
+            <li>System Repair Drone: Cost from 30 to 20.</li>
+        </ol>
+        <li>BOARDER:</li>
+        <ol>
+            <li>1 drone part will be retrieved at the end of combat for each undestroyed boarder drone.</li>
+            <li>Boarding Drone: Rarity from 4 to 2, cost from 70 to 30.</li>
+            <li>Ion Intruder Drone: Rarity from 4 to 2, cost from 65 to 40.</li>
+        </ol>
     </ol>
     <li>AUGMENTS:</li>
     <ol>
@@ -151,7 +186,7 @@
             <li>All hidden augments now cost 50 (and thus sell for 25 if obtained from an event).</li>
             <li>Advanced FTL Navigation: Travelling to a previously visited beacon refunds 1 fuel (you still need 1 fuel to make the jump) and delays the Rebel Fleet by 1. (Beacons that are about to be taken over will still have ASB and an Elite upon arrival.)</li>
             <li>Crystal Vengeance: Effect chance from 10% to 100%, damage from 1 to 0 (note that it still does damage to supershields), breach chance from 10% to 100%.</li>
-            <li>Drone Reactor Booster: Crew and Boarding drones speed boost from +25% to +100%, healing factor from 0.2 to 1 (heal in Drone Control from 1.28HP/s to 6.4HP/s, if powered and not hacked). Crew and Boarding drones heal outside Drone Control at 1.6HP/s (if powered and not hacked).</li>
+            <li>Drone Reactor Booster: Crew and boarder drones speed boost from +25% to +100%, healing factor from 0.2 to 1 (heal in Drone Control from 1.28HP/s to 6.4HP/s, if powered and not hacked). Crew and boarder drones heal outside Drone Control at 1.6HP/s (if powered and not hacked).</li>
             <li>Drone Recovery Arm (component of Drone Reactor Booster): Chance for each drone to be recovered from 100% to 20%.</li>
             <li>Explosive Replicator (component of Rock Plating): Effect chance from 50% to 20%.</li>
             <li>Fire Suppression (component of Mantis Pheromones): Fire extinguishing speed from 5/6 of Human rate to 1/2 of Human rate.</li>
@@ -262,7 +297,7 @@
             <li>Lanius B: Reactor from 8 to 9.</li>
             <li>Crystal B: Reactor from 8 to 6.</li>
         </ol>
-        <li>Ships are standardised to have 15 missiles per missile/bomb weapon, 20 drone parts if it has hacking, 15 drone parts per offensive drone, 10 drone parts per defensive drone (except Hull Repair Drone which is not given any drone parts), 5 drone parts per boarding drone, and 2 drone parts per crew drone.</li>
+        <li>Ships are standardised to have 15 missiles per missile/bomb weapon, 20 drone parts if it has hacking, 15 drone parts per offense drone, 10 drone parts per defensive drone (except Hull Repair Drone which is not given any drone parts), 5 drone parts per boarder drone, and 2 drone parts per crew drone.</li>
         <ol>
             <li>Kestrel A: Missiles from 8 to 15, drone parts from 2 to 0.</li>
             <li>Kestrel B: Missiles from 5 to 0.</li>

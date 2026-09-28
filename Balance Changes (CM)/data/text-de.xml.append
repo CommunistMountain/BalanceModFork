@@ -10,4 +10,7 @@
 <mod:findName type="text" name="event_ZOLTAN_CREW_STUDY_c4_c1_text">
     <mod:setValue>"Fantastisch! Es ist in der Lage, den Körper wiederherzustellen, wenn er beim Transport zu Schaden gekommen ist. Sehen Sie nur!" Sie reaktivieren die Kapsel und du beobachtest, wie sich die Kristallteile zu einer menschlichen Gestalt zusammenfügen.</mod:setValue>
 </mod:findName>
+<mod:findName type="text" name="weapon_ARTILLERY_FED_tooltip">
+    <mod:setValue>Geschütz: Strahl, der automatisch einen Strahl abfeuert, der alle Schilde durchdringt und 2 Schaden verursacht.</mod:setValue> 
+</mod:findName>
 </FTL>

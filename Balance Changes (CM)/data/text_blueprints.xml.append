@@ -13,6 +13,9 @@
 <mod:findName type="text" name="aug_ROCK_ARMOR_desc">
     <mod:setValue>Superior hull armor provides a 15 percent chance to negate incoming hull damage (hit systems will still be damaged). Missile based weapons have a 20 percent chance of not using a missile.</mod:setValue> 
 </mod:findName>
+<mod:findName type="text" name="weapon_ARTILLERY_FED_tooltip">
+    <mod:setValue>Artillery: Beam that automatically fires a 2 damage beam that pierces all shields</mod:setValue> 
+</mod:findName>
 <mod:findName type="text" name="weapon_BEAM_3_short">
     <mod:setValue>Glaive B</mod:setValue> 
 </mod:findName>

@@ -29,6 +29,7 @@
         <mod:findLike type="shieldWithoutSystem"/>
         <mod:findLike type="droneSelectHotkeys"/>
         <mod:findLike type="droneSaveStations"/>
+        <mod:findLike type="questRevisitFix"/>
         <mod:findLike type="enemyPreigniterFix"/>
         <mod:findLike type="multiShipFix"/>
         <mod:findLike type="scaleSlugGel"/>
