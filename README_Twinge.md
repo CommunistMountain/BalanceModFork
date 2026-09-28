@@ -26,40 +26,64 @@ Continued from Twinge's Balance and Bugfix Mod 4.0.2. This starts at 4.0.3 since
     </ol>
     <li>WEAPONS:</li>
     <ol>
+        <li>ION:</li>
+        <ol>
         <li>Ion Blast: Rarity from 3 to 2, projectile speed from 30 to 40.</li>
         <li>Ion Blast 2: Cost from 70 to 60, cooldown from 4 to 3.7, projectile speed from 30 to 40.</li>
         <li>Heavy Ion (renamed to Heavy Ion Stunner): Cost from 45 to 40, cooldown from 13s to 12s, stun chance from 20% to 100%, stun duration from 3s to 7s.</li>
+        </ol>
+        <li>LASER:</li>
+        <ol>
         <li>Burst Laser 1: Cost from 50 to 60.</li>
         <li>Burst Laser 2: Cost from 80 to 100.</li>
         <li>Burst Laser 3: Rarity from 4 to 3, cost from 95 to 40, cooldown from 19s to 18s, fire chance from 0% to 10%.</li>
         <li>Heavy Laser 2: Rarity from 4 to 3.</li>
         <li>Heavy Pierce 1: stun chance from 0% to 20%.</li>
         <li>Hull Laser 2: Cost from 75 to 60, projectile speed from 90 to 75, breach chance from 27% to 36%.</li>
+        </ol>
+        <li>CRYSTAL:</li>
+        <ol>
         <li>Crystal Burst 1: Cost from 20 to 30.</li>
         <li>Crystal Burst 2: Cost from 20 to 40, cooldown from 17s to 14s.</li>
         <li>Heavy Crystal 1: Cost from 20 to 30, breach chance from 10% to 20%.</li>
         <li>Heavy Crystal 2: Cost from 20 to 50, cooldown from 19s to 17s, shield piercing from 1 to 2, stun chance from 20% to 100%.</li>
+        </ol>
+        <li>MISSILE:</li>
+        <ol>
         <li>Hermes Missile: Cost from 45 to 30.</li>
         <li>Pegasus Missile: Cost from 60 to 50, cooldown from 20s to 16s.</li>
         <li>Breach Missiles: Cost from 65 to 50, cooldown from 22s to 21s, fire chance from 30% to 0%, breach chance from 56% to 70%, stun chance from 10% to 20%.</li>
         <li>Hull Missiles: Cost from 65 to 40, cooldown from 17s to 14s, breach chance from 27% to 36%, stun chance from 10% to 30%.</li>
+        </ol>
+        <li>BOMB:</li>
+        <ol>
         <li>Small Bomb: Cost from 45 to 50.</li>
         <li>Fire Bomb: Rarity from 2 to 3, cost from 50 to 40, cooldown from 15s to 14s.</li>
         <li>Ion Bomb: Cost from 55 to 50, cooldown from 22s to 21s.</li>
         <li>Healing Burst: Rarity from 3 to 4, cost from 40 to 25, cooldown from 18s to 9s.</li>
         <li>Crystal Lockdown Bomb: Cost from 45 to 25, cooldown from 15s to 6s.</li>
+        </ol>
+        <li>BEAM:</li>
+        <ol>
         <li>Mini-Beam: Length from 45 to 47.</li>
         <li>Halberd Beam: Rarity from 2 to 4, cost from 65 to 85, cooldown from 17s to 18s.</li>
         <li>Glaive Beam: Cost from 95 to 80.</li>
         <li>Anti-Bio Beam: Cost from 50 to 40.</li>
         <li>Hull Beam: Cost from 70 to 65.</li>
+        </ol>
     </ol>
     <li>DRONES:</li>
     <ol>
-        <li>Boarder Drone (player only): power requirement from 3 to 2.</li>
+        <li>BOARDER:</li>
+        <ol>
+        <li>Boarding Drone (player only): power requirement from 3 to 2.</li>
+        </ol>
+        <li>DEFENSE:</li>
+        <ol>
         <li>Defense Drone 1 (player only): cooldown from 1s to 1.4s, projectile speed from 100 to 250.</li>
         <li>Defense Drone 1 (enemy only): cooldown from 1s to 1.4s, projectile speed from 100 to 500.</li>
         <li>Defense Drone 2 (enemy only): cooldown from 0.88s to 0.95s.</li>
+        </ol>
     </ol>
     <li>AUGMENTS:</li>
     <ol>

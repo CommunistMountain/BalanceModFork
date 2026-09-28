@@ -22,7 +22,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
 ## Bugfixes (gameplay)
 <ol>
     <li>Hull Missile: Now considered a missile weapon for events.</li>
-    <li>Fire Drone: Now considered a combat drone for events.</li>
+    <li>Fire Drone: Now considered an offense drone for events.</li>
     <li>Stores in Crystal Homeworlds: No longer have Advanced Edition weapons.</li>
     <li>Hacking: When you are at 1 drone part and target hacking at the enemy ship while paused, then deploy another drone, the hacking drone will blow up once you resume, preventing it from being used with 0 drone parts.</li>
     <li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
