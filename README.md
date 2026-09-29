@@ -130,6 +130,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
     </ol>
     <li>SHIPS:</li>
     <ol>
+        <li>Auto-Assault: Weapon Control min from 0 to 1 (if level 0 is rolled, in vanilla it is automatically changed to 1 and thus has no issues, but in Hyperspace it won't and will cause bugged weapons (apparently generating too many weapons but not enough to power all of them), thus this is to maintain vanilla behaviour).</li>
         <li>BOSS_SCOUT_RESCUE, JELLY, JELLY_UNLOCK1, PIRATE_SLAVER, PIRATE_SMUGGLE, REBEL, SQUAT_TRANSPORT: A generic gotaway message is now displayed if they successfully escape.</li>
     </ol>
 </ol>
