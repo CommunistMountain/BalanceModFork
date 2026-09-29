@@ -8,6 +8,8 @@
 
 Low priority:
 
+consider teleporterHackFix
+
 consider changing enemy reactor amounts (only relevant for plasma storms)
 
 review weapon cooldowns and projectile speeds? should probably arrive in this order: bomb, flak, missile, ion, crystal, laser, beam

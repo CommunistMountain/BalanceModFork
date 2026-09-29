@@ -11,4 +11,12 @@
         <mod:setValue>COMBAT_FIRE</mod:setValue>
     </mod:findLike>
 </mod:findName>
+
+<mod:findName type="shipBlueprint" name="AUTO_ASSAULT">
+    <mod:findLike type="systemList">
+        <mod:findLike type="weapons">
+            <mod:setAttributes power="1"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
 </FTL>
