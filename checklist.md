@@ -8,7 +8,7 @@
 
 Low priority:
 
-consider teleporterHackFix
+consider teleporterHackFix and energyBypassTeleportRecall (and other HS options)
 
 consider changing enemy reactor amounts (only relevant for plasma storms)
 
