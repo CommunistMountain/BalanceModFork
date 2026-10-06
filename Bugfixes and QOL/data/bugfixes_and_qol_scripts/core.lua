@@ -140,20 +140,6 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
             no_pause_time_fps_increments = no_pause_time_fps_increments - 1
             Hyperspace.metaVariables.no_pause_time_fps_cm = Hyperspace.metaVariables.no_pause_time_fps_cm + 1
         end
-        
-        local hackingSystem = shipManager.hackingSystem
-        if hackingSystem ~= nil and hackingSystem.spendDrone == 1 then
-            hackingSystem.spendDrone = 0 -- don't use this method, directly modify drone count
-            local partsToUse = 1
-            if shipManager:HasAugmentation("HACKING_USE_MORE_PARTS_CM") > 0 then -- for Balance Changes (CM)
-                partsToUse = 2
-            end
-            if shipManager:GetDroneCount() >= partsToUse then
-                shipManager:ModifyDroneCount(-partsToUse)
-            else
-                hackingSystem:BlowHackingDrone()
-            end
-        end
     else -- elseif shipManager.iShipId == 1 then -- for all enemy-specific checks
         if shipManager.ship.bDestroyed and shipManager.ship.shipName == "boss_3" then
             local all_minutes = Hyperspace.metaVariables.all_time_cm // 60

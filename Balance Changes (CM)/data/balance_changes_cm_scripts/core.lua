@@ -109,8 +109,9 @@ end)
 
 script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
     if shipManager.iShipId == 0 then -- for player-specific actions
-        if shipManager:HasAugmentation("HACKING_USE_MORE_PARTS_CM") <= 0 then
-            shipManager:AddAugmentation("HIDDEN HACKING_USE_MORE_PARTS_CM")
+        local hackingSystem = shipManager.hackingSystem
+        if hackingSystem ~= nil and hackingSystem.spendDrone == 1 and shipManager:HasAugmentation("HACKING_USE_MORE_PARTS_CM") > 0 then
+            hackingSystem.spendDrone = 2
         end
     end
     

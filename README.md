@@ -24,7 +24,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
     <li>Hull Missile: Now considered a missile weapon for events.</li>
     <li>Fire Drone: Now considered an offense drone for events.</li>
     <li>Stores in Crystal Homeworlds: No longer have Advanced Edition weapons.</li>
-    <li>Hacking: When you are at 1 drone part and target hacking at the enemy ship while paused, then deploy another drone, the hacking drone will blow up once you resume, preventing it from being used with 0 drone parts.</li>
+    <li>freeHackingFix: When you are at 1 drone part and target hacking at the enemy ship while paused, then deploy another drone, the hacking drone will blow up once you resume, preventing it from being used with 0 drone parts.</li>
     <li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
     <li>upgradeFix: Upgrade events no longer happen repeatedly for free when revisiting a beacon with them as the first event. Fixes events ESCORT_BEACON and QUEST_ESCORT.</li>
     <li>autoRewardItemModifyFixes: autoReward no longer lets you select choices which have item_modify costs you can't pay for, if it would compensate the cost. Also, autoReward now adds to, instead of overwrites, item_modify (if it rolls the same resources). Fixes events CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK.</li>

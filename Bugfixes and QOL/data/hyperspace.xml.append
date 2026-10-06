@@ -3,6 +3,7 @@
 <FTL>
 <mod:findComposite>
     <mod:par op="OR">
+        <mod:findLike type="freeHackingFix"/>
         <mod:findLike type="hackingIonFix"/>
         <mod:findLike type="questRevisitFix"/>
         <mod:findLike type="upgradeRevisitFix"/>
