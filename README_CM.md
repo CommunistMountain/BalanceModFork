@@ -406,6 +406,7 @@
         <li>Damaged doors automatically close after they have repaired themselves.</li>
         <li>Each supershield layer causes -2% evasion.</li>
         <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
+        <li>In the final sector, no beacons will be taken over by the rebel fleet if it is delayed (other than beacons the Flagship travels to), and 2 beacons per turn will be taken over by the rebel fleet if fleet pursuit is doubled.</li>
     </ol>
     <li>MISC:</li>
     <ol>

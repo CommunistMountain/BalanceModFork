@@ -9,6 +9,7 @@
 
 <mod:findComposite>
     <mod:par op="OR">
+        <mod:findLike type="bossLevelFleetDelay"/>
         <mod:findLike type="hackingDroneFix"/>
         <mod:findLike type="repairDroneRecoveryFix"/>
         <mod:findLike type="scaleDRA"/>
