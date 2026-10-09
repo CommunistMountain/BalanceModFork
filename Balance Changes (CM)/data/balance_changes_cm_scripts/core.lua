@@ -20,16 +20,13 @@ end)
 
 script.on_internal_event(Defines.InternalEvents.CALCULATE_STAT_PRE, function(crewMember, crewStat, crewDefinition, fAmount, bValue)
     if crewMember.intruder then
-        local hackedShipManager = Hyperspace.Global.GetInstance():GetShipManager(1 - crewMember.iShipId)
-        local hackerShipManager = Hyperspace.Global.GetInstance():GetShipManager(crewMember.iShipId)
+        local globalInstance = Hyperspace.Global.GetInstance()
+        local hackerShipManager = globalInstance:GetShipManager(crewMember.iShipId)
         if hackerShipManager ~= nil and hackerShipManager:HasAugmentation("HACKING_STUN") > 0 then
-            for i=0, hackedShipManager.vSystemList:size() - 1 do
-                if crewMember.iRoomId == hackedShipManager.vSystemList[i]:GetRoomId() then
-                    if hackedShipManager:IsSystemHacked(hackedShipManager.vSystemList[i]:GetId()) == 2 then
-                        crewMember.fStunTime = 0
-                    end
-                    break
-                end
+            local hackedShipManager = globalInstance:GetShipManager(1 - crewMember.iShipId)
+            local crewSystem = hackedShipManager:GetSystemInRoom(crewMember.iRoomId)
+            if crewSystem ~= nil and hackedShipManager:IsSystemHacked(crewSystem:GetId()) == 2 then
+                crewMember.fStunTime = 0
             end
         end
     end

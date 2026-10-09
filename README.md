@@ -26,7 +26,8 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
     <li>Stores in Crystal Homeworlds: No longer have Advanced Edition weapons.</li>
     <li>freeHackingFix: When you are at 1 drone part and target hacking at the enemy ship while paused, then deploy another drone, the hacking drone will blow up once you resume, preventing it from being used with 0 drone parts.</li>
     <li>hackingIonFix: Prevents ionisation from resetting Hacking cooldown.</li>
-    <li>upgradeFix: Upgrade events no longer happen repeatedly for free when revisiting a beacon with them as the first event. Fixes events ESCORT_BEACON and QUEST_ESCORT.</li>
+    <li>upgradeRevisitFix: Upgrade events no longer happen repeatedly for free when revisiting a beacon with them as the first event. Fixes events ESCORT_BEACON and QUEST_ESCORT.</li>
+    <li>repairProgressFix: System repair progress will be reset to 0 when a system is fully repaired by negative system damage (e.g. Repair Burst), instead of being stored for the next time it takes system damage.</li>
     <li>autoRewardItemModifyFixes: autoReward no longer lets you select choices which have item_modify costs you can't pay for, if it would compensate the cost. Also, autoReward now adds to, instead of overwrites, item_modify (if it rolls the same resources). Fixes events CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK.</li>
     <li>crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.</li>
     <li>defenseDroneFix: Defense drones no longer have a blind spot, and have infinite effective range.</li>
