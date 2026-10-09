@@ -7,6 +7,7 @@
         <mod:findLike type="hackingIonFix"/>
         <mod:findLike type="questRevisitFix"/>
         <mod:findLike type="upgradeRevisitFix"/>
+        <mod:findLike type="repairProgressFix"/>
         <mod:findLike type="crystalShardFix"/>
         <mod:findLike type="cloakRenderFix"/>
         <mod:findLike type="disableDefaultTutorial"/>
