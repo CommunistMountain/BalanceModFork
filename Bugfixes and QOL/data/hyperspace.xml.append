@@ -5,7 +5,6 @@
     <mod:par op="OR">
         <mod:findLike type="freeHackingFix"/>
         <mod:findLike type="hackingIonFix"/>
-        <mod:findLike type="questRevisitFix"/>
         <mod:findLike type="upgradeRevisitFix"/>
         <mod:findLike type="repairProgressFix"/>
         <mod:findLike type="crystalShardFix"/>
@@ -17,7 +16,6 @@
         <mod:findLike type="showNumericalWeaponCooldown"/>
         <mod:findLike type="showAllConnections"/>
         
-        <mod:findLike type="playerHpColorFix"/>
         <mod:findLike type="warningLightPositionFix"/>
         
         <mod:findLike type="redesignedWeaponTooltips"/>
@@ -32,6 +30,8 @@
         <mod:findLike type="shieldWithoutSystem"/>
         <mod:findLike type="droneSelectHotkeys"/>
         <mod:findLike type="droneSaveStations"/>
+        <mod:findLike type="playerHpColorFix"/>
+        <mod:findLike type="questRevisitFix"/>
         <mod:findLike type="enemyPreigniterFix"/>
         <mod:findLike type="multiShipFix"/>
         <mod:findLike type="scaleSlugGel"/>
