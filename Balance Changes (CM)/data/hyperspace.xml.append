@@ -169,7 +169,7 @@
         <function name="FTL_JAMMER"/>
     </mod-append:aug>
     <mod-append:aug name="DRONE_SPEED_EXTENSION_CM">
-        <function name="DRONE_RECOVERY" value="0.2"/>
+        <function name="DRONE_RECOVERY" value="0.8"/>
         <statBoosts>
             <statBoost name="healSpeed">
                 <crewTarget>ALLIES</crewTarget>
