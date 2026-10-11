@@ -3,7 +3,7 @@
     <li>TODO consider moving some bugfixes to balance changes (rule: changed events/enemies etc should reduce mental load not increase). Or vice versa (consider MISC of README_CM)</li>
     <li>TODO summaries for all 3 mods so people know at a glance what they're getting into.</li>
     <li>TODO change text for everything in readme_new that needs it (list them out)</li>
-    <li>TODO HS branches. Any gameplay-affecting things should have an associated setting in hyperspace.xml. Then make changes accordingly in my mods (e.g. review rewardScaling). For scaleDRA, check if it's OK to not add the value XML tag, then add value in hyperspace.xml</li>
+    <li>TODO HS branches. Any gameplay-affecting things should have an associated setting in hyperspace.xml. Then make changes accordingly in my mods (e.g. review rewardScaling)</li>
 </ol>
 
 Low priority:
