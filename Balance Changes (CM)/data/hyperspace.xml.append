@@ -12,7 +12,7 @@
         <mod:findLike type="bossLevelFleetDelay"/>
         <mod:findLike type="hackingDroneFix"/>
         <mod:findLike type="repairDroneRecoveryFix"/>
-        <mod:findLike type="scaleDRA"/>
+        <mod:findLike type="scaleDroneRecovery"/>
         <mod:findLike type="droneIonDodgeFix"/>
         <mod:findLike type="combatDroneRapidFireFix"/>
         <mod:findLike type="seeNeutralShipRooms"/>
