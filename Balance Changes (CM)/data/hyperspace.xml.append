@@ -15,6 +15,7 @@
         <mod:findLike type="scaleDroneRecovery"/>
         <mod:findLike type="droneIonDodgeFix"/>
         <mod:findLike type="combatDroneRapidFireFix"/>
+        <mod:findLike type="cloakRenderFix"/>
         <mod:findLike type="seeNeutralShipRooms"/>
     </mod:par>
     <mod:setAttributes enabled="true"/>

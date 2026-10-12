@@ -323,7 +323,7 @@
     </ol>
     <li>NPC SHIPS:</li>
     <ol>
-        <li>The rooms of neutral ships can be seen.</li>
+        <li>The rooms of neutral ships can be seen even without any crew onboard.</li>
         <li>Pirate versions of NPC ships are standardised to match the non-pirate versions' system levels (if the same system exists) and sector limits:</li>
         <ol>
             <li>Pirate Mantis Interceptor: Highest sector it can appear from 5 to 6, to match non-pirate version.</li>
@@ -404,6 +404,7 @@
     </ol>
     <li>MECHANICS:</li>
     <ol>
+        <li>Your ship's rooms can be seen even when cloaking without any crew onboard.</li>
         <li>Damaged doors automatically close after they have repaired themselves.</li>
         <li>Each supershield layer causes -2% evasion.</li>
         <li>If the damaged teleporter softlock prevention event happens, you will lose 1 fuel (unless you have 0).</li>
