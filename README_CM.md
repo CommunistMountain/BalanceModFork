@@ -80,7 +80,8 @@
         </ol>
         <li>MISSILE:</li>
         <ol>
-            <li>Artemis Missiles (enemy version): Rarity from 0 to 2 (now available in stores and random rewards), costs 38.</li>
+            <li>Artemis Missiles (player version): Cost from 38 to 60 (sell price from 19 to 30).</li>
+            <li>Artemis Missiles (enemy version): Rarity from 0 to 2 (now available in stores and random rewards), costs 60.</li>
             <li>Breach Missiles: Cost from 65 to 50, cooldown from 22s to 18s, breach chance from 56% to 70%.</li>
             <li>Hermes Missile: Projectile speed from 35 to 105, damage from 3 to 2.</li>
             <li>Hull Missile: Cost from 65 to 50, cooldown from 17s to 14s.</li>
