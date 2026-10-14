@@ -91,7 +91,7 @@
         <li>BOMB:</li>
         <ol>
             <li>Breach Bomb 1: Crew damage from 30 to 15.</li>
-            <li>Crystal Lockdown Bomb: Default rarity from 0 to 5 (now available in stores and random rewards outside Rock and Crystal sectors).</li>
+            <li>Crystal Lockdown Bomb: Default rarity from 0 to 5 (now available in stores and random rewards outside Rock and Crystal sectors), missile cost from 1 to 3, and is pre-ignited on every jump if powered previously (for the player only).</li>
             <li>Fire Bomb: System damage from 0 to 1 (now does damage to supershields because of this), crew damage from 30 to 15.</li>
             <li>Healing Burst: Rarity from 3 to 1, cost from 40 to 20, cooldown from 18s to 9s.</li>
             <li>Repair Burst: Rarity from 3 to 1, cost from 40 to 20, cooldown from 14s to 4s. Now also instantly puts out fires, seals breaches, and sets the room's oxygen amount to 100%.</li>
@@ -343,6 +343,7 @@
         <li>Slug Interceptor and Slug Scout: Added doors connecting Oxygen and Engines.</li>
         <li>Rock ships: May now spawn with Fire Bombs.</li>
         <li>Rock Assault (Elite): Crew range from 4-4 to 5-5.</li>
+        <li>Crystal ships: No longer spawn with Crystal Lockdown Bombs.</li>
         <li>Auto-ships: Removed doors.</li>
         <li>Auto-Scout and Auto-Surveyor: Shields are now guaranteed.</li>
         <li>Auto-ships, and Flagship when automated: Now have a weaker version of Slug Repair Gel, which fixes breaches at approximately 1/3 of the original Slug Repair Gel's rate.</li>

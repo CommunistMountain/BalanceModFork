@@ -391,6 +391,9 @@
 </mod:findName>
 
 <mod:findName type="weaponBlueprint" name="BOMB_LOCK">
+    <mod:findLike type="missiles">
+        <mod:setValue>3</mod:setValue>
+    </mod:findLike>
     <mod:findLike type="rarity">
         <mod:setValue>5</mod:setValue>
     </mod:findLike>
