@@ -94,6 +94,14 @@ script.on_internal_event(Defines.InternalEvents.JUMP_ARRIVE, function(shipManage
     end
     
     lastSector = starMap.currentSector.level
+    
+    weaponList = shipManager:GetWeaponList()
+    for i=0, weaponList:size() - 1 do
+        weapon = weaponList[i]
+        if weapon.blueprint.name == "BOMB_LOCK" then
+            weapon:ForceCoolup()
+        end
+    end
 end)
 
 script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projectile, projectileFactory)
