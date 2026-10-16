@@ -31,7 +31,6 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
     <li>autoRewardItemModifyFixes: autoReward no longer lets you select choices which have item_modify costs you can't pay for, if it would compensate the cost. Also, autoReward now adds to, instead of overwrites, item_modify (if it rolls the same resources). Fixes events CRYSTAL_CACHE, DISTRESS_INFESTATION, DISTRESS_TRAPPED_MINER, MERCHANT_REQUEST, ROCK_MANTIS_FREIGHTER, STATION_SICK.</li>
     <li>crystalShardFix: Crystal Shards are now considered player projectiles instead of neutral.</li>
     <li>defenseDroneFix: Defense drones no longer have a blind spot, and have infinite effective range.</li>
-    <li>cloakRenderFix: Cloaking while no crew is on board no longer hides rooms.</li>
     <li>disableDefaultTutorial: HS breaks the tutorial. This replaces it with a custom tutorial.</li>
     <li>multipleOverCapacity: If you are over capacity on 2+ weapons/drones/augments, multiple Over Capacity boxes will contain all new items, allowing you to pick which ones to leave behind. If you are at a store, you also get the chance to sell what is in the Over Capacity boxes.</li>
     <li>EVENTS:</li>
@@ -62,7 +61,7 @@ You may find the documentation for Bugfixes and QOL below. Documentation for Bal
 
 ## QOL (gameplay)
 <ol>
-    <li>Map: integrated Sleeper Games + MantisManMike's Enhanced Fleet Pursuit mod, showing the Rebel Fleet's position in future jumps. Made it redder for better contrast against very bright white portions of backgrounds, and when the fleet is delayed, better contrast against very dark portions of backgrounds (lines in map_warningcircle.png from 0, 0, 0 at 10% opacity to 137, 58, 56 at 30% opacity).</li>
+    <li>Map: integrated Sleeper Games + MantisManMike's Enhanced Fleet Pursuit mod, showing the Rebel Fleet's position in future jumps. Made it redder for better contrast against very bright white portions of backgrounds, and when the fleet is delayed, better contrast against very dark portions of backgrounds (lines in map_warningcircle.png from 0, 0, 0 at 10% opacity to 137, 58, 56 at 30% opacity). Lowered opacity of map_warningcircle_tile.png and the circle in map_warningcircle.png from 100% to 30%.</li>
     <li>Shifted starting crew to generally better positions. Credit to MantisManMike. Order is Pilot, Engines, Weapons, Shields:</li>
     <ol>
         <li>Kestrel B: Human Human Zoltan Mantis -> HZHM</li>
